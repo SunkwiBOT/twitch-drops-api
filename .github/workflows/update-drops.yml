@@ -1,0 +1,42 @@
+name: 📝 Update JSON file
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/10 * * * *"
+
+jobs:
+  update-drops:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+        name: 🛠️ Checkout code
+
+      - name: 🔧 Use Node.js 20.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.x
+
+      - name: 📦 Install dependencies
+        run: |
+          npm install
+
+      - name: 📄 Update JSON file
+        run: |
+          node .
+        env:
+          CI: true
+
+      - name: 💻 Commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          force: false
+          signoff: false
+          author_name: ${{ vars.GB_USER }}
+          author_email: ${{ vars.GB_EMAIL }}
+          message: ":memo: JSON file updated"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
