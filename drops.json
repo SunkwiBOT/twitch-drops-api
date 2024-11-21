@@ -806,6 +806,104 @@
     "startAt": "2024-11-21T20:00:00.000Z"
   },
   {
+    "endAt": "2024-11-22T06:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417969-120x160.jpg",
+    "gameDisplayName": "Halo: The Master Chief Collection",
+    "gameId": "417969",
+    "rewards": [
+      {
+        "id": "ff5538b5-9717-11ef-91aa-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "35978160",
+              "displayName": "EXTREMEBREAKER1",
+              "name": "extremebreaker1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "9486879",
+              "displayName": "Halomcee",
+              "name": "halomcee",
+              "__typename": "Channel"
+            },
+            {
+              "id": "55540708",
+              "displayName": "Pedrogas",
+              "name": "pedrogas",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into the HCS Grassroots event to earn Halo MCC in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2024-11-22T06:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417969",
+          "slug": "halo-the-master-chief-collection",
+          "displayName": "Halo: The Master Chief Collection",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e0997cd5-f7c8-47f8-a143-6134c2e0d3ab.png",
+        "name": "HCS Grassroots Community Custom Games - NOV21",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-11-21T21:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "156cac77-9718-11ef-bc1f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_HCSGR-MCC-JFUC-MMT4-XA1G",
+                  "createdAt": "2024-01-03T22:45:49.194Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417969",
+                    "name": "Halo: The Master Chief Collection",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3a9e3bc3-2cf7-402f-a0e8-8d8533048dc1.png",
+                  "isIosAvailable": false,
+                  "name": "Subzero Sniper Nameplate",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-11-22T06:59:59.999Z",
+            "name": "Sub Zero Nameplate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2024-11-21T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-11-21T21:00:00.000Z"
+  },
+  {
     "endAt": "2024-11-22T07:58:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
     "gameDisplayName": "Overwatch 2",
