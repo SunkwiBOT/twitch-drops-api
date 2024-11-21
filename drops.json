@@ -4468,6 +4468,162 @@
     "startAt": "2024-11-20T12:01:00.000Z"
   },
   {
+    "endAt": "2024-11-21T11:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1931912067_IGDB-120x160.jpg",
+    "gameDisplayName": "Parallel",
+    "gameId": "1931912067",
+    "rewards": [
+      {
+        "id": "915a7c7a-a603-11ef-8573-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "890051717",
+              "displayName": "Parallel_TCG",
+              "name": "parallel_tcg",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://parallel.life/settings/account",
+        "description": "Watch the YGG Play Summit Showdown. 30 minutes of watch time for a Base Set Pack, 1 hour of watch time for a Planetfall Pack, and 2 hours of watch time for a Premium Pack.",
+        "detailsURL": "https://x.com/ParallelTCG",
+        "endAt": "2024-11-21T11:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1931912067",
+          "slug": "parallel-3",
+          "displayName": "Parallel",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c67a2836-ae33-4f51-b5d2-bed78a92e9f9.png",
+        "name": "YGG Play Summit Showdown",
+        "owner": {
+          "id": "d9a36789-3c7f-46db-b1c1-e1baf4033406",
+          "name": "Parallel Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-11-21T03:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a27d3294-a603-11ef-9fe1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d9a36789-3c7f-46db-b1c1-e1baf4033406_CUSTOM_ID_planetfall_pack_1",
+                  "createdAt": "2024-11-18T23:25:35.932Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1931912067",
+                    "name": "Parallel",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52eb5640-137c-4ec0-937f-0fa8ddb64dff.png",
+                  "isIosAvailable": false,
+                  "name": "1 Planetfall Pack",
+                  "ownerOrganization": {
+                    "id": "d9a36789-3c7f-46db-b1c1-e1baf4033406",
+                    "name": "Parallel Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-11-21T11:59:59.999Z",
+            "name": "Planetfall Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2024-11-21T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a8841de1-a603-11ef-91bf-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d9a36789-3c7f-46db-b1c1-e1baf4033406_CUSTOM_ID_baseset_pack_1",
+                  "createdAt": "2024-11-18T22:06:36.791Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1931912067",
+                    "name": "Parallel",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c9596293-7273-4320-a1ce-9fefed67bbb9.png",
+                  "isIosAvailable": false,
+                  "name": "1 Base Set Pack",
+                  "ownerOrganization": {
+                    "id": "d9a36789-3c7f-46db-b1c1-e1baf4033406",
+                    "name": "Parallel Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-11-21T11:59:59.999Z",
+            "name": "Base Set Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2024-11-21T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c20120d3-a603-11ef-8aff-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d9a36789-3c7f-46db-b1c1-e1baf4033406_CUSTOM_ID_premium_pack_1",
+                  "createdAt": "2024-11-19T02:03:31.346Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1931912067",
+                    "name": "Parallel",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7a90d679-4bb4-4ff4-b640-3fc116609874.png",
+                  "isIosAvailable": false,
+                  "name": "1 Premium Pack",
+                  "ownerOrganization": {
+                    "id": "d9a36789-3c7f-46db-b1c1-e1baf4033406",
+                    "name": "Parallel Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-11-21T11:59:59.999Z",
+            "name": "Premium Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2024-11-21T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-11-21T03:00:00.000Z"
+  },
+  {
     "endAt": "2024-11-27T22:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
     "gameDisplayName": "World of Warships",
