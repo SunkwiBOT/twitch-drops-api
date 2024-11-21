@@ -121,6 +121,92 @@
     "startAt": "2024-11-21T22:55:00.000Z"
   },
   {
+    "endAt": "2024-11-22T01:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/232131679_IGDB-120x160.jpg",
+    "gameDisplayName": "EA Sports College Football 25",
+    "gameId": "232131679",
+    "rewards": [
+      {
+        "id": "dcef16e0-a5d7-11ef-b047-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "51417153",
+              "displayName": "Mills",
+              "name": "mills",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch Mills as he celebrates the Game of the Week and earn some Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2024-11-22T01:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "232131679",
+          "slug": "ea-sports-college-football",
+          "displayName": "EA Sports College Football 25",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d8ac10ab-bde2-4e68-9a23-4faede1260e1.png",
+        "name": "CFB GOTW ",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-11-21T23:50:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "46b1f503-a5d8-11ef-ba8b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT25-TWITCH-050",
+                  "createdAt": "2024-11-18T18:00:48.999Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "232131679",
+                    "name": "EA Sports College Football 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/da6eb78b-0271-49cc-977b-2d2039514395.png",
+                  "isIosAvailable": false,
+                  "name": "CFB Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-11-22T01:59:59.999Z",
+            "name": "CFB Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2024-11-21T23:50:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-11-21T23:50:00.000Z"
+  },
+  {
     "endAt": "2024-11-22T04:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1702520304_IGDB-120x160.jpg",
     "gameDisplayName": "Path of Exile 2",
