@@ -1160,6 +1160,98 @@
   },
   {
     "endAt": "2024-11-23T06:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417969-120x160.jpg",
+    "gameDisplayName": "Halo: The Master Chief Collection",
+    "gameId": "417969",
+    "rewards": [
+      {
+        "id": "f086f9ae-a5dd-11ef-bd75-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "115308774",
+              "displayName": "Monzz",
+              "name": "monzz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36799798",
+              "displayName": "MintBlitz",
+              "name": "mintblitz",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into the HCS Grassroots event to earn Halo MCC in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2024-11-23T06:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417969",
+          "slug": "halo-the-master-chief-collection",
+          "displayName": "Halo: The Master Chief Collection",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5eeffe60-ebb7-4dfc-97ac-09753faee2b9.png",
+        "name": "ANZ MCC Playdate - NOV22",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-11-23T01:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ff53cd35-a5dd-11ef-9647-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_HCSGR-MCC-4FV1-B8X7-5I38",
+                  "createdAt": "2024-01-06T03:35:51.017Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417969",
+                    "name": "Halo: The Master Chief Collection",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b1fdb58-d69a-4541-a5eb-60eacd356f16.png",
+                  "isIosAvailable": false,
+                  "name": "MCC Unlikely Pairing",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-11-23T06:59:59.999Z",
+            "name": "Unlikely Pairing Nameplate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2024-11-23T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-11-23T01:00:00.000Z"
+  },
+  {
+    "endAt": "2024-11-23T06:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/667271059_IGDB-120x160.jpg",
     "gameDisplayName": "Seekers of Skyveil",
     "gameId": "667271059",
