@@ -1,161 +1,5 @@
 [
   {
-    "endAt": "2024-11-23T03:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1320984402_IGDB-120x160.jpg",
-    "gameDisplayName": "Madden NFL 25",
-    "gameId": "1320984402",
-    "rewards": [
-      {
-        "id": "eb5d4dad-a7d0-11ef-b94d-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "48281577",
-              "displayName": "MUTHeadTV",
-              "name": "mutheadtv",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
-        "description": "Watch Friday Night Football to earn Twitch Drops to power up your Ultimate Team!",
-        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
-        "endAt": "2024-11-23T03:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1320984402",
-          "slug": "ea-sports-madden-nfl-25",
-          "displayName": "Madden NFL 25",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-        "name": "Friday Night Football",
-        "owner": {
-          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-          "name": "Electronic Arts",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-11-22T23:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "12f15ecd-a7d1-11ef-a9c3-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M25-GMM-147",
-                  "createdAt": "2024-11-21T06:24:10.356Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1320984402",
-                    "name": "Madden NFL 25",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
-                  "isIosAvailable": false,
-                  "name": "Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-11-23T03:59:59.999Z",
-            "name": "Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2024-11-22T23:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "1837b52e-a7d1-11ef-a62d-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M25-GMM-148",
-                  "createdAt": "2024-11-21T06:24:22.914Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1320984402",
-                    "name": "Madden NFL 25",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
-                  "isIosAvailable": false,
-                  "name": "Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-11-23T03:59:59.999Z",
-            "name": "Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2024-11-22T23:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "1bb7bd73-a7d1-11ef-b2d3-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M25-GMM-149",
-                  "createdAt": "2024-11-21T06:24:34.86Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1320984402",
-                    "name": "Madden NFL 25",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
-                  "isIosAvailable": false,
-                  "name": "Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-11-23T03:59:59.999Z",
-            "name": "Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 150,
-            "startAt": "2024-11-22T23:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2024-11-22T23:00:00.000Z"
-  },
-  {
     "endAt": "2024-11-23T06:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417969-120x160.jpg",
     "gameDisplayName": "Halo: The Master Chief Collection",
@@ -2392,6 +2236,240 @@
       }
     ],
     "startAt": "2024-11-22T12:01:00.000Z"
+  },
+  {
+    "endAt": "2024-11-23T13:59:59.997Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
+    "gameDisplayName": "World of Tanks",
+    "gameId": "27546",
+    "rewards": [
+      {
+        "id": "4f095a47-a5ca-11ef-830b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "182560660",
+              "displayName": "WorldofTanks",
+              "name": "worldoftanks",
+              "__typename": "Channel"
+            },
+            {
+              "id": "61776958",
+              "displayName": "mailand",
+              "name": "mailand",
+              "__typename": "Channel"
+            },
+            {
+              "id": "111768177",
+              "displayName": "Chessgenie",
+              "name": "chessgenie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "49099014",
+              "displayName": "marty_vole",
+              "name": "marty_vole",
+              "__typename": "Channel"
+            },
+            {
+              "id": "47167396",
+              "displayName": "MrScheff",
+              "name": "mrscheff",
+              "__typename": "Channel"
+            },
+            {
+              "id": "30118763",
+              "displayName": "NewMultiShow",
+              "name": "newmultishow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "62603776",
+              "displayName": "cyganzor",
+              "name": "cyganzor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38181398",
+              "displayName": "jXcr",
+              "name": "jxcr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51045488",
+              "displayName": "synop_s",
+              "name": "synop_s",
+              "__typename": "Channel"
+            },
+            {
+              "id": "229232118",
+              "displayName": "Pragen_UA",
+              "name": "pragen_ua",
+              "__typename": "Channel"
+            },
+            {
+              "id": "161194769",
+              "displayName": "Soul4Life_UA",
+              "name": "soul4life_ua",
+              "__typename": "Channel"
+            },
+            {
+              "id": "131253186",
+              "displayName": "drg_br",
+              "name": "drg_br",
+              "__typename": "Channel"
+            },
+            {
+              "id": "103573025",
+              "displayName": "Dak_28",
+              "name": "dak_28",
+              "__typename": "Channel"
+            },
+            {
+              "id": "116558499",
+              "displayName": "Tyrion9189",
+              "name": "tyrion9189",
+              "__typename": "Channel"
+            },
+            {
+              "id": "138295620",
+              "displayName": "0miki0_",
+              "name": "0miki0_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "145424381",
+              "displayName": "_라텐_",
+              "name": "ra77en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "31411247",
+              "displayName": "_星仔_",
+              "name": "starboy0509",
+              "__typename": "Channel"
+            },
+            {
+              "id": "109027906",
+              "displayName": "the_barbarian_mercy",
+              "name": "the_barbarian_mercy",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
+        "description": "On November 23 and 24, six elite teams from around the globe will gather in Chengdu for the ultimate showdown to claim the World of Tanks Championship (WCI) title and a share of the ¥1,000,000 prize pool! Twitch Drops will be enabled throughout both days of the WCI Finals. Tune in to the stream and earn incredible rewards, including the Type 59 First Warrior Tank! Don't miss out on exclusive drops as you watch the action unfold.",
+        "detailsURL": "https://worldoftanks.eu//news/general-news/wci-finals-2024/",
+        "endAt": "2024-11-23T13:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3045ea53-7c22-4b9d-ab94-e5467a259bfa.jpeg",
+        "name": "WoT Champoinship Day 1",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-11-23T04:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7856c350-a5ca-11ef-b90b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_WCI_11_24_1",
+                  "createdAt": "2024-11-18T16:31:34.621Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/17c64bb4-9eb1-4327-a875-dc1cf815cd5c.png",
+                  "isIosAvailable": false,
+                  "name": "3x Large Repair Kits",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_WCI_11_24_2",
+                  "createdAt": "2024-11-18T16:31:57.508Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c93db652-a1c5-43b6-a0bc-24f3a6cef69d.png",
+                  "isIosAvailable": false,
+                  "name": "3x Large First Aid Kits",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_WCI_11_24_3",
+                  "createdAt": "2024-11-18T16:35:04.409Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/43664a41-cd0d-448f-b3da-d22cafa56f79.png",
+                  "isIosAvailable": false,
+                  "name": "3x All Stars ",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-11-23T13:59:59.997Z",
+            "name": "Drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2024-11-23T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-11-23T04:00:00.000Z"
   },
   {
     "endAt": "2024-11-23T16:59:59.998Z",
