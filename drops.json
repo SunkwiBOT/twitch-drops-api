@@ -1,336 +1,5 @@
 [
   {
-    "endAt": "2024-12-04T23:29:59.997Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/493489_IGDB-120x160.jpg",
-    "gameDisplayName": "Legion TD 2",
-    "gameId": "493489",
-    "rewards": [
-      {
-        "id": "0dd8dc6a-91eb-11ef-8c86-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "113310810",
-              "displayName": "LTD2",
-              "name": "ltd2",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://beta.legiontd2.com/twitchdrops/",
-        "description": "November Nova Cup - Featuring 6000 Essence and a Random Card!",
-        "detailsURL": "https://store.steampowered.com/news/app/469600/view/4525647157467807816",
-        "endAt": "2024-11-24T23:29:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "493489",
-          "slug": "legion-td-2",
-          "displayName": "Legion TD 2",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/779641a1-59fe-4325-817c-85b71ec27ca9.png",
-        "name": "November Nova Cup",
-        "owner": {
-          "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
-          "name": "AutoAttack Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-11-23T18:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "63f9e1fc-91eb-11ef-bf15-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_SS_2000",
-                  "createdAt": "2023-09-29T13:21:10.581Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "493489",
-                    "name": "Legion TD 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b2787d17-5ea2-4f4e-a369-420f4e5886c9.png",
-                  "isIosAvailable": false,
-                  "name": "2000 Essence",
-                  "ownerOrganization": {
-                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
-                    "name": "AutoAttack Games",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-11-24T23:29:59.999Z",
-            "name": "2000 Essence",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2024-11-23T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "6b3d79e4-91eb-11ef-ad53-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_SS_4000",
-                  "createdAt": "2023-09-29T13:21:33.169Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "493489",
-                    "name": "Legion TD 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6f227ee-c922-449e-b7b2-220054b44aa2.png",
-                  "isIosAvailable": false,
-                  "name": "4000 Essence",
-                  "ownerOrganization": {
-                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
-                    "name": "AutoAttack Games",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-11-24T23:29:59.999Z",
-            "name": "4000 Essence",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 150,
-            "startAt": "2024-11-23T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "70466677-91eb-11ef-88fb-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_mysterious_card_item_id",
-                  "createdAt": "2023-09-29T13:22:48.895Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "493489",
-                    "name": "Legion TD 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41813476-fffc-45b9-99a6-1c1517354e98.png",
-                  "isIosAvailable": false,
-                  "name": "Random Card",
-                  "ownerOrganization": {
-                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
-                    "name": "AutoAttack Games",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-11-24T23:29:59.999Z",
-            "name": "Random Card",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 270,
-            "startAt": "2024-11-23T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "4de6ddef-9ab7-11ef-9efc-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://beta.legiontd2.com/twitchdrops/",
-        "description": "From Thursday, November 21 at 10am PST → Monday, November 25 at 10am PST, Legion TD 2 will be FREE TO PLAY! Invite your friends and celebrate the event with free rewards",
-        "detailsURL": "https://store.steampowered.com/news/app/469600/view/4485116032403374325",
-        "endAt": "2024-12-04T23:29:59.997Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "493489",
-          "slug": "legion-td-2",
-          "displayName": "Legion TD 2",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ef48c602-a802-46b4-894f-378254b955e4.png",
-        "name": "Free Weekend Celebration",
-        "owner": {
-          "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
-          "name": "AutoAttack Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-11-21T18:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "870603c8-9ab7-11ef-87a4-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_SS_5000",
-                  "createdAt": "2024-11-04T12:56:51.087Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "493489",
-                    "name": "Legion TD 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b8071ed0-1e66-4a01-88c0-b847d85f2d7a.png",
-                  "isIosAvailable": false,
-                  "name": "5000 Essence",
-                  "ownerOrganization": {
-                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
-                    "name": "AutoAttack Games",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-04T23:29:59.997Z",
-            "name": "5000 Essence",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2024-11-21T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "8cfa5d4a-9ab7-11ef-9abe-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_mysterious_card_item_id",
-                  "createdAt": "2023-09-29T13:22:48.895Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "493489",
-                    "name": "Legion TD 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41813476-fffc-45b9-99a6-1c1517354e98.png",
-                  "isIosAvailable": false,
-                  "name": "Random Card",
-                  "ownerOrganization": {
-                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
-                    "name": "AutoAttack Games",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-04T23:29:59.997Z",
-            "name": "Random Card",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2024-11-21T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "9506e208-9ab7-11ef-927f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_PE_1000",
-                  "createdAt": "2023-09-29T13:23:16.53Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "493489",
-                    "name": "Legion TD 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2dea1f19-d013-4aae-a1dc-f2aad3ac1ad1.png",
-                  "isIosAvailable": false,
-                  "name": "1000 Premium Essence",
-                  "ownerOrganization": {
-                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
-                    "name": "AutoAttack Games",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-04T23:29:59.997Z",
-            "name": "1000 Premium Essence",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2024-11-21T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "9db0c1d9-9ab7-11ef-92e7-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_random_secret_card_item_id",
-                  "createdAt": "2024-11-04T13:42:29.282Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "493489",
-                    "name": "Legion TD 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9050b24-40ef-4e4b-ad19-12a56bf0b313.png",
-                  "isIosAvailable": false,
-                  "name": "Random Secret Card",
-                  "ownerOrganization": {
-                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
-                    "name": "AutoAttack Games",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-04T23:29:59.997Z",
-            "name": "Random *Secret* Card",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 600,
-            "startAt": "2024-11-21T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2024-11-21T18:00:00.000Z"
-  },
-  {
     "endAt": "2024-11-24T23:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/13263_IGDB-120x160.jpg",
     "gameDisplayName": "EVE Online",
@@ -25556,6 +25225,190 @@
       }
     ],
     "startAt": "2024-11-06T03:00:00.000Z"
+  },
+  {
+    "endAt": "2024-12-04T23:29:59.997Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/493489_IGDB-120x160.jpg",
+    "gameDisplayName": "Legion TD 2",
+    "gameId": "493489",
+    "rewards": [
+      {
+        "id": "4de6ddef-9ab7-11ef-9efc-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://beta.legiontd2.com/twitchdrops/",
+        "description": "From Thursday, November 21 at 10am PST → Monday, November 25 at 10am PST, Legion TD 2 will be FREE TO PLAY! Invite your friends and celebrate the event with free rewards",
+        "detailsURL": "https://store.steampowered.com/news/app/469600/view/4485116032403374325",
+        "endAt": "2024-12-04T23:29:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "493489",
+          "slug": "legion-td-2",
+          "displayName": "Legion TD 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ef48c602-a802-46b4-894f-378254b955e4.png",
+        "name": "Free Weekend Celebration",
+        "owner": {
+          "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
+          "name": "AutoAttack Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-11-21T18:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "870603c8-9ab7-11ef-87a4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_SS_5000",
+                  "createdAt": "2024-11-04T12:56:51.087Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "493489",
+                    "name": "Legion TD 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b8071ed0-1e66-4a01-88c0-b847d85f2d7a.png",
+                  "isIosAvailable": false,
+                  "name": "5000 Essence",
+                  "ownerOrganization": {
+                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
+                    "name": "AutoAttack Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-04T23:29:59.997Z",
+            "name": "5000 Essence",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2024-11-21T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "8cfa5d4a-9ab7-11ef-9abe-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_mysterious_card_item_id",
+                  "createdAt": "2023-09-29T13:22:48.895Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "493489",
+                    "name": "Legion TD 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41813476-fffc-45b9-99a6-1c1517354e98.png",
+                  "isIosAvailable": false,
+                  "name": "Random Card",
+                  "ownerOrganization": {
+                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
+                    "name": "AutoAttack Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-04T23:29:59.997Z",
+            "name": "Random Card",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2024-11-21T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9506e208-9ab7-11ef-927f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_PE_1000",
+                  "createdAt": "2023-09-29T13:23:16.53Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "493489",
+                    "name": "Legion TD 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2dea1f19-d013-4aae-a1dc-f2aad3ac1ad1.png",
+                  "isIosAvailable": false,
+                  "name": "1000 Premium Essence",
+                  "ownerOrganization": {
+                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
+                    "name": "AutoAttack Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-04T23:29:59.997Z",
+            "name": "1000 Premium Essence",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2024-11-21T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9db0c1d9-9ab7-11ef-92e7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_random_secret_card_item_id",
+                  "createdAt": "2024-11-04T13:42:29.282Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "493489",
+                    "name": "Legion TD 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9050b24-40ef-4e4b-ad19-12a56bf0b313.png",
+                  "isIosAvailable": false,
+                  "name": "Random Secret Card",
+                  "ownerOrganization": {
+                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
+                    "name": "AutoAttack Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-04T23:29:59.997Z",
+            "name": "Random *Secret* Card",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 600,
+            "startAt": "2024-11-21T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-11-21T18:00:00.000Z"
   },
   {
     "endAt": "2024-12-05T03:58:59.999Z",
