@@ -14830,42 +14830,6 @@
               "displayName": "easportsfc",
               "name": "easportsfc",
               "__typename": "Channel"
-            },
-            {
-              "id": "404813066",
-              "displayName": "Flokox",
-              "name": "flokox",
-              "__typename": "Channel"
-            },
-            {
-              "id": "48495043",
-              "displayName": "diegog1996",
-              "name": "diegog1996",
-              "__typename": "Channel"
-            },
-            {
-              "id": "438465591",
-              "displayName": "Stokes",
-              "name": "stokes",
-              "__typename": "Channel"
-            },
-            {
-              "id": "46224797",
-              "displayName": "MrD0ne",
-              "name": "mrd0ne",
-              "__typename": "Channel"
-            },
-            {
-              "id": "121630302",
-              "displayName": "PHfreitas",
-              "name": "phfreitas",
-              "__typename": "Channel"
-            },
-            {
-              "id": "406265685",
-              "displayName": "pedrofc__",
-              "name": "pedrofc__",
-              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -14969,7 +14933,7 @@
     "startAt": "2024-11-20T11:49:00.000Z"
   },
   {
-    "endAt": "2024-12-01T22:58:59.998Z",
+    "endAt": "2024-12-01T22:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/510389_IGDB-120x160.jpg",
     "gameDisplayName": "Shakes and Fidget",
     "gameId": "510389",
@@ -15687,6 +15651,329 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 300,
             "startAt": "2024-11-21T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "1cc05277-86f2-11ef-965e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "72617505",
+              "displayName": "moZoneTV",
+              "name": "mozonetv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "231431192",
+              "displayName": "TunyGhost",
+              "name": "tunyghost",
+              "__typename": "Channel"
+            },
+            {
+              "id": "32538697",
+              "displayName": "Deraphin",
+              "name": "deraphin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "163488747",
+              "displayName": "N3utr4LSF",
+              "name": "n3utr4lsf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "115148629",
+              "displayName": "ZsombeyHD",
+              "name": "zsombeyhd",
+              "__typename": "Channel"
+            },
+            {
+              "id": "175988361",
+              "displayName": "DomCaOfficial",
+              "name": "domcaofficial",
+              "__typename": "Channel"
+            },
+            {
+              "id": "277405774",
+              "displayName": "sfgameofficial",
+              "name": "sfgameofficial",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://sfgame.net/",
+        "description": "Watch the official Shakes & Fidget stream on Twitch to obtain unique Drops.",
+        "detailsURL": "https://playa-games.helpshift.com/hc/faq/255-twitch-drops/",
+        "endAt": "2024-12-01T22:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "510389",
+          "slug": "shakes-and-fidget",
+          "displayName": "Shakes and Fidget",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/753e3a36-274b-47db-8292-170c6333c744.jpeg",
+        "name": "Hellevator Drops Set 2/3",
+        "owner": {
+          "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+          "name": "Playa-Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-11-25T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "386b1953-86f2-11ef-9962-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_life_potion",
+                  "createdAt": "2023-10-23T13:21:22.647Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7cb69da8-da4a-4c7f-88e3-96f8baf73835.png",
+                  "isIosAvailable": false,
+                  "name": "Winged Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-01T22:58:59.999Z",
+            "name": "Winged Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2024-11-25T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3fc2d674-86f2-11ef-a975-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_keycard_1",
+                  "createdAt": "2023-11-15T13:25:19.585Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2959572b-e3ec-4463-a491-f52741832444.png",
+                  "isIosAvailable": false,
+                  "name": "Hellevator Access Pack",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-01T22:58:59.999Z",
+            "name": "Hellevator Access Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2024-11-25T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "48342207-86f2-11ef-8e9d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_fruits_x4",
+                  "createdAt": "2024-11-07T15:58:52.146Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/191aa866-5c14-4d7a-b471-c43e6b1c9a08.png",
+                  "isIosAvailable": false,
+                  "name": "Big Fruit Basket",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-01T22:58:59.999Z",
+            "name": "Big Fruit Basket",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2024-11-25T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4f8ff77e-86f2-11ef-8c42-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_keycard_2",
+                  "createdAt": "2024-02-13T10:50:15.561Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c8e07695-dd8c-45bf-b662-c5a1d22ed88c.png",
+                  "isIosAvailable": false,
+                  "name": "Hellevator Access Pack 2",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-01T22:58:59.999Z",
+            "name": "Hellevator Access Pack 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2024-11-25T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "57fb9440-86f2-11ef-8b82-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_gem",
+                  "createdAt": "2024-03-18T13:06:34.481Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/de32e173-c21a-465c-af66-b39c3d1a9e29.png",
+                  "isIosAvailable": false,
+                  "name": "Gem Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-01T22:58:59.999Z",
+            "name": "Gem Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 150,
+            "startAt": "2024-11-25T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "62fcc0e8-86f2-11ef-806a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_keycard_3",
+                  "createdAt": "2024-02-13T10:50:56.698Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/61eca5fa-e6f1-418e-a4f3-c692c00f092d.png",
+                  "isIosAvailable": false,
+                  "name": "Hellevator Access Pack 3",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-01T22:58:59.999Z",
+            "name": "Hellevator Access Pack 3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2024-11-25T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6d085267-86f2-11ef-8e9d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_epic_rand",
+                  "createdAt": "2024-04-04T08:54:19.073Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/03fa672e-4f26-4905-86e2-145a85ffbabc.png",
+                  "isIosAvailable": false,
+                  "name": "Random Epic Item",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-01T22:58:59.999Z",
+            "name": "Random Epic Item",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2024-11-25T15:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
