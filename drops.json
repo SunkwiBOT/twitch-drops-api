@@ -1,84 +1,5 @@
 [
   {
-    "endAt": "2024-12-01T11:58:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-    "gameDisplayName": "Black Desert",
-    "gameId": "386821",
-    "rewards": [
-      {
-        "id": "3c14dbd8-968d-11ef-bc93-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
-        "description": "• NAEU: https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878 • SA: https://www.sa.playblackdesert.com/News/Detail?groupContentNo=3504 • ASIA: https://blackdesert.pearlabyss.com/ASIA/en-US/News/Notice/Detail?_boardNo=5614 • JP : https://www.jp.playblackdesert.com/ja-JP/News/Detail?boardNo=8505 • TR : https://www.tr.playblackdesert.com/tr-TR/News/Detail?groupContentNo=10256 • TW : https://www.tw.playblackdesert.com/zh-TW/News/Detail?groupContentNo=14444",
-        "detailsURL": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
-        "endAt": "2024-12-01T11:58:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "386821",
-          "slug": "black-desert",
-          "displayName": "Black Desert",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6eb8b612-6cae-47c9-9882-9d3c9ffddc4e.png",
-        "name": "BDO Drops (November. 30)",
-        "owner": {
-          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
-          "name": "Pearl Abyss",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-11-30T12:01:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "9ed19d84-968f-11ef-84c1-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_TWITCHDROP241101",
-                  "createdAt": "2024-10-30T07:32:23.332Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "386821",
-                    "name": "Black Desert",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cd5d5481-0d20-4331-b342-94285cb527a1.png",
-                  "isIosAvailable": false,
-                  "name": "2 Hour Reward (Nov~Jan)",
-                  "ownerOrganization": {
-                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
-                    "name": "Pearl Abyss",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-01T11:58:59.999Z",
-            "name": "BDO Drops (November. 30)",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2024-11-30T12:01:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2024-11-30T12:01:00.000Z"
-  },
-  {
     "endAt": "2024-12-02T18:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
     "gameDisplayName": "NARAKA: BLADEPOINT",
@@ -1027,6 +948,110 @@
       }
     ],
     "startAt": "2024-11-30T17:59:00.000Z"
+  },
+  {
+    "endAt": "2024-12-01T21:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
+    "gameDisplayName": "Halo Infinite",
+    "gameId": "506416",
+    "rewards": [
+      {
+        "id": "75f2a5f3-8695-11ef-9481-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "785740578",
+              "displayName": "EuropeanHalo",
+              "name": "europeanhalo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "762572239",
+              "displayName": "ClutchAcademyGG",
+              "name": "clutchacademygg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "62140477",
+              "displayName": "Piffin_",
+              "name": "piffin_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1631016",
+              "displayName": "Gaskin",
+              "name": "gaskin",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn Halo Infinite in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2024-12-01T21:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/648041e6-33ad-4da6-8f94-4b16e7614060.png",
+        "name": "EHL Winter Season 2024 - Finals - DEC1",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-01T12:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a48f05d3-8695-11ef-b569-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_556W-5YXU-76RI-U8Z1-M5EM",
+                  "createdAt": "2023-10-24T23:01:20.676Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/638bf4c4-0370-48cc-9513-2851996468cf.png",
+                  "isIosAvailable": false,
+                  "name": "Misriah Armory Charm",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-01T21:59:59.999Z",
+            "name": "Misriah Armory Charm",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2024-12-01T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-01T12:00:00.000Z"
   },
   {
     "endAt": "2024-12-05T21:58:59.999Z",
