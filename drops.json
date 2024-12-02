@@ -7478,6 +7478,12 @@
               "displayName": null,
               "name": "chexyiee",
               "__typename": "Channel"
+            },
+            {
+              "id": "1049358177",
+              "displayName": "RexAltension",
+              "name": "rexaltension",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -19975,6 +19981,162 @@
       }
     ],
     "startAt": "2024-11-29T15:00:00.000Z"
+  },
+  {
+    "endAt": "2024-12-06T14:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
+    "gameDisplayName": "Mir Korabley",
+    "gameId": "2133072147",
+    "rewards": [
+      {
+        "id": "e4a03990-a66b-11ef-a155-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://lesta.ru/personal/?bind-external=twitch",
+        "description": "• Смотрите прямые трансляции в категории Mir korabley и получайте боевые задачи прямо в игре. • За выполнение боевых задач вы получаете ценные награды. • Подробности на портале «Мир кораблей».",
+        "detailsURL": "https://korabli.su/ru/news/sales-and-events/stream-rewards-1310/",
+        "endAt": "2024-12-06T14:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2133072147",
+          "slug": "mir-korabley",
+          "displayName": "Mir Korabley",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a92ecfbf-7e25-4b9e-8014-a93ba23ad419.jpeg",
+        "name": "Обновление 13.10: Часть 6",
+        "owner": {
+          "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+          "name": "Lesta Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-02T14:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1965b736-a66c-11ef-8e00-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_1310_TWITCH_6",
+                  "createdAt": "2024-10-27T13:01:26.633Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2133072147",
+                    "name": "Mir Korabley",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/157e2f59-5910-48ae-bede-b9319678cfe2.png",
+                  "isIosAvailable": false,
+                  "name": "13.10 Боевая задача #6",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-06T14:59:59.998Z",
+            "name": "13.10 Боевая задача #6",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2024-12-02T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "1e2df3a9-9460-11ef-906b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "793098652",
+              "displayName": "LestaKorabli",
+              "name": "lestakorabli",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://lesta.ru/personal/?bind-external=twitch",
+        "description": "Награды канала LestaKorabli стали больше и интересней! Теперь каждую неделю за 60 минут просмотра нашего канала вы можете получать «Малый набор» с шансом выпадения одной из следующих наград:\n• 250 жетонов единства;\n• 1000 дублонов;\n• 14 дней корабельного премиум аккаунта;\n• Контейнер «Премиум корабль VII».\nНаграды за просмотр официального канала LestaKorabli обновляются согласно расписанию, которое можно найти на портале «Мир кораблей». Жмите кнопку «Отслеживать», чтобы не пропускать наши трансляции!",
+        "detailsURL": "https://korabli.su/ru/news/sales-and-events/stream-rewards-1310/",
+        "endAt": "2024-12-06T14:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2133072147",
+          "slug": "mir-korabley",
+          "displayName": "Mir Korabley",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/bdcb272e-ac15-4b07-9fc3-cdf79582f3ca.jpeg",
+        "name": "Lestakorabli - 13.10 #6",
+        "owner": {
+          "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+          "name": "Lesta Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-02T14:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "35c103be-9460-11ef-8d0c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MK_3515_STREAM_DROPS_SMALL",
+                  "createdAt": "2024-03-15T10:12:36.676Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2133072147",
+                    "name": "Mir Korabley",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e079f968-e26d-4f85-a81a-e68887c507ba.png",
+                  "isIosAvailable": false,
+                  "name": "Малый набор-Lestakorabli",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-06T14:59:59.999Z",
+            "name": "«Малый набор» — Lestakorabli",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2024-12-02T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-02T14:00:00.000Z"
   },
   {
     "endAt": "2024-12-06T23:29:59.998Z",
