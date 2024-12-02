@@ -16572,6 +16572,127 @@
     "startAt": "2024-11-28T12:00:00.000Z"
   },
   {
+    "endAt": "2024-12-05T11:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2011938005_IGDB-120x160.jpg",
+    "gameDisplayName": "EA Sports FC 25",
+    "gameId": "2011938005",
+    "rewards": [
+      {
+        "id": "36bc5aeb-a737-11ef-801f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "28029009",
+              "displayName": "easportsfc",
+              "name": "easportsfc",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "FC Pro Open Match Day 2",
+        "detailsURL": "https://www.ea.com/games/ea-sports-fc/fc-pro/news/deep-dive-viewership-and-in-game-rewards",
+        "endAt": "2024-12-05T11:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2011938005",
+          "slug": "ea-sports-fc-25",
+          "displayName": "EA Sports FC 25",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d174fae6-7333-4125-8faf-32903daf8f57.png",
+        "name": "FC Pro Open Match Day 2",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-11-20T11:59:55Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5028b69b-a737-11ef-ba23-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_FCPRO_2507",
+                  "createdAt": "2024-11-20T12:03:18.707Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2011938005",
+                    "name": "EA Sports FC 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41721684-ac84-4f75-b669-1f703e1bca36.png",
+                  "isIosAvailable": false,
+                  "name": "FC Pro Live Weghorst (9)",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-05T11:58:59.999Z",
+            "name": "FC Pro Live Weghorst (9 Games)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2024-11-20T11:59:55Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "576b3767-a737-11ef-b162-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_FCPRO_2508",
+                  "createdAt": "2024-11-20T12:05:13.196Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2011938005",
+                    "name": "EA Sports FC 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3064935f-365e-4bac-b840-b64f76fee24c.png",
+                  "isIosAvailable": false,
+                  "name": "Rare Players Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-05T11:58:59.999Z",
+            "name": "Rare Players Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2024-11-20T11:59:55Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-11-20T11:59:55.000Z"
+  },
+  {
     "endAt": "2024-12-05T15:58:59.995Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1728081276_IGDB-120x160.jpg",
     "gameDisplayName": "Ninja Must Die",
@@ -22018,8 +22139,15 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "42776357",
+              "displayName": "PlayHearthstone",
+              "name": "playhearthstone",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://account.battle.net/connections",
