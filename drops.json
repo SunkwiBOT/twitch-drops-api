@@ -1249,6 +1249,85 @@
     "startAt": "2024-12-02T17:59:00.000Z"
   },
   {
+    "endAt": "2024-12-03T22:59:59.996Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/20596_IGDB-120x160.jpg",
+    "gameDisplayName": "Dofus",
+    "gameId": "20596",
+    "rewards": [
+      {
+        "id": "c56f2519-b14f-11ef-9724-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.ankama.com/fr/twitch",
+        "description": "Here it is, DOFUS 3.0 is finally out! Come celebrate the new launch of your favorite MMORPG on Twitch with some Mystery Boxes! Watch a DOFUS stream for 2hours to get a Tweecher Mystery Box and try to get your Tweecher Ceremonial Set!",
+        "detailsURL": "https://account.ankama.com/fr/twitch",
+        "endAt": "2024-12-03T22:59:59.996Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "20596",
+          "slug": "dofus",
+          "displayName": "Dofus",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d3358744-15e0-4d06-8840-8145c0faf970.png",
+        "name": "DOFUS 3.0 - Day 1",
+        "owner": {
+          "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
+          "name": "ANKAMA Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-03T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "23b81a17-b150-11ef-a33b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "00ca4cd7-b150-11ef-8c34-0a58a9feac02",
+                  "createdAt": "2024-12-03T08:24:24.053Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "20596",
+                    "name": "Dofus",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/28a054e7-a9fd-4864-a7ef-04a614b4da67.png",
+                  "isIosAvailable": false,
+                  "name": "Tweecher Mystery Box",
+                  "ownerOrganization": {
+                    "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
+                    "name": "ANKAMA Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-03T22:59:59.996Z",
+            "name": "Tweecher Mystery Box",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2024-12-03T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-03T15:00:00.000Z"
+  },
+  {
     "endAt": "2024-12-04T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
     "gameDisplayName": "World of Tanks",
