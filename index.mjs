@@ -1,25 +1,50 @@
-import axios from "axios";
 import fs from "fs";
 
-async function updateDrops() {
+(async () => {
   try {
-    const { data } = await axios("https://drops-api.sunkwi.com/drops", {
-      method: "GET",
-    });
+    const dropsResponse = await fetch(
+      "https://twitch-drops-api.sunkwi.com/drops",
+      {
+        method: "GET",
+      }
+    );
 
-    const jsonString = JSON.stringify(data, null, 2);
+    if (!dropsResponse.ok) {
+      throw new Error(
+        `Failed to fetch drops: ${dropsResponse.status} ${dropsResponse.statusText}`
+      );
+    }
 
-    fs.writeFileSync("drops.json", jsonString);
+    const drops = await dropsResponse.json();
+
+    fs.writeFileSync("drops.json", JSON.stringify(drops, null, 2));
 
     console.log(
-      `[${data.length}] drop(s) and [${data.reduce(
+      `[${drops.length}] drop(s) and [${drops.reduce(
         (acc, curr) => acc + curr.rewards.length,
         0
-      )}] reward(s) updated`
+      )}] reward(s) from drops updated`
     );
-  } catch (e) {
-    console.error("Error while fetching data:", e);
-  }
-}
 
-updateDrops();
+    const rewardsResponse = await fetch(
+      "https://twitch-drops-api.sunkwi.com/rewards",
+      {
+        method: "GET",
+      }
+    );
+
+    if (!rewardsResponse.ok) {
+      throw new Error(
+        `Failed to fetch rewards: ${rewardsResponse.status} ${rewardsResponse.statusText}`
+      );
+    }
+
+    const rewards = await rewardsResponse.json();
+
+    fs.writeFileSync("rewards.json", JSON.stringify(rewards, null, 2));
+
+    console.log(`[${rewards.length}] reward(s) from campaigns updated`);
+  } catch (e) {
+    console.error("Error while fetching data:", e.message);
+  }
+})();
