@@ -1,173 +1,5 @@
 [
   {
-    "endAt": "2024-12-04T20:19:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/461221_IGDB-120x160.jpg",
-    "gameDisplayName": "MARVEL Contest of Champions",
-    "gameId": "461221",
-    "rewards": [
-      {
-        "id": "b693dd42-b204-11ef-9307-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "452239740",
-              "displayName": "Kabam",
-              "name": "kabam",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1031992678",
-              "displayName": "yolandamma",
-              "name": "yolandamma",
-              "__typename": "Channel"
-            },
-            {
-              "id": "140748652",
-              "displayName": "dorklessons",
-              "name": "dorklessons",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://kid.kabam.com/v1/kid/account/login",
-        "description": "Join us on our 10 Year Anniversary livestream as we Celebrate with you all and launch our very first set of Twitch Drops for our viewers.  Enjoy and let us know what you think!",
-        "detailsURL": "https://kid.kabam.com/v1/kid/account/login",
-        "endAt": "2024-12-04T20:19:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "461221",
-          "slug": "marvel-contest-of-champions",
-          "displayName": "MARVEL Contest of Champions",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b274df85-5ef7-4507-abc1-73351d07d85a.png",
-        "name": "10 Yr Anniversary Stream",
-        "owner": {
-          "id": "787ffa29-14d6-4990-bd94-14f46c513068",
-          "name": "Kabam",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-12-04T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "a59dba00-b205-11ef-b2b0-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "787ffa29-14d6-4990-bd94-14f46c513068_CUSTOM_ID_com.kabam.marvel.twitch.energyrefill.5x",
-                  "createdAt": "2024-12-02T16:55:26.374Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "461221",
-                    "name": "MARVEL Contest of Champions",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/129a7e74-48fc-491d-abd3-bdd652084ce0.png",
-                  "isIosAvailable": false,
-                  "name": "5x Energy Refills",
-                  "ownerOrganization": {
-                    "id": "787ffa29-14d6-4990-bd94-14f46c513068",
-                    "name": "Kabam",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-04T20:19:59.999Z",
-            "name": "5x Energy Refills",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2024-12-04T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "b544aa8e-b205-11ef-8ecd-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "787ffa29-14d6-4990-bd94-14f46c513068_CUSTOM_ID_com.kabam.marvel.twitch.healthpotion.3x",
-                  "createdAt": "2024-12-02T17:01:47.842Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "461221",
-                    "name": "MARVEL Contest of Champions",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0f6c1d52-f690-4a0b-a934-d664e804155c.png",
-                  "isIosAvailable": false,
-                  "name": "3x Level 5 Health Potions",
-                  "ownerOrganization": {
-                    "id": "787ffa29-14d6-4990-bd94-14f46c513068",
-                    "name": "Kabam",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-04T20:19:59.999Z",
-            "name": "3x Level 5 Health Potions",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2024-12-04T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "c6292bd8-b205-11ef-857f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "787ffa29-14d6-4990-bd94-14f46c513068_CUSTOM_ID_com.kabam.marvel.twitch.revives.3x",
-                  "createdAt": "2024-12-02T17:05:12.435Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "461221",
-                    "name": "MARVEL Contest of Champions",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f68706bf-d107-4d24-a946-5bfc4746b5d8.png",
-                  "isIosAvailable": false,
-                  "name": "3x Level 2 Revive",
-                  "ownerOrganization": {
-                    "id": "787ffa29-14d6-4990-bd94-14f46c513068",
-                    "name": "Kabam",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-04T20:19:59.999Z",
-            "name": "3x Level 2 Revive Potions",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2024-12-04T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2024-12-04T17:00:00.000Z"
-  },
-  {
     "endAt": "2024-12-04T20:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/493597_IGDB-120x160.jpg",
     "gameDisplayName": "New World: Aeternum",
@@ -17129,6 +16961,12 @@
               "id": "896148197",
               "displayName": "gatillin830",
               "name": "gatillin830",
+              "__typename": "Channel"
+            },
+            {
+              "id": "123254642",
+              "displayName": "Brilett",
+              "name": "brilett",
               "__typename": "Channel"
             }
           ],
