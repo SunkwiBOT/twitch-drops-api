@@ -25744,6 +25744,85 @@
     "startAt": "2024-12-03T18:00:00.000Z"
   },
   {
+    "endAt": "2024-12-31T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/414822821_IGDB-120x160.jpg",
+    "gameDisplayName": "Sid Meier's Civilization VII",
+    "gameId": "414822821",
+    "rewards": [
+      {
+        "id": "a06e0cf9-b3f9-11ef-b32c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://civilization.2k.com/twitch-drops/",
+        "description": "Watch Civ Streams from the Firaxis Twitch channel to earn rewards!  Watch for 15 mins and claim the reward: Exploration Age Banner.",
+        "detailsURL": "https://civilization.2k.com/twitch-drops/",
+        "endAt": "2024-12-31T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "414822821",
+          "slug": "sid-meiers-civilization-vii",
+          "displayName": "Sid Meier's Civilization VII",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ca880af1-7865-45e0-b6c1-99c2fe8f1462.png",
+        "name": "Exploration Age Banner",
+        "owner": {
+          "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616",
+          "name": "2K Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-06T17:42:45Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b98bb99e-b3f9-11ef-a86d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616_CUSTOM_ID_7174b383242f4d63a0f7a311533096d1",
+                  "createdAt": "2024-10-21T23:50:40.376Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "414822821",
+                    "name": "Sid Meier's Civilization VII",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7838774e-53b1-4b0d-b2c1-247cc36a7e7c.png",
+                  "isIosAvailable": false,
+                  "name": "Exploration Age Banner",
+                  "ownerOrganization": {
+                    "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616",
+                    "name": "2K Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-31T23:29:59.999Z",
+            "name": "Exploration Age Banner",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2024-12-06T17:42:45Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-06T17:42:45.000Z"
+  },
+  {
     "endAt": "2024-12-31T23:58:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1264310518_IGDB-120x160.jpg",
     "gameDisplayName": "Marvel Rivals",
