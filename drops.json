@@ -346,6 +346,92 @@
     "startAt": "2024-12-06T16:00:00.000Z"
   },
   {
+    "endAt": "2024-12-08T05:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
+    "rewards": [
+      {
+        "id": "3498c715-b273-11ef-8d6e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "70641788",
+              "displayName": "TheRagingterror",
+              "name": "theragingterror",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Watch TheRagingterror for 30 minutes to receive a Lua Planter decoration!",
+        "detailsURL": "https://forums.warframe.com/topic/1425027-community-stream-schedule-december-2-7-2024/",
+        "endAt": "2024-12-08T05:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/301f4132-7e30-4706-9ad6-c9f9b0ae59f1.jpeg",
+        "name": "Community Drops 86",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-08T04:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "45c1bed3-b273-11ef-ba47-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "520c9e85-b273-11ef-ad18-0a58a9feac02",
+                  "createdAt": "2024-12-04T19:09:43.931Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "66170",
+                    "name": "Warframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7d11b82e-6668-4cf3-b287-9e42a8f77e2b.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Lua Planter",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-08T05:59:59.998Z",
+            "name": "Lua Planter",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2024-12-08T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-08T04:00:00.000Z"
+  },
+  {
     "endAt": "2024-12-08T09:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1063665418_IGDB-120x160.jpg",
     "gameDisplayName": "Out of the Park Baseball 25",
