@@ -1333,7 +1333,7 @@
     "startAt": "2024-12-08T12:01:00.000Z"
   },
   {
-    "endAt": "2024-12-09T15:59:59.999Z",
+    "endAt": "2024-12-10T04:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
     "gameDisplayName": "World of Tanks",
     "gameId": "27546",
@@ -1403,6 +1403,83 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 180,
             "startAt": "2024-12-06T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "bacef161-aca4-11ef-a69d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "182560660",
+              "displayName": "WorldofTanks",
+              "name": "worldoftanks",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
+        "description": "Commanders! Watch daily streams on the official World of Tanks Twitch channel and earn a new Twitch Drop every day of the 12 days of Tankmas!",
+        "detailsURL": "https://worldoftanks.eu/news/general-news/wot-monthly-december-2024/",
+        "endAt": "2024-12-10T04:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/bc1c9ccc-15fa-4225-a753-b1388a2f9dc0.png",
+        "name": "Tankmas - Day 6",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-09T06:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "c960cd4d-aca4-11ef-822d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_12T_1224_6",
+                  "createdAt": "2024-11-27T09:49:05.802Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/aff41fad-5df0-471e-894a-71c5d964b208.png",
+                  "isIosAvailable": false,
+                  "name": "Mystery Drop",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-10T04:59:59.999Z",
+            "name": "Tankmas - Day 6",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2024-12-09T06:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -25322,7 +25399,7 @@
                     "__typename": "Game"
                   },
                   "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8485d9e1-73e4-46e8-a265-c3de4eaf1663.jpeg",
-                  "isIosAvailable": true,
+                  "isIosAvailable": false,
                   "name": "Will of Galacta Spray",
                   "ownerOrganization": {
                     "id": "ebd81c34-c9e2-49b6-978b-b5cb287e2c30",
@@ -25357,7 +25434,7 @@
                     "__typename": "Game"
                   },
                   "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/99352bc4-07e6-4954-96f8-a09caa3713ae.jpeg",
-                  "isIosAvailable": true,
+                  "isIosAvailable": false,
                   "name": "Will of Galacta Nameplate",
                   "ownerOrganization": {
                     "id": "ebd81c34-c9e2-49b6-978b-b5cb287e2c30",
@@ -25392,7 +25469,7 @@
                     "__typename": "Game"
                   },
                   "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c5ec9d65-a0c8-47b1-9490-dcdce7d5fbc0.jpeg",
-                  "isIosAvailable": true,
+                  "isIosAvailable": false,
                   "name": "Cosmic Collapse Emotes",
                   "ownerOrganization": {
                     "id": "ebd81c34-c9e2-49b6-978b-b5cb287e2c30",
@@ -25427,7 +25504,7 @@
                     "__typename": "Game"
                   },
                   "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ea3774bc-c016-4a36-b023-60ecb190b98e.jpeg",
-                  "isIosAvailable": true,
+                  "isIosAvailable": false,
                   "name": "Will of Galacta Costume",
                   "ownerOrganization": {
                     "id": "ebd81c34-c9e2-49b6-978b-b5cb287e2c30",
