@@ -267,6 +267,129 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "44fca50e-b090-11ef-b1f0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "97903976",
+              "displayName": "Mouzakrobat",
+              "name": "mouzakrobat",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
+        "description": "Join MouzAkrobat's charity stream dedicated to supporting Dunkelziffer and Hörer helfen Kindern and participate in exclusive Twitch Drops featuring exciting rewards!",
+        "detailsURL": "https://worldoftanks.eu/news/general-news/wot-monthly-december-2024/",
+        "endAt": "2024-12-09T22:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1ad50d78-754e-45a1-8527-dbd544f2136a.png",
+        "name": "Mouz Charity Stream",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-09T11:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "6e569e87-b090-11ef-9cb0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_MA_CharityDrops_1224_1",
+                  "createdAt": "2024-12-02T09:39:52.975Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fa808ecf-e71d-463c-8592-3365c0b1709f.png",
+                  "isIosAvailable": false,
+                  "name": "2x Personal Reserves",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_MA_CharityDrops_1224_2",
+                  "createdAt": "2024-12-02T09:40:21.167Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b2248520-f7b0-4583-a3af-fb76f41c62a7.png",
+                  "isIosAvailable": false,
+                  "name": "5x Large Repair Kits",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_MA_CharityDrops_1224_3",
+                  "createdAt": "2024-12-02T09:40:54.722Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/53c20a04-2ba1-40ce-b0b0-b42f81f8aee0.png",
+                  "isIosAvailable": false,
+                  "name": "2x Personal Reserves",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-09T22:59:59.998Z",
+            "name": "Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2024-12-09T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "bacef161-aca4-11ef-a69d-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
