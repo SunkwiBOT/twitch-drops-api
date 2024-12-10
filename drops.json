@@ -4159,7 +4159,7 @@
     "startAt": "2024-11-13T18:00:00.000Z"
   },
   {
-    "endAt": "2024-12-11T17:59:59.999Z",
+    "endAt": "2025-01-01T07:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/884809056_IGDB-120x160.jpg",
     "gameDisplayName": "Warcraft Rumble",
     "gameId": "884809056",
@@ -4674,6 +4674,181 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 20,
             "startAt": "2024-11-13T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "6b34aa19-b42a-11ef-bba4-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.battle.net/connections",
+        "description": "Warcraft Rumble PC Beta is now live! Celebrate the launch by earning rewards to jumpstart your armies. Download the game now on Battle.net!",
+        "detailsURL": "https://news.blizzard.com/warcraftrumble/24166296",
+        "endAt": "2025-01-01T07:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "884809056",
+          "slug": "warcraft-arclight-rumble",
+          "displayName": "Warcraft Rumble",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6d3e15ca-e1a8-45f1-a65f-4f094624be51.png",
+        "name": "Warcraft Rumble PC Launch",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-10T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "8e31b9c2-b42a-11ef-8ae3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1591952",
+                  "createdAt": "2024-12-06T23:20:31.683Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "884809056",
+                    "name": "Warcraft Rumble",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6772c1d4-1ea0-4337-abae-12be8cd44efe.png",
+                  "isIosAvailable": false,
+                  "name": "Major XP Tome",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-01T07:58:59.999Z",
+            "name": "Major XP Tome",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2024-12-10T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "92174012-b42a-11ef-8872-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1879179",
+                  "createdAt": "2024-12-06T23:19:53.188Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "884809056",
+                    "name": "Warcraft Rumble",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ea902abe-5379-4c71-b7e5-d36bc7f5d4da.png",
+                  "isIosAvailable": false,
+                  "name": "Rare Core",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-01T07:58:59.999Z",
+            "name": "Rare Core",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2024-12-10T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "95cb4e68-b42a-11ef-becb-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1890299",
+                  "createdAt": "2024-12-06T23:20:48.392Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "884809056",
+                    "name": "Warcraft Rumble",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c13a2b03-efc4-45d9-b1fb-67feafe9e797.png",
+                  "isIosAvailable": false,
+                  "name": "Star Tome",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-01T07:58:59.999Z",
+            "name": "Star Tome",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2024-12-10T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9a563c3a-b42a-11ef-9bdb-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1591954",
+                  "createdAt": "2024-12-06T23:20:12.107Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "884809056",
+                    "name": "Warcraft Rumble",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7a9723bb-b53e-4c18-bfc0-f77c87701751.png",
+                  "isIosAvailable": false,
+                  "name": "500 Coins",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-01T07:58:59.999Z",
+            "name": "500 Coins",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2024-12-10T19:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -23469,6 +23644,120 @@
       }
     ],
     "startAt": "2024-11-29T15:00:00.000Z"
+  },
+  {
+    "endAt": "2024-12-21T07:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
+    "gameDisplayName": "Overwatch 2",
+    "gameId": "515025",
+    "rewards": [
+      {
+        "id": "eb6a18e5-b713-11ef-b5c2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.battle.net/connections",
+        "description": "Celebrate the launch of Overwatch 2's season 14 and newest hero, Hazard, with drops by watching your favorite Overwatch 2 creators! ",
+        "detailsURL": "https://us.forums.blizzard.com/en/overwatch/t/earn-fiery-drops-on-twitch/942762",
+        "endAt": "2024-12-21T07:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515025",
+          "slug": "overwatch-2",
+          "displayName": "Overwatch 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/92fa3000-7fba-4a64-b633-8c3f9e317f2d.png",
+        "name": "Season 14 Launch Drops",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-10T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0667801c-b714-11ef-9f54-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_875852",
+                  "createdAt": "2024-12-10T16:31:02.99Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c170fff1-a875-44b3-8308-264eda69fe02.png",
+                  "isIosAvailable": false,
+                  "name": "Ganymede Spray",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-21T07:58:59.999Z",
+            "name": "Ganymede Spray",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2024-12-10T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "56dcb8ac-b714-11ef-b9af-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1092170",
+                  "createdAt": "2024-12-10T16:31:28.854Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/567a716f-38fa-4aa2-9dd1-2198f5d30be0.png",
+                  "isIosAvailable": false,
+                  "name": "Leg. Fire Engine Bastion",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-21T07:58:59.999Z",
+            "name": "Legendary Fire Engine Bastion",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2024-12-10T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-10T19:00:00.000Z"
   },
   {
     "endAt": "2024-12-22T09:59:59.994Z",
