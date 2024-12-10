@@ -1,292 +1,5 @@
 [
   {
-    "endAt": "2024-12-10T07:58:59.997Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/982017546_IGDB-120x160.jpg",
-    "gameDisplayName": "Palia",
-    "gameId": "982017546",
-    "rewards": [
-      {
-        "id": "c1684334-a088-11ef-aa42-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://accounts.palia.com",
-        "description": "It's the Season of Splendor in Palia! Gather with your friends to celebrate the arrival of Patch 0.186, the Season of Splendor update! Pop into your favorite content creator's Palia stream and gear up to catch some new Pond Plushes when you earn 20x Worms, 10x Glow Worms, 1x Minor Rod Health Boosters, 3x Sashimi, x3 Fish Stew, 3x Fisherman's Brew, and 3x Trout Dinner. And the most stalwart viewers can expect to earn 2x Potato Pod Prize Bags, and a Zeki's Claw Machine Token!",
-        "detailsURL": "https://palia.com/news/186-twitch-drops",
-        "endAt": "2024-12-10T07:58:59.997Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "982017546",
-          "slug": "palia",
-          "displayName": "Palia",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-        "name": "Season of Splendor Update",
-        "owner": {
-          "id": "a3c13f82-ce43-4f29-88c0-47962f47809d",
-          "name": "Singularity 6",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-11-21T20:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "6d421cb5-a08e-11ef-982c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "a3c13f82-ce43-4f29-88c0-47962f47809d_CUSTOM_ID_c8d09e7d-ad19-4621-8e34-34033230edec",
-                  "createdAt": "2024-11-12T00:11:23.21Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "982017546",
-                    "name": "Palia",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba5d2584-42f7-40e7-98dc-5f438da2aab2.png",
-                  "isIosAvailable": false,
-                  "name": "20x Worms",
-                  "ownerOrganization": {
-                    "id": "a3c13f82-ce43-4f29-88c0-47962f47809d",
-                    "name": "Singularity 6",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "a3c13f82-ce43-4f29-88c0-47962f47809d_CUSTOM_ID_54ee91e3-15fb-425a-9f49-38d240e7a451",
-                  "createdAt": "2024-11-12T00:13:14.317Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "982017546",
-                    "name": "Palia",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a038146f-4fff-4075-823f-4b153a8f53a7.png",
-                  "isIosAvailable": false,
-                  "name": "10x Glow Worm",
-                  "ownerOrganization": {
-                    "id": "a3c13f82-ce43-4f29-88c0-47962f47809d",
-                    "name": "Singularity 6",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-10T07:58:59.997Z",
-            "name": "Tier One",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2024-11-21T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "7e198b74-a08e-11ef-95ac-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "a3c13f82-ce43-4f29-88c0-47962f47809d_CUSTOM_ID_1dc4c194-b9dd-445d-90b9-a2e14d836060",
-                  "createdAt": "2024-11-12T00:17:25.385Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "982017546",
-                    "name": "Palia",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f78201c0-5088-4011-bd03-84c279dc6f6a.png",
-                  "isIosAvailable": false,
-                  "name": "3x Sashimi",
-                  "ownerOrganization": {
-                    "id": "a3c13f82-ce43-4f29-88c0-47962f47809d",
-                    "name": "Singularity 6",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "a3c13f82-ce43-4f29-88c0-47962f47809d_CUSTOM_ID_eacc0377-e0cb-4390-8fac-5cd56fb522fc",
-                  "createdAt": "2024-11-12T00:24:01.482Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "982017546",
-                    "name": "Palia",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e841ccfe-ad0c-4d5b-b6c1-dcc2d60f897a.png",
-                  "isIosAvailable": false,
-                  "name": "3x Fish Stew",
-                  "ownerOrganization": {
-                    "id": "a3c13f82-ce43-4f29-88c0-47962f47809d",
-                    "name": "Singularity 6",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "a3c13f82-ce43-4f29-88c0-47962f47809d_CUSTOM_ID_0b7e4f15-5212-4f0a-a5a2-f281ef41de78",
-                  "createdAt": "2024-11-12T00:25:28.276Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "982017546",
-                    "name": "Palia",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/632c8121-c2ef-4ead-8cb5-f64c19e9cfaa.png",
-                  "isIosAvailable": false,
-                  "name": "3x Fisherman's Brew",
-                  "ownerOrganization": {
-                    "id": "a3c13f82-ce43-4f29-88c0-47962f47809d",
-                    "name": "Singularity 6",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "a3c13f82-ce43-4f29-88c0-47962f47809d_CUSTOM_ID_2ef56a1c-bc93-46bb-8575-f50b527711e1",
-                  "createdAt": "2024-11-12T00:26:52.256Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "982017546",
-                    "name": "Palia",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/58b048a4-5bdb-4964-aa48-de01c66fc484.png",
-                  "isIosAvailable": false,
-                  "name": "3x Trout Dinner",
-                  "ownerOrganization": {
-                    "id": "a3c13f82-ce43-4f29-88c0-47962f47809d",
-                    "name": "Singularity 6",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "a3c13f82-ce43-4f29-88c0-47962f47809d_CUSTOM_ID_b0278813-63b4-4616-adaf-107d609c3712",
-                  "createdAt": "2024-11-12T00:54:11.402Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "982017546",
-                    "name": "Palia",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0e17022e-fb69-4af4-9d24-577535d4fdbc.png",
-                  "isIosAvailable": false,
-                  "name": "1x Minor Rod Health Boost",
-                  "ownerOrganization": {
-                    "id": "a3c13f82-ce43-4f29-88c0-47962f47809d",
-                    "name": "Singularity 6",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-10T07:58:59.997Z",
-            "name": "Tier Two",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2024-11-21T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "99375974-a08e-11ef-8f7e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "a3c13f82-ce43-4f29-88c0-47962f47809d_CUSTOM_ID_8299ee81-fc3c-48d7-b697-4394941a050b",
-                  "createdAt": "2024-11-12T00:28:02.533Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "982017546",
-                    "name": "Palia",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3d3d2345-9a55-4c6d-b43d-75884f57a7d3.png",
-                  "isIosAvailable": false,
-                  "name": "2x Potato Pod Prize Bag",
-                  "ownerOrganization": {
-                    "id": "a3c13f82-ce43-4f29-88c0-47962f47809d",
-                    "name": "Singularity 6",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "a3c13f82-ce43-4f29-88c0-47962f47809d_CUSTOM_ID_91d68736-7f66-4ca0-924e-d4311a11601e",
-                  "createdAt": "2024-11-12T00:29:42.199Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "982017546",
-                    "name": "Palia",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a8e602f-8582-4374-bbe4-b48a70de2def.png",
-                  "isIosAvailable": false,
-                  "name": "1x Zeki's Claw Machine",
-                  "ownerOrganization": {
-                    "id": "a3c13f82-ce43-4f29-88c0-47962f47809d",
-                    "name": "Singularity 6",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-10T07:58:59.997Z",
-            "name": "Tier Three",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2024-11-21T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2024-11-21T20:00:00.000Z"
-  },
-  {
     "endAt": "2024-12-10T08:57:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1063665418_IGDB-120x160.jpg",
     "gameDisplayName": "Out of the Park Baseball 25",
@@ -17167,6 +16880,92 @@
       }
     ],
     "startAt": "2024-11-25T08:00:00.000Z"
+  },
+  {
+    "endAt": "2024-12-22T22:58:59.997Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/497431_IGDB-120x160.jpg",
+    "gameDisplayName": "Skull and Bones",
+    "gameId": "497431",
+    "rewards": [
+      {
+        "id": "fa8b2c7b-a816-11ef-b1d5-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "187093820",
+              "displayName": "BlackHeart86",
+              "name": "blackheart86",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://drops-register.ubi.com",
+        "description": "BlackHeart exclusive drops",
+        "detailsURL": "https://www.ubisoft.com/fr-fr/help/gameplay/article/information-about-twitch-drops-for-ubisoft-games/000065532",
+        "endAt": "2024-12-22T22:58:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "497431",
+          "slug": "skull-and-bones",
+          "displayName": "Skull and Bones",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4f1995dc-2d21-4078-b1d3-ced6a408a120.png",
+        "name": "Skull & Bones BlackHeart",
+        "owner": {
+          "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+          "name": "Ubisoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-10T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "cf0b6bd8-a817-11ef-87a5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b_CUSTOM_ID_intrepid_blackheart",
+                  "createdAt": "2024-11-21T14:54:57.447Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "497431",
+                    "name": "Skull and Bones",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cf2a378d-aad7-4c2a-8c44-fd00a283ffab.png",
+                  "isIosAvailable": false,
+                  "name": "Black Heart Sail Emblem",
+                  "ownerOrganization": {
+                    "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+                    "name": "Ubisoft",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-22T22:58:59.997Z",
+            "name": "Intrepid Heart",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2024-12-10T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-10T08:00:00.000Z"
   },
   {
     "endAt": "2024-12-25T17:32:59.999Z",
