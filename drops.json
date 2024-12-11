@@ -3093,6 +3093,92 @@
     "startAt": "2024-11-13T18:00:00.000Z"
   },
   {
+    "endAt": "2024-12-11T17:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1320984402_IGDB-120x160.jpg",
+    "gameDisplayName": "Madden NFL 25",
+    "gameId": "1320984402",
+    "rewards": [
+      {
+        "id": "b62d7f42-b72d-11ef-9982-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "51914127",
+              "displayName": "EAMaddenNFL",
+              "name": "eamaddennfl",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch Good Morning Madden and earn some Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2024-12-11T17:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1320984402",
+          "slug": "ea-sports-madden-nfl-25",
+          "displayName": "Madden NFL 25",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c156cdfc-c12e-417c-ae58-8da6166833c6.png",
+        "name": "Good Morning Madden ",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-11T15:15:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ed515676-b72d-11ef-8274-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M25-GMM-050",
+                  "createdAt": "2024-12-10T19:34:54.195Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1320984402",
+                    "name": "Madden NFL 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/28282fa2-8917-4f40-a44f-f98cf47c9c2c.png",
+                  "isIosAvailable": false,
+                  "name": "GMM Twitch Pack (12/11)",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-11T17:59:59.999Z",
+            "name": "GMM Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2024-12-11T15:15:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-11T15:15:00.000Z"
+  },
+  {
     "endAt": "2024-12-12T16:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
     "gameDisplayName": "World of Warships",
@@ -19931,6 +20017,18 @@
               "id": "163751362",
               "displayName": "legalfarm",
               "name": "legalfarm",
+              "__typename": "Channel"
+            },
+            {
+              "id": "69854513",
+              "displayName": "pandalivedota",
+              "name": "pandalivedota",
+              "__typename": "Channel"
+            },
+            {
+              "id": "450114896",
+              "displayName": "xSTARSxx",
+              "name": "xstarsxx",
               "__typename": "Channel"
             }
           ],
