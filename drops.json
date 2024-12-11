@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2024-12-20T20:59:59.999Z",
+    "endAt": "2024-12-20T21:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515349_IGDB-120x160.jpg",
     "gameDisplayName": "Lineage II",
     "gameId": "515349",
@@ -286,7 +286,7 @@
         "__typename": "DropCampaign"
       },
       {
-        "id": "745f953a-af1e-11ef-8b3e-0a58a9feac02",
+        "id": "4561a245-b781-11ef-8141-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
@@ -664,9 +664,9 @@
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://ru.4game.com/drops/twitch/",
-        "description": "Награда в честь годовщины Lineage 2.",
-        "detailsURL": "https://l2central.info/classic/notices/2887.html?lang=ru",
-        "endAt": "2024-12-20T20:59:59.999Z",
+        "description": "Награда за просмотр прямых трансляций Lineage 2",
+        "detailsURL": "https://l2central.info/essence/notices/2905.html?lang=ru",
+        "endAt": "2024-12-20T21:59:59.999Z",
         "eventBasedDrops": [],
         "game": {
           "id": "515349",
@@ -674,20 +674,43 @@
           "displayName": "Lineage II",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/96fb893d-f6c7-46d9-8a97-9bd515faa056.png",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4de03e90-56a8-415e-ad4a-5ca66fad4e38.png",
         "name": "Anniversary Drops",
         "owner": {
           "id": "9997a4e8-c43f-42fe-93fa-0c3ed88eecb0",
           "name": "Innova",
           "__typename": "Organization"
         },
-        "startAt": "2024-12-01T08:00:00Z",
+        "startAt": "2024-12-11T05:30:46Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "9c6f9143-af1e-11ef-a790-0a58a9feac02",
+            "id": "6784b980-b781-11ef-b6df-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9997a4e8-c43f-42fe-93fa-0c3ed88eecb0_CUSTOM_ID_10116225",
+                  "createdAt": "2024-11-30T23:27:40.287Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515349",
+                    "name": "Lineage II",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/50d167d2-4198-4458-87df-e2c6d62806d3.png",
+                  "isIosAvailable": false,
+                  "name": "Anniversary Lineage Drops",
+                  "ownerOrganization": {
+                    "id": "9997a4e8-c43f-42fe-93fa-0c3ed88eecb0",
+                    "name": "Innova",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
               {
                 "benefit": {
                   "id": "9997a4e8-c43f-42fe-93fa-0c3ed88eecb0_CUSTOM_ID_10115835",
@@ -713,17 +736,17 @@
               },
               {
                 "benefit": {
-                  "id": "9997a4e8-c43f-42fe-93fa-0c3ed88eecb0_CUSTOM_ID_10116225",
-                  "createdAt": "2024-11-30T23:27:40.287Z",
+                  "id": "9997a4e8-c43f-42fe-93fa-0c3ed88eecb0_CUSTOM_ID_10116289",
+                  "createdAt": "2024-12-04T07:19:30.633Z",
                   "entitlementLimit": 1,
                   "game": {
                     "id": "515349",
                     "name": "Lineage II",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/50d167d2-4198-4458-87df-e2c6d62806d3.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/759b1f26-50bb-4f54-8178-969ee53ce7f4.png",
                   "isIosAvailable": false,
-                  "name": "Anniversary Lineage Drops",
+                  "name": "Anniversary Drops",
                   "ownerOrganization": {
                     "id": "9997a4e8-c43f-42fe-93fa-0c3ed88eecb0",
                     "name": "Innova",
@@ -735,18 +758,18 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2024-12-20T20:59:59.999Z",
-            "name": "Lineage 2 Legacy Drops",
+            "endAt": "2024-12-20T21:59:59.999Z",
+            "name": "Anniversary Drops",
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
-            "startAt": "2024-12-01T08:00:00Z",
+            "startAt": "2024-12-11T05:30:46Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2024-12-01T08:00:00.000Z"
+    "startAt": "2024-12-04T08:00:00.000Z"
   },
   {
     "endAt": "2024-12-11T08:57:59.999Z",
