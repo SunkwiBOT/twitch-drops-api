@@ -23829,6 +23829,120 @@
     "startAt": "2024-12-10T08:00:00.000Z"
   },
   {
+    "endAt": "2024-12-24T21:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1312214340_IGDB-120x160.jpg",
+    "gameDisplayName": "Stumble Guys",
+    "gameId": "1312214340",
+    "rewards": [
+      {
+        "id": "d817f003-8fa8-11ef-ad26-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.stumbleguys.com/twitch",
+        "description": "Join us for MR STUMBLE'S WINTER HOLIDAY ADVENTURE, a festive Twitch drop campaign packed with winter cheer and exclusive in-game rewards! Cozy up with your favorite Stumble Guys Twitch streamers and collect awesome holiday-themed items (Candy Canes Footsteps and Nutcracker Skin) just by watching! \n\nConnect your Twitch and Stumble Guys Scopely accounts to claim your rewards in-game and Tune in to your favorite Stumble Guys streamers during their live broadcasts and earn rewards! \nDon't forget to claim your rewards directly in your Twitch inventory (they will then be automatically added to your inventory in-game)\n\nNote that the Twitch Drops are available to collect on mobile and console! (but Switch as for the time being the Scopely ID to link your account is not available on the platform)",
+        "detailsURL": "https://www.stumbleguys.com/twitch",
+        "endAt": "2024-12-24T21:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1312214340",
+          "slug": "stumble-guys",
+          "displayName": "Stumble Guys",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9a3ce9d6-c00d-4776-9255-ccdf2787e6c0.png",
+        "name": "MrStumble Winter Holidays",
+        "owner": {
+          "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
+          "name": "Scopely",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-11T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a75ccc98-8fab-11ef-8151-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_Candycane",
+                  "createdAt": "2024-10-23T15:13:44.296Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1312214340",
+                    "name": "Stumble Guys",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3e630462-73eb-42a1-8b42-88aca9e47692.png",
+                  "isIosAvailable": true,
+                  "name": "Candy Canes footsteps",
+                  "ownerOrganization": {
+                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
+                    "name": "Scopely",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-24T21:59:59.998Z",
+            "name": "Candy Canes Footsteps",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2024-12-11T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "e384553f-8fab-11ef-b62b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_Nutcracker",
+                  "createdAt": "2024-10-23T15:16:33.067Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1312214340",
+                    "name": "Stumble Guys",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fe179be5-4b29-4e19-979d-8f34f217fd5b.png",
+                  "isIosAvailable": true,
+                  "name": "Nutcracker Skin",
+                  "ownerOrganization": {
+                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
+                    "name": "Scopely",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-24T21:59:59.998Z",
+            "name": "Nutcracker Skin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2024-12-11T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-11T08:00:00.000Z"
+  },
+  {
     "endAt": "2024-12-25T17:32:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/707002701_IGDB-120x160.jpg",
     "gameDisplayName": "Coryphaeus Championships",
