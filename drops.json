@@ -1,84 +1,5 @@
 [
   {
-    "endAt": "2024-12-13T11:58:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-    "gameDisplayName": "Black Desert",
-    "gameId": "386821",
-    "rewards": [
-      {
-        "id": "43d4d6f2-ae12-11ef-8998-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
-        "description": "• NAEU: https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878 • SA: https://www.sa.playblackdesert.com/News/Detail?groupContentNo=3504 • ASIA: https://blackdesert.pearlabyss.com/ASIA/en-US/News/Notice/Detail?_boardNo=5614 • JP : https://www.jp.playblackdesert.com/ja-JP/News/Detail?boardNo=8505 • TR : https://www.tr.playblackdesert.com/tr-TR/News/Detail?groupContentNo=10256 • TW : https://www.tw.playblackdesert.com/zh-TW/News/Detail?groupContentNo=14444",
-        "detailsURL": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
-        "endAt": "2024-12-13T11:58:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "386821",
-          "slug": "black-desert",
-          "displayName": "Black Desert",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f05aa0c2-38fe-44d9-867c-49e7740f42d0.png",
-        "name": "BDO Drops (December. 12)",
-        "owner": {
-          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
-          "name": "Pearl Abyss",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-12-12T12:01:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "0682bb60-b054-11ef-b1f0-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_TWITCHDROP241101",
-                  "createdAt": "2024-10-30T07:32:23.332Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "386821",
-                    "name": "Black Desert",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cd5d5481-0d20-4331-b342-94285cb527a1.png",
-                  "isIosAvailable": false,
-                  "name": "2 Hour Reward (Nov~Jan)",
-                  "ownerOrganization": {
-                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
-                    "name": "Pearl Abyss",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-13T11:58:59.999Z",
-            "name": "2 Hour (December. 12)",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2024-12-12T12:01:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2024-12-12T12:01:00.000Z"
-  },
-  {
     "endAt": "2024-12-14T04:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
     "gameDisplayName": "World of Tanks",
@@ -261,6 +182,129 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 180,
             "startAt": "2024-12-11T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "0176758c-b158-11ef-9724-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "30623831",
+              "displayName": "QuickyBaby",
+              "name": "quickybaby",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
+        "description": "Join QuickyBaby as he gets ready for his charity stream and participate in exclusive Twitch Drops featuring exciting rewards!",
+        "detailsURL": "https://worldoftanks.eu/news/general-news/wot-monthly-december-2024/",
+        "endAt": "2024-12-13T23:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/59045c1a-c44a-423d-91cb-3f33d68b6d51.png",
+        "name": "Charity Stream QuickyBaby",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-13T12:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5f9469b1-b158-11ef-801c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_QB_CharityDrops_1224_5",
+                  "createdAt": "2024-12-03T09:28:22.064Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1179fa82-eb37-499f-a61b-a92fd7a2b7f4.png",
+                  "isIosAvailable": false,
+                  "name": "2x Personal Reserves",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_QB_CharityDrops_1224_6",
+                  "createdAt": "2024-12-03T09:28:52.528Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/307d0058-f128-4d05-bb96-07401fb0e7d9.png",
+                  "isIosAvailable": false,
+                  "name": "5x Large Repair Kits",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_QB_CharityDrops_1224_7",
+                  "createdAt": "2024-12-03T09:29:30.793Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/92ceec4d-4d99-4858-a431-9eac83eb61c2.png",
+                  "isIosAvailable": false,
+                  "name": "6x Will Frampton decals",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-13T23:59:59.998Z",
+            "name": "Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2024-12-13T12:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -7180,6 +7224,120 @@
       }
     ],
     "startAt": "2024-12-13T04:00:00.000Z"
+  },
+  {
+    "endAt": "2024-12-14T11:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+    "gameDisplayName": "Black Desert",
+    "gameId": "386821",
+    "rewards": [
+      {
+        "id": "1fe4812b-b8fa-11ef-894f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
+        "description": "• NAEU: https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878 • SA: https://www.sa.playblackdesert.com/News/Detail?groupContentNo=3504 • ASIA: https://blackdesert.pearlabyss.com/ASIA/en-US/News/Notice/Detail?_boardNo=5614 • JP : https://www.jp.playblackdesert.com/ja-JP/News/Detail?boardNo=8505 • TR : https://www.tr.playblackdesert.com/tr-TR/News/Detail?groupContentNo=10256 • TW : https://www.tw.playblackdesert.com/zh-TW/News/Detail?groupContentNo=14444",
+        "detailsURL": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
+        "endAt": "2024-12-14T11:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "386821",
+          "slug": "black-desert",
+          "displayName": "Black Desert",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ed310b3f-4fc2-4d8c-8477-f574a37fd36c.png",
+        "name": "BDO Drops (December. 13)",
+        "owner": {
+          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+          "name": "Pearl Abyss",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-13T12:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "2e18b147-b8fa-11ef-9596-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_TWITCHDROP241101",
+                  "createdAt": "2024-10-30T07:32:23.332Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cd5d5481-0d20-4331-b342-94285cb527a1.png",
+                  "isIosAvailable": false,
+                  "name": "2 Hour Reward (Nov~Jan)",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-14T11:59:59.999Z",
+            "name": "2 Hour (December. 13)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2024-12-13T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "314ec778-b8fa-11ef-896a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_BDO10YEARSFESTA1",
+                  "createdAt": "2024-12-13T01:57:37.123Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b6cb7d1-aab6-42e8-acab-6cb3696052ad.png",
+                  "isIosAvailable": false,
+                  "name": "1 Hour - Festa Drops A",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-14T11:59:59.999Z",
+            "name": "[FESTA] 1 Hour (December. 13)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2024-12-13T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-13T12:00:00.000Z"
   },
   {
     "endAt": "2024-12-15T15:58:59.999Z",
