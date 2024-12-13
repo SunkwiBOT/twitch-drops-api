@@ -2867,7 +2867,7 @@
     "startAt": "2024-12-12T16:00:00.000Z"
   },
   {
-    "endAt": "2024-12-13T15:59:59.999Z",
+    "endAt": "2024-12-14T04:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
     "gameDisplayName": "World of Tanks",
     "gameId": "27546",
@@ -2937,6 +2937,89 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 180,
             "startAt": "2024-12-11T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "cdfd4bc7-acac-11ef-8238-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "182560660",
+              "displayName": "WorldofTanks",
+              "name": "worldoftanks",
+              "__typename": "Channel"
+            },
+            {
+              "id": "906047053",
+              "displayName": "WorldofTanks_Ukraine",
+              "name": "worldoftanks_ukraine",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
+        "description": "Commanders! Watch daily streams on the official World of Tanks Twitch channel and earn a new Twitch Drop every day of the 12 days of Tankmas!",
+        "detailsURL": "https://worldoftanks.eu/news/general-news/wot-monthly-december-2024/",
+        "endAt": "2024-12-14T04:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/65ba21ff-ed57-4e42-9b7b-6871ec7a89eb.png",
+        "name": "Tankmas - Day 10",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-13T06:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "01285628-acad-11ef-9c79-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_12T_1224_10",
+                  "createdAt": "2024-11-27T10:47:53.11Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/525780a0-ed24-4e13-be54-e77c4b6660d1.png",
+                  "isIosAvailable": false,
+                  "name": "Mystery Drop",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-14T04:59:59.999Z",
+            "name": "Tankmas - Day 10",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2024-12-13T06:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
