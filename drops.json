@@ -2000,95 +2000,6 @@
         "__typename": "DropCampaign"
       },
       {
-        "id": "30cc0cde-b74a-11ef-ba75-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "43102846",
-              "displayName": "Shaunz",
-              "name": "shaunz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "29315858",
-              "displayName": "Dokhy",
-              "name": "dokhy",
-              "__typename": "Channel"
-            },
-            {
-              "id": "50561208",
-              "displayName": "Un33D",
-              "name": "un33d",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
-        "description": "To celebrate Shaunz as an onsite co-streamer at the TFT Open Macao, we’re releasing a special emote co-created with him! Fans can earn the emote as a Twitch Drop by linking their Riot Account to Twitch and watching K3Soju's co-stream during the event weekend.",
-        "detailsURL": "https://tftmacaoopen.com/",
-        "endAt": "2024-12-15T11:59:59.996Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "513143",
-          "slug": "teamfight-tactics",
-          "displayName": "Teamfight Tactics",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e3eb6999-12d2-426f-bd0f-daf5f226ae1a.png",
-        "name": "TFT Macao - Shaunz",
-        "owner": {
-          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-          "name": "Riot Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-12-13T04:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "4eb3cd33-b74a-11ef-aaa6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2024-TFT-Macao-HUHH-Shaunz",
-                  "createdAt": "2024-12-10T22:59:14.039Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513143",
-                    "name": "Teamfight Tactics",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/313001c8-b992-4d2b-875f-5997b22cb09e.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Huhh? ",
-                  "ownerOrganization": {
-                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-                    "name": "Riot Games",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-15T11:59:59.996Z",
-            "name": "Huhh? ",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2024-12-13T04:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
         "id": "89d11b85-b9cd-11ef-a39d-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -2163,6 +2074,95 @@
             ],
             "endAt": "2024-12-15T11:59:59.996Z",
             "name": "Sologesang",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2024-12-13T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "1f25fe1c-b9ce-11ef-afd4-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "48578601",
+              "displayName": "絕世拿鐵",
+              "name": "jazlatte",
+              "__typename": "Channel"
+            },
+            {
+              "id": "162323092",
+              "displayName": "花輪同學",
+              "name": "gearbaby1010",
+              "__typename": "Channel"
+            },
+            {
+              "id": "29528480",
+              "displayName": "綠茶",
+              "name": "greentea",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
+        "description": "To celebrate JazLatte as an onsite co-streamer at the TFT Open Macao, we’re releasing a special emote co-created with her! Fans can earn the emote as a Twitch Drop by linking their Riot Account to Twitch and watching JazLatte's co-stream during the event weekend.",
+        "detailsURL": "https://tftmacaoopen.com/",
+        "endAt": "2024-12-15T11:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "513143",
+          "slug": "teamfight-tactics",
+          "displayName": "Teamfight Tactics",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e8d06604-9915-4076-b990-c466316afb0a.png",
+        "name": "TFT Macao - Jazlatte",
+        "owner": {
+          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+          "name": "Riot Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-13T04:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "45c2d584-b9ce-11ef-a743-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2024-TFT-Macao-Nah-Id-Win-Jazlatte",
+                  "createdAt": "2024-12-09T22:09:51.778Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513143",
+                    "name": "Teamfight Tactics",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5b942d2c-4ae2-41e4-a6cb-168852d60b4d.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Nah I'd Win",
+                  "ownerOrganization": {
+                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+                    "name": "Riot Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-15T11:59:59.997Z",
+            "name": "Jazlatte",
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2024-12-13T04:00:00Z",
@@ -2273,95 +2273,6 @@
         "__typename": "DropCampaign"
       },
       {
-        "id": "f8d12b14-b679-11ef-a30d-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "48578601",
-              "displayName": "絕世拿鐵",
-              "name": "jazlatte",
-              "__typename": "Channel"
-            },
-            {
-              "id": "29528480",
-              "displayName": "綠茶",
-              "name": "greentea",
-              "__typename": "Channel"
-            },
-            {
-              "id": "162323092",
-              "displayName": "花輪同學",
-              "name": "gearbaby1010",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
-        "description": "To celebrate JazLatte as an onsite co-streamer at the TFT Open Macao, we’re releasing a special emote co-created with her! Fans can earn the emote as a Twitch Drop by linking their Riot Account to Twitch and watching JazLatte's co-stream during the event weekend.",
-        "detailsURL": "https://tftmacaoopen.com/",
-        "endAt": "2024-12-15T11:59:59.997Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "513143",
-          "slug": "teamfight-tactics",
-          "displayName": "Teamfight Tactics",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6ff90772-7609-478a-9060-25db6fc29b95.png",
-        "name": "TFT Macao - Jazlatte",
-        "owner": {
-          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-          "name": "Riot Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-12-13T04:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "2b90e081-b67a-11ef-9508-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2024-TFT-Macao-Nah-Id-Win-Jazlatte",
-                  "createdAt": "2024-12-09T22:09:51.778Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513143",
-                    "name": "Teamfight Tactics",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5b942d2c-4ae2-41e4-a6cb-168852d60b4d.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Nah I'd Win",
-                  "ownerOrganization": {
-                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-                    "name": "Riot Games",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-15T11:59:59.997Z",
-            "name": "Nah I'd Win - Jazlette",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2024-12-13T04:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
         "id": "ed1795ee-b9cb-11ef-907e-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -2445,7 +2356,7 @@
         "__typename": "DropCampaign"
       },
       {
-        "id": "28932b4f-b67b-11ef-8dca-0a58a9feac02",
+        "id": "a130a566-b9ce-11ef-90d4-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
@@ -2453,15 +2364,21 @@
         "allow": {
           "channels": [
             {
-              "id": "139208197",
-              "displayName": "Sologesang",
-              "name": "sologesang",
+              "id": "43102846",
+              "displayName": "Shaunz",
+              "name": "shaunz",
               "__typename": "Channel"
             },
             {
-              "id": "63186830",
-              "displayName": "TwoBiers",
-              "name": "twobiers",
+              "id": "50561208",
+              "displayName": "Un33D",
+              "name": "un33d",
+              "__typename": "Channel"
+            },
+            {
+              "id": "29315858",
+              "displayName": "Dokhy",
+              "name": "dokhy",
               "__typename": "Channel"
             }
           ],
@@ -2469,7 +2386,7 @@
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
-        "description": "To celebrate Sologesang as an onsite co-streamer at the TFT Open Macao, we’re releasing a special emote co-created with them! Fans can earn the emote as a Twitch Drop by linking their Riot Account to Twitch and watching Sologesang's co-stream during the event weekend.",
+        "description": "To celebrate Shaunz as an onsite co-streamer at the TFT Open Macao, we’re releasing a special emote co-created with him! Fans can earn the emote as a Twitch Drop by linking their Riot Account to Twitch and watching K3Soju's co-stream during the event weekend.",
         "detailsURL": "https://tftmacaoopen.com/",
         "endAt": "2024-12-15T11:59:59.997Z",
         "eventBasedDrops": [],
@@ -2479,8 +2396,8 @@
           "displayName": "Teamfight Tactics",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fdfb235b-c0d4-4011-9d43-41264cee5d72.png",
-        "name": "TFT Macao - Sologesang ",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8f7b5726-c884-4826-b5db-2f0983505c88.png",
+        "name": "TFT Macao- Shaunz",
         "owner": {
           "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
           "name": "Riot Games",
@@ -2490,22 +2407,22 @@
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "420dd868-b67b-11ef-b7ae-0a58a9feac02",
+            "id": "cb0638cf-b9ce-11ef-a50c-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2024-TFT-Macao-Going-Solo-Solodesang",
-                  "createdAt": "2024-12-09T22:12:58.335Z",
+                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2024-TFT-Macao-HUHH-Shaunz",
+                  "createdAt": "2024-12-10T22:59:14.039Z",
                   "entitlementLimit": 1,
                   "game": {
                     "id": "513143",
                     "name": "Teamfight Tactics",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6cfe17a3-0dfa-45cb-8ee2-066d8b076a1d.jpeg",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/313001c8-b992-4d2b-875f-5997b22cb09e.jpeg",
                   "isIosAvailable": true,
-                  "name": "Going Solo",
+                  "name": "Huhh? ",
                   "ownerOrganization": {
                     "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
                     "name": "Riot Games",
@@ -2518,9 +2435,9 @@
               }
             ],
             "endAt": "2024-12-15T11:59:59.997Z",
-            "name": "Going Solo  - Sologesang ",
+            "name": "Shaunz",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
+            "requiredMinutesWatched": 120,
             "startAt": "2024-12-13T04:00:00Z",
             "__typename": "TimeBasedDrop"
           }
