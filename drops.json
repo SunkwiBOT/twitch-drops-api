@@ -1899,7 +1899,7 @@
     "startAt": "2024-12-13T10:00:00.000Z"
   },
   {
-    "endAt": "2024-12-15T11:59:59.998Z",
+    "endAt": "2024-12-15T11:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/513143-120x160.jpg",
     "gameDisplayName": "Teamfight Tactics",
     "gameId": "513143",
@@ -2082,6 +2082,89 @@
             "name": "Huhh? ",
             "preconditionDrops": null,
             "requiredMinutesWatched": 240,
+            "startAt": "2024-12-13T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "89d11b85-b9cd-11ef-a39d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "139208197",
+              "displayName": "Sologesang",
+              "name": "sologesang",
+              "__typename": "Channel"
+            },
+            {
+              "id": "63186830",
+              "displayName": "TwoBiers",
+              "name": "twobiers",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
+        "description": "To celebrate Sologesang as an onsite co-streamer at the TFT Open Macao, we’re releasing a special emote co-created with them! Fans can earn the emote as a Twitch Drop by linking their Riot Account to Twitch and watching Sologesang's co-stream during the event weekend.",
+        "detailsURL": "https://tftmacaoopen.com/",
+        "endAt": "2024-12-15T11:59:59.996Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "513143",
+          "slug": "teamfight-tactics",
+          "displayName": "Teamfight Tactics",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5885b317-ad34-4940-99a6-578265702c2e.png",
+        "name": "TFT MACAO - Sologesang",
+        "owner": {
+          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+          "name": "Riot Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-13T04:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "aef215bc-b9cd-11ef-80b6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2024-TFT-Macao-Going-Solo-Solodesang",
+                  "createdAt": "2024-12-09T22:12:58.335Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513143",
+                    "name": "Teamfight Tactics",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6cfe17a3-0dfa-45cb-8ee2-066d8b076a1d.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Going Solo",
+                  "ownerOrganization": {
+                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+                    "name": "Riot Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-15T11:59:59.996Z",
+            "name": "Sologesang",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
             "startAt": "2024-12-13T04:00:00Z",
             "__typename": "TimeBasedDrop"
           }
@@ -2279,6 +2362,89 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "ed1795ee-b9cb-11ef-907e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "13576693",
+              "displayName": "Frodan",
+              "name": "frodan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "128293484",
+              "displayName": "k3soju",
+              "name": "k3soju",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
+        "description": "To celebrate K3Soju as an onsite co-streamer at the TFT Open Macao, we’re releasing a special emote co-created with him! Fans can earn the emote as a Twitch Drop by linking their Riot Account to Twitch and watching K3Soju's co-stream during the event weekend.",
+        "detailsURL": "https://tftmacaoopen.com/",
+        "endAt": "2024-12-15T11:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "513143",
+          "slug": "teamfight-tactics",
+          "displayName": "Teamfight Tactics",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4dc36402-0745-4cb1-bc99-ba60aa21d865.png",
+        "name": "TFT Macao- K3Soju 2h",
+        "owner": {
+          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+          "name": "Riot Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-13T04:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0e4566e5-b9cc-11ef-86a7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2024-TFT-Macao-Slouched-K3Soju",
+                  "createdAt": "2024-12-10T22:54:39.894Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513143",
+                    "name": "Teamfight Tactics",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e02d9025-3126-48db-89a5-6155080e7a88.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Slouched Emote",
+                  "ownerOrganization": {
+                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+                    "name": "Riot Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-15T11:59:59.997Z",
+            "name": "K3Soju",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2024-12-13T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "28932b4f-b67b-11ef-8dca-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -2353,89 +2519,6 @@
             ],
             "endAt": "2024-12-15T11:59:59.997Z",
             "name": "Going Solo  - Sologesang ",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2024-12-13T04:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "935308dc-b749-11ef-a169-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "128293484",
-              "displayName": "k3soju",
-              "name": "k3soju",
-              "__typename": "Channel"
-            },
-            {
-              "id": "13576693",
-              "displayName": "Frodan",
-              "name": "frodan",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
-        "description": "To celebrate K3Soju as an onsite co-streamer at the TFT Open Macao, we’re releasing a special emote co-created with him! Fans can earn the emote as a Twitch Drop by linking their Riot Account to Twitch and watching K3Soju's co-stream during the event weekend.",
-        "detailsURL": "https://tftmacaoopen.com/",
-        "endAt": "2024-12-15T11:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "513143",
-          "slug": "teamfight-tactics",
-          "displayName": "Teamfight Tactics",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a54a177d-52de-4518-b15d-e4f386736d4c.png",
-        "name": "TFT Macao- K3Soju",
-        "owner": {
-          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-          "name": "Riot Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-12-13T04:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "c8f39b79-b749-11ef-9013-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2024-TFT-Macao-Slouched-K3Soju",
-                  "createdAt": "2024-12-10T22:54:39.894Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513143",
-                    "name": "Teamfight Tactics",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e02d9025-3126-48db-89a5-6155080e7a88.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Slouched Emote",
-                  "ownerOrganization": {
-                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-                    "name": "Riot Games",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-15T11:59:59.998Z",
-            "name": "Slouched Emote",
             "preconditionDrops": null,
             "requiredMinutesWatched": 240,
             "startAt": "2024-12-13T04:00:00Z",
