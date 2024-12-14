@@ -2172,107 +2172,6 @@
         "__typename": "DropCampaign"
       },
       {
-        "id": "b490196d-b748-11ef-ab35-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "87204022",
-              "displayName": "DisguisedToast",
-              "name": "disguisedtoast",
-              "__typename": "Channel"
-            },
-            {
-              "id": "244407024",
-              "displayName": "Sydeon",
-              "name": "sydeon",
-              "__typename": "Channel"
-            },
-            {
-              "id": "24991333",
-              "displayName": "imaqtpie",
-              "name": "imaqtpie",
-              "__typename": "Channel"
-            },
-            {
-              "id": "22253819",
-              "displayName": "Scarra",
-              "name": "scarra",
-              "__typename": "Channel"
-            },
-            {
-              "id": "38881685",
-              "displayName": "boxbox",
-              "name": "boxbox",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
-        "description": "To celebrate DisguisedToast as an onsite co-streamer at the TFT Open Macao, we’re releasing a special emote co-created with him! Fans can earn the emote as a Twitch Drop by linking their Riot Account to Twitch and watching DisguisedToast's co-stream during the event weekend.",
-        "detailsURL": "https://tftmacaoopen.com/",
-        "endAt": "2024-12-15T11:59:59.997Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "513143",
-          "slug": "teamfight-tactics",
-          "displayName": "Teamfight Tactics",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f3d14c73-0ac1-4d3e-ac42-c506f76ef548.png",
-        "name": "TFT Macao-Disguised Toast",
-        "owner": {
-          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-          "name": "Riot Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-12-13T04:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "d9266751-b748-11ef-8141-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2024-TFT-Macao-LUL-Disguised-Toast",
-                  "createdAt": "2024-12-10T22:49:02.087Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513143",
-                    "name": "Teamfight Tactics",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/57476859-3bc6-4e72-bb1d-a00f80fcee3f.jpeg",
-                  "isIosAvailable": true,
-                  "name": "LUL Emote",
-                  "ownerOrganization": {
-                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-                    "name": "Riot Games",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-15T11:59:59.997Z",
-            "name": "LUL ",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2024-12-13T04:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
         "id": "ed1795ee-b9cb-11ef-907e-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -2436,6 +2335,107 @@
             ],
             "endAt": "2024-12-15T11:59:59.997Z",
             "name": "Shaunz",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2024-12-13T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "231e633f-b9cf-11ef-87bd-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "87204022",
+              "displayName": "DisguisedToast",
+              "name": "disguisedtoast",
+              "__typename": "Channel"
+            },
+            {
+              "id": "244407024",
+              "displayName": "Sydeon",
+              "name": "sydeon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "24991333",
+              "displayName": "imaqtpie",
+              "name": "imaqtpie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "22253819",
+              "displayName": "Scarra",
+              "name": "scarra",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38881685",
+              "displayName": "boxbox",
+              "name": "boxbox",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
+        "description": "To celebrate DisguisedToast as an onsite co-streamer at the TFT Open Macao, we’re releasing a special emote co-created with him! Fans can earn the emote as a Twitch Drop by linking their Riot Account to Twitch and watching DisguisedToast's co-stream during the event weekend.",
+        "detailsURL": "https://tftmacaoopen.com/",
+        "endAt": "2024-12-15T11:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "513143",
+          "slug": "teamfight-tactics",
+          "displayName": "Teamfight Tactics",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/181e8587-96ff-4da8-947b-eb869e2600ec.png",
+        "name": "TFT Macao-Disguised Toast",
+        "owner": {
+          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+          "name": "Riot Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-13T04:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "50cdd31d-b9cf-11ef-9e16-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2024-TFT-Macao-LUL-Disguised-Toast",
+                  "createdAt": "2024-12-10T22:49:02.087Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513143",
+                    "name": "Teamfight Tactics",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/57476859-3bc6-4e72-bb1d-a00f80fcee3f.jpeg",
+                  "isIosAvailable": true,
+                  "name": "LUL Emote",
+                  "ownerOrganization": {
+                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+                    "name": "Riot Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-15T11:59:59.997Z",
+            "name": "Disguised Toast",
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2024-12-13T04:00:00Z",
