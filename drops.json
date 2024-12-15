@@ -28539,6 +28539,85 @@
     "startAt": "2024-12-13T15:00:00.000Z"
   },
   {
+    "endAt": "2024-12-19T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
+    "gameDisplayName": "Kirka.io",
+    "gameId": "356609813",
+    "rewards": [
+      {
+        "id": "24476259-ba3f-11ef-a9a3-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Kirka.io drop for the Elf Unobtainable",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2024-12-19T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7254655c-0cf1-4aa8-bb6b-a3914eb27472.png",
+        "name": "Elf Drop",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-15T20:44:01Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1832d57d-bb12-11ef-882b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_3dd388c0-0d8f-4c73-9f25-f696aa4af21b",
+                  "createdAt": "2024-12-15T18:25:18.822Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d9db9106-2eec-43db-9165-3c5b2e53b61d.png",
+                  "isIosAvailable": false,
+                  "name": "Elf",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-19T23:29:59.999Z",
+            "name": "Elf",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2024-12-15T20:44:01Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-15T20:44:01.000Z"
+  },
+  {
     "endAt": "2024-12-20T14:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
     "gameDisplayName": "Mir Korabley",
