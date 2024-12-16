@@ -1,352 +1,5 @@
 [
   {
-    "endAt": "2024-12-21T07:58:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
-    "gameDisplayName": "Overwatch 2",
-    "gameId": "515025",
-    "rewards": [
-      {
-        "id": "dda305ce-b9ba-11ef-81c3-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "137512364",
-              "displayName": "ow_esports",
-              "name": "ow_esports",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.battle.net/connections",
-        "description": "Calling All Heroes is Back! Tune in to Major 3 with new viewer rewards! Tune in Saturday 12/14 at 11AM PT / 2PM ET and Sunday 12/15 at 11AM PT / 2PM ET.  Watch 2 hours to get the Mitzi Meow Icon, 4 hours to get the Cat-in-the-box Spray, and 6 hours to get the Cosmic Catprints Name Card.",
-        "detailsURL": "https://esports.overwatch.com/en-us/rewards",
-        "endAt": "2024-12-16T07:58:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "515025",
-          "slug": "overwatch-2",
-          "displayName": "Overwatch 2",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a3066628-0c37-4a02-adb2-811c35ba87bf.png",
-        "name": "CAH Major 3 Drops",
-        "owner": {
-          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-          "name": "Blizzard",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-12-14T18:30:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "769a6928-b9bb-11ef-bb03-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1887176",
-                  "createdAt": "2024-12-14T01:36:08.226Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "515025",
-                    "name": "Overwatch 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8447d287-3809-497c-93ea-7f366ad0fd2f.png",
-                  "isIosAvailable": false,
-                  "name": "Mitzi Meow Icon",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-16T07:58:59.999Z",
-            "name": "Mitzi Meow Icon",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2024-12-14T18:30:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "814225dc-b9bb-11ef-a743-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1887182",
-                  "createdAt": "2024-12-14T01:36:47.172Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "515025",
-                    "name": "Overwatch 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/48c8318b-649b-4442-b935-665dbee1184e.png",
-                  "isIosAvailable": false,
-                  "name": "Cat-in-the-box Spray",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-16T07:58:59.999Z",
-            "name": "Cat-in-the-box Spray",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2024-12-14T18:30:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "8ad1cd02-b9bb-11ef-8500-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1887174",
-                  "createdAt": "2024-12-14T01:37:33.621Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "515025",
-                    "name": "Overwatch 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/63845f30-7ac7-436d-9dea-3da688f3d4fa.png",
-                  "isIosAvailable": false,
-                  "name": "Cosmic Catprints",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-16T07:58:59.999Z",
-            "name": "Cosmic Catprints Name Card",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2024-12-14T18:30:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "eb6a18e5-b713-11ef-b5c2-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.battle.net/connections",
-        "description": "Celebrate the launch of Overwatch 2's season 14 and newest hero, Hazard, with drops by watching your favorite Overwatch 2 creators! ",
-        "detailsURL": "https://us.forums.blizzard.com/en/overwatch/t/earn-fiery-drops-on-twitch/942762",
-        "endAt": "2024-12-21T07:58:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "515025",
-          "slug": "overwatch-2",
-          "displayName": "Overwatch 2",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/92fa3000-7fba-4a64-b633-8c3f9e317f2d.png",
-        "name": "Season 14 Launch Drops",
-        "owner": {
-          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-          "name": "Blizzard",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-12-10T19:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "0667801c-b714-11ef-9f54-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_875852",
-                  "createdAt": "2024-12-10T16:31:02.99Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "515025",
-                    "name": "Overwatch 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c170fff1-a875-44b3-8308-264eda69fe02.png",
-                  "isIosAvailable": false,
-                  "name": "Ganymede Spray",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-21T07:58:59.999Z",
-            "name": "Ganymede Spray",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2024-12-10T19:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "56dcb8ac-b714-11ef-b9af-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1092170",
-                  "createdAt": "2024-12-10T16:31:28.854Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "515025",
-                    "name": "Overwatch 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/567a716f-38fa-4aa2-9dd1-2198f5d30be0.png",
-                  "isIosAvailable": false,
-                  "name": "Leg. Fire Engine Bastion",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-21T07:58:59.999Z",
-            "name": "Legendary Fire Engine Bastion",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2024-12-10T19:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2024-12-10T19:00:00.000Z"
-  },
-  {
-    "endAt": "2024-12-16T07:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511295_IGDB-120x160.jpg",
-    "gameDisplayName": "Predecessor",
-    "gameId": "511295",
-    "rewards": [
-      {
-        "id": "3f743f7b-b937-11ef-afe4-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "887350327",
-              "displayName": "PrimeChampionshipCircuit",
-              "name": "primechampionshipcircuit",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://predecessorgame.com/link-accounts",
-        "description": "PCC X is here! Watch the best of the best go toe-to-toe and earn yourself an exclusive PCC spray to use in game!",
-        "detailsURL": "https://predecessorgame.com/twitch-drops",
-        "endAt": "2024-12-16T07:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "511295",
-          "slug": "predecessor",
-          "displayName": "Predecessor",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/50c87a0a-524b-43bb-9443-9724052560ac.png",
-        "name": "PCC Drop",
-        "owner": {
-          "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
-          "name": "Omeda Studios",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-12-13T09:30:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "512f0528-b937-11ef-b7f4-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bc49c5c7-b8a0-11ef-b4c5-0a58a9feac02",
-                  "createdAt": "2024-12-12T15:49:56.5Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "511295",
-                    "name": "Predecessor",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fe51b47a-60c3-40c6-b9f9-9d732ed31ce6.png",
-                  "isIosAvailable": false,
-                  "name": "PCC Spray",
-                  "ownerOrganization": {
-                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
-                    "name": "Omeda Studios",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-16T07:59:59.999Z",
-            "name": "PCC Spray",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2024-12-13T09:30:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2024-12-13T09:30:00.000Z"
-  },
-  {
     "endAt": "2024-12-16T08:57:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1063665418_IGDB-120x160.jpg",
     "gameDisplayName": "Out of the Park Baseball 25",
@@ -24121,6 +23774,120 @@
       }
     ],
     "startAt": "2024-11-29T15:00:00.000Z"
+  },
+  {
+    "endAt": "2024-12-21T07:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
+    "gameDisplayName": "Overwatch 2",
+    "gameId": "515025",
+    "rewards": [
+      {
+        "id": "eb6a18e5-b713-11ef-b5c2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.battle.net/connections",
+        "description": "Celebrate the launch of Overwatch 2's season 14 and newest hero, Hazard, with drops by watching your favorite Overwatch 2 creators! ",
+        "detailsURL": "https://us.forums.blizzard.com/en/overwatch/t/earn-fiery-drops-on-twitch/942762",
+        "endAt": "2024-12-21T07:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515025",
+          "slug": "overwatch-2",
+          "displayName": "Overwatch 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/92fa3000-7fba-4a64-b633-8c3f9e317f2d.png",
+        "name": "Season 14 Launch Drops",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-10T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0667801c-b714-11ef-9f54-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_875852",
+                  "createdAt": "2024-12-10T16:31:02.99Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c170fff1-a875-44b3-8308-264eda69fe02.png",
+                  "isIosAvailable": false,
+                  "name": "Ganymede Spray",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-21T07:58:59.999Z",
+            "name": "Ganymede Spray",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2024-12-10T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "56dcb8ac-b714-11ef-b9af-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1092170",
+                  "createdAt": "2024-12-10T16:31:28.854Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/567a716f-38fa-4aa2-9dd1-2198f5d30be0.png",
+                  "isIosAvailable": false,
+                  "name": "Leg. Fire Engine Bastion",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-21T07:58:59.999Z",
+            "name": "Legendary Fire Engine Bastion",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2024-12-10T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-10T19:00:00.000Z"
   },
   {
     "endAt": "2024-12-21T07:59:59.999Z",
