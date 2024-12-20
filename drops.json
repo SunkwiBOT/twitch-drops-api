@@ -24515,7 +24515,7 @@
     "startAt": "2024-11-27T20:48:18.000Z"
   },
   {
-    "endAt": "2025-01-02T19:29:59.999Z",
+    "endAt": "2025-01-16T07:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
     "gameDisplayName": "Delta Force",
     "gameId": "1282866981",
@@ -28851,6 +28851,446 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 240,
             "startAt": "2024-12-05T19:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "097f44ac-bdb5-11ef-83e0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
+        "description": "Winter holiday is coming, DF drops on across all channels!",
+        "detailsURL": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
+        "endAt": "2025-01-16T07:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1282866981",
+          "slug": "delta-force-hawk-ops",
+          "displayName": "Delta Force",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9ac98055-c1c8-4950-8e61-d4d7cee4b7d4.jpeg",
+        "name": "Winter Holiday Drops",
+        "owner": {
+          "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+          "name": "Level Infinite",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-20T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "c75e9723-bdb5-11ef-9618-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "40531cf8-bdb6-11ef-9f75-0a58a9feac02",
+                  "createdAt": "2024-12-19T03:06:33.266Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0961d676-0037-4de8-8018-c558c9257650.png",
+                  "isIosAvailable": false,
+                  "name": "Challenge Supply",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "1ace0002-bdb7-11ef-8fb1-0a58a9feac02",
+                  "createdAt": "2024-12-19T03:12:39.814Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8bcfab01-9631-4faa-8e64-4053a84bb37f.png",
+                  "isIosAvailable": false,
+                  "name": "Weapon EXP*1",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "31a1edd8-bdec-11ef-83e0-0a58a9feac02",
+                  "createdAt": "2024-12-19T09:32:41.44Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b56c965c-8a7f-4914-a2f8-b9c3184189a5.png",
+                  "isIosAvailable": false,
+                  "name": "Spray Paint - Cozy Winter",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-16T07:59:59.999Z",
+            "name": "15 mins",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2024-12-20T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ccf55dbc-bdb5-11ef-91f8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2f843d0c-bdb7-11ef-83e0-0a58a9feac02",
+                  "createdAt": "2024-12-19T03:13:14.563Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/793b09d4-7183-412a-b1e8-3efceb515e89.png",
+                  "isIosAvailable": false,
+                  "name": "Premium Weapon Selection",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6a2e2ef6-bdb8-11ef-b728-0a58a9feac02",
+                  "createdAt": "2024-12-19T03:22:02.481Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eed4ac32-d4ca-4777-8343-be3ba3065ae1.png",
+                  "isIosAvailable": false,
+                  "name": "Weapon EXP*1",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "1f365e83-bdec-11ef-ad2e-0a58a9feac02",
+                  "createdAt": "2024-12-19T09:32:10.536Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/450b4b0d-a187-40f8-a699-8eef8c1fc93c.png",
+                  "isIosAvailable": false,
+                  "name": "Avatar - Cozy Winter",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-16T07:59:59.999Z",
+            "name": "30 mins",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2024-12-20T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "eb531fbb-bdb5-11ef-9333-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "7af93004-bdb8-11ef-9618-0a58a9feac02",
+                  "createdAt": "2024-12-19T03:22:30.655Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3d7a06ee-f492-4869-87de-ab4a3d072ef4.png",
+                  "isIosAvailable": false,
+                  "name": "Keycard Copy Pack",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "8f9ed5a7-bdb8-11ef-880e-0a58a9feac02",
+                  "createdAt": "2024-12-19T03:23:05.295Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/babc79d3-0dc8-4970-94a3-2f1da4d103c3.png",
+                  "isIosAvailable": false,
+                  "name": "Weapon EXP*3",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "57c34b35-bdec-11ef-8303-0a58a9feac02",
+                  "createdAt": "2024-12-19T09:33:45.412Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dd8c2df4-3a13-4460-90c4-5502a523498f.png",
+                  "isIosAvailable": false,
+                  "name": "Calling Card Cozy Winter",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-16T07:59:59.999Z",
+            "name": "1 hour",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2024-12-20T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f0df75d3-bdb5-11ef-814d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a4171759-bdb8-11ef-96f7-0a58a9feac02",
+                  "createdAt": "2024-12-19T03:23:39.638Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f66653e4-0d77-4db6-b09c-e25933885e5a.png",
+                  "isIosAvailable": false,
+                  "name": "M700 - Maritime Forest",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "b9d5fa1d-bdb8-11ef-a8cc-0a58a9feac02",
+                  "createdAt": "2024-12-19T03:24:16.121Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/61322551-ce84-4a37-ad2a-41d864761dad.png",
+                  "isIosAvailable": false,
+                  "name": "Standard Gear Ticket",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "de7ac755-bdb8-11ef-a431-0a58a9feac02",
+                  "createdAt": "2024-12-19T03:25:17.599Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b5a85146-468f-4511-905f-7c389f84da61.png",
+                  "isIosAvailable": false,
+                  "name": "Premium Weapon EXP Token",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-16T07:59:59.999Z",
+            "name": "2 hours",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2024-12-20T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f6543c1c-bdb5-11ef-b62f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3d6e1d-bdb8-11ef-9573-0a58a9feac02",
+                  "createdAt": "2024-12-19T03:25:45.718Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a177dbc0-71c7-42c9-98c0-c974154bd98c.png",
+                  "isIosAvailable": false,
+                  "name": "M4A1 - Action Time",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "fd65f310-bdb8-11ef-940b-0a58a9feac02",
+                  "createdAt": "2024-12-19T03:26:09.472Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7acb32dd-a922-489f-930e-a372473fe11c.png",
+                  "isIosAvailable": false,
+                  "name": "SG552 Advanced Full Pack",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "111e3488-bdb9-11ef-bde6-0a58a9feac02",
+                  "createdAt": "2024-12-19T03:26:42.556Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/53efc7bb-bd7c-44f2-979d-c86d644c5a19.png",
+                  "isIosAvailable": false,
+                  "name": "Warfare 2x EXP Card",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-16T07:59:59.999Z",
+            "name": "4 hours",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2024-12-20T19:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
