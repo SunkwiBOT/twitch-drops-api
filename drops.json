@@ -6,159 +6,6 @@
     "gameId": "66170",
     "rewards": [
       {
-        "id": "0cbfe429-bd6a-11ef-adcf-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "31557216",
-              "displayName": "Warframe",
-              "name": "warframe",
-              "__typename": "Channel"
-            },
-            {
-              "id": "145167538",
-              "displayName": "WarframeInternational",
-              "name": "warframeinternational",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.warframe.com/user",
-        "description": "Watch this week's Prime Time livestream for 30 minutes to receive a Protoframe Floof!",
-        "detailsURL": "https://forums.warframe.com/topic/1428058-community-stream-schedule-dec-16-22-2024/",
-        "endAt": "2024-12-20T01:14:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "66170",
-          "slug": "warframe",
-          "displayName": "Warframe",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1c3da11f-7621-4f75-b201-65066b0da4ff.jpeg",
-        "name": "Prime Time #418",
-        "owner": {
-          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-          "name": "Digital Extremes",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-12-18T20:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "483782f5-bd6a-11ef-8c1c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "51799053-bd6a-11ef-bbe5-0a58a9feac02",
-                  "createdAt": "2024-12-18T18:03:00.287Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9450ffaf-ec20-49dd-a90d-76361e31f833.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Random Hex Floof",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-20T01:14:59.999Z",
-            "name": "Random Hex Floof",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2024-12-18T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "74500b63-bd6a-11ef-b854-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "5f8cf36e-bd6a-11ef-8e07-0a58a9feac02",
-                  "createdAt": "2024-12-18T18:03:23.903Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bffadf14-102d-48b6-9472-6891aa6bb155.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Random Hex Treasure",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-20T01:14:59.999Z",
-            "name": "Random Hex Treasure",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2024-12-18T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "7cc00c06-bd6a-11ef-ae4b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "68aee31e-bd6a-11ef-be1f-0a58a9feac02",
-                  "createdAt": "2024-12-18T18:03:39.224Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cab61fc8-6f32-4224-9b0d-05a129fca91b.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Entrati Fusion Display",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-20T01:14:59.999Z",
-            "name": "Entrati Community Fusion Display",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2024-12-18T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
         "id": "3594f86d-bd6b-11ef-a7a3-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -236,7 +83,7 @@
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2024-12-18T20:00:00.000Z"
+    "startAt": "2024-12-20T01:00:00.000Z"
   },
   {
     "endAt": "2024-12-20T03:28:59.999Z",
@@ -22531,6 +22378,428 @@
       }
     ],
     "startAt": "2024-12-11T08:00:00.000Z"
+  },
+  {
+    "endAt": "2024-12-24T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
+    "gameDisplayName": "Kirka.io",
+    "gameId": "356609813",
+    "rewards": [
+      {
+        "id": "313d95c3-be71-11ef-be1f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "612061250",
+              "displayName": "nightcarries",
+              "name": "nightcarries",
+              "__typename": "Channel"
+            },
+            {
+              "id": "496248126",
+              "displayName": "BoarHts",
+              "name": "boarhts",
+              "__typename": "Channel"
+            },
+            {
+              "id": "751168623",
+              "displayName": "PawnzyLIVE",
+              "name": "pawnzylive",
+              "__typename": "Channel"
+            },
+            {
+              "id": "771896720",
+              "displayName": "ZenithsArcFR",
+              "name": "zenithsarcfr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "109378225",
+              "displayName": "bootybuffoon",
+              "name": "bootybuffoon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "401457895",
+              "displayName": "Drekikona_",
+              "name": "drekikona_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1059873145",
+              "displayName": "anubis_flystyle",
+              "name": "anubis_flystyle",
+              "__typename": "Channel"
+            },
+            {
+              "id": "201026619",
+              "displayName": "GlockIV",
+              "name": "glockiv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "733918348",
+              "displayName": "PurpleeSnipez",
+              "name": "purpleesnipez",
+              "__typename": "Channel"
+            },
+            {
+              "id": "129463230",
+              "displayName": "ACEIBI",
+              "name": "aceibi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "709978645",
+              "displayName": "AgenttAlex",
+              "name": "agenttalex",
+              "__typename": "Channel"
+            },
+            {
+              "id": "241374873",
+              "displayName": "inT_Sheriff",
+              "name": "int_sheriff",
+              "__typename": "Channel"
+            },
+            {
+              "id": "801753394",
+              "displayName": "Awesome_Sam_",
+              "name": "awesome_sam_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "721833050",
+              "displayName": "SavvHD",
+              "name": "savvhd",
+              "__typename": "Channel"
+            },
+            {
+              "id": "468440495",
+              "displayName": "exiled_wolves",
+              "name": "exiled_wolves",
+              "__typename": "Channel"
+            },
+            {
+              "id": "96865941",
+              "displayName": "MikeyOriginal",
+              "name": "mikeyoriginal",
+              "__typename": "Channel"
+            },
+            {
+              "id": "268119114",
+              "displayName": "Sniper_Gecko",
+              "name": "sniper_gecko",
+              "__typename": "Channel"
+            },
+            {
+              "id": "536790765",
+              "displayName": "Venatrix_Rose",
+              "name": "venatrix_rose",
+              "__typename": "Channel"
+            },
+            {
+              "id": "197341768",
+              "displayName": "KazuyaWF",
+              "name": "kazuyawf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "485575147",
+              "displayName": "Hokushiwa",
+              "name": "hokushiwa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "746957207",
+              "displayName": "theunofficialpepsiking",
+              "name": "theunofficialpepsiking",
+              "__typename": "Channel"
+            },
+            {
+              "id": "671935232",
+              "displayName": "oblique___",
+              "name": "oblique___",
+              "__typename": "Channel"
+            },
+            {
+              "id": "195528174",
+              "displayName": "tenstLOL",
+              "name": "tenstlol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "467564775",
+              "displayName": "imsiloo",
+              "name": "imsiloo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "471887413",
+              "displayName": "AppleSeedOG",
+              "name": "appleseedog",
+              "__typename": "Channel"
+            },
+            {
+              "id": "883212415",
+              "displayName": "BLINKSTRAFE",
+              "name": "blinkstrafe",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1062616567",
+              "displayName": "emps1t",
+              "name": "emps1t",
+              "__typename": "Channel"
+            },
+            {
+              "id": "667523015",
+              "displayName": "Leouhh69",
+              "name": "leouhh69",
+              "__typename": "Channel"
+            },
+            {
+              "id": "622296141",
+              "displayName": "B00fi_",
+              "name": "b00fi_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1055549415",
+              "displayName": "chuckbee_",
+              "name": "chuckbee_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "474152748",
+              "displayName": "ZuckMuck",
+              "name": "zuckmuck",
+              "__typename": "Channel"
+            },
+            {
+              "id": "734794613",
+              "displayName": "irrvlo",
+              "name": "irrvlo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "66980986",
+              "displayName": "Rolino",
+              "name": "rolino",
+              "__typename": "Channel"
+            },
+            {
+              "id": "149807209",
+              "displayName": "Lunarmi",
+              "name": "lunarmi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "471194536",
+              "displayName": "Saber2756",
+              "name": "saber2756",
+              "__typename": "Channel"
+            },
+            {
+              "id": "184839942",
+              "displayName": "DEXTERJET",
+              "name": "dexterjet",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1164093",
+              "displayName": "arturoware",
+              "name": "arturoware",
+              "__typename": "Channel"
+            },
+            {
+              "id": "476347793",
+              "displayName": "ZaowanAUS",
+              "name": "zaowanaus",
+              "__typename": "Channel"
+            },
+            {
+              "id": "749682785",
+              "displayName": "Legendz_1Pump",
+              "name": "legendz_1pump",
+              "__typename": "Channel"
+            },
+            {
+              "id": "562277727",
+              "displayName": "1fabin",
+              "name": "1fabin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "510769519",
+              "displayName": "immasten",
+              "name": "immasten",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1061108703",
+              "displayName": "lce_king_9",
+              "name": "lce_king_9",
+              "__typename": "Channel"
+            },
+            {
+              "id": "180993461",
+              "displayName": "StremZ",
+              "name": "stremz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "129736111",
+              "displayName": "ssKeon",
+              "name": "sskeon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "254744420",
+              "displayName": "Ediacious",
+              "name": "ediacious",
+              "__typename": "Channel"
+            },
+            {
+              "id": "873419244",
+              "displayName": "minicables_pro",
+              "name": "minicables_pro",
+              "__typename": "Channel"
+            },
+            {
+              "id": "771589602",
+              "displayName": "EFK_Lemonade",
+              "name": "efk_lemonade",
+              "__typename": "Channel"
+            },
+            {
+              "id": "983212008",
+              "displayName": "tggvrfs",
+              "name": "tggvrfs",
+              "__typename": "Channel"
+            },
+            {
+              "id": "426274687",
+              "displayName": "S4B3__",
+              "name": "s4b3__",
+              "__typename": "Channel"
+            },
+            {
+              "id": "559278653",
+              "displayName": "bebote0001",
+              "name": "bebote0001",
+              "__typename": "Channel"
+            },
+            {
+              "id": "151807529",
+              "displayName": "4supermario4",
+              "name": "4supermario4",
+              "__typename": "Channel"
+            },
+            {
+              "id": "595759555",
+              "displayName": "ZennexQ",
+              "name": "zennexq",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1174360582",
+              "displayName": "REAPER_fr_yt",
+              "name": "reaper_fr_yt",
+              "__typename": "Channel"
+            },
+            {
+              "id": "35942364",
+              "displayName": "TheDonfps",
+              "name": "thedonfps",
+              "__typename": "Channel"
+            },
+            {
+              "id": "600246416",
+              "displayName": "zyrusboi2",
+              "name": "zyrusboi2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "161832771",
+              "displayName": "Canuhbl",
+              "name": "canuhbl",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1178187506",
+              "displayName": "ScreamGamerz",
+              "name": "screamgamerz",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Kirka.io drop for the Elf Unobtainable",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2024-12-24T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ae7b9c7e-f38d-41e3-9f8b-d34161b45a37.png",
+        "name": "Elf Drop 2",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-20T01:27:42Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5601f015-be71-11ef-9c65-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_3dd388c0-0d8f-4c73-9f25-f696aa4af21b",
+                  "createdAt": "2024-12-15T18:25:18.822Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d9db9106-2eec-43db-9165-3c5b2e53b61d.png",
+                  "isIosAvailable": false,
+                  "name": "Elf",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-24T23:29:59.999Z",
+            "name": "Elf",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2024-12-20T01:27:42Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-20T01:27:42.000Z"
   },
   {
     "endAt": "2024-12-25T17:32:59.999Z",
