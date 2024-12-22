@@ -79,7 +79,7 @@
     "startAt": "2024-12-21T12:01:00.000Z"
   },
   {
-    "endAt": "2024-12-22T14:59:59.999Z",
+    "endAt": "2024-12-22T20:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
     "gameDisplayName": "Eternal Return",
     "gameId": "512864",
@@ -1551,6 +1551,160 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 180,
             "startAt": "2024-12-22T05:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "7a9d673d-be6f-11ef-b015-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "16064695",
+              "displayName": "Dhalucard",
+              "name": "dhalucard",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.playeternalreturn.com/",
+        "description": "https://twitch.playeternalreturn.com/",
+        "detailsURL": "https://twitch.playeternalreturn.com/",
+        "endAt": "2024-12-22T18:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "512864",
+          "slug": "eternal-return",
+          "displayName": "Eternal Return",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3fd630ca-86b1-486b-bd3f-25064e24f53e.png",
+        "name": "ERxDhalucard",
+        "owner": {
+          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+          "name": "Nimble Neuron Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-22T11:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9093a883-be6f-11ef-893b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_Drops_ERPartner_Secret_RandomBox_01",
+                  "createdAt": "2023-10-18T03:06:03.572Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/623a970d-6024-4001-a0b7-9024526d76f5.png",
+                  "isIosAvailable": false,
+                  "name": "Secret Box",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-22T18:59:59.999Z",
+            "name": "secret",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2024-12-22T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "d9002253-be6f-11ef-8ca2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "181357564",
+              "displayName": "Tolkin",
+              "name": "tolkin",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.playeternalreturn.com/",
+        "description": "https://twitch.playeternalreturn.com/",
+        "detailsURL": "https://twitch.playeternalreturn.com/",
+        "endAt": "2024-12-22T20:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "512864",
+          "slug": "eternal-return",
+          "displayName": "Eternal Return",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/91fc6d31-77da-4874-9808-b671d1542835.png",
+        "name": "ERxTolkin",
+        "owner": {
+          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+          "name": "Nimble Neuron Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-22T11:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "e3c89441-be6f-11ef-822b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_Drops_ERPartner_Secret_RandomBox_01",
+                  "createdAt": "2023-10-18T03:06:03.572Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/623a970d-6024-4001-a0b7-9024526d76f5.png",
+                  "isIosAvailable": false,
+                  "name": "Secret Box",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-22T20:59:59.999Z",
+            "name": "secret",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2024-12-22T11:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -4001,6 +4155,336 @@
       }
     ],
     "startAt": "2024-12-10T08:00:00.000Z"
+  },
+  {
+    "endAt": "2024-12-23T15:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
+    "gameDisplayName": "World of Tanks",
+    "gameId": "27546",
+    "rewards": [
+      {
+        "id": "05b1db94-b176-11ef-a33b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "25722719",
+              "displayName": "Dakillzor",
+              "name": "dakillzor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "97903976",
+              "displayName": "Mouzakrobat",
+              "name": "mouzakrobat",
+              "__typename": "Channel"
+            },
+            {
+              "id": "110775952",
+              "displayName": "skill4ltu",
+              "name": "skill4ltu",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
+        "description": "Join MouzAkrobat as he is joined by Skill4ltu and Dakillzor for a charity stream dedicated to supporting Dunkelziffer and Hörer helfen Kindern, and participate in exclusive Twitch Drops featuring exciting rewards!",
+        "detailsURL": "https://worldoftanks.eu/news/live-streams/streams-activities-december-2024/",
+        "endAt": "2024-12-22T22:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9b70e826-e519-4ee1-8d83-17bb4c6f5444.png",
+        "name": "Big Charity Stream",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-22T11:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7f75b282-b176-11ef-a0f0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_MA_CharityDrops_1224_14",
+                  "createdAt": "2024-12-04T08:09:07.62Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/13aad1d0-d577-40c7-b6dd-d8d19e640cca.png",
+                  "isIosAvailable": false,
+                  "name": "5x Sankt NikoMouz skins",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_MA_CharityDrops_1224_15",
+                  "createdAt": "2024-12-04T08:10:12.154Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/47b3fcd2-4863-4a03-8ec6-3e99bf4c8bfc.png",
+                  "isIosAvailable": false,
+                  "name": "5x Skillinch skins",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_MA_CharityDrops_1224_16",
+                  "createdAt": "2024-12-04T08:10:53.718Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c8989931-6779-41be-81df-d375c4e9cb7f.png",
+                  "isIosAvailable": false,
+                  "name": "5x FrostyDaki skins",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-22T22:59:59.999Z",
+            "name": "Drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2024-12-22T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "856bae33-b176-11ef-ad61-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_MA_CharityDrops_1224_10",
+                  "createdAt": "2024-12-03T13:01:44.613Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f6a2936-21a5-4407-82fe-e077fc310aa1.png",
+                  "isIosAvailable": false,
+                  "name": "3x Personal Reserves",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_MA_CharityDrops_1224_11",
+                  "createdAt": "2024-12-03T13:02:14.996Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/233cf5f8-bdfb-4877-b4d0-6a168ab5f01b.png",
+                  "isIosAvailable": false,
+                  "name": "5x Large First Aid Kits",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-22T22:59:59.999Z",
+            "name": "Drop 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2024-12-22T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "91658b2f-b176-11ef-96dd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_MA_CharityDrops_1224_12",
+                  "createdAt": "2024-12-03T13:03:27.865Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8a5afd32-bd47-463d-842a-78fad2ae32a8.png",
+                  "isIosAvailable": false,
+                  "name": "5x Large Repair Kits",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_MA_CharityDrops_1224_13",
+                  "createdAt": "2024-12-03T13:04:12.98Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/657c4e7d-2a72-4310-a727-03278576800b.png",
+                  "isIosAvailable": false,
+                  "name": "5x Automatic Extinguisher",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-22T22:59:59.999Z",
+            "name": "Drop 3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2024-12-22T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "99f1a306-ac99-11ef-9597-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
+        "description": "Commanders! Get plenty of presents and get into the holiday spirit with the Festive Token Store! Collect tokens by watching Twitch streams with Drops enabled to unlock premium vehicles and more!",
+        "detailsURL": "https://worldoftanks.eu/news/general-news/wot-monthly-december-2024/",
+        "endAt": "2024-12-23T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/676fb06c-8e70-4a8e-a1b2-34d2f02c9583.jpeg",
+        "name": "Festive Token Store #10",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-20T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ac74f52a-ac99-11ef-b5a1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_FTS_1224_10",
+                  "createdAt": "2024-11-27T08:29:23.702Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4c50f487-4ba4-4239-a82e-96083797b517.png",
+                  "isIosAvailable": false,
+                  "name": "10x Festive Tokens",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-23T15:59:59.999Z",
+            "name": "10x Festive Tokens",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2024-12-20T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-20T16:00:00.000Z"
   },
   {
     "endAt": "2024-12-23T04:58:59.999Z",
@@ -10966,85 +11450,6 @@
       }
     ],
     "startAt": "2024-12-16T15:00:00.000Z"
-  },
-  {
-    "endAt": "2024-12-23T15:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
-    "gameDisplayName": "World of Tanks",
-    "gameId": "27546",
-    "rewards": [
-      {
-        "id": "99f1a306-ac99-11ef-9597-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
-        "description": "Commanders! Get plenty of presents and get into the holiday spirit with the Festive Token Store! Collect tokens by watching Twitch streams with Drops enabled to unlock premium vehicles and more!",
-        "detailsURL": "https://worldoftanks.eu/news/general-news/wot-monthly-december-2024/",
-        "endAt": "2024-12-23T15:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "27546",
-          "slug": "world-of-tanks",
-          "displayName": "World of Tanks",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/676fb06c-8e70-4a8e-a1b2-34d2f02c9583.jpeg",
-        "name": "Festive Token Store #10",
-        "owner": {
-          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-          "name": "Wargaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-12-20T16:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "ac74f52a-ac99-11ef-b5a1-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_FTS_1224_10",
-                  "createdAt": "2024-11-27T08:29:23.702Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4c50f487-4ba4-4239-a82e-96083797b517.png",
-                  "isIosAvailable": false,
-                  "name": "10x Festive Tokens",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-23T15:59:59.999Z",
-            "name": "10x Festive Tokens",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2024-12-20T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2024-12-20T16:00:00.000Z"
   },
   {
     "endAt": "2024-12-23T16:59:59.999Z",
