@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2024-12-23T02:59:59.999Z",
+    "endAt": "2024-12-23T04:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
     "gameDisplayName": "Halo Infinite",
     "gameId": "506416",
@@ -83,6 +83,113 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2024-12-22T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "21e7483f-ad14-11ef-bc2c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "10692319",
+              "displayName": "Eli_X",
+              "name": "eli_x",
+              "__typename": "Channel"
+            },
+            {
+              "id": "77973535",
+              "displayName": "RealLifeSpartan",
+              "name": "reallifespartan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "147478511",
+              "displayName": "NiftyN00B",
+              "name": "niftyn00b",
+              "__typename": "Channel"
+            },
+            {
+              "id": "77547462",
+              "displayName": "Precellence",
+              "name": "precellence",
+              "__typename": "Channel"
+            },
+            {
+              "id": "161118592",
+              "displayName": "JunkShip",
+              "name": "junkship",
+              "__typename": "Channel"
+            },
+            {
+              "id": "494299961",
+              "displayName": "Icehfy",
+              "name": "icehfy",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn Halo Infinite in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2024-12-23T04:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b487d26c-c29c-4f54-9640-843c0e5a3ed8.png",
+        "name": "Halo CreatorCustoms-DEC22",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-23T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "4ebdf2e4-ad14-11ef-84e3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_EGWC-LW2W-3SJ7-5XJI-GHCZ",
+                  "createdAt": "2023-11-17T00:00:09.736Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87e563c2-ec4d-49f1-bb08-68d7f0c7e4d6.png",
+                  "isIosAvailable": false,
+                  "name": "Winner's Circle SpartanID",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-23T04:59:59.999Z",
+            "name": "Winner's Circle Emblem and Nameplate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2024-12-23T00:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
