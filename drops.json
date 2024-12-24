@@ -2259,7 +2259,7 @@
     "startAt": "2024-12-23T17:00:00.000Z"
   },
   {
-    "endAt": "2024-12-24T17:57:59.999Z",
+    "endAt": "2024-12-25T17:57:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
     "gameDisplayName": "Rise Online",
     "gameId": "516588",
@@ -2755,6 +2755,118 @@
             "name": "ROW Drop 42",
             "preconditionDrops": null,
             "requiredMinutesWatched": 240,
+            "startAt": "2024-12-23T17:59:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "843d428f-c1e4-11ef-83d5-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1221356348",
+              "displayName": "benmadmemre",
+              "name": "benmadmemre",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.riseonlineworld.com/usercp?do=twitch",
+        "description": "Twitch’e özel Rise Online World Twitch Ödülleri elde etmek için talimatları tamamlayın.",
+        "detailsURL": "https://www.riseonlineworld.com/usercp?do=twitch",
+        "endAt": "2024-12-25T17:57:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "516588",
+          "slug": "rise-online",
+          "displayName": "Rise Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7adc43c8-332e-48e3-a4f3-14d7411615dd.jpeg",
+        "name": "ROW Xmas Drop",
+        "owner": {
+          "id": "3b99ecc6-a283-449c-9de8-dbf12c0cffdf",
+          "name": "Roko Game Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-23T17:59:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1700edc8-c1e5-11ef-95c8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3b99ecc6-a283-449c-9de8-dbf12c0cffdf_CUSTOM_ID_12",
+                  "createdAt": "2023-12-29T13:30:03.969Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516588",
+                    "name": "Rise Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0c937434-c893-4cb2-8e90-deffa006c698.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Christmas Wing Box",
+                  "ownerOrganization": {
+                    "id": "3b99ecc6-a283-449c-9de8-dbf12c0cffdf",
+                    "name": "Roko Game Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-25T17:57:59.998Z",
+            "name": "ROW Wing Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2024-12-23T17:59:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "25ba7bd5-c1e5-11ef-bdcb-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3b99ecc6-a283-449c-9de8-dbf12c0cffdf_CUSTOM_ID_25",
+                  "createdAt": "2024-12-24T10:50:06.132Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516588",
+                    "name": "Rise Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/65a38341-81c8-499c-aaa1-58a82e6f9715.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Christmas Present Box",
+                  "ownerOrganization": {
+                    "id": "3b99ecc6-a283-449c-9de8-dbf12c0cffdf",
+                    "name": "Roko Game Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2024-12-25T17:57:59.998Z",
+            "name": "ROW Christmas Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 20,
             "startAt": "2024-12-23T17:59:00Z",
             "__typename": "TimeBasedDrop"
           }
