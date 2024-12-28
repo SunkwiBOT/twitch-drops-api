@@ -1,254 +1,5 @@
 [
   {
-    "endAt": "2025-01-01T15:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
-    "gameDisplayName": "World of Tanks",
-    "gameId": "27546",
-    "rewards": [
-      {
-        "id": "0c62e6fb-b977-11ef-a6e4-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "29599366",
-              "displayName": "kajzoo",
-              "name": "kajzoo",
-              "__typename": "Channel"
-            },
-            {
-              "id": "98827681",
-              "displayName": "Tankelit",
-              "name": "tankelit",
-              "__typename": "Channel"
-            },
-            {
-              "id": "719582046",
-              "displayName": "iulia_slays",
-              "name": "iulia_slays",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
-        "description": "Tune in to Kajzoo, Tankelit and Iulia_slays to support a good cause and earn some neat rewards in the process ",
-        "detailsURL": "https://worldoftanks.eu/en/news/live-streams/streams-activities-december-2024/",
-        "endAt": "2024-12-28T22:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "27546",
-          "slug": "world-of-tanks",
-          "displayName": "World of Tanks",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cfc5095a-1881-4d74-b5a1-e091f1ab6584.jpeg",
-        "name": "Kajzoo Charity Stream",
-        "owner": {
-          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-          "name": "Wargaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-12-28T09:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "20698bdd-b977-11ef-a21c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_KZJ_12_24_01",
-                  "createdAt": "2024-12-13T17:25:37.731Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2c5b3b13-4cb9-44e4-9ce1-40d30e4c8fa1.png",
-                  "isIosAvailable": false,
-                  "name": "2x Personal Reserves",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_KZJ_12_24_02",
-                  "createdAt": "2024-12-13T17:26:05.908Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6aada8d6-3fb2-4199-8685-f6913153fe74.png",
-                  "isIosAvailable": false,
-                  "name": "5x Large Repair Kits",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_KZJ_12_24_03",
-                  "createdAt": "2024-12-13T17:26:21.425Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6e66b974-d2b8-44fa-bf22-2c3bc87516fe.png",
-                  "isIosAvailable": false,
-                  "name": "5x Large First Aid Kits",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2024-12-28T22:59:59.999Z",
-            "name": "Drop 1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2024-12-28T09:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "851de124-ac9e-11ef-9c81-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
-        "description": "Commanders! Support your favorite streamers and get a festive 2D style for doing so as you continue collecting Festive Tokens for our holiday Token Store!",
-        "detailsURL": "https://worldoftanks.eu/news/live-streams/streams-activities-december-2024/",
-        "endAt": "2025-01-01T15:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "27546",
-          "slug": "world-of-tanks",
-          "displayName": "World of Tanks",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5787c31d-a251-451f-8e3a-715b08c8b8e1.jpeg",
-        "name": "Ho-ho-holiday Support #12",
-        "owner": {
-          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-          "name": "Wargaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2024-12-26T16:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "554d045d-acd3-11ef-90d1-0a58a9feac02",
-            "requiredSubs": 1,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_SAS_12_24_01",
-                  "createdAt": "2024-11-27T15:20:57.166Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cde59c7e-7380-42c6-a81a-4d09b100e641.png",
-                  "isIosAvailable": false,
-                  "name": "1x Red Hat Battalion ",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-01-01T15:59:59.998Z",
-            "name": "Support a Streamer",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 0,
-            "startAt": "2024-12-26T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "84b4b4d8-aca1-11ef-b67e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_FTS_1224_12",
-                  "createdAt": "2024-11-27T09:25:56.767Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5da5f84d-c4fe-40b1-8a23-05bf2445c81f.png",
-                  "isIosAvailable": false,
-                  "name": "5x Festive Tokens",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-01-01T15:59:59.998Z",
-            "name": "5x Festive Tokens",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2024-12-26T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2024-12-26T16:00:00.000Z"
-  },
-  {
     "endAt": "2024-12-29T04:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
     "gameDisplayName": "Halo Infinite",
@@ -16806,6 +16557,120 @@
       }
     ],
     "startAt": "2024-12-10T19:00:00.000Z"
+  },
+  {
+    "endAt": "2025-01-01T15:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
+    "gameDisplayName": "World of Tanks",
+    "gameId": "27546",
+    "rewards": [
+      {
+        "id": "851de124-ac9e-11ef-9c81-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
+        "description": "Commanders! Support your favorite streamers and get a festive 2D style for doing so as you continue collecting Festive Tokens for our holiday Token Store!",
+        "detailsURL": "https://worldoftanks.eu/news/live-streams/streams-activities-december-2024/",
+        "endAt": "2025-01-01T15:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5787c31d-a251-451f-8e3a-715b08c8b8e1.jpeg",
+        "name": "Ho-ho-holiday Support #12",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-26T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "554d045d-acd3-11ef-90d1-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_SAS_12_24_01",
+                  "createdAt": "2024-11-27T15:20:57.166Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cde59c7e-7380-42c6-a81a-4d09b100e641.png",
+                  "isIosAvailable": false,
+                  "name": "1x Red Hat Battalion ",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-01T15:59:59.998Z",
+            "name": "Support a Streamer",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2024-12-26T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "84b4b4d8-aca1-11ef-b67e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_FTS_1224_12",
+                  "createdAt": "2024-11-27T09:25:56.767Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5da5f84d-c4fe-40b1-8a23-05bf2445c81f.png",
+                  "isIosAvailable": false,
+                  "name": "5x Festive Tokens",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-01T15:59:59.998Z",
+            "name": "5x Festive Tokens",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2024-12-26T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-26T16:00:00.000Z"
   },
   {
     "endAt": "2025-01-01T17:59:59.999Z",
