@@ -32605,6 +32605,85 @@
     "startAt": "2024-12-11T19:00:00.000Z"
   },
   {
+    "endAt": "2025-01-06T23:29:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
+    "gameDisplayName": "Kirka.io",
+    "gameId": "356609813",
+    "rewards": [
+      {
+        "id": "2806aca2-c79c-11ef-a693-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Watch 15 hours to get rewarded a Dragon skin",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2025-01-06T23:29:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ecc507d5-5bda-4e58-8032-f6870a810e85.png",
+        "name": "Dragon Unobtainable",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-31T17:30:25Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5fdaa55d-c79c-11ef-a8fa-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_f950cae4-ded9-4084-b92f-254afba21693",
+                  "createdAt": "2024-12-31T17:29:35.79Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/004592fb-9d7b-4127-a758-dd51d9f86e46.png",
+                  "isIosAvailable": true,
+                  "name": "Dragon",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-06T23:29:59.998Z",
+            "name": "Dragon Unobtainable",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2024-12-31T17:30:25Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-31T17:30:25.000Z"
+  },
+  {
     "endAt": "2025-01-06T23:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-120x160.jpg",
     "gameDisplayName": "Rust",
