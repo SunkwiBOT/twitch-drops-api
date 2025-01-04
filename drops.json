@@ -24677,6 +24677,12 @@
               "displayName": "TheOGRobby",
               "name": "theogrobby",
               "__typename": "Channel"
+            },
+            {
+              "id": "934459271",
+              "displayName": "ngu_ad1n",
+              "name": "ngu_ad1n",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -25774,6 +25780,127 @@
       }
     ],
     "startAt": "2024-12-10T13:00:00.000Z"
+  },
+  {
+    "endAt": "2025-01-07T10:56:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2011938005_IGDB-120x160.jpg",
+    "gameDisplayName": "EA Sports FC 25",
+    "gameId": "2011938005",
+    "rewards": [
+      {
+        "id": "90b4d9e0-b61c-11ef-9b87-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "28029009",
+              "displayName": "easportsfc",
+              "name": "easportsfc",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "FC Pro Open Match Day 5",
+        "detailsURL": "https://www.ea.com/games/ea-sports-fc/fc-pro/news/deep-dive-viewership-and-in-game-rewards",
+        "endAt": "2025-01-07T10:56:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2011938005",
+          "slug": "ea-sports-fc-25",
+          "displayName": "EA Sports FC 25",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9d783b50-0465-40ad-8992-291185daabc6.png",
+        "name": "FC Pro Open Match Day 5",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2024-12-10T10:57:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "329b1b95-b61d-11ef-8953-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_FCPRO_2513",
+                  "createdAt": "2024-12-09T11:01:57.679Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2011938005",
+                    "name": "EA Sports FC 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3a6137a3-f635-4ece-a950-1e45f4b090b4.png",
+                  "isIosAvailable": false,
+                  "name": "FC Pro Live Gravenberch 9",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-07T10:56:59.999Z",
+            "name": "FC Pro Live Gravenberch (9 games)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2024-12-10T10:57:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3884be61-b61d-11ef-96f1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_FCPRO_2514",
+                  "createdAt": "2024-12-09T11:02:22.604Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2011938005",
+                    "name": "EA Sports FC 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/63e9303c-59be-424c-b614-7c1a579530b5.png",
+                  "isIosAvailable": false,
+                  "name": "Rare Players Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-07T10:56:59.999Z",
+            "name": "Rare Players Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2024-12-10T10:57:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2024-12-10T10:57:00.000Z"
   },
   {
     "endAt": "2025-01-07T11:59:59.999Z",
