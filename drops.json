@@ -20743,7 +20743,7 @@
     "startAt": "2025-01-01T00:00:00.000Z"
   },
   {
-    "endAt": "2025-01-15T22:59:59.997Z",
+    "endAt": "2025-01-16T16:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
     "gameDisplayName": "World of Warships",
     "gameId": "32502",
@@ -20820,6 +20820,111 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 90,
             "startAt": "2025-01-08T23:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "e904a517-cda5-11ef-b36f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://wargaming.net/personal/",
+        "description": "New Drops!",
+        "detailsURL": "https://worldofwarships.eu/news/general-news/stream-rewards-140/",
+        "endAt": "2025-01-16T16:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "32502",
+          "slug": "world-of-warships",
+          "displayName": "World of Warships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2db63059-b5e4-4a57-a754-cf801e0fb096.png",
+        "name": "Update 14.0 Drop: Week 1",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-09T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "30632200-cda6-11ef-956c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1400_mission1",
+                  "createdAt": "2025-01-08T09:42:14.823Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0c32eae8-9eb4-45ff-9c86-15474ffdb0d0.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Update 14.0 Mission #1",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-16T16:59:59.997Z",
+            "name": "Update 14.0 Mission #1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-01-09T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4a827514-cda6-11ef-835f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1400_twitchbox",
+                  "createdAt": "2025-01-08T09:42:13.259Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2576554a-fb8c-4152-8dea-678f1bf6293e.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Container 14.0",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-16T16:59:59.997Z",
+            "name": "Twitch Container 14.0 week #1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-01-09T15:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -24716,6 +24821,295 @@
       }
     ],
     "startAt": "2024-12-20T16:00:00.000Z"
+  },
+  {
+    "endAt": "2025-01-20T11:57:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-120x160.jpg",
+    "gameDisplayName": "SMITE",
+    "gameId": "32507",
+    "rewards": [
+      {
+        "id": "50b3f0a2-ce9a-11ef-a1eb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://my.hirezstudios.com/",
+        "description": "Viewers will receive 2000 Viewer Points for each two hours spent viewing participating streams from January 9, 2024 until January 20, 2024 at 12:00 UTC. Rewards must be claimed while the Twitch Campaign is running in order to be received in-game.",
+        "detailsURL": "https://www.smitegame.com/news/season-8-viewer-points-guide-and-faq/",
+        "endAt": "2025-01-20T11:57:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "32507",
+          "slug": "smite",
+          "displayName": "SMITE",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/bf83fe5f-983b-4c25-8111-31a6f5b7df54.jpeg",
+        "name": "SMITE 11.12 Week 5",
+        "owner": {
+          "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+          "name": "Hi-Rez Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-09T12:01:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "67d58b82-ce9a-11ef-b875-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "51a157a0-674a-4863-b120-7bb6ee2466a8_CUSTOM_ID_SMT-10R10-VP16",
+                  "createdAt": "2023-10-20T17:59:51.381Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32507",
+                    "name": "SMITE",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d696200-066c-4179-9f63-fa2591c7c190.jpeg",
+                  "isIosAvailable": false,
+                  "name": "VP Bundle 1",
+                  "ownerOrganization": {
+                    "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+                    "name": "Hi-Rez Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-20T11:57:59.998Z",
+            "name": "Viewer Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-01-09T12:01:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6a3d35b1-ce9a-11ef-bd73-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "51a157a0-674a-4863-b120-7bb6ee2466a8_CUSTOM_ID_SMT-10R10-VP24",
+                  "createdAt": "2023-10-20T19:14:48.184Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32507",
+                    "name": "SMITE",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c65c4713-81f0-4c8e-885b-0de093cf69c7.jpeg",
+                  "isIosAvailable": false,
+                  "name": "VP Bundle 2",
+                  "ownerOrganization": {
+                    "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+                    "name": "Hi-Rez Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-20T11:57:59.998Z",
+            "name": "Viewer Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-01-09T12:01:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6c4f4c5a-ce9a-11ef-9415-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "51a157a0-674a-4863-b120-7bb6ee2466a8_CUSTOM_ID_SMT-10R10-VP32",
+                  "createdAt": "2023-10-24T13:20:08.225Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32507",
+                    "name": "SMITE",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b2acdfe5-5c2f-4d48-be59-233067788a27.jpeg",
+                  "isIosAvailable": false,
+                  "name": "VP Bundle 3",
+                  "ownerOrganization": {
+                    "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+                    "name": "Hi-Rez Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-20T11:57:59.998Z",
+            "name": "Viewer Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-01-09T12:01:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7117d1b2-ce9a-11ef-93de-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "51a157a0-674a-4863-b120-7bb6ee2466a8_CUSTOM_ID_SMT-10R10-VP8",
+                  "createdAt": "2023-10-24T13:20:43.328Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32507",
+                    "name": "SMITE",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d058fbd4-c383-4ed6-98d7-fd526ec71166.jpeg",
+                  "isIosAvailable": false,
+                  "name": "VP Bundle 4",
+                  "ownerOrganization": {
+                    "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+                    "name": "Hi-Rez Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-20T11:57:59.998Z",
+            "name": "Viewer Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2025-01-09T12:01:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "737c6ed0-ce9a-11ef-b26d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "51a157a0-674a-4863-b120-7bb6ee2466a8_CUSTOM_ID_SMT-10R9-VP24",
+                  "createdAt": "2023-10-24T13:21:38.721Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32507",
+                    "name": "SMITE",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5bd8cc19-f037-4da5-8b08-4a841bc6d4e6.jpeg",
+                  "isIosAvailable": false,
+                  "name": "VP Bundle 5",
+                  "ownerOrganization": {
+                    "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+                    "name": "Hi-Rez Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-20T11:57:59.998Z",
+            "name": "Viewer Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 600,
+            "startAt": "2025-01-09T12:01:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "768158e2-ce9a-11ef-b4c6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "51a157a0-674a-4863-b120-7bb6ee2466a8_CUSTOM_ID_SMT-10R9-VP23",
+                  "createdAt": "2023-10-24T13:22:08.641Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32507",
+                    "name": "SMITE",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/671139be-fe1d-4cca-9558-1e2acf8727f2.jpeg",
+                  "isIosAvailable": false,
+                  "name": "VP Bundle 6",
+                  "ownerOrganization": {
+                    "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+                    "name": "Hi-Rez Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-20T11:57:59.998Z",
+            "name": "Viewer Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 720,
+            "startAt": "2025-01-09T12:01:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "794c3b47-ce9a-11ef-84b6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "51a157a0-674a-4863-b120-7bb6ee2466a8_CUSTOM_ID_SMT-10R9-VP22",
+                  "createdAt": "2023-10-24T13:22:29.047Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32507",
+                    "name": "SMITE",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fb611baf-38f7-4cf0-b06a-060bef4e86f6.jpeg",
+                  "isIosAvailable": false,
+                  "name": "VP Bundle 7",
+                  "ownerOrganization": {
+                    "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+                    "name": "Hi-Rez Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-20T11:57:59.998Z",
+            "name": "Viewer Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 840,
+            "startAt": "2025-01-09T12:01:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-09T12:01:00.000Z"
   },
   {
     "endAt": "2025-01-20T13:59:59.999Z",
