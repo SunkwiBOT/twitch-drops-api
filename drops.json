@@ -1,5 +1,126 @@
 [
   {
+    "endAt": "2025-01-09T20:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/65654_IGDB-120x160.jpg",
+    "gameDisplayName": "The Elder Scrolls Online",
+    "gameId": "65654",
+    "rewards": [
+      {
+        "id": "75f9c610-cd3c-11ef-956c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "614394",
+              "displayName": "Bethesda",
+              "name": "bethesda",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.elderscrollsonline.com/",
+        "description": "Earn a Major Experience Scroll simply by watching Drop-enabled ESO streams on Twitch!",
+        "detailsURL": "https://www.elderscrollsonline.com/en-us/news/post/67393",
+        "endAt": "2025-01-09T20:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "65654",
+          "slug": "the-elder-scrolls-online",
+          "displayName": "The Elder Scrolls Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/973f6b8e-2c72-4911-8eee-56a24a572724.png",
+        "name": "Update 45 Preview",
+        "owner": {
+          "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
+          "name": "ZeniMax Online Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-09T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "8389d437-cd3c-11ef-be3f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_661",
+                  "createdAt": "2023-10-16T20:45:26.801Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "65654",
+                    "name": "The Elder Scrolls Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82e27bfb-eed2-4d24-bbeb-668789ff1dd4.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Ouroboros Crown Crate",
+                  "ownerOrganization": {
+                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
+                    "name": "ZeniMax Online Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-09T20:59:59.998Z",
+            "name": "Ouroboros Crown Crate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-01-09T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "984f39cf-cd3c-11ef-9987-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_1393",
+                  "createdAt": "2023-11-01T13:04:55.081Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "65654",
+                    "name": "The Elder Scrolls Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5a288e0-fa5e-44d6-a7c4-d5540716b425.png",
+                  "isIosAvailable": false,
+                  "name": "Major Experience Scroll",
+                  "ownerOrganization": {
+                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
+                    "name": "ZeniMax Online Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-09T20:59:59.998Z",
+            "name": "Major Experience Scroll",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-01-09T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-09T19:00:00.000Z"
+  },
+  {
     "endAt": "2025-01-09T22:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/510389_IGDB-120x160.jpg",
     "gameDisplayName": "Shakes and Fidget",
