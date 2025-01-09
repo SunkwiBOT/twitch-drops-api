@@ -2772,6 +2772,164 @@
     "gameId": "1063665418",
     "rewards": [
       {
+        "id": "44f734e1-ceb0-11ef-be3f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "110879765",
+              "displayName": "OOTPDevelopments",
+              "name": "ootpdevelopments",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://pt25.ootpdevelopments.com/twitch",
+        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 25! Get up to five (5) packs per day!",
+        "detailsURL": "https://forums.ootpdevelopments.com/showthread.php?p=5084790#post5084790",
+        "endAt": "2025-01-10T08:56:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1063665418",
+          "slug": "out-of-the-park-baseball-25",
+          "displayName": "Out of the Park Baseball 25",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6d8f78cd-f1cc-4bf0-9e49-72d25bccf201.png",
+        "name": "Official 1/9/25b",
+        "owner": {
+          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+          "name": "Out of the Park Developments",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-09T09:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "56de8342-ceb0-11ef-afde-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "51744c1c-d9d6-11ee-8046-0a58a9feac02",
+                  "createdAt": "2024-03-04T03:21:40.786Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1063665418",
+                    "name": "Out of the Park Baseball 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3964373e-9486-429d-aacc-d46e8cca201f.png",
+                  "isIosAvailable": false,
+                  "name": "PT25 Standard Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "25629ce0-dada-11ee-ac2c-0a58a9feac02",
+                  "createdAt": "2024-03-05T10:21:36Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1063665418",
+                    "name": "Out of the Park Baseball 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/53283107-2ac0-4019-99ee-d905f4411e6c.png",
+                  "isIosAvailable": false,
+                  "name": "PT25 Silver Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-10T08:56:59.998Z",
+            "name": "1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-01-09T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "609d45a0-ceb0-11ef-abbf-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "51744c1c-d9d6-11ee-8046-0a58a9feac02",
+                  "createdAt": "2024-03-04T03:21:40.786Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1063665418",
+                    "name": "Out of the Park Baseball 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3964373e-9486-429d-aacc-d46e8cca201f.png",
+                  "isIosAvailable": false,
+                  "name": "PT25 Standard Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "25629ce0-dada-11ee-ac2c-0a58a9feac02",
+                  "createdAt": "2024-03-05T10:21:36Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1063665418",
+                    "name": "Out of the Park Baseball 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/53283107-2ac0-4019-99ee-d905f4411e6c.png",
+                  "isIosAvailable": false,
+                  "name": "PT25 Silver Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-10T08:56:59.998Z",
+            "name": "2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 150,
+            "startAt": "2025-01-09T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "43d7880f-cd1f-11ef-b12d-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
