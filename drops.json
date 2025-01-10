@@ -6598,6 +6598,92 @@
     "startAt": "2025-01-09T12:05:39.000Z"
   },
   {
+    "endAt": "2025-01-13T11:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511295_IGDB-120x160.jpg",
+    "gameDisplayName": "Predecessor",
+    "gameId": "511295",
+    "rewards": [
+      {
+        "id": "e4badf89-cf3c-11ef-aa3d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "887350327",
+              "displayName": "PrimeChampionshipCircuit",
+              "name": "primechampionshipcircuit",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://predecessorgame.com/link-accounts",
+        "description": "PCC X is here! Watch the best of the best go toe-to-toe and earn yourself an exclusive PCC spray to use in game!",
+        "detailsURL": "https://predecessorgame.com/twitch-drops",
+        "endAt": "2025-01-13T11:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511295",
+          "slug": "predecessor",
+          "displayName": "Predecessor",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b0ca5e2c-a94f-4446-8893-ead76c4c5068.png",
+        "name": "PCCX Finals",
+        "owner": {
+          "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+          "name": "Omeda Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-10T09:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1a5e89d6-cf3d-11ef-8aad-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bc49c5c7-b8a0-11ef-b4c5-0a58a9feac02",
+                  "createdAt": "2024-12-12T15:49:56.5Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fe51b47a-60c3-40c6-b9f9-9d732ed31ce6.png",
+                  "isIosAvailable": false,
+                  "name": "PCC Spray",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-13T11:59:59.999Z",
+            "name": "PCC Spray",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-01-10T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-10T09:00:00.000Z"
+  },
+  {
     "endAt": "2025-01-13T13:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2113043143_IGDB-120x160.jpg",
     "gameDisplayName": "PAYDAY 3",
