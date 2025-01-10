@@ -1756,6 +1756,92 @@
     "startAt": "2025-01-09T17:59:00.000Z"
   },
   {
+    "endAt": "2025-01-10T18:59:59.997Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/518873_IGDB-120x160.jpg",
+    "gameDisplayName": "Warhammer 40,000: Darktide",
+    "gameId": "518873",
+    "rewards": [
+      {
+        "id": "540458ad-ce6e-11ef-a883-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "51815168",
+              "displayName": "FatsharkGames",
+              "name": "fatsharkgames",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://accounts.atoma.cloud/twitch-drops",
+        "description": "Twitch drop for the Book Club Frame! Follow the instructions below to unlock \n1. Go to https://accounts.atoma.cloud/twitch-drops and sign in to your Steam/PSN/ Windows PC/XBOX account. \n2. Here please link your Darktide account with your Twitch account. \n3. Once linked, start watching a participating channel to unlock the rewards!",
+        "detailsURL": "https://x.com/Darktide40K/status/1877430455722504652",
+        "endAt": "2025-01-10T18:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "518873",
+          "slug": "warhammer-40-000-darktide",
+          "displayName": "Warhammer 40,000: Darktide",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7e60dfff-9765-442e-b4a3-17da818384e1.png",
+        "name": "Book Club Rebroadcast",
+        "owner": {
+          "id": "8b65e332-9430-4b49-a064-b7c4913c82e4",
+          "name": "Fatshark",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-10T14:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "98a7bedd-ce73-11ef-a443-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8b65e332-9430-4b49-a064-b7c4913c82e4_CUSTOM_ID_584e92f0-3131-4e44-960f-aaf0c6d55b55_5550f206-4d59-453c-ba88-04028b7671d2",
+                  "createdAt": "2024-12-19T14:33:37.39Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518873",
+                    "name": "Warhammer 40,000: Darktide",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d7bc14fa-df9c-4207-b0d1-a5e31239f5a7.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Book Club Frame",
+                  "ownerOrganization": {
+                    "id": "8b65e332-9430-4b49-a064-b7c4913c82e4",
+                    "name": "Fatshark",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-10T18:59:59.997Z",
+            "name": "Book Club Frame 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 20,
+            "startAt": "2025-01-10T14:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-10T14:30:00.000Z"
+  },
+  {
     "endAt": "2025-01-11T01:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/890558948_IGDB-120x160.jpg",
     "gameDisplayName": "Torchlight: Infinite",
