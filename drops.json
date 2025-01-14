@@ -23267,5 +23267,121 @@
       }
     ],
     "startAt": "2025-01-14T18:00:00.000Z"
+  },
+  {
+    "endAt": "2025-02-06T23:59:59.994Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21779-120x160.jpg",
+    "gameDisplayName": "League of Legends",
+    "gameId": "21779",
+    "rewards": [
+      {
+        "id": "97247696-d210-11ef-b50e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "124425501",
+              "displayName": "LCK",
+              "name": "lck",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36511475",
+              "displayName": "LTASul",
+              "name": "ltasul",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124422593",
+              "displayName": "LEC",
+              "name": "lec",
+              "__typename": "Channel"
+            },
+            {
+              "id": "485725873",
+              "displayName": "LoLPacificEN",
+              "name": "lolpacificen",
+              "__typename": "Channel"
+            },
+            {
+              "id": "485855940",
+              "displayName": "lolesportstw",
+              "name": "lolesportstw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "104833324",
+              "displayName": "RiotGamesJP",
+              "name": "riotgamesjp",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
+        "description": "Starting in Split 1, Riot Games is introducing Twitch Subscriptions to select LoL Esports broadcast channels! This new initiative offers fans an enhanced viewing experience while providing direct support to their favorite leagues and teams. Subscribers with paid and gifted Tier 1 subscriptions will unlock exclusive in-game rewards through Twitch’s Drop Fest. Subscribers can earn the special “Why Though?” emote by subscribing to participating channels.",
+        "detailsURL": "https://lolesports.com/en-US/news/lol-esports-twitch-subscriptions",
+        "endAt": "2025-02-06T23:59:59.994Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "21779",
+          "slug": "league-of-legends",
+          "displayName": "League of Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4f760934-a483-42cd-954e-acf88cc2712c.jpeg",
+        "name": "Subs Launch - Drop Fest 1",
+        "owner": {
+          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+          "name": "Riot Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-14T21:25:35Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0a71eaf8-d211-11ef-8260-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2024-LOL-TWITCHSUBS-WHY-ICON",
+                  "createdAt": "2025-01-14T00:47:43.92Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "21779",
+                    "name": "League of Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec9bbe35-5601-46bc-81ae-0087802d4b92.png",
+                  "isIosAvailable": true,
+                  "name": "\"Why Tho?\" Emote",
+                  "ownerOrganization": {
+                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+                    "name": "Riot Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-06T23:59:59.994Z",
+            "name": "\"Why Tho?\" Emote",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-01-14T21:25:35Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-14T21:25:35.000Z"
   }
 ]
