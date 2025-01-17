@@ -16287,6 +16287,85 @@
     "startAt": "2025-01-17T07:00:00.000Z"
   },
   {
+    "endAt": "2025-02-13T07:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/155409827_IGDB-120x160.jpg",
+    "gameDisplayName": "Pokémon Trading Card Game Live",
+    "gameId": "155409827",
+    "rewards": [
+      {
+        "id": "aed8900b-d479-11ef-8b75-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://rewards.pokemon.com/",
+        "description": "Earn a Prismatic Evolutions ETB in Pokémon Trading Card Game Live by tuning in to any channel streaming to the Pokémon Trading Card Game Live category for 30 minutes. Redeem by 2025/02/17 23:59 UTC. FAQ: pkmn.news/PokemonDrops",
+        "detailsURL": "https://rewards.pokemon.com/",
+        "endAt": "2025-02-13T07:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "155409827",
+          "slug": "pokemon-trading-card-game-live",
+          "displayName": "Pokémon Trading Card Game Live",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/893aff79-4ab3-4e5f-a9d4-f62559bff15f.png",
+        "name": "Prismatic Evolutions",
+        "owner": {
+          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+          "name": "The Pokémon Company",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-17T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f0bc821e-d479-11ef-9ec4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3d7a82ee-d478-11ef-8d91-0a58a9feac02",
+                  "createdAt": "2025-01-17T02:10:36.437Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "155409827",
+                    "name": "Pokémon Trading Card Game Live",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/858e5ba3-e208-482d-bc24-6e7838cb11f0.png",
+                  "isIosAvailable": false,
+                  "name": "Prismatic Evolutions ETB",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-13T07:59:59.998Z",
+            "name": "ETB",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-01-17T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-17T08:00:00.000Z"
+  },
+  {
     "endAt": "2025-02-13T23:56:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1515015750_IGDB-120x160.jpg",
     "gameDisplayName": "Strinova",
