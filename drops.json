@@ -184,6 +184,92 @@
     "startAt": "2025-01-18T14:00:00.000Z"
   },
   {
+    "endAt": "2025-01-19T04:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417969-120x160.jpg",
+    "gameDisplayName": "Halo: The Master Chief Collection",
+    "gameId": "417969",
+    "rewards": [
+      {
+        "id": "d31eaef9-d5f4-11ef-b568-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "762572239",
+              "displayName": "ClutchAcademyGG",
+              "name": "clutchacademygg",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into the HCS Grassroots event to earn Halo MCC in-game content!",
+        "detailsURL": "https://www.halowaypoint.com/",
+        "endAt": "2025-01-19T04:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417969",
+          "slug": "halo-the-master-chief-collection",
+          "displayName": "Halo: The Master Chief Collection",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "Clutch Academy",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-18T23:32:27Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "e08e6841-d5f4-11ef-a9b3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_HCSGR-MCC-4IY4-85E8-JXSC",
+                  "createdAt": "2024-02-26T23:58:48.1Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417969",
+                    "name": "Halo: The Master Chief Collection",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/92dba964-9dc7-4f13-8c81-80579bef1a38.png",
+                  "isIosAvailable": false,
+                  "name": "On the Money Nameplate",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-19T04:59:59.999Z",
+            "name": "On the Money Nameplate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-01-18T23:32:27Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-18T23:32:27.000Z"
+  },
+  {
     "endAt": "2025-01-19T05:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
     "gameDisplayName": "Halo Infinite",
@@ -201,12 +287,6 @@
               "id": "222719079",
               "displayName": "LVTHalo",
               "name": "lvthalo",
-              "__typename": "Channel"
-            },
-            {
-              "id": "762572239",
-              "displayName": "ClutchAcademyGG",
-              "name": "clutchacademygg",
               "__typename": "Channel"
             },
             {
