@@ -191,6 +191,98 @@
     "startAt": "2025-01-15T23:00:00.000Z"
   },
   {
+    "endAt": "2025-01-23T06:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
+    "gameDisplayName": "Halo Infinite",
+    "gameId": "506416",
+    "rewards": [
+      {
+        "id": "0d1f91fb-d2b0-11ef-b869-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "10692319",
+              "displayName": "Eli_X",
+              "name": "eli_x",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36799798",
+              "displayName": "MintBlitz",
+              "name": "mintblitz",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn Halo Infinite in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-01-23T06:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/63f2cb5f-18ec-4036-a0fc-01bca38fe317.png",
+        "name": "New Years Clip Hunt-JAN22",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-22T21:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1d33ff3e-d2b0-11ef-b811-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_MG64-VCQH-TW3J-5S93",
+                  "createdAt": "2024-07-09T23:15:22.133Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1ec55c80-b94b-4d32-8185-ed0c556e34b7.png",
+                  "isIosAvailable": false,
+                  "name": "Red Devil Charm",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-23T06:59:59.999Z",
+            "name": "Red Devil Charm",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-01-22T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-22T21:00:00.000Z"
+  },
+  {
     "endAt": "2025-01-23T08:57:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1063665418_IGDB-120x160.jpg",
     "gameDisplayName": "Out of the Park Baseball 25",
