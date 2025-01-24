@@ -746,6 +746,133 @@
     "startAt": "2025-01-24T12:00:00.000Z"
   },
   {
+    "endAt": "2025-01-24T22:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/138585-120x160.jpg",
+    "gameDisplayName": "Hearthstone",
+    "gameId": "138585",
+    "rewards": [
+      {
+        "id": "9f757abd-ca0b-11ef-9e6a-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "42776357",
+              "displayName": "PlayHearthstone",
+              "name": "playhearthstone",
+              "__typename": "Channel"
+            },
+            {
+              "id": "416031592",
+              "displayName": "SolaryHS",
+              "name": "solaryhs",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.battle.net/connections",
+        "description": "Tune in to HearthCraft and watch 3 teams, each representing an iconic StarCraft race, compete for the final prize in an epic Hearthstone tournament using the new mini-set cards!",
+        "detailsURL": "https://hearthstone.blizzard.com/en-us/news/",
+        "endAt": "2025-01-24T22:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "138585",
+          "slug": "hearthstone",
+          "displayName": "Hearthstone",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e773ee89-c82f-4cfb-a0d8-e54974776afe.png",
+        "name": "HearthCraft",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-24T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f3f8766b-ca0b-11ef-8e4d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1866179",
+                  "createdAt": "2024-10-21T20:19:03.96Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "138585",
+                    "name": "Hearthstone",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/05161f77-a5de-4106-9b2c-41bb48963b32.png",
+                  "isIosAvailable": false,
+                  "name": "Great Dark Beyond Pack",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-24T22:59:59.999Z",
+            "name": "Great Dark Beyond Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-01-24T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f8d9eff9-ca0b-11ef-9acd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1896898",
+                  "createdAt": "2024-12-23T21:30:18.862Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "138585",
+                    "name": "Hearthstone",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a9e5957c-d090-4040-babd-20d70b955d59.png",
+                  "isIosAvailable": false,
+                  "name": "GDB Golden Pack",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-24T22:59:59.999Z",
+            "name": "Great Dark Beyond GOLDEN Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-01-24T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-24T17:00:00.000Z"
+  },
+  {
     "endAt": "2025-01-25T08:57:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1063665418_IGDB-120x160.jpg",
     "gameDisplayName": "Out of the Park Baseball 25",
@@ -2129,6 +2256,85 @@
       }
     ],
     "startAt": "2025-01-24T15:00:00.000Z"
+  },
+  {
+    "endAt": "2025-01-25T16:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
+    "gameDisplayName": "Marbles on Stream",
+    "gameId": "509511",
+    "rewards": [
+      {
+        "id": "2a322cc6-da2b-11ef-bd59-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://app.pixelbypixelstudios.live/auth/twitch/link",
+        "description": "Marbles on Stream is the most welcoming stream interactive experience where a streamer can run the game and welcome anyone in their chat to participate with \"!play\". That's it!\n\nJoin in for exclusive prizes and keep an eye on our for how we evolve this event in the future. If you need assistance please join our discord. Discord.gg/pixelbypixelstudios ",
+        "detailsURL": "https://pixelbypixel.studio/about/twitch-drops",
+        "endAt": "2025-01-25T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "509511",
+          "slug": "marbles-on-stream",
+          "displayName": "Marbles on Stream",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a1127b51-1464-496e-b900-a28e66e0fc51.png",
+        "name": "Marble Day 180",
+        "owner": {
+          "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+          "name": "Pixel by Pixel Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-24T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "40f53d8c-da2b-11ef-90aa-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTestBundleCC",
+                  "createdAt": "2023-10-26T09:00:50.239Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509511",
+                    "name": "Marbles on Stream",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7519a7e0-3787-4284-8790-071aaf244db2.png",
+                  "isIosAvailable": false,
+                  "name": "15 Community Coins",
+                  "ownerOrganization": {
+                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+                    "name": "Pixel by Pixel Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-25T16:59:59.999Z",
+            "name": "Marble Day 180 - Friday Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-01-24T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-24T17:00:00.000Z"
   },
   {
     "endAt": "2025-01-25T23:58:59.999Z",
