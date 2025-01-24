@@ -3124,6 +3124,85 @@
     "startAt": "2025-01-24T05:01:00.000Z"
   },
   {
+    "endAt": "2025-01-27T12:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/623291583_IGDB-120x160.jpg",
+    "gameDisplayName": "Ghosts of Tabor",
+    "gameId": "623291583",
+    "rewards": [
+      {
+        "id": "e0a578a1-d75b-11ef-9d9a-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://ghostsoftabor.com/twitch-drops-event/",
+        "description": "Join the *Ghosts of Tabor: Woodland Operation – Twitch Trials* campaign for exclusive rewards! Participate by watching Twitch streams and linking your Twitch account to your game profile for seamless progress and unique unlocks. Earn wipe-exclusive RFCP Camo skins for weapons like the AK-74, Glock 17, Barrett, Saiga 12, and more, including matching magazines. This limited-time event is your chance to showcase your achievements on the battlefield while diving deeper into the adventure. Don’t miss out—link your accounts, tune in, and claim your rewards!",
+        "detailsURL": "https://ghostsoftabor.com/twitch-drops-event/",
+        "endAt": "2025-01-27T12:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "623291583",
+          "slug": "ghosts-of-tabor",
+          "displayName": "Ghosts of Tabor",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/58fbf9c0-9245-4758-a33b-fe5f4ebdc560.png",
+        "name": "Twitch Trials",
+        "owner": {
+          "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+          "name": "Combat Waffle Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-24T13:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "17bdaed0-d75c-11ef-87c8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_RFCPSkinPack",
+                  "createdAt": "2025-01-20T14:15:31.409Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/08f64604-4517-4cca-82d9-d77365b7b9ea.png",
+                  "isIosAvailable": false,
+                  "name": "RFCPSkin",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-27T12:59:59.999Z",
+            "name": "RFCPSkin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-01-24T13:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-24T13:00:00.000Z"
+  },
+  {
     "endAt": "2025-01-27T16:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/262400435_IGDB-120x160.jpg",
     "gameDisplayName": "Ravendawn",
