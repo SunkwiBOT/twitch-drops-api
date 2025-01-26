@@ -20033,6 +20033,120 @@
     "startAt": "2025-01-21T20:35:00.000Z"
   },
   {
+    "endAt": "2025-02-02T17:53:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/707002701_IGDB-120x160.jpg",
+    "gameDisplayName": "Coryphaeus Championships",
+    "gameId": "707002701",
+    "rewards": [
+      {
+        "id": "ae16fde0-dc0e-11ef-bced-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=qkxawi9g89zrh5p6kyzzxsysgq7g3h&redirect_uri=https%3A%2F%2Fwww.playcoryphaeus.com/twitch-drops&scope=channel%3Amanage%3Aredemptions+channel%3Aread%3Aredemptions+channel%3Aread%3Asubscriptions+moderator%3Aread%3Achatters+channel%3Aread%3Ahype_train+bits%3Aread",
+        "description": "❄️Coryphaeus Winter Drops",
+        "detailsURL": "https://www.playcoryphaeus.com/twitch-drops-info",
+        "endAt": "2025-02-02T17:53:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "707002701",
+          "slug": "coryphaeus-championships",
+          "displayName": "Coryphaeus Championships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4f0e4f05-3d4f-42ba-9111-fa67a0dee619.png",
+        "name": "❄️Winter Drops",
+        "owner": {
+          "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3",
+          "name": "Coryphaeus Corp",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-26T17:54:42Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "cd83e636-dc0e-11ef-9335-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3_CUSTOM_ID_500coins",
+                  "createdAt": "2024-03-01T12:44:56.987Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "707002701",
+                    "name": "Coryphaeus Championships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/08aec75b-fc8a-4460-8929-1a9f49a0ad0c.png",
+                  "isIosAvailable": false,
+                  "name": "💰 500 C-Coins ",
+                  "ownerOrganization": {
+                    "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3",
+                    "name": "Coryphaeus Corp",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-02T17:53:59.999Z",
+            "name": "💰 500 C-Coins",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 150,
+            "startAt": "2025-01-26T17:54:42Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d76bea7e-dc0e-11ef-bced-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3_CUSTOM_ID_DanceEmotePack",
+                  "createdAt": "2024-06-02T21:37:19.232Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "707002701",
+                    "name": "Coryphaeus Championships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/22dfcd0b-4ca8-44a2-b123-627f01a04a8a.png",
+                  "isIosAvailable": false,
+                  "name": "🤸 Pack of Dance Emotes! ",
+                  "ownerOrganization": {
+                    "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3",
+                    "name": "Coryphaeus Corp",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-02T17:53:59.999Z",
+            "name": "🤸 Pack of Dance Emotes!",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-01-26T17:54:42Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-26T17:54:42.000Z"
+  },
+  {
     "endAt": "2025-02-02T23:58:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/6959_IGDB-120x160.jpg",
     "gameDisplayName": "Eco",
