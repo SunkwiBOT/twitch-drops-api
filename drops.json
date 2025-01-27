@@ -25554,6 +25554,85 @@
     "startAt": "2025-01-23T14:00:00.000Z"
   },
   {
+    "endAt": "2025-02-05T23:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1264310518_IGDB-120x160.jpg",
+    "gameDisplayName": "Marvel Rivals",
+    "gameId": "1264310518",
+    "rewards": [
+      {
+        "id": "cd41450c-c66e-11ef-b704-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.marvelrivals.com/twitchdrops/",
+        "description": "Dive into Marvel Rivals' Spring Festival Celebrations with fantastic drop rewards!",
+        "detailsURL": "https://www.marvelrivals.com/twitchdrops/",
+        "endAt": "2025-02-05T23:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1264310518",
+          "slug": "marvel-rivals",
+          "displayName": "Marvel Rivals",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d3cd439f-1525-41da-808c-e384aa76557f.jpeg",
+        "name": "Fortune & Colors Drops",
+        "owner": {
+          "id": "ebd81c34-c9e2-49b6-978b-b5cb287e2c30",
+          "name": "Marvel Rivals",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-27T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "dc5e9fcb-c66e-11ef-82d0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2d0f2785-c66d-11ef-bec8-0a58a9feac02",
+                  "createdAt": "2024-12-30T05:16:08.147Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1264310518",
+                    "name": "Marvel Rivals",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7a40ea6e-a090-4f67-9803-8542cecbd72a.png",
+                  "isIosAvailable": false,
+                  "name": "「Bright Gaze」Nameplate",
+                  "ownerOrganization": {
+                    "id": "ebd81c34-c9e2-49b6-978b-b5cb287e2c30",
+                    "name": "Marvel Rivals",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-05T23:59:59.999Z",
+            "name": "「Bright Gaze」Nameplate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-01-27T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-27T00:00:00.000Z"
+  },
+  {
     "endAt": "2025-02-06T23:59:59.994Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21779-120x160.jpg",
     "gameDisplayName": "League of Legends",
