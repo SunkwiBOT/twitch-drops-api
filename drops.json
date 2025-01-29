@@ -914,6 +914,85 @@
     "startAt": "2025-01-28T12:00:00.000Z"
   },
   {
+    "endAt": "2025-01-29T12:59:59.995Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511224-120x160.jpg",
+    "gameDisplayName": "Apex Legends",
+    "gameId": "511224",
+    "rewards": [
+      {
+        "id": "066f9858-cd0f-11ef-8f79-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "Get ready for the Apex Legends Global Series Year 4 Championship! If you can't join us in person in Sapporo, Japan from January 29 - February 2, you can still catch all the thrilling action and earn rewards. Tune in to witness the top teams from each region compete for glory, a share of the $2M USD prize pool, and the title of ALGS Year 4 Champions!",
+        "detailsURL": "https://algs.ea.com/champs-2024/news/y4champs-twitchdrops",
+        "endAt": "2025-01-29T12:59:59.995Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511224",
+          "slug": "apex-legends",
+          "displayName": "Apex Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e8799f8a-5073-48e6-85a5-ce6f262a8caf.png",
+        "name": "ALGS Championship Japan",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-29T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "47200a58-cd20-11ef-b7c1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_algs_s21_sticker",
+                  "createdAt": "2025-01-07T17:01:50.726Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/861f0430-016d-4020-9880-dd9de5f13ce0.png",
+                  "isIosAvailable": false,
+                  "name": "Champs Trophy Sticker",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-29T12:59:59.995Z",
+            "name": "Champs Trophy Sticker",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-01-29T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-29T00:00:00.000Z"
+  },
+  {
     "endAt": "2025-01-29T13:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2113043143_IGDB-120x160.jpg",
     "gameDisplayName": "PAYDAY 3",
