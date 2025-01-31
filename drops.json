@@ -557,6 +557,83 @@
     "gameId": "506416",
     "rewards": [
       {
+        "id": "d21a79b7-cada-11ef-819f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "28130176",
+              "displayName": "NapTimez",
+              "name": "naptimez",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn Halo Infinite in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-02-01T04:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e566c259-b4d8-4da6-a198-3342ae349e26.png",
+        "name": "SWATNation 88 TAC-JAN31",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-31T23:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "e4e382aa-cada-11ef-8b2d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_SGKA-3SME-YISG-ALJG-DPQ8",
+                  "createdAt": "2024-02-16T21:11:37.318Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f1bea638-0010-49ec-873c-93b36b69b893.png",
+                  "isIosAvailable": false,
+                  "name": "Killtacular Charm",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-01T04:59:59.998Z",
+            "name": "Killtacular Charm",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-01-31T23:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "02475353-dd15-11ef-b8db-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -790,6 +867,12 @@
               "id": "94902949",
               "displayName": "Pzzznguin",
               "name": "pzzznguin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "222719079",
+              "displayName": "LVTHalo",
+              "name": "lvthalo",
               "__typename": "Channel"
             }
           ],
