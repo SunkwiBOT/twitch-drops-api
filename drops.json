@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2025-01-31T13:58:59.999Z",
+    "endAt": "2025-02-01T12:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/458781_IGDB-120x160.jpg",
     "gameDisplayName": "No Man's Sky",
     "gameId": "458781",
@@ -233,6 +233,239 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 15,
             "startAt": "2025-01-30T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "488d83cf-d406-11ef-afe0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.nomanssky.com",
+        "description": "To celebrate the launch of Worlds Part II, the latest free update to No Man's Sky, any No Man's Sky streamer with \"Drops Enabled\" during the weekend of 30th January to 3rd February will unlock in-game rewards for their viewers, from fireworks and pets to multi-tools and starships. New drops will be enabled each day starting at 13:00 UTC for 24 hours.",
+        "detailsURL": "https://twitch.nomanssky.com",
+        "endAt": "2025-02-01T12:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "458781",
+          "slug": "no-mans-sky",
+          "displayName": "No Man's Sky",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b459bce5-fbd5-464c-9a77-2efc7f389475.png",
+        "name": "Worlds Part II - Day 2",
+        "owner": {
+          "id": "fd831ba1-0fcc-44e7-9e59-a3fca7aeaf91",
+          "name": "Hello Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-31T13:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b5d4eddb-d406-11ef-9390-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fd831ba1-0fcc-44e7-9e59-a3fca7aeaf91_CUSTOM_ID_TWITCH_317",
+                  "createdAt": "2025-01-16T11:55:25.362Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "458781",
+                    "name": "No Man's Sky",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b65410be-3fc0-4bc4-983c-3467fd21d71d.png",
+                  "isIosAvailable": false,
+                  "name": "Atlantid Poster",
+                  "ownerOrganization": {
+                    "id": "fd831ba1-0fcc-44e7-9e59-a3fca7aeaf91",
+                    "name": "Hello Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "fd831ba1-0fcc-44e7-9e59-a3fca7aeaf91_CUSTOM_ID_TWITCH_322",
+                  "createdAt": "2025-01-16T11:58:38.708Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "458781",
+                    "name": "No Man's Sky",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8293e13e-db5e-47ad-a889-77725358f5a8.png",
+                  "isIosAvailable": false,
+                  "name": "Ribbon Firework Pack",
+                  "ownerOrganization": {
+                    "id": "fd831ba1-0fcc-44e7-9e59-a3fca7aeaf91",
+                    "name": "Hello Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-01T12:59:59.999Z",
+            "name": "Day 2 - Drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-01-31T13:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c4ac36a3-d406-11ef-aac3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fd831ba1-0fcc-44e7-9e59-a3fca7aeaf91_CUSTOM_ID_TWITCH_327",
+                  "createdAt": "2025-01-16T12:00:09.368Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "458781",
+                    "name": "No Man's Sky",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/61699d3a-b565-4843-80ba-ac5f1f3669b9.png",
+                  "isIosAvailable": false,
+                  "name": "Fluttering Decal",
+                  "ownerOrganization": {
+                    "id": "fd831ba1-0fcc-44e7-9e59-a3fca7aeaf91",
+                    "name": "Hello Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-01T12:59:59.999Z",
+            "name": "Day 2 - Drop 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-01-31T13:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "e38408c2-d406-11ef-8510-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fd831ba1-0fcc-44e7-9e59-a3fca7aeaf91_CUSTOM_ID_TWITCH_332",
+                  "createdAt": "2025-01-16T12:06:16.361Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "458781",
+                    "name": "No Man's Sky",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d3deb3d-91e4-4b85-a9c5-02f886133665.png",
+                  "isIosAvailable": false,
+                  "name": "Hologram: Frigate Emote",
+                  "ownerOrganization": {
+                    "id": "fd831ba1-0fcc-44e7-9e59-a3fca7aeaf91",
+                    "name": "Hello Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-01T12:59:59.999Z",
+            "name": "Day 2 - Drop 3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-01-31T13:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ee01c819-d406-11ef-8593-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fd831ba1-0fcc-44e7-9e59-a3fca7aeaf91_CUSTOM_ID_TWITCH_339",
+                  "createdAt": "2025-01-16T12:11:47.819Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "458781",
+                    "name": "No Man's Sky",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4b46f6f9-2249-4ca3-9a94-5143712b24df.png",
+                  "isIosAvailable": false,
+                  "name": "A-Class Staff",
+                  "ownerOrganization": {
+                    "id": "fd831ba1-0fcc-44e7-9e59-a3fca7aeaf91",
+                    "name": "Hello Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-01T12:59:59.999Z",
+            "name": "Day 2 - Drop 4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-01-31T13:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f876bb8a-d406-11ef-b680-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fd831ba1-0fcc-44e7-9e59-a3fca7aeaf91_CUSTOM_ID_TWITCH_342",
+                  "createdAt": "2025-01-16T12:13:55.27Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "458781",
+                    "name": "No Man's Sky",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/026ff383-77ef-44dd-9145-21a297581449.png",
+                  "isIosAvailable": false,
+                  "name": "A-Class Shuttle",
+                  "ownerOrganization": {
+                    "id": "fd831ba1-0fcc-44e7-9e59-a3fca7aeaf91",
+                    "name": "Hello Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-01T12:59:59.999Z",
+            "name": "Day 2 - Drop 5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-01-31T13:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
