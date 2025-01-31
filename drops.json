@@ -1444,6 +1444,85 @@
     "startAt": "2025-01-30T12:00:00.000Z"
   },
   {
+    "endAt": "2025-01-31T11:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511224-120x160.jpg",
+    "gameDisplayName": "Apex Legends",
+    "gameId": "511224",
+    "rewards": [
+      {
+        "id": "812cfc8b-cd1c-11ef-9e97-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "Get ready for the Apex Legends Global Series Year 4 Championship! If you can't join us in person in Sapporo, Japan from January 29 - February 2, you can still catch all the thrilling action and earn rewards. Tune in to witness the top teams from each region compete for glory, a share of the $2M USD prize pool, and the title of ALGS Year 4 Champions!",
+        "detailsURL": "https://algs.ea.com/champs-2024/news/y4champs-twitchdrops",
+        "endAt": "2025-01-31T11:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511224",
+          "slug": "apex-legends",
+          "displayName": "Apex Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0144d2af-7354-4d7e-be38-e7ddf407f666.png",
+        "name": "ALGS Championship Japan",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-31T03:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "91466831-cd20-11ef-97d5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_algs_s21_horizon_skin",
+                  "createdAt": "2025-01-07T17:12:45.12Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ff608b3b-639c-4ee5-9939-545d4dd05bce.png",
+                  "isIosAvailable": false,
+                  "name": "ALGS Horizon Skin",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-31T11:59:59.999Z",
+            "name": "ALGS Horizon Skin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-01-31T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-31T03:00:00.000Z"
+  },
+  {
     "endAt": "2025-01-31T13:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/458781_IGDB-120x160.jpg",
     "gameDisplayName": "No Man's Sky",
