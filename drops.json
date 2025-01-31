@@ -1,408 +1,5 @@
 [
   {
-    "endAt": "2025-01-31T15:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/65654_IGDB-120x160.jpg",
-    "gameDisplayName": "The Elder Scrolls Online",
-    "gameId": "65654",
-    "rewards": [
-      {
-        "id": "94d94e0e-d74f-11ef-af2c-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.elderscrollsonline.com/",
-        "description": "Earn a Grim Harvester Costume and Sungold Bay Thoroughbred Mount simply by watching Drop-enabled ESO streams on Twitch!",
-        "detailsURL": "https://blog.twitch.tv/en/2025/01/20/twitch-drops-fest-2025/",
-        "endAt": "2025-01-31T15:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "65654",
-          "slug": "the-elder-scrolls-online",
-          "displayName": "The Elder Scrolls Online",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/65bb985f-0ef9-4721-9ee8-7b7174b97b8d.png",
-        "name": "Twitch Drops Fest",
-        "owner": {
-          "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
-          "name": "ZeniMax Online Studios",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-01-20T16:55:36Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "b362f810-d74f-11ef-aaf1-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_1393",
-                  "createdAt": "2023-11-01T13:04:55.081Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "65654",
-                    "name": "The Elder Scrolls Online",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5a288e0-fa5e-44d6-a7c4-d5540716b425.png",
-                  "isIosAvailable": false,
-                  "name": "Major Experience Scroll",
-                  "ownerOrganization": {
-                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
-                    "name": "ZeniMax Online Studios",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-01-31T15:59:59.999Z",
-            "name": "Major EXP Scroll",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-01-20T16:55:36Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "cfac6653-d750-11ef-a2bb-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_1705",
-                  "createdAt": "2025-01-20T17:03:55.72Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "65654",
-                    "name": "The Elder Scrolls Online",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c5d4b5ba-66b6-4b64-a6af-bc40891fe34b.png",
-                  "isIosAvailable": false,
-                  "name": "Grim Harvester Costume",
-                  "ownerOrganization": {
-                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
-                    "name": "ZeniMax Online Studios",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-01-31T15:59:59.999Z",
-            "name": "Grim Harvester Costume",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-01-20T16:55:36Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "e688d03f-d750-11ef-a46d-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_1709",
-                  "createdAt": "2025-01-20T17:04:40.419Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "65654",
-                    "name": "The Elder Scrolls Online",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/548a1a07-94a8-49c6-959d-5d8bafe3f655.png",
-                  "isIosAvailable": false,
-                  "name": "Sungold Bay Thoroughbred",
-                  "ownerOrganization": {
-                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
-                    "name": "ZeniMax Online Studios",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-01-31T15:59:59.999Z",
-            "name": "Sungold Bay Thoroughbred",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-01-20T16:55:36Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-01-20T16:55:36.000Z"
-  },
-  {
-    "endAt": "2025-01-31T15:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
-    "gameDisplayName": "Warframe",
-    "gameId": "66170",
-    "rewards": [
-      {
-        "id": "ba1abba9-d2b3-11ef-9590-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.warframe.com/user",
-        "description": "Represent your favourite On-lyne member with this series of Infested Glyphs, featuring art from community artist death_ma666ots!",
-        "detailsURL": "https://forums.warframe.com/topic/1434699-coming-soon-on-lyne-twitch-drops-fest-campaign/",
-        "endAt": "2025-01-31T15:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "66170",
-          "slug": "warframe",
-          "displayName": "Warframe",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f30a33be-eb34-4037-a3ef-9169705abddd.jpeg",
-        "name": "On-lyne Glyph Campaign W2",
-        "owner": {
-          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-          "name": "Digital Extremes",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-01-24T16:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "755f952c-d2b4-11ef-8e50-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e3fb182d-d2b3-11ef-8043-0a58a9feac02",
-                  "createdAt": "2025-01-14T20:12:33.763Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/351122d4-9bbe-4b5a-8752-0534dae29d3a.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Infested Harddrive Glyph",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-01-31T15:59:59.999Z",
-            "name": "Infested Harddrive Glyph",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-01-24T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "78f3bda8-d2b4-11ef-b684-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "eba18a5f-d2b3-11ef-b060-0a58a9feac02",
-                  "createdAt": "2025-01-14T20:12:46.598Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fd86351-6100-4e8c-a035-2b5ffe4f2c57.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Infested Drillbit Glyph",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-01-31T15:59:59.999Z",
-            "name": "Infested Drillbit Glyph",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-01-24T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "7cc775ba-d2b4-11ef-8073-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f377e424-d2b3-11ef-a8f5-0a58a9feac02",
-                  "createdAt": "2025-01-14T20:12:59.747Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/643d2042-918f-4288-8a35-afc47a19fa5c.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Infested DJ RoM Glyph",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-01-31T15:59:59.999Z",
-            "name": "Infested DJ RoM Glyph",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-01-24T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "8129c1af-d2b4-11ef-83d6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fe45ed7b-d2b3-11ef-a838-0a58a9feac02",
-                  "createdAt": "2025-01-14T20:13:17.875Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/17210efb-e505-4f69-b468-d9bc3def9fd5.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Infested Zeke Glyph",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-01-31T15:59:59.999Z",
-            "name": "Infested Zeke Glyph",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-01-24T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "85e1f5b9-d2b4-11ef-a8f5-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "0b3706ea-d2b4-11ef-899c-0a58a9feac02",
-                  "createdAt": "2025-01-14T20:13:39.587Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8090f4da-e2a1-40e6-9484-f24073410815.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Infested Packet Glyph",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-01-31T15:59:59.999Z",
-            "name": "Infested Packet Glyph",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 150,
-            "startAt": "2025-01-24T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "8b981be9-d2b4-11ef-9590-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "167e2b15-d2b4-11ef-96e0-0a58a9feac02",
-                  "createdAt": "2025-01-14T20:13:58.508Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b28fd5d1-50a6-47c4-a1be-c37c77247a69.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Infested On-lyne Glyph",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-01-31T15:59:59.999Z",
-            "name": "Infested On-lyne Logo Glyph",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-01-24T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-01-24T16:00:00.000Z"
-  },
-  {
     "endAt": "2025-01-31T16:24:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/902050890_IGDB-120x160.jpg",
     "gameDisplayName": "Kakele Online: MMORPG",
@@ -1698,6 +1295,92 @@
       }
     ],
     "startAt": "2025-01-30T17:59:00.000Z"
+  },
+  {
+    "endAt": "2025-01-31T17:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/232131679_IGDB-120x160.jpg",
+    "gameDisplayName": "EA Sports College Football 25",
+    "gameId": "232131679",
+    "rewards": [
+      {
+        "id": "7ba6f5eb-dfe1-11ef-a525-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1078884257",
+              "displayName": "easportscollege",
+              "name": "easportscollege",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch the CFB Rundown and earn some Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-01-31T17:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "232131679",
+          "slug": "ea-sports-college-football",
+          "displayName": "EA Sports College Football 25",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/beeebf97-dbe8-4e07-81e9-be4c16f8df07.png",
+        "name": "CFB Rundown",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-01-31T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "75185692-dfe3-11ef-acd8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT25-TWITCH-079",
+                  "createdAt": "2025-01-31T14:56:20.428Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "232131679",
+                    "name": "EA Sports College Football 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a4b8234c-d66e-40d2-9498-cab7a403dd9d.png",
+                  "isIosAvailable": false,
+                  "name": "CFB Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-01-31T17:59:59.999Z",
+            "name": "CFB Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-01-31T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-01-31T16:00:00.000Z"
   },
   {
     "endAt": "2025-01-31T21:59:59.998Z",
