@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2025-02-01T11:58:59.999Z",
+    "endAt": "2025-02-01T18:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
     "gameDisplayName": "Black Desert",
     "gameId": "386821",
@@ -70,6 +70,124 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-01-31T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "ce21ad40-d9e7-11ef-ac3a-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "147454561",
+              "displayName": "SalimXSrew",
+              "name": "salimxsrew",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28280686",
+              "displayName": "W84ME2JOIN",
+              "name": "w84me2join",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
+        "description": "TR/MENA region only.",
+        "detailsURL": "https://www.tr.playblackdesert.com/News/Detail?groupContentNo=11457",
+        "endAt": "2025-02-01T18:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "386821",
+          "slug": "black-desert",
+          "displayName": "Black Desert",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5486127c-3812-4c2a-9bda-901f453de0e0.png",
+        "name": "[TR/MENA] Deadeye Open",
+        "owner": {
+          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+          "name": "Pearl Abyss",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-01T11:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "718630e1-d9e8-11ef-b95b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_250125DEOPENTR01",
+                  "createdAt": "2025-01-24T00:17:54.83Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/224d142b-eca2-4ef3-8ebf-508de80ec9fb.png",
+                  "isIosAvailable": false,
+                  "name": "[TR/MENA] 1 Hour Reward",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-01T18:59:59.998Z",
+            "name": "[TR/MENA] 1 Hour",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-02-01T11:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f9d22571-d9e8-11ef-90aa-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_250125DEOPENTR02",
+                  "createdAt": "2025-01-24T00:18:53.937Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46bb6064-592e-4826-b798-c05ff3aa487b.png",
+                  "isIosAvailable": false,
+                  "name": "[TR/MENA] 2 Hour Reward",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-01T18:59:59.998Z",
+            "name": "[TR/MENA] 2 Hour",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-02-01T11:30:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
