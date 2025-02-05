@@ -12,8 +12,15 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "65171890",
+              "displayName": "Rainbow6",
+              "name": "rainbow6",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://drops-register.ubi.com/#/en-US",
