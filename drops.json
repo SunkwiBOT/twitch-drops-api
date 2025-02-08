@@ -1,329 +1,5 @@
 [
   {
-    "endAt": "2025-02-08T15:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/514013_IGDB-120x160.jpg",
-    "gameDisplayName": "Caliber",
-    "gameId": "514013",
-    "rewards": [
-      {
-        "id": "edf312d6-e567-11ef-9f56-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "693895492",
-              "displayName": "playcaliber",
-              "name": "playcaliber",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://playcaliber.com/ru/",
-        "description": "Пятничный стрим разработчиков Калибра",
-        "detailsURL": "https://playcaliber.com/ru/",
-        "endAt": "2025-02-08T15:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "514013",
-          "slug": "caliber",
-          "displayName": "Caliber",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8ef21e55-80f9-4204-8aea-d3b99bf2dc00.png",
-        "name": "Стрим 7.02",
-        "owner": {
-          "id": "8bbaaeb0-be5d-4d33-a4ae-6a0a0553c0f5",
-          "name": "1C-777 Limited",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-02-07T16:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "54f9d266-e568-11ef-b5a7-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "d0103f97-e568-11ef-9f0a-0a58a9feac02",
-                  "createdAt": "2025-02-07T15:33:00.186Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "514013",
-                    "name": "Caliber",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/64f53582-7be2-4f5b-a85a-539be76adc6f.png",
-                  "isIosAvailable": false,
-                  "name": "Command Reserves 7.02",
-                  "ownerOrganization": {
-                    "id": "8bbaaeb0-be5d-4d33-a4ae-6a0a0553c0f5",
-                    "name": "1C-777 Limited",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-08T15:59:59.999Z",
-            "name": "Command Reserves 7.02",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-02-07T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "5ed59fab-e568-11ef-bf1a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa843fc4-e568-11ef-a435-0a58a9feac02",
-                  "createdAt": "2025-02-07T15:34:11.41Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "514013",
-                    "name": "Caliber",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/efdd7779-78bb-4440-8bce-244f7a6543d3.png",
-                  "isIosAvailable": false,
-                  "name": "5000 credits 7.02",
-                  "ownerOrganization": {
-                    "id": "8bbaaeb0-be5d-4d33-a4ae-6a0a0553c0f5",
-                    "name": "1C-777 Limited",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-08T15:59:59.999Z",
-            "name": "5000 credits 7.02",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 20,
-            "startAt": "2025-02-07T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "68524340-e568-11ef-b6c2-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "2cbb2eb9-e569-11ef-8af0-0a58a9feac02",
-                  "createdAt": "2025-02-07T15:35:35.656Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "514013",
-                    "name": "Caliber",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ed759db8-0505-4d2b-9f3c-10f91d385291.png",
-                  "isIosAvailable": false,
-                  "name": "40 fragments 7.02",
-                  "ownerOrganization": {
-                    "id": "8bbaaeb0-be5d-4d33-a4ae-6a0a0553c0f5",
-                    "name": "1C-777 Limited",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-08T15:59:59.999Z",
-            "name": "40 fragments 7.02",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-02-07T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "7141d98b-e568-11ef-8f9a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "499af382-e569-11ef-b67f-0a58a9feac02",
-                  "createdAt": "2025-02-07T15:36:24.099Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "514013",
-                    "name": "Caliber",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ea2064f-3ec7-4686-bf02-94ee27bfa864.png",
-                  "isIosAvailable": false,
-                  "name": "10 000 credits 7.02",
-                  "ownerOrganization": {
-                    "id": "8bbaaeb0-be5d-4d33-a4ae-6a0a0553c0f5",
-                    "name": "1C-777 Limited",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-08T15:59:59.999Z",
-            "name": "10 000 credits 7.02",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-02-07T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "77cd5daf-e568-11ef-a92b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "66ac9c1f-e569-11ef-b9df-0a58a9feac02",
-                  "createdAt": "2025-02-07T15:37:12.868Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "514013",
-                    "name": "Caliber",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dcacfc6f-a764-4831-9c65-521035d7917a.png",
-                  "isIosAvailable": false,
-                  "name": "Army Surplus 7.02",
-                  "ownerOrganization": {
-                    "id": "8bbaaeb0-be5d-4d33-a4ae-6a0a0553c0f5",
-                    "name": "1C-777 Limited",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-08T15:59:59.999Z",
-            "name": "Army Surplus 7.02",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-02-07T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-02-07T16:00:00.000Z"
-  },
-  {
-    "endAt": "2025-02-08T15:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/414822821_IGDB-120x160.jpg",
-    "gameDisplayName": "Sid Meier's Civilization VII",
-    "gameId": "414822821",
-    "rewards": [
-      {
-        "id": "aec963a4-e41b-11ef-975c-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "59291908",
-              "displayName": "FiraxisGames",
-              "name": "firaxisgames",
-              "__typename": "Channel"
-            },
-            {
-              "id": "257586004",
-              "displayName": "2K",
-              "name": "2k",
-              "__typename": "Channel"
-            },
-            {
-              "id": "426928536",
-              "displayName": "kbwatts",
-              "name": "kbwatts",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://civilization.2k.com/twitch-drops/",
-        "description": "Watch Civ Streams from the Firaxis Twitch channel to earn rewards!  Watch for 15 mins and claim the reward: Exploration Age Banner.",
-        "detailsURL": "https://civilization.2k.com/twitch-drops/",
-        "endAt": "2025-02-08T15:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "414822821",
-          "slug": "sid-meiers-civilization-vii",
-          "displayName": "Sid Meier's Civilization VII",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/16d28c38-e02e-4cdf-9943-1b48e52d21b9.png",
-        "name": "COPY OF Exp Age Banner",
-        "owner": {
-          "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616",
-          "name": "2K Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-02-05T23:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "d7b2bb75-e41b-11ef-9280-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616_CUSTOM_ID_ewogICAic2t1X2lkIjoiNzE3NGIzODMyNDJmNGQ2M2EwZjdhMzExNTMzMDk2ZDEiCn0",
-                  "createdAt": "2025-01-30T16:52:09.329Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "414822821",
-                    "name": "Sid Meier's Civilization VII",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dd2e00f2-3399-46cf-8cf4-2401e9601a4d.png",
-                  "isIosAvailable": false,
-                  "name": "Exploration Age Banner ⭐️",
-                  "ownerOrganization": {
-                    "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616",
-                    "name": "2K Games",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-08T15:59:59.999Z",
-            "name": "Exploration Age Banner Drop",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-02-05T23:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-02-05T23:00:00.000Z"
-  },
-  {
     "endAt": "2025-02-08T16:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
     "gameDisplayName": "Marbles on Stream",
@@ -1795,6 +1471,146 @@
       }
     ],
     "startAt": "2025-01-14T09:12:00.000Z"
+  },
+  {
+    "endAt": "2025-02-09T07:59:59.993Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/414822821_IGDB-120x160.jpg",
+    "gameDisplayName": "Sid Meier's Civilization VII",
+    "gameId": "414822821",
+    "rewards": [
+      {
+        "id": "5983faad-d9e8-11ef-a06c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "21275319",
+              "displayName": "potatomcwhiskey",
+              "name": "potatomcwhiskey",
+              "__typename": "Channel"
+            },
+            {
+              "id": "49719403",
+              "displayName": "MauriceWeber",
+              "name": "mauriceweber",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41719107",
+              "displayName": "ZeratoR",
+              "name": "zerator",
+              "__typename": "Channel"
+            },
+            {
+              "id": "40074939",
+              "displayName": "TheGameMechanic",
+              "name": "thegamemechanic",
+              "__typename": "Channel"
+            },
+            {
+              "id": "59291908",
+              "displayName": "FiraxisGames",
+              "name": "firaxisgames",
+              "__typename": "Channel"
+            },
+            {
+              "id": "49908713",
+              "displayName": "intel",
+              "name": "intel",
+              "__typename": "Channel"
+            },
+            {
+              "id": "47627824",
+              "displayName": "RocketBeansTV",
+              "name": "rocketbeanstv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "141902679",
+              "displayName": "thespiffingbrit",
+              "name": "thespiffingbrit",
+              "__typename": "Channel"
+            },
+            {
+              "id": "426928536",
+              "displayName": "kbwatts",
+              "name": "kbwatts",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1061812595",
+              "displayName": "ajayakkineni2k",
+              "name": "ajayakkineni2k",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://civilization.2k.com/twitch-drops/",
+        "description": "Watch for 30 minutes and claim the reward: Cavalry Charge Banner profile cosmetic!",
+        "detailsURL": "https://civilization.2k.com/twitch-drops/",
+        "endAt": "2025-02-09T07:59:59.993Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "414822821",
+          "slug": "sid-meiers-civilization-vii",
+          "displayName": "Sid Meier's Civilization VII",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d11a4b8b-5130-4fbd-ae22-d30e27d140ad.png",
+        "name": "Civ 7 World Summit",
+        "owner": {
+          "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616",
+          "name": "2K Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-08T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "85bdefac-df2e-11ef-9860-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616_CUSTOM_ID_ewogICAic2t1X2lkIjoiNzMxNTYyYWVlYzAxNDk2M2FkOGZiNGEyODVlMzJmZjkiCn0",
+                  "createdAt": "2025-01-30T16:56:52.852Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "414822821",
+                    "name": "Sid Meier's Civilization VII",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/df2babc4-b42e-48ab-bc0c-1a0da2e33e7b.png",
+                  "isIosAvailable": false,
+                  "name": "Cavalry Charge Banner ⭐️",
+                  "ownerOrganization": {
+                    "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616",
+                    "name": "2K Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-09T07:59:59.993Z",
+            "name": "Civ 7 World Summit",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-02-08T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-08T16:00:00.000Z"
   },
   {
     "endAt": "2025-02-09T08:57:59.999Z",
