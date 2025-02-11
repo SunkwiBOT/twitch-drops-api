@@ -5428,6 +5428,85 @@
     "startAt": "2025-02-11T09:00:00.000Z"
   },
   {
+    "endAt": "2025-02-12T09:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+    "gameDisplayName": "Albion Online",
+    "gameId": "417528",
+    "rewards": [
+      {
+        "id": "ef827311-e544-11ef-b25e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://albiononline.com/twitch",
+        "description": "Earn exclusive rewards by watching Albion Online livestreams!",
+        "detailsURL": "https://forum.albiononline.com/index.php/Thread/203676-New-Twitch-Drop-Format-Starting-October-28-2024/",
+        "endAt": "2025-02-12T09:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417528",
+          "slug": "albion-online",
+          "displayName": "Albion Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/22a62daa-7817-4598-b8eb-00c663a0dc27.png",
+        "name": "Rogue Frontier 2 - #2/7",
+        "owner": {
+          "id": "39dcfadd-48e4-4362-8c22-974319aff88e",
+          "name": "Sandbox Interactive",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-11T10:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "009b98ca-e545-11ef-89dc-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "39dcfadd-48e4-4362-8c22-974319aff88e_CUSTOM_ID_double_rogue_frontier_chest-6bf07c05-6783-4c22-a586-bf6a4d3593c8",
+                  "createdAt": "2025-01-30T09:28:06.176Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417528",
+                    "name": "Albion Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cb68969f-044f-45dd-b280-aa7e472deb5e.png",
+                  "isIosAvailable": true,
+                  "name": "2x Rogue Frontier Chest",
+                  "ownerOrganization": {
+                    "id": "39dcfadd-48e4-4362-8c22-974319aff88e",
+                    "name": "Sandbox Interactive",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-12T09:29:59.999Z",
+            "name": "2x Rogue Frontier Chest",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-02-11T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-11T10:00:00.000Z"
+  },
+  {
     "endAt": "2025-02-12T15:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/460630_IGDB-120x160.jpg",
     "gameDisplayName": "Tom Clancy's Rainbow Six Siege",
