@@ -4168,6 +4168,104 @@
     "startAt": "2025-02-12T13:00:00.000Z"
   },
   {
+    "endAt": "2025-02-16T23:29:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
+    "gameDisplayName": "Kirka.io",
+    "gameId": "356609813",
+    "rewards": [
+      {
+        "id": "2289b84c-ea8a-11ef-ad86-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "771589602",
+              "displayName": "EFK_Lemonade",
+              "name": "efk_lemonade",
+              "__typename": "Channel"
+            },
+            {
+              "id": "268119114",
+              "displayName": "Sniper_Gecko",
+              "name": "sniper_gecko",
+              "__typename": "Channel"
+            },
+            {
+              "id": "915271195",
+              "displayName": "TRYDENT43",
+              "name": "trydent43",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Kirka.io drop for the Flowers Unobtainable",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2025-02-16T23:29:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/da21a7ad-37a4-4909-bc00-c9e2e4ffc5c7.png",
+        "name": "Flowers",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-14T16:18:53Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1a54fd93-ea8d-11ef-9a5c-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_d093ba40-19ba-4af7-9447-e2f776c9d2bb",
+                  "createdAt": "2025-02-14T04:36:44.244Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d60bc24d-3564-49d2-b4df-bbd6157d6c08.png",
+                  "isIosAvailable": false,
+                  "name": "Flowers",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-16T23:29:59.998Z",
+            "name": "Flowers",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-02-14T16:18:53Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-14T16:18:53.000Z"
+  },
+  {
     "endAt": "2025-02-16T23:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-120x160.jpg",
     "gameDisplayName": "Rust",
