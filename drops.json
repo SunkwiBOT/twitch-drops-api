@@ -1,154 +1,5 @@
 [
   {
-    "endAt": "2025-02-14T09:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1910103699-120x160.jpg",
-    "gameDisplayName": "THE FINALS",
-    "gameId": "1910103699",
-    "rewards": [
-      {
-        "id": "1721cbd8-e30d-11ef-ac16-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://id.embark.games",
-        "description": "It's Valentine's in The Arena and the sponsors have provided us some lovely Twitch Drops for the occasion!\nTune in to watch your favorite content creators play THE FINALS to unlock a heartfelt gun charm and a set of matching  T-shirts.\n\nWho's your Player Two this Valentine's?",
-        "detailsURL": "https://www.reachthefinals.com/twitch",
-        "endAt": "2025-02-14T09:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1910103699",
-          "slug": "the-finals",
-          "displayName": "THE FINALS",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-        "name": "Valentine's Drops!",
-        "owner": {
-          "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
-          "name": "Embark Studios",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-02-05T12:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "723a768a-e30d-11ef-99c2-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55_CUSTOM_ID_heartfelttribute",
-                  "createdAt": "2025-02-04T15:23:23.932Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1910103699",
-                    "name": "THE FINALS",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ddd564b0-b5bd-4483-8df8-99e35503fa46.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Heartfelt Tribute",
-                  "ownerOrganization": {
-                    "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
-                    "name": "Embark Studios",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-14T09:59:59.999Z",
-            "name": "Heartfelt Tribute",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-02-05T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "79bf35fb-e30d-11ef-966b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55_CUSTOM_ID_2025playerone",
-                  "createdAt": "2025-02-04T15:24:04.489Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1910103699",
-                    "name": "THE FINALS",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/12456bdf-3930-44e3-8469-3e4ceae6ab8b.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Livestream Love 1",
-                  "ownerOrganization": {
-                    "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
-                    "name": "Embark Studios",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-14T09:59:59.999Z",
-            "name": "Livestream Love 1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-02-05T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "7f5d8137-e30d-11ef-98f8-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55_CUSTOM_ID_2025playertwo",
-                  "createdAt": "2025-02-04T15:24:27.875Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1910103699",
-                    "name": "THE FINALS",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2cbff0c2-0585-4d35-adc7-7410dfea8534.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Livestream Love 2",
-                  "ownerOrganization": {
-                    "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
-                    "name": "Embark Studios",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-14T09:59:59.999Z",
-            "name": "Livestream Love 2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-02-05T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-02-05T12:00:00.000Z"
-  },
-  {
     "endAt": "2025-02-14T11:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
     "gameDisplayName": "Black Desert",
@@ -912,6 +763,168 @@
       }
     ],
     "startAt": "2025-02-13T17:59:00.000Z"
+  },
+  {
+    "endAt": "2025-02-14T17:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/29918_IGDB-120x160.jpg",
+    "gameDisplayName": "Warface",
+    "gameId": "29918",
+    "rewards": [
+      {
+        "id": "1db7010a-eab4-11ef-954e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "59215134",
+              "displayName": "RuWarface",
+              "name": "ruwarface",
+              "__typename": "Channel"
+            },
+            {
+              "id": "427870177",
+              "displayName": "Warface_Esports",
+              "name": "warface_esports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://ru.warface.com/promo/twitchdrops/",
+        "description": "Второй день Astrum League Championship уже в эфире. Сегодня состоятся матчи верхней сетки группы B. Смотри трансляцию, а также получи уникальное достижение \"Поддержка трибун\".",
+        "detailsURL": "https://ru.warface.com/news/1012983.html",
+        "endAt": "2025-02-14T17:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "29918",
+          "slug": "warface",
+          "displayName": "Warface",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b9eb6e2d-1e44-4347-b367-3102c6a693a3.png",
+        "name": "Championship 2024. Day 2",
+        "owner": {
+          "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+          "name": "My.com",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-14T10:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "312eeada-eab4-11ef-afa2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4_CUSTOM_ID_3_box_kn56_mvt24operator09_c",
+                  "createdAt": "2025-02-04T13:27:18.239Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29918",
+                    "name": "Warface",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/358db63d-7936-4d04-a49f-b52569d00119.png",
+                  "isIosAvailable": false,
+                  "name": "3 box нож \"Astrum League\"",
+                  "ownerOrganization": {
+                    "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+                    "name": "My.com",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-14T17:59:59.999Z",
+            "name": "3 коробки с ножом диверсанта \"Astrum League\"",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-02-14T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "380ccda3-eab4-11ef-8b84-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4_CUSTOM_ID_3_box_f_engineer_fbs_gryphon2410_c",
+                  "createdAt": "2025-02-04T13:28:37.365Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29918",
+                    "name": "Warface",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/368d7b0b-e027-43f7-aa90-f83150eb19c9.png",
+                  "isIosAvailable": false,
+                  "name": "3 box \"Агент Райдзин\"",
+                  "ownerOrganization": {
+                    "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+                    "name": "My.com",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-14T17:59:59.999Z",
+            "name": "3 коробки с внешностью \"Агент Райдзин\"",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-02-14T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "53183f95-eab4-11ef-92b8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4_CUSTOM_ID_1_unlock_mvt23operator11_02_mark_p",
+                  "createdAt": "2025-02-04T13:30:04.135Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29918",
+                    "name": "Warface",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/66d04d9e-bd68-4596-b7c6-d211db951dba.png",
+                  "isIosAvailable": false,
+                  "name": "Значок \"Поддержка трибун\"",
+                  "ownerOrganization": {
+                    "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+                    "name": "My.com",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-14T17:59:59.999Z",
+            "name": "Значок \"Поддержка трибун\"",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-02-14T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-14T10:00:00.000Z"
   },
   {
     "endAt": "2025-02-18T10:58:59.999Z",
@@ -2058,6 +2071,85 @@
       }
     ],
     "startAt": "2025-02-14T09:00:00.000Z"
+  },
+  {
+    "endAt": "2025-02-15T09:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+    "gameDisplayName": "Albion Online",
+    "gameId": "417528",
+    "rewards": [
+      {
+        "id": "e14d79bd-e545-11ef-8226-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://albiononline.com/twitch",
+        "description": "Earn exclusive rewards by watching Albion Online livestreams!",
+        "detailsURL": "https://forum.albiononline.com/index.php/Thread/203676-New-Twitch-Drop-Format-Starting-October-28-2024/",
+        "endAt": "2025-02-15T09:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417528",
+          "slug": "albion-online",
+          "displayName": "Albion Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2be5cd95-5425-4e06-bec2-64fbac56f25d.png",
+        "name": "Rogue Frontier 2 - #5/7",
+        "owner": {
+          "id": "39dcfadd-48e4-4362-8c22-974319aff88e",
+          "name": "Sandbox Interactive",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-14T10:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f0ddf5d4-e545-11ef-9f27-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "39dcfadd-48e4-4362-8c22-974319aff88e_CUSTOM_ID_double_rogue_frontier_chest-6bf07c05-6783-4c22-a586-bf6a4d3593c8",
+                  "createdAt": "2025-01-30T09:28:06.176Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417528",
+                    "name": "Albion Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cb68969f-044f-45dd-b280-aa7e472deb5e.png",
+                  "isIosAvailable": true,
+                  "name": "2x Rogue Frontier Chest",
+                  "ownerOrganization": {
+                    "id": "39dcfadd-48e4-4362-8c22-974319aff88e",
+                    "name": "Sandbox Interactive",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-15T09:29:59.999Z",
+            "name": "2x Rogue Frontier Chest",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-02-14T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-14T10:00:00.000Z"
   },
   {
     "endAt": "2025-02-15T19:38:59.999Z",
