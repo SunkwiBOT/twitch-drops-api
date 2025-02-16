@@ -20,12 +20,6 @@
               "__typename": "Channel"
             },
             {
-              "id": "268119114",
-              "displayName": "Sniper_Gecko",
-              "name": "sniper_gecko",
-              "__typename": "Channel"
-            },
-            {
               "id": "915271195",
               "displayName": "TRYDENT43",
               "name": "trydent43",
@@ -2133,6 +2127,127 @@
       }
     ],
     "startAt": "2025-02-16T17:15:00.000Z"
+  },
+  {
+    "endAt": "2025-02-17T00:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/30921-120x160.jpg",
+    "gameDisplayName": "Rocket League",
+    "gameId": "30921",
+    "rewards": [
+      {
+        "id": "abf39262-ec82-11ef-8ae8-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "57781936",
+              "displayName": "RocketLeague",
+              "name": "rocketleague",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://competitive.rocketleague.com/",
+        "description": "CRL Spring 2025",
+        "detailsURL": "https://competitive.rocketleague.com/",
+        "endAt": "2025-02-17T00:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "30921",
+          "slug": "rocket-league",
+          "displayName": "Rocket League",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a5c55b84-ab71-4b9a-b6f6-027c22ecd4c1.jpeg",
+        "name": "CRL Spring '25",
+        "owner": {
+          "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+          "name": "Epic Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-16T20:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ce811256-ec82-11ef-8a38-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8dc082b6-ead8-11ee-82ee-0a58a9feac02",
+                  "createdAt": "2024-03-25T18:50:30.71Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "30921",
+                    "name": "Rocket League",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6a4d87c2-dd59-48b0-a088-ae087680afc4.png",
+                  "isIosAvailable": false,
+                  "name": "RLCS 2024",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-17T00:59:59.999Z",
+            "name": "RLCS 2025",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-02-16T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d37c52ba-ec82-11ef-81e5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "aa9f73a5-2e86-11ef-933b-0a58a9feac02",
+                  "createdAt": "2024-06-19T21:55:39.484Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "30921",
+                    "name": "Rocket League",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/54bf595f-6051-4e66-ab9d-372be827c5cc.png",
+                  "isIosAvailable": false,
+                  "name": "RLCS 2024 (Series 2)",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-17T00:59:59.999Z",
+            "name": "RLCS 2025",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-02-16T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-16T20:00:00.000Z"
   },
   {
     "endAt": "2025-02-17T04:58:59.999Z",
