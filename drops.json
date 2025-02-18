@@ -8443,7 +8443,7 @@
     "startAt": "2025-02-17T02:35:17.000Z"
   },
   {
-    "endAt": "2025-02-24T05:59:59.999Z",
+    "endAt": "2025-03-10T06:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
     "gameDisplayName": "Overwatch 2",
     "gameId": "515025",
@@ -8713,6 +8713,251 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 720,
             "startAt": "2025-01-28T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "0828b01d-ee20-11ef-9ea5-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.battle.net/connections",
+        "description": "Celebrate Overwatch 2's biggest season yet with the launch of Season 15 by receiving drops watching any of your fav Overwatch creators. \n\nWatch a total of 12 hours to get the full Rainy Day Mei bundle and gift 2 subs to any OW streamer to receive Rainy Day Tracer skin!",
+        "detailsURL": "https://us.forums.blizzard.com/en/overwatch/t/make-a-splash-with-new-rainy-day-twitch-drops/951965",
+        "endAt": "2025-03-10T06:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515025",
+          "slug": "overwatch-2",
+          "displayName": "Overwatch 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b25d9182-a28b-4ccc-ad37-40910cbbd750.png",
+        "name": "Season 15 Launch",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-18T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "225e1b91-ee20-11ef-8c6a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1901929",
+                  "createdAt": "2025-02-18T18:22:25.682Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8af54d67-4567-4252-958a-4fbc19ede7ac.png",
+                  "isIosAvailable": false,
+                  "name": "Froggy Avatar",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-10T06:59:59.997Z",
+            "name": "Froggy Avatar",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-02-18T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "79be606b-ee20-11ef-8450-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1901896",
+                  "createdAt": "2025-02-18T18:24:04.393Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1d4c4b0d-6501-441e-8b19-86b62e112958.png",
+                  "isIosAvailable": false,
+                  "name": "Rainy Snowball Spray",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-10T06:59:59.997Z",
+            "name": "Rainy Snowball Spray",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-02-18T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "8471ab97-ee20-11ef-9ea5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1904425",
+                  "createdAt": "2025-02-18T18:21:30.441Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fe1d548b-063c-4fb6-adcd-3b1ee895d52f.png",
+                  "isIosAvailable": false,
+                  "name": "Rainy Day Pose",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-10T06:59:59.997Z",
+            "name": "Rainy Day Pose",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-02-18T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9531131f-ee20-11ef-b1bc-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1904432",
+                  "createdAt": "2025-02-18T18:22:54.14Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/98e92a9c-0423-4af7-8dcb-d61d1c918558.png",
+                  "isIosAvailable": false,
+                  "name": "Rainy Stroll Emote",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-10T06:59:59.997Z",
+            "name": "Rainy Day Emote",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2025-02-18T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a158a254-ee20-11ef-86aa-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1901864",
+                  "createdAt": "2025-02-18T18:23:36.329Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0914a618-fe00-4dd3-9cdd-dc84c62702d8.png",
+                  "isIosAvailable": false,
+                  "name": "Rainy Day Mei Skin",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-10T06:59:59.997Z",
+            "name": "Rainy Day Mei Skin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 720,
+            "startAt": "2025-02-18T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b3f61bc4-ee20-11ef-bc98-0a58a9feac02",
+            "requiredSubs": 2,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1901859",
+                  "createdAt": "2025-02-18T18:22:00.401Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5e3a2b77-b83c-4a89-aa2f-49abf1ef8e56.png",
+                  "isIosAvailable": false,
+                  "name": "Rainy Day Tracer Skin",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-10T06:59:59.997Z",
+            "name": "Rainy Day Tracer",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-02-18T19:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
