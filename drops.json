@@ -18464,6 +18464,125 @@
           }
         ],
         "__typename": "DropCampaign"
+      },
+      {
+        "id": "1ab53d6d-efe2-11ef-b7a6-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "22407530",
+              "displayName": "PKMNcast",
+              "name": "pkmncast",
+              "__typename": "Channel"
+            },
+            {
+              "id": "67755571",
+              "displayName": "TripleBtcg",
+              "name": "triplebtcg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "161196173",
+              "displayName": "PokeDubzz",
+              "name": "pokedubzz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "161002038",
+              "displayName": "Eeowna",
+              "name": "eeowna",
+              "__typename": "Channel"
+            },
+            {
+              "id": "626016213",
+              "displayName": "Helixort",
+              "name": "helixort",
+              "__typename": "Channel"
+            },
+            {
+              "id": "37712828",
+              "displayName": "Nuralkar",
+              "name": "nuralkar",
+              "__typename": "Channel"
+            },
+            {
+              "id": "455289666",
+              "displayName": "IlCovoDiWeavile",
+              "name": "ilcovodiweavile",
+              "__typename": "Channel"
+            },
+            {
+              "id": "163483764",
+              "displayName": "HildaNamida",
+              "name": "hildanamida",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://rewards.pokemon.com/",
+        "description": "Earn Umbreon and Espeon as stunning special illustration rare cards in Pokémon TCG Live by tuning in to official 2025 EUIC Co-streams: https://www.twitch.tv/pkmncast , https://www.twitch.tv/triplebtcg , https://www.twitch.tv/pokedubzz , https://www.twitch.tv/eeowna , https://www.twitch.tv/helixort , https://www.twitch.tv/nuralkar , https://www.twitch.tv/ilcovodiweavile , https://www.twitch.tv/hildanamida. Redeem by March 21, 17:00 UTC. FAQ: pkmn.news/PokemonDrops",
+        "detailsURL": "https://rewards.pokemon.com/",
+        "endAt": "2025-03-02T17:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "9618",
+          "slug": "pokemon-trading-card-game",
+          "displayName": "Pokémon Trading Card Game",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1ff8709a-5238-45f9-9416-9709c7bd38f9.png",
+        "name": "2025 EUIC Co-streamers",
+        "owner": {
+          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+          "name": "The Pokémon Company",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-21T08:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "e36be4e1-efe2-11ef-8c60-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "1f8c293b-efdf-11ef-8d7b-0a58a9feac02",
+                  "createdAt": "2025-02-20T23:05:05.78Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "9618",
+                    "name": "Pokémon Trading Card Game",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/df2169c0-6811-4439-8006-090e6983c754.png",
+                  "isIosAvailable": false,
+                  "name": "2025 EUIC Co-streamers",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-02T17:59:59.999Z",
+            "name": "Co-streamer Drops",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-02-21T08:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
       }
     ],
     "startAt": "2025-02-21T05:00:00.000Z"
