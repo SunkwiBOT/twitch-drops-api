@@ -2513,8 +2513,27 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "693895492",
+              "displayName": "playcaliber",
+              "name": "playcaliber",
+              "__typename": "Channel"
+            },
+            {
+              "id": "278288258",
+              "displayName": "SNEGOFF_SHOW",
+              "name": "snegoff_show",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124343905",
+              "displayName": "Basist_Games",
+              "name": "basist_games",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://playcaliber.com/ru/",
