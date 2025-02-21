@@ -935,6 +935,92 @@
     "startAt": "2025-02-20T17:59:00.000Z"
   },
   {
+    "endAt": "2025-02-21T17:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/232131679_IGDB-120x160.jpg",
+    "gameDisplayName": "EA Sports College Football 25",
+    "gameId": "232131679",
+    "rewards": [
+      {
+        "id": "2df36bf1-f050-11ef-8d17-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1078884257",
+              "displayName": "easportscollege",
+              "name": "easportscollege",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch the CFB Rundown and earn some Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-02-21T17:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "232131679",
+          "slug": "ea-sports-college-football",
+          "displayName": "EA Sports College Football 25",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/191ce8a2-4a3a-4d57-a77a-9a98f4cf3bd1.png",
+        "name": "CFB Rundown",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-21T15:50:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3803b5e3-f050-11ef-b41b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT25-TWITCH-091",
+                  "createdAt": "2025-02-21T12:33:10.541Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "232131679",
+                    "name": "EA Sports College Football 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b0a5b05-211f-4b1f-8e30-ad6fc03ba144.png",
+                  "isIosAvailable": false,
+                  "name": "CFB Twitch Pack ",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-21T17:59:59.999Z",
+            "name": "CFB Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-02-21T15:50:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-21T15:50:00.000Z"
+  },
+  {
     "endAt": "2025-02-23T22:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21136_IGDB-120x160.jpg",
     "gameDisplayName": "Wakfu",
