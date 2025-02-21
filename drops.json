@@ -22816,7 +22816,7 @@
     "startAt": "2025-02-13T03:00:00.000Z"
   },
   {
-    "endAt": "2025-03-20T01:59:59.999Z",
+    "endAt": "2025-03-21T01:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
     "gameDisplayName": "Delta Force",
     "gameId": "1282866981",
@@ -23300,6 +23300,285 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 15,
             "startAt": "2025-02-21T02:24:27Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "ad93efdd-ecfc-11ef-8d31-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.playdeltaforce.com/act/twitchdropsbhd/index.html",
+        "description": "The Black Hawk Down Co-op Campaign is now available for free! Remember, no one gets left behind.\n",
+        "detailsURL": "https://www.playdeltaforce.com/act/twitchdropsbhd/index.html",
+        "endAt": "2025-03-21T01:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1282866981",
+          "slug": "delta-force-hawk-ops",
+          "displayName": "Delta Force",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/88ed5f7f-7436-4c7c-8e71-8bbb1aecc52b.jpeg",
+        "name": "Drops for Black Hawk Down",
+        "owner": {
+          "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+          "name": "Level Infinite",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-21T03:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "c0ee2671-ecfc-11ef-84fb-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "1dd8b088-ecfd-11ef-88a9-0a58a9feac02",
+                  "createdAt": "2025-02-17T07:02:14.339Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c0212d49-b357-425a-8fde-3f3edcd0af7c.png",
+                  "isIosAvailable": false,
+                  "name": "Starfall WKND Lucky Sply",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "3edeef8c-ecfd-11ef-8344-0a58a9feac02",
+                  "createdAt": "2025-02-17T07:03:09.745Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2f5907a4-7124-40d1-b3c4-8ca70010a3ee.png",
+                  "isIosAvailable": false,
+                  "name": "Warfare 2x EXP Card",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-21T01:59:59.999Z",
+            "name": "15min",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-02-21T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c6c34f4b-ecfc-11ef-a5b0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5db8fde6-ecfd-11ef-bd5f-0a58a9feac02",
+                  "createdAt": "2025-02-17T07:04:01.506Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a63b2d77-ff15-4fe9-be75-7cb8de3be396.png",
+                  "isIosAvailable": false,
+                  "name": "Standard Gear Ticket",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "73c59abc-ecfd-11ef-afb1-0a58a9feac02",
+                  "createdAt": "2025-02-17T07:04:38.498Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/08f6ec66-1019-4b2a-bafe-177c246ae776.png",
+                  "isIosAvailable": false,
+                  "name": "Premium Weapon Exp Token",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-21T01:59:59.999Z",
+            "name": "30min",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-02-21T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "cb7e7c67-ecfc-11ef-8709-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "38b7eb55-ed05-11ef-85b5-0a58a9feac02",
+                  "createdAt": "2025-02-17T08:00:15.397Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/50cc396a-52f4-4c47-862a-a90de5583942.png",
+                  "isIosAvailable": false,
+                  "name": "Hands-up Agree",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-21T01:59:59.999Z",
+            "name": "60min",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-02-21T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d06173c7-ecfc-11ef-a2d6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "4fc53465-ed05-11ef-9b00-0a58a9feac02",
+                  "createdAt": "2025-02-17T08:00:54.071Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/827f6319-4512-4507-b725-1e9806d1d8e9.png",
+                  "isIosAvailable": false,
+                  "name": "SG552 Advanced Full Pack",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "5e54fa28-ed05-11ef-8e6f-0a58a9feac02",
+                  "createdAt": "2025-02-17T08:01:18.502Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26609ff6-6492-4b8d-ac7b-f003d2f5e2e7.png",
+                  "isIosAvailable": false,
+                  "name": "2x Merit Card",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-21T01:59:59.999Z",
+            "name": "2hs",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-02-21T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d60a9b2d-ecfc-11ef-93fd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "72193955-ed08-11ef-8344-0a58a9feac02",
+                  "createdAt": "2025-02-17T08:23:20.155Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f99d788d-6dcb-49d8-be33-fe5ed545f497.png",
+                  "isIosAvailable": false,
+                  "name": "M4A1 - Tactical Operation",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-21T01:59:59.999Z",
+            "name": "4hs",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-02-21T03:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
