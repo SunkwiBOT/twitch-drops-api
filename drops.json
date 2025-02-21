@@ -21102,6 +21102,92 @@
   },
   {
     "endAt": "2025-03-03T17:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/723461364_IGDB-120x160.jpg",
+    "gameDisplayName": "Mecha BREAK",
+    "gameId": "723461364",
+    "rewards": [
+      {
+        "id": "9b77cef9-f03d-11ef-a337-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1105509825",
+              "displayName": "MechaBREAKOfficial",
+              "name": "mechabreakofficial",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://mechabreak.seasungames.com/p/zt/2024/07/25/twitch-drop/",
+        "description": "To claim your Twitch drops go to:https://mechabreak.seasungames.com/p/zt/2024/07/25/twitch-drop/",
+        "detailsURL": "https://mechabreak.seasungames.com/p/zt/2024/07/25/twitch-drop/",
+        "endAt": "2025-03-03T17:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "723461364",
+          "slug": "mecha-break",
+          "displayName": "Mecha BREAK",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b64893e7-bf52-4da7-8d97-fba075b7604b.png",
+        "name": "Mecha BREAK Global Storm",
+        "owner": {
+          "id": "c57a089c-088f-4402-b02d-c13281b3397e",
+          "name": "Amazing Seasun Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-21T11:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7dd311cb-f03e-11ef-a337-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "94761b11-f03e-11ef-a0ff-0a58a9feac02",
+                  "createdAt": "2025-02-21T10:28:24.118Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "723461364",
+                    "name": "Mecha BREAK",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1f24508f-7f95-4b91-96b8-f56c29ff07b7.png",
+                  "isIosAvailable": false,
+                  "name": "Ultimate Maintenance*1",
+                  "ownerOrganization": {
+                    "id": "c57a089c-088f-4402-b02d-c13281b3397e",
+                    "name": "Amazing Seasun Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-03T17:59:59.999Z",
+            "name": "The Ultimate Maintenance Box",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-02-21T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-21T11:00:00.000Z"
+  },
+  {
+    "endAt": "2025-03-03T17:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2113043143_IGDB-120x160.jpg",
     "gameDisplayName": "PAYDAY 3",
     "gameId": "2113043143",
