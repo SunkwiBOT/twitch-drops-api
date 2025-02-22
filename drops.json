@@ -644,6 +644,92 @@
     "startAt": "2025-02-21T16:00:00.000Z"
   },
   {
+    "endAt": "2025-02-23T03:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417969-120x160.jpg",
+    "gameDisplayName": "Halo: The Master Chief Collection",
+    "gameId": "417969",
+    "rewards": [
+      {
+        "id": "24abe58f-e02b-11ef-a2eb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "28130176",
+              "displayName": "NapTimez",
+              "name": "naptimez",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into the HCS Grassroots event to earn Halo MCC in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-02-23T03:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417969",
+          "slug": "halo-the-master-chief-collection",
+          "displayName": "Halo: The Master Chief Collection",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8ea58dfd-06c0-4170-bd11-975cfe4ca17b.png",
+        "name": "SWATNation Classic-FEB22",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-22T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "43a42243-e02b-11ef-88ec-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_HCSGR-MCC-UHB4-DIEC-7WCZ",
+                  "createdAt": "2023-12-11T22:52:01.743Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417969",
+                    "name": "Halo: The Master Chief Collection",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e05310db-c13b-457d-9287-b2f780d246df.png",
+                  "isIosAvailable": false,
+                  "name": "MCC Legendary II",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-23T03:59:59.998Z",
+            "name": "Legendary II Nameplate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-02-22T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-22T19:00:00.000Z"
+  },
+  {
     "endAt": "2025-02-23T06:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
     "gameDisplayName": "Halo Infinite",
