@@ -1,189 +1,5 @@
 [
   {
-    "endAt": "2025-02-24T14:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/633454324_IGDB-120x160.jpg",
-    "gameDisplayName": "Rush Royale",
-    "gameId": "633454324",
-    "rewards": [
-      {
-        "id": "0fd59166-e85c-11ef-b11c-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://rushroyale.my.games/en/twitch-drops",
-        "description": "Watch your favorite streamers and earn in-game rewards!",
-        "detailsURL": "https://rushroyale.my.games/en/twitch-drops",
-        "endAt": "2025-02-24T14:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "633454324",
-          "slug": "rush-royale",
-          "displayName": "Rush Royale",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/01863f48-9c8a-4a7f-97c3-dd8803c568dd.png",
-        "name": "Festival of Talents Drops",
-        "owner": {
-          "id": "d2d3d72d-6b72-4ed0-aed5-23ca6482ab1e",
-          "name": "IT Territory",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-02-13T15:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "65908dce-e85c-11ef-973f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "d2d3d72d-6b72-4ed0-aed5-23ca6482ab1e_CUSTOM_ID_1059835310",
-                  "createdAt": "2024-12-18T16:32:17.172Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "633454324",
-                    "name": "Rush Royale",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/059a214e-faa7-4400-9ff4-75cce3cf17f2.png",
-                  "isIosAvailable": false,
-                  "name": "5000 Gold",
-                  "ownerOrganization": {
-                    "id": "d2d3d72d-6b72-4ed0-aed5-23ca6482ab1e",
-                    "name": "IT Territory",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-24T14:59:59.998Z",
-            "name": "5000 Gold",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-02-13T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "79c29516-e85c-11ef-9509-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "d2d3d72d-6b72-4ed0-aed5-23ca6482ab1e_CUSTOM_ID_254635856",
-                  "createdAt": "2024-12-18T16:39:04.945Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "633454324",
-                    "name": "Rush Royale",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a551dc7-bd5f-4844-b75f-abfee0df4342.png",
-                  "isIosAvailable": false,
-                  "name": "200 Item Fragments",
-                  "ownerOrganization": {
-                    "id": "d2d3d72d-6b72-4ed0-aed5-23ca6482ab1e",
-                    "name": "IT Territory",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-24T14:59:59.998Z",
-            "name": "200 Item Fragments",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-02-13T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "e15a7d19-e85c-11ef-9abe-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "d2d3d72d-6b72-4ed0-aed5-23ca6482ab1e_CUSTOM_ID_1488063397",
-                  "createdAt": "2024-12-18T16:48:08.181Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "633454324",
-                    "name": "Rush Royale",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7e693cb-85e2-498a-b1aa-060d3d1dbd24.png",
-                  "isIosAvailable": false,
-                  "name": "1 Seeker Compass",
-                  "ownerOrganization": {
-                    "id": "d2d3d72d-6b72-4ed0-aed5-23ca6482ab1e",
-                    "name": "IT Territory",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-24T14:59:59.998Z",
-            "name": "1 Seeker Compass",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2025-02-13T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "ef33d24a-e85c-11ef-b176-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "d2d3d72d-6b72-4ed0-aed5-23ca6482ab1e_CUSTOM_ID_36040511",
-                  "createdAt": "2024-12-20T08:39:44.867Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "633454324",
-                    "name": "Rush Royale",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/399ca795-1ba0-437f-980f-47692262d47e.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Frame",
-                  "ownerOrganization": {
-                    "id": "d2d3d72d-6b72-4ed0-aed5-23ca6482ab1e",
-                    "name": "IT Territory",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-24T14:59:59.998Z",
-            "name": "Twitch Drops Frame",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 480,
-            "startAt": "2025-02-13T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-02-13T15:00:00.000Z"
-  },
-  {
     "endAt": "2025-02-24T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
     "gameDisplayName": "World of Tanks",
@@ -17472,257 +17288,328 @@
     "startAt": "2025-02-20T10:00:00.000Z"
   },
   {
-    "endAt": "2025-03-02T17:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/9618_IGDB-120x160.jpg",
-    "gameDisplayName": "Pokémon Trading Card Game",
-    "gameId": "9618",
-    "rewards": [
-      {
-        "id": "68a1b1df-efd9-11ef-8984-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "109828129",
-              "displayName": "PokemonTCG",
-              "name": "pokemontcg",
-              "__typename": "Channel"
-            },
-            {
-              "id": "36653045",
-              "displayName": "Pokemon",
-              "name": "pokemon",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://rewards.pokemon.com/",
-        "description": "Earn EUIC-themed deck accessories featuring Wellspring Mask Ogerpon and Leafeon, Glaceon, and Sylveon as stunning special illustration rare cards in Pokémon TCG Live by tuning in to twitch.tv/pokemonTCG (2/21-2/22) and twitch.tv/pokemon (2/23) during the official 2025 EUIC broadcasts. Redeem by March 21, 17:00 UTC. FAQ: pkmn.news/PokemonDrops",
-        "detailsURL": "https://rewards.pokemon.com/",
-        "endAt": "2025-03-02T17:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "9618",
-          "slug": "pokemon-trading-card-game",
-          "displayName": "Pokémon Trading Card Game",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cc677138-63ca-4d5b-904c-0f9a46b26164.png",
-        "name": "2025 EUIC TCG Drops",
-        "owner": {
-          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-          "name": "The Pokémon Company",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-02-21T05:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "13a1779d-efda-11ef-9b6b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "c532a705-efd5-11ef-85ec-0a58a9feac02",
-                  "createdAt": "2025-02-20T21:58:08.727Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "9618",
-                    "name": "Pokémon Trading Card Game",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/66a8005e-3302-4594-83a1-fa32b1d8a951.png",
-                  "isIosAvailable": false,
-                  "name": "2025 EUIC Deck Cosmetics",
-                  "ownerOrganization": {
-                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-                    "name": "The Pokémon Company",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-02T17:59:59.999Z",
-            "name": "Deck Cosmetics",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-02-21T05:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "d21c4565-efd9-11ef-b6d9-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "b93f772b-efd7-11ef-9f0b-0a58a9feac02",
-                  "createdAt": "2025-02-20T22:12:07.672Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "9618",
-                    "name": "Pokémon Trading Card Game",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e86b0aaf-1412-4f37-b5b4-46ca1ec0279b.png",
-                  "isIosAvailable": false,
-                  "name": "2025 EUIC Card Drops",
-                  "ownerOrganization": {
-                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-                    "name": "The Pokémon Company",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-02T17:59:59.999Z",
-            "name": "Card Drops",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-02-21T05:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "1ab53d6d-efe2-11ef-b7a6-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "22407530",
-              "displayName": "PKMNcast",
-              "name": "pkmncast",
-              "__typename": "Channel"
-            },
-            {
-              "id": "67755571",
-              "displayName": "TripleBtcg",
-              "name": "triplebtcg",
-              "__typename": "Channel"
-            },
-            {
-              "id": "161196173",
-              "displayName": "PokeDubzz",
-              "name": "pokedubzz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "161002038",
-              "displayName": "Eeowna",
-              "name": "eeowna",
-              "__typename": "Channel"
-            },
-            {
-              "id": "626016213",
-              "displayName": "Helixort",
-              "name": "helixort",
-              "__typename": "Channel"
-            },
-            {
-              "id": "37712828",
-              "displayName": "Nuralkar",
-              "name": "nuralkar",
-              "__typename": "Channel"
-            },
-            {
-              "id": "455289666",
-              "displayName": "IlCovoDiWeavile",
-              "name": "ilcovodiweavile",
-              "__typename": "Channel"
-            },
-            {
-              "id": "163483764",
-              "displayName": "HildaNamida",
-              "name": "hildanamida",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://rewards.pokemon.com/",
-        "description": "Earn Umbreon and Espeon as stunning special illustration rare cards in Pokémon TCG Live by tuning in to official 2025 EUIC Co-streams: https://www.twitch.tv/pkmncast , https://www.twitch.tv/triplebtcg , https://www.twitch.tv/pokedubzz , https://www.twitch.tv/eeowna , https://www.twitch.tv/helixort , https://www.twitch.tv/nuralkar , https://www.twitch.tv/ilcovodiweavile , https://www.twitch.tv/hildanamida. Redeem by March 21, 17:00 UTC. FAQ: pkmn.news/PokemonDrops",
-        "detailsURL": "https://rewards.pokemon.com/",
-        "endAt": "2025-03-02T17:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "9618",
-          "slug": "pokemon-trading-card-game",
-          "displayName": "Pokémon Trading Card Game",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1ff8709a-5238-45f9-9416-9709c7bd38f9.png",
-        "name": "2025 EUIC Co-streamers",
-        "owner": {
-          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-          "name": "The Pokémon Company",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-02-21T08:30:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "e36be4e1-efe2-11ef-8c60-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "1f8c293b-efdf-11ef-8d7b-0a58a9feac02",
-                  "createdAt": "2025-02-20T23:05:05.78Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "9618",
-                    "name": "Pokémon Trading Card Game",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/df2169c0-6811-4439-8006-090e6983c754.png",
-                  "isIosAvailable": false,
-                  "name": "2025 EUIC Co-streamers",
-                  "ownerOrganization": {
-                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-                    "name": "The Pokémon Company",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-02T17:59:59.999Z",
-            "name": "Co-streamer Drops",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-02-21T08:30:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-02-21T05:00:00.000Z"
-  },
-  {
     "endAt": "2025-03-02T22:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/510389_IGDB-120x160.jpg",
     "gameDisplayName": "Shakes and Fidget",
     "gameId": "510389",
     "rewards": [
+      {
+        "id": "0e38561a-eab7-11ef-a0a9-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "72617505",
+              "displayName": "moZoneTV",
+              "name": "mozonetv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "231431192",
+              "displayName": "TunyGhost",
+              "name": "tunyghost",
+              "__typename": "Channel"
+            },
+            {
+              "id": "163488747",
+              "displayName": "N3utr4LSF",
+              "name": "n3utr4lsf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "115148629",
+              "displayName": "ZsombeyHD",
+              "name": "zsombeyhd",
+              "__typename": "Channel"
+            },
+            {
+              "id": "175988361",
+              "displayName": "DomCaOfficial",
+              "name": "domcaofficial",
+              "__typename": "Channel"
+            },
+            {
+              "id": "277405774",
+              "displayName": "sfgameofficial",
+              "name": "sfgameofficial",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://sfgame.net/",
+        "description": "Watch the official Shakes & Fidget stream on Twitch to obtain unique Drops.",
+        "detailsURL": "https://playa-games.helpshift.com/hc/faq/255-twitch-drops/",
+        "endAt": "2025-03-02T10:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "510389",
+          "slug": "shakes-and-fidget",
+          "displayName": "Shakes and Fidget",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4ce41925-8d55-4783-8241-f67f62d083e7.jpeg",
+        "name": "Hellevator Drops Set 2/3",
+        "owner": {
+          "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+          "name": "Playa-Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-24T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3fa639b5-eab7-11ef-92b8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_life_potion",
+                  "createdAt": "2023-10-23T13:21:22.647Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7cb69da8-da4a-4c7f-88e3-96f8baf73835.png",
+                  "isIosAvailable": false,
+                  "name": "Winged Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-02T10:58:59.999Z",
+            "name": "Winged Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-02-24T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "48ee7a9a-eab7-11ef-b9cb-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_keycard_1",
+                  "createdAt": "2023-11-15T13:25:19.585Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2959572b-e3ec-4463-a491-f52741832444.png",
+                  "isIosAvailable": false,
+                  "name": "Hellevator Access Pack",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-02T10:58:59.999Z",
+            "name": "Hellevator Access Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-02-24T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "53dde8ea-eab7-11ef-9c61-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_fruits_x4",
+                  "createdAt": "2024-11-07T15:58:52.146Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/191aa866-5c14-4d7a-b471-c43e6b1c9a08.png",
+                  "isIosAvailable": false,
+                  "name": "Big Fruit Basket",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-02T10:58:59.999Z",
+            "name": "Big Fruit Basket",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-02-24T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "5b33d674-eab7-11ef-a68d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_keycard_2",
+                  "createdAt": "2024-02-13T10:50:15.561Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c8e07695-dd8c-45bf-b662-c5a1d22ed88c.png",
+                  "isIosAvailable": false,
+                  "name": "Hellevator Access Pack 2",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-02T10:58:59.999Z",
+            "name": "Hellevator Access Pack 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-02-24T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "632ee5e2-eab7-11ef-8c99-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_gem",
+                  "createdAt": "2024-03-18T13:06:34.481Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/de32e173-c21a-465c-af66-b39c3d1a9e29.png",
+                  "isIosAvailable": false,
+                  "name": "Gem Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-02T10:58:59.999Z",
+            "name": "Gem Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 150,
+            "startAt": "2025-02-24T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6b88a70c-eab7-11ef-a92e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_keycard_3",
+                  "createdAt": "2024-02-13T10:50:56.698Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/61eca5fa-e6f1-418e-a4f3-c692c00f092d.png",
+                  "isIosAvailable": false,
+                  "name": "Hellevator Access Pack 3",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-02T10:58:59.999Z",
+            "name": "Hellevator Access Pack 3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-02-24T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7a3f5c75-eab7-11ef-afc4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_epic_rand",
+                  "createdAt": "2024-04-04T08:54:19.073Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/03fa672e-4f26-4905-86e2-145a85ffbabc.png",
+                  "isIosAvailable": false,
+                  "name": "Random Epic Item",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-02T10:58:59.999Z",
+            "name": "Random Epic Item",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2025-02-24T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
       {
         "id": "ed57e619-d4e9-11ef-a83d-0a58a9feac02",
         "self": {
@@ -18449,6 +18336,252 @@
       }
     ],
     "startAt": "2025-02-20T15:00:00.000Z"
+  },
+  {
+    "endAt": "2025-03-02T17:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/9618_IGDB-120x160.jpg",
+    "gameDisplayName": "Pokémon Trading Card Game",
+    "gameId": "9618",
+    "rewards": [
+      {
+        "id": "68a1b1df-efd9-11ef-8984-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "109828129",
+              "displayName": "PokemonTCG",
+              "name": "pokemontcg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36653045",
+              "displayName": "Pokemon",
+              "name": "pokemon",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://rewards.pokemon.com/",
+        "description": "Earn EUIC-themed deck accessories featuring Wellspring Mask Ogerpon and Leafeon, Glaceon, and Sylveon as stunning special illustration rare cards in Pokémon TCG Live by tuning in to twitch.tv/pokemonTCG (2/21-2/22) and twitch.tv/pokemon (2/23) during the official 2025 EUIC broadcasts. Redeem by March 21, 17:00 UTC. FAQ: pkmn.news/PokemonDrops",
+        "detailsURL": "https://rewards.pokemon.com/",
+        "endAt": "2025-03-02T17:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "9618",
+          "slug": "pokemon-trading-card-game",
+          "displayName": "Pokémon Trading Card Game",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cc677138-63ca-4d5b-904c-0f9a46b26164.png",
+        "name": "2025 EUIC TCG Drops",
+        "owner": {
+          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+          "name": "The Pokémon Company",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-21T05:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "13a1779d-efda-11ef-9b6b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "c532a705-efd5-11ef-85ec-0a58a9feac02",
+                  "createdAt": "2025-02-20T21:58:08.727Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "9618",
+                    "name": "Pokémon Trading Card Game",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/66a8005e-3302-4594-83a1-fa32b1d8a951.png",
+                  "isIosAvailable": false,
+                  "name": "2025 EUIC Deck Cosmetics",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-02T17:59:59.999Z",
+            "name": "Deck Cosmetics",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-02-21T05:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d21c4565-efd9-11ef-b6d9-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "b93f772b-efd7-11ef-9f0b-0a58a9feac02",
+                  "createdAt": "2025-02-20T22:12:07.672Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "9618",
+                    "name": "Pokémon Trading Card Game",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e86b0aaf-1412-4f37-b5b4-46ca1ec0279b.png",
+                  "isIosAvailable": false,
+                  "name": "2025 EUIC Card Drops",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-02T17:59:59.999Z",
+            "name": "Card Drops",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-02-21T05:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "1ab53d6d-efe2-11ef-b7a6-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "22407530",
+              "displayName": "PKMNcast",
+              "name": "pkmncast",
+              "__typename": "Channel"
+            },
+            {
+              "id": "67755571",
+              "displayName": "TripleBtcg",
+              "name": "triplebtcg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "161196173",
+              "displayName": "PokeDubzz",
+              "name": "pokedubzz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "161002038",
+              "displayName": "Eeowna",
+              "name": "eeowna",
+              "__typename": "Channel"
+            },
+            {
+              "id": "626016213",
+              "displayName": "Helixort",
+              "name": "helixort",
+              "__typename": "Channel"
+            },
+            {
+              "id": "37712828",
+              "displayName": "Nuralkar",
+              "name": "nuralkar",
+              "__typename": "Channel"
+            },
+            {
+              "id": "455289666",
+              "displayName": "IlCovoDiWeavile",
+              "name": "ilcovodiweavile",
+              "__typename": "Channel"
+            },
+            {
+              "id": "163483764",
+              "displayName": "HildaNamida",
+              "name": "hildanamida",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://rewards.pokemon.com/",
+        "description": "Earn Umbreon and Espeon as stunning special illustration rare cards in Pokémon TCG Live by tuning in to official 2025 EUIC Co-streams: https://www.twitch.tv/pkmncast , https://www.twitch.tv/triplebtcg , https://www.twitch.tv/pokedubzz , https://www.twitch.tv/eeowna , https://www.twitch.tv/helixort , https://www.twitch.tv/nuralkar , https://www.twitch.tv/ilcovodiweavile , https://www.twitch.tv/hildanamida. Redeem by March 21, 17:00 UTC. FAQ: pkmn.news/PokemonDrops",
+        "detailsURL": "https://rewards.pokemon.com/",
+        "endAt": "2025-03-02T17:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "9618",
+          "slug": "pokemon-trading-card-game",
+          "displayName": "Pokémon Trading Card Game",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1ff8709a-5238-45f9-9416-9709c7bd38f9.png",
+        "name": "2025 EUIC Co-streamers",
+        "owner": {
+          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+          "name": "The Pokémon Company",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-21T08:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "e36be4e1-efe2-11ef-8c60-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "1f8c293b-efdf-11ef-8d7b-0a58a9feac02",
+                  "createdAt": "2025-02-20T23:05:05.78Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "9618",
+                    "name": "Pokémon Trading Card Game",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/df2169c0-6811-4439-8006-090e6983c754.png",
+                  "isIosAvailable": false,
+                  "name": "2025 EUIC Co-streamers",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-02T17:59:59.999Z",
+            "name": "Co-streamer Drops",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-02-21T08:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-21T05:00:00.000Z"
   },
   {
     "endAt": "2025-03-02T22:59:59.999Z",
