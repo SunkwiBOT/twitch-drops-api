@@ -26074,5 +26074,91 @@
       }
     ],
     "startAt": "2025-02-20T10:00:00.000Z"
+  },
+  {
+    "endAt": "2025-03-20T15:02:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511295_IGDB-120x160.jpg",
+    "gameDisplayName": "Predecessor",
+    "gameId": "511295",
+    "rewards": [
+      {
+        "id": "0f1581b2-f38a-11ef-93f4-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "412672707",
+              "displayName": "PredecessorGame",
+              "name": "predecessorgame",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://predecessorgame.com/link-accounts",
+        "description": "Tune into an official Predecessor Livestream (@predecessorgame) to earn an exclusive reward!",
+        "detailsURL": "https://predecessorgame.com/twitch-drops",
+        "endAt": "2025-03-20T15:02:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511295",
+          "slug": "predecessor",
+          "displayName": "Predecessor",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8b6afa3e-641a-4ab2-a3aa-27ab4ce49efc.png",
+        "name": "Predecessor Dev Drops",
+        "owner": {
+          "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+          "name": "Omeda Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-25T15:03:30Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7dfaf1ca-f38b-11ef-a1b6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "907d505f-bc80-11ef-b5cb-0a58a9feac02",
+                  "createdAt": "2024-12-17T14:09:43.774Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8920a837-5fc4-4b25-b08f-baa64d6f1479.png",
+                  "isIosAvailable": false,
+                  "name": "Bright Idea OH Emote",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-20T15:02:59.999Z",
+            "name": "Bright Idea OH Emote",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-02-25T15:03:30Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-25T15:03:30.000Z"
   }
 ]
