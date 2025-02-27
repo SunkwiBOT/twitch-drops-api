@@ -29065,6 +29065,232 @@
     "startAt": "2025-02-18T19:00:00.000Z"
   },
   {
+    "endAt": "2025-03-13T23:29:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
+    "gameDisplayName": "Kirka.io",
+    "gameId": "356609813",
+    "rewards": [
+      {
+        "id": "72b2e215-f49c-11ef-8574-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Kirka.io drop for the Rubies Unobtainable",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2025-03-04T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5c2cef33-6a85-4ec0-95f6-34d103c99b9a.png",
+        "name": "Rubies",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-27T20:44:19Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "d5d667c1-f54c-11ef-b06a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_f90af0d7-de00-4a2c-b571-7b1f009fe25e",
+                  "createdAt": "2025-02-27T21:36:55.627Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59220346-ab91-42b6-be0e-f667291e1a14.png",
+                  "isIosAvailable": false,
+                  "name": "Rubies",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-04T23:29:59.999Z",
+            "name": "Rubies",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2025-02-27T20:44:19Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "dbbcb47e-f54c-11ef-8f69-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_f90af0d7-de00-4a2c-b571-7b1f009fe25e",
+                  "createdAt": "2025-02-27T21:36:55.627Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59220346-ab91-42b6-be0e-f667291e1a14.png",
+                  "isIosAvailable": false,
+                  "name": "Rubies",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-04T23:29:59.999Z",
+            "name": "Rubies",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-02-27T20:44:19Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "d138b5d7-ea82-11ef-9d4e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "268119114",
+              "displayName": "Sniper_Gecko",
+              "name": "sniper_gecko",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Kirka.io drop for the Constellations",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2025-03-13T23:29:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/148424f5-0de9-4baa-baea-22e18c769644.png",
+        "name": "Constellations",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-17T03:24:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "653b00ae-ea83-11ef-ac9d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_0cdb7fa3-71d7-477f-8bb2-9bb495b0e480",
+                  "createdAt": "2025-02-14T03:26:21.397Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5b2c5063-1705-49dc-a049-fb84d1ec18cb.png",
+                  "isIosAvailable": false,
+                  "name": "Constellations",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-13T23:29:59.998Z",
+            "name": "Constellations",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2025-02-17T03:24:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "bd526565-ed5c-11ef-ae83-0a58a9feac02",
+            "requiredSubs": 2,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_0cdb7fa3-71d7-477f-8bb2-9bb495b0e480",
+                  "createdAt": "2025-02-14T03:26:21.397Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5b2c5063-1705-49dc-a049-fb84d1ec18cb.png",
+                  "isIosAvailable": false,
+                  "name": "Constellations",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-13T23:29:59.998Z",
+            "name": "Constellations",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-02-17T03:24:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-17T03:24:00.000Z"
+  },
+  {
     "endAt": "2025-03-04T23:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/557297001_IGDB-120x160.jpg",
     "gameDisplayName": "Dark and Darker Mobile",
@@ -33868,127 +34094,6 @@
       }
     ],
     "startAt": "2025-02-26T19:00:00.000Z"
-  },
-  {
-    "endAt": "2025-03-13T23:29:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
-    "gameDisplayName": "Kirka.io",
-    "gameId": "356609813",
-    "rewards": [
-      {
-        "id": "d138b5d7-ea82-11ef-9d4e-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "268119114",
-              "displayName": "Sniper_Gecko",
-              "name": "sniper_gecko",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://kirka.io/connectTwitch=1",
-        "description": "Kirka.io drop for the Constellations",
-        "detailsURL": "https://kirka.io/connectTwitch=1",
-        "endAt": "2025-03-13T23:29:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "356609813",
-          "slug": "kirka-io",
-          "displayName": "Kirka.io",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/148424f5-0de9-4baa-baea-22e18c769644.png",
-        "name": "Constellations",
-        "owner": {
-          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
-          "name": "Kirka.io",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-02-17T03:24:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "653b00ae-ea83-11ef-ac9d-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_0cdb7fa3-71d7-477f-8bb2-9bb495b0e480",
-                  "createdAt": "2025-02-14T03:26:21.397Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "356609813",
-                    "name": "Kirka.io",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5b2c5063-1705-49dc-a049-fb84d1ec18cb.png",
-                  "isIosAvailable": false,
-                  "name": "Constellations",
-                  "ownerOrganization": {
-                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
-                    "name": "Kirka.io",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-13T23:29:59.998Z",
-            "name": "Constellations",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 900,
-            "startAt": "2025-02-17T03:24:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "bd526565-ed5c-11ef-ae83-0a58a9feac02",
-            "requiredSubs": 2,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_0cdb7fa3-71d7-477f-8bb2-9bb495b0e480",
-                  "createdAt": "2025-02-14T03:26:21.397Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "356609813",
-                    "name": "Kirka.io",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5b2c5063-1705-49dc-a049-fb84d1ec18cb.png",
-                  "isIosAvailable": false,
-                  "name": "Constellations",
-                  "ownerOrganization": {
-                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
-                    "name": "Kirka.io",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-13T23:29:59.998Z",
-            "name": "Constellations",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 0,
-            "startAt": "2025-02-17T03:24:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-02-17T03:24:00.000Z"
   },
   {
     "endAt": "2025-03-15T00:59:59.999Z",
