@@ -1748,6 +1748,92 @@
     "startAt": "2025-02-27T11:00:00.000Z"
   },
   {
+    "endAt": "2025-03-01T00:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
+    "rewards": [
+      {
+        "id": "78e01f45-f2e6-11ef-970e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "413423508",
+              "displayName": "XAND_TV",
+              "name": "xand_tv",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Watch Xand_TV for 30 minutes to receive a Mimica Shawzin decoration!",
+        "detailsURL": "https://forums.warframe.com/topic/1440164-community-stream-schedule-feb-24-28-2025/",
+        "endAt": "2025-03-01T00:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e2cddf64-e540-413e-9553-30ab75478669.jpeg",
+        "name": "Community Drops #102",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-28T23:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "8e6ce713-f2e6-11ef-af55-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5897fbcb-7f55-11ee-a4b7-0a58a9feac02",
+                  "createdAt": "2023-11-09T23:11:43.036Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "66170",
+                    "name": "Warframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec282638-1161-40ff-8e5c-71310afce61c.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Mimica Shawzin",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-01T00:59:59.998Z",
+            "name": "Mimica Shawzin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-02-28T23:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-28T23:00:00.000Z"
+  },
+  {
     "endAt": "2025-03-01T00:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/491931_IGDB-120x160.jpg",
     "gameDisplayName": "Escape from Tarkov",
