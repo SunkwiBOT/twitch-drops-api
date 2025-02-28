@@ -27313,6 +27313,18 @@
               "displayName": "ESL_OVERWATCH_AR",
               "name": "esl_overwatch_ar",
               "__typename": "Channel"
+            },
+            {
+              "id": "125129801",
+              "displayName": "AVRL",
+              "name": "avrl",
+              "__typename": "Channel"
+            },
+            {
+              "id": "27689704",
+              "displayName": "CommanderX",
+              "name": "commanderx",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -28803,6 +28815,85 @@
       }
     ],
     "startAt": "2025-02-26T23:00:00.000Z"
+  },
+  {
+    "endAt": "2025-03-06T01:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/84016560_IGDB-120x160.jpg",
+    "gameDisplayName": "The Hidden Ones",
+    "gameId": "84016560",
+    "rewards": [
+      {
+        "id": "ec6fcdc0-f4fb-11ef-95e4-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://playthehiddenones.com/twitchdrops/index.html",
+        "description": "The Second Round Pre Alpha Access Drops Event of The Hidden Ones is here! Watch livestreams to claim test access now! Please link your Level Infinite Pass account and Twitch account on the event page (https://playthehiddenones.com/twitchdrops ), and click 'Verify Your Access' button to claim your access. Please claim the test access within the event period.\n",
+        "detailsURL": "https://playthehiddenones.com/twitchdrops/index.html",
+        "endAt": "2025-03-06T01:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "84016560",
+          "slug": "the-hidden-ones",
+          "displayName": "The Hidden Ones",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1be35d55-4825-4a61-a07c-8a5478b125c7.png",
+        "name": "Pre-Alpha Access Drops",
+        "owner": {
+          "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+          "name": "Level Infinite",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-28T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1011f7c1-f4fc-11ef-a15f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0f242909-b901-11ef-9bf9-0a58a9feac02",
+                  "createdAt": "2024-12-13T03:19:27.19Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "84016560",
+                    "name": "The Hidden Ones",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/38d846be-a53b-4f06-b82b-81eddb3087d3.png",
+                  "isIosAvailable": false,
+                  "name": "Pre-Alpha Access",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-06T01:59:59.999Z",
+            "name": "Pre-Alpha Access",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-02-28T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-28T08:00:00.000Z"
   },
   {
     "endAt": "2025-03-06T11:59:59.999Z",
