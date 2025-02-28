@@ -1,196 +1,5 @@
 [
   {
-    "endAt": "2025-02-28T18:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/513501_IGDB-120x160.jpg",
-    "gameDisplayName": "Standoff 2",
-    "gameId": "513501",
-    "rewards": [
-      {
-        "id": "f83d2a66-f5e1-11ef-a44e-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "1124895128",
-              "displayName": "standoff2esports_ru",
-              "name": "standoff2esports_ru",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://link.standoff2.com/twitch/link/",
-        "description": "Twitch Drops — это система наград, которая позволяет зрителям стрима получать внутриигровые предметы за просмотр трансляции в течение определенного времени.\n\nВ рамках кампании «Twitch Drops: Вопрос-ответ» предусмотрены следующие награды за время просмотра:\n– 15 минут: Fragment Box и случайный временный скин не ниже качества Legendary (шанс на выпадение скина — 20%).\n– 30 минут: Fragment Box и случайный временный скин не ниже качества Legendary (шанс на выпадение скина — 20%).\n– 1 час: Fragment Box и случайный временный скин не ниже качества Legendary (шанс на выпадение скина — 20%).\n– 1,5 часа: Случайный временный скин не ниже качества Legendary.\n\nКак получить награды:\n– Зайдите в игру и убедитесь, что учетная запись привязана к тому же Twitch-аккаунту.\n– Накопите необходимое время просмотра на официальном канале Standoff 2.\n– Отслеживайте свой прогресс в разделе Drops на Twitch (обычно находится в профиле Twitch → «Drops и награды»).",
-        "detailsURL": "https://install.standoff2.com/ru/twitch-drops",
-        "endAt": "2025-02-28T18:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "513501",
-          "slug": "standoff-2",
-          "displayName": "Standoff 2",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a3a51854-a111-4af6-89db-4a39d5e7ebf9.jpeg",
-        "name": "Cybersport Show Match",
-        "owner": {
-          "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-          "name": "Axlebolt",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-02-28T15:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "1069c4dc-f5e2-11ef-8f85-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_TWITCH_DROPS_REWARD_TEMP_SKIN_20P",
-                  "createdAt": "2025-02-24T12:40:36.34Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83d6698c-b537-4f06-80c7-e6b7801f2acb.jpeg",
-                  "isIosAvailable": false,
-                  "name": "F_Box + Temp Skin 20%",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-28T18:59:59.998Z",
-            "name": "15 minutes reward",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-02-28T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "13679483-f5e2-11ef-8f69-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_TWITCH_DROPS_REWARD_TEMP_SKIN_20P",
-                  "createdAt": "2025-02-24T12:40:36.34Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83d6698c-b537-4f06-80c7-e6b7801f2acb.jpeg",
-                  "isIosAvailable": false,
-                  "name": "F_Box + Temp Skin 20%",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-28T18:59:59.998Z",
-            "name": "30 minutes reward",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-02-28T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "196fe917-f5e2-11ef-806f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_TWITCH_DROPS_REWARD_TEMP_SKIN_20P",
-                  "createdAt": "2025-02-24T12:40:36.34Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83d6698c-b537-4f06-80c7-e6b7801f2acb.jpeg",
-                  "isIosAvailable": false,
-                  "name": "F_Box + Temp Skin 20%",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-28T18:59:59.998Z",
-            "name": "60 minutes reward",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-02-28T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "1e65ad93-f5e2-11ef-a44e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_TWITCH_DROPS_REWARD_TEMP_SKIN",
-                  "createdAt": "2025-02-24T12:41:17.682Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ea55182-3963-4c66-99cb-6985e9578b7f.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Temp Skins 100%",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-02-28T18:59:59.998Z",
-            "name": "90 minutes reward",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-02-28T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-02-28T15:00:00.000Z"
-  },
-  {
     "endAt": "2025-02-28T19:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/461221_IGDB-120x160.jpg",
     "gameDisplayName": "MARVEL Contest of Champions",
@@ -345,6 +154,92 @@
       }
     ],
     "startAt": "2025-02-28T16:50:00.000Z"
+  },
+  {
+    "endAt": "2025-02-28T20:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
+    "rewards": [
+      {
+        "id": "9c4a3b09-ee3b-11ef-9785-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "31557216",
+              "displayName": "Warframe",
+              "name": "warframe",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Watch Warframe Devstream #185 for 30 minutes to receive an Aura Forma!",
+        "detailsURL": "https://forums.warframe.com/topic/1438573-coming-soon-devstream-185/",
+        "endAt": "2025-02-28T20:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/802352b6-1275-45da-95ee-cb53b845e3a1.jpeg",
+        "name": "Devstream #185",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-28T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "c12e9cd7-ee3b-11ef-9383-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "abaec8e3-ee3b-11ef-b4ed-0a58a9feac02",
+                  "createdAt": "2025-02-18T21:02:32.261Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "66170",
+                    "name": "Warframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/23ae202e-9aa3-4b2a-933a-09b3fe42a7c8.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Aura Forma",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-28T20:29:59.999Z",
+            "name": "Aura Forma",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-02-28T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-28T19:00:00.000Z"
   },
   {
     "endAt": "2025-02-28T20:59:59.998Z",
@@ -39705,7 +39600,7 @@
           "displayName": "Two Point Museum",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b95ca362-88b9-441b-b590-165007318631.png",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/478a1091-3f35-4f4a-84e2-6766f8b2a098.jpeg",
         "name": "TPM Launch Drops! ",
         "owner": {
           "id": "a93c502c-03ab-4f29-8b52-6bdd2806952f",
