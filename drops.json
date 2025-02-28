@@ -2335,6 +2335,379 @@
     "startAt": "2025-02-18T07:00:00.000Z"
   },
   {
+    "endAt": "2025-02-28T21:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/513501_IGDB-120x160.jpg",
+    "gameDisplayName": "Standoff 2",
+    "gameId": "513501",
+    "rewards": [
+      {
+        "id": "6164d801-eab8-11ef-a9aa-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1124895128",
+              "displayName": "standoff2esports_ru",
+              "name": "standoff2esports_ru",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://link.standoff2.com/twitch/link/",
+        "description": "Twitch Drops — это система наград, которая позволяет зрителям стрима получать внутриигровые предметы за просмотр трансляции в течение определенного времени.\n\nВ рамках кампании «Twitch Drops: Вопрос-ответ» предусмотрены следующие награды за время просмотра:\n– 15 минут: Fragment Box и случайный временный скин не ниже качества Legendary (шанс на выпадение скина — 20%).\n– 30 минут: Fragment Box и случайный временный скин не ниже качества Legendary (шанс на выпадение скина — 20%).\n– 1 час: Fragment Box и случайный временный скин не ниже качества Legendary (шанс на выпадение скина — 20%).\n– 1,5 часа: Случайный временный скин не ниже качества Legendary.\n\nКак получить награды:\n– Зайдите в игру и убедитесь, что учетная запись привязана к тому же Twitch-аккаунту.\n– Накопите необходимое время просмотра на официальном канале Standoff 2.\n– Отслеживайте свой прогресс в разделе Drops на Twitch (обычно находится в профиле Twitch → «Drops и награды»).\n– Когда вы достигнете нужного порога просмотра, нажмите «Получить» в вашем ",
+        "detailsURL": "https://install.standoff2.com/ru/twitch-drops",
+        "endAt": "2025-02-28T21:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "513501",
+          "slug": "standoff-2",
+          "displayName": "Standoff 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/12307a31-05f2-4385-9430-1d93048d285d.jpeg",
+        "name": "QnA Twitch Drops",
+        "owner": {
+          "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+          "name": "Axlebolt",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-28T12:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "26adbdb0-eab9-11ef-af53-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_TWITCH_DROPS_REWARD_TEMP_SKIN_20P",
+                  "createdAt": "2025-02-24T12:40:36.34Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83d6698c-b537-4f06-80c7-e6b7801f2acb.jpeg",
+                  "isIosAvailable": false,
+                  "name": "F_Box + Temp Skin 20%",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-28T21:59:59.999Z",
+            "name": "15 Minutes: Fragment Box + Temporary Skin (20% chance)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-02-28T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "49b185e5-eab9-11ef-864b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_TWITCH_DROPS_REWARD_TEMP_SKIN_20P",
+                  "createdAt": "2025-02-24T12:40:36.34Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83d6698c-b537-4f06-80c7-e6b7801f2acb.jpeg",
+                  "isIosAvailable": false,
+                  "name": "F_Box + Temp Skin 20%",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-28T21:59:59.999Z",
+            "name": "30 Minutes: Fragment Box + Temporary Skin (20% chance)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-02-28T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "693e27f4-eab9-11ef-9e23-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_TWITCH_DROPS_REWARD_TEMP_SKIN_20P",
+                  "createdAt": "2025-02-24T12:40:36.34Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83d6698c-b537-4f06-80c7-e6b7801f2acb.jpeg",
+                  "isIosAvailable": false,
+                  "name": "F_Box + Temp Skin 20%",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-28T21:59:59.999Z",
+            "name": "60 Minutes: Fragment Box + Temporary Skin (20% chance)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-02-28T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "8dc82ad3-eab9-11ef-a0a9-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_TWITCH_DROPS_REWARD_TEMP_SKIN",
+                  "createdAt": "2025-02-24T12:41:17.682Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ea55182-3963-4c66-99cb-6985e9578b7f.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Temp Skins 100%",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-28T21:59:59.999Z",
+            "name": "90 Minutes: Temporary Skin (100% chance)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-02-28T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "1bf38ab9-f456-11ef-bef3-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1124895128",
+              "displayName": "standoff2esports_ru",
+              "name": "standoff2esports_ru",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://link.standoff2.com/twitch/link/",
+        "description": "Twitch Drops — это система наград, которая позволяет зрителям стрима получать внутриигровые предметы за просмотр трансляции в течение определенного времени.\n\nВ рамках кампании «Twitch Drops: Вопрос-ответ» предусмотрены следующие награды за время просмотра:\n– 15 минут: Fragment Box и случайный временный скин не ниже качества Legendary (шанс на выпадение скина — 20%).\n– 30 минут: Fragment Box и случайный временный скин не ниже качества Legendary (шанс на выпадение скина — 20%).\n– 1 час: Fragment Box и случайный временный скин не ниже качества Legendary (шанс на выпадение скина — 20%).\n– 1,5 часа: Случайный временный скин не ниже качества Legendary.\n\nКак получить награды:\n– Зайдите в игру и убедитесь, что учетная запись привязана к тому же Twitch-аккаунту.\n– Накопите необходимое время просмотра на официальном канале Standoff 2.\n– Отслеживайте свой прогресс в разделе Drops на Twitch (обычно находится в профиле Twitch → «Drops и награды»).\n– Когда вы достигнете нужного порога просмотра, нажмите «Получить» в вашем ",
+        "detailsURL": "https://install.standoff2.com/ru/twitch-drops",
+        "endAt": "2025-02-28T21:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "513501",
+          "slug": "standoff-2",
+          "displayName": "Standoff 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ee9178ba-e6d4-414d-a42f-93d9064f07cf.jpeg",
+        "name": "QNA TWITCH DROPS",
+        "owner": {
+          "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+          "name": "Axlebolt",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-28T12:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5606f067-f456-11ef-9e8b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_TWITCH_DROPS_REWARD_TEMP_SKIN_20P",
+                  "createdAt": "2025-02-24T12:40:36.34Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83d6698c-b537-4f06-80c7-e6b7801f2acb.jpeg",
+                  "isIosAvailable": false,
+                  "name": "F_Box + Temp Skin 20%",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-28T21:59:59.999Z",
+            "name": "15 Minutes: Fragment Box + Temporary Skin (20% chance)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-02-28T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6eef49be-f456-11ef-ab25-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_TWITCH_DROPS_REWARD_TEMP_SKIN_20P",
+                  "createdAt": "2025-02-24T12:40:36.34Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83d6698c-b537-4f06-80c7-e6b7801f2acb.jpeg",
+                  "isIosAvailable": false,
+                  "name": "F_Box + Temp Skin 20%",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-28T21:59:59.999Z",
+            "name": "30 Minutes: Fragment Box + Temporary Skin (20% chance)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-02-28T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "76efb721-f456-11ef-849f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_TWITCH_DROPS_REWARD_TEMP_SKIN_20P",
+                  "createdAt": "2025-02-24T12:40:36.34Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/83d6698c-b537-4f06-80c7-e6b7801f2acb.jpeg",
+                  "isIosAvailable": false,
+                  "name": "F_Box + Temp Skin 20%",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-28T21:59:59.999Z",
+            "name": "60 Minutes: Fragment Box + Temporary Skin (20% chance)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-02-28T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7dc7bf05-f456-11ef-b6c4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_TWITCH_DROPS_REWARD_TEMP_SKIN",
+                  "createdAt": "2025-02-24T12:41:17.682Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ea55182-3963-4c66-99cb-6985e9578b7f.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Temp Skins 100%",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-02-28T21:59:59.999Z",
+            "name": "90 Minutes: Temporary Skin (100% chance)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-02-28T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-02-28T12:00:00.000Z"
+  },
+  {
     "endAt": "2025-02-28T22:15:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/707002701_IGDB-120x160.jpg",
     "gameDisplayName": "Coryphaeus Championships",
@@ -28358,18 +28731,6 @@
               "id": "1092222003",
               "displayName": "ESL_OVERWATCH_AR",
               "name": "esl_overwatch_ar",
-              "__typename": "Channel"
-            },
-            {
-              "id": "125129801",
-              "displayName": "AVRL",
-              "name": "avrl",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27689704",
-              "displayName": "CommanderX",
-              "name": "commanderx",
               "__typename": "Channel"
             }
           ],
