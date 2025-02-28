@@ -8794,6 +8794,180 @@
           }
         ],
         "__typename": "DropCampaign"
+      },
+      {
+        "id": "883e840c-e2f4-11ef-b03b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
+        "description": "We have exciting news for everyone who likes to watch World of Tanks live on stream and wants to stock up on consumables and Personal Reserves, because an extra set of Weekly and Weekend Twitch Drops is rolling out!",
+        "detailsURL": "https://worldoftanks.eu/news/live-streams/twitch-drops-february-2025/",
+        "endAt": "2025-03-03T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fdd5a97a-7cf6-4efb-8607-1eeab3553597.jpeg",
+        "name": "Onslaught Extra #4",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-02-28T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "c46454ab-e2f4-11ef-8a52-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_OLS2FUP_0225_16",
+                  "createdAt": "2025-02-04T12:38:35.128Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46eed244-1340-4c91-8c28-c6f4c49b2777.png",
+                  "isIosAvailable": false,
+                  "name": "5x Large Repair Kit",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_OLS2FUP_0225_17",
+                  "createdAt": "2025-02-04T12:38:55.364Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3072343e-7dd6-482d-bbc4-b0a6dd394d40.png",
+                  "isIosAvailable": false,
+                  "name": "5x Large First Aid Kit",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_OLS2FUP_0225_18",
+                  "createdAt": "2025-02-04T12:39:23.245Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ad5f821e-a64d-4038-a6d6-0cd68216580f.png",
+                  "isIosAvailable": false,
+                  "name": "5x Automatic Extinguisher",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-03T15:59:59.999Z",
+            "name": "Drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-02-28T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c7ac445f-e2f4-11ef-8260-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_OLS2FUP_0225_19",
+                  "createdAt": "2025-02-04T12:39:43.227Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f76713ea-afde-40f1-b527-40fa951eb2c3.png",
+                  "isIosAvailable": false,
+                  "name": "3x Personal Reserves",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_OLS2FUP_0225_20",
+                  "createdAt": "2025-02-04T12:40:13.23Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d4aa3467-203e-4b9f-ab03-07beaf2ee7c8.png",
+                  "isIosAvailable": false,
+                  "name": "3x Personal Reserves",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-03T15:59:59.999Z",
+            "name": "Drop 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-02-28T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
       }
     ],
     "startAt": "2025-02-28T16:00:00.000Z"
