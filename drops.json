@@ -1,62 +1,69 @@
 [
   {
-    "endAt": "2025-03-07T15:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
-    "gameDisplayName": "World of Tanks",
-    "gameId": "27546",
+    "endAt": "2025-03-07T16:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/232131679_IGDB-120x160.jpg",
+    "gameDisplayName": "EA Sports College Football 25",
+    "gameId": "232131679",
     "rewards": [
       {
-        "id": "93cc5348-f446-11ef-b1d1-0a58a9feac02",
+        "id": "23498e99-fb6d-11ef-8992-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "1078884257",
+              "displayName": "easportscollege",
+              "name": "easportscollege",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
-        "description": "Spring is upon us and we have new items in the Token store: Tune in to your favorite streamers, collect tokens, and enjoy the rewards!",
-        "detailsURL": "https://worldoftanks.eu/news/live-streams/spring-token-store-march-2025/",
-        "endAt": "2025-03-07T15:59:59.999Z",
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch the CFB Rundown and earn some Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-03-07T16:59:59.999Z",
         "eventBasedDrops": [],
         "game": {
-          "id": "27546",
-          "slug": "world-of-tanks",
-          "displayName": "World of Tanks",
+          "id": "232131679",
+          "slug": "ea-sports-college-football",
+          "displayName": "EA Sports College Football 25",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/aaf86012-1f51-4c6a-83d7-af353610e4ab.jpeg",
-        "name": "Spring Token Store #2",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f7eff2dc-a148-4b43-bc75-33f86806e449.png",
+        "name": "CFB Rundown",
         "owner": {
-          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-          "name": "Wargaming",
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
           "__typename": "Organization"
         },
-        "startAt": "2025-03-05T16:00:00Z",
+        "startAt": "2025-03-07T16:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "9929c8de-f446-11ef-ba1a-0a58a9feac02",
+            "id": "3ba496e4-fb6d-11ef-87ba-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_BPC_25_03_01",
-                  "createdAt": "2025-02-26T13:26:28.241Z",
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT25-TWITCH-099",
+                  "createdAt": "2025-03-07T16:00:31.049Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
+                    "id": "232131679",
+                    "name": "EA Sports College Football 25",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dfd6e157-f008-4efa-8856-a2ab59213b12.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bfe82bcd-3fb9-43b9-9e9f-9a0e4f1b4558.png",
                   "isIosAvailable": false,
-                  "name": "50x Battle Pass Chips",
+                  "name": "CFB Twitch Pack",
                   "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
                     "__typename": "Organization"
                   },
                   "__typename": "DropBenefit"
@@ -65,53 +72,18 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-03-07T15:59:59.999Z",
-            "name": "Drop 1 ",
+            "endAt": "2025-03-07T16:59:59.999Z",
+            "name": "CFB Twitch Pack",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-03-05T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "9e312bdb-f446-11ef-a9fe-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_STS_25_03_02",
-                  "createdAt": "2025-02-26T11:56:10.371Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b75607f-4786-4160-b620-2c165fdbcb51.png",
-                  "isIosAvailable": false,
-                  "name": "5x Spring Tokens",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-07T15:59:59.999Z",
-            "name": "Drop 2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-03-05T16:00:00Z",
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-03-07T16:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2025-03-05T16:00:00.000Z"
+    "startAt": "2025-03-07T16:00:00.000Z"
   },
   {
     "endAt": "2025-03-08T06:59:59.999Z",
@@ -1030,6 +1002,232 @@
       }
     ],
     "startAt": "2025-03-07T12:00:00.000Z"
+  },
+  {
+    "endAt": "2025-03-08T15:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/514013_IGDB-120x160.jpg",
+    "gameDisplayName": "Caliber",
+    "gameId": "514013",
+    "rewards": [
+      {
+        "id": "03689b26-fb61-11ef-b884-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "693895492",
+              "displayName": "playcaliber",
+              "name": "playcaliber",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://playcaliber.com/ru/",
+        "description": "https://playcaliber.com/ru/",
+        "detailsURL": "https://playcaliber.com/ru/",
+        "endAt": "2025-03-08T15:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "514013",
+          "slug": "caliber",
+          "displayName": "Caliber",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2dd3d36f-5443-4821-a25a-12a6a3c5ccd2.png",
+        "name": "Пятница 28.2.2025",
+        "owner": {
+          "id": "8bbaaeb0-be5d-4d33-a4ae-6a0a0553c0f5",
+          "name": "1C-777 Limited",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-07T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3dfd542a-fb61-11ef-8451-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9982a8cc-fb61-11ef-b288-0a58a9feac02",
+                  "createdAt": "2025-03-07T14:36:47.765Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "514013",
+                    "name": "Caliber",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/288c03bf-22da-4f74-9c5e-b935cfda0753.png",
+                  "isIosAvailable": false,
+                  "name": "Command Reserves 7.3",
+                  "ownerOrganization": {
+                    "id": "8bbaaeb0-be5d-4d33-a4ae-6a0a0553c0f5",
+                    "name": "1C-777 Limited",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-08T15:58:59.999Z",
+            "name": "Command Reserves 7.3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-03-07T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4c3e36b9-fb61-11ef-80a2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d3c98480-fb61-11ef-8992-0a58a9feac02",
+                  "createdAt": "2025-03-07T14:38:25.537Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "514013",
+                    "name": "Caliber",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f10257fe-f7df-4b2f-ab1a-10984a14f4b8.png",
+                  "isIosAvailable": false,
+                  "name": "5000 credits 7.3",
+                  "ownerOrganization": {
+                    "id": "8bbaaeb0-be5d-4d33-a4ae-6a0a0553c0f5",
+                    "name": "1C-777 Limited",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-08T15:58:59.999Z",
+            "name": "5000 credits 7.3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 20,
+            "startAt": "2025-03-07T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "52136828-fb61-11ef-9881-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f2b10e6e-fb61-11ef-8cb5-0a58a9feac02",
+                  "createdAt": "2025-03-07T14:39:17.386Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "514013",
+                    "name": "Caliber",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/80519862-e94e-4538-836c-fd2d87c6a224.png",
+                  "isIosAvailable": false,
+                  "name": "40 fragments 7.3",
+                  "ownerOrganization": {
+                    "id": "8bbaaeb0-be5d-4d33-a4ae-6a0a0553c0f5",
+                    "name": "1C-777 Limited",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-08T15:58:59.999Z",
+            "name": "40 fragments 3.7",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-03-07T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "59600eb8-fb61-11ef-a8f4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c7e6ae5-fb62-11ef-bba5-0a58a9feac02",
+                  "createdAt": "2025-03-07T14:40:00.675Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "514013",
+                    "name": "Caliber",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8490e48c-ca5e-4736-bdca-7036a313c381.png",
+                  "isIosAvailable": false,
+                  "name": "10 000 credits 7.3",
+                  "ownerOrganization": {
+                    "id": "8bbaaeb0-be5d-4d33-a4ae-6a0a0553c0f5",
+                    "name": "1C-777 Limited",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-08T15:58:59.999Z",
+            "name": "10 000 credits 7.3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-03-07T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "5f365775-fb61-11ef-a96d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2fa1f630-fb62-11ef-a1d2-0a58a9feac02",
+                  "createdAt": "2025-03-07T14:40:59.628Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "514013",
+                    "name": "Caliber",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/561d880d-be21-463c-b466-ba79f3ba40c7.png",
+                  "isIosAvailable": false,
+                  "name": "Army Surplus 7.3",
+                  "ownerOrganization": {
+                    "id": "8bbaaeb0-be5d-4d33-a4ae-6a0a0553c0f5",
+                    "name": "1C-777 Limited",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-08T15:58:59.999Z",
+            "name": "Army Surplus 7.3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-03-07T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-07T16:00:00.000Z"
   },
   {
     "endAt": "2025-03-09T07:59:59.998Z",
@@ -7596,6 +7794,545 @@
       }
     ],
     "startAt": "2025-02-28T09:00:00.000Z"
+  },
+  {
+    "endAt": "2025-03-10T15:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
+    "gameDisplayName": "World of Tanks",
+    "gameId": "27546",
+    "rewards": [
+      {
+        "id": "452028e9-f5bd-11ef-a9f7-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "51420061",
+              "displayName": "missj4cky",
+              "name": "missj4cky",
+              "__typename": "Channel"
+            },
+            {
+              "id": "92428969",
+              "displayName": "Kipinka",
+              "name": "kipinka",
+              "__typename": "Channel"
+            },
+            {
+              "id": "901341371",
+              "displayName": "Venixi_UA",
+              "name": "venixi_ua",
+              "__typename": "Channel"
+            },
+            {
+              "id": "76931535",
+              "displayName": "DATgermia",
+              "name": "datgermia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "271751155",
+              "displayName": "mrscatastrophe",
+              "name": "mrscatastrophe",
+              "__typename": "Channel"
+            },
+            {
+              "id": "569917351",
+              "displayName": "terry_talk",
+              "name": "terry_talk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "133972531",
+              "displayName": "kestrelhawk_",
+              "name": "kestrelhawk_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "175364825",
+              "displayName": "Lucinka351",
+              "name": "lucinka351",
+              "__typename": "Channel"
+            },
+            {
+              "id": "181842240",
+              "displayName": "wot__chick",
+              "name": "wot__chick",
+              "__typename": "Channel"
+            },
+            {
+              "id": "100509600",
+              "displayName": "LadyMaeUS",
+              "name": "ladymaeus",
+              "__typename": "Channel"
+            },
+            {
+              "id": "496375480",
+              "displayName": "schattenfee_",
+              "name": "schattenfee_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "197056992",
+              "displayName": "foxsea",
+              "name": "foxsea",
+              "__typename": "Channel"
+            },
+            {
+              "id": "185419791",
+              "displayName": "Sstyx",
+              "name": "sstyx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "137138717",
+              "displayName": "dorotka22_",
+              "name": "dorotka22_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1129989425",
+              "displayName": "WabbitQueen",
+              "name": "wabbitqueen",
+              "__typename": "Channel"
+            },
+            {
+              "id": "153555178",
+              "displayName": "MosquitoQueen",
+              "name": "mosquitoqueen",
+              "__typename": "Channel"
+            },
+            {
+              "id": "857259837",
+              "displayName": "쿄시_",
+              "name": "10kyo10",
+              "__typename": "Channel"
+            },
+            {
+              "id": "468199353",
+              "displayName": "系ーけいー",
+              "name": "kei_kakari",
+              "__typename": "Channel"
+            },
+            {
+              "id": "457817173",
+              "displayName": "PCPatty",
+              "name": "pcpatty",
+              "__typename": "Channel"
+            },
+            {
+              "id": "175066413",
+              "displayName": "ThePanzerMaiden",
+              "name": "thepanzermaiden",
+              "__typename": "Channel"
+            },
+            {
+              "id": "228208490",
+              "displayName": "bebenaki",
+              "name": "bebenaki",
+              "__typename": "Channel"
+            },
+            {
+              "id": "719582046",
+              "displayName": "iulia_slays",
+              "name": "iulia_slays",
+              "__typename": "Channel"
+            },
+            {
+              "id": "126069105",
+              "displayName": "SwedishLadyC",
+              "name": "swedishladyc",
+              "__typename": "Channel"
+            },
+            {
+              "id": "436610422",
+              "displayName": "Mushii_Di",
+              "name": "mushii_di",
+              "__typename": "Channel"
+            },
+            {
+              "id": "56307400",
+              "displayName": "Trinxxy",
+              "name": "trinxxy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "182597180",
+              "displayName": "RadishKa_Loca",
+              "name": "radishka_loca",
+              "__typename": "Channel"
+            },
+            {
+              "id": "112012582",
+              "displayName": "Battle_Swan_",
+              "name": "battle_swan_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "90809514",
+              "displayName": "Mlle_Heloise",
+              "name": "mlle_heloise",
+              "__typename": "Channel"
+            },
+            {
+              "id": "604841537",
+              "displayName": "Mrs__Vi",
+              "name": "mrs__vi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "737873611",
+              "displayName": "rambina1989",
+              "name": "rambina1989",
+              "__typename": "Channel"
+            },
+            {
+              "id": "70819371",
+              "displayName": "SaraTheExplorer",
+              "name": "saratheexplorer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "122838951",
+              "displayName": "Valliwusel",
+              "name": "valliwusel",
+              "__typename": "Channel"
+            },
+            {
+              "id": "488800873",
+              "displayName": "Olenkaa___",
+              "name": "olenkaa___",
+              "__typename": "Channel"
+            },
+            {
+              "id": "688705458",
+              "displayName": "Anawy_",
+              "name": "anawy_",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
+        "description": "Tune in to your favorite World of Tanks female streamers' channels to receive exclusive Twitch Drops and celebrate the day with the community!",
+        "detailsURL": "https://worldoftanks.eu/en/news/general-news/international-womens-day-2025/",
+        "endAt": "2025-03-10T15:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/661c71f2-997d-48ee-b6e8-1ec46756bb09.jpeg",
+        "name": "International Women's Day",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-07T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "2cb81de1-f5c2-11ef-85c5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_IWD_0325_1",
+                  "createdAt": "2025-02-28T10:54:16.065Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ee65568-3632-4c36-b453-5d42cc00b24d.png",
+                  "isIosAvailable": false,
+                  "name": "3x Decals",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_IWD_0325_2",
+                  "createdAt": "2025-02-28T10:55:11.261Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62afff79-6350-4c7a-958f-c4889b374b5d.png",
+                  "isIosAvailable": false,
+                  "name": "3x Consumables",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_IWD_0325_3",
+                  "createdAt": "2025-02-28T10:55:46.557Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9377201b-a0f6-4e40-a7bf-99ae1d03124c.png",
+                  "isIosAvailable": false,
+                  "name": "3x Consumables",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_IWD_0325_4",
+                  "createdAt": "2025-02-28T10:57:46.04Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7bbbb1f3-f97c-4647-8c3c-a73cb6c8f030.png",
+                  "isIosAvailable": false,
+                  "name": "3x Consumables",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-10T15:59:59.998Z",
+            "name": "Drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-03-07T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3176b88b-f5c2-11ef-8472-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_IWD_0325_5",
+                  "createdAt": "2025-02-28T10:58:09.735Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7511a71b-5cc1-47e9-a2cb-30d1e16fbf79.png",
+                  "isIosAvailable": false,
+                  "name": "3x Decals",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_IWD_0325_6",
+                  "createdAt": "2025-02-28T10:58:49.455Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043ff030-3b7a-4cf9-99cb-dbd77e38fa3c.png",
+                  "isIosAvailable": false,
+                  "name": "2x Personal Reserves",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_IWD_0325_7",
+                  "createdAt": "2025-02-28T10:59:15.854Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1eeae64a-2c4e-442e-8595-9814f6cbe307.png",
+                  "isIosAvailable": false,
+                  "name": "2x Personal Reserves",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-10T15:59:59.998Z",
+            "name": "Drop 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-03-07T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "358f56c5-f5c2-11ef-a6d5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_IWD_0325_8",
+                  "createdAt": "2025-02-28T11:00:19.704Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74e62545-d3c2-42b9-bba4-2bb332a28f40.png",
+                  "isIosAvailable": false,
+                  "name": "1x 2D Style",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-10T15:59:59.998Z",
+            "name": "Drop 3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-03-07T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "d563b29b-f446-11ef-aaf0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
+        "description": "Spring is upon us and we have new items in the Token store: Tune in to your favorite streamers, collect tokens, and enjoy the rewards!",
+        "detailsURL": "https://worldoftanks.eu/news/live-streams/spring-token-store-march-2025/",
+        "endAt": "2025-03-10T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fe5cc324-ae10-44f0-865b-9c4b00d5864e.jpeg",
+        "name": "Spring Token Store #3",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-07T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "dc2028d3-f446-11ef-8503-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_STS_25_03_03",
+                  "createdAt": "2025-02-26T11:56:33.793Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2526bce1-ed5a-4e2f-a8c6-69fb37df5aaa.png",
+                  "isIosAvailable": false,
+                  "name": "5x Spring Tokens",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-10T15:59:59.999Z",
+            "name": "Drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-03-07T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-07T16:00:00.000Z"
   },
   {
     "endAt": "2025-03-10T16:59:59.999Z",
