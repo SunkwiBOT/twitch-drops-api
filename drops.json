@@ -1,62 +1,69 @@
 [
   {
-    "endAt": "2025-03-10T20:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/504651_IGDB-120x160.jpg",
-    "gameDisplayName": "MARVEL Strike Force",
-    "gameId": "504651",
+    "endAt": "2025-03-10T21:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1136666301_IGDB-120x160.jpg",
+    "gameDisplayName": "MLB The Show 25",
+    "gameId": "1136666301",
     "rewards": [
       {
-        "id": "f81ed24a-f61c-11ef-b1ad-0a58a9feac02",
+        "id": "0c856ad8-fdee-11ef-8f42-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "75885541",
+              "displayName": "SonySanDiegoStudio",
+              "name": "sonysandiegostudio",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://marvelstrikeforce.com/twitch",
-        "description": "MARVEL Strike Force is turning 7, and we’re celebrating with a Helicarrier full of special gifts!",
-        "detailsURL": "https://marvelstrikeforce.com/twitch",
-        "endAt": "2025-03-10T20:59:59.998Z",
+        "accountLinkURL": "https://www.theshow.com",
+        "description": "Tune in for the Feature Premiere and earn Twitch Packs for MLB The Show 25.",
+        "detailsURL": "https://www.theshow.com",
+        "endAt": "2025-03-10T21:59:59.999Z",
         "eventBasedDrops": [],
         "game": {
-          "id": "504651",
-          "slug": "marvel-strike-force",
-          "displayName": "MARVEL Strike Force",
+          "id": "1136666301",
+          "slug": "mlb-the-show-25",
+          "displayName": "MLB The Show 25",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/bceeb5c3-342c-466e-a942-86c9aa9c653c.png",
-        "name": "7th Anniversary - Week 1",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dd12a788-52f7-4fd2-9b2e-805d76dd2dec.jpeg",
+        "name": "Feature Premiere Drops",
         "owner": {
-          "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
-          "name": "Scopely",
+          "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a",
+          "name": "Sony San Diego",
           "__typename": "Organization"
         },
-        "startAt": "2025-03-03T21:00:00Z",
+        "startAt": "2025-03-10T21:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "07e831dd-f61d-11ef-90b4-0a58a9feac02",
+            "id": "2a0636d5-fdee-11ef-862e-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_OGIZANVL",
-                  "createdAt": "2025-02-26T13:28:04.758Z",
+                  "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a_CUSTOM_ID_59656",
+                  "createdAt": "2025-02-13T18:12:04.13Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "504651",
-                    "name": "MARVEL Strike Force",
+                    "id": "1136666301",
+                    "name": "MLB The Show 25",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/070ce710-52a9-4347-b29e-d102a756dcb2.png",
-                  "isIosAvailable": true,
-                  "name": "3M Gold",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4591347a-9cfc-410d-b21c-9ce4f894896e.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
                   "ownerOrganization": {
-                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
-                    "name": "Scopely",
+                    "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a",
+                    "name": "Sony San Diego",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -66,33 +73,33 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-03-10T20:59:59.998Z",
-            "name": "Reward 1",
+            "endAt": "2025-03-10T21:59:59.999Z",
+            "name": "Twitch Pack",
             "preconditionDrops": null,
             "requiredMinutesWatched": 30,
-            "startAt": "2025-03-03T21:00:00Z",
+            "startAt": "2025-03-10T21:00:00Z",
             "__typename": "TimeBasedDrop"
           },
           {
-            "id": "0cf2816f-f61d-11ef-a19f-0a58a9feac02",
+            "id": "30bf9b15-fdee-11ef-b4f3-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_7NDBJ341",
-                  "createdAt": "2025-02-26T13:31:33.121Z",
+                  "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a_CUSTOM_ID_59656",
+                  "createdAt": "2025-02-13T18:12:04.13Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "504651",
-                    "name": "MARVEL Strike Force",
+                    "id": "1136666301",
+                    "name": "MLB The Show 25",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4a13cf6d-469e-476e-a8ae-aa5b31d14a06.png",
-                  "isIosAvailable": true,
-                  "name": "4M Gold",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4591347a-9cfc-410d-b21c-9ce4f894896e.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
                   "ownerOrganization": {
-                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
-                    "name": "Scopely",
+                    "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a",
+                    "name": "Sony San Diego",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -102,54 +109,18 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-03-10T20:59:59.998Z",
-            "name": "Reward 2",
+            "endAt": "2025-03-10T21:59:59.999Z",
+            "name": "Twitch Pack",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-03-03T21:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "12f0b9d4-f61d-11ef-9db1-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_PYQNIR1Y",
-                  "createdAt": "2025-02-26T13:39:48.985Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "504651",
-                    "name": "MARVEL Strike Force",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f7b12157-4910-49e8-91b8-1f288c7b2d2e.png",
-                  "isIosAvailable": true,
-                  "name": "Nick Fury Costume",
-                  "ownerOrganization": {
-                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
-                    "name": "Scopely",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-10T20:59:59.998Z",
-            "name": "Reward 3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-03-03T21:00:00Z",
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-03-10T21:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2025-03-03T21:00:00.000Z"
+    "startAt": "2025-03-10T21:00:00.000Z"
   },
   {
     "endAt": "2025-03-11T05:59:59.998Z",
@@ -20160,6 +20131,158 @@
       }
     ],
     "startAt": "2025-02-27T04:00:00.000Z"
+  },
+  {
+    "endAt": "2025-03-17T20:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/504651_IGDB-120x160.jpg",
+    "gameDisplayName": "MARVEL Strike Force",
+    "gameId": "504651",
+    "rewards": [
+      {
+        "id": "173505ba-fc66-11ef-8e34-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://marvelstrikeforce.com/twitch",
+        "description": "MARVEL Strike Force is turning 7, and we’re celebrating with a Helicarrier full of special gifts!",
+        "detailsURL": "https://marvelstrikeforce.com/twitch",
+        "endAt": "2025-03-17T20:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "504651",
+          "slug": "marvel-strike-force",
+          "displayName": "MARVEL Strike Force",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/10fb9fe8-7f51-4b11-92ce-e0dbd3949fdc.png",
+        "name": "7th Anniversary - Week 2",
+        "owner": {
+          "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
+          "name": "Scopely",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-10T21:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "2d5eafb2-fc66-11ef-ae57-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_RRM0WSPR",
+                  "createdAt": "2025-03-08T21:44:25.757Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "504651",
+                    "name": "MARVEL Strike Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8c62a39b-5bec-4ca4-bb12-2416cafc53b0.png",
+                  "isIosAvailable": true,
+                  "name": "300 L3 Training Materials",
+                  "ownerOrganization": {
+                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
+                    "name": "Scopely",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-17T20:59:59.999Z",
+            "name": "Reward 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-03-10T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3238b764-fc66-11ef-ae14-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_B12XM3ZI",
+                  "createdAt": "2025-03-08T21:44:55.478Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "504651",
+                    "name": "MARVEL Strike Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9cf73bb7-17a1-43b5-9efa-76f2ac5a21f0.png",
+                  "isIosAvailable": true,
+                  "name": "400 L3 Training Materials",
+                  "ownerOrganization": {
+                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
+                    "name": "Scopely",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-17T20:59:59.999Z",
+            "name": "Reward 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-03-10T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "35c5f77f-fc66-11ef-9078-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_OAWPM9A8",
+                  "createdAt": "2025-03-08T21:43:13.818Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "504651",
+                    "name": "MARVEL Strike Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/896623b6-779e-4851-9f49-c2cc524530c6.png",
+                  "isIosAvailable": true,
+                  "name": "Kestrel Costume",
+                  "ownerOrganization": {
+                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
+                    "name": "Scopely",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-17T20:59:59.999Z",
+            "name": "Reward 3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-03-10T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-10T21:00:00.000Z"
   },
   {
     "endAt": "2025-03-17T22:58:59.998Z",
