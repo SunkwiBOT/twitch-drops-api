@@ -29516,6 +29516,86 @@
     "startAt": "2025-03-10T08:00:00.000Z"
   },
   {
+    "endAt": "2025-03-25T09:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511224-120x160.jpg",
+    "gameDisplayName": "Apex Legends",
+    "gameId": "511224",
+    "rewards": [
+      {
+        "id": "1c180786-f068-11ef-bbce-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "Creators take the wheel this season. Four different Creator Commissioners will step into the spotlight for two weeks each, bringing challenges to conquer, new and returning fan favorite modes, and fresh rewards. Watch Creators and their friends and earn Twitch Drops during their events.",
+        "detailsURL": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-game-updates",
+        "endAt": "2025-03-25T09:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511224",
+          "slug": "apex-legends",
+          "displayName": "Apex Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9a5e093b-063c-4afc-bfac-7ad98ea9bed3.jpeg",
+        "name": "Oraxe's Takeover",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-11T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b3979945-f068-11ef-91ae-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_twitch_drops_s24_creator_activations_02",
+                  "createdAt": "2025-02-21T15:30:59.442Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dd924521-fbe4-424e-bccf-ae9acbff6aac.png",
+                  "isIosAvailable": false,
+                  "name": "Victory Lap Banner",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-25T09:59:59.999Z",
+            "name": "Victory Lap Banner",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-03-11T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-11T16:00:00.000Z"
+  },
+  {
     "endAt": "2025-03-25T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516575-120x160.jpg",
     "gameDisplayName": "VALORANT",
