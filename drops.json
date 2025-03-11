@@ -8161,7 +8161,7 @@
     "startAt": "2025-03-06T18:01:00.000Z"
   },
   {
-    "endAt": "2025-03-13T23:29:59.998Z",
+    "endAt": "2025-03-15T23:28:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
     "gameDisplayName": "Kirka.io",
     "gameId": "356609813",
@@ -8275,6 +8275,77 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 0,
             "startAt": "2025-02-17T03:24:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "ee8aeac5-feba-11ef-baa6-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Kirka.io drop for the Milky Way",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2025-03-15T23:28:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/90c1c421-bb51-49b9-96d0-2e006dd13284.png",
+        "name": "Milky Way",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-11T21:02:18Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1c106222-febb-11ef-862e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_7efc593b-c04b-4d50-ab50-d1b45086f2f8",
+                  "createdAt": "2025-03-11T20:58:10.202Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2dff162-ec94-43ae-9813-733de5a78068.png",
+                  "isIosAvailable": false,
+                  "name": "Milky Way",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-15T23:28:59.998Z",
+            "name": "Milky Way",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2025-03-11T21:02:18Z",
             "__typename": "TimeBasedDrop"
           }
         ],
