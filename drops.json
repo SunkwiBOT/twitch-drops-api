@@ -87,6 +87,129 @@
     "startAt": "2025-03-12T22:45:00.000Z"
   },
   {
+    "endAt": "2025-03-13T02:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/232131679_IGDB-120x160.jpg",
+    "gameDisplayName": "EA Sports College Football 25",
+    "gameId": "232131679",
+    "rewards": [
+      {
+        "id": "dcf0358f-ff6b-11ef-8267-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1078884257",
+              "displayName": "easportscollege",
+              "name": "easportscollege",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch the CFB Rundown and earn some Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-03-13T02:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "232131679",
+          "slug": "ea-sports-college-football",
+          "displayName": "EA Sports College Football 25",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2d88bd52-5894-4792-b507-e624117fd08b.png",
+        "name": "CFB Rundown",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-12T23:50:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "11bdcf32-ff6c-11ef-ae53-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT25-TWITCH-101",
+                  "createdAt": "2025-03-12T17:54:54.871Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "232131679",
+                    "name": "EA Sports College Football 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6cdf597-ffb4-4bf2-a613-f5bc1b2dd562.png",
+                  "isIosAvailable": false,
+                  "name": "CFB Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-13T02:59:59.998Z",
+            "name": "CFB Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-03-12T23:50:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "1657954a-ff6c-11ef-8f70-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT25-TWITCH-102",
+                  "createdAt": "2025-03-12T17:55:16.052Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "232131679",
+                    "name": "EA Sports College Football 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/18d33e4b-6ab7-469c-a561-ea4a5590b749.png",
+                  "isIosAvailable": false,
+                  "name": "CFB Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-13T02:59:59.998Z",
+            "name": "CFB Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-03-12T23:50:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-12T23:50:00.000Z"
+  },
+  {
     "endAt": "2025-03-13T02:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/209738946_IGDB-120x160.jpg",
     "gameDisplayName": "Wuthering Waves",
