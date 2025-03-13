@@ -15546,6 +15546,135 @@
     "startAt": "2025-03-11T12:00:00.000Z"
   },
   {
+    "endAt": "2025-03-18T23:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2011938005_IGDB-120x160.jpg",
+    "gameDisplayName": "EA Sports FC 25",
+    "gameId": "2011938005",
+    "rewards": [
+      {
+        "id": "afadf1d1-fa82-11ef-a1d9-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "185825123",
+              "displayName": "MLS",
+              "name": "mls",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28029009",
+              "displayName": "easportsfc",
+              "name": "easportsfc",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "eMLS Cup",
+        "detailsURL": "https://www.ea.com/games/ea-sports-fc/fc-pro/news/deep-dive-viewership-and-in-game-rewards",
+        "endAt": "2025-03-18T23:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2011938005",
+          "slug": "ea-sports-fc-25",
+          "displayName": "EA Sports FC 25",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a31c49f5-38fc-46a7-9b18-8a6a2512c254.png",
+        "name": "eMLS Cup",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-06T11:58:42Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "d11c9477-fa83-11ef-8fbe-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_FCPRO_2529",
+                  "createdAt": "2025-03-06T12:06:01.512Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2011938005",
+                    "name": "EA Sports FC 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/65f1e45c-d0b3-4260-b2c3-6be054728930.png",
+                  "isIosAvailable": false,
+                  "name": "75+ PP (1 of 3)",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-18T23:58:59.999Z",
+            "name": "75+ PP (1 of 3)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-03-06T11:58:42Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d4cfa5f1-fa83-11ef-9578-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_FCPRO_2530",
+                  "createdAt": "2025-03-06T12:06:23.366Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2011938005",
+                    "name": "EA Sports FC 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41fb5ec2-70d0-4da6-bea9-7e1aeebc5432.png",
+                  "isIosAvailable": false,
+                  "name": "Prime Gold Players Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-18T23:58:59.999Z",
+            "name": "Prime Gold Players Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-03-06T11:58:42Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-06T11:58:42.000Z"
+  },
+  {
     "endAt": "2025-03-19T16:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/19801_IGDB-120x160.jpg",
     "gameDisplayName": "Throne and Liberty",
