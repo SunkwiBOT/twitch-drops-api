@@ -55884,6 +55884,102 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "90dac2e6-04e8-11f0-92c7-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "948230892",
+              "displayName": "MataraKan",
+              "name": "matarakan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "88169992",
+              "displayName": "Bricky",
+              "name": "bricky",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1057785822",
+              "displayName": "MichiMochievee",
+              "name": "michimochievee",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28337972",
+              "displayName": "Limealicious",
+              "name": "limealicious",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://thunderlotus.zendesk.com/hc/en-us/articles/35390194368276-How-to-participate-in-the-Race-to-Immortality",
+        "description": "250,000 has been reached, and the first milestone for the race has been unlocked! Keep collecting Stardust to unlock new cosmetics!",
+        "detailsURL": "https://thunderlotusgames.com/race-to-immortality",
+        "endAt": "2025-03-26T03:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "643774725",
+          "slug": "33-immortals",
+          "displayName": "33 Immortals",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0a2c7ff9-886e-4975-ac3d-e5f33c86b6bc.png",
+        "name": "Milestone #1",
+        "owner": {
+          "id": "cd1b9b92-68de-4fd8-858a-4282f5ce00bc",
+          "name": "Thunder Lotus Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-18T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f4fe2c4f-04e8-11f0-8c84-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cd1b9b92-68de-4fd8-858a-4282f5ce00bc_CUSTOM_ID_vip_milestone1_emotelaugh",
+                  "createdAt": "2025-02-26T19:02:51.143Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "643774725",
+                    "name": "33 Immortals",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d9b9d0c-b926-47af-a957-9fe9c6dc5f40.png",
+                  "isIosAvailable": false,
+                  "name": "Laughing Dante",
+                  "ownerOrganization": {
+                    "id": "cd1b9b92-68de-4fd8-858a-4282f5ce00bc",
+                    "name": "Thunder Lotus Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-26T03:59:59.999Z",
+            "name": "Laughing Dante",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-03-18T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "3dad495f-feb8-11ef-b985-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
