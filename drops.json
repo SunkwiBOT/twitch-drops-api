@@ -15713,6 +15713,86 @@
     "startAt": "2025-03-14T15:00:00.000Z"
   },
   {
+    "endAt": "2025-03-21T15:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
+    "gameDisplayName": "World of Tanks",
+    "gameId": "27546",
+    "rewards": [
+      {
+        "id": "9481b115-f449-11ef-96fb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
+        "description": "Spring is upon us and we have new items in the Token store: Tune in to your favorite streamers, collect tokens, and enjoy the rewards!",
+        "detailsURL": "https://worldoftanks.eu/news/live-streams/spring-token-store-march-2025/",
+        "endAt": "2025-03-21T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/18f59789-08dd-466c-972b-3fda106ef21b.jpeg",
+        "name": "Spring Token Store #8",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-19T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a358407d-f449-11ef-bd28-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_STS_25_03_08",
+                  "createdAt": "2025-02-26T11:58:42.037Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5a9faf15-3754-4cb5-b979-c547a8ce53d2.png",
+                  "isIosAvailable": false,
+                  "name": "5x Spring Tokens",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-21T15:59:59.999Z",
+            "name": "Drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-03-19T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-19T16:00:00.000Z"
+  },
+  {
     "endAt": "2025-03-21T16:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/608663369_IGDB-120x160.jpg",
     "gameDisplayName": "RavenQuest",
