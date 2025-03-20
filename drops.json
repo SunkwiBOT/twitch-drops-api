@@ -27702,6 +27702,86 @@
     "startAt": "2025-03-17T15:00:00.000Z"
   },
   {
+    "endAt": "2025-03-23T23:57:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/286759738_IGDB-120x160.jpg",
+    "gameDisplayName": "inZOI",
+    "gameId": "286759738",
+    "rewards": [
+      {
+        "id": "d888cb82-fe57-11ef-bd73-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://accounts.krafton.com",
+        "description": "To claim the inZOI: Creative Studio Key, those who own this Drops reward should link their Steam and KRAFTON ID on the playinzoi.com/events/drops page. Then, follow the event participation instructions and click \"Claim Drops Rewards\" to receive the key. This reward is granted to users who watched a Twitch stream in the inZOI category for at least 15 minutes. Additionally, inZOI: Creative Studio Key can be claimed from March 20, 00:00 (UTC) to March 22, 23:59 (UTC). Please make sure to redeem your reward within the given period.",
+        "detailsURL": "https://playinzoi.com/events/drops",
+        "endAt": "2025-03-23T23:57:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "286759738",
+          "slug": "inzoi",
+          "displayName": "inZOI",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/038083e9-ef14-42c9-8227-e1d840e3f1e4.png",
+        "name": "inZOI Demo Drops",
+        "owner": {
+          "id": "2986fad1-6d72-43b0-8a18-c3c313414ab4",
+          "name": "KRAFTON Inc.",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-20T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "83ecd118-fe58-11ef-8238-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f2ce8101-fe58-11ef-81d4-0a58a9feac02",
+                  "createdAt": "2025-03-11T09:12:25.597Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "286759738",
+                    "name": "inZOI",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/333b7387-60e2-40d4-bba1-e6596b119a71.png",
+                  "isIosAvailable": false,
+                  "name": "inZOI Demo Eligibility",
+                  "ownerOrganization": {
+                    "id": "2986fad1-6d72-43b0-8a18-c3c313414ab4",
+                    "name": "KRAFTON Inc.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-23T23:57:59.999Z",
+            "name": "inZOI: Creative Studio Reward Eligibility",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-03-20T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-20T00:00:00.000Z"
+  },
+  {
     "endAt": "2025-03-24T07:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1671346441_IGDB-120x160.jpg",
     "gameDisplayName": "War Robots: Frontiers",
