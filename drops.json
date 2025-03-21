@@ -43731,6 +43731,102 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "424490b1-05e7-11f0-85d5-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "948230892",
+              "displayName": "MataraKan",
+              "name": "matarakan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "88169992",
+              "displayName": "Bricky",
+              "name": "bricky",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1057785822",
+              "displayName": "MichiMochievee",
+              "name": "michimochievee",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28337972",
+              "displayName": "Limealicious",
+              "name": "limealicious",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://thunderlotus.zendesk.com/hc/en-us/articles/35390194368276-How-to-participate-in-the-Race-to-Immortality",
+        "description": "1,000,000 has been reached! Congratulations to Team Lazurite on winning the Race to Immortality!",
+        "detailsURL": "https://thunderlotusgames.com/race-to-immortality",
+        "endAt": "2025-03-26T03:59:59.995Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "643774725",
+          "slug": "33-immortals",
+          "displayName": "33 Immortals",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/43ef8088-12fc-41b4-83ef-75a6b8044a41.png",
+        "name": "Final Milestone",
+        "owner": {
+          "id": "cd1b9b92-68de-4fd8-858a-4282f5ce00bc",
+          "name": "Thunder Lotus Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-18T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a3679ed1-05e7-11f0-a785-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cd1b9b92-68de-4fd8-858a-4282f5ce00bc_CUSTOM_ID_vip_milestone4_catdagger",
+                  "createdAt": "2025-02-26T19:06:48.345Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "643774725",
+                    "name": "33 Immortals",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f8ae889b-388b-47db-851a-2e4195003e70.png",
+                  "isIosAvailable": false,
+                  "name": "Golden Cat & Greed Skin",
+                  "ownerOrganization": {
+                    "id": "cd1b9b92-68de-4fd8-858a-4282f5ce00bc",
+                    "name": "Thunder Lotus Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-26T03:59:59.995Z",
+            "name": "Golden Cat & Epic Greed Skin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-03-18T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "d632e206-05b8-11f0-b2c7-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
