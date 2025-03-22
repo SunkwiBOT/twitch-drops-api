@@ -1,85 +1,5 @@
 [
   {
-    "endAt": "2025-03-21T23:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/433493784_IGDB-120x160.jpg",
-    "gameDisplayName": "Warborne: Above Ashes",
-    "gameId": "433493784",
-    "rewards": [
-      {
-        "id": "8c3ef6ce-00be-11f0-89ff-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://r.qoolandgames.com/67c6a6d36e92151320e0c5b2/index",
-        "description": "Participate in our live streaming event and get early access to a legendary mount (which will be retained upon official release).",
-        "detailsURL": "https://r.qoolandgames.com/67c6a6d36e92151320e0c5b2/index",
-        "endAt": "2025-03-21T23:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "433493784",
-          "slug": "warborne-above-ashes",
-          "displayName": "Warborne: Above Ashes",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8ae3e801-3630-4e38-9d0a-65e23ca1757a.png",
-        "name": "Playtest Chest #7",
-        "owner": {
-          "id": "423069ae-a2c4-4bf4-9ed9-f6b62031fe0d",
-          "name": "Qoolandgames",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-03-21T10:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "9b8f1e3e-00be-11f0-968f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "423069ae-a2c4-4bf4-9ed9-f6b62031fe0d_CUSTOM_ID_20250321-22",
-                  "createdAt": "2025-03-14T08:03:24.952Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "433493784",
-                    "name": "Warborne: Above Ashes",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/051665a6-55a9-4a39-86c4-b6a6ca36cadd.png",
-                  "isIosAvailable": false,
-                  "name": "Playtest Chest#7",
-                  "ownerOrganization": {
-                    "id": "423069ae-a2c4-4bf4-9ed9-f6b62031fe0d",
-                    "name": "Qoolandgames",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-21T23:59:59.999Z",
-            "name": "Playtest Chest #7",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-03-21T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-03-21T10:00:00.000Z"
-  },
-  {
     "endAt": "2025-03-22T06:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/667271059_IGDB-120x160.jpg",
     "gameDisplayName": "Seekers of Skyveil",
@@ -230,6 +150,135 @@
       }
     ],
     "startAt": "2025-03-14T06:30:00.000Z"
+  },
+  {
+    "endAt": "2025-03-22T06:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
+    "gameDisplayName": "Halo Infinite",
+    "gameId": "506416",
+    "rewards": [
+      {
+        "id": "9e0eea90-0606-11f0-903e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "32744512",
+              "displayName": "CardinalRedbird",
+              "name": "cardinalredbird",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64645926",
+              "displayName": "OmnicientWolf",
+              "name": "omnicientwolf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "775559897",
+              "displayName": "LaSinity",
+              "name": "lasinity",
+              "__typename": "Channel"
+            },
+            {
+              "id": "77973535",
+              "displayName": "RealLifeSpartan",
+              "name": "reallifespartan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "98449152",
+              "displayName": "ArturBloodshot",
+              "name": "arturbloodshot",
+              "__typename": "Channel"
+            },
+            {
+              "id": "105997476",
+              "displayName": "IamMrMayhem",
+              "name": "iammrmayhem",
+              "__typename": "Channel"
+            },
+            {
+              "id": "10692319",
+              "displayName": "Eli_X",
+              "name": "eli_x",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1284692503",
+              "displayName": "LVTHaloES",
+              "name": "lvthaloes",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn Halo Infinite in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-03-22T06:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ce8f42b7-78ff-48ec-85b4-40ff224aa698.png",
+        "name": "March Boomer Time-MAR21",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-22T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "baed85bd-0606-11f0-8037-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_P3F2-SYR6-34AW-Y7FW-PEG5",
+                  "createdAt": "2024-06-01T19:19:53.104Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d3ed9a0e-cfe3-4a43-a3a2-ae06a3637399.png",
+                  "isIosAvailable": false,
+                  "name": "On Track Spartan ID",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-22T06:59:59.999Z",
+            "name": "On Track Emblem and Nameplate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-03-22T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-22T00:00:00.000Z"
   },
   {
     "endAt": "2025-03-22T08:55:59.999Z",
