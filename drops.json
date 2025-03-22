@@ -1,62 +1,87 @@
 [
   {
-    "endAt": "2025-03-22T16:59:59.996Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/138585-120x160.jpg",
-    "gameDisplayName": "Hearthstone",
-    "gameId": "138585",
+    "endAt": "2025-03-22T19:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
+    "gameDisplayName": "Tanki Online",
+    "gameId": "417810",
     "rewards": [
       {
-        "id": "61287d93-03b8-11f0-b760-0a58a9feac02",
+        "id": "e5543819-062b-11f0-8ce7-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "117023453",
+              "displayName": "TankiSport_RU",
+              "name": "tankisport_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64274116",
+              "displayName": "TankiSport_EN",
+              "name": "tankisport_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806896138",
+              "displayName": "TankiSport_RU_2",
+              "name": "tankisport_ru_2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806894175",
+              "displayName": "TankiSport_EN_2",
+              "name": "tankisport_en_2",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://account.battle.net/connections",
-        "description": "The Pre-Release Tavern Brawl returns! Watch your favorite streamers play and get new packs that you can open RIGHT NOW to improve your next brawl run!",
-        "detailsURL": "https://hearthstone.blizzard.com/en-us/news/",
-        "endAt": "2025-03-22T16:59:59.996Z",
+        "accountLinkURL": "https://tankionline.com/play/",
+        "description": "Watch Tanki Online eSports match livestreams and get Epic Keys in Tanki Online",
+        "detailsURL": "https://tankionline.com/",
+        "endAt": "2025-03-22T19:29:59.999Z",
         "eventBasedDrops": [],
         "game": {
-          "id": "138585",
-          "slug": "hearthstone",
-          "displayName": "Hearthstone",
+          "id": "417810",
+          "slug": "tanki-online",
+          "displayName": "Tanki Online",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0bf93438-361b-4f43-90d3-20bb5186f993.png",
-        "name": "Into The Emerald Brawl!",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d05d7a8f-ebc9-4491-9ee7-5cb756fd7556.jpeg",
+        "name": "SMR2 2025 R6 (2)",
         "owner": {
-          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-          "name": "Blizzard",
+          "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+          "name": "APL Publishing Ltd",
           "__typename": "Organization"
         },
-        "startAt": "2025-03-18T17:00:00Z",
+        "startAt": "2025-03-22T17:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "003e48f2-03c4-11f0-9198-0a58a9feac02",
+            "id": "06cc506e-062c-11f0-8a37-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1866179",
-                  "createdAt": "2024-10-21T20:19:03.96Z",
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "138585",
-                    "name": "Hearthstone",
+                    "id": "417810",
+                    "name": "Tanki Online",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/05161f77-a5de-4106-9b2c-41bb48963b32.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
                   "isIosAvailable": false,
-                  "name": "Great Dark Beyond Pack",
+                  "name": "Epic Key",
                   "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -66,33 +91,33 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-03-22T16:59:59.996Z",
-            "name": "Great Dark Beyond Pack",
+            "endAt": "2025-03-22T19:29:59.999Z",
+            "name": "Match 1",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-03-18T17:00:00Z",
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-03-22T17:00:00Z",
             "__typename": "TimeBasedDrop"
           },
           {
-            "id": "041b7feb-03c4-11f0-9f88-0a58a9feac02",
+            "id": "0aaa31d2-062c-11f0-8348-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1913163",
-                  "createdAt": "2025-03-13T00:35:54.522Z",
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "138585",
-                    "name": "Hearthstone",
+                    "id": "417810",
+                    "name": "Tanki Online",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee381a8d-b4e1-4400-8b5e-c527952957e0.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
                   "isIosAvailable": false,
-                  "name": "Emerald Dream Pack",
+                  "name": "Epic Key",
                   "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -102,306 +127,18 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-03-22T16:59:59.996Z",
-            "name": "Emerald Dream Pack",
+            "endAt": "2025-03-22T19:29:59.999Z",
+            "name": "Match 2",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-03-18T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "0890c6b4-03c4-11f0-a51c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1913163",
-                  "createdAt": "2025-03-13T00:35:54.522Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "138585",
-                    "name": "Hearthstone",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee381a8d-b4e1-4400-8b5e-c527952957e0.png",
-                  "isIosAvailable": false,
-                  "name": "Emerald Dream Pack",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-22T16:59:59.996Z",
-            "name": "Emerald Dream Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-03-18T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "0c5a2fc7-03c4-11f0-8a8f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1913163",
-                  "createdAt": "2025-03-13T00:35:54.522Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "138585",
-                    "name": "Hearthstone",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee381a8d-b4e1-4400-8b5e-c527952957e0.png",
-                  "isIosAvailable": false,
-                  "name": "Emerald Dream Pack",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-22T16:59:59.996Z",
-            "name": "Emerald Dream Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-03-18T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "103ef224-03c4-11f0-a88b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1866179",
-                  "createdAt": "2024-10-21T20:19:03.96Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "138585",
-                    "name": "Hearthstone",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/05161f77-a5de-4106-9b2c-41bb48963b32.png",
-                  "isIosAvailable": false,
-                  "name": "Great Dark Beyond Pack",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-22T16:59:59.996Z",
-            "name": "Great Dark Beyond Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2025-03-18T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "1579626f-03c4-11f0-87a6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1866179",
-                  "createdAt": "2024-10-21T20:19:03.96Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "138585",
-                    "name": "Hearthstone",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/05161f77-a5de-4106-9b2c-41bb48963b32.png",
-                  "isIosAvailable": false,
-                  "name": "Great Dark Beyond Pack",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-22T16:59:59.996Z",
-            "name": "Great Dark Beyond Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2025-03-18T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "19cd778d-03c4-11f0-aab2-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1913163",
-                  "createdAt": "2025-03-13T00:35:54.522Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "138585",
-                    "name": "Hearthstone",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee381a8d-b4e1-4400-8b5e-c527952957e0.png",
-                  "isIosAvailable": false,
-                  "name": "Emerald Dream Pack",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-22T16:59:59.996Z",
-            "name": "Emerald Dream Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2025-03-18T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "1de8067e-03c4-11f0-b769-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1913163",
-                  "createdAt": "2025-03-13T00:35:54.522Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "138585",
-                    "name": "Hearthstone",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee381a8d-b4e1-4400-8b5e-c527952957e0.png",
-                  "isIosAvailable": false,
-                  "name": "Emerald Dream Pack",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-22T16:59:59.996Z",
-            "name": "Emerald Dream Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2025-03-18T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "f8023ce2-03c3-11f0-8031-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1866179",
-                  "createdAt": "2024-10-21T20:19:03.96Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "138585",
-                    "name": "Hearthstone",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/05161f77-a5de-4106-9b2c-41bb48963b32.png",
-                  "isIosAvailable": false,
-                  "name": "Great Dark Beyond Pack",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-22T16:59:59.996Z",
-            "name": "Great Dark Beyond Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-03-18T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "fc1af186-03c3-11f0-8c84-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1866179",
-                  "createdAt": "2024-10-21T20:19:03.96Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "138585",
-                    "name": "Hearthstone",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/05161f77-a5de-4106-9b2c-41bb48963b32.png",
-                  "isIosAvailable": false,
-                  "name": "Great Dark Beyond Pack",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-22T16:59:59.996Z",
-            "name": "Great Dark Beyond Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-03-18T17:00:00Z",
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-03-22T17:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2025-03-18T17:00:00.000Z"
+    "startAt": "2025-03-22T17:00:00.000Z"
   },
   {
     "endAt": "2025-03-23T01:59:59.995Z",
