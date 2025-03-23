@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2025-03-23T01:59:59.995Z",
+    "endAt": "2025-03-24T01:59:59.996Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
     "gameDisplayName": "Halo Infinite",
     "gameId": "506416",
@@ -114,6 +114,144 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-03-22T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "51b75b3d-f868-11ef-926e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "222719079",
+              "displayName": "LVTHalo",
+              "name": "lvthalo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "785740578",
+              "displayName": "EuropeanHalo",
+              "name": "europeanhalo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "127089080",
+              "displayName": "Wryce",
+              "name": "wryce",
+              "__typename": "Channel"
+            },
+            {
+              "id": "69185451",
+              "displayName": "plasma_t1",
+              "name": "plasma_t1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "560625771",
+              "displayName": "swayzonthetv",
+              "name": "swayzonthetv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "136133759",
+              "displayName": "Scoobmeister",
+              "name": "scoobmeister",
+              "__typename": "Channel"
+            },
+            {
+              "id": "10692319",
+              "displayName": "Eli_X",
+              "name": "eli_x",
+              "__typename": "Channel"
+            },
+            {
+              "id": "25254906",
+              "displayName": "Stresss",
+              "name": "stresss",
+              "__typename": "Channel"
+            },
+            {
+              "id": "775559897",
+              "displayName": "LaSinity",
+              "name": "lasinity",
+              "__typename": "Channel"
+            },
+            {
+              "id": "889963772",
+              "displayName": "sarvanah",
+              "name": "sarvanah",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64705724",
+              "displayName": "PHREE2Y",
+              "name": "phree2y",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": " Tune into the HCS Open Series to earn in-game content in Halo Infinite!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-03-24T01:59:59.996Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3835fbb2-cbd0-432a-bf45-66c477f1ce26.png",
+        "name": "HCSARL Qualifier-D2-MAR23",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-23T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5cc7b83b-f868-11ef-b7ed-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_MG64-VCQH-TW3J-5S93",
+                  "createdAt": "2024-07-09T23:15:22.133Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1ec55c80-b94b-4d32-8185-ed0c556e34b7.png",
+                  "isIosAvailable": false,
+                  "name": "Red Devil Charm",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-24T01:59:59.996Z",
+            "name": "Red Devil Charm",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-03-23T00:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -4995,86 +5133,6 @@
       }
     ],
     "startAt": "2025-03-22T17:30:00.000Z"
-  },
-  {
-    "endAt": "2025-03-23T23:57:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/286759738_IGDB-120x160.jpg",
-    "gameDisplayName": "inZOI",
-    "gameId": "286759738",
-    "rewards": [
-      {
-        "id": "d888cb82-fe57-11ef-bd73-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://accounts.krafton.com",
-        "description": "To claim the inZOI: Creative Studio Key, those who own this Drops reward should link their Steam and KRAFTON ID on the playinzoi.com/events/drops page. Then, follow the event participation instructions and click \"Claim Drops Rewards\" to receive the key. This reward is granted to users who watched a Twitch stream in the inZOI category for at least 15 minutes. Additionally, inZOI: Creative Studio Key can be claimed from March 20, 00:00 (UTC) to March 22, 23:59 (UTC). Please make sure to redeem your reward within the given period.",
-        "detailsURL": "https://playinzoi.com/events/drops",
-        "endAt": "2025-03-23T23:57:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "286759738",
-          "slug": "inzoi",
-          "displayName": "inZOI",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/038083e9-ef14-42c9-8227-e1d840e3f1e4.png",
-        "name": "inZOI Demo Drops",
-        "owner": {
-          "id": "2986fad1-6d72-43b0-8a18-c3c313414ab4",
-          "name": "KRAFTON Inc.",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-03-20T00:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "83ecd118-fe58-11ef-8238-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f2ce8101-fe58-11ef-81d4-0a58a9feac02",
-                  "createdAt": "2025-03-11T09:12:25.597Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "286759738",
-                    "name": "inZOI",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/333b7387-60e2-40d4-bba1-e6596b119a71.png",
-                  "isIosAvailable": false,
-                  "name": "inZOI Demo Eligibility",
-                  "ownerOrganization": {
-                    "id": "2986fad1-6d72-43b0-8a18-c3c313414ab4",
-                    "name": "KRAFTON Inc.",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-23T23:57:59.999Z",
-            "name": "inZOI: Creative Studio Reward Eligibility",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-03-20T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-03-20T00:00:00.000Z"
   },
   {
     "endAt": "2025-03-24T07:59:59.998Z",
