@@ -40118,6 +40118,86 @@
     "startAt": "2025-03-22T08:00:00.000Z"
   },
   {
+    "endAt": "2025-03-30T13:59:59.996Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1956277750_IGDB-120x160.jpg",
+    "gameDisplayName": "Terminull Brigade",
+    "gameId": "1956277750",
+    "rewards": [
+      {
+        "id": "1b206f25-02fc-11f0-ad35-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.terminullbrigade.com/act/wand/twitchdrops/index.html",
+        "description": "Watch at least 30 minutes of Terminull Brigade to claim your beta key and dive into Nullverse! ",
+        "detailsURL": "https://www.terminullbrigade.com/act/wand/twitchdrops/index.html",
+        "endAt": "2025-03-30T13:59:59.996Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1956277750",
+          "slug": "terminull-brigade",
+          "displayName": "Terminull Brigade",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "Beta Access",
+        "owner": {
+          "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+          "name": "Level Infinite",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-23T14:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "2d17dcbd-02fc-11f0-9a10-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5ffcdf71-02fc-11f0-939e-0a58a9feac02",
+                  "createdAt": "2025-03-17T06:52:21.39Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1956277750",
+                    "name": "Terminull Brigade",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8588f3b9-52df-4ba5-85ec-d83578ae3e4d.png",
+                  "isIosAvailable": false,
+                  "name": "Beta Access Key",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-30T13:59:59.996Z",
+            "name": "30min",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-03-23T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-23T14:00:00.000Z"
+  },
+  {
     "endAt": "2025-03-30T23:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21779-120x160.jpg",
     "gameDisplayName": "League of Legends",
