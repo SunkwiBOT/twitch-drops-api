@@ -36578,5 +36578,85 @@
       }
     ],
     "startAt": "2025-03-20T11:00:00.000Z"
+  },
+  {
+    "endAt": "2025-04-21T07:28:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/414822821_IGDB-120x160.jpg",
+    "gameDisplayName": "Sid Meier's Civilization VII",
+    "gameId": "414822821",
+    "rewards": [
+      {
+        "id": "74e9083b-05a1-11f0-a06e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://civilization.2k.com/twitch-drops/",
+        "description": "Watch for 30 minutes and claim the reward: Cavalry Charge Banner profile cosmetic!",
+        "detailsURL": "https://civilization.2k.com/twitch-drops/",
+        "endAt": "2025-04-21T07:28:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "414822821",
+          "slug": "sid-meiers-civilization-vii",
+          "displayName": "Sid Meier's Civilization VII",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/644ade4a-eb95-4174-b0f6-54a2ea78271d.png",
+        "name": "Calvary Banner",
+        "owner": {
+          "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616",
+          "name": "2K Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-24T14:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3c52c776-05a3-11f0-be89-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616_CUSTOM_ID_ewogICAic2t1X2lkIjoiNzMxNTYyYWVlYzAxNDk2M2FkOGZiNGEyODVlMzJmZjkiCn0",
+                  "createdAt": "2025-01-30T16:56:52.852Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "414822821",
+                    "name": "Sid Meier's Civilization VII",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/df2babc4-b42e-48ab-bc0c-1a0da2e33e7b.png",
+                  "isIosAvailable": false,
+                  "name": "Cavalry Charge Banner ⭐️",
+                  "ownerOrganization": {
+                    "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616",
+                    "name": "2K Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-21T07:28:59.999Z",
+            "name": "Calvary Banner",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-03-24T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-24T14:00:00.000Z"
   }
 ]
