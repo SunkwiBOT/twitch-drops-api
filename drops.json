@@ -1,85 +1,5 @@
 [
   {
-    "endAt": "2025-03-25T16:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/18122-120x160.jpg",
-    "gameDisplayName": "World of Warcraft",
-    "gameId": "18122",
-    "rewards": [
-      {
-        "id": "b109e77c-ee2c-11ef-87a0-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.battle.net/connections",
-        "description": "Celebrate the new World of Warcraft patch and travel deep into the capital of the goblin's trade empire—Undermine and grab a new pet!  Watch 4 hours between February 25 and March 25 to get Tock the Clocker Spaniel Pet.",
-        "detailsURL": "https://news.blizzard.com/en-us/article/24177682/twitch-drop-get-tock-the-clocker-spaniel-pet-february-25",
-        "endAt": "2025-03-25T16:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "18122",
-          "slug": "world-of-warcraft",
-          "displayName": "World of Warcraft",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a1415459-f484-44b7-83c4-55f21b1bb23c.png",
-        "name": "Tock the Clocker Spaniel",
-        "owner": {
-          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-          "name": "Blizzard",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-02-25T18:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "e396a1f7-efaa-11ef-9316-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1914333",
-                  "createdAt": "2025-02-20T16:49:31.861Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "18122",
-                    "name": "World of Warcraft",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1f18d6cb-82df-4bbd-89c9-c51bcd16ad3c.png",
-                  "isIosAvailable": false,
-                  "name": "Tock the Clocker Spaniel",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-03-25T16:59:59.999Z",
-            "name": "Tock the Clocker Spaniel",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-02-25T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-02-25T18:00:00.000Z"
-  },
-  {
     "endAt": "2025-03-25T18:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/232131679_IGDB-120x160.jpg",
     "gameDisplayName": "EA Sports College Football 25",
@@ -395,6 +315,147 @@
       }
     ],
     "startAt": "2025-03-24T16:00:00.000Z"
+  },
+  {
+    "endAt": "2025-03-25T19:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
+    "gameDisplayName": "Tanki Online",
+    "gameId": "417810",
+    "rewards": [
+      {
+        "id": "406055c2-0898-11f0-9ca1-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "117023453",
+              "displayName": "TankiSport_RU",
+              "name": "tankisport_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64274116",
+              "displayName": "TankiSport_EN",
+              "name": "tankisport_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806896138",
+              "displayName": "TankiSport_RU_2",
+              "name": "tankisport_ru_2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806894175",
+              "displayName": "TankiSport_EN_2",
+              "name": "tankisport_en_2",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://tankionline.com/play/",
+        "description": "Watch Tanki Online eSports match livestreams and get Epic Keys in Tanki Online",
+        "detailsURL": "https://tankionline.com/",
+        "endAt": "2025-03-25T19:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417810",
+          "slug": "tanki-online",
+          "displayName": "Tanki Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b43c6406-22d5-4d84-b376-729c8d383c56.jpeg",
+        "name": "SMR2 2025 R7 (2)",
+        "owner": {
+          "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+          "name": "APL Publishing Ltd",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-25T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5d3ae39d-0898-11f0-843c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-25T19:29:59.999Z",
+            "name": "Match 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-03-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "602ba355-0898-11f0-85b8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-25T19:29:59.999Z",
+            "name": "Match 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-03-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-25T17:00:00.000Z"
   },
   {
     "endAt": "2025-04-15T03:59:59.999Z",
@@ -36989,5 +37050,188 @@
       }
     ],
     "startAt": "2025-03-24T14:00:00.000Z"
+  },
+  {
+    "endAt": "2025-04-22T12:14:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/518873_IGDB-120x160.jpg",
+    "gameDisplayName": "Warhammer 40,000: Darktide",
+    "gameId": "518873",
+    "rewards": [
+      {
+        "id": "7de93187-0974-11f0-a06c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "51815168",
+              "displayName": "FatsharkGames",
+              "name": "fatsharkgames",
+              "__typename": "Channel"
+            },
+            {
+              "id": "26047850",
+              "displayName": "Sequens",
+              "name": "sequens",
+              "__typename": "Channel"
+            },
+            {
+              "id": "176866513",
+              "displayName": "DaveeBoy",
+              "name": "daveeboy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41690393",
+              "displayName": "Deepnausea",
+              "name": "deepnausea",
+              "__typename": "Channel"
+            },
+            {
+              "id": "175684163",
+              "displayName": "ImJustJun",
+              "name": "imjustjun",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://accounts.atoma.cloud/twitch-drops",
+        "description": "Harness the raw, mystical power of the Psyker with the Protector of Tertium Twitch Drop set. Claim this set via participating Twitch streams and stand out as the ultimate protector in the dark depths of Tertium.",
+        "detailsURL": "https://accounts.atoma.cloud/twitch-drops",
+        "endAt": "2025-04-22T12:14:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "518873",
+          "slug": "warhammer-40-000-darktide",
+          "displayName": "Warhammer 40,000: Darktide",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/908e7202-be6c-4f66-8060-02f914624402.png",
+        "name": "Psykers of Tertium ",
+        "owner": {
+          "id": "8b65e332-9430-4b49-a064-b7c4913c82e4",
+          "name": "Fatshark",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-25T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a8b35fa4-0974-11f0-96bc-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8b65e332-9430-4b49-a064-b7c4913c82e4_CUSTOM_ID_584e92f0-3131-4e44-960f-aaf0c6d55b55_4af03e2d-9a82-49c8-afa9-070cba72e547",
+                  "createdAt": "2025-03-25T15:49:16.947Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518873",
+                    "name": "Warhammer 40,000: Darktide",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/174a3e1e-2ab7-41b6-a111-2cc260b6c849.png",
+                  "isIosAvailable": false,
+                  "name": "Crucian Vowguard",
+                  "ownerOrganization": {
+                    "id": "8b65e332-9430-4b49-a064-b7c4913c82e4",
+                    "name": "Fatshark",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-22T12:14:59.999Z",
+            "name": "Protector of Tertium - Psyker Headgear",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-03-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b44fccc6-0974-11f0-bdf1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8b65e332-9430-4b49-a064-b7c4913c82e4_CUSTOM_ID_584e92f0-3131-4e44-960f-aaf0c6d55b55_d0c0a53e-bd9b-4ce9-9e2b-b9692acf6e83",
+                  "createdAt": "2025-03-25T15:53:41.524Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518873",
+                    "name": "Warhammer 40,000: Darktide",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/384da914-caaf-4a5c-8b44-f7d907712ed1.png",
+                  "isIosAvailable": false,
+                  "name": "Psykana Garb",
+                  "ownerOrganization": {
+                    "id": "8b65e332-9430-4b49-a064-b7c4913c82e4",
+                    "name": "Fatshark",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-22T12:14:59.999Z",
+            "name": "Protector of Tertium - Psyker Upperbody",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-03-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "bc311798-0974-11f0-b122-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8b65e332-9430-4b49-a064-b7c4913c82e4_CUSTOM_ID_584e92f0-3131-4e44-960f-aaf0c6d55b55_eabe877e-7cf4-46ac-8a57-c13976a3d48f",
+                  "createdAt": "2025-03-25T15:51:36.522Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518873",
+                    "name": "Warhammer 40,000: Darktide",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3573ef3b-54da-4a82-a299-144193e3f098.png",
+                  "isIosAvailable": false,
+                  "name": "Psyker Regalia",
+                  "ownerOrganization": {
+                    "id": "8b65e332-9430-4b49-a064-b7c4913c82e4",
+                    "name": "Fatshark",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-22T12:14:59.999Z",
+            "name": "Protector of Tertium - Psyker Lowerbody",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-03-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-25T17:00:00.000Z"
   }
 ]
