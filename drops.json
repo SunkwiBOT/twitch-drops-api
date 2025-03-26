@@ -87,6 +87,129 @@
     "startAt": "2025-03-26T15:00:00.000Z"
   },
   {
+    "endAt": "2025-03-26T18:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1136666301_IGDB-120x160.jpg",
+    "gameDisplayName": "MLB The Show 25",
+    "gameId": "1136666301",
+    "rewards": [
+      {
+        "id": "0233dd2e-0a6b-11f0-8155-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "75885541",
+              "displayName": "SonySanDiegoStudio",
+              "name": "sonysandiegostudio",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.theshow.com",
+        "description": "Tune in for The Show LIVE! Join the team at San Diego Studio for everything coming to MLB The Show 25.",
+        "detailsURL": "https://www.theshow.com",
+        "endAt": "2025-03-26T18:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1136666301",
+          "slug": "mlb-the-show-25",
+          "displayName": "MLB The Show 25",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/43b0a630-f91d-42cf-a33a-627bae5a66a0.png",
+        "name": "The Show LIVE",
+        "owner": {
+          "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a",
+          "name": "Sony San Diego",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-26T17:50:39Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1a26f2cb-0a6b-11f0-ab67-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a_CUSTOM_ID_59656",
+                  "createdAt": "2025-02-13T18:12:04.13Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1136666301",
+                    "name": "MLB The Show 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4591347a-9cfc-410d-b21c-9ce4f894896e.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a",
+                    "name": "Sony San Diego",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-26T18:59:59.999Z",
+            "name": "Twitck Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-03-26T17:50:39Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "20ae5391-0a6b-11f0-9418-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a_CUSTOM_ID_59656",
+                  "createdAt": "2025-02-13T18:12:04.13Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1136666301",
+                    "name": "MLB The Show 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4591347a-9cfc-410d-b21c-9ce4f894896e.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a",
+                    "name": "Sony San Diego",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-26T18:59:59.999Z",
+            "name": "Twitch Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-03-26T17:50:39Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-26T17:50:39.000Z"
+  },
+  {
     "endAt": "2025-03-26T20:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515349_IGDB-120x160.jpg",
     "gameDisplayName": "Lineage II",
