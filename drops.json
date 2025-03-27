@@ -1,12 +1,12 @@
 [
   {
-    "endAt": "2025-03-27T17:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/232131679_IGDB-120x160.jpg",
-    "gameDisplayName": "EA Sports College Football 25",
-    "gameId": "232131679",
+    "endAt": "2025-04-14T16:54:59.996Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511224-120x160.jpg",
+    "gameDisplayName": "Apex Legends",
+    "gameId": "511224",
     "rewards": [
       {
-        "id": "4fcdecc4-0b1a-11f0-aa48-0a58a9feac02",
+        "id": "112713b3-09c2-11f0-81d8-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
@@ -14,53 +14,59 @@
         "allow": {
           "channels": [
             {
-              "id": "1078884257",
-              "displayName": "easportscollege",
-              "name": "easportscollege",
+              "id": "26764651",
+              "displayName": "GameStar",
+              "name": "gamestar",
+              "__typename": "Channel"
+            },
+            {
+              "id": "412132764",
+              "displayName": "playapex",
+              "name": "playapex",
               "__typename": "Channel"
             }
           ],
           "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
-        "description": "Watch CFB Live and earn some Twitch Drops to power up your Ultimate Team!",
-        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
-        "endAt": "2025-03-27T17:59:59.999Z",
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "Join us for the Apex Legends Fan Celebration and another chance to grab the 'Get in There' Holospray and the 'Thirst Quencher' gun charm. ",
+        "detailsURL": "https://www.ea.com/games/apex-legends/apex-legends",
+        "endAt": "2025-03-27T19:59:59.999Z",
         "eventBasedDrops": [],
         "game": {
-          "id": "232131679",
-          "slug": "ea-sports-college-football",
-          "displayName": "EA Sports College Football 25",
+          "id": "511224",
+          "slug": "apex-legends",
+          "displayName": "Apex Legends",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/71855c54-32d6-4296-bb69-86fde15a0213.png",
-        "name": "CFB Live",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b99f0ada-7a2f-40a8-b1fc-c2f2565f1864.png",
+        "name": "Apex Fan Celebration",
         "owner": {
           "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
           "name": "Electronic Arts",
           "__typename": "Organization"
         },
-        "startAt": "2025-03-27T15:00:00Z",
+        "startAt": "2025-03-27T18:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "641ba10a-0b1a-11f0-bcb5-0a58a9feac02",
+            "id": "81fda401-09c2-11f0-b220-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT25-TWITCH-109",
-                  "createdAt": "2025-03-26T14:47:28.036Z",
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_twitch_drops_s24_anniv_01",
+                  "createdAt": "2025-02-10T19:26:41.771Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "232131679",
-                    "name": "EA Sports College Football 25",
+                    "id": "511224",
+                    "name": "Apex Legends",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/230c9e79-015e-461d-be5a-37b4908ed9ec.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/47512c83-e963-45cc-af55-10a33896762f.png",
                   "isIosAvailable": false,
-                  "name": "CFB Twitch Pack",
+                  "name": "Get In There Holo",
                   "ownerOrganization": {
                     "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
                     "name": "Electronic Arts",
@@ -73,18 +79,522 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-03-27T17:59:59.999Z",
-            "name": "CFB Twitch Pack",
+            "endAt": "2025-03-27T19:59:59.999Z",
+            "name": "Apex Legends Anniversary Fan Celebration",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-03-27T15:00:00Z",
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-03-27T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "cd686649-09c2-11f0-806d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_twitch_drops_s24_anniv_02",
+                  "createdAt": "2025-02-10T19:22:40.345Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e7668a9-cf3e-450c-97e6-245ce031a93e.png",
+                  "isIosAvailable": false,
+                  "name": "Thirst Quencher Charm",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-27T19:59:59.999Z",
+            "name": "Thirst Quencher",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-03-27T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "dc3b5c26-08f6-11f0-bbcc-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "41550191",
+              "displayName": "TimProVision",
+              "name": "timprovision",
+              "__typename": "Channel"
+            },
+            {
+              "id": "164567690",
+              "displayName": "TiffaJessi",
+              "name": "tiffajessi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "470061078",
+              "displayName": "BodyBoyBoy",
+              "name": "bodyboyboy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "52982018",
+              "displayName": "Haxxou",
+              "name": "haxxou",
+              "__typename": "Channel"
+            },
+            {
+              "id": "183330586",
+              "displayName": "Nati",
+              "name": "nati",
+              "__typename": "Channel"
+            },
+            {
+              "id": "248414327",
+              "displayName": "TheGamingMerchant",
+              "name": "thegamingmerchant",
+              "__typename": "Channel"
+            },
+            {
+              "id": "136366909",
+              "displayName": "ThatPunchKid",
+              "name": "thatpunchkid",
+              "__typename": "Channel"
+            },
+            {
+              "id": "733381818",
+              "displayName": "ahleeyahh",
+              "name": "ahleeyahh",
+              "__typename": "Channel"
+            },
+            {
+              "id": "160026472",
+              "displayName": "Mavitivo",
+              "name": "mavitivo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "635449574",
+              "displayName": "chaoticmuch",
+              "name": "chaoticmuch",
+              "__typename": "Channel"
+            },
+            {
+              "id": "100141686",
+              "displayName": "Yuki",
+              "name": "yuki",
+              "__typename": "Channel"
+            },
+            {
+              "id": "93424363",
+              "displayName": "GirlyPRO",
+              "name": "girlypro",
+              "__typename": "Channel"
+            },
+            {
+              "id": "59744697",
+              "displayName": "IAmTrinky",
+              "name": "iamtrinky",
+              "__typename": "Channel"
+            },
+            {
+              "id": "435565884",
+              "displayName": "VirtualGemma",
+              "name": "virtualgemma",
+              "__typename": "Channel"
+            },
+            {
+              "id": "19716159",
+              "displayName": "MrRoflWaffles",
+              "name": "mrroflwaffles",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806610556",
+              "displayName": "mgclutch",
+              "name": "mgclutch",
+              "__typename": "Channel"
+            },
+            {
+              "id": "103301619",
+              "displayName": "Emaerya",
+              "name": "emaerya",
+              "__typename": "Channel"
+            },
+            {
+              "id": "104919208",
+              "displayName": "Sooshi",
+              "name": "sooshi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "700074254",
+              "displayName": "WARD3Y",
+              "name": "ward3y",
+              "__typename": "Channel"
+            },
+            {
+              "id": "605107691",
+              "displayName": "sophiesnazz",
+              "name": "sophiesnazz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39196220",
+              "displayName": "BlackBoye",
+              "name": "blackboye",
+              "__typename": "Channel"
+            },
+            {
+              "id": "141980633",
+              "displayName": "xJAYAMI",
+              "name": "xjayami",
+              "__typename": "Channel"
+            },
+            {
+              "id": "249529739",
+              "displayName": "AgentTripleA",
+              "name": "agenttriplea",
+              "__typename": "Channel"
+            },
+            {
+              "id": "269390299",
+              "displayName": "rBreezyTV",
+              "name": "rbreezytv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "450172317",
+              "displayName": "HappyKrakenX",
+              "name": "happykrakenx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "130796869",
+              "displayName": "yoojin",
+              "name": "yoojin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "8272681",
+              "displayName": "BigCheese",
+              "name": "bigcheese",
+              "__typename": "Channel"
+            },
+            {
+              "id": "57153095",
+              "displayName": "JohnnyPriceTV",
+              "name": "johnnypricetv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "92333767",
+              "displayName": "MufasaScreams",
+              "name": "mufasascreams",
+              "__typename": "Channel"
+            },
+            {
+              "id": "82370142",
+              "displayName": "Niamocha",
+              "name": "niamocha",
+              "__typename": "Channel"
+            },
+            {
+              "id": "16064695",
+              "displayName": "Dhalucard",
+              "name": "dhalucard",
+              "__typename": "Channel"
+            },
+            {
+              "id": "190988616",
+              "displayName": "Asleyia",
+              "name": "asleyia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "44281267",
+              "displayName": "Lost",
+              "name": "lost",
+              "__typename": "Channel"
+            },
+            {
+              "id": "138310362",
+              "displayName": "chefstrobel",
+              "name": "chefstrobel",
+              "__typename": "Channel"
+            },
+            {
+              "id": "63140745",
+              "displayName": "Meloonie",
+              "name": "meloonie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "525152946",
+              "displayName": "niikoletaa",
+              "name": "niikoletaa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "265924246",
+              "displayName": "Berbatow",
+              "name": "berbatow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "277445885",
+              "displayName": "MisokaaTv",
+              "name": "misokaatv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "138824763",
+              "displayName": "vRementv",
+              "name": "vrementv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "150131223",
+              "displayName": "PrimeVladii",
+              "name": "primevladii",
+              "__typename": "Channel"
+            },
+            {
+              "id": "159539972",
+              "displayName": "dounatsu",
+              "name": "dounatsu",
+              "__typename": "Channel"
+            },
+            {
+              "id": "96064921",
+              "displayName": "LootieLoo",
+              "name": "lootieloo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "407409471",
+              "displayName": "Flanzinho",
+              "name": "flanzinho",
+              "__typename": "Channel"
+            },
+            {
+              "id": "122638999",
+              "displayName": "Wahdle",
+              "name": "wahdle",
+              "__typename": "Channel"
+            },
+            {
+              "id": "55607419",
+              "displayName": "GuhRL",
+              "name": "guhrl",
+              "__typename": "Channel"
+            },
+            {
+              "id": "508333532",
+              "displayName": "sailortori",
+              "name": "sailortori",
+              "__typename": "Channel"
+            },
+            {
+              "id": "177629575",
+              "displayName": "Pattsuu",
+              "name": "pattsuu",
+              "__typename": "Channel"
+            },
+            {
+              "id": "24112133",
+              "displayName": "HisandHersLive",
+              "name": "hisandherslive",
+              "__typename": "Channel"
+            },
+            {
+              "id": "133624399",
+              "displayName": "CUTEGUNZ",
+              "name": "cutegunz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "241509386",
+              "displayName": "AvaBloom_",
+              "name": "avabloom_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "56964879",
+              "displayName": "TwoAngryGamersTV",
+              "name": "twoangrygamerstv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "110848956",
+              "displayName": "Guapeeee",
+              "name": "guapeeee",
+              "__typename": "Channel"
+            },
+            {
+              "id": "217377982",
+              "displayName": "Sweet_Anita",
+              "name": "sweet_anita",
+              "__typename": "Channel"
+            },
+            {
+              "id": "514200790",
+              "displayName": "MooseLeeGaming",
+              "name": "mooseleegaming",
+              "__typename": "Channel"
+            },
+            {
+              "id": "552427337",
+              "displayName": "SenseiTash_",
+              "name": "senseitash_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "229452430",
+              "displayName": "KyriFPS",
+              "name": "kyrifps",
+              "__typename": "Channel"
+            },
+            {
+              "id": "123536489",
+              "displayName": "SnakeBeater",
+              "name": "snakebeater",
+              "__typename": "Channel"
+            },
+            {
+              "id": "37035899",
+              "displayName": "IAmBPala",
+              "name": "iambpala",
+              "__typename": "Channel"
+            },
+            {
+              "id": "410925180",
+              "displayName": "Literally_Loopy",
+              "name": "literally_loopy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "203601951",
+              "displayName": "ZeroLoveGiivn",
+              "name": "zerolovegiivn",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "Support your favorite Apex Legends creators and score new loot! Support-a-streamer drops will be active from March 25 to April 14. Gift 1 subs to get Feeling the Burn Sticker. Gift 2 for the Biometrics R-99 skin.",
+        "detailsURL": "https://x.com/PlayApex/status/1904268002310144449",
+        "endAt": "2025-04-14T16:54:59.996Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511224",
+          "slug": "apex-legends",
+          "displayName": "Apex Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ffd28251-c64b-40f8-b226-a747ad85b924.png",
+        "name": "Apex Legends Creator Drop",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-25T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a7478994-08f7-11f0-b679-0a58a9feac02",
+            "requiredSubs": 2,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_twitch_drops_s24_anniv_03",
+                  "createdAt": "2025-03-24T21:13:35.814Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7403e375-ca0e-4311-9e67-aebade84ee82.png",
+                  "isIosAvailable": false,
+                  "name": "Biometrics R99",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-14T16:54:59.996Z",
+            "name": "Biometrics R99",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-03-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ed3bcb8e-08f7-11f0-843c-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_twitch_drops_s24_anniv_04",
+                  "createdAt": "2025-03-24T21:14:38.818Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/344f7e76-af12-457d-8098-116b45426e49.png",
+                  "isIosAvailable": false,
+                  "name": "Feel the Burn Sticker",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-14T16:54:59.996Z",
+            "name": "Feel the Burn Sticker",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-03-25T17:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2025-03-27T15:00:00.000Z"
+    "startAt": "2025-03-25T17:00:00.000Z"
   },
   {
     "endAt": "2025-03-27T19:59:59.999Z",
@@ -29584,483 +30094,6 @@
       }
     ],
     "startAt": "2025-03-21T10:00:00.000Z"
-  },
-  {
-    "endAt": "2025-04-14T16:54:59.996Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511224-120x160.jpg",
-    "gameDisplayName": "Apex Legends",
-    "gameId": "511224",
-    "rewards": [
-      {
-        "id": "dc3b5c26-08f6-11f0-bbcc-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "41550191",
-              "displayName": "TimProVision",
-              "name": "timprovision",
-              "__typename": "Channel"
-            },
-            {
-              "id": "164567690",
-              "displayName": "TiffaJessi",
-              "name": "tiffajessi",
-              "__typename": "Channel"
-            },
-            {
-              "id": "470061078",
-              "displayName": "BodyBoyBoy",
-              "name": "bodyboyboy",
-              "__typename": "Channel"
-            },
-            {
-              "id": "52982018",
-              "displayName": "Haxxou",
-              "name": "haxxou",
-              "__typename": "Channel"
-            },
-            {
-              "id": "183330586",
-              "displayName": "Nati",
-              "name": "nati",
-              "__typename": "Channel"
-            },
-            {
-              "id": "248414327",
-              "displayName": "TheGamingMerchant",
-              "name": "thegamingmerchant",
-              "__typename": "Channel"
-            },
-            {
-              "id": "136366909",
-              "displayName": "ThatPunchKid",
-              "name": "thatpunchkid",
-              "__typename": "Channel"
-            },
-            {
-              "id": "733381818",
-              "displayName": "ahleeyahh",
-              "name": "ahleeyahh",
-              "__typename": "Channel"
-            },
-            {
-              "id": "160026472",
-              "displayName": "Mavitivo",
-              "name": "mavitivo",
-              "__typename": "Channel"
-            },
-            {
-              "id": "635449574",
-              "displayName": "chaoticmuch",
-              "name": "chaoticmuch",
-              "__typename": "Channel"
-            },
-            {
-              "id": "100141686",
-              "displayName": "Yuki",
-              "name": "yuki",
-              "__typename": "Channel"
-            },
-            {
-              "id": "93424363",
-              "displayName": "GirlyPRO",
-              "name": "girlypro",
-              "__typename": "Channel"
-            },
-            {
-              "id": "59744697",
-              "displayName": "IAmTrinky",
-              "name": "iamtrinky",
-              "__typename": "Channel"
-            },
-            {
-              "id": "435565884",
-              "displayName": "VirtualGemma",
-              "name": "virtualgemma",
-              "__typename": "Channel"
-            },
-            {
-              "id": "19716159",
-              "displayName": "MrRoflWaffles",
-              "name": "mrroflwaffles",
-              "__typename": "Channel"
-            },
-            {
-              "id": "806610556",
-              "displayName": "mgclutch",
-              "name": "mgclutch",
-              "__typename": "Channel"
-            },
-            {
-              "id": "103301619",
-              "displayName": "Emaerya",
-              "name": "emaerya",
-              "__typename": "Channel"
-            },
-            {
-              "id": "104919208",
-              "displayName": "Sooshi",
-              "name": "sooshi",
-              "__typename": "Channel"
-            },
-            {
-              "id": "700074254",
-              "displayName": "WARD3Y",
-              "name": "ward3y",
-              "__typename": "Channel"
-            },
-            {
-              "id": "605107691",
-              "displayName": "sophiesnazz",
-              "name": "sophiesnazz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "39196220",
-              "displayName": "BlackBoye",
-              "name": "blackboye",
-              "__typename": "Channel"
-            },
-            {
-              "id": "141980633",
-              "displayName": "xJAYAMI",
-              "name": "xjayami",
-              "__typename": "Channel"
-            },
-            {
-              "id": "249529739",
-              "displayName": "AgentTripleA",
-              "name": "agenttriplea",
-              "__typename": "Channel"
-            },
-            {
-              "id": "269390299",
-              "displayName": "rBreezyTV",
-              "name": "rbreezytv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "450172317",
-              "displayName": "HappyKrakenX",
-              "name": "happykrakenx",
-              "__typename": "Channel"
-            },
-            {
-              "id": "130796869",
-              "displayName": "yoojin",
-              "name": "yoojin",
-              "__typename": "Channel"
-            },
-            {
-              "id": "8272681",
-              "displayName": "BigCheese",
-              "name": "bigcheese",
-              "__typename": "Channel"
-            },
-            {
-              "id": "57153095",
-              "displayName": "JohnnyPriceTV",
-              "name": "johnnypricetv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "92333767",
-              "displayName": "MufasaScreams",
-              "name": "mufasascreams",
-              "__typename": "Channel"
-            },
-            {
-              "id": "82370142",
-              "displayName": "Niamocha",
-              "name": "niamocha",
-              "__typename": "Channel"
-            },
-            {
-              "id": "16064695",
-              "displayName": "Dhalucard",
-              "name": "dhalucard",
-              "__typename": "Channel"
-            },
-            {
-              "id": "190988616",
-              "displayName": "Asleyia",
-              "name": "asleyia",
-              "__typename": "Channel"
-            },
-            {
-              "id": "44281267",
-              "displayName": "Lost",
-              "name": "lost",
-              "__typename": "Channel"
-            },
-            {
-              "id": "138310362",
-              "displayName": "chefstrobel",
-              "name": "chefstrobel",
-              "__typename": "Channel"
-            },
-            {
-              "id": "63140745",
-              "displayName": "Meloonie",
-              "name": "meloonie",
-              "__typename": "Channel"
-            },
-            {
-              "id": "525152946",
-              "displayName": "niikoletaa",
-              "name": "niikoletaa",
-              "__typename": "Channel"
-            },
-            {
-              "id": "265924246",
-              "displayName": "Berbatow",
-              "name": "berbatow",
-              "__typename": "Channel"
-            },
-            {
-              "id": "277445885",
-              "displayName": "MisokaaTv",
-              "name": "misokaatv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "138824763",
-              "displayName": "vRementv",
-              "name": "vrementv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "150131223",
-              "displayName": "PrimeVladii",
-              "name": "primevladii",
-              "__typename": "Channel"
-            },
-            {
-              "id": "159539972",
-              "displayName": "dounatsu",
-              "name": "dounatsu",
-              "__typename": "Channel"
-            },
-            {
-              "id": "96064921",
-              "displayName": "LootieLoo",
-              "name": "lootieloo",
-              "__typename": "Channel"
-            },
-            {
-              "id": "407409471",
-              "displayName": "Flanzinho",
-              "name": "flanzinho",
-              "__typename": "Channel"
-            },
-            {
-              "id": "122638999",
-              "displayName": "Wahdle",
-              "name": "wahdle",
-              "__typename": "Channel"
-            },
-            {
-              "id": "55607419",
-              "displayName": "GuhRL",
-              "name": "guhrl",
-              "__typename": "Channel"
-            },
-            {
-              "id": "508333532",
-              "displayName": "sailortori",
-              "name": "sailortori",
-              "__typename": "Channel"
-            },
-            {
-              "id": "177629575",
-              "displayName": "Pattsuu",
-              "name": "pattsuu",
-              "__typename": "Channel"
-            },
-            {
-              "id": "24112133",
-              "displayName": "HisandHersLive",
-              "name": "hisandherslive",
-              "__typename": "Channel"
-            },
-            {
-              "id": "133624399",
-              "displayName": "CUTEGUNZ",
-              "name": "cutegunz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "241509386",
-              "displayName": "AvaBloom_",
-              "name": "avabloom_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "56964879",
-              "displayName": "TwoAngryGamersTV",
-              "name": "twoangrygamerstv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "110848956",
-              "displayName": "Guapeeee",
-              "name": "guapeeee",
-              "__typename": "Channel"
-            },
-            {
-              "id": "217377982",
-              "displayName": "Sweet_Anita",
-              "name": "sweet_anita",
-              "__typename": "Channel"
-            },
-            {
-              "id": "514200790",
-              "displayName": "MooseLeeGaming",
-              "name": "mooseleegaming",
-              "__typename": "Channel"
-            },
-            {
-              "id": "552427337",
-              "displayName": "SenseiTash_",
-              "name": "senseitash_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "229452430",
-              "displayName": "KyriFPS",
-              "name": "kyrifps",
-              "__typename": "Channel"
-            },
-            {
-              "id": "123536489",
-              "displayName": "SnakeBeater",
-              "name": "snakebeater",
-              "__typename": "Channel"
-            },
-            {
-              "id": "37035899",
-              "displayName": "IAmBPala",
-              "name": "iambpala",
-              "__typename": "Channel"
-            },
-            {
-              "id": "410925180",
-              "displayName": "Literally_Loopy",
-              "name": "literally_loopy",
-              "__typename": "Channel"
-            },
-            {
-              "id": "203601951",
-              "displayName": "ZeroLoveGiivn",
-              "name": "zerolovegiivn",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.ea.com/twitchlinking",
-        "description": "Support your favorite Apex Legends creators and score new loot! Support-a-streamer drops will be active from March 25 to April 14. Gift 1 subs to get Feeling the Burn Sticker. Gift 2 for the Biometrics R-99 skin.",
-        "detailsURL": "https://x.com/PlayApex/status/1904268002310144449",
-        "endAt": "2025-04-14T16:54:59.996Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "511224",
-          "slug": "apex-legends",
-          "displayName": "Apex Legends",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ffd28251-c64b-40f8-b226-a747ad85b924.png",
-        "name": "Apex Legends Creator Drop",
-        "owner": {
-          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-          "name": "Electronic Arts",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-03-25T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "a7478994-08f7-11f0-b679-0a58a9feac02",
-            "requiredSubs": 2,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_twitch_drops_s24_anniv_03",
-                  "createdAt": "2025-03-24T21:13:35.814Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "511224",
-                    "name": "Apex Legends",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7403e375-ca0e-4311-9e67-aebade84ee82.png",
-                  "isIosAvailable": false,
-                  "name": "Biometrics R99",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-04-14T16:54:59.996Z",
-            "name": "Biometrics R99",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 0,
-            "startAt": "2025-03-25T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "ed3bcb8e-08f7-11f0-843c-0a58a9feac02",
-            "requiredSubs": 1,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_twitch_drops_s24_anniv_04",
-                  "createdAt": "2025-03-24T21:14:38.818Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "511224",
-                    "name": "Apex Legends",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/344f7e76-af12-457d-8098-116b45426e49.png",
-                  "isIosAvailable": false,
-                  "name": "Feel the Burn Sticker",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-04-14T16:54:59.996Z",
-            "name": "Feel the Burn Sticker",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 0,
-            "startAt": "2025-03-25T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-03-25T17:00:00.000Z"
   },
   {
     "endAt": "2025-04-15T03:59:59.998Z",
