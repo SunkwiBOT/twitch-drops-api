@@ -616,6 +616,93 @@
     "startAt": "2025-03-20T08:00:00.000Z"
   },
   {
+    "endAt": "2025-03-27T16:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1320984402_IGDB-120x160.jpg",
+    "gameDisplayName": "Madden NFL 25",
+    "gameId": "1320984402",
+    "rewards": [
+      {
+        "id": "9dc7b8b5-08ca-11f0-b20c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "51914127",
+              "displayName": "EAMaddenNFL",
+              "name": "eamaddennfl",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch Good Morning Madden and earn some Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-03-27T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1320984402",
+          "slug": "ea-sports-madden-nfl-25",
+          "displayName": "Madden NFL 25",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1b8a3142-56c6-4fb0-9ab2-ce7dd4791e73.png",
+        "name": "Good Morning Madden",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-27T14:15:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ad351eee-08ca-11f0-8a5f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M25-GMM-419",
+                  "createdAt": "2025-03-24T16:10:17.269Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1320984402",
+                    "name": "Madden NFL 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c2d8419c-a3e8-4dfa-b910-31bc0a2b33c9.png",
+                  "isIosAvailable": false,
+                  "name": "GMM Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-27T16:59:59.999Z",
+            "name": "GMM Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-03-27T14:15:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-27T14:15:00.000Z"
+  },
+  {
     "endAt": "2025-04-02T21:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
     "gameDisplayName": "World of Warships",
@@ -35641,6 +35728,18 @@
               "id": "919465809",
               "displayName": "Kaly494",
               "name": "kaly494",
+              "__typename": "Channel"
+            },
+            {
+              "id": "577659530",
+              "displayName": "doranis_",
+              "name": "doranis_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "113366936",
+              "displayName": "27_Didi",
+              "name": "27_didi",
               "__typename": "Channel"
             }
           ],
