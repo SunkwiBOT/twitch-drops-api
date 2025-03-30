@@ -788,6 +788,153 @@
     "startAt": "2025-03-20T08:00:00.000Z"
   },
   {
+    "endAt": "2025-03-30T18:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
+    "gameDisplayName": "Mir Korabley",
+    "gameId": "2133072147",
+    "rewards": [
+      {
+        "id": "ac3d4731-fe50-11ef-b1da-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "793098652",
+              "displayName": "LestaKorabli",
+              "name": "lestakorabli",
+              "__typename": "Channel"
+            },
+            {
+              "id": "515919232",
+              "displayName": "Me4tatelnica_Irina",
+              "name": "me4tatelnica_irina",
+              "__typename": "Channel"
+            },
+            {
+              "id": "31401733",
+              "displayName": "MorfVK",
+              "name": "morfvk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1118393319",
+              "displayName": "The_CryJlb",
+              "name": "the_cryjlb",
+              "__typename": "Channel"
+            },
+            {
+              "id": "127356455",
+              "displayName": "DENIZAVRINA",
+              "name": "denizavrina",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://lesta.ru/personal/?bind-external=twitch",
+        "description": "Во время просмотра трансляций турнира «Прорыв. Потасовка 2.0» на официальном канале и на каналах официальных стримеров можно будет получить множество наград, среди которых:\n• Премиум корабли VIII уровня — линкор Constellation, авианосец Aquila, крейсер Tone, эсминец Le Terrible\n• 5000 дублонов\n• 23 000 жетонов единства\n• Суперконтейнер\n• Контейнеры «Особые бонусы», «Больше сигналов», «Тактический»\n• Расходуемые камуфляжи «Прорыв»",
+        "detailsURL": "https://korabli.su/ru/news/sales-and-events/stream-rewards-253/",
+        "endAt": "2025-03-30T18:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2133072147",
+          "slug": "mir-korabley",
+          "displayName": "Mir Korabley",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/08dbeabb-4897-4aac-a5aa-1f5e8caea310.png",
+        "name": "«Прорыв. Потасовка» #2",
+        "owner": {
+          "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+          "name": "Lesta Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-03-30T10:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ca545e98-fe50-11ef-862e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_PRM_PRORIV_2503_2",
+                  "createdAt": "2025-03-11T07:53:18.797Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2133072147",
+                    "name": "Mir Korabley",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f56d749-f0db-4894-b3e3-fe0d2bc3c232.png",
+                  "isIosAvailable": false,
+                  "name": "Награда «Потасовка» #2",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-30T18:59:59.998Z",
+            "name": "Награда «Прорыв.Потасовка 2.0» #2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-03-30T10:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "daea8607-fe50-11ef-adec-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_2503_TWITCH_2S",
+                  "createdAt": "2025-03-11T07:56:47.135Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2133072147",
+                    "name": "Mir Korabley",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/47f9aa9f-e139-42f3-9cd4-b41433a66eb6.png",
+                  "isIosAvailable": false,
+                  "name": "Задача «Потасовка» #2",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-03-30T18:59:59.998Z",
+            "name": "Задача «Прорыв.Потасовка 2.0» #2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-03-30T10:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-03-30T10:30:00.000Z"
+  },
+  {
     "endAt": "2025-03-30T21:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/510389_IGDB-120x160.jpg",
     "gameDisplayName": "Shakes and Fidget",
