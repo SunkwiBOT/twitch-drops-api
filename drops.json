@@ -35528,6 +35528,192 @@
     "gameId": "511224",
     "rewards": [
       {
+        "id": "7a67d977-10a6-11f0-840b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "45698099",
+              "displayName": "Apryze",
+              "name": "apryze",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "It's Apryze's turn to takeover Apex Legends with new in game challenges and rewards. Gift 1 subs to get Feeling the Burn Sticker. Gift 2 for the Biometrics R-99 skin. And watch Apryze to catch-up from previous Creator Takeover rewards. ",
+        "detailsURL": "https://www.ea.com/games/apex-legends/apex-legends/news/takeover-game-updates",
+        "endAt": "2025-04-14T14:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511224",
+          "slug": "apex-legends",
+          "displayName": "Apex Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/60ab09ca-3698-4a8c-8821-6742f2f644d6.png",
+        "name": "Apryze Drops",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-03T16:07:31Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "91414404-10a6-11f0-80c1-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_twitch_drops_s24_anniv_04",
+                  "createdAt": "2025-03-24T21:14:38.818Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/344f7e76-af12-457d-8098-116b45426e49.png",
+                  "isIosAvailable": false,
+                  "name": "Feel the Burn Sticker",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-14T14:59:59.999Z",
+            "name": "Feel the Burn Sticker",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-04-03T16:07:31Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "acf6e825-10a6-11f0-b9d4-0a58a9feac02",
+            "requiredSubs": 2,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_twitch_drops_s24_anniv_03",
+                  "createdAt": "2025-03-24T21:13:35.814Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7403e375-ca0e-4311-9e67-aebade84ee82.png",
+                  "isIosAvailable": false,
+                  "name": "Biometrics R99",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-14T14:59:59.999Z",
+            "name": "Biometrics R99",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-04-03T16:07:31Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d240a75f-10a6-11f0-be19-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_twitch_drops_s24_anniv_01",
+                  "createdAt": "2025-02-10T19:26:41.771Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/47512c83-e963-45cc-af55-10a33896762f.png",
+                  "isIosAvailable": false,
+                  "name": "Get In There Holo",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-14T14:59:59.999Z",
+            "name": "Get in There holospray",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-04-03T16:07:31Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f64ac841-10a6-11f0-8a93-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_twitch_drops_s24_anniv_02",
+                  "createdAt": "2025-02-10T19:22:40.345Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e7668a9-cf3e-450c-97e6-245ce031a93e.png",
+                  "isIosAvailable": false,
+                  "name": "Thirst Quencher Charm",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-14T14:59:59.999Z",
+            "name": "Thirst Quencher charm",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-04-03T16:07:31Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "dc3b5c26-08f6-11f0-bbcc-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
