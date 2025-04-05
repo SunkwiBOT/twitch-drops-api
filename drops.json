@@ -4430,6 +4430,93 @@
     "startAt": "2025-03-10T10:00:00.000Z"
   },
   {
+    "endAt": "2025-04-06T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/13263_IGDB-120x160.jpg",
+    "gameDisplayName": "EVE Online",
+    "gameId": "13263",
+    "rewards": [
+      {
+        "id": "be67098d-107a-11f0-a7b5-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "40860651",
+              "displayName": "CCP",
+              "name": "ccp",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.eveonline.com/twitch",
+        "description": "Captains Cup Finals 2025",
+        "detailsURL": "https://www.eveonline.com/twitch",
+        "endAt": "2025-04-06T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "13263",
+          "slug": "eve-online",
+          "displayName": "EVE Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/eb2ab683-5141-4b87-a213-edccd5de5bed.jpeg",
+        "name": "Captains Cup Finals 2025",
+        "owner": {
+          "id": "5f41544e-1cde-4002-97dc-497d59f71dda",
+          "name": "CCP Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-05T11:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "caf259e6-107a-11f0-8ff2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5f41544e-1cde-4002-97dc-497d59f71dda_CUSTOM_ID_tranquility-VEEN-7277-7",
+                  "createdAt": "2025-04-03T10:58:34.978Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "13263",
+                    "name": "EVE Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b0385aaa-02cc-4247-9e12-ec476560c2c4.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Mysterious Booster Crate",
+                  "ownerOrganization": {
+                    "id": "5f41544e-1cde-4002-97dc-497d59f71dda",
+                    "name": "CCP Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-06T23:29:59.999Z",
+            "name": "Mysterious Booster Crate I",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-04-05T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-05T11:00:00.000Z"
+  },
+  {
     "endAt": "2025-04-07T01:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1264310518_IGDB-120x160.jpg",
     "gameDisplayName": "Marvel Rivals",
