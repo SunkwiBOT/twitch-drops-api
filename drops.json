@@ -1407,6 +1407,135 @@
     "startAt": "2025-03-31T14:00:00.000Z"
   },
   {
+    "endAt": "2025-04-06T21:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/30921-120x160.jpg",
+    "gameDisplayName": "Rocket League",
+    "gameId": "30921",
+    "rewards": [
+      {
+        "id": "7ecf3932-1183-11f0-a03e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "57781936",
+              "displayName": "RocketLeague",
+              "name": "rocketleague",
+              "__typename": "Channel"
+            },
+            {
+              "id": "117559435",
+              "displayName": "RLEsports",
+              "name": "rlesports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://competitive.rocketleague.com/",
+        "description": "CRL Drops",
+        "detailsURL": "https://competitive.rocketleague.com/",
+        "endAt": "2025-04-06T21:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "30921",
+          "slug": "rocket-league",
+          "displayName": "Rocket League",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/94299a66-7d17-40b5-8e48-d7388463f9cf.jpeg",
+        "name": "CRL 2025",
+        "owner": {
+          "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+          "name": "Epic Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-06T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "8f77f919-1183-11f0-ba09-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "072afd08-0b70-11f0-a523-0a58a9feac02",
+                  "createdAt": "2025-03-28T01:00:23.298Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "30921",
+                    "name": "Rocket League",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9695bf74-ff0f-4a31-b469-1e9de6d29441.jpeg",
+                  "isIosAvailable": false,
+                  "name": "RLCS 2025 Very Rare Drop",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-06T21:59:59.999Z",
+            "name": "Very Rare Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-04-06T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "94f8e590-1183-11f0-8d23-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "167e2fd4-0b70-11f0-9ad1-0a58a9feac02",
+                  "createdAt": "2025-03-28T01:00:49.009Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "30921",
+                    "name": "Rocket League",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/39e9ee43-b4ce-481d-a026-4d4bbbdf9a83.jpeg",
+                  "isIosAvailable": false,
+                  "name": "RLCS 2025 Import Drop",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-06T21:59:59.999Z",
+            "name": "Import Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-04-06T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-06T19:00:00.000Z"
+  },
+  {
     "endAt": "2025-04-07T14:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
     "gameDisplayName": "World of Tanks",
