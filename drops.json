@@ -945,6 +945,93 @@
     "startAt": "2025-04-08T16:00:00.000Z"
   },
   {
+    "endAt": "2025-04-09T16:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1320984402_IGDB-120x160.jpg",
+    "gameDisplayName": "Madden NFL 25",
+    "gameId": "1320984402",
+    "rewards": [
+      {
+        "id": "512da3d1-147d-11f0-b1f7-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "51914127",
+              "displayName": "EAMaddenNFL",
+              "name": "eamaddennfl",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch Good Morning Madden and earn some Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-04-09T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1320984402",
+          "slug": "ea-sports-madden-nfl-25",
+          "displayName": "Madden NFL 25",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e3505198-ef97-48b3-a968-9ffb8c0a9f34.png",
+        "name": "Good Morning Madden",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-09T14:15:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "81a700f4-147d-11f0-8568-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M25-GMM-422",
+                  "createdAt": "2025-04-08T13:29:12.434Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1320984402",
+                    "name": "Madden NFL 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/11e2dd97-8a38-4227-8384-20345a3a73fc.png",
+                  "isIosAvailable": false,
+                  "name": "GMM Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-09T16:59:59.999Z",
+            "name": "GMM Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-04-09T14:15:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-09T14:15:00.000Z"
+  },
+  {
     "endAt": "2025-04-10T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
     "gameDisplayName": "World of Warships",
