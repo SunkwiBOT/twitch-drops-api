@@ -14741,6 +14741,86 @@
     "startAt": "2025-04-04T21:12:29.000Z"
   },
   {
+    "endAt": "2025-04-13T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/547208385_IGDB-120x160.jpg",
+    "gameDisplayName": "Vaultbreakers",
+    "gameId": "547208385",
+    "rewards": [
+      {
+        "id": "4ecfb7db-0bad-11f0-9e1f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://betadwarf.com/f4e/twitchdrops",
+        "description": "Join Vaultbreakers' new Playtest! Grab your Playtest key and join the battlefield.",
+        "detailsURL": "https://betadwarf.com/f4e/twitchdrops",
+        "endAt": "2025-04-13T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "547208385",
+          "slug": "project-f4e",
+          "displayName": "Vaultbreakers",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3355912d-9c1a-478f-ac6f-4433b38f7d3e.png",
+        "name": "Vaultbreakers",
+        "owner": {
+          "id": "c9322c4b-ca7b-4202-a4f8-dd16305464ce",
+          "name": "BetaDwarf",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-09T05:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "8f118cff-0bad-11f0-8d93-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a267b71b-5a16-11ef-b1ac-0a58a9feac02",
+                  "createdAt": "2024-08-14T08:24:33.226Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "547208385",
+                    "name": "Vaultbreakers",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/22b365eb-6a28-4549-81a7-5a098654865f.png",
+                  "isIosAvailable": false,
+                  "name": "Vaultbreaker Playtest Key",
+                  "ownerOrganization": {
+                    "id": "c9322c4b-ca7b-4202-a4f8-dd16305464ce",
+                    "name": "BetaDwarf",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-13T23:29:59.999Z",
+            "name": "Vaultbreakers Playtest Key",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-04-09T05:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-09T05:00:00.000Z"
+  },
+  {
     "endAt": "2025-04-14T11:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2094865572-120x160.jpg",
     "gameDisplayName": "SMITE 2",
