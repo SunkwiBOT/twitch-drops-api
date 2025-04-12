@@ -1,285 +1,5 @@
 [
   {
-    "endAt": "2025-04-12T23:00:00.000Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/407314011_IGDB-120x160.jpg",
-    "gameDisplayName": "Marathon",
-    "gameId": "407314011",
-    "rewards": [
-      {
-        "id": "9b851732-0126-11f0-bfe1-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.bungie.net/LinkTwitch",
-        "description": "Tune in to the Marathon Gameplay Reveal Livestream on April 12 starting at 10AM Pacific to earn the Marathon branded emblem, Destination: Tau Ceti, in Destiny 2. You must link your Bungie account to Twitch to receive the Emblem. You can redeem the Emblem by logging into your Bungie.net account and going to the Partner Rewards section of the Code Redemption area. ",
-        "detailsURL": "https://help.bungie.net/articles/8048011793812",
-        "endAt": "2025-04-12T18:59:59.997Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "407314011",
-          "slug": "marathon",
-          "displayName": "Marathon",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c02caed6-e2d9-4274-81d2-f5e7e898b1e9.jpeg",
-        "name": "Marathon Gameplay Reveal",
-        "owner": {
-          "id": "3555708b-ff07-4392-a15b-bfae9356dfcf",
-          "name": "Bungie",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-04-12T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "b4a36e87-0126-11f0-af02-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "3555708b-ff07-4392-a15b-bfae9356dfcf_CUSTOM_ID_entitlements.crm_emblems.year_7.emblem51",
-                  "createdAt": "2025-03-13T18:18:23.039Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "407314011",
-                    "name": "Marathon",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/de1b89b8-47d9-4911-94ba-f3b3c9bd26e2.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Destination: Tau Ceti",
-                  "ownerOrganization": {
-                    "id": "3555708b-ff07-4392-a15b-bfae9356dfcf",
-                    "name": "Bungie",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-04-12T18:59:59.997Z",
-            "name": "Destination: Tau Ceti",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-04-12T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "b24f2660-1651-11f0-b507-d668528f617f",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.twitch.tv/",
-        "description": "This badge was earned by subscribing during the Marathon reveal stream!",
-        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
-        "endAt": "2025-04-12T23:00:00Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "407314011",
-          "slug": "marathon",
-          "displayName": "Marathon",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/badges/v1/ae1c6c62-c057-4fad-a1d4-663bf988701f/3",
-        "name": "Marathon Reveal Runner",
-        "owner": {
-          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
-          "name": "Twitch Gaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-04-11T14:45:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "b267eb32-1651-11f0-b507-d668528f617f",
-            "requiredSubs": 1,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "b213db1e-1651-11f0-b507-d668528f617f",
-                  "createdAt": "2025-04-10T21:20:58.429Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "407314011",
-                    "name": "Marathon",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/badges/v1/ae1c6c62-c057-4fad-a1d4-663bf988701f/3",
-                  "isIosAvailable": false,
-                  "name": "Marathon Reveal Runner Badge",
-                  "ownerOrganization": {
-                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
-                    "name": "Twitch Gaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "BADGE",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-04-12T23:00:00Z",
-            "name": "Marathon Reveal Runner Badge Reward Group",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 0,
-            "startAt": "2025-04-11T14:45:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-04-11T14:45:00.000Z"
-  },
-  {
-    "endAt": "2025-04-12T18:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/890558948_IGDB-120x160.jpg",
-    "gameDisplayName": "Torchlight: Infinite",
-    "gameId": "890558948",
-    "rewards": [
-      {
-        "id": "99051f27-15da-11f0-a25e-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "753232671",
-              "displayName": "torchlight_infinite",
-              "name": "torchlight_infinite",
-              "__typename": "Channel"
-            },
-            {
-              "id": "892818896",
-              "displayName": "火炬之光無限官方頻道",
-              "name": "torchlightinfinitetw",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://torchlight.xd.com/twitch-treasure",
-        "description": "Join dev stream and claim your in-game reward",
-        "detailsURL": "https://torchlight.xd.com/",
-        "endAt": "2025-04-12T18:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "890558948",
-          "slug": "torchlight-infinite",
-          "displayName": "Torchlight: Infinite",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a1b34990-61ba-40ee-9bf8-de047451b802.png",
-        "name": "SS8 New Season Preview",
-        "owner": {
-          "id": "22f46197-d535-453d-a8a9-104efc0ac206",
-          "name": "XD Inc.",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-04-12T10:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "abff3e53-15da-11f0-b774-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "22f46197-d535-453d-a8a9-104efc0ac206_CUSTOM_ID_GM_NBWQUEY014NZ1T",
-                  "createdAt": "2023-11-23T03:52:28.583Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "890558948",
-                    "name": "Torchlight: Infinite",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5b5c296e-dc54-46ce-9c5b-532fcb9603fa.png",
-                  "isIosAvailable": false,
-                  "name": "Jagged Primocryst*50",
-                  "ownerOrganization": {
-                    "id": "22f46197-d535-453d-a8a9-104efc0ac206",
-                    "name": "XD Inc.",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-04-12T18:59:59.999Z",
-            "name": "New Season Preview - 15 mins",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-04-12T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "b559009f-15da-11f0-9d48-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "22f46197-d535-453d-a8a9-104efc0ac206_CUSTOM_ID_GM_NBWQUEY014NZ1T",
-                  "createdAt": "2023-11-23T03:52:28.583Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "890558948",
-                    "name": "Torchlight: Infinite",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5b5c296e-dc54-46ce-9c5b-532fcb9603fa.png",
-                  "isIosAvailable": false,
-                  "name": "Jagged Primocryst*50",
-                  "ownerOrganization": {
-                    "id": "22f46197-d535-453d-a8a9-104efc0ac206",
-                    "name": "XD Inc.",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-04-12T18:59:59.999Z",
-            "name": "New Season Preview - 20 mins",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 20,
-            "startAt": "2025-04-12T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-04-12T10:00:00.000Z"
-  },
-  {
     "endAt": "2025-04-12T19:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
     "gameDisplayName": "Tanki Online",
@@ -419,6 +139,86 @@
       }
     ],
     "startAt": "2025-04-12T18:00:00.000Z"
+  },
+  {
+    "endAt": "2025-04-12T23:00:00.000Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/407314011_IGDB-120x160.jpg",
+    "gameDisplayName": "Marathon",
+    "gameId": "407314011",
+    "rewards": [
+      {
+        "id": "b24f2660-1651-11f0-b507-d668528f617f",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.twitch.tv/",
+        "description": "This badge was earned by subscribing during the Marathon reveal stream!",
+        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+        "endAt": "2025-04-12T23:00:00Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "407314011",
+          "slug": "marathon",
+          "displayName": "Marathon",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/badges/v1/ae1c6c62-c057-4fad-a1d4-663bf988701f/3",
+        "name": "Marathon Reveal Runner",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-11T14:45:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b267eb32-1651-11f0-b507-d668528f617f",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "b213db1e-1651-11f0-b507-d668528f617f",
+                  "createdAt": "2025-04-10T21:20:58.429Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "407314011",
+                    "name": "Marathon",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/badges/v1/ae1c6c62-c057-4fad-a1d4-663bf988701f/3",
+                  "isIosAvailable": false,
+                  "name": "Marathon Reveal Runner Badge",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-12T23:00:00Z",
+            "name": "Marathon Reveal Runner Badge Reward Group",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-04-11T14:45:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-11T14:45:00.000Z"
   },
   {
     "endAt": "2025-04-12T23:29:59.999Z",
