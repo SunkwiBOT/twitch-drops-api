@@ -99,7 +99,7 @@
     "startAt": "2025-04-11T19:00:00.000Z"
   },
   {
-    "endAt": "2025-04-12T05:59:59.999Z",
+    "endAt": "2025-04-13T05:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
     "gameDisplayName": "Halo Infinite",
     "gameId": "506416",
@@ -189,6 +189,102 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-04-11T22:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "b2665c2a-0d04-11f0-8c39-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "785740578",
+              "displayName": "EuropeanHalo",
+              "name": "europeanhalo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "981418685",
+              "displayName": "ATLASgg1",
+              "name": "atlasgg1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1070135334",
+              "displayName": "MythicGaming117",
+              "name": "mythicgaming117",
+              "__typename": "Channel"
+            },
+            {
+              "id": "121136576",
+              "displayName": "ALLinJUAN",
+              "name": "allinjuan",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn Halo Infinite in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-04-13T05:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/476b7aa6-1f52-4e77-b520-9db3abd13284.png",
+        "name": "GR Community Events-APR12",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-12T04:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "d019a5b8-0d04-11f0-bf82-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_LQEC-GV4W-1QPK-2GAK-IXH4",
+                  "createdAt": "2023-11-07T01:54:24.053Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8dc727c3-f32c-4572-bcb9-b01c139c0f68.png",
+                  "isIosAvailable": false,
+                  "name": "Covenant Frontline MVII",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-13T05:59:59.999Z",
+            "name": "Covenant Frontline MKVII",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-04-12T04:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
