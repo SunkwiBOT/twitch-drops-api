@@ -1,12 +1,12 @@
 [
   {
-    "endAt": "2025-04-16T17:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/232131679_IGDB-120x160.jpg",
-    "gameDisplayName": "EA Sports College Football 25",
-    "gameId": "232131679",
+    "endAt": "2025-04-16T19:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
+    "gameDisplayName": "Tanki Online",
+    "gameId": "417810",
     "rewards": [
       {
-        "id": "64aec34a-1acb-11f0-ac5d-0a58a9feac02",
+        "id": "6b45d64f-19db-11f0-9565-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
@@ -14,56 +14,74 @@
         "allow": {
           "channels": [
             {
-              "id": "1078884257",
-              "displayName": "easportscollege",
-              "name": "easportscollege",
+              "id": "117023453",
+              "displayName": "TankiSport_RU",
+              "name": "tankisport_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64274116",
+              "displayName": "TankiSport_EN",
+              "name": "tankisport_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806896138",
+              "displayName": "TankiSport_RU_2",
+              "name": "tankisport_ru_2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806894175",
+              "displayName": "TankiSport_EN_2",
+              "name": "tankisport_en_2",
               "__typename": "Channel"
             }
           ],
           "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
-        "description": "Watch CFB Live and earn some Twitch Drops to power up your Ultimate Team!",
-        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
-        "endAt": "2025-04-16T17:59:59.999Z",
+        "accountLinkURL": "https://tankionline.com/play/",
+        "description": "Watch Tanki Online eSports match livestreams and get Epic Keys in Tanki Online",
+        "detailsURL": "https://tankionline.com/",
+        "endAt": "2025-04-16T19:29:59.999Z",
         "eventBasedDrops": [],
         "game": {
-          "id": "232131679",
-          "slug": "ea-sports-college-football",
-          "displayName": "EA Sports College Football 25",
+          "id": "417810",
+          "slug": "tanki-online",
+          "displayName": "Tanki Online",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5355cee5-8d67-41f9-bc47-2b4832582258.png",
-        "name": "CFB Live",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/074b7e4f-bc2a-49dd-8987-d0d0d29244d2.jpeg",
+        "name": "SMR3 2025 R3 (2)",
         "owner": {
-          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-          "name": "Electronic Arts",
+          "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+          "name": "APL Publishing Ltd",
           "__typename": "Organization"
         },
-        "startAt": "2025-04-16T15:00:00Z",
+        "startAt": "2025-04-16T18:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "89fe1520-1acb-11f0-97c5-0a58a9feac02",
+            "id": "84676bd6-19db-11f0-ba80-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT25-TWITCH-119",
-                  "createdAt": "2025-04-16T14:02:46.552Z",
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "232131679",
-                    "name": "EA Sports College Football 25",
+                    "id": "417810",
+                    "name": "Tanki Online",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/408b1a27-d809-4cfe-97d3-6c035a945ebd.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
                   "isIosAvailable": false,
-                  "name": "CFB Twitch Pack",
+                  "name": "Epic Key",
                   "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -73,18 +91,54 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-04-16T17:59:59.999Z",
-            "name": "CFB Twitch Pack",
+            "endAt": "2025-04-16T19:29:59.999Z",
+            "name": "Match",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-04-16T15:00:00Z",
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-04-16T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "87af90e4-19db-11f0-9cc4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-16T19:29:59.999Z",
+            "name": "Match 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-04-16T18:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2025-04-16T15:00:00.000Z"
+    "startAt": "2025-04-16T18:00:00.000Z"
   },
   {
     "endAt": "2025-04-18T04:59:59.998Z",
