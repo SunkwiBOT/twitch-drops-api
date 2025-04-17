@@ -2831,6 +2831,237 @@
     "startAt": "2025-04-16T00:00:00.000Z"
   },
   {
+    "endAt": "2025-04-17T23:58:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/513501_IGDB-120x160.jpg",
+    "gameDisplayName": "Standoff 2",
+    "gameId": "513501",
+    "rewards": [
+      {
+        "id": "8be0bcc5-1b6f-11f0-bf5f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1124895128",
+              "displayName": "standoff2esports_ru",
+              "name": "standoff2esports_ru",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://link.standoff2.com/twitch/link/",
+        "description": "Twitch Drops — это система наград, которая позволяет зрителям стрима получать внутриигровые предметы за просмотр трансляции в течение определенного времени. \n\nВ рамках кампании Twitch Drops предусмотрены награды за время просмотра — скины из коллекций Dynasty, Fable, Revenge и Chameleon:\n– 30 минут: случайный временный предмет, Uncommon;\n– 1 час: случайный временный предмет, Rare;\n– 2 часа: случайный временный предмет, Epic;\n– 3 часа: случайный временный предмет, Legendary;\n– 4 часа: случайный временный предмет, Arcane.\n\nКак получить награды:\n– Зайдите в игру и убедитесь, что учетная запись привязана к тому же Twitch-аккаунту.\n– Накопите необходимое время просмотра на официальном канале Standoff 2.\n– Отслеживайте свой прогресс в разделе Drops на Twitch (обычно находится в профиле Twitch → «Drops и награды»).",
+        "detailsURL": "https://install.standoff2.com/ru/twitch-drops",
+        "endAt": "2025-04-17T23:58:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "513501",
+          "slug": "standoff-2",
+          "displayName": "Standoff 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/99db5220-53e1-4e8e-8d57-1c3c9901bc9a.png",
+        "name": "Cosmo: Cancri E Playoff 2",
+        "owner": {
+          "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+          "name": "Axlebolt",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-17T15:45:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a520546c-1b6f-11f0-ab79-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_Classic_collection_random_uncommon_reward",
+                  "createdAt": "2025-04-14T09:02:21.885Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0809b6fd-3217-4800-b466-1102390b60be.jpeg",
+                  "isIosAvailable": false,
+                  "name": "CC Random Uncommon Skins",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-17T23:58:59.998Z",
+            "name": "Uncommon Temp Skin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-04-17T15:45:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "aa1e105e-1b6f-11f0-b140-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_Classic_collection_random_rare_reward",
+                  "createdAt": "2025-04-14T10:16:19.626Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cbc37b53-b434-4e84-aa99-e3795cafbe3a.jpeg",
+                  "isIosAvailable": false,
+                  "name": "CC Random Rare Skins",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-17T23:58:59.998Z",
+            "name": "Rare Temp Skin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-04-17T15:45:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b10651d3-1b6f-11f0-9f9a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_Classic_collection_random_epic_reward",
+                  "createdAt": "2025-04-14T10:15:46.042Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04537215-aed8-4ce9-bfed-5540e4e81fd3.jpeg",
+                  "isIosAvailable": false,
+                  "name": "CC Random Epic Skins",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-17T23:58:59.998Z",
+            "name": "Epic Temp Skin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-04-17T15:45:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b6f68453-1b6f-11f0-8966-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_Classic_collection_random_legendary_reward",
+                  "createdAt": "2025-04-14T10:17:37.57Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f9e82432-1365-4c4f-bd71-3b8a1c2ff938.jpeg",
+                  "isIosAvailable": false,
+                  "name": "CC Random Legendary Skins",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-17T23:58:59.998Z",
+            "name": "Legendary Temp Skin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-04-17T15:45:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "bbee2492-1b6f-11f0-86f6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_Classic_collection_random_arcane_reward",
+                  "createdAt": "2025-04-14T10:18:06.709Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/01dbb067-82dc-4fd9-9390-b96f339d55df.jpeg",
+                  "isIosAvailable": false,
+                  "name": "CC Random Arcane Skins",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-17T23:58:59.998Z",
+            "name": "Arcane Temp Skin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-04-17T15:45:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-17T15:45:00.000Z"
+  },
+  {
     "endAt": "2025-04-17T23:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/13263_IGDB-120x160.jpg",
     "gameDisplayName": "EVE Online",
