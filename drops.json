@@ -1,371 +1,5 @@
 [
   {
-    "endAt": "2025-04-18T23:58:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/513501_IGDB-120x160.jpg",
-    "gameDisplayName": "Standoff 2",
-    "gameId": "513501",
-    "rewards": [
-      {
-        "id": "9c26f587-1b70-11f0-8783-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "1124895128",
-              "displayName": "standoff2esports_ru",
-              "name": "standoff2esports_ru",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://link.standoff2.com/twitch/link/",
-        "description": "Twitch Drops — это система наград, которая позволяет зрителям стрима получать внутриигровые предметы за просмотр трансляции в течение определенного времени. \n\nВ рамках кампании Twitch Drops предусмотрены награды за время просмотра — скины из коллекций Dynasty, Fable, Revenge и Chameleon:\n– 30 минут: случайный временный предмет, Uncommon;\n– 1 час: случайный временный предмет, Rare;\n– 2 часа: случайный временный предмет, Epic;\n– 3 часа: случайный временный предмет, Legendary;\n– 4 часа: случайный временный предмет, Arcane.\n\nКак получить награды:\n– Зайдите в игру и убедитесь, что учетная запись привязана к тому же Twitch-аккаунту.\n– Накопите необходимое время просмотра на официальном канале Standoff 2.\n– Отслеживайте свой прогресс в разделе Drops на Twitch (обычно находится в профиле Twitch → «Drops и награды»).",
-        "detailsURL": "https://install.standoff2.com/ru/twitch-drops",
-        "endAt": "2025-04-18T23:58:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "513501",
-          "slug": "standoff-2",
-          "displayName": "Standoff 2",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/afc179a6-e944-49dd-bdcf-80c80cde5c65.png",
-        "name": "Cosmo: Cancri E Playoff 3",
-        "owner": {
-          "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-          "name": "Axlebolt",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-04-18T15:45:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "c080f6db-1b70-11f0-8a0b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_Classic_collection_random_uncommon_reward",
-                  "createdAt": "2025-04-14T09:02:21.885Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0809b6fd-3217-4800-b466-1102390b60be.jpeg",
-                  "isIosAvailable": false,
-                  "name": "CC Random Uncommon Skins",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-04-18T23:58:59.998Z",
-            "name": "Uncommon Temp Skin",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-04-18T15:45:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "c62544eb-1b70-11f0-ab79-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_Classic_collection_random_rare_reward",
-                  "createdAt": "2025-04-14T10:16:19.626Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cbc37b53-b434-4e84-aa99-e3795cafbe3a.jpeg",
-                  "isIosAvailable": false,
-                  "name": "CC Random Rare Skins",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-04-18T23:58:59.998Z",
-            "name": "Rare Temp Skin",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-04-18T15:45:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "ce063c25-1b70-11f0-972a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_Classic_collection_random_epic_reward",
-                  "createdAt": "2025-04-14T10:15:46.042Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/04537215-aed8-4ce9-bfed-5540e4e81fd3.jpeg",
-                  "isIosAvailable": false,
-                  "name": "CC Random Epic Skins",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-04-18T23:58:59.998Z",
-            "name": "Epic Temp Skin",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-04-18T15:45:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "d520e671-1b70-11f0-ba80-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_Classic_collection_random_legendary_reward",
-                  "createdAt": "2025-04-14T10:17:37.57Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f9e82432-1365-4c4f-bd71-3b8a1c2ff938.jpeg",
-                  "isIosAvailable": false,
-                  "name": "CC Random Legendary Skins",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-04-18T23:58:59.998Z",
-            "name": "Legendary Temp Skin",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-04-18T15:45:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "e495bfa1-1b70-11f0-8ffe-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_Classic_collection_random_arcane_reward",
-                  "createdAt": "2025-04-14T10:18:06.709Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/01dbb067-82dc-4fd9-9390-b96f339d55df.jpeg",
-                  "isIosAvailable": false,
-                  "name": "CC Random Arcane Skins",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-04-18T23:58:59.998Z",
-            "name": "Arcane Temp Skin",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-04-18T15:45:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-04-18T15:45:00.000Z"
-  },
-  {
-    "endAt": "2025-04-18T23:58:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21779-120x160.jpg",
-    "gameDisplayName": "League of Legends",
-    "gameId": "21779",
-    "rewards": [
-      {
-        "id": "f650fa3f-043f-11f0-8740-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "485855940",
-              "displayName": "lolesportstw",
-              "name": "lolesportstw",
-              "__typename": "Channel"
-            },
-            {
-              "id": "142055874",
-              "displayName": "ltaespanol",
-              "name": "ltaespanol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "104833324",
-              "displayName": "LeagueofLegendsJP",
-              "name": "leagueoflegendsjp",
-              "__typename": "Channel"
-            },
-            {
-              "id": "36511475",
-              "displayName": "LTASul",
-              "name": "ltasul",
-              "__typename": "Channel"
-            },
-            {
-              "id": "124425501",
-              "displayName": "LCK",
-              "name": "lck",
-              "__typename": "Channel"
-            },
-            {
-              "id": "124420521",
-              "displayName": "LTANorth",
-              "name": "ltanorth",
-              "__typename": "Channel"
-            },
-            {
-              "id": "124422593",
-              "displayName": "LEC",
-              "name": "lec",
-              "__typename": "Channel"
-            },
-            {
-              "id": "485725873",
-              "displayName": "LoLPacificEN",
-              "name": "lolpacificen",
-              "__typename": "Channel"
-            },
-            {
-              "id": "36029255",
-              "displayName": "Riot Games",
-              "name": "riotgames",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
-        "description": "Subscribers with paid and gifted Tier 1 subscriptions will earn the special “Tell Me Everything!” emote by subscribing to participating regional channels broadcasting LoL Esports Split 2. By subscribing, fans will receive an enhanced viewing experience while providing direct support to their favorite leagues and teams. ",
-        "detailsURL": "https://lolesports.com/en-US/news/lol-esports-twitch-subscriptions",
-        "endAt": "2025-04-18T23:58:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "21779",
-          "slug": "league-of-legends",
-          "displayName": "League of Legends",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c2d3314b-75e2-4ce8-bc26-4e09e094ef7e.png",
-        "name": "Split 2 - Sub Drop",
-        "owner": {
-          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-          "name": "Riot Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-03-29T00:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "29b774e1-0440-11f0-946e-0a58a9feac02",
-            "requiredSubs": 1,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2025-LoL-TwitchSubs-Split2Drop",
-                  "createdAt": "2025-03-18T21:30:45.981Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "21779",
-                    "name": "League of Legends",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fbb3fba6-423b-4330-a847-0326961eff55.png",
-                  "isIosAvailable": true,
-                  "name": "Tell Me Everything Emote",
-                  "ownerOrganization": {
-                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-                    "name": "Riot Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-04-18T23:58:59.999Z",
-            "name": "Split 2 Emote",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 0,
-            "startAt": "2025-03-29T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-03-29T00:00:00.000Z"
-  },
-  {
     "endAt": "2025-04-19T01:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/890558948_IGDB-120x160.jpg",
     "gameDisplayName": "Torchlight: Infinite",
@@ -1986,6 +1620,158 @@
       }
     ],
     "startAt": "2025-04-09T17:41:04.000Z"
+  },
+  {
+    "endAt": "2025-04-19T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1393304883_IGDB-120x160.jpg",
+    "gameDisplayName": "Mir Tankov",
+    "gameId": "1393304883",
+    "rewards": [
+      {
+        "id": "a038d4c1-0fc3-11f0-9f93-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://lesta.ru/personal/?bind-external=twitch",
+        "description": "В честь Дня Космонавтики и новой экспедиции на Красную планету мы объявляем новый запуск раздачи Twitch-наград! С 8 по 19 апреля будет проходить раздача Twitch-наград в рамках события «На Марс». \nКаждый день вы сможете получить 3 контейнера, достаточно смотреть трансляции в категории \"Мир танков\". Не упустите шанс получить эксклюзивные награды!",
+        "detailsURL": "https://tanki.su/ru/content/rules/mt-twitch-drops/",
+        "endAt": "2025-04-19T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1393304883",
+          "slug": "mir-tankov",
+          "displayName": "Mir Tankov",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8dcffef6-ae64-4f0b-9856-3f4279c1e42e.png",
+        "name": "МТ «На Марс». Дн. 12/12",
+        "owner": {
+          "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+          "name": "Lesta Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-19T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b4025af7-0fc4-11f0-9fda-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPLEAGUEMT1_2025_2304",
+                  "createdAt": "2025-04-03T08:11:05.566Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1393304883",
+                    "name": "Mir Tankov",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/50dfd27e-9ff5-470c-b1c8-b2d2ea37b928.png",
+                  "isIosAvailable": false,
+                  "name": "Марсианский контейнер #34",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-19T23:29:59.999Z",
+            "name": "Марсианский контейнер #34",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-04-19T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ba0293ff-0fc4-11f0-8c0e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPLEAGUEMT2_2025_2304",
+                  "createdAt": "2025-04-03T08:11:25.418Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1393304883",
+                    "name": "Mir Tankov",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c8610663-1336-4b4a-b43a-dfd617a19e03.png",
+                  "isIosAvailable": false,
+                  "name": "Марсианский контейнер #35",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-19T23:29:59.999Z",
+            "name": "Марсианский контейнер #35",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-04-19T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "be59f3ba-0fc4-11f0-827e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPLEAGUEMT3_2025_2304",
+                  "createdAt": "2025-04-03T08:11:43.8Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1393304883",
+                    "name": "Mir Tankov",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/146187f7-f4ab-4029-8ab0-0b1134c89eb1.png",
+                  "isIosAvailable": false,
+                  "name": "Марсианский контейнер #36",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-19T23:29:59.999Z",
+            "name": "Марсианский контейнер #36",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-04-19T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-19T00:00:00.000Z"
   },
   {
     "endAt": "2025-04-19T23:58:59.998Z",
