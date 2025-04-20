@@ -4299,6 +4299,171 @@
     "startAt": "2025-04-18T17:00:00.000Z"
   },
   {
+    "endAt": "2025-04-21T05:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/18888_IGDB-120x160.jpg",
+    "gameDisplayName": "Warhammer Online: Age of Reckoning",
+    "gameId": "18888",
+    "rewards": [
+      {
+        "id": "fa124e03-083e-11f0-8ed0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "254651202",
+              "displayName": "ReturnOfReckoning",
+              "name": "returnofreckoning",
+              "__typename": "Channel"
+            },
+            {
+              "id": "45777459",
+              "displayName": "EmissaryX",
+              "name": "emissaryx",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.returnofreckoning.com/account/social/twitch",
+        "description": "Surprise Realmwatch with drops enabled",
+        "detailsURL": "https://www.returnofreckoning.com/forum/viewtopic.php?t=53038",
+        "endAt": "2025-04-21T05:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "18888",
+          "slug": "warhammer-online-age-of-reckoning",
+          "displayName": "Warhammer Online: Age of Reckoning",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/57a50f03-168d-41e7-a0e9-6c9a03d996b8.png",
+        "name": "Surprise Realmwatch",
+        "owner": {
+          "id": "417f7ed6-f457-4fcb-9d20-246a75cbb18b",
+          "name": "Return of Reckoning",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-20T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0de0f3f9-083f-11f0-ba02-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417f7ed6-f457-4fcb-9d20-246a75cbb18b_CUSTOM_ID_b7a67bf5-b9ec-41a2-a048-3f183edc95e6",
+                  "createdAt": "2024-06-08T21:48:43.171Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "18888",
+                    "name": "Warhammer Online: Age of Reckoning",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1f259e2f-9bd2-445a-8adc-a919602936db.png",
+                  "isIosAvailable": false,
+                  "name": "Small Gold Bag (20G)",
+                  "ownerOrganization": {
+                    "id": "417f7ed6-f457-4fcb-9d20-246a75cbb18b",
+                    "name": "Return of Reckoning",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-21T05:59:59.999Z",
+            "name": "Gold Bag (20g)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-04-20T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "2a084a1a-083f-11f0-bfb8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417f7ed6-f457-4fcb-9d20-246a75cbb18b_CUSTOM_ID_978ecdc8-5a52-a159-a55d-9d1ab64ad257",
+                  "createdAt": "2023-12-17T23:20:47.733Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "18888",
+                    "name": "Warhammer Online: Age of Reckoning",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1de8514a-04f3-466c-86f8-7db5ce0fb483.png",
+                  "isIosAvailable": false,
+                  "name": "Potion Of Acclaim",
+                  "ownerOrganization": {
+                    "id": "417f7ed6-f457-4fcb-9d20-246a75cbb18b",
+                    "name": "Return of Reckoning",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-21T05:59:59.999Z",
+            "name": "Potion of Acclaim",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-04-20T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3b545861-083f-11f0-891c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a2956b77-c5ff-11ee-b7c9-0a58a9feac02",
+                  "createdAt": "2024-02-07T21:27:03.009Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "18888",
+                    "name": "Warhammer Online: Age of Reckoning",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c81d307c-68ad-4488-b316-d129aecc8d66.png",
+                  "isIosAvailable": false,
+                  "name": "War Crests (20)",
+                  "ownerOrganization": {
+                    "id": "417f7ed6-f457-4fcb-9d20-246a75cbb18b",
+                    "name": "Return of Reckoning",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-21T05:59:59.999Z",
+            "name": "War Crests (20)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-04-20T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-20T08:00:00.000Z"
+  },
+  {
     "endAt": "2025-04-21T07:28:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/414822821_IGDB-120x160.jpg",
     "gameDisplayName": "Sid Meier's Civilization VII",
