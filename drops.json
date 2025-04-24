@@ -3045,6 +3045,93 @@
     "startAt": "2025-04-24T10:00:00.000Z"
   },
   {
+    "endAt": "2025-04-25T10:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511295_IGDB-120x160.jpg",
+    "gameDisplayName": "Predecessor",
+    "gameId": "511295",
+    "rewards": [
+      {
+        "id": "0391abad-213b-11f0-a790-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "412672707",
+              "displayName": "PredecessorGame",
+              "name": "predecessorgame",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://predecessorgame.com/link-accounts",
+        "description": "Tune into an official Predecessor Livestream (@predecessorgame) to earn an exclusive reward!",
+        "detailsURL": "https://predecessorgame.com/twitch-drops",
+        "endAt": "2025-04-25T10:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511295",
+          "slug": "predecessor",
+          "displayName": "Predecessor",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/495ae40d-0f74-455b-a5ab-b26082477b6b.png",
+        "name": "1.5 Dev Drops",
+        "owner": {
+          "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+          "name": "Omeda Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-24T18:35:36Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "20a01392-213b-11f0-95a0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "58b718a2-eec5-11ef-bd23-0a58a9feac02",
+                  "createdAt": "2025-02-19T13:28:03.613Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d8a96f72-5a10-4eee-a10e-3ccb1ee1f02b.png",
+                  "isIosAvailable": false,
+                  "name": "Ion Loot Core",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-25T10:59:59.999Z",
+            "name": "Ion Core",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-04-24T18:35:36Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-24T18:35:36.000Z"
+  },
+  {
     "endAt": "2025-04-25T11:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
     "gameDisplayName": "Black Desert",
@@ -37293,7 +37380,7 @@
             },
             {
               "id": "32115632",
-              "displayName": "Tixinhadois",
+              "displayName": null,
               "name": "tixinhadois",
               "__typename": "Channel"
             },
@@ -43317,7 +43404,7 @@
             },
             {
               "id": "32115632",
-              "displayName": "Tixinhadois",
+              "displayName": null,
               "name": "tixinhadois",
               "__typename": "Channel"
             },
