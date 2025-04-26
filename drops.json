@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2025-04-26T11:59:59.999Z",
+    "endAt": "2025-04-27T06:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
     "gameDisplayName": "Black Desert",
     "gameId": "386821",
@@ -71,6 +71,114 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-04-25T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "63a5041a-2098-11f0-a7cd-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "47972131",
+              "displayName": "Choice",
+              "name": "choice",
+              "__typename": "Channel"
+            },
+            {
+              "id": "52722506",
+              "displayName": "EngeliHeart",
+              "name": "engeliheart",
+              "__typename": "Channel"
+            },
+            {
+              "id": "128528694",
+              "displayName": "Narelio",
+              "name": "narelio",
+              "__typename": "Channel"
+            },
+            {
+              "id": "68870991",
+              "displayName": "I401111",
+              "name": "i401111",
+              "__typename": "Channel"
+            },
+            {
+              "id": "45661906",
+              "displayName": "chimstertv",
+              "name": "chimstertv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "148856310",
+              "displayName": "Risee",
+              "name": "risee",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
+        "description": "NAEU Only",
+        "detailsURL": "https://www.naeu.playblackdesert.com/News/Notice/Detail?groupContentNo=8465&countryType=en-US",
+        "endAt": "2025-04-27T06:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "386821",
+          "slug": "black-desert",
+          "displayName": "Black Desert",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d650515c-0249-4a69-8f9e-434d10b2445e.png",
+        "name": "Guild League Drops Day 2",
+        "owner": {
+          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+          "name": "Pearl Abyss",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-26T11:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9e95dd7c-2098-11f0-8712-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_guildleaguedrops",
+                  "createdAt": "2025-04-23T23:04:19.769Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2cf4558b-0043-4b9a-899e-4d55fc7006ab.png",
+                  "isIosAvailable": false,
+                  "name": "[NAEU] 2 Hour Reward",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-27T06:59:59.999Z",
+            "name": "2 Hour Reward",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-04-26T11:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
