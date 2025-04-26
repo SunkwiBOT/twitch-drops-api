@@ -1461,6 +1461,177 @@
     "startAt": "2025-04-25T12:00:00.000Z"
   },
   {
+    "endAt": "2025-04-26T14:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
+    "gameDisplayName": "Eternal Return",
+    "gameId": "512864",
+    "rewards": [
+      {
+        "id": "a48c4e27-21b4-11f0-b126-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "695173418",
+              "displayName": "EternalReturn_JP",
+              "name": "eternalreturn_jp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "427263285",
+              "displayName": "EternalReturnGame",
+              "name": "eternalreturngame",
+              "__typename": "Channel"
+            },
+            {
+              "id": "695170110",
+              "displayName": "EternalReturn_TPE",
+              "name": "eternalreturn_tpe",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.playeternalreturn.com/",
+        "description": "https://twitch.playeternalreturn.com/",
+        "detailsURL": "https://twitch.playeternalreturn.com/",
+        "endAt": "2025-04-26T14:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "512864",
+          "slug": "eternal-return",
+          "displayName": "Eternal Return",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/30a27b3d-ba8b-4e5a-9821-ba0e99e4ab7b.png",
+        "name": "ERM Season 7 Phase 1",
+        "owner": {
+          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+          "name": "Nimble Neuron Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-26T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b31f7a70-21b4-11f0-ade2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_Drops_ERPartner_Secret_RandomBox_01",
+                  "createdAt": "2023-10-18T03:06:03.572Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/623a970d-6024-4001-a0b7-9024526d76f5.png",
+                  "isIosAvailable": false,
+                  "name": "Secret Box",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-26T14:59:59.999Z",
+            "name": "secret",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-04-26T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b87f0d56-21b4-11f0-b985-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_Drops_ERPartner_Secret_RandomBox_01",
+                  "createdAt": "2023-10-18T03:06:03.572Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/623a970d-6024-4001-a0b7-9024526d76f5.png",
+                  "isIosAvailable": false,
+                  "name": "Secret Box",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-26T14:59:59.999Z",
+            "name": "secret",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-04-26T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "bf8dd6d0-21b4-11f0-a118-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_Drops_ERPartner_Secret_RandomBox_01",
+                  "createdAt": "2023-10-18T03:06:03.572Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/623a970d-6024-4001-a0b7-9024526d76f5.png",
+                  "isIosAvailable": false,
+                  "name": "Secret Box",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-26T14:59:59.999Z",
+            "name": "secret",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-04-26T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-26T08:00:00.000Z"
+  },
+  {
     "endAt": "2025-04-26T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
     "gameDisplayName": "Marbles on Stream",
@@ -1776,6 +1947,482 @@
       }
     ],
     "startAt": "2025-04-25T16:00:00.000Z"
+  },
+  {
+    "endAt": "2025-05-22T07:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
+    "gameDisplayName": "NARAKA: BLADEPOINT",
+    "gameId": "515474",
+    "rewards": [
+      {
+        "id": "2a743c11-20b8-11f0-80ac-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "605673574",
+              "displayName": "NARAKABLADEPOINT",
+              "name": "narakabladepoint",
+              "__typename": "Channel"
+            },
+            {
+              "id": "714202554",
+              "displayName": "永劫無間_亞服",
+              "name": "naraka_asia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "798260911",
+              "displayName": "narakaesports",
+              "name": "narakaesports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
+        "description": "Watch livestreams to claim your drops!",
+        "detailsURL": "https://www.narakathegame.com/news/official/20231018/32172_1115415.html",
+        "endAt": "2025-04-26T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515474",
+          "slug": "naraka-bladepoint",
+          "displayName": "NARAKA: BLADEPOINT",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ab5365ae-bea1-467c-95cc-81a8f929ce6f.png",
+        "name": "NBPL 4.26",
+        "owner": {
+          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+          "name": "NetEase",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-26T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "55a2187c-20b8-11f0-bb1a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9133945",
+                  "createdAt": "2025-03-07T08:33:32.331Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15a212ee-d768-426d-9a4a-2be2e118ca1d.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Tae*200",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-26T15:59:59.999Z",
+            "name": "9133945",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-04-26T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "5d06e6c0-20b8-11f0-b8dc-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9133946",
+                  "createdAt": "2025-03-07T08:37:00.37Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fc5c0d4a-1fe7-4ecf-b8fe-dd914918771b.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Spectral Silk*200",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-26T15:59:59.999Z",
+            "name": "9133946",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-04-26T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "dea56b4f-20b8-11f0-92c2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "605673574",
+              "displayName": "NARAKABLADEPOINT",
+              "name": "narakabladepoint",
+              "__typename": "Channel"
+            },
+            {
+              "id": "714202554",
+              "displayName": "永劫無間_亞服",
+              "name": "naraka_asia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "798260911",
+              "displayName": "narakaesports",
+              "name": "narakaesports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
+        "description": "Watch livestreams to claim your drops!",
+        "detailsURL": "https://www.narakathegame.com/news/official/20231018/32172_1115415.html",
+        "endAt": "2025-04-27T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515474",
+          "slug": "naraka-bladepoint",
+          "displayName": "NARAKA: BLADEPOINT",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/797bf618-b78b-4ab0-b4fd-c2612a3cbc8a.png",
+        "name": "NBPL 4.26-27",
+        "owner": {
+          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+          "name": "NetEase",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-26T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ec186285-20b8-11f0-b3b0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9133950",
+                  "createdAt": "2025-03-07T08:43:59.016Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/06378e4c-e68c-433a-860f-968e33260eca.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Champion Bubble Choice Gi",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-27T15:59:59.999Z",
+            "name": "9133950",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-04-26T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "b1fa1fdd-20b8-11f0-80ac-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "605673574",
+              "displayName": "NARAKABLADEPOINT",
+              "name": "narakabladepoint",
+              "__typename": "Channel"
+            },
+            {
+              "id": "714202554",
+              "displayName": "永劫無間_亞服",
+              "name": "naraka_asia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "798260911",
+              "displayName": "narakaesports",
+              "name": "narakaesports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
+        "description": "Watch livestreams to claim your drops!",
+        "detailsURL": "https://www.narakathegame.com/news/official/20231018/32172_1115415.html",
+        "endAt": "2025-04-27T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515474",
+          "slug": "naraka-bladepoint",
+          "displayName": "NARAKA: BLADEPOINT",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8956b553-a772-42fc-82db-b1ce11a95242.png",
+        "name": "NBPL 4.24-27",
+        "owner": {
+          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+          "name": "NetEase",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-24T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "be929bfb-20b8-11f0-8fd2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9133947",
+                  "createdAt": "2025-03-07T08:38:52.234Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6aa00f9b-0b38-4af5-a52a-78351666f92d.jpeg",
+                  "isIosAvailable": false,
+                  "name": "10x XP Bonus",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-27T15:59:59.999Z",
+            "name": "9133947",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-04-24T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "8b0726fb-19a8-11f0-b050-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
+        "description": "Watch livestreams to claim your drops!",
+        "detailsURL": "https://www.narakathegame.com/news/official/20250331/32172_1223767.html",
+        "endAt": "2025-04-28T18:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515474",
+          "slug": "naraka-bladepoint",
+          "displayName": "NARAKA: BLADEPOINT",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c3eaaa99-d45f-463f-a5f5-62237c2e5eda.png",
+        "name": "S16 Weekly Drop 4.21",
+        "owner": {
+          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+          "name": "NetEase",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-21T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a74e3028-19a8-11f0-b97c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9133952",
+                  "createdAt": "2025-03-31T07:41:28.098Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5d9f5b73-e85b-4af6-ac59-64864b2caf86.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Drop Gift",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-28T18:59:59.999Z",
+            "name": "Twitch Drop Gift 4.21",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-04-21T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "0a5111b9-20b9-11f0-ade2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "605673574",
+              "displayName": "NARAKABLADEPOINT",
+              "name": "narakabladepoint",
+              "__typename": "Channel"
+            },
+            {
+              "id": "714202554",
+              "displayName": "永劫無間_亞服",
+              "name": "naraka_asia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "798260911",
+              "displayName": "narakaesports",
+              "name": "narakaesports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
+        "description": "Watch livestreams to claim your drops!",
+        "detailsURL": "https://www.narakathegame.com/news/official/20231018/32172_1115415.html",
+        "endAt": "2025-05-22T07:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515474",
+          "slug": "naraka-bladepoint",
+          "displayName": "NARAKA: BLADEPOINT",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c13ed1f8-9793-4cff-bb6e-2dea03b3af59.png",
+        "name": "NBPL 4.24-5.22",
+        "owner": {
+          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+          "name": "NetEase",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-24T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "29a80575-20b9-11f0-8f1e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9133944",
+                  "createdAt": "2025-03-07T08:30:39.304Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/11551962-f493-4d9a-9c08-e2e33d8f3b9e.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Spring Split Random Gift ",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-22T07:59:59.999Z",
+            "name": "9133944",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-04-24T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-21T19:00:00.000Z"
   },
   {
     "endAt": "2025-04-26T21:59:59.999Z",
@@ -2800,266 +3447,6 @@
       }
     ],
     "startAt": "2025-04-11T16:00:00.000Z"
-  },
-  {
-    "endAt": "2025-05-22T07:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
-    "gameDisplayName": "NARAKA: BLADEPOINT",
-    "gameId": "515474",
-    "rewards": [
-      {
-        "id": "b1fa1fdd-20b8-11f0-80ac-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "605673574",
-              "displayName": "NARAKABLADEPOINT",
-              "name": "narakabladepoint",
-              "__typename": "Channel"
-            },
-            {
-              "id": "714202554",
-              "displayName": "永劫無間_亞服",
-              "name": "naraka_asia",
-              "__typename": "Channel"
-            },
-            {
-              "id": "798260911",
-              "displayName": "narakaesports",
-              "name": "narakaesports",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
-        "description": "Watch livestreams to claim your drops!",
-        "detailsURL": "https://www.narakathegame.com/news/official/20231018/32172_1115415.html",
-        "endAt": "2025-04-27T15:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "515474",
-          "slug": "naraka-bladepoint",
-          "displayName": "NARAKA: BLADEPOINT",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8956b553-a772-42fc-82db-b1ce11a95242.png",
-        "name": "NBPL 4.24-27",
-        "owner": {
-          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
-          "name": "NetEase",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-04-24T08:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "be929bfb-20b8-11f0-8fd2-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9133947",
-                  "createdAt": "2025-03-07T08:38:52.234Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "515474",
-                    "name": "NARAKA: BLADEPOINT",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6aa00f9b-0b38-4af5-a52a-78351666f92d.jpeg",
-                  "isIosAvailable": false,
-                  "name": "10x XP Bonus",
-                  "ownerOrganization": {
-                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
-                    "name": "NetEase",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-04-27T15:59:59.999Z",
-            "name": "9133947",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-04-24T08:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "8b0726fb-19a8-11f0-b050-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
-        "description": "Watch livestreams to claim your drops!",
-        "detailsURL": "https://www.narakathegame.com/news/official/20250331/32172_1223767.html",
-        "endAt": "2025-04-28T18:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "515474",
-          "slug": "naraka-bladepoint",
-          "displayName": "NARAKA: BLADEPOINT",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c3eaaa99-d45f-463f-a5f5-62237c2e5eda.png",
-        "name": "S16 Weekly Drop 4.21",
-        "owner": {
-          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
-          "name": "NetEase",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-04-21T19:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "a74e3028-19a8-11f0-b97c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9133952",
-                  "createdAt": "2025-03-31T07:41:28.098Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "515474",
-                    "name": "NARAKA: BLADEPOINT",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5d9f5b73-e85b-4af6-ac59-64864b2caf86.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Twitch Drop Gift",
-                  "ownerOrganization": {
-                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
-                    "name": "NetEase",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-04-28T18:59:59.999Z",
-            "name": "Twitch Drop Gift 4.21",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-04-21T19:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "0a5111b9-20b9-11f0-ade2-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "605673574",
-              "displayName": "NARAKABLADEPOINT",
-              "name": "narakabladepoint",
-              "__typename": "Channel"
-            },
-            {
-              "id": "714202554",
-              "displayName": "永劫無間_亞服",
-              "name": "naraka_asia",
-              "__typename": "Channel"
-            },
-            {
-              "id": "798260911",
-              "displayName": "narakaesports",
-              "name": "narakaesports",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
-        "description": "Watch livestreams to claim your drops!",
-        "detailsURL": "https://www.narakathegame.com/news/official/20231018/32172_1115415.html",
-        "endAt": "2025-05-22T07:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "515474",
-          "slug": "naraka-bladepoint",
-          "displayName": "NARAKA: BLADEPOINT",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c13ed1f8-9793-4cff-bb6e-2dea03b3af59.png",
-        "name": "NBPL 4.24-5.22",
-        "owner": {
-          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
-          "name": "NetEase",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-04-24T08:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "29a80575-20b9-11f0-8f1e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9133944",
-                  "createdAt": "2025-03-07T08:30:39.304Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "515474",
-                    "name": "NARAKA: BLADEPOINT",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/11551962-f493-4d9a-9c08-e2e33d8f3b9e.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Spring Split Random Gift ",
-                  "ownerOrganization": {
-                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
-                    "name": "NetEase",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-22T07:59:59.999Z",
-            "name": "9133944",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-04-24T08:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-04-21T19:00:00.000Z"
   },
   {
     "endAt": "2025-05-01T21:58:59.999Z",
