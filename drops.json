@@ -12869,6 +12869,93 @@
     "startAt": "2025-04-27T11:00:00.000Z"
   },
   {
+    "endAt": "2025-04-28T02:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511295_IGDB-120x160.jpg",
+    "gameDisplayName": "Predecessor",
+    "gameId": "511295",
+    "rewards": [
+      {
+        "id": "6cf8a0df-2363-11f0-a2a0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "412672707",
+              "displayName": "PredecessorGame",
+              "name": "predecessorgame",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://predecessorgame.com/link-accounts",
+        "description": "Tune in to @PredecessorGame during this weekend's creator invitational tournament and earn yourself a Quantum Loot Core!",
+        "detailsURL": "https://predecessorgame.com/twitch-drops",
+        "endAt": "2025-04-28T02:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511295",
+          "slug": "predecessor",
+          "displayName": "Predecessor",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/661c200b-9fab-422e-9f3b-86679a9a40b9.png",
+        "name": "Sunday Showdown (Quantum)",
+        "owner": {
+          "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+          "name": "Omeda Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-27T12:29:42Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "87dcc039-2363-11f0-a7e0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60463a64-eec5-11ef-ad6e-0a58a9feac02",
+                  "createdAt": "2025-02-19T13:28:16.295Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a819a094-6df1-456e-bdea-ed1352eff85d.png",
+                  "isIosAvailable": false,
+                  "name": "Quantum Loot Core",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-28T02:59:59.998Z",
+            "name": "Quantum Loot Core",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-04-27T12:29:42Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-27T12:29:42.000Z"
+  },
+  {
     "endAt": "2025-04-28T03:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/232131679_IGDB-120x160.jpg",
     "gameDisplayName": "EA Sports College Football 25",
