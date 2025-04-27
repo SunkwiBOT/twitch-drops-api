@@ -13214,6 +13214,99 @@
     "startAt": "2025-04-27T13:45:00.000Z"
   },
   {
+    "endAt": "2025-04-28T01:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/33214-120x160.jpg",
+    "gameDisplayName": "Fortnite",
+    "gameId": "33214",
+    "rewards": [
+      {
+        "id": "c823e03d-220f-11f0-8921-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "55125740",
+              "displayName": "Fortnite",
+              "name": "fortnite",
+              "__typename": "Channel"
+            },
+            {
+              "id": "428843137",
+              "displayName": "Brasil_Fortnite",
+              "name": "brasil_fortnite",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.epicgames.com/account/connections",
+        "description": "Watch FNCS Finals for 60 minutes and claim the FNCS Hardshell Back Bling!",
+        "detailsURL": "https://www.epicgames.com/account/connections",
+        "endAt": "2025-04-28T01:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "33214",
+          "slug": "fortnite",
+          "displayName": "Fortnite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d5297d5b-e23a-46c5-9379-00033c09b46e.jpeg",
+        "name": "FNCS Major 2 Finals Day 2",
+        "owner": {
+          "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+          "name": "Epic Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-27T14:50:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "d1d29bd4-220f-11f0-918e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a_CUSTOM_ID_387E131A40191C42043501A17BC69055",
+                  "createdAt": "2025-04-25T19:56:26.817Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "33214",
+                    "name": "Fortnite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d3b03fb-4a3e-465c-bd76-5165003c9747.jpeg",
+                  "isIosAvailable": false,
+                  "name": "FNCS Hardshell Back Bling",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-04-28T01:29:59.999Z",
+            "name": "FNCS Hardshell Back Bling",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-04-27T14:50:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-27T14:50:00.000Z"
+  },
+  {
     "endAt": "2025-04-28T01:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
     "gameDisplayName": "Halo Infinite",
