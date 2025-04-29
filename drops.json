@@ -31364,6 +31364,86 @@
     "startAt": "2025-04-09T03:00:00.000Z"
   },
   {
+    "endAt": "2025-05-06T14:59:59.995Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1232811837_IGDB-120x160.jpg",
+    "gameDisplayName": "Towerborne",
+    "gameId": "1232811837",
+    "rewards": [
+      {
+        "id": "bbf2e3cb-21ef-11f0-90e6-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://towerborne.com/twitchdrops",
+        "description": "Embark on the first step of the Ebb-Knight’s legacy. Stream Towerborne between April 29 and May 6 to unlock the first piece of the Ebb-Knight's Set: an exclusive Helm Drop. Rally your community to begin their journey into the Echoes of the Ebb-Knight!",
+        "detailsURL": "https://www.towerborne.com/twitchdrops-042925/",
+        "endAt": "2025-05-06T14:59:59.995Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1232811837",
+          "slug": "towerborne",
+          "displayName": "Towerborne",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7b874b04-f0b6-482d-95ae-f723ebdf0313.png",
+        "name": "Echoes of Ebb-Knight I",
+        "owner": {
+          "id": "415775ad-9203-4cbb-b6e7-11eedb547d15",
+          "name": "Stoic",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-29T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1103de5d-21f1-11f0-aa31-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "415775ad-9203-4cbb-b6e7-11eedb547d15_CUSTOM_ID_327877241709006848",
+                  "createdAt": "2025-04-25T14:26:18.185Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1232811837",
+                    "name": "Towerborne",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/438185e3-a4a2-4c95-a779-f7bd69ae7ed7.png",
+                  "isIosAvailable": false,
+                  "name": "Ebb-Knight's Crown",
+                  "ownerOrganization": {
+                    "id": "415775ad-9203-4cbb-b6e7-11eedb547d15",
+                    "name": "Stoic",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-06T14:59:59.995Z",
+            "name": "Ebb-Knight's Crown",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-04-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-29T15:00:00.000Z"
+  },
+  {
     "endAt": "2025-05-06T16:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/491705_IGDB-120x160.jpg",
     "gameDisplayName": "Insurgency: Sandstorm",
