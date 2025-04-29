@@ -11167,6 +11167,99 @@
     "startAt": "2025-04-17T10:00:00.000Z"
   },
   {
+    "endAt": "2025-05-04T15:59:59.995Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/743-120x160.jpg",
+    "gameDisplayName": "Chess",
+    "gameId": "743",
+    "rewards": [
+      {
+        "id": "fe9f85a1-2140-11f0-a0f5-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "7601562",
+              "displayName": "Chess",
+              "name": "chess",
+              "__typename": "Channel"
+            },
+            {
+              "id": "117546026",
+              "displayName": "ChesscomFR",
+              "name": "chesscomfr",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.chess.com/settings/account",
+        "description": "Watch 2 hours or more of PogChamps 6 on /chess and connect your Chess.com and Twitch accounts to receive 14 days of Chess.com Diamond membership. Chess.com Diamond includes: Unlimited Game Review, Unlimited Coach Explanations, Unlimited Puzzles, No Ads, and much more.",
+        "detailsURL": "https://www.chess.com/news/view/twitch-drops-pogchamps-6",
+        "endAt": "2025-05-04T15:59:59.995Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "743",
+          "slug": "chess-1",
+          "displayName": "Chess",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5a312baf-2179-4cf2-bbef-c3020826fe90.png",
+        "name": "PogChamps 6",
+        "owner": {
+          "id": "38ea6c05-204c-4ce7-8de3-de751138d098",
+          "name": "Chess.com",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-29T15:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "675e9f17-2141-11f0-90f2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "38ea6c05-204c-4ce7-8de3-de751138d098_CUSTOM_ID_6797277c-1a29-11f0-aafa-d1080bb02071",
+                  "createdAt": "2025-04-24T19:11:51.782Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "743",
+                    "name": "Chess",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/df288571-9ff8-46e5-b9c3-8110990e07ca.png",
+                  "isIosAvailable": false,
+                  "name": "Chess.com Diamond",
+                  "ownerOrganization": {
+                    "id": "38ea6c05-204c-4ce7-8de3-de751138d098",
+                    "name": "Chess.com",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-04T15:59:59.995Z",
+            "name": "Chess.com Diamond",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-04-29T15:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-29T15:30:00.000Z"
+  },
+  {
     "endAt": "2025-05-05T00:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/458881234_IGDB-120x160.jpg",
     "gameDisplayName": "Embervale.TV",
