@@ -22820,7 +22820,7 @@
             },
             {
               "id": "108632901",
-              "displayName": null,
+              "displayName": "puniogaming",
               "name": "puniogaming",
               "__typename": "Channel"
             },
@@ -43228,6 +43228,86 @@
       }
     ],
     "startAt": "2025-04-21T21:56:38.000Z"
+  },
+  {
+    "endAt": "2025-05-13T16:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515024-120x160.jpg",
+    "gameDisplayName": "Diablo IV",
+    "gameId": "515024",
+    "rewards": [
+      {
+        "id": "15019434-1fb7-11f0-92c2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.battle.net/connections",
+        "description": "Diablo IV: Vessel of Hatred Twitch Drops: Marrow of the Brute 2H Sword ",
+        "detailsURL": "https://news.blizzard.com/article/24199285",
+        "endAt": "2025-05-13T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515024",
+          "slug": "diablo-iv",
+          "displayName": "Diablo IV",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c4f25c5f-fbd7-42c5-a991-6ad4492a7cce.png",
+        "name": "Diablo IV Twitch Drops ",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-04-29T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9cb555c4-1fb8-11f0-a5ae-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1917436",
+                  "createdAt": "2025-04-22T20:08:13.692Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515024",
+                    "name": "Diablo IV",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b034d02-e2e8-4e2a-bf1c-57f2ae069b6b.png",
+                  "isIosAvailable": false,
+                  "name": "Marrow of the Brute",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-13T16:59:59.999Z",
+            "name": "Marrow of the Brute",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-04-29T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-04-29T17:00:00.000Z"
   },
   {
     "endAt": "2025-05-14T11:59:59.999Z",
