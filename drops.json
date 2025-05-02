@@ -4967,6 +4967,156 @@
     "gameId": "512710",
     "rewards": [
       {
+        "id": "5c622c5d-2085-11f0-9ca4-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "23347179",
+              "displayName": "MonsterEnergy",
+              "name": "monsterenergy",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://profile.callofduty.com/cod/twitch/reauth",
+        "description": "Call of Duty x Monster S03 Twitch Drops",
+        "detailsURL": "https://www.twitch.tv/drops/inventory",
+        "endAt": "2025-05-03T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "512710",
+          "slug": "call-of-duty-warzone",
+          "displayName": "Call of Duty: Warzone",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c120caf1-6391-4bf8-a7a9-32fd616639ef.png",
+        "name": "Call of Duty x Monster",
+        "owner": {
+          "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+          "name": "Activision Publishing ",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-02T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7552b03a-2085-11f0-b527-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_33358",
+                  "createdAt": "2025-04-22T23:40:50.815Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512710",
+                    "name": "Call of Duty: Warzone",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52880bb7-b4eb-48ff-b802-41f4ab7abe84.png",
+                  "isIosAvailable": false,
+                  "name": "Monster Ice Cold Bling",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-03T16:59:59.999Z",
+            "name": "Weapon Charm",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-05-02T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7b67dbe0-2085-11f0-868a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_33314",
+                  "createdAt": "2025-04-22T23:43:23.324Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512710",
+                    "name": "Call of Duty: Warzone",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c6f8b6c0-8bdc-43dc-bb2d-49486d738388.png",
+                  "isIosAvailable": false,
+                  "name": "Monster Extended Energy",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-03T16:59:59.999Z",
+            "name": "Blueprint",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-05-02T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "821cbaf9-2085-11f0-8969-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_33315",
+                  "createdAt": "2025-04-22T23:43:47.877Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512710",
+                    "name": "Call of Duty: Warzone",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4713f4bf-1c6d-4a2f-a18e-10f9b0f03178.png",
+                  "isIosAvailable": false,
+                  "name": "Monster Combat Flannel",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-03T16:59:59.999Z",
+            "name": "Operator Skin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-05-02T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "abadcc76-2084-11f0-b8dc-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
