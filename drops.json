@@ -6643,6 +6643,86 @@
     "startAt": "2025-05-02T14:00:00.000Z"
   },
   {
+    "endAt": "2025-05-03T14:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511224-120x160.jpg",
+    "gameDisplayName": "Apex Legends",
+    "gameId": "511224",
+    "rewards": [
+      {
+        "id": "50de0d67-2222-11f0-89cc-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "Get ready for the Apex Legends Global Series Year 5 Open! Watch on Twitch May 1 - 4 to enjoy the thrilling action and earn rewards as some of the world's top teams battle for the victory. ",
+        "detailsURL": "https://algs.ea.com/en/algs-open",
+        "endAt": "2025-05-03T14:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511224",
+          "slug": "apex-legends",
+          "displayName": "Apex Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/833f7f70-3b31-4cb3-af62-b2a6cc612aa3.png",
+        "name": "ALGS Year 5 Open: Day 2",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-02T15:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7132a376-2609-11f0-884a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_algs_s24_volt_skin",
+                  "createdAt": "2025-04-30T21:12:22.843Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26fb85e2-fa2c-4ca8-a2f0-8fd55a9eb26c.png",
+                  "isIosAvailable": false,
+                  "name": "weapon_skin_volt_rare_v25",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-03T14:29:59.999Z",
+            "name": "\"Hot Line\" Volt Skin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-05-02T15:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-02T15:30:00.000Z"
+  },
+  {
     "endAt": "2025-05-03T14:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
     "gameDisplayName": "Eternal Return",
