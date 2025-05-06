@@ -39513,6 +39513,86 @@
     "startAt": "2025-05-06T16:00:00.000Z"
   },
   {
+    "endAt": "2025-05-13T14:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1232811837_IGDB-120x160.jpg",
+    "gameDisplayName": "Towerborne",
+    "gameId": "1232811837",
+    "rewards": [
+      {
+        "id": "d848d55e-21f5-11f0-abf1-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://towerborne.com/twitchdrops",
+        "description": "The legend grows! Stream Towerborne from May 6 to May 13 and help your viewers earn the next piece of the Ebb-Knight's Set: a powerful Chest cosmetic. The echoes call for heroes — answer them by forging your audience’s path through the Shore.",
+        "detailsURL": "https://towerborne.com/twitchdrops",
+        "endAt": "2025-05-13T14:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1232811837",
+          "slug": "towerborne",
+          "displayName": "Towerborne",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/07e353f1-7b3e-4385-bf22-1c16bed5e55b.png",
+        "name": "Echoes of Ebb-Knight II",
+        "owner": {
+          "id": "415775ad-9203-4cbb-b6e7-11eedb547d15",
+          "name": "Stoic",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-06T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "8ea8633c-21f7-11f0-b876-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "415775ad-9203-4cbb-b6e7-11eedb547d15_CUSTOM_ID_327877709759778816",
+                  "createdAt": "2025-04-25T14:27:13.059Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1232811837",
+                    "name": "Towerborne",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e61e41cd-02c8-415f-8d31-c39931d8e258.png",
+                  "isIosAvailable": false,
+                  "name": "Ebb-Knight's Tunic",
+                  "ownerOrganization": {
+                    "id": "415775ad-9203-4cbb-b6e7-11eedb547d15",
+                    "name": "Stoic",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-13T14:59:59.998Z",
+            "name": "Ebb-Knight's Tunic",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-05-06T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-06T15:00:00.000Z"
+  },
+  {
     "endAt": "2025-05-13T16:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515024-120x160.jpg",
     "gameDisplayName": "Diablo IV",
