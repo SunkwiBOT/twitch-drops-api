@@ -7620,6 +7620,36 @@
               "displayName": "Sr_Arepa_",
               "name": "sr_arepa_",
               "__typename": "Channel"
+            },
+            {
+              "id": "30381987",
+              "displayName": "Ettnix",
+              "name": "ettnix",
+              "__typename": "Channel"
+            },
+            {
+              "id": "504774975",
+              "displayName": "Bobcaat__",
+              "name": "bobcaat__",
+              "__typename": "Channel"
+            },
+            {
+              "id": "148970266",
+              "displayName": "BAARSARK",
+              "name": "baarsark",
+              "__typename": "Channel"
+            },
+            {
+              "id": "121057102",
+              "displayName": "sorcier_tv",
+              "name": "sorcier_tv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "570116232",
+              "displayName": "toreto111",
+              "name": "toreto111",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -39288,7 +39318,7 @@
     "startAt": "2025-05-06T15:00:00.000Z"
   },
   {
-    "endAt": "2025-05-13T16:59:59.999Z",
+    "endAt": "2025-06-03T16:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515024-120x160.jpg",
     "gameDisplayName": "Diablo IV",
     "gameId": "515024",
@@ -39359,6 +39389,77 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 180,
             "startAt": "2025-04-29T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "2ef4d087-205e-11f0-8fd2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.battle.net/connections",
+        "description": "Diablo IV x Berserk: The Skull Behelit",
+        "detailsURL": "https://news.blizzard.com/article/24199285/",
+        "endAt": "2025-06-03T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515024",
+          "slug": "diablo-iv",
+          "displayName": "Diablo IV",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/edff31fc-3402-4503-aaf7-12d2c18017fe.png",
+        "name": "Diablo IV SaS",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-06T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3e91f6d4-205e-11f0-8e55-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1914599",
+                  "createdAt": "2025-04-22T20:09:01.84Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515024",
+                    "name": "Diablo IV",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9dfaacf3-3c01-4dee-b23a-091c4c36c047.png",
+                  "isIosAvailable": false,
+                  "name": "The Skull Behelit",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-03T16:59:59.999Z",
+            "name": "The Skull Behelit",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-05-06T17:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
