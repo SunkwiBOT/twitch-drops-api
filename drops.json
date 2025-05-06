@@ -6641,7 +6641,7 @@
             },
             {
               "id": "27663557",
-              "displayName": null,
+              "displayName": "l2guru",
               "name": "l2guru",
               "__typename": "Channel"
             },
@@ -39674,6 +39674,158 @@
       }
     ],
     "startAt": "2025-04-29T17:00:00.000Z"
+  },
+  {
+    "endAt": "2025-05-13T18:58:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1743359147_IGDB-120x160.jpg",
+    "gameDisplayName": "Marvel Snap",
+    "gameId": "1743359147",
+    "rewards": [
+      {
+        "id": "a4ab4ad7-1fc5-11f0-8ede-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.marvelsnap.com/twitchdrops",
+        "description": "Make sure you watch your favorite MARVEL SNAP Twitch streamers to earn Boosters, Penny Arcade Border, and the Welcome Home Card Back from Penny Arcade! Drops will be available from May 6-13th. Don’t miss out!\n\nWatch 2 hours to earn: 65 Random Boosters\nWatch 4 hours to earn: 1 Penny Arcade Border\nWatch 6 hours to earn: Welcome Home Card Back",
+        "detailsURL": "https://www.marvelsnap.com/twitchdrops",
+        "endAt": "2025-05-13T18:58:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1743359147",
+          "slug": "marvel-snap",
+          "displayName": "Marvel Snap",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "New season, New X-Men",
+        "owner": {
+          "id": "1b03f48f-2625-412b-8d14-028282008a11",
+          "name": "Second Dinner",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-06T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0f143283-1fc6-11f0-9ca4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "1b03f48f-2625-412b-8d14-028282008a11_CUSTOM_ID_65Boosters_colon__colon_CardBoosters-65",
+                  "createdAt": "2024-06-21T22:41:36.372Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1743359147",
+                    "name": "Marvel Snap",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2bfa03c1-6c91-4ddb-92b1-79cdd5dcb718.png",
+                  "isIosAvailable": false,
+                  "name": "65 Boosters",
+                  "ownerOrganization": {
+                    "id": "1b03f48f-2625-412b-8d14-028282008a11",
+                    "name": "Second Dinner",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-13T18:58:59.998Z",
+            "name": "65 Random Boosters",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-05-06T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "1ddafefd-1fc6-11f0-9d2f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "1b03f48f-2625-412b-8d14-028282008a11_CUSTOM_ID_PAXBorder_colon__colon_CardBorder-Pax2025.1",
+                  "createdAt": "2025-04-22T22:02:40.046Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1743359147",
+                    "name": "Marvel Snap",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b5fd0519-9f6f-495d-ab98-7e2311f76478.png",
+                  "isIosAvailable": false,
+                  "name": "Penny Arcade Border",
+                  "ownerOrganization": {
+                    "id": "1b03f48f-2625-412b-8d14-028282008a11",
+                    "name": "Second Dinner",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-13T18:58:59.998Z",
+            "name": "Penny Arcade Border",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-05-06T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "26f192f0-1fc6-11f0-803c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "1b03f48f-2625-412b-8d14-028282008a11_CUSTOM_ID_PAX24Cardback_colon__colon_CardBack-PAX_01",
+                  "createdAt": "2025-04-14T17:58:09.776Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1743359147",
+                    "name": "Marvel Snap",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fae02388-50f7-41be-8754-70b79499eb79.png",
+                  "isIosAvailable": false,
+                  "name": "Penny Arcade Card Back 24",
+                  "ownerOrganization": {
+                    "id": "1b03f48f-2625-412b-8d14-028282008a11",
+                    "name": "Second Dinner",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-13T18:58:59.998Z",
+            "name": "Welcome Home Card Back",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-05-06T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-06T19:00:00.000Z"
   },
   {
     "endAt": "2025-05-14T11:59:59.999Z",
