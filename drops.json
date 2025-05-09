@@ -42440,6 +42440,86 @@
     "startAt": "2025-05-01T12:23:00.000Z"
   },
   {
+    "endAt": "2025-05-15T23:29:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
+    "gameDisplayName": "Kirka.io",
+    "gameId": "356609813",
+    "rewards": [
+      {
+        "id": "fa5e21d5-2d2a-11f0-9c38-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Watch 15 hours to get rewarded a Supermother skin",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2025-05-15T23:29:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/80bd62b8-afd2-4227-b373-a83bd6196f79.png",
+        "name": "Supermother Skin",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-09T23:26:44Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "d75b7714-2d2c-11f0-a7ae-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_d5c7c472-1f47-4eb5-a709-a7f77452127b",
+                  "createdAt": "2025-05-09T23:25:46.493Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74392040-e4e9-493f-b40e-4e7dd09f1c23.png",
+                  "isIosAvailable": true,
+                  "name": "Supermother",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-15T23:29:59.998Z",
+            "name": "Supermother Unobtainable",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2025-05-09T23:26:44Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-09T23:26:44.000Z"
+  },
+  {
     "endAt": "2025-05-15T23:59:59.996Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1023750977_IGDB-120x160.jpg",
     "gameDisplayName": "FragPunk",
