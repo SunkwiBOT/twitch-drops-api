@@ -1956,6 +1956,168 @@
           }
         ],
         "__typename": "DropCampaign"
+      },
+      {
+        "id": "309b8966-2c7a-11f0-bc6d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "695173418",
+              "displayName": "EternalReturn_JP",
+              "name": "eternalreturn_jp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "427263285",
+              "displayName": "EternalReturnGame",
+              "name": "eternalreturngame",
+              "__typename": "Channel"
+            },
+            {
+              "id": "695170110",
+              "displayName": "EternalReturn_TPE",
+              "name": "eternalreturn_tpe",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.playeternalreturn.com/",
+        "description": "https://twitch.playeternalreturn.com/",
+        "detailsURL": "https://twitch.playeternalreturn.com/",
+        "endAt": "2025-05-10T14:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "512864",
+          "slug": "eternal-return",
+          "displayName": "Eternal Return",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2fe430c6-be7c-4347-a301-d1bea780ecac.png",
+        "name": "ERM Season 7 Phase 2",
+        "owner": {
+          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+          "name": "Nimble Neuron Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-10T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "eba07012-2c8d-11f0-90e7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_Drops_ERPartner_Secret_RandomBox_01",
+                  "createdAt": "2023-10-18T03:06:03.572Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/623a970d-6024-4001-a0b7-9024526d76f5.png",
+                  "isIosAvailable": false,
+                  "name": "Secret Box",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-10T14:59:59.999Z",
+            "name": "Secret",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-05-10T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "eef7af09-2c8d-11f0-a7c2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_Drops_ERPartner_Secret_RandomBox_01",
+                  "createdAt": "2023-10-18T03:06:03.572Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/623a970d-6024-4001-a0b7-9024526d76f5.png",
+                  "isIosAvailable": false,
+                  "name": "Secret Box",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-10T14:59:59.999Z",
+            "name": "Secret",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-05-10T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f1b5da31-2c8d-11f0-b6e1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_Drops_ERPartner_Secret_RandomBox_01",
+                  "createdAt": "2023-10-18T03:06:03.572Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/623a970d-6024-4001-a0b7-9024526d76f5.png",
+                  "isIosAvailable": false,
+                  "name": "Secret Box",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-10T14:59:59.999Z",
+            "name": "Secret",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-05-10T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
       }
     ],
     "startAt": "2025-05-09T15:00:00.000Z"
@@ -2740,63 +2902,82 @@
     "startAt": "2025-05-09T16:00:00.000Z"
   },
   {
-    "endAt": "2025-05-10T15:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
-    "gameDisplayName": "Marbles on Stream",
-    "gameId": "509511",
+    "endAt": "2025-05-27T03:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
+    "gameDisplayName": "NARAKA: BLADEPOINT",
+    "gameId": "515474",
     "rewards": [
       {
-        "id": "3580651e-2c90-11f0-bbdf-0a58a9feac02",
+        "id": "193dce69-2bc0-11f0-b00d-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "605673574",
+              "displayName": "NARAKABLADEPOINT",
+              "name": "narakabladepoint",
+              "__typename": "Channel"
+            },
+            {
+              "id": "714202554",
+              "displayName": "永劫無間_亞服",
+              "name": "naraka_asia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "798260911",
+              "displayName": "narakaesports",
+              "name": "narakaesports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://app.pixelbypixelstudios.live/auth/twitch/link",
-        "description": "Marbles on Stream is the most welcoming stream interactive experience where a streamer can run the game and welcome anyone in their chat to participate with \"!play\". That's it!\n\nJoin in for exclusive prizes and keep an eye on our for how we evolve this event in the future. If you need assistance please join our discord. Discord.gg/pixelbypixelstudios ",
-        "detailsURL": "https://pixelbypixel.studio/about/twitch-drops",
+        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
+        "description": "Watch livestreams to claim your drops!",
+        "detailsURL": "https://www.narakathegame.com/news/official/20231018/32172_1115415.html",
         "endAt": "2025-05-10T15:59:59.999Z",
         "eventBasedDrops": [],
         "game": {
-          "id": "509511",
-          "slug": "marbles-on-stream",
-          "displayName": "Marbles on Stream",
+          "id": "515474",
+          "slug": "naraka-bladepoint",
+          "displayName": "NARAKA: BLADEPOINT",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8d1802d1-9e8e-41e1-9c20-5cb7b35a1927.png",
-        "name": "Marble Day 195",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3c33efe6-4063-4481-9e67-a167601281aa.png",
+        "name": "NBPL 5.10",
         "owner": {
-          "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
-          "name": "Pixel by Pixel Studios",
+          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+          "name": "NetEase",
           "__typename": "Organization"
         },
-        "startAt": "2025-05-09T16:00:00Z",
+        "startAt": "2025-05-10T08:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "57bc1a02-2c90-11f0-bc50-0a58a9feac02",
+            "id": "25bd3da8-2bc0-11f0-a6ae-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTestBundleCC",
-                  "createdAt": "2023-10-26T09:00:50.239Z",
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9133945",
+                  "createdAt": "2025-03-07T08:33:32.331Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "509511",
-                    "name": "Marbles on Stream",
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7519a7e0-3787-4284-8790-071aaf244db2.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/15a212ee-d768-426d-9a4a-2be2e118ca1d.jpeg",
                   "isIosAvailable": false,
-                  "name": "15 Community Coins",
+                  "name": "Tae*200",
                   "ownerOrganization": {
-                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
-                    "name": "Pixel by Pixel Studios",
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -2807,131 +2988,32 @@
               }
             ],
             "endAt": "2025-05-10T15:59:59.999Z",
-            "name": "Marble Day 195 - Friday - Drop",
+            "name": "9133945",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-05-09T16:00:00Z",
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-05-10T08:00:00Z",
             "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-05-09T16:00:00.000Z"
-  },
-  {
-    "endAt": "2025-05-10T16:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512710-120x160.jpg",
-    "gameDisplayName": "Call of Duty: Warzone",
-    "gameId": "512710",
-    "rewards": [
-      {
-        "id": "5d47f774-1fd2-11f0-a8c0-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "30079255",
-              "displayName": "HusKerrs",
-              "name": "huskerrs",
-              "__typename": "Channel"
-            },
-            {
-              "id": "23844396",
-              "displayName": "TeePee",
-              "name": "teepee",
-              "__typename": "Channel"
-            },
-            {
-              "id": "120244187",
-              "displayName": "Aydan",
-              "name": "aydan",
-              "__typename": "Channel"
-            },
-            {
-              "id": "31688366",
-              "displayName": "Symfuhny",
-              "name": "symfuhny",
-              "__typename": "Channel"
-            },
-            {
-              "id": "104659233",
-              "displayName": "fifakillvizualz",
-              "name": "fifakillvizualz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "187193172",
-              "displayName": "ZLaner",
-              "name": "zlaner",
-              "__typename": "Channel"
-            },
-            {
-              "id": "41652",
-              "displayName": "Merk",
-              "name": "merk",
-              "__typename": "Channel"
-            },
-            {
-              "id": "22739676",
-              "displayName": "Maven",
-              "name": "maven",
-              "__typename": "Channel"
-            },
-            {
-              "id": "98506045",
-              "displayName": "MuTeX",
-              "name": "mutex",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://profile.callofduty.com/cod/twitch/reauth",
-        "description": "Call of Duty x Monster S03 Twitch Drops",
-        "detailsURL": "https://www.twitch.tv/drops/inventory",
-        "endAt": "2025-05-10T16:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "512710",
-          "slug": "call-of-duty-warzone",
-          "displayName": "Call of Duty: Warzone",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4acf9744-fa80-4952-bc48-5ded4e249189.png",
-        "name": "Call of Duty x Monster 2 ",
-        "owner": {
-          "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-          "name": "Activision Publishing ",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-05-03T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
+          },
           {
-            "id": "0bec742c-1fd4-11f0-8ede-0a58a9feac02",
+            "id": "2b79b036-2bc0-11f0-b487-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_33358",
-                  "createdAt": "2025-04-22T23:40:50.815Z",
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9133946",
+                  "createdAt": "2025-03-07T08:37:00.37Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "512710",
-                    "name": "Call of Duty: Warzone",
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52880bb7-b4eb-48ff-b802-41f4ab7abe84.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fc5c0d4a-1fe7-4ecf-b8fe-dd914918771b.jpeg",
                   "isIosAvailable": false,
-                  "name": "Monster Ice Cold Bling",
+                  "name": "Spectral Silk*200",
                   "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -2941,184 +3023,16 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-05-10T16:59:59.998Z",
-            "name": "Weapon Charm",
+            "endAt": "2025-05-10T15:59:59.999Z",
+            "name": "9133946",
             "preconditionDrops": null,
             "requiredMinutesWatched": 30,
-            "startAt": "2025-05-03T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "119a6d3f-1fd4-11f0-9cc3-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_33314",
-                  "createdAt": "2025-04-22T23:43:23.324Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512710",
-                    "name": "Call of Duty: Warzone",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c6f8b6c0-8bdc-43dc-bb2d-49486d738388.png",
-                  "isIosAvailable": false,
-                  "name": "Monster Extended Energy",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-10T16:59:59.998Z",
-            "name": "Blueprint",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-05-03T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "1f35c809-1fd4-11f0-9af8-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_33315",
-                  "createdAt": "2025-04-22T23:43:47.877Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512710",
-                    "name": "Call of Duty: Warzone",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4713f4bf-1c6d-4a2f-a18e-10f9b0f03178.png",
-                  "isIosAvailable": false,
-                  "name": "Monster Combat Flannel",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-10T16:59:59.998Z",
-            "name": "Operator Skin",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-05-03T17:00:00Z",
+            "startAt": "2025-05-10T08:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-05-03T17:00:00.000Z"
-  },
-  {
-    "endAt": "2025-05-11T03:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
-    "gameDisplayName": "Halo Infinite",
-    "gameId": "506416",
-    "rewards": [
-      {
-        "id": "bfd5d9e8-27a1-11f0-b030-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "222719079",
-              "displayName": "LVTHalo",
-              "name": "lvthalo",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
-        "description": "Tune into this HCS Grassroots event to earn Halo Infinite in-game content!",
-        "detailsURL": "https://www.halowaypoint.com",
-        "endAt": "2025-05-11T03:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "506416",
-          "slug": "halo-infinite",
-          "displayName": "Halo Infinite",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2c8d6a79-a3f8-4993-a480-cd28aab89713.png",
-        "name": "Crowned in ChaosFFA-MAY10",
-        "owner": {
-          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
-          "name": "Microsoft",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-05-10T06:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "cff38c3c-27a1-11f0-9ba1-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_9RZD-VYD8-UPD6-QSB7",
-                  "createdAt": "2024-07-09T23:14:21.514Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "506416",
-                    "name": "Halo Infinite",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/75f22bc7-11ca-4c86-a2b2-ece080c5e13f.png",
-                  "isIosAvailable": false,
-                  "name": "HCS Grassroots Charm",
-                  "ownerOrganization": {
-                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
-                    "name": "Microsoft",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-11T03:59:59.999Z",
-            "name": "HCS Grassroots Charm",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-05-10T06:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-05-10T06:00:00.000Z"
-  },
-  {
-    "endAt": "2025-05-27T03:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
-    "gameDisplayName": "NARAKA: BLADEPOINT",
-    "gameId": "515474",
-    "rewards": [
+      },
       {
         "id": "8dc8440f-2bc0-11f0-a1eb-0a58a9feac02",
         "self": {
@@ -3204,6 +3118,96 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 60,
             "startAt": "2025-05-08T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "b28d2317-2bc0-11f0-9364-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "605673574",
+              "displayName": "NARAKABLADEPOINT",
+              "name": "narakabladepoint",
+              "__typename": "Channel"
+            },
+            {
+              "id": "714202554",
+              "displayName": "永劫無間_亞服",
+              "name": "naraka_asia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "798260911",
+              "displayName": "narakaesports",
+              "name": "narakaesports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
+        "description": "Watch livestreams to claim your drops!",
+        "detailsURL": "https://www.narakathegame.com/news/official/20231018/32172_1115415.html",
+        "endAt": "2025-05-11T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515474",
+          "slug": "naraka-bladepoint",
+          "displayName": "NARAKA: BLADEPOINT",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/759eeaf0-a2f2-4316-8e80-e91b6f6ac847.png",
+        "name": "NBPL 5.10-5.11",
+        "owner": {
+          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+          "name": "NetEase",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-10T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "bd893596-2bc0-11f0-a12f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9133951",
+                  "createdAt": "2025-03-07T08:45:22.978Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e81df7a5-9076-41ad-b8ad-2e54497d6bcc.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Eternal Radiance",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-11T15:59:59.999Z",
+            "name": "9133951",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-05-10T08:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -4782,6 +4786,380 @@
       }
     ],
     "startAt": "2025-04-24T08:00:00.000Z"
+  },
+  {
+    "endAt": "2025-05-10T15:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
+    "gameDisplayName": "Marbles on Stream",
+    "gameId": "509511",
+    "rewards": [
+      {
+        "id": "3580651e-2c90-11f0-bbdf-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://app.pixelbypixelstudios.live/auth/twitch/link",
+        "description": "Marbles on Stream is the most welcoming stream interactive experience where a streamer can run the game and welcome anyone in their chat to participate with \"!play\". That's it!\n\nJoin in for exclusive prizes and keep an eye on our for how we evolve this event in the future. If you need assistance please join our discord. Discord.gg/pixelbypixelstudios ",
+        "detailsURL": "https://pixelbypixel.studio/about/twitch-drops",
+        "endAt": "2025-05-10T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "509511",
+          "slug": "marbles-on-stream",
+          "displayName": "Marbles on Stream",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8d1802d1-9e8e-41e1-9c20-5cb7b35a1927.png",
+        "name": "Marble Day 195",
+        "owner": {
+          "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+          "name": "Pixel by Pixel Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-09T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "57bc1a02-2c90-11f0-bc50-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTestBundleCC",
+                  "createdAt": "2023-10-26T09:00:50.239Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509511",
+                    "name": "Marbles on Stream",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7519a7e0-3787-4284-8790-071aaf244db2.png",
+                  "isIosAvailable": false,
+                  "name": "15 Community Coins",
+                  "ownerOrganization": {
+                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+                    "name": "Pixel by Pixel Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-10T15:59:59.999Z",
+            "name": "Marble Day 195 - Friday - Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-05-09T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-09T16:00:00.000Z"
+  },
+  {
+    "endAt": "2025-05-10T16:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512710-120x160.jpg",
+    "gameDisplayName": "Call of Duty: Warzone",
+    "gameId": "512710",
+    "rewards": [
+      {
+        "id": "5d47f774-1fd2-11f0-a8c0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "30079255",
+              "displayName": "HusKerrs",
+              "name": "huskerrs",
+              "__typename": "Channel"
+            },
+            {
+              "id": "23844396",
+              "displayName": "TeePee",
+              "name": "teepee",
+              "__typename": "Channel"
+            },
+            {
+              "id": "120244187",
+              "displayName": "Aydan",
+              "name": "aydan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "31688366",
+              "displayName": "Symfuhny",
+              "name": "symfuhny",
+              "__typename": "Channel"
+            },
+            {
+              "id": "104659233",
+              "displayName": "fifakillvizualz",
+              "name": "fifakillvizualz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "187193172",
+              "displayName": "ZLaner",
+              "name": "zlaner",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41652",
+              "displayName": "Merk",
+              "name": "merk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "22739676",
+              "displayName": "Maven",
+              "name": "maven",
+              "__typename": "Channel"
+            },
+            {
+              "id": "98506045",
+              "displayName": "MuTeX",
+              "name": "mutex",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://profile.callofduty.com/cod/twitch/reauth",
+        "description": "Call of Duty x Monster S03 Twitch Drops",
+        "detailsURL": "https://www.twitch.tv/drops/inventory",
+        "endAt": "2025-05-10T16:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "512710",
+          "slug": "call-of-duty-warzone",
+          "displayName": "Call of Duty: Warzone",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4acf9744-fa80-4952-bc48-5ded4e249189.png",
+        "name": "Call of Duty x Monster 2 ",
+        "owner": {
+          "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+          "name": "Activision Publishing ",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-03T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0bec742c-1fd4-11f0-8ede-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_33358",
+                  "createdAt": "2025-04-22T23:40:50.815Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512710",
+                    "name": "Call of Duty: Warzone",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52880bb7-b4eb-48ff-b802-41f4ab7abe84.png",
+                  "isIosAvailable": false,
+                  "name": "Monster Ice Cold Bling",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-10T16:59:59.998Z",
+            "name": "Weapon Charm",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-05-03T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "119a6d3f-1fd4-11f0-9cc3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_33314",
+                  "createdAt": "2025-04-22T23:43:23.324Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512710",
+                    "name": "Call of Duty: Warzone",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c6f8b6c0-8bdc-43dc-bb2d-49486d738388.png",
+                  "isIosAvailable": false,
+                  "name": "Monster Extended Energy",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-10T16:59:59.998Z",
+            "name": "Blueprint",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-05-03T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "1f35c809-1fd4-11f0-9af8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_33315",
+                  "createdAt": "2025-04-22T23:43:47.877Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512710",
+                    "name": "Call of Duty: Warzone",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4713f4bf-1c6d-4a2f-a18e-10f9b0f03178.png",
+                  "isIosAvailable": false,
+                  "name": "Monster Combat Flannel",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-10T16:59:59.998Z",
+            "name": "Operator Skin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-05-03T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-03T17:00:00.000Z"
+  },
+  {
+    "endAt": "2025-05-11T03:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
+    "gameDisplayName": "Halo Infinite",
+    "gameId": "506416",
+    "rewards": [
+      {
+        "id": "bfd5d9e8-27a1-11f0-b030-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "222719079",
+              "displayName": "LVTHalo",
+              "name": "lvthalo",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn Halo Infinite in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-05-11T03:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2c8d6a79-a3f8-4993-a480-cd28aab89713.png",
+        "name": "Crowned in ChaosFFA-MAY10",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-10T06:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "cff38c3c-27a1-11f0-9ba1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_9RZD-VYD8-UPD6-QSB7",
+                  "createdAt": "2024-07-09T23:14:21.514Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/75f22bc7-11ca-4c86-a2b2-ece080c5e13f.png",
+                  "isIosAvailable": false,
+                  "name": "HCS Grassroots Charm",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-11T03:59:59.999Z",
+            "name": "HCS Grassroots Charm",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-05-10T06:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-10T06:00:00.000Z"
   },
   {
     "endAt": "2025-05-15T21:58:59.999Z",
