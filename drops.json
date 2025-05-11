@@ -159,7 +159,7 @@
     "startAt": "2025-05-10T15:00:00.000Z"
   },
   {
-    "endAt": "2025-05-11T03:59:59.999Z",
+    "endAt": "2025-05-11T05:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
     "gameDisplayName": "Halo Infinite",
     "gameId": "506416",
@@ -237,6 +237,120 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-05-10T06:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "e9802684-279f-11f0-8e02-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "32744512",
+              "displayName": "CardinalRedbird",
+              "name": "cardinalredbird",
+              "__typename": "Channel"
+            },
+            {
+              "id": "10692319",
+              "displayName": "Eli_X",
+              "name": "eli_x",
+              "__typename": "Channel"
+            },
+            {
+              "id": "77428357",
+              "displayName": "AustinWebrink",
+              "name": "austinwebrink",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64645926",
+              "displayName": "OmnicientWolf",
+              "name": "omnicientwolf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51547942",
+              "displayName": "JimTasty",
+              "name": "jimtasty",
+              "__typename": "Channel"
+            },
+            {
+              "id": "141174479",
+              "displayName": "Mashlan",
+              "name": "mashlan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "771501030",
+              "displayName": "KwikFuz3",
+              "name": "kwikfuz3",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn Halo Infinite in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-05-11T05:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8ea9b733-7b5f-42a3-8f9d-654b9d1db162.png",
+        "name": "Boomer Gauntlet-MAY10",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-11T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ff03e69a-279f-11f0-8e02-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_XJGA-5KUD-GLUE-19J5-LJ7J",
+                  "createdAt": "2024-02-02T03:16:02.559Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fce1abfa-c34c-4f4b-b9a7-3b0197fb6b41.png",
+                  "isIosAvailable": false,
+                  "name": "Septimal Azure Warthog",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-11T05:59:59.999Z",
+            "name": "Septimal Azure Warthog",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-05-11T00:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
