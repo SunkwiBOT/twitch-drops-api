@@ -1,272 +1,5 @@
 [
   {
-    "endAt": "2025-05-17T19:59:59.995Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/380978759_IGDB-120x160.jpg",
-    "gameDisplayName": "Escape from Tarkov: Arena",
-    "gameId": "380978759",
-    "rewards": [
-      {
-        "id": "b4aaf352-3018-11f0-a6ae-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "789080214",
-              "displayName": "HuntPremier",
-              "name": "huntpremier",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.escapefromtarkov.com/profile",
-        "description": "Watch the «Pinnacle» tournament by Hunt Premier on Twitch and get Drops! \n\nOnly during the tournament broadcast you can receive in-game rewards: Battle Pass points, in-game currency, and other prizes. Link your Escape from Tarkov: Arena profile to your Twitch account, watch the \"Pinnacle\" tournament stream, and get rewards for your viewing time!",
-        "detailsURL": "https://www.twitch.tv/",
-        "endAt": "2025-05-17T19:59:59.995Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "380978759",
-          "slug": "escape-from-tarkov-arena",
-          "displayName": "Escape from Tarkov: Arena",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e63f3dfe-31e7-4c01-8b60-dc71471c279b.png",
-        "name": "Hunt Premier Pinnacle",
-        "owner": {
-          "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
-          "name": "Battlestate Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-05-17T14:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "c5148093-3018-11f0-8162-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "cb74a9e3-38be-41c8-90c9-a746079ea512_CUSTOM_ID_682355f41a765ae93c086787",
-                  "createdAt": "2025-05-13T15:54:50.014Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "380978759",
-                    "name": "Escape from Tarkov: Arena",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3888f0f1-1fdb-479a-bdf5-102f32a2d01b.png",
-                  "isIosAvailable": false,
-                  "name": "Drop 1",
-                  "ownerOrganization": {
-                    "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
-                    "name": "Battlestate Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-17T19:59:59.995Z",
-            "name": "Drop 1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-05-17T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "cb04f230-3018-11f0-8162-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "cb74a9e3-38be-41c8-90c9-a746079ea512_CUSTOM_ID_6823562f9adbf38c20064279",
-                  "createdAt": "2025-05-13T15:55:24.39Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "380978759",
-                    "name": "Escape from Tarkov: Arena",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f29acd96-1bec-4b18-af0b-c3a1cfce627b.png",
-                  "isIosAvailable": false,
-                  "name": "Drop 2",
-                  "ownerOrganization": {
-                    "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
-                    "name": "Battlestate Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-17T19:59:59.995Z",
-            "name": "Drop 2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-05-17T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "d1da69f2-3018-11f0-b9ad-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "cb74a9e3-38be-41c8-90c9-a746079ea512_CUSTOM_ID_6823567702de9abeab054f57",
-                  "createdAt": "2025-05-13T15:56:06.781Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "380978759",
-                    "name": "Escape from Tarkov: Arena",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4327a5c0-4efd-4aaa-b5ec-1d0c25fa2761.png",
-                  "isIosAvailable": false,
-                  "name": "Drop 3",
-                  "ownerOrganization": {
-                    "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
-                    "name": "Battlestate Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-17T19:59:59.995Z",
-            "name": "Drop 3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-05-17T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "d747323f-3018-11f0-a321-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "cb74a9e3-38be-41c8-90c9-a746079ea512_CUSTOM_ID_6823569a364200ca080635a1",
-                  "createdAt": "2025-05-13T15:56:26.766Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "380978759",
-                    "name": "Escape from Tarkov: Arena",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f724d43-34d3-40c1-8dc2-bb4f32e582ff.png",
-                  "isIosAvailable": false,
-                  "name": "Drop 4",
-                  "ownerOrganization": {
-                    "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
-                    "name": "Battlestate Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-17T19:59:59.995Z",
-            "name": "Drop 4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 210,
-            "startAt": "2025-05-17T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "df392dd0-3018-11f0-9364-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "cb74a9e3-38be-41c8-90c9-a746079ea512_CUSTOM_ID_6823584e29fc9cdfbe086867",
-                  "createdAt": "2025-05-13T15:57:25.15Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "380978759",
-                    "name": "Escape from Tarkov: Arena",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/18c83407-a4d5-4b58-8dba-34c4e2963042.png",
-                  "isIosAvailable": false,
-                  "name": "Drop 5",
-                  "ownerOrganization": {
-                    "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
-                    "name": "Battlestate Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-17T19:59:59.995Z",
-            "name": "Drop 5",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-05-17T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "e6d18d2b-3018-11f0-9286-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "cb74a9e3-38be-41c8-90c9-a746079ea512_CUSTOM_ID_682358b9a9d63f546d0ed8b9",
-                  "createdAt": "2025-05-13T15:58:04.549Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "380978759",
-                    "name": "Escape from Tarkov: Arena",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bca65d01-ed63-4da9-b531-7f30ca73b996.png",
-                  "isIosAvailable": false,
-                  "name": "Drop 6",
-                  "ownerOrganization": {
-                    "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
-                    "name": "Battlestate Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-17T19:59:59.995Z",
-            "name": "Drop 6",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 300,
-            "startAt": "2025-05-17T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-05-17T14:00:00.000Z"
-  },
-  {
     "endAt": "2025-05-17T22:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/707002701_IGDB-120x160.jpg",
     "gameDisplayName": "Coryphaeus Championships",
@@ -773,6 +506,93 @@
       }
     ],
     "startAt": "2025-05-15T15:00:00.000Z"
+  },
+  {
+    "endAt": "2025-05-18T01:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
+    "gameDisplayName": "Halo Infinite",
+    "gameId": "506416",
+    "rewards": [
+      {
+        "id": "ebf116b2-27a5-11f0-b2ab-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "28130176",
+              "displayName": "NapTimez",
+              "name": "naptimez",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn Halo Infinite in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-05-18T01:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/19c4a8ac-e1a4-4043-86e1-622361607810.png",
+        "name": "SWATNation Mayhem-MAY17",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-17T20:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "12b956ee-27a6-11f0-8422-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_488M-SQ4N-NN1N-HBGZ-16VS",
+                  "createdAt": "2023-11-17T00:15:08.319Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/afd31302-ba87-445d-a526-399c8cbc59f3.png",
+                  "isIosAvailable": false,
+                  "name": "Lucky Marks BR",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-18T01:59:59.999Z",
+            "name": "Lucky Marks BR",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-05-17T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-17T20:00:00.000Z"
   },
   {
     "endAt": "2025-05-18T04:44:59.997Z",
@@ -1632,12 +1452,6 @@
               "id": "76191431",
               "displayName": "HenrichMr",
               "name": "henrichmr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "496856286",
-              "displayName": "HenryJanuzaj",
-              "name": "henryjanuzaj",
               "__typename": "Channel"
             },
             {
@@ -2979,12 +2793,6 @@
               "__typename": "Channel"
             },
             {
-              "id": "266690041",
-              "displayName": "squishqueenie",
-              "name": "squishqueenie",
-              "__typename": "Channel"
-            },
-            {
               "id": "206317967",
               "displayName": "STAYlN_ALlVE",
               "name": "stayln_allve",
@@ -4311,27 +4119,9 @@
               "__typename": "Channel"
             },
             {
-              "id": "159575037",
-              "displayName": "Purgeyz",
-              "name": "purgeyz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "266690041",
-              "displayName": "squishqueenie",
-              "name": "squishqueenie",
-              "__typename": "Channel"
-            },
-            {
               "id": "489251985",
               "displayName": "Esquentadinha_BR",
               "name": "esquentadinha_br",
-              "__typename": "Channel"
-            },
-            {
-              "id": "496856286",
-              "displayName": "HenryJanuzaj",
-              "name": "henryjanuzaj",
               "__typename": "Channel"
             },
             {
@@ -6627,12 +6417,6 @@
               "__typename": "Channel"
             },
             {
-              "id": "149823056",
-              "displayName": "Vyvel_",
-              "name": "vyvel_",
-              "__typename": "Channel"
-            },
-            {
               "id": "139011969",
               "displayName": "AriesMika",
               "name": "ariesmika",
@@ -6768,12 +6552,6 @@
               "id": "39195468",
               "displayName": "MaZzzZGR",
               "name": "mazzzzgr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1047939832",
-              "displayName": "Itz_Bales",
-              "name": "itz_bales",
               "__typename": "Channel"
             },
             {
