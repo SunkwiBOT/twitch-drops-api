@@ -27914,19 +27914,13 @@
     "gameId": "2011938005",
     "rewards": [
       {
-        "id": "2b305f20-2909-11f0-8835-0a58a9feac02",
+        "id": "9ae309ee-2909-11f0-afb0-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
           "channels": [
-            {
-              "id": "28029009",
-              "displayName": "easportsfc",
-              "name": "easportsfc",
-              "__typename": "Channel"
-            },
             {
               "id": "404813066",
               "displayName": "Flokox",
@@ -27967,6 +27961,132 @@
               "id": "487492505",
               "displayName": "Abo_Fawzi18",
               "name": "abo_fawzi18",
+              "__typename": "Channel"
+            },
+            {
+              "id": "101175894",
+              "displayName": "AuzioMF",
+              "name": "auziomf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28029009",
+              "displayName": "easportsfc",
+              "name": "easportsfc",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "eChampions League Knockout Phase",
+        "detailsURL": "https://www.ea.com/games/ea-sports-fc/fc-pro/how-to-earn-rewards",
+        "endAt": "2025-05-20T23:57:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2011938005",
+          "slug": "ea-sports-fc-25",
+          "displayName": "EA Sports FC 25",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/73189b22-3263-45cd-bdb6-6eb7e421886a.png",
+        "name": "eCL Knockout Phase",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-10T11:58:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "71673c87-290a-11f0-a014-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_FCPRO_2547",
+                  "createdAt": "2025-05-04T17:04:09.87Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2011938005",
+                    "name": "EA Sports FC 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a0c27ad-5e46-4f89-a520-01e3f13a5bed.png",
+                  "isIosAvailable": false,
+                  "name": "Loan DC Valverde (10)",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-20T23:57:59.998Z",
+            "name": "Loan Dreamchasers Kane (10)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-05-10T11:58:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "74fdd830-290a-11f0-8e02-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_FCPRO_2548",
+                  "createdAt": "2025-05-04T17:04:29.446Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2011938005",
+                    "name": "EA Sports FC 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6f31c24e-6b04-4788-9362-b1f385945a6f.png",
+                  "isIosAvailable": false,
+                  "name": "86+ x 2",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-20T23:57:59.998Z",
+            "name": "86+ x 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-05-10T11:58:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "2b305f20-2909-11f0-8835-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "899090459",
+              "displayName": "shadow_j71rqrwpv91et4sk",
+              "name": "shadow_j71rqrwpv91et4sk",
               "__typename": "Channel"
             }
           ],
@@ -36839,12 +36959,6 @@
               "__typename": "Channel"
             },
             {
-              "id": "23155607",
-              "displayName": "Fitzyhere",
-              "name": "fitzyhere",
-              "__typename": "Channel"
-            },
-            {
               "id": "251502475",
               "displayName": "cowfee",
               "name": "cowfee",
@@ -36893,39 +37007,15 @@
               "__typename": "Channel"
             },
             {
-              "id": "100372176",
-              "displayName": "Alixxa",
-              "name": "alixxa",
-              "__typename": "Channel"
-            },
-            {
-              "id": "39585857",
-              "displayName": "Virtuspro",
-              "name": "virtuspro",
-              "__typename": "Channel"
-            },
-            {
-              "id": "150716625",
-              "displayName": "FefeGG",
-              "name": "fefegg",
-              "__typename": "Channel"
-            },
-            {
-              "id": "477111082",
-              "displayName": "owBRAIN",
-              "name": "owbrain",
-              "__typename": "Channel"
-            },
-            {
-              "id": "702304589",
-              "displayName": "TwisMinds",
-              "name": "twisminds",
-              "__typename": "Channel"
-            },
-            {
               "id": "1134253144",
               "displayName": "ExtinctionNA1",
               "name": "extinctionna1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "185374923",
+              "displayName": "Bullskunk",
+              "name": "bullskunk",
               "__typename": "Channel"
             }
           ],
