@@ -766,6 +766,165 @@
     "startAt": "2025-05-21T19:00:00.000Z"
   },
   {
+    "endAt": "2025-05-23T01:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1233312672_IGDB-120x160.jpg",
+    "gameDisplayName": "Grand Chase Classic",
+    "gameId": "1233312672",
+    "rewards": [
+      {
+        "id": "19c4d2a6-2600-11f0-890c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "899363469",
+              "displayName": "GCClassic",
+              "name": "gcclassic",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.koggames.com/game/grandchaseclassic/drops/",
+        "description": "The official GrandChase Classic Twitch will livestream for over two hours for players to receive Twitch Drops. Players are encouraged to begin viewing at the start time to ensure they are able to view for the full two hours to receive all rewards. This campaign will only be available through the official GrandChase Classic Twitch.",
+        "detailsURL": "https://www.koggames.com/game/grandchaseclassic/drops/",
+        "endAt": "2025-05-23T01:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1233312672",
+          "slug": "grand-chase-classic",
+          "displayName": "Grand Chase Classic",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5e7a3647-9066-4dea-8689-d73fa655534a.png",
+        "name": "5/22 Official Livestream",
+        "owner": {
+          "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
+          "name": "KOG CO., LTD",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-22T22:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "4357965d-2600-11f0-8877-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1489500_2_-1",
+                  "createdAt": "2025-04-30T20:08:15.652Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1233312672",
+                    "name": "Grand Chase Classic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e227c99d-6277-409e-82af-d5ef62c2ef36.png",
+                  "isIosAvailable": false,
+                  "name": "Hero Dungeon Ticket x2",
+                  "ownerOrganization": {
+                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
+                    "name": "KOG CO., LTD",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-23T01:29:59.999Z",
+            "name": "Hero Dungeon Entry Ticket x2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-05-22T22:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "58419563-2600-11f0-b63f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1656060_2_-1",
+                  "createdAt": "2025-04-30T20:11:25.3Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1233312672",
+                    "name": "Grand Chase Classic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5a18eaf6-bd99-4588-8ea0-fc6f1a3e2ce1.png",
+                  "isIosAvailable": false,
+                  "name": "Another World Ticket x2",
+                  "ownerOrganization": {
+                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
+                    "name": "KOG CO., LTD",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-23T01:29:59.999Z",
+            "name": "Another World Dungeon Entry Ticket x2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-05-22T22:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "60a2806a-2600-11f0-ad37-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1710110_1_-1",
+                  "createdAt": "2025-04-30T20:12:05.43Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1233312672",
+                    "name": "Grand Chase Classic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/64fb2580-4aeb-4017-86a1-7522e06402c1.png",
+                  "isIosAvailable": false,
+                  "name": "Raid Dungeon Ticket x1",
+                  "ownerOrganization": {
+                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
+                    "name": "KOG CO., LTD",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-23T01:29:59.999Z",
+            "name": "Raid Dungeon Entry Ticket x1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-05-22T22:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-22T22:30:00.000Z"
+  },
+  {
     "endAt": "2025-05-23T07:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1411398523_IGDB-120x160.jpg",
     "gameDisplayName": "Vampire: The Masquerade - Bloodhunt",
