@@ -31531,6 +31531,147 @@
     "startAt": "2025-05-16T09:00:00.000Z"
   },
   {
+    "endAt": "2025-05-31T15:10:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1947549451_IGDB-120x160.jpg",
+    "gameDisplayName": "Castle of Blackwater",
+    "gameId": "1947549451",
+    "rewards": [
+      {
+        "id": "564a889d-3656-11f0-adcd-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "589786693",
+              "displayName": "Roxy_Sparrow",
+              "name": "roxy_sparrow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "120783803",
+              "displayName": "just_dolly",
+              "name": "just_dolly",
+              "__typename": "Channel"
+            },
+            {
+              "id": "114115014",
+              "displayName": "steve_z_life",
+              "name": "steve_z_life",
+              "__typename": "Channel"
+            },
+            {
+              "id": "703517352",
+              "displayName": "mentalcracks",
+              "name": "mentalcracks",
+              "__typename": "Channel"
+            },
+            {
+              "id": "517792098",
+              "displayName": "Renncifer",
+              "name": "renncifer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "117169850",
+              "displayName": "ProfPapabear",
+              "name": "profpapabear",
+              "__typename": "Channel"
+            },
+            {
+              "id": "882960799",
+              "displayName": "LEROYPH",
+              "name": "leroyph",
+              "__typename": "Channel"
+            },
+            {
+              "id": "598295595",
+              "displayName": "Narutzi_tv",
+              "name": "narutzi_tv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "85706292",
+              "displayName": "A_Cute_Kuma",
+              "name": "a_cute_kuma",
+              "__typename": "Channel"
+            },
+            {
+              "id": "95971260",
+              "displayName": "tbearswe",
+              "name": "tbearswe",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://auth.game/twitch/01J493SX7Q40WQ5CGW3D8278FH/01J493SX8VYQM36103KRNE0DPT/provider",
+        "description": "For our first test with Twitch drops, we're starting with something simple... Watch CoB streams to win an awesome surfplank cosmetic. Are you ready for summer?!",
+        "detailsURL": "https://discordapp.com/channels/932559991720775690/1019170434660454451/1374767184131264533",
+        "endAt": "2025-05-31T15:10:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1947549451",
+          "slug": "castle-of-blackwater",
+          "displayName": "Castle of Blackwater",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4d3b96ff-9983-44b2-bfdc-c772d13dabd4.png",
+        "name": "Summer Single Surfer Drop",
+        "owner": {
+          "id": "abba477a-0561-49ab-9c32-43999fcdc0eb",
+          "name": "Castle of Blackwater",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-21T15:11:18Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "c284aef3-36df-11f0-8569-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9fbaf703-30a7-11f0-84d0-0a58a9feac02",
+                  "createdAt": "2025-05-14T09:41:34.598Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1947549451",
+                    "name": "Castle of Blackwater",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a28bfc76-64b2-4ae7-ae69-2a2d16feab4d.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Surfplank",
+                  "ownerOrganization": {
+                    "id": "abba477a-0561-49ab-9c32-43999fcdc0eb",
+                    "name": "Castle of Blackwater",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-31T15:10:59.998Z",
+            "name": "Summer Surf Plank",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-05-21T15:11:18Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-21T15:11:18.000Z"
+  },
+  {
     "endAt": "2025-05-31T21:29:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/948892397_IGDB-120x160.jpg",
     "gameDisplayName": "Evilmun Family",
