@@ -34707,6 +34707,135 @@
     "startAt": "2025-05-15T10:00:00.000Z"
   },
   {
+    "endAt": "2025-06-12T18:00:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21779-120x160.jpg",
+    "gameDisplayName": "League of Legends",
+    "gameId": "21779",
+    "rewards": [
+      {
+        "id": "efc13925-3736-11f0-8157-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "485855940",
+              "displayName": "lolesportstw",
+              "name": "lolesportstw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "142055874",
+              "displayName": "ltaespanol",
+              "name": "ltaespanol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36511475",
+              "displayName": "LTASul",
+              "name": "ltasul",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124425501",
+              "displayName": "LCK",
+              "name": "lck",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124420521",
+              "displayName": "LTANorth",
+              "name": "ltanorth",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124422593",
+              "displayName": "LEC",
+              "name": "lec",
+              "__typename": "Channel"
+            },
+            {
+              "id": "485725873",
+              "displayName": "LoLPacificEN",
+              "name": "lolpacificen",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36029255",
+              "displayName": "Riot Games",
+              "name": "riotgames",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection\t\t",
+        "description": "Subscribers with paid and gifted Tier 1 subscriptions will earn the special “Tell Me Everything!” emote by subscribing to participating regional channels broadcasting LoL Esports Split 2. By subscribing, fans will receive an enhanced viewing experience while providing direct support to their favorite leagues and teams. ",
+        "detailsURL": "https://lolesports.com/en-US/news/lol-esports-twitch-subscriptions",
+        "endAt": "2025-06-12T18:00:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "21779",
+          "slug": "league-of-legends",
+          "displayName": "League of Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/56be459d-47f3-4d1e-a653-64c706449dab.png",
+        "name": "Split2-SubDrop",
+        "owner": {
+          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+          "name": "Riot Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-22T18:01:51Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0fe71dad-3737-11f0-94e2-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2025-LoL-TwitchSubs-Split2Drop",
+                  "createdAt": "2025-03-18T21:30:45.981Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "21779",
+                    "name": "League of Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fbb3fba6-423b-4330-a847-0326961eff55.png",
+                  "isIosAvailable": true,
+                  "name": "Tell Me Everything Emote",
+                  "ownerOrganization": {
+                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+                    "name": "Riot Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-12T18:00:59.999Z",
+            "name": "Tell Me Everything",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-05-22T18:01:51Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-22T18:01:51.000Z"
+  },
+  {
     "endAt": "2025-06-13T03:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2068583461_IGDB-120x160.jpg",
     "gameDisplayName": "NBA 2K25",
