@@ -1,62 +1,87 @@
 [
   {
-    "endAt": "2025-05-27T03:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
-    "gameDisplayName": "NARAKA: BLADEPOINT",
-    "gameId": "515474",
+    "endAt": "2025-05-26T19:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
+    "gameDisplayName": "Tanki Online",
+    "gameId": "417810",
     "rewards": [
       {
-        "id": "de15486a-2af2-11f0-be0c-0a58a9feac02",
+        "id": "a3b84a3b-3a10-11f0-af6b-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "117023453",
+              "displayName": "TankiSport_RU",
+              "name": "tankisport_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64274116",
+              "displayName": "TankiSport_EN",
+              "name": "tankisport_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806896138",
+              "displayName": "TankiSport_RU_2",
+              "name": "tankisport_ru_2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806894175",
+              "displayName": "TankiSport_EN_2",
+              "name": "tankisport_en_2",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
-        "description": "Watch livestreams to claim your drops!",
-        "detailsURL": "https://www.narakathegame.com/news/official/20250331/32172_1223767.html",
-        "endAt": "2025-05-26T18:59:59.999Z",
+        "accountLinkURL": "https://tankionline.com/play/",
+        "description": "Watch Tanki Online eSports match livestreams and get Epic Keys in Tanki Online",
+        "detailsURL": "https://tankionline.com/",
+        "endAt": "2025-05-26T19:29:59.999Z",
         "eventBasedDrops": [],
         "game": {
-          "id": "515474",
-          "slug": "naraka-bladepoint",
-          "displayName": "NARAKA: BLADEPOINT",
+          "id": "417810",
+          "slug": "tanki-online",
+          "displayName": "Tanki Online",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0188845a-9695-4da8-b046-f0499b7528e0.png",
-        "name": "S16 Weekly Drop 5.19",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5dc4a01c-f04e-4852-8e58-cd68c880715a.jpeg",
+        "name": "SM 2025 CS R5 (1)",
         "owner": {
-          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
-          "name": "NetEase",
+          "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+          "name": "APL Publishing Ltd",
           "__typename": "Organization"
         },
-        "startAt": "2025-05-19T19:00:00Z",
+        "startAt": "2025-05-26T17:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "e6411141-2af2-11f0-9be8-0a58a9feac02",
+            "id": "bc26756a-3a10-11f0-82d0-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9133952",
-                  "createdAt": "2025-03-31T07:41:28.098Z",
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "515474",
-                    "name": "NARAKA: BLADEPOINT",
+                    "id": "417810",
+                    "name": "Tanki Online",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5d9f5b73-e85b-4af6-ac59-64864b2caf86.jpeg",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
                   "isIosAvailable": false,
-                  "name": "Twitch Drop Gift",
+                  "name": "Epic Key",
                   "ownerOrganization": {
-                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
-                    "name": "NetEase",
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -66,16 +91,409 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-05-26T18:59:59.999Z",
-            "name": "Twitch Drop Gift 5.19",
+            "endAt": "2025-05-26T19:29:59.999Z",
+            "name": "Match 1",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-05-19T19:00:00Z",
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-05-26T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "bfc803f7-3a10-11f0-b31f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-26T19:29:59.999Z",
+            "name": "Match 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-05-26T17:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
-      },
+      }
+    ],
+    "startAt": "2025-05-26T17:00:00.000Z"
+  },
+  {
+    "endAt": "2025-05-26T20:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/504651_IGDB-120x160.jpg",
+    "gameDisplayName": "MARVEL Strike Force",
+    "gameId": "504651",
+    "rewards": [
+      {
+        "id": "28647ca8-30af-11f0-b730-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://marvelstrikeforce.com/en/twitch",
+        "description": "Cheer on your favorite creators as they join the fight against Annihilus and earn some sweet rewards for watching!",
+        "detailsURL": "https://marvelstrikeforce.com/en/twitch",
+        "endAt": "2025-05-26T20:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "504651",
+          "slug": "marvel-strike-force",
+          "displayName": "MARVEL Strike Force",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e9890b72-aa49-48f3-9fd0-99d80b463946.png",
+        "name": "Road to Quasar - Week 3",
+        "owner": {
+          "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
+          "name": "Scopely",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-19T21:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5b539e47-30af-11f0-9a6f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_REPQNM3P",
+                  "createdAt": "2025-05-01T10:09:41.567Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "504651",
+                    "name": "MARVEL Strike Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/91873acd-bf2e-4713-9838-7182fa4dda75.png",
+                  "isIosAvailable": true,
+                  "name": "20,000 Intel",
+                  "ownerOrganization": {
+                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
+                    "name": "Scopely",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-26T20:59:59.998Z",
+            "name": "Reward 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-05-19T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "606428d9-30af-11f0-bab0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_ALRJ1PCO",
+                  "createdAt": "2025-03-31T11:52:21.353Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "504651",
+                    "name": "MARVEL Strike Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0f9d26e5-5c73-423b-89f4-4228c367d16c.png",
+                  "isIosAvailable": true,
+                  "name": "2M Gold",
+                  "ownerOrganization": {
+                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
+                    "name": "Scopely",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-26T20:59:59.998Z",
+            "name": "Reward 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-05-19T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6450b5bd-30af-11f0-9368-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_REPQNM3P",
+                  "createdAt": "2025-05-01T10:09:41.567Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "504651",
+                    "name": "MARVEL Strike Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/91873acd-bf2e-4713-9838-7182fa4dda75.png",
+                  "isIosAvailable": true,
+                  "name": "20,000 Intel",
+                  "ownerOrganization": {
+                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
+                    "name": "Scopely",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-26T20:59:59.998Z",
+            "name": "Reward 3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-05-19T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-19T21:00:00.000Z"
+  },
+  {
+    "endAt": "2025-05-26T22:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/707002701_IGDB-120x160.jpg",
+    "gameDisplayName": "Coryphaeus Championships",
+    "gameId": "707002701",
+    "rewards": [
+      {
+        "id": "e38e73b2-3a12-11f0-b094-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=qkxawi9g89zrh5p6kyzzxsysgq7g3h&redirect_uri=https%3A%2F%2Fwww.playcoryphaeus.com/twitch-drops&scope=channel%3Amanage%3Aredemptions+channel%3Aread%3Aredemptions+channel%3Aread%3Asubscriptions+moderator%3Aread%3Achatters+channel%3Aread%3Ahype_train+bits%3Aread",
+        "description": "Coryphaeus Spring Drops",
+        "detailsURL": "https://www.playcoryphaeus.com/twitch-drops-info",
+        "endAt": "2025-05-26T22:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "707002701",
+          "slug": "coryphaeus-championships",
+          "displayName": "Coryphaeus Championships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/eb4794f3-b5ab-480e-906c-f3f4d7491946.png",
+        "name": "Spring Drops May",
+        "owner": {
+          "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3",
+          "name": "Coryphaeus Corp",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-26T09:22:26Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "fc9467b6-3a12-11f0-8c5f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3_CUSTOM_ID_500coins",
+                  "createdAt": "2024-03-01T12:44:56.987Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "707002701",
+                    "name": "Coryphaeus Championships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/08aec75b-fc8a-4460-8929-1a9f49a0ad0c.png",
+                  "isIosAvailable": false,
+                  "name": "💰 500 C-Coins ",
+                  "ownerOrganization": {
+                    "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3",
+                    "name": "Coryphaeus Corp",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-26T22:59:59.999Z",
+            "name": "C-Coins",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 210,
+            "startAt": "2025-05-26T09:22:26Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-26T09:22:26.000Z"
+  },
+  {
+    "endAt": "2025-05-26T23:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/324223699_IGDB-120x160.jpg",
+    "gameDisplayName": "ChatTDT: Tower Defense Twitch",
+    "gameId": "324223699",
+    "rewards": [
+      {
+        "id": "107a1726-3197-11f0-bbdf-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://ayrtonalexis.com/tdt_twitch_link.html",
+        "description": "To celebrate Ayrton's 30th Birthday, ChatTDT is doing a Twitch Drop Event! Take part to get your \"Birthday Cake\" Standard Tower Skin.",
+        "detailsURL": "https://ayrtonalexis.com/tdt_drops.html",
+        "endAt": "2025-05-26T23:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "324223699",
+          "slug": "chattdt-tower-defense-twitch",
+          "displayName": "ChatTDT: Tower Defense Twitch",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1e9887ef-0586-4866-b337-25b34aad5e41.png",
+        "name": "Ayrton's 30th Birthday",
+        "owner": {
+          "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27",
+          "name": "Ayrton Alexis",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-15T14:14:07Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "c128c4bf-3197-11f0-9865-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27_CUSTOM_ID_Birthday_Cake_Standard",
+                  "createdAt": "2025-05-15T14:21:10.32Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "324223699",
+                    "name": "ChatTDT: Tower Defense Twitch",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8fa3d1b7-160d-4590-962a-119afc720a94.png",
+                  "isIosAvailable": false,
+                  "name": "Ayrton's Birthday Cake",
+                  "ownerOrganization": {
+                    "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27",
+                    "name": "Ayrton Alexis",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-26T23:59:59.999Z",
+            "name": "Birthday Cake Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2025-05-15T14:14:07Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "fc62c70a-3197-11f0-99fb-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27_CUSTOM_ID_TreeTower_Standard",
+                  "createdAt": "2025-04-13T10:37:33.774Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "324223699",
+                    "name": "ChatTDT: Tower Defense Twitch",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c4adfb1-dd81-4b70-835f-9e4878bce210.png",
+                  "isIosAvailable": false,
+                  "name": "Tree Standard Tower Skin",
+                  "ownerOrganization": {
+                    "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27",
+                    "name": "Ayrton Alexis",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-26T23:59:59.999Z",
+            "name": "Another Chance 4 Tree Tower!",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-05-15T14:14:07Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-15T14:14:07.000Z"
+  },
+  {
+    "endAt": "2025-06-02T18:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
+    "gameDisplayName": "NARAKA: BLADEPOINT",
+    "gameId": "515474",
+    "rewards": [
       {
         "id": "74aca7a7-1f29-11f0-803c-0a58a9feac02",
         "self": {
@@ -1485,498 +1903,80 @@
           }
         ],
         "__typename": "DropCampaign"
+      },
+      {
+        "id": "2909b41e-313c-11f0-94c0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
+        "description": "Watch livestreams to claim your drops!",
+        "detailsURL": "https://www.narakathegame.com/news/official/20250331/32172_1223767.html",
+        "endAt": "2025-06-02T18:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515474",
+          "slug": "naraka-bladepoint",
+          "displayName": "NARAKA: BLADEPOINT",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d48cd36c-61f0-47b3-8fe3-df39da7a58a1.png",
+        "name": "S16 Weekly Drop 5.26",
+        "owner": {
+          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+          "name": "NetEase",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-26T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "42b3664a-313c-11f0-8ad7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9133952",
+                  "createdAt": "2025-03-31T07:41:28.098Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5d9f5b73-e85b-4af6-ac59-64864b2caf86.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Drop Gift",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-02T18:59:59.999Z",
+            "name": "Twitch Drop Gift 5.26",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-05-26T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
       }
     ],
     "startAt": "2025-04-29T04:00:00.000Z"
-  },
-  {
-    "endAt": "2025-05-26T19:29:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
-    "gameDisplayName": "Tanki Online",
-    "gameId": "417810",
-    "rewards": [
-      {
-        "id": "a3b84a3b-3a10-11f0-af6b-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "117023453",
-              "displayName": "TankiSport_RU",
-              "name": "tankisport_ru",
-              "__typename": "Channel"
-            },
-            {
-              "id": "64274116",
-              "displayName": "TankiSport_EN",
-              "name": "tankisport_en",
-              "__typename": "Channel"
-            },
-            {
-              "id": "806896138",
-              "displayName": "TankiSport_RU_2",
-              "name": "tankisport_ru_2",
-              "__typename": "Channel"
-            },
-            {
-              "id": "806894175",
-              "displayName": "TankiSport_EN_2",
-              "name": "tankisport_en_2",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://tankionline.com/play/",
-        "description": "Watch Tanki Online eSports match livestreams and get Epic Keys in Tanki Online",
-        "detailsURL": "https://tankionline.com/",
-        "endAt": "2025-05-26T19:29:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "417810",
-          "slug": "tanki-online",
-          "displayName": "Tanki Online",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5dc4a01c-f04e-4852-8e58-cd68c880715a.jpeg",
-        "name": "SM 2025 CS R5 (1)",
-        "owner": {
-          "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
-          "name": "APL Publishing Ltd",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-05-26T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "bc26756a-3a10-11f0-82d0-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
-                  "createdAt": "2023-10-18T14:21:12.821Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "417810",
-                    "name": "Tanki Online",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
-                  "isIosAvailable": false,
-                  "name": "Epic Key",
-                  "ownerOrganization": {
-                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
-                    "name": "APL Publishing Ltd",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-26T19:29:59.999Z",
-            "name": "Match 1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-05-26T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "bfc803f7-3a10-11f0-b31f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
-                  "createdAt": "2023-10-18T14:21:12.821Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "417810",
-                    "name": "Tanki Online",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
-                  "isIosAvailable": false,
-                  "name": "Epic Key",
-                  "ownerOrganization": {
-                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
-                    "name": "APL Publishing Ltd",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-26T19:29:59.999Z",
-            "name": "Match 2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-05-26T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-05-26T17:00:00.000Z"
-  },
-  {
-    "endAt": "2025-05-26T20:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/504651_IGDB-120x160.jpg",
-    "gameDisplayName": "MARVEL Strike Force",
-    "gameId": "504651",
-    "rewards": [
-      {
-        "id": "28647ca8-30af-11f0-b730-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://marvelstrikeforce.com/en/twitch",
-        "description": "Cheer on your favorite creators as they join the fight against Annihilus and earn some sweet rewards for watching!",
-        "detailsURL": "https://marvelstrikeforce.com/en/twitch",
-        "endAt": "2025-05-26T20:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "504651",
-          "slug": "marvel-strike-force",
-          "displayName": "MARVEL Strike Force",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e9890b72-aa49-48f3-9fd0-99d80b463946.png",
-        "name": "Road to Quasar - Week 3",
-        "owner": {
-          "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
-          "name": "Scopely",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-05-19T21:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "5b539e47-30af-11f0-9a6f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_REPQNM3P",
-                  "createdAt": "2025-05-01T10:09:41.567Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "504651",
-                    "name": "MARVEL Strike Force",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/91873acd-bf2e-4713-9838-7182fa4dda75.png",
-                  "isIosAvailable": true,
-                  "name": "20,000 Intel",
-                  "ownerOrganization": {
-                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
-                    "name": "Scopely",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-26T20:59:59.998Z",
-            "name": "Reward 1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-05-19T21:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "606428d9-30af-11f0-bab0-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_ALRJ1PCO",
-                  "createdAt": "2025-03-31T11:52:21.353Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "504651",
-                    "name": "MARVEL Strike Force",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0f9d26e5-5c73-423b-89f4-4228c367d16c.png",
-                  "isIosAvailable": true,
-                  "name": "2M Gold",
-                  "ownerOrganization": {
-                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
-                    "name": "Scopely",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-26T20:59:59.998Z",
-            "name": "Reward 2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-05-19T21:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "6450b5bd-30af-11f0-9368-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_REPQNM3P",
-                  "createdAt": "2025-05-01T10:09:41.567Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "504651",
-                    "name": "MARVEL Strike Force",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/91873acd-bf2e-4713-9838-7182fa4dda75.png",
-                  "isIosAvailable": true,
-                  "name": "20,000 Intel",
-                  "ownerOrganization": {
-                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
-                    "name": "Scopely",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-26T20:59:59.998Z",
-            "name": "Reward 3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-05-19T21:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-05-19T21:00:00.000Z"
-  },
-  {
-    "endAt": "2025-05-26T22:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/707002701_IGDB-120x160.jpg",
-    "gameDisplayName": "Coryphaeus Championships",
-    "gameId": "707002701",
-    "rewards": [
-      {
-        "id": "e38e73b2-3a12-11f0-b094-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=qkxawi9g89zrh5p6kyzzxsysgq7g3h&redirect_uri=https%3A%2F%2Fwww.playcoryphaeus.com/twitch-drops&scope=channel%3Amanage%3Aredemptions+channel%3Aread%3Aredemptions+channel%3Aread%3Asubscriptions+moderator%3Aread%3Achatters+channel%3Aread%3Ahype_train+bits%3Aread",
-        "description": "Coryphaeus Spring Drops",
-        "detailsURL": "https://www.playcoryphaeus.com/twitch-drops-info",
-        "endAt": "2025-05-26T22:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "707002701",
-          "slug": "coryphaeus-championships",
-          "displayName": "Coryphaeus Championships",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/eb4794f3-b5ab-480e-906c-f3f4d7491946.png",
-        "name": "Spring Drops May",
-        "owner": {
-          "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3",
-          "name": "Coryphaeus Corp",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-05-26T09:22:26Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "fc9467b6-3a12-11f0-8c5f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3_CUSTOM_ID_500coins",
-                  "createdAt": "2024-03-01T12:44:56.987Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "707002701",
-                    "name": "Coryphaeus Championships",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/08aec75b-fc8a-4460-8929-1a9f49a0ad0c.png",
-                  "isIosAvailable": false,
-                  "name": "💰 500 C-Coins ",
-                  "ownerOrganization": {
-                    "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3",
-                    "name": "Coryphaeus Corp",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-26T22:59:59.999Z",
-            "name": "C-Coins",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 210,
-            "startAt": "2025-05-26T09:22:26Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-05-26T09:22:26.000Z"
-  },
-  {
-    "endAt": "2025-05-26T23:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/324223699_IGDB-120x160.jpg",
-    "gameDisplayName": "ChatTDT: Tower Defense Twitch",
-    "gameId": "324223699",
-    "rewards": [
-      {
-        "id": "107a1726-3197-11f0-bbdf-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://ayrtonalexis.com/tdt_twitch_link.html",
-        "description": "To celebrate Ayrton's 30th Birthday, ChatTDT is doing a Twitch Drop Event! Take part to get your \"Birthday Cake\" Standard Tower Skin.",
-        "detailsURL": "https://ayrtonalexis.com/tdt_drops.html",
-        "endAt": "2025-05-26T23:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "324223699",
-          "slug": "chattdt-tower-defense-twitch",
-          "displayName": "ChatTDT: Tower Defense Twitch",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1e9887ef-0586-4866-b337-25b34aad5e41.png",
-        "name": "Ayrton's 30th Birthday",
-        "owner": {
-          "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27",
-          "name": "Ayrton Alexis",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-05-15T14:14:07Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "c128c4bf-3197-11f0-9865-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27_CUSTOM_ID_Birthday_Cake_Standard",
-                  "createdAt": "2025-05-15T14:21:10.32Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "324223699",
-                    "name": "ChatTDT: Tower Defense Twitch",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8fa3d1b7-160d-4590-962a-119afc720a94.png",
-                  "isIosAvailable": false,
-                  "name": "Ayrton's Birthday Cake",
-                  "ownerOrganization": {
-                    "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27",
-                    "name": "Ayrton Alexis",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-26T23:59:59.999Z",
-            "name": "Birthday Cake Drop",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 480,
-            "startAt": "2025-05-15T14:14:07Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "fc62c70a-3197-11f0-99fb-0a58a9feac02",
-            "requiredSubs": 1,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27_CUSTOM_ID_TreeTower_Standard",
-                  "createdAt": "2025-04-13T10:37:33.774Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "324223699",
-                    "name": "ChatTDT: Tower Defense Twitch",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c4adfb1-dd81-4b70-835f-9e4878bce210.png",
-                  "isIosAvailable": false,
-                  "name": "Tree Standard Tower Skin",
-                  "ownerOrganization": {
-                    "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27",
-                    "name": "Ayrton Alexis",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-26T23:59:59.999Z",
-            "name": "Another Chance 4 Tree Tower!",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 0,
-            "startAt": "2025-05-15T14:14:07Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-05-15T14:14:07.000Z"
   },
   {
     "endAt": "2025-05-27T04:58:59.999Z",
