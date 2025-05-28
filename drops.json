@@ -549,6 +549,129 @@
     "startAt": "2025-05-27T17:59:00.000Z"
   },
   {
+    "endAt": "2025-05-28T18:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/80607_IGDB-120x160.jpg",
+    "gameDisplayName": "Elite: Dangerous",
+    "gameId": "80607",
+    "rewards": [
+      {
+        "id": "356c24ea-3bd1-11f0-a81b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "56152677",
+              "displayName": "Frontier",
+              "name": "frontier",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.frontierstore.net/elite",
+        "description": "Earn exclusive Elite Dangerous ship paint jobs by watching Frontier Unlocked!",
+        "detailsURL": "https://twitch.frontierstore.net/elite",
+        "endAt": "2025-05-28T18:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "80607",
+          "slug": "elite-dangerous",
+          "displayName": "Elite: Dangerous",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/00ca1e1e-2efe-4e1e-b67d-ad99c1725361.jpeg",
+        "name": "Frontier Unlocked May 25",
+        "owner": {
+          "id": "209d1866-cf8e-429d-90b8-8349fdf4edd2",
+          "name": "Frontier Developments",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-28T16:45:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "172b9ad8-3bd2-11f0-8470-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "209d1866-cf8e-429d-90b8-8349fdf4edd2_CUSTOM_ID_FORC_FDEV_V_ASP_1085",
+                  "createdAt": "2025-05-28T14:45:55.825Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "80607",
+                    "name": "Elite: Dangerous",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9edc0829-c1c2-45b8-91e6-f7afbba27469.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Asp Scout Synth Orange",
+                  "ownerOrganization": {
+                    "id": "209d1866-cf8e-429d-90b8-8349fdf4edd2",
+                    "name": "Frontier Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-28T18:29:59.999Z",
+            "name": "Asp Scout Synth Orange",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 20,
+            "startAt": "2025-05-28T16:45:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "1caa464e-3bd2-11f0-95c0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "209d1866-cf8e-429d-90b8-8349fdf4edd2_CUSTOM_ID_FORC_FDEV_V_FEDERAL_CORVETTE_1036",
+                  "createdAt": "2025-05-28T14:49:26.987Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "80607",
+                    "name": "Elite: Dangerous",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/19868f98-ff91-4b7f-bf1c-56e7bfcdab65.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Corvette ScoutSynthOrange",
+                  "ownerOrganization": {
+                    "id": "209d1866-cf8e-429d-90b8-8349fdf4edd2",
+                    "name": "Frontier Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-28T18:29:59.999Z",
+            "name": "Federal Corvette Synth Orange",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 20,
+            "startAt": "2025-05-28T16:45:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-28T16:45:00.000Z"
+  },
+  {
     "endAt": "2025-05-28T20:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1393304883_IGDB-120x160.jpg",
     "gameDisplayName": "Mir Tankov",
