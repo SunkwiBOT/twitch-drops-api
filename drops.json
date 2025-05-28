@@ -43262,5 +43262,85 @@
       }
     ],
     "startAt": "2025-05-26T16:00:00.000Z"
+  },
+  {
+    "endAt": "2025-06-25T05:58:59.997Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-120x160.jpg",
+    "gameDisplayName": "Star Wars: The Old Republic",
+    "gameId": "21934",
+    "rewards": [
+      {
+        "id": "ecb4086c-30ee-11f0-b4d6-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.swtor.com/",
+        "description": "Watch for 5 hours and claim the Umbaran Holo-Rancor Mount",
+        "detailsURL": "https://www.swtor.com/",
+        "endAt": "2025-06-25T05:58:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "21934",
+          "slug": "star-wars-the-old-republic",
+          "displayName": "Star Wars: The Old Republic",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1f71663b-af4d-4e34-a3dc-da4e84279b7d.png",
+        "name": "Umbaran Holo-Rancor Mount",
+        "owner": {
+          "id": "f0bf8fc6-f94a-43ae-9f26-1f99377aa691",
+          "name": "Broadsword Online Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-28T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "6318e91a-30ef-11f0-b1f9-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f0bf8fc6-f94a-43ae-9f26-1f99377aa691_CUSTOM_ID_TWITCH_HOLO_RANCOR",
+                  "createdAt": "2025-05-14T18:13:06.361Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "21934",
+                    "name": "Star Wars: The Old Republic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/78371332-715d-4be0-8999-25b11dc10592.png",
+                  "isIosAvailable": false,
+                  "name": "Umbaran Holo-Rancor Mount",
+                  "ownerOrganization": {
+                    "id": "f0bf8fc6-f94a-43ae-9f26-1f99377aa691",
+                    "name": "Broadsword Online Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-25T05:58:59.997Z",
+            "name": "Umbaran Holo-Rancor",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2025-05-28T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-28T16:00:00.000Z"
   }
 ]
