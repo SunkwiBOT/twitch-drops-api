@@ -6,156 +6,6 @@
     "gameId": "1320984402",
     "rewards": [
       {
-        "id": "f7fee363-245b-11f0-94bd-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "1281399157",
-              "displayName": "redhotnetwork",
-              "name": "redhotnetwork",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
-        "description": "Tune into In The Huddle to earn Twitch Drops to level up your Ultimate Team.",
-        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
-        "endAt": "2025-05-30T02:58:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1320984402",
-          "slug": "ea-sports-madden-nfl-25",
-          "displayName": "Madden NFL 25",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a579236b-d190-4a54-888e-ecd046d3945a.jpeg",
-        "name": "Red Hot Gaming",
-        "owner": {
-          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-          "name": "Electronic Arts",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-05-29T22:30:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "69faa907-245c-11f0-94bd-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M25-GMM-272",
-                  "createdAt": "2025-04-28T18:14:38.532Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1320984402",
-                    "name": "Madden NFL 25",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dead64b7-627a-494d-b134-ed733084c203.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-30T02:58:59.999Z",
-            "name": "Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-05-29T22:30:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "6cc51b7c-245c-11f0-b160-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M25-GMM-273",
-                  "createdAt": "2025-04-28T18:14:53.719Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1320984402",
-                    "name": "Madden NFL 25",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e6afa54-3dbf-4302-bf1b-e147e2933a3f.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-30T02:58:59.999Z",
-            "name": "Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-05-29T22:30:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "7054ddb6-245c-11f0-a2d3-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M25-GMM-274",
-                  "createdAt": "2025-04-28T18:15:09.894Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1320984402",
-                    "name": "Madden NFL 25",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/63998436-e5e9-4e10-aaf5-cf25118a143a.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-05-30T02:58:59.999Z",
-            "name": "Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-05-29T22:30:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
         "id": "0de0406e-2a9d-11f0-b030-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -306,7 +156,94 @@
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2025-05-29T22:30:00.000Z"
+    "startAt": "2025-05-29T23:30:00.000Z"
+  },
+  {
+    "endAt": "2025-05-30T05:00:00.000Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509663-120x160.jpg",
+    "gameDisplayName": "Special Events",
+    "gameId": "509663",
+    "rewards": [
+      {
+        "id": "f59df2ca-3cd0-11f0-bb68-12e2236bf415",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "672238954",
+              "displayName": "plaqueboymax",
+              "name": "plaqueboymax",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.twitch.tv/",
+        "description": "This badge is awarded for watching Plaqueboymax's mixtape release stream.",
+        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+        "endAt": "2025-05-30T05:00:00Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "509663",
+          "slug": "special-events",
+          "displayName": "Special Events",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/badges/v1/840b5e9d-c427-47a7-9568-2aef6fee73db/3",
+        "name": "Plaqueboymax Mixtape",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-30T03:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f5bc0602-3cd0-11f0-bb68-12e2236bf415",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f52228de-3cd0-11f0-bb68-12e2236bf415",
+                  "createdAt": "2025-05-29T21:07:41.2Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509663",
+                    "name": "Special Events",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/badges/v1/840b5e9d-c427-47a7-9568-2aef6fee73db/3",
+                  "isIosAvailable": false,
+                  "name": "Plaqueboymax Mixtape",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-30T05:00:00Z",
+            "name": "Plaqueboymax Mixtape Reward Group",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-05-30T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-30T03:00:00.000Z"
   },
   {
     "endAt": "2025-05-30T05:59:59.999Z",
