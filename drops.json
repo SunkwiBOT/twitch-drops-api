@@ -755,6 +755,93 @@
     "startAt": "2025-05-29T13:00:00.000Z"
   },
   {
+    "endAt": "2025-05-30T12:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
+    "rewards": [
+      {
+        "id": "672fcd3c-3a73-11f0-a328-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "93072548",
+              "displayName": "kalon75",
+              "name": "kalon75",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Watch kalon75 for 30 minutes to receive an Efervon Tank Domestik Drone decoration!",
+        "detailsURL": "https://forums.warframe.com/topic/1456002-community-stream-schedule-may-26-31-2025/",
+        "endAt": "2025-05-30T12:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/04b5e43e-cd13-4067-80ba-401f088f0268.jpeg",
+        "name": "Community Drops #123",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-30T11:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7a51b6ff-3a73-11f0-82d0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "37b2580d-0f2e-11f0-a421-0a58a9feac02",
+                  "createdAt": "2025-04-01T19:19:22.583Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "66170",
+                    "name": "Warframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/37820de8-2877-45d6-8801-dff1d2e3b76c.jpeg",
+                  "isIosAvailable": true,
+                  "name": "M-09 Tank Domestik Drone",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-30T12:59:59.998Z",
+            "name": "Efervon Tank Domestik Drone",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-05-30T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-30T11:00:00.000Z"
+  },
+  {
     "endAt": "2025-05-30T14:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
     "gameDisplayName": "World of Tanks",
