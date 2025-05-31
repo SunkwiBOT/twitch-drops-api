@@ -3407,6 +3407,129 @@
     "startAt": "2025-05-30T17:59:00.000Z"
   },
   {
+    "endAt": "2025-05-31T17:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
+    "gameDisplayName": "Mir Korabley",
+    "gameId": "2133072147",
+    "rewards": [
+      {
+        "id": "3c2cf385-2b36-11f0-8918-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "793098652",
+              "displayName": "LestaKorabli",
+              "name": "lestakorabli",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://lesta.ru/personal/?bind-external=twitch",
+        "description": "Во время просмотра трансляций турнира «Путь к Победе!» на официальном канале и на каналах официальных стримеров можно будет получить множество наград, среди которых:\n• Жетоны единства\n• Контейнер «Тактический»\n• 5000 дублонов\n• Премиум контейнер «Слава победителям»\n• Премиум корабли VIII уровня\n• И другие награды",
+        "detailsURL": "https://korabli.su/ru/news/sales-and-events/stream-rewards-255/",
+        "endAt": "2025-05-31T17:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2133072147",
+          "slug": "mir-korabley",
+          "displayName": "Mir Korabley",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/93d626e2-5832-415b-889d-ae4c5c3fcb91.png",
+        "name": "«Путь к Победе!» — День 1",
+        "owner": {
+          "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+          "name": "Lesta Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-31T10:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "dd56db03-2b36-11f0-9977-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_2505_TWITCH_1S",
+                  "createdAt": "2025-05-07T11:24:11.774Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2133072147",
+                    "name": "Mir Korabley",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/49f21773-864e-40a8-ab3b-d2b622d0b3b5.png",
+                  "isIosAvailable": false,
+                  "name": "Турнирная задача мая #1",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-31T17:59:59.999Z",
+            "name": "Задача «Путь к победе!» #1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-05-31T10:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f6a077bf-2b36-11f0-9551-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_PRM_2505_1",
+                  "createdAt": "2025-05-07T11:22:12.782Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2133072147",
+                    "name": "Mir Korabley",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3a2725e0-6fc0-4c65-814c-08f18e6f733c.png",
+                  "isIosAvailable": false,
+                  "name": "Турнирный бокс мая #1",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-31T17:59:59.999Z",
+            "name": "Награда «Путь к победе!» #1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-05-31T10:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-31T10:30:00.000Z"
+  },
+  {
     "endAt": "2025-05-31T21:29:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/948892397_IGDB-120x160.jpg",
     "gameDisplayName": "Evilmun Family",
