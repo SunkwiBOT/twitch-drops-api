@@ -159,7 +159,7 @@
     "startAt": "2025-05-30T22:30:00.000Z"
   },
   {
-    "endAt": "2025-05-31T02:59:59.999Z",
+    "endAt": "2025-05-31T14:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/380978759_IGDB-120x160.jpg",
     "gameDisplayName": "Escape from Tarkov: Arena",
     "gameId": "380978759",
@@ -410,6 +410,257 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 360,
             "startAt": "2025-05-30T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "75c49452-3c79-11f0-9a58-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.escapefromtarkov.com/profile",
+        "description": "In honor of the summer season, a new series of Free Weekends in Escape from Tarkov: Arena is starting. Along with free access, players can expect a new quest chain and double experience in Battlepass Season 0. Twitch drops will be enabled for the entire EFT: Arena category. Players can earn various in-game rewards by watching EFT: Arena streams. ",
+        "detailsURL": "https://tarkov.com/s/free_weekend_3_twitch_description_en",
+        "endAt": "2025-05-31T14:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "380978759",
+          "slug": "escape-from-tarkov-arena",
+          "displayName": "Escape from Tarkov: Arena",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/78245c99-2114-42cc-8ae7-860753ff29e9.png",
+        "name": "Arena Free Weekend 3 1.2",
+        "owner": {
+          "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
+          "name": "Battlestate Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-31T03:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "8e63fbdd-3c79-11f0-be6f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cb74a9e3-38be-41c8-90c9-a746079ea512_CUSTOM_ID_6836025795db612e2902f67e",
+                  "createdAt": "2025-05-29T18:09:33.143Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "380978759",
+                    "name": "Escape from Tarkov: Arena",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/51eb6f55-e557-4e3a-8fcc-bb0eb67f5504.png",
+                  "isIosAvailable": false,
+                  "name": "Drop 1",
+                  "ownerOrganization": {
+                    "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
+                    "name": "Battlestate Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-31T14:59:59.999Z",
+            "name": "Drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-05-31T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "94845675-3c79-11f0-a592-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cb74a9e3-38be-41c8-90c9-a746079ea512_CUSTOM_ID_683602732c33a86d2a05190f",
+                  "createdAt": "2025-05-29T18:09:47.179Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "380978759",
+                    "name": "Escape from Tarkov: Arena",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/035f9417-21b9-4459-a869-7bd4159b65e8.png",
+                  "isIosAvailable": false,
+                  "name": "Drop 2",
+                  "ownerOrganization": {
+                    "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
+                    "name": "Battlestate Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-31T14:59:59.999Z",
+            "name": "Drop 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-05-31T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "987cbb3a-3c79-11f0-8b7b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cb74a9e3-38be-41c8-90c9-a746079ea512_CUSTOM_ID_6836028f8a924d661b065ccb",
+                  "createdAt": "2025-05-29T18:10:06.565Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "380978759",
+                    "name": "Escape from Tarkov: Arena",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/43bf0906-8483-4429-8a56-eaa16449dce4.png",
+                  "isIosAvailable": false,
+                  "name": "Drop 3",
+                  "ownerOrganization": {
+                    "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
+                    "name": "Battlestate Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-31T14:59:59.999Z",
+            "name": "Drop 3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-05-31T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9c890d49-3c79-11f0-b790-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cb74a9e3-38be-41c8-90c9-a746079ea512_CUSTOM_ID_683602c5bc174f1fca0cf4fe",
+                  "createdAt": "2025-05-29T18:10:31.904Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "380978759",
+                    "name": "Escape from Tarkov: Arena",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9067a96d-b52c-4b5e-8206-3f5ee136bb29.png",
+                  "isIosAvailable": false,
+                  "name": "Drop 4",
+                  "ownerOrganization": {
+                    "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
+                    "name": "Battlestate Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-31T14:59:59.999Z",
+            "name": "Drop 4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-05-31T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a0a65116-3c79-11f0-a534-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cb74a9e3-38be-41c8-90c9-a746079ea512_CUSTOM_ID_683605a995510038be0399e6",
+                  "createdAt": "2025-05-29T18:10:48.46Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "380978759",
+                    "name": "Escape from Tarkov: Arena",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cd1e92eb-60ef-4759-83e8-fcb38cf48293.png",
+                  "isIosAvailable": false,
+                  "name": "Drop 5",
+                  "ownerOrganization": {
+                    "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
+                    "name": "Battlestate Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-31T14:59:59.999Z",
+            "name": "Drop 5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2025-05-31T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a4dcf7a1-3c79-11f0-be6f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cb74a9e3-38be-41c8-90c9-a746079ea512_CUSTOM_ID_683605dce3181b38db0b1c1a",
+                  "createdAt": "2025-05-29T18:11:07.544Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "380978759",
+                    "name": "Escape from Tarkov: Arena",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c477c9f-602e-4e1c-a928-80ee5e04c07b.png",
+                  "isIosAvailable": false,
+                  "name": "Drop 6",
+                  "ownerOrganization": {
+                    "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
+                    "name": "Battlestate Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-05-31T14:59:59.999Z",
+            "name": "Drop 6",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-05-31T03:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
