@@ -1,403 +1,5 @@
 [
   {
-    "endAt": "2025-06-16T05:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
-    "gameDisplayName": "Overwatch 2",
-    "gameId": "515025",
-    "rewards": [
-      {
-        "id": "15824640-3598-11f0-bdea-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.battle.net/connections",
-        "description": "Enjoy Overwatch 2's Season 16 midseason with lootbox drops! Watch any of your favorite Overwatch 2 creators to receive 1 lootbox and 1 epic lootbox! ",
-        "detailsURL": "https://us.forums.blizzard.com/en/overwatch/t/earn-a-loot-box-and-an-epic-loot-box-on-twitch/965942",
-        "endAt": "2025-06-02T06:58:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "515025",
-          "slug": "overwatch-2",
-          "displayName": "Overwatch 2",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e1565d34-c437-48d7-9e00-2c9c982d5448.png",
-        "name": "Season 16 Midseason Drops",
-        "owner": {
-          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-          "name": "Blizzard",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-05-20T18:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "b5b89d24-35a0-11f0-9d6e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1905975",
-                  "createdAt": "2025-03-17T02:03:31.463Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "515025",
-                    "name": "Overwatch 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d4bd64f6-79c3-45fc-9a26-5c787129328d.png",
-                  "isIosAvailable": false,
-                  "name": "Lootbox",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-02T06:58:59.998Z",
-            "name": "Lootbox",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-05-20T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "bc15578c-35a0-11f0-87ac-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1936550",
-                  "createdAt": "2025-05-20T17:35:47.235Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "515025",
-                    "name": "Overwatch 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6e458c8f-b880-4116-88e6-cd10b90ad50f.png",
-                  "isIosAvailable": false,
-                  "name": "Epic Lootbox",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-02T06:58:59.998Z",
-            "name": "Epic Lootbox",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 300,
-            "startAt": "2025-05-20T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "57863276-3cad-11f0-942e-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "137512364",
-              "displayName": "ow_esports",
-              "name": "ow_esports",
-              "__typename": "Channel"
-            },
-            {
-              "id": "882546504",
-              "displayName": "OW_ESPORTS_JP",
-              "name": "ow_esports_jp",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1032230053",
-              "displayName": "ow_esports_th",
-              "name": "ow_esports_th",
-              "__typename": "Channel"
-            },
-            {
-              "id": "42450967",
-              "displayName": "Unter",
-              "name": "unter",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27689704",
-              "displayName": "CommanderX",
-              "name": "commanderx",
-              "__typename": "Channel"
-            },
-            {
-              "id": "125129801",
-              "displayName": "AVRL",
-              "name": "avrl",
-              "__typename": "Channel"
-            },
-            {
-              "id": "23155607",
-              "displayName": "Fitzyhere",
-              "name": "fitzyhere",
-              "__typename": "Channel"
-            },
-            {
-              "id": "26008371",
-              "displayName": "Toniki",
-              "name": "toniki",
-              "__typename": "Channel"
-            },
-            {
-              "id": "40634935",
-              "displayName": "Txao",
-              "name": "txao",
-              "__typename": "Channel"
-            },
-            {
-              "id": "39585857",
-              "displayName": "Virtuspro",
-              "name": "virtuspro",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1134253144",
-              "displayName": "ExtinctionNA1",
-              "name": "extinctionna1",
-              "__typename": "Channel"
-            },
-            {
-              "id": "150716625",
-              "displayName": "FefeGG",
-              "name": "fefegg",
-              "__typename": "Channel"
-            },
-            {
-              "id": "124994203",
-              "displayName": "Rakattack",
-              "name": "rakattack",
-              "__typename": "Channel"
-            },
-            {
-              "id": "23220337",
-              "displayName": "Emongg",
-              "name": "emongg",
-              "__typename": "Channel"
-            },
-            {
-              "id": "477111082",
-              "displayName": "owBRAIN",
-              "name": "owbrain",
-              "__typename": "Channel"
-            },
-            {
-              "id": "702304589",
-              "displayName": "TwisMinds",
-              "name": "twisminds",
-              "__typename": "Channel"
-            },
-            {
-              "id": "86224100",
-              "displayName": "pge4",
-              "name": "pge4",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.battle.net/connections",
-        "description": "Kickoff the Overwatch Champions Series with special viewer rewards!  Watch 2 hours to get the OWCS Potionmaker Spray, 4 hours to get the Queen Gains Icon, 6 hours to get the PC Bang Spray, and 8 hours to get the OWCS Night Sky Name Card.",
-        "detailsURL": "https://esports.overwatch.com/en-us/rewards",
-        "endAt": "2025-06-16T05:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "515025",
-          "slug": "overwatch-2",
-          "displayName": "Overwatch 2",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/73f4f9d7-ef40-4b69-bc6e-fc4a02e80dff.png",
-        "name": "OWCS 25' Stage 2 Groups 2",
-        "owner": {
-          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-          "name": "Blizzard",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-05-30T00:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "77df17a6-3cad-11f0-b692-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1936536",
-                  "createdAt": "2025-05-07T16:39:04.803Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "515025",
-                    "name": "Overwatch 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8d49b9e2-ecfa-4647-97db-aa05fd03cce4.png",
-                  "isIosAvailable": false,
-                  "name": "OWCS Potionmaker Spray",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-16T05:59:59.999Z",
-            "name": "OWCS Potionmaker Spray",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-05-30T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "80c9394f-3cad-11f0-8fa4-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1831619",
-                  "createdAt": "2025-05-07T16:39:38.977Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "515025",
-                    "name": "Overwatch 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fef378e5-ca32-4d25-ba99-560a8de3e4a7.png",
-                  "isIosAvailable": false,
-                  "name": "Queen Gains Icon",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-16T05:59:59.999Z",
-            "name": "Queen Gains Icon",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-05-30T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "8b8ee9cc-3cad-11f0-824e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1844024",
-                  "createdAt": "2025-05-07T16:40:12.17Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "515025",
-                    "name": "Overwatch 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/53e49e57-f39c-4155-afaa-264ba32c1967.png",
-                  "isIosAvailable": false,
-                  "name": "PC bang Spray",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-16T05:59:59.999Z",
-            "name": "PC Bang Spray",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2025-05-30T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "9f9e752c-3cad-11f0-b07b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1936458",
-                  "createdAt": "2025-05-07T16:40:58.818Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "515025",
-                    "name": "Overwatch 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f75c0e1a-3cd4-4b20-9516-b00b7931f563.png",
-                  "isIosAvailable": false,
-                  "name": "OWCS Night Sky Name Card",
-                  "ownerOrganization": {
-                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
-                    "name": "Blizzard",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-16T05:59:59.999Z",
-            "name": "OWCS Night Sky Name Card",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 480,
-            "startAt": "2025-05-30T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-05-20T18:00:00.000Z"
-  },
-  {
     "endAt": "2025-06-02T09:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
     "gameDisplayName": "Albion Online",
@@ -37764,6 +37366,297 @@
       }
     ],
     "startAt": "2025-06-01T09:00:00.000Z"
+  },
+  {
+    "endAt": "2025-06-16T05:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
+    "gameDisplayName": "Overwatch 2",
+    "gameId": "515025",
+    "rewards": [
+      {
+        "id": "57863276-3cad-11f0-942e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "137512364",
+              "displayName": "ow_esports",
+              "name": "ow_esports",
+              "__typename": "Channel"
+            },
+            {
+              "id": "882546504",
+              "displayName": "OW_ESPORTS_JP",
+              "name": "ow_esports_jp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1032230053",
+              "displayName": "ow_esports_th",
+              "name": "ow_esports_th",
+              "__typename": "Channel"
+            },
+            {
+              "id": "42450967",
+              "displayName": "Unter",
+              "name": "unter",
+              "__typename": "Channel"
+            },
+            {
+              "id": "27689704",
+              "displayName": "CommanderX",
+              "name": "commanderx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "125129801",
+              "displayName": "AVRL",
+              "name": "avrl",
+              "__typename": "Channel"
+            },
+            {
+              "id": "23155607",
+              "displayName": "Fitzyhere",
+              "name": "fitzyhere",
+              "__typename": "Channel"
+            },
+            {
+              "id": "26008371",
+              "displayName": "Toniki",
+              "name": "toniki",
+              "__typename": "Channel"
+            },
+            {
+              "id": "40634935",
+              "displayName": "Txao",
+              "name": "txao",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39585857",
+              "displayName": "Virtuspro",
+              "name": "virtuspro",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1134253144",
+              "displayName": "ExtinctionNA1",
+              "name": "extinctionna1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "150716625",
+              "displayName": "FefeGG",
+              "name": "fefegg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124994203",
+              "displayName": "Rakattack",
+              "name": "rakattack",
+              "__typename": "Channel"
+            },
+            {
+              "id": "23220337",
+              "displayName": "Emongg",
+              "name": "emongg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "477111082",
+              "displayName": "owBRAIN",
+              "name": "owbrain",
+              "__typename": "Channel"
+            },
+            {
+              "id": "702304589",
+              "displayName": "TwisMinds",
+              "name": "twisminds",
+              "__typename": "Channel"
+            },
+            {
+              "id": "86224100",
+              "displayName": "pge4",
+              "name": "pge4",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.battle.net/connections",
+        "description": "Kickoff the Overwatch Champions Series with special viewer rewards!  Watch 2 hours to get the OWCS Potionmaker Spray, 4 hours to get the Queen Gains Icon, 6 hours to get the PC Bang Spray, and 8 hours to get the OWCS Night Sky Name Card.",
+        "detailsURL": "https://esports.overwatch.com/en-us/rewards",
+        "endAt": "2025-06-16T05:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515025",
+          "slug": "overwatch-2",
+          "displayName": "Overwatch 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/73f4f9d7-ef40-4b69-bc6e-fc4a02e80dff.png",
+        "name": "OWCS 25' Stage 2 Groups 2",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-30T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "77df17a6-3cad-11f0-b692-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1936536",
+                  "createdAt": "2025-05-07T16:39:04.803Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8d49b9e2-ecfa-4647-97db-aa05fd03cce4.png",
+                  "isIosAvailable": false,
+                  "name": "OWCS Potionmaker Spray",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-16T05:59:59.999Z",
+            "name": "OWCS Potionmaker Spray",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-05-30T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "80c9394f-3cad-11f0-8fa4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1831619",
+                  "createdAt": "2025-05-07T16:39:38.977Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fef378e5-ca32-4d25-ba99-560a8de3e4a7.png",
+                  "isIosAvailable": false,
+                  "name": "Queen Gains Icon",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-16T05:59:59.999Z",
+            "name": "Queen Gains Icon",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-05-30T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "8b8ee9cc-3cad-11f0-824e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1844024",
+                  "createdAt": "2025-05-07T16:40:12.17Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/53e49e57-f39c-4155-afaa-264ba32c1967.png",
+                  "isIosAvailable": false,
+                  "name": "PC bang Spray",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-16T05:59:59.999Z",
+            "name": "PC Bang Spray",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-05-30T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9f9e752c-3cad-11f0-b07b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1936458",
+                  "createdAt": "2025-05-07T16:40:58.818Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f75c0e1a-3cd4-4b20-9516-b00b7931f563.png",
+                  "isIosAvailable": false,
+                  "name": "OWCS Night Sky Name Card",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-16T05:59:59.999Z",
+            "name": "OWCS Night Sky Name Card",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2025-05-30T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-30T00:00:00.000Z"
   },
   {
     "endAt": "2025-06-17T09:59:59.999Z",
