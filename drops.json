@@ -1805,6 +1805,86 @@
     "startAt": "2025-05-30T15:00:00.000Z"
   },
   {
+    "endAt": "2025-06-06T04:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/29307_IGDB-120x160.jpg",
+    "gameDisplayName": "Path of Exile",
+    "gameId": "29307",
+    "rewards": [
+      {
+        "id": "aab69533-401f-11f0-9850-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.pathofexile.com/my-account/twitch",
+        "description": "Join us as we unravel the mysteries the Originator has woven throughout the Atlas. ",
+        "detailsURL": "https://www.pathofexile.com/twitchdrops",
+        "endAt": "2025-06-06T04:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "29307",
+          "slug": "path-of-exile",
+          "displayName": "Path of Exile",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/90522d6a-401f-4c92-91f0-4c83b4a28748.jpeg",
+        "name": "Secrets of the Atlas Drop",
+        "owner": {
+          "id": "f751ba67-7c8b-4c41-b6df-bcea0914f3ad",
+          "name": "Grinding Gear Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-05T20:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f6f2d066-401f-11f0-8aec-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f751ba67-7c8b-4c41-b6df-bcea0914f3ad_CUSTOM_ID_SkullOfUndeathHelmet",
+                  "createdAt": "2025-06-03T02:21:48.023Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29307",
+                    "name": "Path of Exile",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02b73016-085a-4044-b00c-105841f71ae2.png",
+                  "isIosAvailable": false,
+                  "name": "Skull of Undeath",
+                  "ownerOrganization": {
+                    "id": "f751ba67-7c8b-4c41-b6df-bcea0914f3ad",
+                    "name": "Grinding Gear Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-06T04:59:59.999Z",
+            "name": "Skull of Undeath",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-06-05T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-05T20:00:00.000Z"
+  },
+  {
     "endAt": "2025-06-06T09:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
     "gameDisplayName": "Albion Online",
