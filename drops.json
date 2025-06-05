@@ -50007,6 +50007,86 @@
     "startAt": "2025-05-23T08:00:00.000Z"
   },
   {
+    "endAt": "2025-06-20T22:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511224-120x160.jpg",
+    "gameDisplayName": "Apex Legends",
+    "gameId": "511224",
+    "rewards": [
+      {
+        "id": "11f143eb-4256-11f0-94b5-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "Gift subs to your favorite creator to unlock the Crimson Slash gun skins and the Laster Tagged Loba skin",
+        "detailsURL": "https://www.ea.com/games/apex-legends/apex-legends",
+        "endAt": "2025-06-20T22:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511224",
+          "slug": "apex-legends",
+          "displayName": "Apex Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "COPY OF Test Campaign",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-05T21:47:54Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "60a45f91-4256-11f0-8dc2-0a58a9feac02",
+            "requiredSubs": 3,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_algs_s20_weapon_charm",
+                  "createdAt": "2024-04-26T01:38:45.371Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9ccd2893-76bd-4ad5-b55d-fa4b0505468b.png",
+                  "isIosAvailable": false,
+                  "name": "ALGNess Weapon Charm",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-20T22:29:59.999Z",
+            "name": "test 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-06-05T21:47:54Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-05T21:47:54.000Z"
+  },
+  {
     "endAt": "2025-06-23T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2113043143_IGDB-120x160.jpg",
     "gameDisplayName": "PAYDAY 3",
