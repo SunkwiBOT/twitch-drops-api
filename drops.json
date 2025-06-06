@@ -614,6 +614,86 @@
     "startAt": "2025-06-06T09:30:54.000Z"
   },
   {
+    "endAt": "2025-06-06T23:29:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2091334386-120x160.jpg",
+    "gameDisplayName": "Summer Game Fest",
+    "gameId": "2091334386",
+    "rewards": [
+      {
+        "id": "c3da86aa-3fdb-11f0-8aff-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://soulframe.com/user",
+        "description": "Watch Summer Game Fest and get pre-alpha access to Digital Extreme's upcoming title: Soulframe!",
+        "detailsURL": "https://www.soulframe.com/en/news/soulframe-twitch-drops-at-summer-games-fest ",
+        "endAt": "2025-06-06T23:29:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2091334386",
+          "slug": "summer-game-fest",
+          "displayName": "Summer Game Fest",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9cad32b9-6016-4e56-b869-c8b0482980fe.png",
+        "name": "Summer Game Fest 2025",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-06T20:45:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3997a478-3fdc-11f0-94f2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d32de13d-937e-4196-8198-1a7f875f295a_CUSTOM_ID_d9d4bcf1-1a31-11f0-99e5-0a58a9feac02",
+                  "createdAt": "2025-06-02T18:06:31.727Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2091334386",
+                    "name": "Summer Game Fest",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4fe3b7fc-7b28-443e-81f4-0fd916d36d12.png",
+                  "isIosAvailable": false,
+                  "name": "SoulFrame",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-06T23:29:59.998Z",
+            "name": "SoulFrame",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-06-06T20:45:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-06T20:45:00.000Z"
+  },
+  {
     "endAt": "2025-06-07T06:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/138585-120x160.jpg",
     "gameDisplayName": "Hearthstone",
