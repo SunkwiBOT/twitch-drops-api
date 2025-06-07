@@ -1,5 +1,92 @@
 [
   {
+    "endAt": "2025-06-07T21:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509663-120x160.jpg",
+    "gameDisplayName": "Special Events",
+    "gameId": "509663",
+    "rewards": [
+      {
+        "id": "11444a1a-3fd8-11f0-910f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "845100639",
+              "displayName": "FutureGamesShow",
+              "name": "futuregamesshow",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.thefinals.wiki/wiki/Twitch_Drops",
+        "description": "Future Games Show on June 7th",
+        "detailsURL": "https://www.futuregamesshow.com/",
+        "endAt": "2025-06-07T21:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "509663",
+          "slug": "special-events",
+          "displayName": "Special Events",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a74e666e-8fcd-419b-883e-e36406311e1f.png",
+        "name": "Future Games Show",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-07T20:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "6d509ad2-3fd9-11f0-874a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d32de13d-937e-4196-8198-1a7f875f295a_CUSTOM_ID_kablammo",
+                  "createdAt": "2025-06-02T17:48:43.025Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509663",
+                    "name": "Special Events",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/77635e36-9743-4300-90ba-1892112d086b.png",
+                  "isIosAvailable": false,
+                  "name": "Kablammo",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-07T21:59:59.999Z",
+            "name": "KABLAMMO!",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-06-07T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-07T20:00:00.000Z"
+  },
+  {
     "endAt": "2025-06-07T22:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/707002701_IGDB-120x160.jpg",
     "gameDisplayName": "Coryphaeus Championships",
