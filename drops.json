@@ -1,322 +1,5 @@
 [
   {
-    "endAt": "2025-06-08T16:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/513501_IGDB-120x160.jpg",
-    "gameDisplayName": "Standoff 2",
-    "gameId": "513501",
-    "rewards": [
-      {
-        "id": "a5dc20e2-3d5e-11f0-8482-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "1124895128",
-              "displayName": "standoff2esports_ru",
-              "name": "standoff2esports_ru",
-              "__typename": "Channel"
-            },
-            {
-              "id": "106631515",
-              "displayName": "Standoff2RuHub",
-              "name": "standoff2ruhub",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://link.standoff2.com/twitch/link/",
-        "description": "Twitch Drops — это система наград, которая позволяет зрителям стрима получать внутриигровые предметы за просмотр трансляции в течение определенного времени.     \n\nКак получить награды: – Зайдите в игру и убедитесь, что учетная запись привязана к тому же Twitch-аккаунту. – Накопите необходимое время просмотра на официальном канале Standoff 2. – Отслеживайте свой прогресс в разделе Drops на Twitch (обычно находится в профиле Twitch → «Drops и награды»).",
-        "detailsURL": "https://install.standoff2.com/ru/twitch-drops",
-        "endAt": "2025-06-08T16:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "513501",
-          "slug": "standoff-2",
-          "displayName": "Standoff 2",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/18655ebf-85ff-4e48-a6aa-2ee728a0da62.png",
-        "name": "Cosmo: Playoff 8 june",
-        "owner": {
-          "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-          "name": "Axlebolt",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-06-08T10:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "ce69d828-3d5e-11f0-9dfd-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate",
-                  "createdAt": "2025-05-30T13:18:07.828Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ddf84b3-d74f-4ae4-b3ef-4b0016c14c84.png",
-                  "isIosAvailable": false,
-                  "name": "\"Stream\" crate",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-08T16:59:59.998Z",
-            "name": "reward_stream_crate_1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-06-08T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "d17190c2-3d5e-11f0-8154-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate",
-                  "createdAt": "2025-05-30T13:18:07.828Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ddf84b3-d74f-4ae4-b3ef-4b0016c14c84.png",
-                  "isIosAvailable": false,
-                  "name": "\"Stream\" crate",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-08T16:59:59.998Z",
-            "name": "reward_stream_crate_2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-06-08T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "d4dae824-3d5e-11f0-992a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate",
-                  "createdAt": "2025-05-30T13:18:07.828Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ddf84b3-d74f-4ae4-b3ef-4b0016c14c84.png",
-                  "isIosAvailable": false,
-                  "name": "\"Stream\" crate",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-08T16:59:59.998Z",
-            "name": "reward_stream_crate_3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-06-08T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "d81fa72c-3d5e-11f0-a8aa-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate",
-                  "createdAt": "2025-05-30T13:18:07.828Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ddf84b3-d74f-4ae4-b3ef-4b0016c14c84.png",
-                  "isIosAvailable": false,
-                  "name": "\"Stream\" crate",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-08T16:59:59.998Z",
-            "name": "reward_stream_crate_4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-06-08T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "dc304e71-3d5e-11f0-9dfd-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate",
-                  "createdAt": "2025-05-30T13:18:07.828Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ddf84b3-d74f-4ae4-b3ef-4b0016c14c84.png",
-                  "isIosAvailable": false,
-                  "name": "\"Stream\" crate",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-08T16:59:59.998Z",
-            "name": "reward_stream_crate_5",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 300,
-            "startAt": "2025-06-08T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-06-08T10:00:00.000Z"
-  },
-  {
-    "endAt": "2025-06-08T16:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/19801_IGDB-120x160.jpg",
-    "gameDisplayName": "Throne and Liberty",
-    "gameId": "19801",
-    "rewards": [
-      {
-        "id": "6a321403-3cfb-11f0-ba39-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.playthroneandliberty.com/twitch-drops",
-        "description": "BIG week 2 = 40 purple polish crystals (update w/ QA signoff)",
-        "detailsURL": "https://www.playthroneandliberty.com/twitch-drops",
-        "endAt": "2025-06-08T16:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "19801",
-          "slug": "throne-and-liberty",
-          "displayName": "Throne and Liberty",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c628286a-6c87-469f-926d-124db88aaac8.jpeg",
-        "name": "Best in Guild Week 2",
-        "owner": {
-          "id": "295d0854-31a5-43cf-b7d7-3eeaedf905ae",
-          "name": "NCSOFT + Amazon Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-06-02T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "74704388-3cfb-11f0-bfdf-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "d3df2b1d-3cfb-11f0-9f24-0a58a9feac02",
-                  "createdAt": "2025-05-30T02:14:33.756Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "19801",
-                    "name": "Throne and Liberty",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6571dd50-d9e4-4731-8cdc-b396462b605a.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Purple Polished Cystals",
-                  "ownerOrganization": {
-                    "id": "295d0854-31a5-43cf-b7d7-3eeaedf905ae",
-                    "name": "NCSOFT + Amazon Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-08T16:59:59.999Z",
-            "name": "Purple Polished Crystals",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-06-02T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-06-02T17:00:00.000Z"
-  },
-  {
     "endAt": "2025-06-08T17:57:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
     "gameDisplayName": "Rise Online",
@@ -1523,6 +1206,234 @@
       }
     ],
     "startAt": "2025-06-07T19:00:00.000Z"
+  },
+  {
+    "endAt": "2025-06-08T18:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
+    "rewards": [
+      {
+        "id": "b03e73b7-4109-11f0-a790-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "126281499",
+              "displayName": "miabyte",
+              "name": "miabyte",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Celebrate Pride with Warframe Content Creators! Watch Miabyte for 30 minutes to receive a Domestik Caliber Drone!",
+        "detailsURL": "https://forums.warframe.com/topic/1456768-community-stream-schedule-june-2-june-8-2025/",
+        "endAt": "2025-06-08T18:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fcdc52d6-92c7-419e-ace8-d90f14079e5a.jpeg",
+        "name": "2025 Pride Stream #2",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-08T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b9fc3561-4109-11f0-8642-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2b44daa7-d2b0-11ef-94a1-0a58a9feac02",
+                  "createdAt": "2025-01-14T19:45:55.378Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "66170",
+                    "name": "Warframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3cc70cc2-d6fc-4918-a39f-34a664230724.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Domestik Caliber Drone",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-08T18:59:59.999Z",
+            "name": "Domestik Caliber Drone",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-06-08T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-08T17:00:00.000Z"
+  },
+  {
+    "endAt": "2025-06-08T19:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
+    "gameDisplayName": "Tanki Online",
+    "gameId": "417810",
+    "rewards": [
+      {
+        "id": "bfed862c-445e-11f0-b739-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "117023453",
+              "displayName": "TankiSport_RU",
+              "name": "tankisport_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64274116",
+              "displayName": "TankiSport_EN",
+              "name": "tankisport_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806896138",
+              "displayName": "TankiSport_RU_2",
+              "name": "tankisport_ru_2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806894175",
+              "displayName": "TankiSport_EN_2",
+              "name": "tankisport_en_2",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://tankionline.com/play/",
+        "description": "Watch Tanki Online eSports match livestreams and get Epic Keys in Tanki Online",
+        "detailsURL": "https://tankionline.com/",
+        "endAt": "2025-06-08T19:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417810",
+          "slug": "tanki-online",
+          "displayName": "Tanki Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/de8caa21-7e4e-4e16-9f62-006e63f34e18.jpeg",
+        "name": "SM 2025 LS R3 (1)",
+        "owner": {
+          "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+          "name": "APL Publishing Ltd",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-08T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "edad5507-445e-11f0-b30f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-08T19:29:59.999Z",
+            "name": "Match 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-06-08T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f15becbe-445e-11f0-bbdc-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-08T19:29:59.999Z",
+            "name": "Match 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-06-08T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-08T17:00:00.000Z"
   },
   {
     "endAt": "2025-06-08T21:29:59.999Z",
