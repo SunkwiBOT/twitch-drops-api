@@ -1025,6 +1025,147 @@
     "startAt": "2025-06-10T19:00:00.000Z"
   },
   {
+    "endAt": "2025-06-11T19:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
+    "gameDisplayName": "Tanki Online",
+    "gameId": "417810",
+    "rewards": [
+      {
+        "id": "5059b5f1-46ad-11f0-8c88-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "117023453",
+              "displayName": "TankiSport_RU",
+              "name": "tankisport_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64274116",
+              "displayName": "TankiSport_EN",
+              "name": "tankisport_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806896138",
+              "displayName": "TankiSport_RU_2",
+              "name": "tankisport_ru_2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806894175",
+              "displayName": "TankiSport_EN_2",
+              "name": "tankisport_en_2",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://tankionline.com/play/",
+        "description": "Watch Tanki Online eSports match livestreams and get Epic Keys in Tanki Online",
+        "detailsURL": "https://tankionline.com/",
+        "endAt": "2025-06-11T19:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417810",
+          "slug": "tanki-online",
+          "displayName": "Tanki Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/281924e7-463b-4589-b051-f4292de3fe5f.jpeg",
+        "name": "SM 2025 LS R4 (1)",
+        "owner": {
+          "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+          "name": "APL Publishing Ltd",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-11T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "6d1fedc6-46ad-11f0-b71e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-11T19:29:59.999Z",
+            "name": "Match 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-06-11T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "70958b51-46ad-11f0-ad6c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-11T19:29:59.999Z",
+            "name": "Match 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-06-11T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-11T17:00:00.000Z"
+  },
+  {
     "endAt": "2025-06-11T19:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/490382-120x160.jpg",
     "gameDisplayName": "For Honor",
@@ -49152,6 +49293,564 @@
               "id": "476259807",
               "displayName": "grzmot69streams",
               "name": "grzmot69streams",
+              "__typename": "Channel"
+            },
+            {
+              "id": "145872857",
+              "displayName": "NLbawz",
+              "name": "nlbawz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "265000915",
+              "displayName": "WaynexEnterprise",
+              "name": "waynexenterprise",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39836855",
+              "displayName": "moderngamingus",
+              "name": "moderngamingus",
+              "__typename": "Channel"
+            },
+            {
+              "id": "190824624",
+              "displayName": "femzilla",
+              "name": "femzilla",
+              "__typename": "Channel"
+            },
+            {
+              "id": "83473984",
+              "displayName": "pinkangel",
+              "name": "pinkangel",
+              "__typename": "Channel"
+            },
+            {
+              "id": "179117311",
+              "displayName": "blackkn1ght21",
+              "name": "blackkn1ght21",
+              "__typename": "Channel"
+            },
+            {
+              "id": "78525291",
+              "displayName": "ZakoMove",
+              "name": "zakomove",
+              "__typename": "Channel"
+            },
+            {
+              "id": "70726527",
+              "displayName": "NightClub_77",
+              "name": "nightclub_77",
+              "__typename": "Channel"
+            },
+            {
+              "id": "52648571",
+              "displayName": "بافا",
+              "name": "bafa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "416924573",
+              "displayName": "Ruesselspringer87",
+              "name": "ruesselspringer87",
+              "__typename": "Channel"
+            },
+            {
+              "id": "109166621",
+              "displayName": "Kiuqsxn",
+              "name": "kiuqsxn",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51855570",
+              "displayName": "Gamer_TerryMcFly",
+              "name": "gamer_terrymcfly",
+              "__typename": "Channel"
+            },
+            {
+              "id": "429768818",
+              "displayName": "Zomby764",
+              "name": "zomby764",
+              "__typename": "Channel"
+            },
+            {
+              "id": "125912721",
+              "displayName": "CaptainDreadbeard",
+              "name": "captaindreadbeard",
+              "__typename": "Channel"
+            },
+            {
+              "id": "43533289",
+              "displayName": "Protezee",
+              "name": "protezee",
+              "__typename": "Channel"
+            },
+            {
+              "id": "174796794",
+              "displayName": "Gaming_uae",
+              "name": "gaming_uae",
+              "__typename": "Channel"
+            },
+            {
+              "id": "37233420",
+              "displayName": "meligeni",
+              "name": "meligeni",
+              "__typename": "Channel"
+            },
+            {
+              "id": "37983792",
+              "displayName": "kadajMN",
+              "name": "kadajmn",
+              "__typename": "Channel"
+            },
+            {
+              "id": "45845935",
+              "displayName": "LIVESTREAM_CH",
+              "name": "livestream_ch",
+              "__typename": "Channel"
+            },
+            {
+              "id": "117618836",
+              "displayName": "CerdetaGamer",
+              "name": "cerdetagamer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "117379932",
+              "displayName": "KingGeorge",
+              "name": "kinggeorge",
+              "__typename": "Channel"
+            },
+            {
+              "id": "471194363",
+              "displayName": "えーび君は死んだ海老",
+              "name": "dead_lob_ster",
+              "__typename": "Channel"
+            },
+            {
+              "id": "115222603",
+              "displayName": "llwinsll",
+              "name": "llwinsll",
+              "__typename": "Channel"
+            },
+            {
+              "id": "586113068",
+              "displayName": "ないすてんぷら",
+              "name": "nicetempura",
+              "__typename": "Channel"
+            },
+            {
+              "id": "135564812",
+              "displayName": "gebruedergames",
+              "name": "gebruedergames",
+              "__typename": "Channel"
+            },
+            {
+              "id": "70817457",
+              "displayName": "ESIX_France",
+              "name": "esix_france",
+              "__typename": "Channel"
+            },
+            {
+              "id": "94654818",
+              "displayName": "Vegaz23",
+              "name": "vegaz23",
+              "__typename": "Channel"
+            },
+            {
+              "id": "136174490",
+              "displayName": "Jav0rs",
+              "name": "jav0rs",
+              "__typename": "Channel"
+            },
+            {
+              "id": "436343920",
+              "displayName": "Charging_Charlie",
+              "name": "charging_charlie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "160665306",
+              "displayName": "G4meHouse",
+              "name": "g4mehouse",
+              "__typename": "Channel"
+            },
+            {
+              "id": "615476532",
+              "displayName": "Jim_Wolverine_",
+              "name": "jim_wolverine_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "665060225",
+              "displayName": "ナズロム",
+              "name": "nazurom",
+              "__typename": "Channel"
+            },
+            {
+              "id": "463502588",
+              "displayName": "faweljarrin",
+              "name": "faweljarrin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "175651641",
+              "displayName": "lalor89",
+              "name": "lalor89",
+              "__typename": "Channel"
+            },
+            {
+              "id": "99838790",
+              "displayName": "LePingouin62",
+              "name": "lepingouin62",
+              "__typename": "Channel"
+            },
+            {
+              "id": "74035627",
+              "displayName": "Gladiator50n",
+              "name": "gladiator50n",
+              "__typename": "Channel"
+            },
+            {
+              "id": "81088641",
+              "displayName": "iziarawr",
+              "name": "iziarawr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39244215",
+              "displayName": "RaptyyTheLegend",
+              "name": "raptyythelegend",
+              "__typename": "Channel"
+            },
+            {
+              "id": "61377053",
+              "displayName": "SideQuestHero",
+              "name": "sidequesthero",
+              "__typename": "Channel"
+            },
+            {
+              "id": "137214514",
+              "displayName": "h3r1cin",
+              "name": "h3r1cin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "132332373",
+              "displayName": "DemizeFPS_",
+              "name": "demizefps_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "572584151",
+              "displayName": "cozytami",
+              "name": "cozytami",
+              "__typename": "Channel"
+            },
+            {
+              "id": "776808401",
+              "displayName": "ProGamersVe",
+              "name": "progamersve",
+              "__typename": "Channel"
+            },
+            {
+              "id": "435713038",
+              "displayName": "peter97x",
+              "name": "peter97x",
+              "__typename": "Channel"
+            },
+            {
+              "id": "417383642",
+              "displayName": "xFishanatorNL",
+              "name": "xfishanatornl",
+              "__typename": "Channel"
+            },
+            {
+              "id": "274753391",
+              "displayName": "rock8185",
+              "name": "rock8185",
+              "__typename": "Channel"
+            },
+            {
+              "id": "696301303",
+              "displayName": "whaleheda",
+              "name": "whaleheda",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51202192",
+              "displayName": "kirkthegamer",
+              "name": "kirkthegamer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "139346717",
+              "displayName": "DMCT_ZeFriaNoTM",
+              "name": "dmct_zefrianotm",
+              "__typename": "Channel"
+            },
+            {
+              "id": "604660721",
+              "displayName": "sifoenix",
+              "name": "sifoenix",
+              "__typename": "Channel"
+            },
+            {
+              "id": "678280849",
+              "displayName": "SiegeDoubleShot",
+              "name": "siegedoubleshot",
+              "__typename": "Channel"
+            },
+            {
+              "id": "73052710",
+              "displayName": "ShadowZia",
+              "name": "shadowzia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "237604958",
+              "displayName": "ebacon1_",
+              "name": "ebacon1_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "252696914",
+              "displayName": "SimmaTV_",
+              "name": "simmatv_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "42965102",
+              "displayName": "Plasma43",
+              "name": "plasma43",
+              "__typename": "Channel"
+            },
+            {
+              "id": "116267083",
+              "displayName": "TheMolarJason",
+              "name": "themolarjason",
+              "__typename": "Channel"
+            },
+            {
+              "id": "161544703",
+              "displayName": "adewale",
+              "name": "adewale",
+              "__typename": "Channel"
+            },
+            {
+              "id": "246955137",
+              "displayName": "OGomer",
+              "name": "ogomer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "136936634",
+              "displayName": "am_shay",
+              "name": "am_shay",
+              "__typename": "Channel"
+            },
+            {
+              "id": "732141982",
+              "displayName": "godmalmerpc",
+              "name": "godmalmerpc",
+              "__typename": "Channel"
+            },
+            {
+              "id": "677865028",
+              "displayName": "Platinum_God_Games",
+              "name": "platinum_god_games",
+              "__typename": "Channel"
+            },
+            {
+              "id": "551250006",
+              "displayName": "aamary123",
+              "name": "aamary123",
+              "__typename": "Channel"
+            },
+            {
+              "id": "401839313",
+              "displayName": "KappaBone",
+              "name": "kappabone",
+              "__typename": "Channel"
+            },
+            {
+              "id": "432839668",
+              "displayName": "SmokeBeardTV",
+              "name": "smokebeardtv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "160192620",
+              "displayName": "SPUDqueen",
+              "name": "spudqueen",
+              "__typename": "Channel"
+            },
+            {
+              "id": "278895612",
+              "displayName": "CrankyOldDude",
+              "name": "crankyolddude",
+              "__typename": "Channel"
+            },
+            {
+              "id": "259829108",
+              "displayName": "Adubbz",
+              "name": "adubbz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "490588866",
+              "displayName": "GreyNab",
+              "name": "greynab",
+              "__typename": "Channel"
+            },
+            {
+              "id": "130744499",
+              "displayName": "jagsman",
+              "name": "jagsman",
+              "__typename": "Channel"
+            },
+            {
+              "id": "246433221",
+              "displayName": "Rickyyyzzz_",
+              "name": "rickyyyzzz_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "227384839",
+              "displayName": "ALEDreamgameon",
+              "name": "aledreamgameon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124558358",
+              "displayName": "AhmadTarmizi",
+              "name": "ahmadtarmizi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "481813923",
+              "displayName": "CaptainDarkseason",
+              "name": "captaindarkseason",
+              "__typename": "Channel"
+            },
+            {
+              "id": "2232895",
+              "displayName": "Carrillogang",
+              "name": "carrillogang",
+              "__typename": "Channel"
+            },
+            {
+              "id": "678116401",
+              "displayName": "happydays564",
+              "name": "happydays564",
+              "__typename": "Channel"
+            },
+            {
+              "id": "280267900",
+              "displayName": "kingredfoxtv",
+              "name": "kingredfoxtv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "79082867",
+              "displayName": "ZavPaul",
+              "name": "zavpaul",
+              "__typename": "Channel"
+            },
+            {
+              "id": "155655511",
+              "displayName": "Flaviocee",
+              "name": "flaviocee",
+              "__typename": "Channel"
+            },
+            {
+              "id": "57838242",
+              "displayName": "Drunken_MasterTV",
+              "name": "drunken_mastertv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51713965",
+              "displayName": "Finch_it",
+              "name": "finch_it",
+              "__typename": "Channel"
+            },
+            {
+              "id": "45847713",
+              "displayName": "Sn1pEzTV",
+              "name": "sn1peztv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "172400056",
+              "displayName": "ThePosse_",
+              "name": "theposse_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "140356169",
+              "displayName": "yaNasTy_LIVE",
+              "name": "yanasty_live",
+              "__typename": "Channel"
+            },
+            {
+              "id": "101926473",
+              "displayName": "AngelQueenWolf",
+              "name": "angelqueenwolf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "67079512",
+              "displayName": "Raines_of_Onyx",
+              "name": "raines_of_onyx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "59448927",
+              "displayName": "XadLive",
+              "name": "xadlive",
+              "__typename": "Channel"
+            },
+            {
+              "id": "786354233",
+              "displayName": "佐倉サニャ",
+              "name": "sakura_sagna",
+              "__typename": "Channel"
+            },
+            {
+              "id": "87626977",
+              "displayName": "PumucklTTV",
+              "name": "pumucklttv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "519700051",
+              "displayName": "boy50n_300",
+              "name": "boy50n_300",
+              "__typename": "Channel"
+            },
+            {
+              "id": "118091941",
+              "displayName": "xshrudx",
+              "name": "xshrudx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "171592794",
+              "displayName": "soophiiie",
+              "name": "soophiiie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "82849231",
+              "displayName": "OfficialBrzndz",
+              "name": "officialbrzndz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1126148484",
+              "displayName": "hawkeygaming47",
+              "name": "hawkeygaming47",
               "__typename": "Channel"
             }
           ],
