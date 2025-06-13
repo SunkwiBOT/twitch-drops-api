@@ -13972,6 +13972,122 @@
     "startAt": "2025-06-13T13:00:00.000Z"
   },
   {
+    "endAt": "2025-06-14T15:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
+    "gameDisplayName": "Marbles on Stream",
+    "gameId": "509511",
+    "rewards": [
+      {
+        "id": "df38835d-482b-11f0-bae8-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://app.pixelbypixelstudios.live/auth/twitch/link",
+        "description": "Marbles on Stream is the most welcoming stream interactive experience where a streamer can run the game and welcome anyone in their chat to participate with \"!play\". That's it!\n\nJoin in for exclusive prizes and keep an eye on our for how we evolve this event in the future. If you need assistance please join our discord. Discord.gg/pixelbypixelstudios ",
+        "detailsURL": "https://pixelbypixel.studio/about/twitch-drops",
+        "endAt": "2025-06-14T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "509511",
+          "slug": "marbles-on-stream",
+          "displayName": "Marbles on Stream",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5847cdbd-e66c-498e-9635-80c610970044.png",
+        "name": "MARBLE DAY 200!",
+        "owner": {
+          "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+          "name": "Pixel by Pixel Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-13T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3355ea89-482c-11f0-b140-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTestBundleCC",
+                  "createdAt": "2023-10-26T09:00:50.239Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509511",
+                    "name": "Marbles on Stream",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7519a7e0-3787-4284-8790-071aaf244db2.png",
+                  "isIosAvailable": false,
+                  "name": "15 Community Coins",
+                  "ownerOrganization": {
+                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+                    "name": "Pixel by Pixel Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-14T15:59:59.999Z",
+            "name": "Marble Day 200 - Friday - Drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-06-13T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3988330c-482c-11f0-9241-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsSpecialEvent",
+                  "createdAt": "2025-06-13T05:32:24.761Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509511",
+                    "name": "Marbles on Stream",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7e298ed6-c4cd-4ed1-ac5c-abf89b6978b0.png",
+                  "isIosAvailable": false,
+                  "name": "Marble Day 200",
+                  "ownerOrganization": {
+                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+                    "name": "Pixel by Pixel Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-14T15:59:59.999Z",
+            "name": "Marble Day 200 - Friday - Drop 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-06-13T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-13T16:00:00.000Z"
+  },
+  {
     "endAt": "2025-06-14T23:58:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2106425216_IGDB-120x160.jpg",
     "gameDisplayName": "Gray Zone Warfare",
@@ -45704,6 +45820,18 @@
         "allow": {
           "channels": [
             {
+              "id": "116461043",
+              "displayName": "b0rja",
+              "name": "b0rja",
+              "__typename": "Channel"
+            },
+            {
+              "id": "91752888",
+              "displayName": "LucasRojo",
+              "name": "lucasrojo",
+              "__typename": "Channel"
+            },
+            {
               "id": "758711188",
               "displayName": "NoiaVAL",
               "name": "noiaval",
@@ -45872,21 +46000,9 @@
               "__typename": "Channel"
             },
             {
-              "id": "131106995",
-              "displayName": "kaquka",
-              "name": "kaquka",
-              "__typename": "Channel"
-            },
-            {
               "id": "58826368",
               "displayName": "k0mpa",
               "name": "k0mpa",
-              "__typename": "Channel"
-            },
-            {
-              "id": "226248558",
-              "displayName": "pixie_9",
-              "name": "pixie_9",
               "__typename": "Channel"
             },
             {
@@ -45899,6 +46015,12 @@
               "id": "26510006",
               "displayName": "SparkeRcs",
               "name": "sparkercs",
+              "__typename": "Channel"
+            },
+            {
+              "id": "130916976",
+              "displayName": "Gioii_",
+              "name": "gioii_",
               "__typename": "Channel"
             },
             {
@@ -46010,6 +46132,18 @@
               "__typename": "Channel"
             },
             {
+              "id": "232391531",
+              "displayName": "kenobival",
+              "name": "kenobival",
+              "__typename": "Channel"
+            },
+            {
+              "id": "534078774",
+              "displayName": "julesgranie",
+              "name": "julesgranie",
+              "__typename": "Channel"
+            },
+            {
               "id": "97196318",
               "displayName": "KEREMEcoach",
               "name": "keremecoach",
@@ -46070,6 +46204,12 @@
               "__typename": "Channel"
             },
             {
+              "id": "484579944",
+              "displayName": "MyDylsexia",
+              "name": "mydylsexia",
+              "__typename": "Channel"
+            },
+            {
               "id": "64568364",
               "displayName": "Tanizhq",
               "name": "tanizhq",
@@ -46121,12 +46261,6 @@
               "id": "48668213",
               "displayName": "Laagvliet",
               "name": "laagvliet",
-              "__typename": "Channel"
-            },
-            {
-              "id": "44546356",
-              "displayName": "HyP_TV",
-              "name": "hyp_tv",
               "__typename": "Channel"
             },
             {
@@ -46316,6 +46450,12 @@
               "__typename": "Channel"
             },
             {
+              "id": "145015519",
+              "displayName": "Foolish",
+              "name": "foolish",
+              "__typename": "Channel"
+            },
+            {
               "id": "70225218",
               "displayName": "TenZ",
               "name": "tenz",
@@ -46334,6 +46474,12 @@
               "__typename": "Channel"
             },
             {
+              "id": "104809718",
+              "displayName": "alexis",
+              "name": "alexis",
+              "__typename": "Channel"
+            },
+            {
               "id": "665756558",
               "displayName": "tokibbi",
               "name": "tokibbi",
@@ -46343,6 +46489,18 @@
               "id": "87204022",
               "displayName": "DisguisedToast",
               "name": "disguisedtoast",
+              "__typename": "Channel"
+            },
+            {
+              "id": "130796869",
+              "displayName": "yoojin",
+              "name": "yoojin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "597535246",
+              "displayName": "schrodingerLee",
+              "name": "schrodingerlee",
               "__typename": "Channel"
             },
             {
@@ -46385,6 +46543,12 @@
               "id": "144328881",
               "displayName": "VitaCelestine_",
               "name": "vitacelestine_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "132418153",
+              "displayName": "tashbunny",
+              "name": "tashbunny",
               "__typename": "Channel"
             },
             {
@@ -46466,9 +46630,33 @@
               "__typename": "Channel"
             },
             {
-              "id": "490592527",
-              "displayName": "VALORANT",
-              "name": "valorant",
+              "id": "77324100",
+              "displayName": "雷克獅",
+              "name": "rexlin777",
+              "__typename": "Channel"
+            },
+            {
+              "id": "22596190",
+              "displayName": "踢虧",
+              "name": "takesipon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "128222917",
+              "displayName": "世誠",
+              "name": "bbbb87",
+              "__typename": "Channel"
+            },
+            {
+              "id": "31673401",
+              "displayName": "冠賢",
+              "name": "gunguno",
+              "__typename": "Channel"
+            },
+            {
+              "id": "162323092",
+              "displayName": "花輪同學",
+              "name": "gearbaby1010",
               "__typename": "Channel"
             },
             {
@@ -46583,6 +46771,12 @@
               "id": "751782038",
               "displayName": "valorantleague_east",
               "name": "valorantleague_east",
+              "__typename": "Channel"
+            },
+            {
+              "id": "490592527",
+              "displayName": "VALORANT",
+              "name": "valorant",
               "__typename": "Channel"
             },
             {
