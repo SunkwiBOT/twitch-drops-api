@@ -33484,7 +33484,7 @@
     "startAt": "2025-06-08T16:00:00.000Z"
   },
   {
-    "endAt": "2025-06-17T06:59:59.996Z",
+    "endAt": "2025-06-23T06:58:59.995Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/490655_IGDB-120x160.jpg",
     "gameDisplayName": "Pokémon GO",
     "gameId": "490655",
@@ -33555,6 +33555,96 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 30,
             "startAt": "2025-06-08T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "45d4864e-4816-11f0-a5cb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "116082737",
+              "displayName": "PokemonGO",
+              "name": "pokemongo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "990602693",
+              "displayName": "PokemonGOAppLA",
+              "name": "pokemongoappla",
+              "__typename": "Channel"
+            },
+            {
+              "id": "990615235",
+              "displayName": "PokemonGOAppBR",
+              "name": "pokemongoappbr",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://rewards.pokemon.com/",
+        "description": "Earn a Timed Research in Pokémon GO that will award you with an encounter with your own unique Mandibuzz (2025 EUIC Champion) in Pokémon GO by tuning in to twitch.tv/pokemongo (6/13-6/14) and twitch.tv/pokemon (6/15) during the official 2025 NAIC broadcasts. Redeem in-game by Saturday, June 28, 11pm UTC. FAQ: pkmn.news/PokemonDrops",
+        "detailsURL": "https://www.pokemon.com/us/play-pokemon/internationals/2025/north-america/pokemon-rewards",
+        "endAt": "2025-06-23T06:58:59.995Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "490655",
+          "slug": "pokemon-go",
+          "displayName": "Pokémon GO",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a0a63dde-e561-4fc1-8ded-90bfcab508c6.png",
+        "name": "2025 NAIC GO Drops",
+        "owner": {
+          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+          "name": "The Pokémon Company",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-13T13:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "be680fdc-4816-11f0-b794-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f31c2138-475b-11f0-84d4-0a58a9feac02",
+                  "createdAt": "2025-06-12T07:07:49.478Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490655",
+                    "name": "Pokémon GO",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/981e7f78-ef62-44cc-9f77-89c2a5f2cbab.png",
+                  "isIosAvailable": false,
+                  "name": "2025 EUIC Champion TR",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-23T06:58:59.995Z",
+            "name": "2025 NAIC GO Drops",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-06-13T13:30:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -45510,6 +45600,504 @@
     "startAt": "2025-06-07T16:00:00.000Z"
   },
   {
+    "endAt": "2025-06-23T06:58:59.994Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/518379_IGDB-120x160.jpg",
+    "gameDisplayName": "Pokémon UNITE",
+    "gameId": "518379",
+    "rewards": [
+      {
+        "id": "7610ff0d-481d-11f0-a4ce-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "461673582",
+              "displayName": "PokemonUNITE",
+              "name": "pokemonunite",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://rewards.pokemon.com/",
+        "description": "Earn a Mew Platinum Emblem in Pokémon UNITE by tuning in to the official 2025 NAIC broadcast at twitch.tv/pokemonunite (6/13-6/14) and twitch.tv/pokemon (6/15) during the official 2025 NAIC broadcasts. Redeem by 2025/09/14 23:59 UTC. FAQ: pkmn.news/PokemonDrops",
+        "detailsURL": "https://www.pokemon.com/us/play-pokemon/internationals/2025/north-america/pokemon-rewards",
+        "endAt": "2025-06-23T06:58:59.994Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "518379",
+          "slug": "pokemon-unite",
+          "displayName": "Pokémon UNITE",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7d3e1f29-d115-476f-9db0-089865003a0b.png",
+        "name": "2025 NAIC UNITE Drops",
+        "owner": {
+          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+          "name": "The Pokémon Company",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-13T13:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "33672d8a-481e-11f0-bae8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9aa4e0db-4809-11f0-86b8-0a58a9feac02",
+                  "createdAt": "2025-06-13T03:50:53.488Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518379",
+                    "name": "Pokémon UNITE",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6d0a34b6-a823-47f4-afa3-0e4025550745.png",
+                  "isIosAvailable": false,
+                  "name": "2025 NAIC Emblem",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-23T06:58:59.994Z",
+            "name": "2025 NAIC UNITE Drops",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-06-13T13:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-13T13:30:00.000Z"
+  },
+  {
+    "endAt": "2025-06-27T06:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/155409827_IGDB-120x160.jpg",
+    "gameDisplayName": "Pokémon Trading Card Game Live",
+    "gameId": "155409827",
+    "rewards": [
+      {
+        "id": "0cdff0ce-4814-11f0-95f4-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "692694849",
+              "displayName": "auralaur67",
+              "name": "auralaur67",
+              "__typename": "Channel"
+            },
+            {
+              "id": "61542387",
+              "displayName": "BuzzerBob",
+              "name": "buzzerbob",
+              "__typename": "Channel"
+            },
+            {
+              "id": "49460652",
+              "displayName": "Char",
+              "name": "char",
+              "__typename": "Channel"
+            },
+            {
+              "id": "440733974",
+              "displayName": "digipop",
+              "name": "digipop",
+              "__typename": "Channel"
+            },
+            {
+              "id": "239275534",
+              "displayName": "Ehvee",
+              "name": "ehvee",
+              "__typename": "Channel"
+            },
+            {
+              "id": "593589192",
+              "displayName": "ElectriKeely",
+              "name": "electrikeely",
+              "__typename": "Channel"
+            },
+            {
+              "id": "65899697",
+              "displayName": "GlaxonXIII",
+              "name": "glaxonxiii",
+              "__typename": "Channel"
+            },
+            {
+              "id": "44413637",
+              "displayName": "Glowl",
+              "name": "glowl",
+              "__typename": "Channel"
+            },
+            {
+              "id": "481378118",
+              "displayName": "Hasty",
+              "name": "hasty",
+              "__typename": "Channel"
+            },
+            {
+              "id": "441285590",
+              "displayName": "HectorNayib",
+              "name": "hectornayib",
+              "__typename": "Channel"
+            },
+            {
+              "id": "68184174",
+              "displayName": "ItsMeJoji",
+              "name": "itsmejoji",
+              "__typename": "Channel"
+            },
+            {
+              "id": "22407530",
+              "displayName": "PKMNcast",
+              "name": "pkmncast",
+              "__typename": "Channel"
+            },
+            {
+              "id": "430618206",
+              "displayName": "ShinyCatherine",
+              "name": "shinycatherine",
+              "__typename": "Channel"
+            },
+            {
+              "id": "54646451",
+              "displayName": "sunnie",
+              "name": "sunnie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "67755571",
+              "displayName": "TripleBtcg",
+              "name": "triplebtcg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "25677906",
+              "displayName": "Tru_Inferno",
+              "name": "tru_inferno",
+              "__typename": "Channel"
+            },
+            {
+              "id": "114731314",
+              "displayName": "YunaverseTCG",
+              "name": "yunaversetcg",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://rewards.pokemon.com/",
+        "description": "Earn 1 x Team Rocket's Giovanni and 1 x Team Rocket's Proton in Pokémon TCG Live by tuning in to twitch.tv/pokemonTCG (6/13-6/14) and twitch.tv/pokemon (6/15) during the official 2025 NAIC broadcasts. Redeem by July 16, 2025 10 a.m. Pacific​. FAQ: pkmn.news/PokemonDrops",
+        "detailsURL": "https://www.pokemon.com/us/play-pokemon/internationals/2025/north-america/pokemon-rewards",
+        "endAt": "2025-06-23T06:58:59.995Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "155409827",
+          "slug": "pokemon-trading-card-game-live",
+          "displayName": "Pokémon Trading Card Game Live",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a30cc480-4efa-4ca7-961e-516c5d9ba62e.png",
+        "name": "2025 NAIC Co-streamers",
+        "owner": {
+          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+          "name": "The Pokémon Company",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-13T13:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b57b6b06-4814-11f0-b784-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "b88fbbe8-4761-11f0-86f1-0a58a9feac02",
+                  "createdAt": "2025-06-12T07:49:08.231Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "155409827",
+                    "name": "Pokémon Trading Card Game Live",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82b3a035-8ae3-4677-839e-61cf6306da6c.png",
+                  "isIosAvailable": false,
+                  "name": "2025 NAIC Co-streamers",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-23T06:58:59.995Z",
+            "name": "TCG Co-streamers Drops",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-06-13T13:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "8a86e430-480d-11f0-b140-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "109828129",
+              "displayName": "PokemonTCG",
+              "name": "pokemontcg",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://rewards.pokemon.com/",
+        "description": "Earn NAIC-themed deck accessories featuring Cornerstone Mask Ogerpon, 1 x Team Rocket's Mewtwo and 1 x Ethan's Ho-oh (SIR) in Pokémon TCG Live by tuning in to twitch.tv/pokemonTCG (6/13-6/14) and twitch.tv/pokemon (6/15) during the official 2025 NAIC broadcasts. Redeem by July 16, 2025 10 a.m. Pacific​. FAQ: pkmn.news/PokemonDrops",
+        "detailsURL": "https://www.pokemon.com/us/play-pokemon/internationals/2025/north-america/pokemon-rewards",
+        "endAt": "2025-06-23T06:58:59.996Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "155409827",
+          "slug": "pokemon-trading-card-game-live",
+          "displayName": "Pokémon Trading Card Game Live",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9e79a823-5231-4668-ab55-4e0144b7c927.png",
+        "name": "2025 NAIC TCG Drops",
+        "owner": {
+          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+          "name": "The Pokémon Company",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-13T13:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "603f9a2c-480e-11f0-9e3d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "385fc2f9-4761-11f0-8a46-0a58a9feac02",
+                  "createdAt": "2025-06-12T07:45:33.168Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "155409827",
+                    "name": "Pokémon Trading Card Game Live",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9e89bf4e-5adf-416b-894b-13c08c99e1d8.png",
+                  "isIosAvailable": false,
+                  "name": "2025 NAIC Deck Cosmetics",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "d434a54b-475f-11f0-aac4-0a58a9feac02",
+                  "createdAt": "2025-06-12T07:35:35.617Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "155409827",
+                    "name": "Pokémon Trading Card Game Live",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/84203aad-6468-49a0-98df-eb86ae05e9d8.png",
+                  "isIosAvailable": false,
+                  "name": "2025 NAIC Card Drops",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-23T06:58:59.996Z",
+            "name": "TCG Drops",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-06-13T13:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "774c62a9-3d00-11f0-9aa3-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "71099433",
+              "displayName": "Littledarkfury",
+              "name": "littledarkfury",
+              "__typename": "Channel"
+            },
+            {
+              "id": "24935580",
+              "displayName": "AzulGG",
+              "name": "azulgg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "75073508",
+              "displayName": "Attica",
+              "name": "attica",
+              "__typename": "Channel"
+            },
+            {
+              "id": "58432940",
+              "displayName": "Reakka",
+              "name": "reakka",
+              "__typename": "Channel"
+            },
+            {
+              "id": "552768447",
+              "displayName": "Kelosaurus",
+              "name": "kelosaurus",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://rewards.pokemon.com/",
+        "description": "Earn 3x Destined Rivals Booster Packs, 1x Team Rocket's Moltres ex (SIR)​ and 1x Cynthia's Garchomp ex (SIR)​ in Pokémon Trading Card Game Live by tuning in to LittleDarkFury, Reakka, AzulGG, Attica or Kelosaurus for 45 minutes. Redeem by July 17, 2025 10am PT. FAQ: pkmn.news/PokemonDrops",
+        "detailsURL": "https://rewards.pokemon.com/",
+        "endAt": "2025-06-27T06:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "155409827",
+          "slug": "pokemon-trading-card-game-live",
+          "displayName": "Pokémon Trading Card Game Live",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/80fe212c-7490-494b-830b-0ff865b12799.png",
+        "name": "Destined Rivals Drops",
+        "owner": {
+          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+          "name": "The Pokémon Company",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-05-30T07:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1ae5bc2b-3d02-11f0-802e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "c865d209-3d00-11f0-ae2b-0a58a9feac02",
+                  "createdAt": "2025-05-30T02:50:01.989Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "155409827",
+                    "name": "Pokémon Trading Card Game Live",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bf64504c-c7dc-45c0-ab00-d9ff7e6997af.png",
+                  "isIosAvailable": false,
+                  "name": "DRI Booster Packs",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "f2f2dc7f-3d00-11f0-9ad6-0a58a9feac02",
+                  "createdAt": "2025-05-30T02:51:13.378Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "155409827",
+                    "name": "Pokémon Trading Card Game Live",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c4b7c51e-89c7-4632-90d2-dc8e359906a0.png",
+                  "isIosAvailable": false,
+                  "name": "Destined Rivals SIRs",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-27T06:58:59.999Z",
+            "name": "Booster Packs and SIRs",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-05-30T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-05-30T07:00:00.000Z"
+  },
+  {
     "endAt": "2025-06-23T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2113043143_IGDB-120x160.jpg",
     "gameDisplayName": "PAYDAY 3",
@@ -47945,141 +48533,6 @@
       }
     ],
     "startAt": "2025-06-12T11:00:00.000Z"
-  },
-  {
-    "endAt": "2025-06-27T06:58:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/155409827_IGDB-120x160.jpg",
-    "gameDisplayName": "Pokémon Trading Card Game Live",
-    "gameId": "155409827",
-    "rewards": [
-      {
-        "id": "774c62a9-3d00-11f0-9aa3-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "71099433",
-              "displayName": "Littledarkfury",
-              "name": "littledarkfury",
-              "__typename": "Channel"
-            },
-            {
-              "id": "24935580",
-              "displayName": "AzulGG",
-              "name": "azulgg",
-              "__typename": "Channel"
-            },
-            {
-              "id": "75073508",
-              "displayName": "Attica",
-              "name": "attica",
-              "__typename": "Channel"
-            },
-            {
-              "id": "58432940",
-              "displayName": "Reakka",
-              "name": "reakka",
-              "__typename": "Channel"
-            },
-            {
-              "id": "552768447",
-              "displayName": "Kelosaurus",
-              "name": "kelosaurus",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://rewards.pokemon.com/",
-        "description": "Earn 3x Destined Rivals Booster Packs, 1x Team Rocket's Moltres ex (SIR)​ and 1x Cynthia's Garchomp ex (SIR)​ in Pokémon Trading Card Game Live by tuning in to LittleDarkFury, Reakka, AzulGG, Attica or Kelosaurus for 45 minutes. Redeem by July 17, 2025 10am PT. FAQ: pkmn.news/PokemonDrops",
-        "detailsURL": "https://rewards.pokemon.com/",
-        "endAt": "2025-06-27T06:58:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "155409827",
-          "slug": "pokemon-trading-card-game-live",
-          "displayName": "Pokémon Trading Card Game Live",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/80fe212c-7490-494b-830b-0ff865b12799.png",
-        "name": "Destined Rivals Drops",
-        "owner": {
-          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-          "name": "The Pokémon Company",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-05-30T07:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "1ae5bc2b-3d02-11f0-802e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "c865d209-3d00-11f0-ae2b-0a58a9feac02",
-                  "createdAt": "2025-05-30T02:50:01.989Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "155409827",
-                    "name": "Pokémon Trading Card Game Live",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bf64504c-c7dc-45c0-ab00-d9ff7e6997af.png",
-                  "isIosAvailable": false,
-                  "name": "DRI Booster Packs",
-                  "ownerOrganization": {
-                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-                    "name": "The Pokémon Company",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "f2f2dc7f-3d00-11f0-9ad6-0a58a9feac02",
-                  "createdAt": "2025-05-30T02:51:13.378Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "155409827",
-                    "name": "Pokémon Trading Card Game Live",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c4b7c51e-89c7-4632-90d2-dc8e359906a0.png",
-                  "isIosAvailable": false,
-                  "name": "Destined Rivals SIRs",
-                  "ownerOrganization": {
-                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-                    "name": "The Pokémon Company",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-27T06:58:59.999Z",
-            "name": "Booster Packs and SIRs",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-05-30T07:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-05-30T07:00:00.000Z"
   },
   {
     "endAt": "2025-06-27T08:59:59.998Z",
