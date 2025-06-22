@@ -2765,7 +2765,7 @@
     "startAt": "2025-06-16T14:00:00.000Z"
   },
   {
-    "endAt": "2025-06-22T22:59:59.998Z",
+    "endAt": "2025-06-22T23:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516575-120x160.jpg",
     "gameDisplayName": "VALORANT",
     "gameId": "516575",
@@ -3953,6 +3953,90 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 30,
             "startAt": "2025-06-07T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "b3b339cd-3732-11f0-bd11-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "490592527",
+              "displayName": "VALORANT",
+              "name": "valorant",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36029255",
+              "displayName": "Riot Games",
+              "name": "riotgames",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection\t\t\t\t\t",
+        "description": "VALORANT Masters has arrived in Toronto! Twelve teams from around the world face off in the second international event of the VALORANT Champions Tour 2025. Tune in to see pros turn into masters, this is the Dawn of the Duelist!",
+        "detailsURL": "https://valorantesports.com/en-US/news/masters-toronto-everything-you-need-to-know",
+        "endAt": "2025-06-22T23:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "516575",
+          "slug": "valorant",
+          "displayName": "VALORANT",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/df71fdcc-e99b-4376-8b97-5de2fe65af0a.png",
+        "name": "VCT25 VAL\t\t\t",
+        "owner": {
+          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+          "name": "Riot Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-22T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f08d9544-3732-11f0-bd11-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2025-VAL-MastersToronto-Spray",
+                  "createdAt": "2025-05-15T20:17:47.577Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516575",
+                    "name": "VALORANT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/585cbd37-71a6-47cd-ad25-f84039221154.png",
+                  "isIosAvailable": true,
+                  "name": "Sorry, Bro! Spray ",
+                  "ownerOrganization": {
+                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+                    "name": "Riot Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-22T23:59:59.999Z",
+            "name": "Sorry Bro, Spay",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-06-22T16:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -6579,12 +6663,6 @@
               "__typename": "Channel"
             },
             {
-              "id": "40634935",
-              "displayName": "Txao",
-              "name": "txao",
-              "__typename": "Channel"
-            },
-            {
               "id": "124994203",
               "displayName": "Rakattack",
               "name": "rakattack",
@@ -6597,21 +6675,9 @@
               "__typename": "Channel"
             },
             {
-              "id": "69592711",
-              "displayName": "Areliann",
-              "name": "areliann",
-              "__typename": "Channel"
-            },
-            {
               "id": "1134253144",
               "displayName": "ExtinctionNA1",
               "name": "extinctionna1",
-              "__typename": "Channel"
-            },
-            {
-              "id": "147487993",
-              "displayName": "Tommathan",
-              "name": "tommathan",
               "__typename": "Channel"
             },
             {
@@ -6624,6 +6690,24 @@
               "id": "142720133",
               "displayName": "ta1yo_tv",
               "name": "ta1yo_tv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "40634935",
+              "displayName": "Txao",
+              "name": "txao",
+              "__typename": "Channel"
+            },
+            {
+              "id": "100372176",
+              "displayName": "Alixxa",
+              "name": "alixxa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "979983345",
+              "displayName": "Ocie_Casts",
+              "name": "ocie_casts",
               "__typename": "Channel"
             }
           ],
