@@ -1,188 +1,5 @@
 [
   {
-    "endAt": "2025-06-23T10:59:59.997Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66366_IGDB-120x160.jpg",
-    "gameDisplayName": "War Thunder",
-    "gameId": "66366",
-    "rewards": [
-      {
-        "id": "3fefd8e5-4ab4-11f0-8dfb-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "884056266",
-              "displayName": "WarThunder_Esports",
-              "name": "warthunder_esports",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1219131929",
-              "displayName": "WarThunder_Esports_PL",
-              "name": "warthunder_esports_pl",
-              "__typename": "Channel"
-            },
-            {
-              "id": "884057225",
-              "displayName": "WarThunder_Esports_FR",
-              "name": "warthunder_esports_fr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "884057967",
-              "displayName": "WarThunder_Esports_DE",
-              "name": "warthunder_esports_de",
-              "__typename": "Channel"
-            },
-            {
-              "id": "884059667",
-              "displayName": "WarThunder_Esports_RU",
-              "name": "warthunder_esports_ru",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://gss.gaijin.net/",
-        "description": "War Thunder Esports Twitch Drops Campaign | Armored Apex Open Qualifier II ",
-        "detailsURL": "https://warthunder.com/en/news/9564/current",
-        "endAt": "2025-06-23T10:59:59.997Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "66366",
-          "slug": "war-thunder",
-          "displayName": "War Thunder",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7c4ef57d-11b9-444b-b31e-4a1134484c54.jpeg",
-        "name": "Armored Apex Open Qual",
-        "owner": {
-          "id": "7522fdb9-5b5e-447e-a54c-af67adb0a660",
-          "name": "Gaijin Network",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-06-20T13:15:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "40395744-4ab8-11f0-8187-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "4c9e413d-cc21-11ee-a04f-0a58a9feac02",
-                  "createdAt": "2024-02-15T16:43:08.649Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66366",
-                    "name": "War Thunder",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e55e695a-d09b-4d76-9045-8ff873f59f5a.png",
-                  "isIosAvailable": false,
-                  "name": "SL Booster 50%",
-                  "ownerOrganization": {
-                    "id": "7522fdb9-5b5e-447e-a54c-af67adb0a660",
-                    "name": "Gaijin Network",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-23T10:59:59.997Z",
-            "name": " SL Booster 50%",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-06-20T13:15:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "4b1aa6f2-4ab8-11f0-bd41-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "26a1919c-cc20-11ee-aefb-0a58a9feac02",
-                  "createdAt": "2024-02-15T16:34:55.42Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66366",
-                    "name": "War Thunder",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1bb8a802-fbd4-495d-a522-22c796c121b8.png",
-                  "isIosAvailable": false,
-                  "name": "RP Booster 50%",
-                  "ownerOrganization": {
-                    "id": "7522fdb9-5b5e-447e-a54c-af67adb0a660",
-                    "name": "Gaijin Network",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-23T10:59:59.997Z",
-            "name": " RP Booster 50%",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-06-20T13:15:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "5455cfa4-4ab8-11f0-8f87-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "abb91f26-11ea-11ef-a7b0-0a58a9feac02",
-                  "createdAt": "2024-05-14T12:08:27.283Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66366",
-                    "name": "War Thunder",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d4343739-2ccc-4d2b-be76-0eeae5d4f36b.png",
-                  "isIosAvailable": false,
-                  "name": "1 Day of Premium",
-                  "ownerOrganization": {
-                    "id": "7522fdb9-5b5e-447e-a54c-af67adb0a660",
-                    "name": "Gaijin Network",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-06-23T10:59:59.997Z",
-            "name": "1 Day of Premium",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-06-20T13:15:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-06-20T13:15:00.000Z"
-  },
-  {
     "endAt": "2025-06-23T11:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2094865572-120x160.jpg",
     "gameDisplayName": "SMITE 2",
@@ -46027,5 +45844,656 @@
       }
     ],
     "startAt": "2025-06-20T08:00:00.000Z"
+  },
+  {
+    "endAt": "2025-07-20T10:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/518873_IGDB-120x160.jpg",
+    "gameDisplayName": "Warhammer 40,000: Darktide",
+    "gameId": "518873",
+    "rewards": [
+      {
+        "id": "df0d55c7-4d09-11f0-bd4d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "48343631",
+              "displayName": "traumaaaa",
+              "name": "traumaaaa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "112890360",
+              "displayName": "Couplecade",
+              "name": "couplecade",
+              "__typename": "Channel"
+            },
+            {
+              "id": "27304218",
+              "displayName": "Shappie",
+              "name": "shappie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "190708734",
+              "displayName": "Altair",
+              "name": "altair",
+              "__typename": "Channel"
+            },
+            {
+              "id": "717626045",
+              "displayName": "AmethystCats",
+              "name": "amethystcats",
+              "__typename": "Channel"
+            },
+            {
+              "id": "403819305",
+              "displayName": "Azenev",
+              "name": "azenev",
+              "__typename": "Channel"
+            },
+            {
+              "id": "21421759",
+              "displayName": "MyBradlynn",
+              "name": "mybradlynn",
+              "__typename": "Channel"
+            },
+            {
+              "id": "71628944",
+              "displayName": "CannonFodder5",
+              "name": "cannonfodder5",
+              "__typename": "Channel"
+            },
+            {
+              "id": "63292395",
+              "displayName": "chocob64bit",
+              "name": "chocob64bit",
+              "__typename": "Channel"
+            },
+            {
+              "id": "430717907",
+              "displayName": "Combine03",
+              "name": "combine03",
+              "__typename": "Channel"
+            },
+            {
+              "id": "221377000",
+              "displayName": "Discordia_Ch",
+              "name": "discordia_ch",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28628646",
+              "displayName": "Daemoniic",
+              "name": "daemoniic",
+              "__typename": "Channel"
+            },
+            {
+              "id": "80892527",
+              "displayName": "DatSarrow",
+              "name": "datsarrow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "176866513",
+              "displayName": "DaveeBoy",
+              "name": "daveeboy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41690393",
+              "displayName": "Deepnausea",
+              "name": "deepnausea",
+              "__typename": "Channel"
+            },
+            {
+              "id": "81810264",
+              "displayName": "Duke_Silver",
+              "name": "duke_silver",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41376469",
+              "displayName": "Ferlinna",
+              "name": "ferlinna",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28626350",
+              "displayName": "Freyn",
+              "name": "freyn",
+              "__typename": "Channel"
+            },
+            {
+              "id": "7176704",
+              "displayName": "Ghostkai",
+              "name": "ghostkai",
+              "__typename": "Channel"
+            },
+            {
+              "id": "735874649",
+              "displayName": "gogurio",
+              "name": "gogurio",
+              "__typename": "Channel"
+            },
+            {
+              "id": "60990001",
+              "displayName": "GregorianHipster",
+              "name": "gregorianhipster",
+              "__typename": "Channel"
+            },
+            {
+              "id": "591326130",
+              "displayName": "Griffonsclaw_Jr",
+              "name": "griffonsclaw_jr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "749969",
+              "displayName": "Hean",
+              "name": "hean",
+              "__typename": "Channel"
+            },
+            {
+              "id": "71550258",
+              "displayName": "hermos1",
+              "name": "hermos1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "175684163",
+              "displayName": "ImJustJun",
+              "name": "imjustjun",
+              "__typename": "Channel"
+            },
+            {
+              "id": "198540687",
+              "displayName": "J_ohn1016TTV",
+              "name": "j_ohn1016ttv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "58640096",
+              "displayName": "Jakk_9891",
+              "name": "jakk_9891",
+              "__typename": "Channel"
+            },
+            {
+              "id": "837026145",
+              "displayName": "JamesAlexanderVA",
+              "name": "jamesalexanderva",
+              "__typename": "Channel"
+            },
+            {
+              "id": "84377399",
+              "displayName": "j0playsgames",
+              "name": "j0playsgames",
+              "__typename": "Channel"
+            },
+            {
+              "id": "107921718",
+              "displayName": "KanakoVT",
+              "name": "kanakovt",
+              "__typename": "Channel"
+            },
+            {
+              "id": "133480294",
+              "displayName": "StarryAraAri",
+              "name": "starryaraari",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1141278973",
+              "displayName": "Khandones2",
+              "name": "khandones2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "146691126",
+              "displayName": "KimberPrime_",
+              "name": "kimberprime_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "596255592",
+              "displayName": "KiteVR",
+              "name": "kitevr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "21399025",
+              "displayName": "KlokWrk",
+              "name": "klokwrk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "37965829",
+              "displayName": "LazyR1co",
+              "name": "lazyr1co",
+              "__typename": "Channel"
+            },
+            {
+              "id": "160155628",
+              "displayName": "Maplewood_tv",
+              "name": "maplewood_tv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "48958944",
+              "displayName": "mrvamp91",
+              "name": "mrvamp91",
+              "__typename": "Channel"
+            },
+            {
+              "id": "144762948",
+              "displayName": "NewTypeBTW",
+              "name": "newtypebtw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "12920225",
+              "displayName": "NRGaa",
+              "name": "nrgaa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "750378669",
+              "displayName": "NyanLives",
+              "name": "nyanlives",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36536350",
+              "displayName": "YourFavoriteScoundrel",
+              "name": "yourfavoritescoundrel",
+              "__typename": "Channel"
+            },
+            {
+              "id": "266358069",
+              "displayName": "QueenOfSkeletons",
+              "name": "queenofskeletons",
+              "__typename": "Channel"
+            },
+            {
+              "id": "623851737",
+              "displayName": "rawkplaysgames",
+              "name": "rawkplaysgames",
+              "__typename": "Channel"
+            },
+            {
+              "id": "32842361",
+              "displayName": "Raziel317",
+              "name": "raziel317",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28643168",
+              "displayName": "Razi_the_Insane",
+              "name": "razi_the_insane",
+              "__typename": "Channel"
+            },
+            {
+              "id": "117210432",
+              "displayName": "RipTheJack3r",
+              "name": "ripthejack3r",
+              "__typename": "Channel"
+            },
+            {
+              "id": "44506452",
+              "displayName": "RodamusZero",
+              "name": "rodamuszero",
+              "__typename": "Channel"
+            },
+            {
+              "id": "636077983",
+              "displayName": "Hitori_Quinn",
+              "name": "hitori_quinn",
+              "__typename": "Channel"
+            },
+            {
+              "id": "467294866",
+              "displayName": "spacesource",
+              "name": "spacesource",
+              "__typename": "Channel"
+            },
+            {
+              "id": "759545195",
+              "displayName": "TaigaTigerVT",
+              "name": "taigatigervt",
+              "__typename": "Channel"
+            },
+            {
+              "id": "57141141",
+              "displayName": "thaumologist",
+              "name": "thaumologist",
+              "__typename": "Channel"
+            },
+            {
+              "id": "88061354",
+              "displayName": "TheTravellingInquisitor",
+              "name": "thetravellinginquisitor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "32928418",
+              "displayName": "tracedevils",
+              "name": "tracedevils",
+              "__typename": "Channel"
+            },
+            {
+              "id": "31741296",
+              "displayName": "WolfMachina",
+              "name": "wolfmachina",
+              "__typename": "Channel"
+            },
+            {
+              "id": "228742699",
+              "displayName": "PotatoPowerGaming",
+              "name": "potatopowergaming",
+              "__typename": "Channel"
+            },
+            {
+              "id": "112330991",
+              "displayName": "FuPlaayz",
+              "name": "fuplaayz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "521772620",
+              "displayName": "CaptainAsh420",
+              "name": "captainash420",
+              "__typename": "Channel"
+            },
+            {
+              "id": "156311899",
+              "displayName": "TondeyBravo",
+              "name": "tondeybravo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "66956638",
+              "displayName": "SkavenDan",
+              "name": "skavendan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "45264866",
+              "displayName": "PolitelyWicked",
+              "name": "politelywicked",
+              "__typename": "Channel"
+            },
+            {
+              "id": "492714409",
+              "displayName": "blindmonkeyman",
+              "name": "blindmonkeyman",
+              "__typename": "Channel"
+            },
+            {
+              "id": "35073463",
+              "displayName": "Diexna",
+              "name": "diexna",
+              "__typename": "Channel"
+            },
+            {
+              "id": "56704057",
+              "displayName": "STANdardgamer720p",
+              "name": "standardgamer720p",
+              "__typename": "Channel"
+            },
+            {
+              "id": "144657609",
+              "displayName": "Ollessa",
+              "name": "ollessa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "145855142",
+              "displayName": "epiccole",
+              "name": "epiccole",
+              "__typename": "Channel"
+            },
+            {
+              "id": "30691216",
+              "displayName": "SmurfNinjaFan",
+              "name": "smurfninjafan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "132363360",
+              "displayName": "NotKensei",
+              "name": "notkensei",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39041972",
+              "displayName": "TrakkarLP",
+              "name": "trakkarlp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "126359141",
+              "displayName": "OmegaCowGames",
+              "name": "omegacowgames",
+              "__typename": "Channel"
+            },
+            {
+              "id": "37105818",
+              "displayName": "RitaGamer2",
+              "name": "ritagamer2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "26047850",
+              "displayName": "Sequens",
+              "name": "sequens",
+              "__typename": "Channel"
+            },
+            {
+              "id": "63241495",
+              "displayName": "GAMEHUBLER",
+              "name": "gamehubler",
+              "__typename": "Channel"
+            },
+            {
+              "id": "37620507",
+              "displayName": "TheAmatorium",
+              "name": "theamatorium",
+              "__typename": "Channel"
+            },
+            {
+              "id": "868516030",
+              "displayName": "mazzeexx_",
+              "name": "mazzeexx_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "47620643",
+              "displayName": "alyx117",
+              "name": "alyx117",
+              "__typename": "Channel"
+            },
+            {
+              "id": "930624372",
+              "displayName": "radishmu",
+              "name": "radishmu",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://accounts.atoma.cloud/twitch-drops",
+        "description": "Protector of Tertium skin - Spearhead Boltgun,\nProtector of Tertium skin - Shock Maul, \nWinterhome Scar Camo skin - Infantry Autogun,\n& Protector of Tertium Backpack. \n\nConnect your accounts through Twitch and https://accounts.atoma.cloud/twitch-drops. ",
+        "detailsURL": "https://www.playdarktide.com/news/earn-twitch-drops",
+        "endAt": "2025-07-20T10:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "518873",
+          "slug": "warhammer-40-000-darktide",
+          "displayName": "Warhammer 40,000: Darktide",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/093829c4-d403-429c-9522-235fdfe23660.png",
+        "name": "Battle for Tertium Pack",
+        "owner": {
+          "id": "8b65e332-9430-4b49-a064-b7c4913c82e4",
+          "name": "Fatshark",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-23T11:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "18e1c56e-4d17-11f0-ae58-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8b65e332-9430-4b49-a064-b7c4913c82e4_CUSTOM_ID_584e92f0-3131-4e44-960f-aaf0c6d55b55_c2a9efa3-212a-4b98-acf5-77a6fa56c942",
+                  "createdAt": "2025-06-19T14:06:42.781Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518873",
+                    "name": "Warhammer 40,000: Darktide",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/70de9dee-4e3c-49bf-84b8-fff03595ddda.png",
+                  "isIosAvailable": false,
+                  "name": "PoT Shock Maul",
+                  "ownerOrganization": {
+                    "id": "8b65e332-9430-4b49-a064-b7c4913c82e4",
+                    "name": "Fatshark",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-20T10:59:59.998Z",
+            "name": "Shock Maul",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-06-23T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "2adb712a-4d17-11f0-bd4d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8b65e332-9430-4b49-a064-b7c4913c82e4_CUSTOM_ID_584e92f0-3131-4e44-960f-aaf0c6d55b55_a50dd1f5-87a8-4c32-98ff-436b5db31097",
+                  "createdAt": "2025-06-19T14:07:29.528Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518873",
+                    "name": "Warhammer 40,000: Darktide",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9ba90568-40f1-4b84-8a27-4835e5e98edd.png",
+                  "isIosAvailable": false,
+                  "name": "WSC Infantry Autogun",
+                  "ownerOrganization": {
+                    "id": "8b65e332-9430-4b49-a064-b7c4913c82e4",
+                    "name": "Fatshark",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-20T10:59:59.998Z",
+            "name": "Infantry Autogun",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 20,
+            "startAt": "2025-06-23T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4d995c0b-4d17-11f0-8345-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8b65e332-9430-4b49-a064-b7c4913c82e4_CUSTOM_ID_584e92f0-3131-4e44-960f-aaf0c6d55b55_6067f3cf-b393-48c6-ab9a-2cd23978e094",
+                  "createdAt": "2025-06-19T14:08:39.282Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518873",
+                    "name": "Warhammer 40,000: Darktide",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c14e4707-87b5-4508-ad7f-9f8c9f6af147.png",
+                  "isIosAvailable": false,
+                  "name": "PoT Backpack",
+                  "ownerOrganization": {
+                    "id": "8b65e332-9430-4b49-a064-b7c4913c82e4",
+                    "name": "Fatshark",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-20T10:59:59.998Z",
+            "name": "Backpack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-06-23T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "51e2229c-4d0a-11f0-9ca9-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8b65e332-9430-4b49-a064-b7c4913c82e4_CUSTOM_ID_584e92f0-3131-4e44-960f-aaf0c6d55b55_e21e7ed0-1c93-4ab0-8212-72058af302e6",
+                  "createdAt": "2025-06-19T14:05:50.367Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518873",
+                    "name": "Warhammer 40,000: Darktide",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6d792328-175c-486a-9961-ec47251be48f.png",
+                  "isIosAvailable": false,
+                  "name": "PoT Spearhead Boltgun",
+                  "ownerOrganization": {
+                    "id": "8b65e332-9430-4b49-a064-b7c4913c82e4",
+                    "name": "Fatshark",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-20T10:59:59.998Z",
+            "name": "Spearhead Boltgun",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-06-23T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-23T11:00:00.000Z"
   }
 ]
