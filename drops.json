@@ -25421,6 +25421,86 @@
     "startAt": "2025-05-28T02:14:32.000Z"
   },
   {
+    "endAt": "2025-06-24T22:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/707002701_IGDB-120x160.jpg",
+    "gameDisplayName": "Coryphaeus Championships",
+    "gameId": "707002701",
+    "rewards": [
+      {
+        "id": "2f7acfdc-5036-11f0-89f9-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=qkxawi9g89zrh5p6kyzzxsysgq7g3h&redirect_uri=https%3A%2F%2Fwww.playcoryphaeus.com/twitch-drops&scope=channel%3Amanage%3Aredemptions+channel%3Aread%3Aredemptions+channel%3Aread%3Asubscriptions+moderator%3Aread%3Achatters+channel%3Aread%3Ahype_train+bits%3Aread",
+        "description": "Coryphaeus Summer Drops",
+        "detailsURL": "https://www.playcoryphaeus.com/twitch-drops-info",
+        "endAt": "2025-06-24T22:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "707002701",
+          "slug": "coryphaeus-championships",
+          "displayName": "Coryphaeus Championships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/78f01a60-34a4-4a7f-9e9c-d7f78f2b9e8e.png",
+        "name": "Summer Drops June",
+        "owner": {
+          "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3",
+          "name": "Coryphaeus Corp",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-23T13:30:28Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "42fc01e7-5036-11f0-bb6f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3_CUSTOM_ID_500coins",
+                  "createdAt": "2024-03-01T12:44:56.987Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "707002701",
+                    "name": "Coryphaeus Championships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/08aec75b-fc8a-4460-8929-1a9f49a0ad0c.png",
+                  "isIosAvailable": false,
+                  "name": "💰 500 C-Coins ",
+                  "ownerOrganization": {
+                    "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3",
+                    "name": "Coryphaeus Corp",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-24T22:59:59.999Z",
+            "name": "Coins",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-06-23T13:30:28Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-23T13:30:28.000Z"
+  },
+  {
     "endAt": "2025-06-25T05:58:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-120x160.jpg",
     "gameDisplayName": "Star Wars: The Old Republic",
@@ -34637,7 +34717,7 @@
             },
             {
               "id": "1232737060",
-              "displayName": "rhyme",
+              "displayName": "Rhyme",
               "name": "rhyme",
               "__typename": "Channel"
             },
@@ -46319,6 +46399,12 @@
               "id": "930624372",
               "displayName": "radishmu",
               "name": "radishmu",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39835167",
+              "displayName": "frozenballz",
+              "name": "frozenballz",
               "__typename": "Channel"
             }
           ],
