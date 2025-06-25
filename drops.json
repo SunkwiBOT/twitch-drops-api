@@ -40839,6 +40839,158 @@
     "startAt": "2025-06-25T06:00:00.000Z"
   },
   {
+    "endAt": "2025-07-14T20:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/223869970_IGDB-120x160.jpg",
+    "gameDisplayName": "Warhammer 40,000: Space Marine II",
+    "gameId": "223869970",
+    "rewards": [
+      {
+        "id": "f553cb66-4fc1-11f0-8025-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://prismray.io/account/connections",
+        "description": "Watch any Warhammer 40,000: Space Marine 2 stream on Twitch between June 25, 2025 (11:00 pm Central Europe time) and July 14, 2025 (11:00 pm Central Europe time) to earn in-game rewards:\nWatch 30 minutes to earn the Mark VIII Errant Helmet.\nWatch 1 hour to earn the Mark XI Hell's Teeth Pattern Chainsword.\nWatch 2 hours to earn the Porphyr Shield Bolt Pistol skin.",
+        "detailsURL": "https://support.prismray.io/hc/en-us/articles/14680545135761-How-to-Get-Twitch-Drops",
+        "endAt": "2025-07-14T20:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "223869970",
+          "slug": "warhammer-40-000-space-marine-ii",
+          "displayName": "Warhammer 40,000: Space Marine II",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/36207296-6a3d-4714-9ff9-5caf93aedae8.jpeg",
+        "name": "Siege Update Twitch Drops",
+        "owner": {
+          "id": "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d",
+          "name": "Saber Interactive",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-25T21:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0151676f-4fc3-11f0-803b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d_CUSTOM_ID_twitch_boltpistol",
+                  "createdAt": "2024-07-15T07:28:36.94Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "223869970",
+                    "name": "Warhammer 40,000: Space Marine II",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5b998d84-a82c-493c-8d13-ebdb2e904c56.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Porphyr Shield BoltPistol",
+                  "ownerOrganization": {
+                    "id": "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d",
+                    "name": "Saber Interactive",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-14T20:59:59.999Z",
+            "name": "Porphyr Shield (Bolt Pistol)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-06-25T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f5a6ae86-4fc2-11f0-a867-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d_CUSTOM_ID_Mark_VIII_Errant_Helmet",
+                  "createdAt": "2025-05-30T09:12:14.895Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "223869970",
+                    "name": "Warhammer 40,000: Space Marine II",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cb479f39-5a18-45e1-b35f-e8d2395a4508.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Mark VIII Errant Helmet",
+                  "ownerOrganization": {
+                    "id": "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d",
+                    "name": "Saber Interactive",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-14T20:59:59.999Z",
+            "name": "Mark VIII Errant Helmet",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-06-25T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "fb51bebd-4fc2-11f0-8e74-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d_CUSTOM_ID_Mark_XI",
+                  "createdAt": "2025-05-30T09:28:10.53Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "223869970",
+                    "name": "Warhammer 40,000: Space Marine II",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/25d12962-d1fe-4c16-810a-1370d3167866.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Mark XI",
+                  "ownerOrganization": {
+                    "id": "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d",
+                    "name": "Saber Interactive",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-14T20:59:59.999Z",
+            "name": "Mark XI Hell’s Teeth Pattern (Chainsword)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-06-25T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-25T21:00:00.000Z"
+  },
+  {
     "endAt": "2025-07-15T13:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1173887206_IGDB-120x160.jpg",
     "gameDisplayName": "Warhammer 40,000: Rogue Trader",
