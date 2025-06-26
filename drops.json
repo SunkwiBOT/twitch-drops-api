@@ -21769,6 +21769,86 @@
     "startAt": "2025-06-05T04:00:00.000Z"
   },
   {
+    "endAt": "2025-06-30T03:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/65654_IGDB-120x160.jpg",
+    "gameDisplayName": "The Elder Scrolls Online",
+    "gameId": "65654",
+    "rewards": [
+      {
+        "id": "56cd0d95-5294-11f0-9d5c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.elderscrollsonline.com/",
+        "description": "Earn an Ouroboros Crown Crate simply by watching Drop-enabled ESO streams on Twitch!",
+        "detailsURL": "https://www.elderscrollsonline.com/en-us/news/post/68307",
+        "endAt": "2025-06-30T03:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "65654",
+          "slug": "the-elder-scrolls-online",
+          "displayName": "The Elder Scrolls Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/acb88e48-f4e0-4a14-ba27-ff9b91e96595.jpeg",
+        "name": "Zeal of Zenithar",
+        "owner": {
+          "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
+          "name": "ZeniMax Online Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-26T14:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "6f7a7a05-5294-11f0-8395-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_661",
+                  "createdAt": "2023-10-16T20:45:26.801Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "65654",
+                    "name": "The Elder Scrolls Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82e27bfb-eed2-4d24-bbeb-668789ff1dd4.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Ouroboros Crown Crate",
+                  "ownerOrganization": {
+                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
+                    "name": "ZeniMax Online Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-30T03:59:59.999Z",
+            "name": "Ouroboros Crown Crate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-06-26T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-26T14:00:00.000Z"
+  },
+  {
     "endAt": "2025-06-30T08:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/902050890_IGDB-120x160.jpg",
     "gameDisplayName": "Kakele Online: MMORPG",
