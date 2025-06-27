@@ -11651,7 +11651,7 @@
     "startAt": "2025-06-23T17:00:00.000Z"
   },
   {
-    "endAt": "2025-06-27T16:59:59.999Z",
+    "endAt": "2025-06-27T21:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/499551-120x160.jpg",
     "gameDisplayName": "World of Tanks Console",
     "gameId": "499551",
@@ -11897,6 +11897,300 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 90,
             "startAt": "2025-06-27T13:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "7156c6ae-4d19-11f0-8687-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "66580390",
+              "displayName": "Sinstr1",
+              "name": "sinstr1",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://modernarmor.worldoftanks.com/accounts/management/",
+        "description": "Join Sinstr1 for a Tankfest After Party you don't want to miss!",
+        "detailsURL": "https://modernarmor.worldoftanks.com/en/cms/notes/twitch-drops/",
+        "endAt": "2025-06-27T21:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "499551",
+          "slug": "world-of-tanks-console",
+          "displayName": "World of Tanks Console",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7a8bb200-9cb0-4268-a212-fd49f9f7f8c6.png",
+        "name": "Tankfest 2025 After Party",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-27T15:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "41440b42-4d1a-11f0-8345-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA_TF_CamoS24",
+                  "createdAt": "2024-06-05T15:17:01.076Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c5473227-95e7-46be-91b1-30b21bd7b637.png",
+                  "isIosAvailable": false,
+                  "name": "Tankfest Camo Set",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA_TF_Inscrip24",
+                  "createdAt": "2024-06-05T15:17:32.598Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6cfd4cc-5bce-476c-b353-41e1349187f9.png",
+                  "isIosAvailable": false,
+                  "name": "Tankfest 2024 Inscription",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA_TF2025EMBLEM",
+                  "createdAt": "2025-06-11T14:50:07.953Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/533dc279-4207-4b5d-8407-0e5297db05da.png",
+                  "isIosAvailable": false,
+                  "name": "Tankfest 2025 Emblem",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-27T21:29:59.999Z",
+            "name": "Tankfest Cosmetics",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-06-27T15:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "8a9faf49-4d19-11f0-becd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA_EMS_2024",
+                  "createdAt": "2024-04-17T09:25:34.811Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16e8e3bc-c27f-4b69-9740-c5bbd95dbce2.png",
+                  "isIosAvailable": false,
+                  "name": "Enhanced Med Kits",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA_ERK_2024",
+                  "createdAt": "2024-04-17T09:26:19.953Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d865730c-7067-40d2-b553-6be923b5d18e.png",
+                  "isIosAvailable": false,
+                  "name": "Enhanced Repair Kits",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA_ER_2024",
+                  "createdAt": "2024-04-17T09:28:05.15Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a194293c-4513-4b30-b761-d4669067da9e.png",
+                  "isIosAvailable": false,
+                  "name": "Enhanced Rations",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-27T21:29:59.999Z",
+            "name": "Consumable Bundle",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-06-27T15:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9274c16a-4d19-11f0-9a8d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA_4VXP_2024",
+                  "createdAt": "2024-04-17T09:39:48.822Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4a52f7c6-dc3d-4a19-b130-bf8eba43daaa.png",
+                  "isIosAvailable": false,
+                  "name": "x4 Vehicle XP Boosters",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA_SB_2024",
+                  "createdAt": "2024-04-17T09:40:19.358Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6201ea34-597d-461d-9968-f9a6a382bc0c.png",
+                  "isIosAvailable": false,
+                  "name": "x1.5 Silver Boosters",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA_4CXP_2024",
+                  "createdAt": "2024-04-17T09:30:11.111Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6182d05-4d80-4681-a1ae-0251ac713495.png",
+                  "isIosAvailable": false,
+                  "name": "x4 Commander XP Boosters",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-27T21:29:59.999Z",
+            "name": "Booster Bundle",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-06-27T15:30:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
