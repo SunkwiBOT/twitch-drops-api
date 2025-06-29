@@ -792,6 +792,93 @@
     "startAt": "2025-06-28T17:59:00.000Z"
   },
   {
+    "endAt": "2025-06-29T17:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
+    "rewards": [
+      {
+        "id": "6dde6647-52c4-11f0-80c3-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "164934540",
+              "displayName": "MjikThize",
+              "name": "mjikthize",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Celebrate Pride with Warframe Content Creators! Watch MjikThize for 30 minutes to receive a Solaris Motherwrench Deco!",
+        "detailsURL": "https://forums.warframe.com/topic/1458457-community-stream-schedule-june-23-29-2025/",
+        "endAt": "2025-06-29T17:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e36f5df7-5fc9-4adb-bb42-f1a1857c0d82.jpeg",
+        "name": "2025 Pride Stream #8",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-29T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7986ce37-52c4-11f0-87d4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e1e33049-52c2-11f0-9270-0a58a9feac02",
+                  "createdAt": "2025-06-26T19:22:21.538Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "66170",
+                    "name": "Warframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4bf06820-f108-48ed-ae37-7a38ed46f04a.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Solaris Motherwrench",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-29T17:59:59.999Z",
+            "name": "Solaris Motherwrench Deco",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-06-29T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-29T16:00:00.000Z"
+  },
+  {
     "endAt": "2025-07-10T11:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
     "gameDisplayName": "Black Desert",
