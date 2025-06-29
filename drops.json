@@ -2257,6 +2257,135 @@
     "startAt": "2025-06-28T06:00:00.000Z"
   },
   {
+    "endAt": "2025-06-29T18:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
+    "gameDisplayName": "Mir Korabley",
+    "gameId": "2133072147",
+    "rewards": [
+      {
+        "id": "0ff846ec-42b5-11f0-8d50-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "793098652",
+              "displayName": "LestaKorabli",
+              "name": "lestakorabli",
+              "__typename": "Channel"
+            },
+            {
+              "id": "515919232",
+              "displayName": "Me4tatelnica_Irina",
+              "name": "me4tatelnica_irina",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://lesta.ru/personal/?bind-external=twitch",
+        "description": "Во время просмотра трансляций турнира «Прорыв. Могущество флота» на официальном канале и на каналах официальных стримеров можно будет получить множество наград, среди которых: • Премиум корабли VIII уровня — линкор Roma, крейсер Belfast'43, эсминец Z-35 • 2500 дублонов • 500 жетонов единства • Суперконтейнер • Контейнеры «Особые бонусы», «Больше сигналов», «Тактический».",
+        "detailsURL": "https://korabli.su/ru/news/sales-and-events/stream-rewards-256/",
+        "endAt": "2025-06-29T18:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2133072147",
+          "slug": "mir-korabley",
+          "displayName": "Mir Korabley",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c71a52a6-15a0-4512-90c7-77bd83b6918a.png",
+        "name": "Турнир «Прорыв» 29 июня",
+        "owner": {
+          "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+          "name": "Lesta Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-29T10:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "2384862e-42b5-11f0-96cb-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_2506_TWITCH_2S",
+                  "createdAt": "2025-06-06T08:28:23.481Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2133072147",
+                    "name": "Mir Korabley",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/424e2071-9994-4ee5-9bb4-ca137d0d4be5.png",
+                  "isIosAvailable": false,
+                  "name": "25.6 «Прорыв» Задача #2",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-29T18:59:59.999Z",
+            "name": "Задача «Прорыв. Могущество флота» #2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-06-29T10:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "42830188-42b5-11f0-bae0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_PRM_2506_2",
+                  "createdAt": "2025-06-06T08:30:41.974Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2133072147",
+                    "name": "Mir Korabley",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b217f30e-4e08-4973-9709-eac0b3d2935a.png",
+                  "isIosAvailable": false,
+                  "name": "25.6 «Прорыв» Награда #2",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-06-29T18:59:59.999Z",
+            "name": "Награда «Прорыв. Могущество флота» #2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-06-29T10:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-29T10:30:00.000Z"
+  },
+  {
     "endAt": "2025-07-03T21:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/510389_IGDB-120x160.jpg",
     "gameDisplayName": "Shakes and Fidget",
