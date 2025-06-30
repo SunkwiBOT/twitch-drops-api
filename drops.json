@@ -26503,6 +26503,122 @@
     "startAt": "2025-06-30T15:00:00.000Z"
   },
   {
+    "endAt": "2025-07-04T15:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
+    "gameDisplayName": "Marbles on Stream",
+    "gameId": "509511",
+    "rewards": [
+      {
+        "id": "af38c491-5584-11f0-ac3e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://app.pixelbypixelstudios.live/auth/twitch/link",
+        "description": "Marbles on Stream is the most welcoming stream interactive experience where a streamer can run the game and welcome anyone in their chat to participate with \"!play\". That's it!\n\nJoin in for exclusive prizes and keep an eye on our for how we evolve this event in the future. If you need assistance please join our discord. Discord.gg/pixelbypixelstudios ",
+        "detailsURL": "https://pixelbypixel.studio/about/twitch-drops",
+        "endAt": "2025-07-04T15:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "509511",
+          "slug": "marbles-on-stream",
+          "displayName": "Marbles on Stream",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/52fe7e72-f178-44f2-81fe-144ae2fac1c6.png",
+        "name": "Marbleverse 6/30 to 7/4",
+        "owner": {
+          "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+          "name": "Pixel by Pixel Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-30T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "17daaf87-5585-11f0-b17c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTestBundleCC",
+                  "createdAt": "2023-10-26T09:00:50.239Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509511",
+                    "name": "Marbles on Stream",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7519a7e0-3787-4284-8790-071aaf244db2.png",
+                  "isIosAvailable": false,
+                  "name": "15 Community Coins",
+                  "ownerOrganization": {
+                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+                    "name": "Pixel by Pixel Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-04T15:59:59.998Z",
+            "name": "DROP",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-06-30T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "1fad52bb-5585-11f0-ad64-0a58a9feac02",
+            "requiredSubs": 2,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTC30",
+                  "createdAt": "2023-10-26T09:04:25.736Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509511",
+                    "name": "Marbles on Stream",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c00d8c14-ba12-4dc4-ab75-b400b3ba927c.png",
+                  "isIosAvailable": false,
+                  "name": "30 Tournament Coins",
+                  "ownerOrganization": {
+                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+                    "name": "Pixel by Pixel Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-04T15:59:59.998Z",
+            "name": "SUB DROP",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-06-30T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-30T16:00:00.000Z"
+  },
+  {
     "endAt": "2025-07-04T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/633454324_IGDB-120x160.jpg",
     "gameDisplayName": "Rush Royale",
