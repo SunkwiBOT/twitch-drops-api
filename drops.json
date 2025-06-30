@@ -26887,6 +26887,122 @@
     "startAt": "2025-06-07T00:25:57.000Z"
   },
   {
+    "endAt": "2025-07-06T23:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/324223699_IGDB-120x160.jpg",
+    "gameDisplayName": "ChatTDT: Tower Defense Twitch",
+    "gameId": "324223699",
+    "rewards": [
+      {
+        "id": "78f73346-55d1-11f0-9b49-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://ayrtonalexis.com/tdt_twitch_link.html",
+        "description": "The first chance to get the Dark Mage Tower as a drop if you missed the initial event!",
+        "detailsURL": "https://ayrtonalexis.com/tdt_drops.html",
+        "endAt": "2025-07-06T23:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "324223699",
+          "slug": "chattdt-tower-defense-twitch",
+          "displayName": "ChatTDT: Tower Defense Twitch",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5775e992-db1b-4046-8913-8f49e60a03d1.png",
+        "name": "Surprise Dark Mage Tower",
+        "owner": {
+          "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27",
+          "name": "Ayrton Alexis",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-06-30T16:43:28Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b3617bc5-55d1-11f0-bf61-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27_CUSTOM_ID_DarkMage_Slow",
+                  "createdAt": "2025-06-30T16:46:56.223Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "324223699",
+                    "name": "ChatTDT: Tower Defense Twitch",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ac3b5994-7b62-466d-8d28-3a373b5b227f.png",
+                  "isIosAvailable": false,
+                  "name": "Dark Mage Tower",
+                  "ownerOrganization": {
+                    "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27",
+                    "name": "Ayrton Alexis",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-06T23:59:59.999Z",
+            "name": "Dark Mage Tower by Watch Time",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2025-06-30T16:43:28Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "beae80a4-55d1-11f0-a661-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27_CUSTOM_ID_DarkMage_Slow",
+                  "createdAt": "2025-06-30T16:46:56.223Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "324223699",
+                    "name": "ChatTDT: Tower Defense Twitch",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ac3b5994-7b62-466d-8d28-3a373b5b227f.png",
+                  "isIosAvailable": false,
+                  "name": "Dark Mage Tower",
+                  "ownerOrganization": {
+                    "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27",
+                    "name": "Ayrton Alexis",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-06T23:59:59.999Z",
+            "name": "Dark Mage Tower by Sub",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-06-30T16:43:28Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-06-30T16:43:28.000Z"
+  },
+  {
     "endAt": "2025-07-07T06:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
     "gameDisplayName": "Overwatch 2",
