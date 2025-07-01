@@ -36615,6 +36615,86 @@
     "startAt": "2025-06-20T08:00:00.000Z"
   },
   {
+    "endAt": "2025-07-19T17:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515024-120x160.jpg",
+    "gameDisplayName": "Diablo IV",
+    "gameId": "515024",
+    "rewards": [
+      {
+        "id": "267d82b1-4bb8-11f0-99e8-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.battle.net/connections",
+        "description": "Season 9 has arrived! Celebrate with the Glensoul Arbalest Crossbow Twitch drops when you watch 3 hours of Diablo IV content",
+        "detailsURL": "https://news.blizzard.com/article/24215257/",
+        "endAt": "2025-07-19T17:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515024",
+          "slug": "diablo-iv",
+          "displayName": "Diablo IV",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0163308e-cf70-4c9f-b060-87ed2432a3a6.png",
+        "name": "Season 9 Launch Drops",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-01T17:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "32d9a2dc-4bb8-11f0-bca4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1959236",
+                  "createdAt": "2025-06-17T17:38:13.514Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515024",
+                    "name": "Diablo IV",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e67c23ff-6176-4a79-aafd-74517f5d623d.png",
+                  "isIosAvailable": false,
+                  "name": "Glensoul Arbalest",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-19T17:59:59.998Z",
+            "name": "Glensoul Arbalest",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-07-01T17:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-01T17:30:00.000Z"
+  },
+  {
     "endAt": "2025-07-20T10:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/518873_IGDB-120x160.jpg",
     "gameDisplayName": "Warhammer 40,000: Darktide",
