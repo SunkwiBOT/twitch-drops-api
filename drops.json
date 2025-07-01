@@ -27140,6 +27140,93 @@
     "startAt": "2025-06-30T21:00:00.000Z"
   },
   {
+    "endAt": "2025-07-07T23:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/13263_IGDB-120x160.jpg",
+    "gameDisplayName": "EVE Online",
+    "gameId": "13263",
+    "rewards": [
+      {
+        "id": "7dec2c39-534e-11f0-97b7-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "40860651",
+              "displayName": "CCP",
+              "name": "ccp",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.eveonline.com/twitch",
+        "description": "CCP Summer 2025 Streams Week 1",
+        "detailsURL": "https://www.eveonline.com/twitch",
+        "endAt": "2025-07-07T23:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "13263",
+          "slug": "eve-online",
+          "displayName": "EVE Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0e85f1f2-8936-44b8-96f1-4ca8bb2b55a5.png",
+        "name": "Summer 2025 Streams W1",
+        "owner": {
+          "id": "5f41544e-1cde-4002-97dc-497d59f71dda",
+          "name": "CCP Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-01T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "8c4647de-534e-11f0-9428-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5f41544e-1cde-4002-97dc-497d59f71dda_CUSTOM_ID_tranquility-VEEN-7935-1",
+                  "createdAt": "2025-06-27T11:53:34.408Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "13263",
+                    "name": "EVE Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4369c136-b6dc-4715-a217-f2385d1f3e15.png",
+                  "isIosAvailable": false,
+                  "name": "Rattlesnake GalNet SKIN",
+                  "ownerOrganization": {
+                    "id": "5f41544e-1cde-4002-97dc-497d59f71dda",
+                    "name": "CCP Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-07T23:59:59.999Z",
+            "name": "Rattlesnake GalNet StreamCast Unit SKIN",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-07-01T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-01T00:00:00.000Z"
+  },
+  {
     "endAt": "2025-07-08T03:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/513181_IGDB-120x160.jpg",
     "gameDisplayName": "Genshin Impact",
@@ -34076,8 +34163,8 @@
             },
             {
               "id": "39949707",
-              "displayName": "FSWAG",
-              "name": "fswag",
+              "displayName": "fdot",
+              "name": "fdot",
               "__typename": "Channel"
             },
             {
