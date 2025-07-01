@@ -1,5 +1,128 @@
 [
   {
+    "endAt": "2025-07-01T20:59:59.997Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/551919008_IGDB-120x160.jpg",
+    "gameDisplayName": "EA Sports College Football 26",
+    "gameId": "551919008",
+    "rewards": [
+      {
+        "id": "0199749c-56ac-11f0-a7a2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1133485324",
+              "displayName": "cfbtestingtest",
+              "name": "cfbtestingtest",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "This is a test, please ignore.",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-07-01T20:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "551919008",
+          "slug": "college-football-26",
+          "displayName": "EA Sports College Football 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "CFB 26 Drops Test",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-01T20:15:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a9a2ebd0-56ad-11f0-8086-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT26-TWITCH-0001",
+                  "createdAt": "2025-07-01T19:01:33.132Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "551919008",
+                    "name": "EA Sports College Football 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
+                  "isIosAvailable": false,
+                  "name": "Test",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-01T20:59:59.997Z",
+            "name": "Test",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-07-01T20:15:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "e03840b3-56b3-11f0-9255-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT25-TWITCH-TEST01",
+                  "createdAt": "2025-07-01T19:44:25.081Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "551919008",
+                    "name": "EA Sports College Football 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
+                  "isIosAvailable": false,
+                  "name": "new test",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-01T20:59:59.997Z",
+            "name": "new test",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 20,
+            "startAt": "2025-07-01T20:15:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-01T20:15:00.000Z"
+  },
+  {
     "endAt": "2025-07-02T09:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
     "gameDisplayName": "Albion Online",
@@ -6834,8 +6957,8 @@
             },
             {
               "id": "799428567",
-              "displayName": "Ferfoglia_",
-              "name": "ferfoglia_",
+              "displayName": "ferfoglia_rpg",
+              "name": "ferfoglia_rpg",
               "__typename": "Channel"
             },
             {
