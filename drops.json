@@ -4609,6 +4609,86 @@
     "startAt": "2025-06-30T15:00:00.000Z"
   },
   {
+    "endAt": "2025-07-02T15:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1901865180_IGDB-120x160.jpg",
+    "gameDisplayName": "Neverness to Everness",
+    "gameId": "1901865180",
+    "rewards": [
+      {
+        "id": "9d106bc3-4beb-11f0-8c44-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://nte.perfectworld.com/net/250514twitch/index.html",
+        "description": "NTE Containment Test Twitch Drops Round 1 Are Now Live! Watch 2 hours of NTE livestream content on Twitch and claim your reward to enter the draw pool. You'll have a chance to receive an email granting access to the containment test! Please check the email linked to your account on the binding page.  Note: Receiving a test qualification is not guaranteed. Completing the Twitch Drops task and claiming the voucher only grants entry into the qualification draw pool — it does not guarantee test access.",
+        "detailsURL": "https://nte.perfectworld.com/net/250514twitch/index.html",
+        "endAt": "2025-07-02T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1901865180",
+          "slug": "neverness-to-everness",
+          "displayName": "Neverness to Everness",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f33b4cc5-e825-4b7f-9054-026039270432.jpeg",
+        "name": "NTE Test Access Drops",
+        "owner": {
+          "id": "b5d23e72-0bc8-4df6-b16e-3d4ee02c834a",
+          "name": "苏州幻塔网络科技有限公司 Hottagames Co.,Ltd",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-01T03:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a5f7013e-4bec-11f0-9701-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "db166012-3b72-11f0-83de-0a58a9feac02",
+                  "createdAt": "2025-05-28T03:21:33.647Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1901865180",
+                    "name": "Neverness to Everness",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60ac74e4-f9be-4494-ae04-48d248373e28.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Beta Draw Ticket Round 1",
+                  "ownerOrganization": {
+                    "id": "b5d23e72-0bc8-4df6-b16e-3d4ee02c834a",
+                    "name": "苏州幻塔网络科技有限公司 Hottagames Co.,Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-02T15:59:59.999Z",
+            "name": "NTE test access chance",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-07-01T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-01T03:00:00.000Z"
+  },
+  {
     "endAt": "2025-07-03T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
     "gameDisplayName": "World of Warships",
