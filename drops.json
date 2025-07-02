@@ -1,157 +1,5 @@
 [
   {
-    "endAt": "2025-07-02T11:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516944_IGDB-120x160.jpg",
-    "gameDisplayName": "Corepunk",
-    "gameId": "516944",
-    "rewards": [
-      {
-        "id": "db9aefcc-46bb-11f0-ae35-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://auth.corepunk.com/Identity/Account/Manage/Twitch",
-        "description": "In this campaign we gift you with limited-edition helmet plus two mount skins, including a neon hoverboard and a mechanised spider. Minutes watched accumulate across different channels, so you can bounce between your favourite creators without losing progress. Once you click Claim on Twitch, the items appear almost instantly in-game, ready to show off on your next adventure.",
-        "detailsURL": "https://corepunk.com/en-us/news/twitch-drops-gear-up-ride-out-307",
-        "endAt": "2025-07-02T11:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "516944",
-          "slug": "corepunk",
-          "displayName": "Corepunk",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7f70741b-939b-4bb0-99ee-8adace24fc85.png",
-        "name": " Gear Up & Ride Out!",
-        "owner": {
-          "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4",
-          "name": "Artificial Core",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-06-18T12:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "4761cc9f-46bc-11f0-af90-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4_CUSTOM_ID_rc_twitch_drop_grade_1",
-                  "createdAt": "2025-05-19T18:27:40.22Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "516944",
-                    "name": "Corepunk",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c8b86a3c-f35b-4798-ab41-405bdecabb90.png",
-                  "isIosAvailable": false,
-                  "name": "Forgemasters Visor",
-                  "ownerOrganization": {
-                    "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4",
-                    "name": "Artificial Core",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-02T11:59:59.998Z",
-            "name": "Forgemasters Visor",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-06-18T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "6911c21e-46bc-11f0-80b7-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4_CUSTOM_ID_rc_twitch_drop_grade_2",
-                  "createdAt": "2025-05-19T18:27:49.93Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "516944",
-                    "name": "Corepunk",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/575c149b-cbe5-4d38-936a-53efa1224dbe.png",
-                  "isIosAvailable": false,
-                  "name": "Neon Echo Board",
-                  "ownerOrganization": {
-                    "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4",
-                    "name": "Artificial Core",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-02T11:59:59.998Z",
-            "name": "Neon Echo Board",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2025-06-18T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "80916332-46bc-11f0-a5c3-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4_CUSTOM_ID_rc_twitch_drop_grade_3",
-                  "createdAt": "2025-05-19T18:27:58.921Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "516944",
-                    "name": "Corepunk",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5363143-b9e1-4219-ac0a-ee627036cea8.png",
-                  "isIosAvailable": false,
-                  "name": "Neon Spiderthrone",
-                  "ownerOrganization": {
-                    "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4",
-                    "name": "Artificial Core",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-02T11:59:59.998Z",
-            "name": "Neon Spiderthrone",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 600,
-            "startAt": "2025-06-18T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-06-18T12:00:00.000Z"
-  },
-  {
     "endAt": "2025-07-02T12:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/207506430_IGDB-120x160.jpg",
     "gameDisplayName": "Out of the Park Baseball 26",
@@ -35567,6 +35415,12 @@
               "id": "437244583",
               "displayName": "kissy",
               "name": "kissy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "571368494",
+              "displayName": "LilacMelodyVT",
+              "name": "lilacmelodyvt",
               "__typename": "Channel"
             }
           ],
