@@ -30575,6 +30575,86 @@
     "startAt": "2025-06-27T18:00:00.000Z"
   },
   {
+    "endAt": "2025-07-11T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/547208385_IGDB-120x160.jpg",
+    "gameDisplayName": "Vaultbreakers",
+    "gameId": "547208385",
+    "rewards": [
+      {
+        "id": "ad9fad16-4c1f-11f0-8d87-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://vaultbreakers.com/twitch-drops",
+        "description": "Join Vaultbreaker's New Playtest! Watch a partnered Creator and get your Steam Playtest Key! ",
+        "detailsURL": "https://vaultbreakers.com/twitch-drops",
+        "endAt": "2025-07-11T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "547208385",
+          "slug": "vaultbreakers",
+          "displayName": "Vaultbreakers",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/001d3d1d-a6ea-4be2-914f-e120a805e0d9.png",
+        "name": "Vaultbreakers Drops",
+        "owner": {
+          "id": "c9322c4b-ca7b-4202-a4f8-dd16305464ce",
+          "name": "BetaDwarf",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-03T06:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "c78098dd-4c20-11f0-ab55-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a267b71b-5a16-11ef-b1ac-0a58a9feac02",
+                  "createdAt": "2024-08-14T08:24:33.226Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "547208385",
+                    "name": "Vaultbreakers",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/22b365eb-6a28-4549-81a7-5a098654865f.png",
+                  "isIosAvailable": false,
+                  "name": "Vaultbreaker Playtest Key",
+                  "ownerOrganization": {
+                    "id": "c9322c4b-ca7b-4202-a4f8-dd16305464ce",
+                    "name": "BetaDwarf",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-11T23:29:59.999Z",
+            "name": "Vaultbreakers Steam Playtest Key",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-07-03T06:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-03T06:00:00.000Z"
+  },
+  {
     "endAt": "2025-07-13T06:59:59.000Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509663-120x160.jpg",
     "gameDisplayName": "Special Events",
