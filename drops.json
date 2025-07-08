@@ -37323,6 +37323,158 @@
     "startAt": "2025-07-08T15:32:29.000Z"
   },
   {
+    "endAt": "2025-07-29T07:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/982017546_IGDB-120x160.jpg",
+    "gameDisplayName": "Palia",
+    "gameId": "982017546",
+    "rewards": [
+      {
+        "id": "8287b9e9-56b8-11f0-8978-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://accounts.palia.com",
+        "description": "Celebrate the Solstice Bloom update with unique rewards! Tune-in to your favorite Drops-enabled Palia content creator to receive Prize Wheel Coins, a Trufflet Plush, and a Plushie Pool!",
+        "detailsURL": "https://palia.com/news/193-twitch-drops",
+        "endAt": "2025-07-29T07:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "982017546",
+          "slug": "palia",
+          "displayName": "Palia",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9379c1a7-a7a9-4be5-ba2d-4e8e999675ec.png",
+        "name": "Solstice Bloom Update",
+        "owner": {
+          "id": "a3c13f82-ce43-4f29-88c0-47962f47809d",
+          "name": "Singularity 6",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-08T18:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "88566dbe-56b9-11f0-9939-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a3c13f82-ce43-4f29-88c0-47962f47809d_CUSTOM_ID_5d42fd27-be85-49ec-b523-b7d41848931c",
+                  "createdAt": "2025-07-01T20:22:56.931Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "982017546",
+                    "name": "Palia",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5444c25c-9267-49a8-a206-065cd2ef4bcd.png",
+                  "isIosAvailable": false,
+                  "name": "10x Prize Wheel Coin",
+                  "ownerOrganization": {
+                    "id": "a3c13f82-ce43-4f29-88c0-47962f47809d",
+                    "name": "Singularity 6",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-29T07:59:59.999Z",
+            "name": "Tier One",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-07-08T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "bcb98e93-56b9-11f0-a7a2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a3c13f82-ce43-4f29-88c0-47962f47809d_CUSTOM_ID_d3cfe1f7-fe8d-4ec6-ac0a-dbece3ec0399",
+                  "createdAt": "2025-07-01T20:23:55.782Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "982017546",
+                    "name": "Palia",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9f4b4454-48ff-45dc-98da-1758dc5841fc.png",
+                  "isIosAvailable": false,
+                  "name": "Trufflet Plush",
+                  "ownerOrganization": {
+                    "id": "a3c13f82-ce43-4f29-88c0-47962f47809d",
+                    "name": "Singularity 6",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-29T07:59:59.999Z",
+            "name": "Tier Two",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-07-08T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ca11ad5a-56b9-11f0-a763-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a3c13f82-ce43-4f29-88c0-47962f47809d_CUSTOM_ID_8563b6d3-d903-450c-a5f9-97ae1f127d8e",
+                  "createdAt": "2025-07-01T20:24:45.825Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "982017546",
+                    "name": "Palia",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f49ad1df-89ca-4057-8d51-dc98597ef058.png",
+                  "isIosAvailable": false,
+                  "name": "Plushie Pool",
+                  "ownerOrganization": {
+                    "id": "a3c13f82-ce43-4f29-88c0-47962f47809d",
+                    "name": "Singularity 6",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-29T07:59:59.999Z",
+            "name": "Tier Three",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-07-08T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-08T18:00:00.000Z"
+  },
+  {
     "endAt": "2025-07-30T00:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/213930085_IGDB-120x160.jpg",
     "gameDisplayName": "Honkai: Star Rail",
