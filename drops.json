@@ -14285,6 +14285,96 @@
           }
         ],
         "__typename": "DropCampaign"
+      },
+      {
+        "id": "bcdb7e53-5c0e-11f0-85b4-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "684543765",
+              "displayName": "RENNSPORT_gg",
+              "name": "rennsport_gg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "22859340",
+              "displayName": "EWC_SNBArena_EN",
+              "name": "ewc_snbarena_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "147095273",
+              "displayName": "EWC_SNBArena_AR",
+              "name": "ewc_snbarena_ar",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signup.rennsport.gg/#/link/twitch",
+        "description": "Rennsport EWC 2025 Twitch Drop",
+        "detailsURL": "https://www.rennsport.gg/twitch-drops-rennsport-r1-esports-world-cup-2025",
+        "endAt": "2025-07-11T20:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2058351979",
+          "slug": "rennsport",
+          "displayName": "Rennsport",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1630d0c0-c627-45a6-a961-36a7ceb398e2.png",
+        "name": "EWC  2025",
+        "owner": {
+          "id": "f6b0d6f2-6c16-4ca1-ae4e-60cbe4474251",
+          "name": "RENNSPORT",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-08T12:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "2b348321-5c0f-11f0-b742-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f6b0d6f2-6c16-4ca1-ae4e-60cbe4474251_CUSTOM_ID_acd8f4b2-461a-576e-d8cf-0e9de8c63967",
+                  "createdAt": "2025-07-08T12:33:34.898Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2058351979",
+                    "name": "Rennsport",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ac969e7f-dbd2-42ef-a644-e74d40313002.png",
+                  "isIosAvailable": false,
+                  "name": "R1 2024 - Porsche Coanda",
+                  "ownerOrganization": {
+                    "id": "f6b0d6f2-6c16-4ca1-ae4e-60cbe4474251",
+                    "name": "RENNSPORT",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-11T20:59:59.999Z",
+            "name": "EWC 2025 - Team Lieveries",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2025-07-08T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
       }
     ],
     "startAt": "2025-07-08T12:00:00.000Z"
