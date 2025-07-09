@@ -224,7 +224,7 @@
     "startAt": "2025-07-03T09:00:00.000Z"
   },
   {
-    "endAt": "2025-07-10T21:59:59.999Z",
+    "endAt": "2025-07-16T21:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
     "gameDisplayName": "World of Warships",
     "gameId": "32502",
@@ -409,6 +409,84 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 60,
             "startAt": "2025-07-02T22:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "ad575a0a-5ca3-11f0-a57a-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "182565961",
+              "displayName": "WorldofWarships",
+              "name": "worldofwarships",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://wargaming.net/personal/",
+        "description": "New Drops!",
+        "detailsURL": "https://worldofwarships.eu/news/general-news/stream-rewards-146/",
+        "endAt": "2025-07-16T21:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "32502",
+          "slug": "world-of-warships",
+          "displayName": "World of Warships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7403fd70-4312-4813-924a-7698620424dc.png",
+        "name": "Update 14.6 Mystery Drop",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-09T22:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b46e4714-5ca3-11f0-a525-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1406_updatedrop",
+                  "createdAt": "2025-07-09T09:00:17.858Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d6ea784e-d4a7-41a0-ac35-c340aa1d46dc.png",
+                  "isIosAvailable": false,
+                  "name": "Update 14.6 Mystery Drop",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-16T21:59:59.998Z",
+            "name": "Update 14.6 Mystery Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-07-09T22:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -39436,7 +39514,7 @@
             },
             {
               "id": "418041731",
-              "displayName": "Deeds",
+              "displayName": null,
               "name": "deeds",
               "__typename": "Channel"
             },
