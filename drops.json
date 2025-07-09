@@ -15393,6 +15393,86 @@
     "startAt": "2025-06-27T12:00:00.000Z"
   },
   {
+    "endAt": "2025-07-13T23:28:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
+    "gameDisplayName": "Kirka.io",
+    "gameId": "356609813",
+    "rewards": [
+      {
+        "id": "0c937258-5c61-11f0-8351-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Watch 15 hours to get rewarded a Gem Stone unobtainable skin",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2025-07-13T23:28:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4c2fed45-0cb5-47fc-b4aa-41b6ec4f39e8.png",
+        "name": "Gem Stone Unobtainable",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-09T01:09:58Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "d0911563-5c61-11f0-9eef-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_741927b5-2680-4a93-918f-b1265f8a6c03",
+                  "createdAt": "2025-07-09T01:14:53.422Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/319ab1ca-830c-4f7a-a44f-f6117459e5ee.png",
+                  "isIosAvailable": true,
+                  "name": "Gem Stone Unobtainable",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-13T23:28:59.999Z",
+            "name": "Gem Stone Unobtainable",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2025-07-09T01:09:58Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-09T01:09:58.000Z"
+  },
+  {
     "endAt": "2025-07-13T23:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511295_IGDB-120x160.jpg",
     "gameDisplayName": "Predecessor",
