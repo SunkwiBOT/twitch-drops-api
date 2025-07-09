@@ -419,6 +419,105 @@
   },
   {
     "endAt": "2025-07-10T02:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
+    "gameDisplayName": "Halo Infinite",
+    "gameId": "506416",
+    "rewards": [
+      {
+        "id": "71f280e5-5d00-11f0-b77d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "222719079",
+              "displayName": "LVTHalo",
+              "name": "lvthalo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "46061760",
+              "displayName": "BtHMaNiaC",
+              "name": "bthmaniac",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41058246",
+              "displayName": "aPG",
+              "name": "apg",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn in-game content in Halo Infinite!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-07-10T02:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/581d3ceb-66fd-4346-85a6-1ed07cecea1d.png",
+        "name": "LVT Pro League-JUL9",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-09T21:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a3b4ea51-5d00-11f0-bd12-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_EGWC-LW2W-3SJ7-5XJI-GHCZ",
+                  "createdAt": "2023-11-17T00:00:09.736Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87e563c2-ec4d-49f1-bb08-68d7f0c7e4d6.png",
+                  "isIosAvailable": false,
+                  "name": "Winner's Circle SpartanID",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-10T02:59:59.999Z",
+            "name": "Winner's Circle Spartan ID",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-07-09T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-09T21:00:00.000Z"
+  },
+  {
+    "endAt": "2025-07-10T02:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/209738946_IGDB-120x160.jpg",
     "gameDisplayName": "Wuthering Waves",
     "gameId": "209738946",
