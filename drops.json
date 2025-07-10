@@ -1,229 +1,5 @@
 [
   {
-    "endAt": "2025-07-09T23:58:59.997Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1471416868_IGDB-120x160.jpg",
-    "gameDisplayName": "UFL",
-    "gameId": "1471416868",
-    "rewards": [
-      {
-        "id": "cf841a36-565e-11f0-907c-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://auth.uflgame.com/twitch",
-        "description": "Watch any channel with drops enabled on Twitch in the UFL category and get cool rewards!",
-        "detailsURL": "https://auth.uflgame.com/twitch/drops",
-        "endAt": "2025-07-09T23:58:59.997Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1471416868",
-          "slug": "ufl",
-          "displayName": "UFL",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/bb512125-7f62-45fc-8046-e4dfc6d422e0.png",
-        "name": "Game Changers #7",
-        "owner": {
-          "id": "df246de8-213d-4816-9fdf-1e234784c18a",
-          "name": "XTEN LIMITED",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-07-03T09:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "095165eb-565f-11f0-8689-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_44311",
-                  "createdAt": "2025-07-01T09:32:56.7Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1471416868",
-                    "name": "UFL",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f40ecda0-73cd-4c5a-a848-e17f0da8d12c.png",
-                  "isIosAvailable": false,
-                  "name": "5-Matches RP Booster",
-                  "ownerOrganization": {
-                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
-                    "name": "XTEN LIMITED",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-09T23:58:59.997Z",
-            "name": "Drop#2 2 hours 5-Matches RP Booster",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-07-03T09:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "16c200f1-565f-11f0-9f09-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_44312",
-                  "createdAt": "2025-07-01T09:33:29.828Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1471416868",
-                    "name": "UFL",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7549e1e3-4774-4baf-86d9-7967c6db977a.png",
-                  "isIosAvailable": false,
-                  "name": "5-Matches XP Booster",
-                  "ownerOrganization": {
-                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
-                    "name": "XTEN LIMITED",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-09T23:58:59.997Z",
-            "name": "Drop#3 3 hours 5-Matches XP Booster",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-07-03T09:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "236df151-565f-11f0-9e05-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_44313",
-                  "createdAt": "2025-07-01T09:34:00.905Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1471416868",
-                    "name": "UFL",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/277ca6fa-8282-4b4e-afdc-e740537b7502.png",
-                  "isIosAvailable": false,
-                  "name": "Game Changers Pack",
-                  "ownerOrganization": {
-                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
-                    "name": "XTEN LIMITED",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-09T23:58:59.997Z",
-            "name": "Drop#4 5 hours Game Changers Pack ",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 300,
-            "startAt": "2025-07-03T09:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "31cf3172-565f-11f0-8978-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_44314",
-                  "createdAt": "2025-07-01T09:34:28.714Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1471416868",
-                    "name": "UFL",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6001cda9-1773-431e-8d46-2f6b915d831a.png",
-                  "isIosAvailable": false,
-                  "name": "Game Changers Pack",
-                  "ownerOrganization": {
-                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
-                    "name": "XTEN LIMITED",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-09T23:58:59.997Z",
-            "name": "Drop#5 6 hours Game Changers Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2025-07-03T09:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "f9edfe80-565e-11f0-b17c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_44310",
-                  "createdAt": "2025-07-01T09:32:21.436Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1471416868",
-                    "name": "UFL",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3cdf1a4e-ef52-4827-aeb0-5f88f154c676.png",
-                  "isIosAvailable": false,
-                  "name": "5-Matches CP Booster",
-                  "ownerOrganization": {
-                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
-                    "name": "XTEN LIMITED",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-09T23:58:59.997Z",
-            "name": "Drop#1 1 hour 5-Matches CP Booster",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-07-03T09:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-07-03T09:00:00.000Z"
-  },
-  {
     "endAt": "2025-07-16T21:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
     "gameDisplayName": "World of Warships",
@@ -41656,6 +41432,122 @@
       }
     ],
     "startAt": "2025-07-08T15:32:29.000Z"
+  },
+  {
+    "endAt": "2025-07-27T21:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/518379_IGDB-120x160.jpg",
+    "gameDisplayName": "Pokémon UNITE",
+    "gameId": "518379",
+    "rewards": [
+      {
+        "id": "70e329b6-5cdf-11f0-a3ce-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://rewards.pokemon.com/",
+        "description": "Watch any channel with Twitch Drops enabled streaming to Pokémon UNITE from 7/10-7/27 and earn a Rank Protection Card and Tuxedo Style Holowear after watching for 15 minutes, and a Random Gift Pack after watching for 30 minutes.",
+        "detailsURL": "https://rewards.pokemon.com/",
+        "endAt": "2025-07-27T21:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "518379",
+          "slug": "pokemon-unite",
+          "displayName": "Pokémon UNITE",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a2abf20a-9b23-4bda-92a7-2a2d645d99ed.png",
+        "name": "UNITE Summer Drops Fest",
+        "owner": {
+          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+          "name": "The Pokémon Company",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-10T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ae726127-5cf1-11f0-bdd0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d16e73d4-5ce8-11f0-b655-0a58a9feac02",
+                  "createdAt": "2025-07-09T17:19:06.433Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518379",
+                    "name": "Pokémon UNITE",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/42372d17-55f0-459e-91df-2f2e9e7585a2.png",
+                  "isIosAvailable": false,
+                  "name": "RankProtCard and Holowear",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-27T21:58:59.999Z",
+            "name": "Rank Protection Card and Holowear Selection Box",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-07-10T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b708e220-5cf1-11f0-bd12-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "00620acd-5ce9-11f0-b77d-0a58a9feac02",
+                  "createdAt": "2025-07-09T17:20:25.204Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518379",
+                    "name": "Pokémon UNITE",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/261ad330-cf3d-4a37-a864-3e8e0e9d8ae2.png",
+                  "isIosAvailable": false,
+                  "name": "Prize Pack",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-27T21:58:59.999Z",
+            "name": "Prize Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-07-10T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-10T00:00:00.000Z"
   },
   {
     "endAt": "2025-07-29T07:59:59.999Z",
