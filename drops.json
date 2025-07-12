@@ -1,205 +1,5 @@
 [
   {
-    "endAt": "2025-07-14T03:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/65654_IGDB-120x160.jpg",
-    "gameDisplayName": "The Elder Scrolls Online",
-    "gameId": "65654",
-    "rewards": [
-      {
-        "id": "d9842dd3-5e7d-11f0-8f6b-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "83211387",
-              "displayName": "Bethesda_DE",
-              "name": "bethesda_de",
-              "__typename": "Channel"
-            },
-            {
-              "id": "614394",
-              "displayName": "Bethesda",
-              "name": "bethesda",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.elderscrollsonline.com/",
-        "description": "Earn a 150% XP Scroll simply by watching Drop-enabled ESO streams on Twitch!",
-        "detailsURL": "https://www.elderscrollsonline.com/en-us/news/post/68059",
-        "endAt": "2025-07-12T19:44:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "65654",
-          "slug": "the-elder-scrolls-online",
-          "displayName": "The Elder Scrolls Online",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/af890cfc-f984-4efb-a2a0-fa1753b93ba6.jpeg",
-        "name": "ESO Tavern",
-        "owner": {
-          "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
-          "name": "ZeniMax Online Studios",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-07-12T09:30:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "dd40916a-5e7e-11f0-83d8-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_1397",
-                  "createdAt": "2025-04-10T14:42:10.806Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "65654",
-                    "name": "The Elder Scrolls Online",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2cf8d88f-93fc-42b4-bb4d-6df95f88abd3.jpeg",
-                  "isIosAvailable": false,
-                  "name": "150% XP Scroll",
-                  "ownerOrganization": {
-                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
-                    "name": "ZeniMax Online Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-12T19:44:59.999Z",
-            "name": "150% XP Scroll",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-07-12T09:30:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "ee38fc83-5e7e-11f0-8744-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_661",
-                  "createdAt": "2023-10-16T20:45:26.801Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "65654",
-                    "name": "The Elder Scrolls Online",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82e27bfb-eed2-4d24-bbeb-668789ff1dd4.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Ouroboros Crown Crate",
-                  "ownerOrganization": {
-                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
-                    "name": "ZeniMax Online Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-12T19:44:59.999Z",
-            "name": "Ouroboros Crown Crate",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-07-12T09:30:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "1b7c911b-5692-11f0-9ede-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.elderscrollsonline.com/",
-        "description": "Earn an Ouroboros Crown Crate simply by watching Drop-enabled ESO streams on Twitch!",
-        "detailsURL": "https://www.elderscrollsonline.com/en-us/news/post/59435",
-        "endAt": "2025-07-14T03:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "65654",
-          "slug": "the-elder-scrolls-online",
-          "displayName": "The Elder Scrolls Online",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/32531212-0e16-46ad-9a2b-a92dda019179.jpeg",
-        "name": "Update 47 on PTS",
-        "owner": {
-          "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
-          "name": "ZeniMax Online Studios",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-07-09T16:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "298748f5-5692-11f0-a763-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_661",
-                  "createdAt": "2023-10-16T20:45:26.801Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "65654",
-                    "name": "The Elder Scrolls Online",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82e27bfb-eed2-4d24-bbeb-668789ff1dd4.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Ouroboros Crown Crate",
-                  "ownerOrganization": {
-                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
-                    "name": "ZeniMax Online Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-14T03:59:59.998Z",
-            "name": "Ouroboros Crown Crate",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-07-09T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-07-09T16:00:00.000Z"
-  },
-  {
     "endAt": "2025-07-26T22:24:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511224-120x160.jpg",
     "gameDisplayName": "Apex Legends",
@@ -17448,6 +17248,86 @@
       }
     ],
     "startAt": "2025-06-25T06:00:00.000Z"
+  },
+  {
+    "endAt": "2025-07-14T03:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/65654_IGDB-120x160.jpg",
+    "gameDisplayName": "The Elder Scrolls Online",
+    "gameId": "65654",
+    "rewards": [
+      {
+        "id": "1b7c911b-5692-11f0-9ede-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.elderscrollsonline.com/",
+        "description": "Earn an Ouroboros Crown Crate simply by watching Drop-enabled ESO streams on Twitch!",
+        "detailsURL": "https://www.elderscrollsonline.com/en-us/news/post/59435",
+        "endAt": "2025-07-14T03:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "65654",
+          "slug": "the-elder-scrolls-online",
+          "displayName": "The Elder Scrolls Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/32531212-0e16-46ad-9a2b-a92dda019179.jpeg",
+        "name": "Update 47 on PTS",
+        "owner": {
+          "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
+          "name": "ZeniMax Online Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-09T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "298748f5-5692-11f0-a763-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_661",
+                  "createdAt": "2023-10-16T20:45:26.801Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "65654",
+                    "name": "The Elder Scrolls Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82e27bfb-eed2-4d24-bbeb-668789ff1dd4.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Ouroboros Crown Crate",
+                  "ownerOrganization": {
+                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
+                    "name": "ZeniMax Online Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-14T03:59:59.998Z",
+            "name": "Ouroboros Crown Crate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-07-09T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-09T16:00:00.000Z"
   },
   {
     "endAt": "2025-07-30T03:59:59.998Z",
