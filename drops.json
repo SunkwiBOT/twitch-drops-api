@@ -11782,15 +11782,8 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": [
-            {
-              "id": "263081908",
-              "displayName": "Blade_Exemplar",
-              "name": "blade_exemplar",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
+          "channels": null,
+          "isEnabled": false,
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://account.arena.net/oauth2/init-account-linking?client_id=twitch_drops ",
@@ -33996,6 +33989,99 @@
       }
     ],
     "startAt": "2025-07-10T13:33:53.000Z"
+  },
+  {
+    "endAt": "2025-07-28T22:12:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1482602869_IGDB-120x160.jpg",
+    "gameDisplayName": "7 Days Blood Moons",
+    "gameId": "1482602869",
+    "rewards": [
+      {
+        "id": "87fb70b2-6100-11f0-8443-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "193111020",
+              "displayName": "fubar_prime",
+              "name": "fubar_prime",
+              "__typename": "Channel"
+            },
+            {
+              "id": "542997923",
+              "displayName": "ザック楽しいポン引き",
+              "name": "zacktfp",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://drops.thefunpimps.com/",
+        "description": "Watch the Official 7 Days Blood Moons Developer Stream to get an exclusive cosmetic in 7 Days to Die",
+        "detailsURL": "https://thefunpimps.com/",
+        "endAt": "2025-07-28T22:12:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1482602869",
+          "slug": "7-days-blood-moons",
+          "displayName": "7 Days Blood Moons",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "Blood Moons Dev Stream",
+        "owner": {
+          "id": "95200ec2-aee2-4bdf-a8e7-5c4108b1bdd7",
+          "name": "The Fun Pimps Entertainment",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-14T22:13:55Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "95274332-6100-11f0-8ff8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5523eda8-5d29-11f0-b114-0a58a9feac02",
+                  "createdAt": "2025-07-10T01:00:55.194Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1482602869",
+                    "name": "7 Days Blood Moons",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/310d27de-9c21-4ce8-857d-ea98f9385749.png",
+                  "isIosAvailable": false,
+                  "name": "Purple Pimp Hat",
+                  "ownerOrganization": {
+                    "id": "95200ec2-aee2-4bdf-a8e7-5c4108b1bdd7",
+                    "name": "The Fun Pimps Entertainment",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-28T22:12:59.999Z",
+            "name": "Purple Pimp Hat",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-07-14T22:13:55Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-14T22:13:55.000Z"
   },
   {
     "endAt": "2025-07-29T07:59:59.999Z",
