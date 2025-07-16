@@ -9492,6 +9492,336 @@
           }
         ],
         "__typename": "DropCampaign"
+      },
+      {
+        "id": "9109c883-4dc3-11f0-8d53-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "72617505",
+              "displayName": "moZoneTV",
+              "name": "mozonetv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "231431192",
+              "displayName": "TunyGhost",
+              "name": "tunyghost",
+              "__typename": "Channel"
+            },
+            {
+              "id": "163488747",
+              "displayName": "N3utr4LSF",
+              "name": "n3utr4lsf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "115148629",
+              "displayName": "ZsombeyHD",
+              "name": "zsombeyhd",
+              "__typename": "Channel"
+            },
+            {
+              "id": "175988361",
+              "displayName": "DomCaOfficial",
+              "name": "domcaofficial",
+              "__typename": "Channel"
+            },
+            {
+              "id": "442193279",
+              "displayName": "Waves",
+              "name": "waves",
+              "__typename": "Channel"
+            },
+            {
+              "id": "277405774",
+              "displayName": "sfgameofficial",
+              "name": "sfgameofficial",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://sfgame.net/",
+        "description": "Watch the official Shakes & Fidget stream on Twitch to obtain unique Drops.",
+        "detailsURL": "https://playa-games.helpshift.com/hc/faq/255-twitch-drops/",
+        "endAt": "2025-07-20T21:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "510389",
+          "slug": "shakes-and-fidget",
+          "displayName": "Shakes and Fidget",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f27b1393-644a-4fe7-9ae2-79aa0930a4f1.jpeg",
+        "name": "S&F Drops Set 2/3",
+        "owner": {
+          "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+          "name": "Playa-Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-16T14:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "af948ebd-4dc3-11f0-bb35-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_gold_1",
+                  "createdAt": "2023-10-23T13:18:52.734Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/47c0dba2-cba2-4e95-9275-7a90e5001e7b.png",
+                  "isIosAvailable": false,
+                  "name": "Gilded Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-20T21:58:59.999Z",
+            "name": "Gilded Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b67bba2c-4dc3-11f0-91df-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_life_potion",
+                  "createdAt": "2023-10-23T13:21:22.647Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7cb69da8-da4a-4c7f-88e3-96f8baf73835.png",
+                  "isIosAvailable": false,
+                  "name": "Winged Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-20T21:58:59.999Z",
+            "name": "Winged Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "bae61bf8-4dc3-11f0-87b2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_metal_1",
+                  "createdAt": "2023-10-23T13:19:48.193Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c49543aa-42f0-41fe-b0f4-0ab083fb9fb7.png",
+                  "isIosAvailable": false,
+                  "name": "Metal Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-20T21:58:59.999Z",
+            "name": "Metal Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c1ab10c4-4dc3-11f0-a2c9-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_smith_1",
+                  "createdAt": "2023-10-23T13:20:49.242Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52713587-b18e-4fb5-98e7-98d18ac8a90c.png",
+                  "isIosAvailable": false,
+                  "name": "Smith Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-20T21:58:59.999Z",
+            "name": "Smith Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c7fa54c9-4dc3-11f0-b328-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_stone_1",
+                  "createdAt": "2023-10-23T13:26:54.703Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1ade6cce-9bc6-439e-b10a-96e316ae7ab7.png",
+                  "isIosAvailable": false,
+                  "name": "Construction Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-20T21:58:59.999Z",
+            "name": "Construction Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ce8a2d9f-4dc3-11f0-b277-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_fruits_x1",
+                  "createdAt": "2024-11-07T15:58:19.565Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/532077d5-4762-4658-958d-3ce63cdda7ca.png",
+                  "isIosAvailable": false,
+                  "name": "Fruit Basket",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-20T21:58:59.999Z",
+            "name": "Fruit Basket",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 150,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d5f0bd45-4dc3-11f0-89f9-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_epic_rand",
+                  "createdAt": "2024-04-04T08:54:19.073Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/03fa672e-4f26-4905-86e2-145a85ffbabc.png",
+                  "isIosAvailable": false,
+                  "name": "Random Epic Item",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-20T21:58:59.999Z",
+            "name": "Random Epic Item",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
       }
     ],
     "startAt": "2025-07-11T14:00:00.000Z"
@@ -23663,6 +23993,621 @@
       }
     ],
     "startAt": "2025-06-26T13:00:00.000Z"
+  },
+  {
+    "endAt": "2025-07-23T12:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516866_IGDB-120x160.jpg",
+    "gameDisplayName": "STALCRAFT: X",
+    "gameId": "516866",
+    "rewards": [
+      {
+        "id": "0baa325a-55ab-11f0-b1c8-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "445089354",
+              "displayName": "thedilbobaggins",
+              "name": "thedilbobaggins",
+              "__typename": "Channel"
+            },
+            {
+              "id": "47692180",
+              "displayName": "UnBannMee6",
+              "name": "unbannmee6",
+              "__typename": "Channel"
+            },
+            {
+              "id": "208768978",
+              "displayName": "dopefaceTV",
+              "name": "dopefacetv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "191170900",
+              "displayName": "Sludge_Wolf",
+              "name": "sludge_wolf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "161997456",
+              "displayName": "Roughshaggy",
+              "name": "roughshaggy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "82278092",
+              "displayName": "Yeney",
+              "name": "yeney",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51046581",
+              "displayName": "boHHoc",
+              "name": "bohhoc",
+              "__typename": "Channel"
+            },
+            {
+              "id": "218112104",
+              "displayName": "Humphreei",
+              "name": "humphreei",
+              "__typename": "Channel"
+            },
+            {
+              "id": "161690953",
+              "displayName": "ShizueAL",
+              "name": "shizueal",
+              "__typename": "Channel"
+            },
+            {
+              "id": "868649626",
+              "displayName": "rubbertaco1",
+              "name": "rubbertaco1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "664312491",
+              "displayName": "the_billythekid",
+              "name": "the_billythekid",
+              "__typename": "Channel"
+            },
+            {
+              "id": "901834283",
+              "displayName": "KarfagenSC",
+              "name": "karfagensc",
+              "__typename": "Channel"
+            },
+            {
+              "id": "207787846",
+              "displayName": "schempppp",
+              "name": "schempppp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "437458048",
+              "displayName": "gostingdb",
+              "name": "gostingdb",
+              "__typename": "Channel"
+            },
+            {
+              "id": "561787653",
+              "displayName": "HatonyCH",
+              "name": "hatonych",
+              "__typename": "Channel"
+            },
+            {
+              "id": "103826947",
+              "displayName": "NoMercySC",
+              "name": "nomercysc",
+              "__typename": "Channel"
+            },
+            {
+              "id": "542320267",
+              "displayName": "pan1x_t0p",
+              "name": "pan1x_t0p",
+              "__typename": "Channel"
+            },
+            {
+              "id": "548137024",
+              "displayName": "adhh_spasibo",
+              "name": "adhh_spasibo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "115319826",
+              "displayName": "NSh4rk",
+              "name": "nsh4rk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "445593457",
+              "displayName": "ekatowtf",
+              "name": "ekatowtf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "540612615",
+              "displayName": "MashtakOF",
+              "name": "mashtakof",
+              "__typename": "Channel"
+            },
+            {
+              "id": "402784266",
+              "displayName": "mrmercsc",
+              "name": "mrmercsc",
+              "__typename": "Channel"
+            },
+            {
+              "id": "71114107",
+              "displayName": "V13iy",
+              "name": "v13iy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "594773356",
+              "displayName": "FoxPeom",
+              "name": "foxpeom",
+              "__typename": "Channel"
+            },
+            {
+              "id": "763181635",
+              "displayName": "velichyt",
+              "name": "velichyt",
+              "__typename": "Channel"
+            },
+            {
+              "id": "87130079",
+              "displayName": "fladar1337",
+              "name": "fladar1337",
+              "__typename": "Channel"
+            },
+            {
+              "id": "418513309",
+              "displayName": "Cok1es",
+              "name": "cok1es",
+              "__typename": "Channel"
+            },
+            {
+              "id": "559604562",
+              "displayName": "Xqueeeee",
+              "name": "xqueeeee",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1230712768",
+              "displayName": "IXUMEPA",
+              "name": "ixumepa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "424866618",
+              "displayName": "kreenoleen_____",
+              "name": "kreenoleen_____",
+              "__typename": "Channel"
+            },
+            {
+              "id": "489111084",
+              "displayName": "animustv",
+              "name": "animustv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "145631983",
+              "displayName": "Zovut_Lis",
+              "name": "zovut_lis",
+              "__typename": "Channel"
+            },
+            {
+              "id": "854877156",
+              "displayName": "snegurka666",
+              "name": "snegurka666",
+              "__typename": "Channel"
+            },
+            {
+              "id": "855762987",
+              "displayName": "AyakaRai",
+              "name": "ayakarai",
+              "__typename": "Channel"
+            },
+            {
+              "id": "66314362",
+              "displayName": "EXBO_official",
+              "name": "exbo_official",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://exbo.net/user",
+        "description": "By linking your Twitch account with your EXBO account, you can earn a variety of rewards, including exclusive in-game items. Receive claimed items by talking with the Courier NPC on any safe zones (except for Swamps)",
+        "detailsURL": "https://support.exbo.net/help-center/articles/8/19/168/",
+        "endAt": "2025-07-23T12:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "516866",
+          "slug": "stalcraft",
+          "displayName": "STALCRAFT: X",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/896ad73a-9600-4b4f-972c-7777209ed7cb.png",
+        "name": "Attack on Perimeter ",
+        "owner": {
+          "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f",
+          "name": "EXBO",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-16T14:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9036830e-55ab-11f0-9612-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f_CUSTOM_ID_summer25_regular_case",
+                  "createdAt": "2025-06-25T16:21:13.648Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516866",
+                    "name": "STALCRAFT: X",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e3c6febe-1a99-4544-850c-c3480ec3cfcb.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch container (Attack)",
+                  "ownerOrganization": {
+                    "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f",
+                    "name": "EXBO",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-23T12:59:59.999Z",
+            "name": "Twitch Container",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9ec9c303-55ab-11f0-9c6d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f_CUSTOM_ID_summer25_regular_case",
+                  "createdAt": "2025-06-25T16:21:13.648Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516866",
+                    "name": "STALCRAFT: X",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e3c6febe-1a99-4544-850c-c3480ec3cfcb.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch container (Attack)",
+                  "ownerOrganization": {
+                    "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f",
+                    "name": "EXBO",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-23T12:59:59.999Z",
+            "name": "Twitch Container",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a600a9fb-55ab-11f0-a587-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f_CUSTOM_ID_summer25_regular_case",
+                  "createdAt": "2025-06-25T16:21:13.648Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516866",
+                    "name": "STALCRAFT: X",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e3c6febe-1a99-4544-850c-c3480ec3cfcb.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch container (Attack)",
+                  "ownerOrganization": {
+                    "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f",
+                    "name": "EXBO",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-23T12:59:59.999Z",
+            "name": "Twitch Container",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 270,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "aa29c1a6-55ab-11f0-9f84-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f_CUSTOM_ID_summer25_regular_case",
+                  "createdAt": "2025-06-25T16:21:13.648Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516866",
+                    "name": "STALCRAFT: X",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e3c6febe-1a99-4544-850c-c3480ec3cfcb.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch container (Attack)",
+                  "ownerOrganization": {
+                    "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f",
+                    "name": "EXBO",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-23T12:59:59.999Z",
+            "name": "Twitch Container",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "adbaa40c-55ab-11f0-b7ce-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f_CUSTOM_ID_summer25_regular_case",
+                  "createdAt": "2025-06-25T16:21:13.648Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516866",
+                    "name": "STALCRAFT: X",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e3c6febe-1a99-4544-850c-c3480ec3cfcb.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch container (Attack)",
+                  "ownerOrganization": {
+                    "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f",
+                    "name": "EXBO",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-23T12:59:59.999Z",
+            "name": "Twitch Container",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 450,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b210148d-55ab-11f0-b9ab-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f_CUSTOM_ID_summer25_regular_case",
+                  "createdAt": "2025-06-25T16:21:13.648Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516866",
+                    "name": "STALCRAFT: X",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e3c6febe-1a99-4544-850c-c3480ec3cfcb.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch container (Attack)",
+                  "ownerOrganization": {
+                    "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f",
+                    "name": "EXBO",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-23T12:59:59.999Z",
+            "name": "Twitch Container",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 540,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b71bbc1b-55ab-11f0-a2ad-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f_CUSTOM_ID_summer25_regular_case",
+                  "createdAt": "2025-06-25T16:21:13.648Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516866",
+                    "name": "STALCRAFT: X",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e3c6febe-1a99-4544-850c-c3480ec3cfcb.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch container (Attack)",
+                  "ownerOrganization": {
+                    "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f",
+                    "name": "EXBO",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-23T12:59:59.999Z",
+            "name": "Twitch Container",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 630,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "be57bdb7-55ab-11f0-9a41-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f_CUSTOM_ID_summer25_regular_case",
+                  "createdAt": "2025-06-25T16:21:13.648Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516866",
+                    "name": "STALCRAFT: X",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e3c6febe-1a99-4544-850c-c3480ec3cfcb.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch container (Attack)",
+                  "ownerOrganization": {
+                    "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f",
+                    "name": "EXBO",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-23T12:59:59.999Z",
+            "name": "Twitch Container",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 720,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c3028a0d-55ab-11f0-83c7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f_CUSTOM_ID_summer25_regular_case",
+                  "createdAt": "2025-06-25T16:21:13.648Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516866",
+                    "name": "STALCRAFT: X",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e3c6febe-1a99-4544-850c-c3480ec3cfcb.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch container (Attack)",
+                  "ownerOrganization": {
+                    "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f",
+                    "name": "EXBO",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-23T12:59:59.999Z",
+            "name": "Twitch Container",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 810,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c77510b2-55ab-11f0-b092-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f_CUSTOM_ID_summer25_regular_case",
+                  "createdAt": "2025-06-25T16:21:13.648Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516866",
+                    "name": "STALCRAFT: X",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e3c6febe-1a99-4544-850c-c3480ec3cfcb.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch container (Attack)",
+                  "ownerOrganization": {
+                    "id": "2fbf9cc4-92a7-4e79-b2ab-35d7b5d6c10f",
+                    "name": "EXBO",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-23T12:59:59.999Z",
+            "name": "Twitch Container",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2025-07-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-16T14:00:00.000Z"
   },
   {
     "endAt": "2025-07-23T14:58:59.999Z",
