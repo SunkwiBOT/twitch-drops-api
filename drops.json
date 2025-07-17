@@ -1804,6 +1804,93 @@
     "startAt": "2025-06-27T10:00:00.000Z"
   },
   {
+    "endAt": "2025-07-17T10:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1076348250-120x160.jpg",
+    "gameDisplayName": "37cb8189-d1e8-4cb0-9851-07ae05a979ee",
+    "gameId": "1076348250",
+    "rewards": [
+      {
+        "id": "ff68ca90-62e6-11f0-b1e0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "891963242",
+              "displayName": "cm_tinyhamsterhat",
+              "name": "cm_tinyhamsterhat",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://albiononline.com/twitch",
+        "description": "Earn exclusive rewards by watching Albion Online livestreams!",
+        "detailsURL": "https://forum.albiononline.com/index.php/Thread/203676-New-Twitch-Drop-Format-Starting-October-28-2024/",
+        "endAt": "2025-07-17T10:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1076348250",
+          "slug": "37cb8189-d1e8-4cb0-9851-07ae05a979ee",
+          "displayName": "37cb8189-d1e8-4cb0-9851-07ae05a979ee",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1e3411e4-a6a9-4f1f-bd43-41b7bc000811.png",
+        "name": "Alpaca Test 4",
+        "owner": {
+          "id": "39dcfadd-48e4-4362-8c22-974319aff88e",
+          "name": "Sandbox Interactive",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-17T08:20:33Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "12cb243d-62e7-11f0-8272-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "39dcfadd-48e4-4362-8c22-974319aff88e_CUSTOM_ID_brown_alpaca-2134ad91-b509-417b-81aa-5b0c84ddb46b",
+                  "createdAt": "2024-04-17T10:17:07.566Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1076348250",
+                    "name": "37cb8189-d1e8-4cb0-9851-07ae05a979ee",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cb392a6f-8fb1-4164-bab2-ee15d197486f.png",
+                  "isIosAvailable": true,
+                  "name": "Staging Brown Alpaca",
+                  "ownerOrganization": {
+                    "id": "39dcfadd-48e4-4362-8c22-974319aff88e",
+                    "name": "Sandbox Interactive",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-17T10:29:59.999Z",
+            "name": "Brown Alpaca",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-07-17T08:20:33Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-17T08:20:33.000Z"
+  },
+  {
     "endAt": "2025-07-17T11:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
     "gameDisplayName": "Black Desert",
