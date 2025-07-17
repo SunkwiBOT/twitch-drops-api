@@ -9930,6 +9930,135 @@
     "startAt": "2025-07-01T17:30:00.000Z"
   },
   {
+    "endAt": "2025-07-19T20:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
+    "gameDisplayName": "Overwatch 2",
+    "gameId": "515025",
+    "rewards": [
+      {
+        "id": "ff3f193f-5dc6-11f0-a525-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "137512364",
+              "displayName": "ow_esports",
+              "name": "ow_esports",
+              "__typename": "Channel"
+            },
+            {
+              "id": "91017948",
+              "displayName": "EWC_STCArena_EN2",
+              "name": "ewc_stcarena_en2",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.battle.net/connections",
+        "description": "Celebrate the Overwatch Champions Series Midseason Championship LCQ with viewer rewards!  Watch 2 hours to get a S17 Battle pass tier skip and 4 hours to get a S17 Loot Box.",
+        "detailsURL": "https://esports.overwatch.com/en-us/rewards",
+        "endAt": "2025-07-19T20:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515025",
+          "slug": "overwatch-2",
+          "displayName": "Overwatch 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/45932918-7633-4694-a057-042f52dce0ed.png",
+        "name": "OWCS MSC LCQ Drops",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-17T11:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "15e231e6-5dc7-11f0-a692-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_809943",
+                  "createdAt": "2023-11-18T00:44:24.324Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e0ede26e-b071-47f0-af5f-b80b26fa9fb4.png",
+                  "isIosAvailable": false,
+                  "name": "Battle Pass Tier Skip",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-19T20:59:59.999Z",
+            "name": "Battle Pass Tier Skip",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-07-17T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "1c7ea39a-5dc7-11f0-8b27-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1965426",
+                  "createdAt": "2025-06-24T17:23:08.718Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ca75a52-0549-4dec-9988-70422a70542e.png",
+                  "isIosAvailable": false,
+                  "name": "S17 Lootbox",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-19T20:59:59.999Z",
+            "name": "Loot Box",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-07-17T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-17T11:00:00.000Z"
+  },
+  {
     "endAt": "2025-07-20T09:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/491289_IGDB-120x160.jpg",
     "gameDisplayName": "Infestation: The New Z",
