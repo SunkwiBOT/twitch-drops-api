@@ -41024,6 +41024,12 @@
               "displayName": "SrLenny",
               "name": "srlenny",
               "__typename": "Channel"
+            },
+            {
+              "id": "409688230",
+              "displayName": "Bearzerkyr",
+              "name": "bearzerkyr",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -42176,8 +42182,15 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "26615579",
+              "displayName": "NBA2K",
+              "name": "nba2k",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://nba.2k.com/twitch-drops/",
