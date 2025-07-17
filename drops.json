@@ -42162,5 +42162,121 @@
       }
     ],
     "startAt": "2025-07-14T17:00:00.000Z"
+  },
+  {
+    "endAt": "2025-08-12T13:58:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2112738408_IGDB-120x160.jpg",
+    "gameDisplayName": "NBA 2K26",
+    "gameId": "2112738408",
+    "rewards": [
+      {
+        "id": "9c13da76-5b6a-11f0-8ef2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://nba.2k.com/twitch-drops/",
+        "description": "Watch the Road to NBA 2K26 and complete this Twitch Drops campaign to earn Locker Codes, containing a MyTEAM 100 OVR+ Super Pack (Unauctionable), MyPLAYER Camo Moto Pants, MyTEAM 1 Hour 2XP Coin, MyCAREER 1 Hour 2XP Coin, and MyCAREER 60 Skill Boosts for NBA 2K25!",
+        "detailsURL": "https://nba.2k.com/twitch-drops/",
+        "endAt": "2025-08-12T13:58:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2112738408",
+          "slug": "nba-2k26",
+          "displayName": "NBA 2K26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9cdb9083-7a66-4617-9d5f-b43c4ff565bf.png",
+        "name": "Road to NBA 2K26 (Part 1)",
+        "owner": {
+          "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616",
+          "name": "2K Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-17T14:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1b47e6c4-60e1-11f0-936e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cf2365e6-60e0-11f0-b674-0a58a9feac02",
+                  "createdAt": "2025-07-14T18:31:51.263Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2112738408",
+                    "name": "NBA 2K26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4ca725c-29f7-4258-a6f2-7d4e27c85076.png",
+                  "isIosAvailable": false,
+                  "name": "Road to 2k26 Code (45min)",
+                  "ownerOrganization": {
+                    "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616",
+                    "name": "2K Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-12T13:58:59.998Z",
+            "name": "Road to 2k26 (45min)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-07-17T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "2828bfaf-60e1-11f0-9f07-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e09b5e23-60e0-11f0-92d1-0a58a9feac02",
+                  "createdAt": "2025-07-14T18:32:20.57Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2112738408",
+                    "name": "NBA 2K26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b089db8a-4de1-4a86-a2ca-1f6eba56bc77.png",
+                  "isIosAvailable": false,
+                  "name": "Road to 2k26 Code (2hr)",
+                  "ownerOrganization": {
+                    "id": "e91851f4-7a94-4f97-a9f8-eb4c93bf7616",
+                    "name": "2K Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-12T13:58:59.998Z",
+            "name": "Road to 2k26 (2hr)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-07-17T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-17T14:00:00.000Z"
   }
 ]
