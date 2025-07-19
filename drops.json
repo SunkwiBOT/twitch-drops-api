@@ -3663,7 +3663,7 @@
     "startAt": "2025-07-19T03:00:00.000Z"
   },
   {
-    "endAt": "2025-07-20T09:29:59.998Z",
+    "endAt": "2025-07-20T09:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
     "gameDisplayName": "Albion Online",
     "gameId": "417528",
@@ -5157,6 +5157,77 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 0,
             "startAt": "2025-07-05T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "85c9a3a0-5cc8-11f0-abd5-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://albiononline.com/twitch",
+        "description": "Earn exclusive rewards by watching Albion Online livestreams!",
+        "detailsURL": "https://forum.albiononline.com/index.php/Thread/203676-New-Twitch-Drop-Format-Starting-October-28-2024/",
+        "endAt": "2025-07-20T09:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417528",
+          "slug": "albion-online",
+          "displayName": "Albion Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8002328c-a45d-472e-a518-0390aee61d34.png",
+        "name": "Abyssal Depths 3 - #6/7",
+        "owner": {
+          "id": "39dcfadd-48e4-4362-8c22-974319aff88e",
+          "name": "Sandbox Interactive",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-19T10:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f98d5584-5cc8-11f0-9f07-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "39dcfadd-48e4-4362-8c22-974319aff88e_CUSTOM_ID_abyssal_depths_chest-6b60cab5-ae22-4e0c-9965-e2ffb62f2b35",
+                  "createdAt": "2025-06-23T10:24:48.411Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417528",
+                    "name": "Albion Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4cc6775c-dc20-448a-b55e-5dfcd24403af.png",
+                  "isIosAvailable": true,
+                  "name": "Abyssal Depths Chest",
+                  "ownerOrganization": {
+                    "id": "39dcfadd-48e4-4362-8c22-974319aff88e",
+                    "name": "Sandbox Interactive",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-20T09:29:59.999Z",
+            "name": "Abyssal Depths Chest",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-07-19T10:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
