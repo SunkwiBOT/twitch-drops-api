@@ -8919,6 +8919,93 @@
     "startAt": "2025-07-09T02:00:00.000Z"
   },
   {
+    "endAt": "2025-07-21T00:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/33214-120x160.jpg",
+    "gameDisplayName": "Fortnite",
+    "gameId": "33214",
+    "rewards": [
+      {
+        "id": "7c68c195-6354-11f0-be7f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "55125740",
+              "displayName": "Fortnite",
+              "name": "fortnite",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.epicgames.com/account/connections",
+        "description": "To claim the FNCS Coin Emoticon, watch for 60 minutes cumulative during the Group Stage broadcasts on July 20, 26, and 27.",
+        "detailsURL": "https://fn.gg/Major3-Drops",
+        "endAt": "2025-07-21T00:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "33214",
+          "slug": "fortnite",
+          "displayName": "Fortnite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a7f49c32-41b5-4817-8b52-b100ea594ae3.jpeg",
+        "name": "FNCS Major 3",
+        "owner": {
+          "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+          "name": "Epic Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-20T14:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "fd21c450-6354-11f0-a3a8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a_CUSTOM_ID_575112E148DDB566C4CA8DB6D9245E2A",
+                  "createdAt": "2025-07-17T21:29:12.417Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "33214",
+                    "name": "Fortnite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/897980df-5afd-41f3-9222-8c348e6b82de.jpeg",
+                  "isIosAvailable": false,
+                  "name": "FNCS Coin Emoticon",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-21T00:59:59.999Z",
+            "name": "FNCS Coin Emoticon",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-07-20T14:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-20T14:30:00.000Z"
+  },
+  {
     "endAt": "2025-07-21T01:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/890558948_IGDB-120x160.jpg",
     "gameDisplayName": "Torchlight: Infinite",
@@ -11663,12 +11750,6 @@
               "id": "60537669",
               "displayName": "O_P_Hacker",
               "name": "o_p_hacker",
-              "__typename": "Channel"
-            },
-            {
-              "id": "103179576",
-              "displayName": "Fr3ddy",
-              "name": "fr3ddy",
               "__typename": "Channel"
             },
             {
