@@ -1,415 +1,5 @@
 [
   {
-    "endAt": "2025-07-25T21:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/383199964_IGDB-120x160.jpg",
-    "gameDisplayName": "Mobile Dungeon",
-    "gameId": "383199964",
-    "rewards": [
-      {
-        "id": "0f2d6e27-686f-11f0-8a82-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "1094384185",
-              "displayName": "MobileDungeonOfficial",
-              "name": "mobiledungeonofficial",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://mobiledungeon.com/",
-        "description": "Watch the official Mobile Dungeon stream on Twitch to obtain unique Drops.",
-        "detailsURL": "https://playa-games.helpshift.com/hc/faq/255-twitch-drops/",
-        "endAt": "2025-07-25T21:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "383199964",
-          "slug": "mobile-dungeon",
-          "displayName": "Mobile Dungeon",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/99033c33-63c7-4a4e-988f-1dca645da4a2.png",
-        "name": "MD Drops Test",
-        "owner": {
-          "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-          "name": "Playa-Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-07-25T06:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "bf4f3f8d-686f-11f0-b460-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_rc_s",
-                  "createdAt": "2025-07-24T08:51:42.499Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "383199964",
-                    "name": "Mobile Dungeon",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0915103e-d274-4927-ab17-d418ea84e78e.png",
-                  "isIosAvailable": false,
-                  "name": "25x Crystal",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-25T21:59:59.998Z",
-            "name": "25x Crystal",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 20,
-            "startAt": "2025-07-25T06:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "cd9b2fcb-686f-11f0-b854-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_arenaTicket_s",
-                  "createdAt": "2025-07-24T08:47:56.819Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "383199964",
-                    "name": "Mobile Dungeon",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/19f8ff54-e7f3-4006-bb6f-fc5c69901945.png",
-                  "isIosAvailable": false,
-                  "name": "2x Arena Ticket",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-25T21:59:59.998Z",
-            "name": "2x Arena Ticket",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-07-25T06:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "db215b8d-686f-11f0-9047-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_key_s",
-                  "createdAt": "2025-07-24T08:50:07.087Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "383199964",
-                    "name": "Mobile Dungeon",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/edf6f836-7d33-48d1-83df-bcd8fd5c4065.png",
-                  "isIosAvailable": false,
-                  "name": "2x Dungeon Key",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-25T21:59:59.998Z",
-            "name": "2x Dungeon Key",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-07-25T06:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-07-25T06:00:00.000Z"
-  },
-  {
-    "endAt": "2025-07-25T21:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/20596_IGDB-120x160.jpg",
-    "gameDisplayName": "Dofus",
-    "gameId": "20596",
-    "rewards": [
-      {
-        "id": "c0fcf063-663d-11f0-80d4-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.ankama.com/fr/twitch",
-        "description": "La mise à jour 3.2 est en ligne, avec un accès direct vers la dimension la plus bestiale qui ait jamais existé : Osavora, terre d’Osamodas, mais aussi de Gargandyas, le premier Titan de DOFUS ! Pour l'occasion, un Twitch Drop spécial est disponible sur toutes les chaînes Twitch sur DOFUS !",
-        "detailsURL": "https://account.ankama.com/fr/twitch",
-        "endAt": "2025-07-25T21:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "20596",
-          "slug": "dofus",
-          "displayName": "Dofus",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6f55e316-bece-47cd-b5ac-c00b38885de9.png",
-        "name": "Feed the Beast! [Day 4]",
-        "owner": {
-          "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
-          "name": "ANKAMA Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-07-24T22:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "d57b6240-663d-11f0-a822-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "1559f30c-485a-11f0-8418-0a58a9feac02",
-                  "createdAt": "2025-06-13T13:26:59.095Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "20596",
-                    "name": "Dofus",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9328a4f2-06e3-4777-9225-2d6e643b8728.png",
-                  "isIosAvailable": false,
-                  "name": "MB Touitcheur",
-                  "ownerOrganization": {
-                    "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
-                    "name": "ANKAMA Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-25T21:59:59.999Z",
-            "name": "MB - Feed the Beast!",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-07-24T22:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-07-24T22:00:00.000Z"
-  },
-  {
-    "endAt": "2025-07-25T21:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1672324422-120x160.jpg",
-    "gameDisplayName": "Call of Duty: Black Ops 6",
-    "gameId": "1672324422",
-    "rewards": [
-      {
-        "id": "15dcaf3f-60d8-11f0-8af0-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "517517629",
-              "displayName": "EWC_STCArena_EN",
-              "name": "ewc_stcarena_en",
-              "__typename": "Channel"
-            },
-            {
-              "id": "91017948",
-              "displayName": "EWC_STCArena_EN2",
-              "name": "ewc_stcarena_en2",
-              "__typename": "Channel"
-            },
-            {
-              "id": "147085022",
-              "displayName": "EWC_STCArena_AR",
-              "name": "ewc_stcarena_ar",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://profile.callofduty.com/cod/twitch/reauth",
-        "description": "EWC - Day 2",
-        "detailsURL": "https://www.twitch.tv/drops/inventory",
-        "endAt": "2025-07-25T21:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1672324422",
-          "slug": "call-of-duty-black-ops-6",
-          "displayName": "Call of Duty: Black Ops 6",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a5d54487-0e96-41fe-b427-731e6bd12a8a.png",
-        "name": "EWC - Day 2",
-        "owner": {
-          "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-          "name": "Activision Publishing ",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-07-25T14:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "1e89e619-60d8-11f0-85b3-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_31953",
-                  "createdAt": "2025-07-14T18:01:16.245Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512710",
-                    "name": "Call of Duty: Warzone",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/020de2e9-c9c2-44ed-8b58-8683a8c48632.png",
-                  "isIosAvailable": false,
-                  "name": "30 Minute Double XP Token",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-25T21:59:59.999Z",
-            "name": "60 Mins Drop",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-07-25T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "23473904-60d8-11f0-9749-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_33168",
-                  "createdAt": "2025-07-14T16:56:39.861Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1672324422",
-                    "name": "Call of Duty: Black Ops 6",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/72ca2c5f-6049-4be0-a7e1-1521b37bab89.png",
-                  "isIosAvailable": false,
-                  "name": "Chalked Spray",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-25T21:59:59.999Z",
-            "name": "90 Mins Drop",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-07-25T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "2a85892f-60d8-11f0-b86a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_31949",
-                  "createdAt": "2025-07-14T18:01:44.548Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512710",
-                    "name": "Call of Duty: Warzone",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0c25e8e6-c64f-46e3-978a-e4b122e7d802.png",
-                  "isIosAvailable": false,
-                  "name": "30 Minute Weapon XP Token",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-07-25T21:59:59.999Z",
-            "name": "120 Mins Drop",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-07-25T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-07-25T14:00:00.000Z"
-  },
-  {
     "endAt": "2025-07-25T23:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/707002701_IGDB-120x160.jpg",
     "gameDisplayName": "Coryphaeus Championships",
@@ -2679,6 +2269,86 @@
       }
     ],
     "startAt": "2025-07-25T20:00:00.000Z"
+  },
+  {
+    "endAt": "2025-07-26T21:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/20596_IGDB-120x160.jpg",
+    "gameDisplayName": "Dofus",
+    "gameId": "20596",
+    "rewards": [
+      {
+        "id": "f62973c6-663d-11f0-8e08-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.ankama.com/fr/twitch",
+        "description": "La mise à jour 3.2 est en ligne, avec un accès direct vers la dimension la plus bestiale qui ait jamais existé : Osavora, terre d’Osamodas, mais aussi de Gargandyas, le premier Titan de DOFUS ! Pour l'occasion, un Twitch Drop spécial est disponible sur toutes les chaînes Twitch sur DOFUS !",
+        "detailsURL": "https://account.ankama.com/fr/twitch",
+        "endAt": "2025-07-26T21:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "20596",
+          "slug": "dofus",
+          "displayName": "Dofus",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c7e448f4-55ee-4518-bf09-b1798e463d7e.png",
+        "name": "Feed the Beast! [Day 5]",
+        "owner": {
+          "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
+          "name": "ANKAMA Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-25T22:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0905c4ad-663e-11f0-ac2c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "1559f30c-485a-11f0-8418-0a58a9feac02",
+                  "createdAt": "2025-06-13T13:26:59.095Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "20596",
+                    "name": "Dofus",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9328a4f2-06e3-4777-9225-2d6e643b8728.png",
+                  "isIosAvailable": false,
+                  "name": "MB Touitcheur",
+                  "ownerOrganization": {
+                    "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
+                    "name": "ANKAMA Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-26T21:59:59.999Z",
+            "name": "MB - Feed the Beast!",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-07-25T22:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-25T22:00:00.000Z"
   },
   {
     "endAt": "2025-07-26T22:24:59.999Z",
