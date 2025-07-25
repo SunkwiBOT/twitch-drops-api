@@ -35762,6 +35762,86 @@
     "startAt": "2025-07-22T00:00:00.000Z"
   },
   {
+    "endAt": "2025-08-18T07:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1835414308_IGDB-120x160.jpg",
+    "gameDisplayName": "Fate Trigger",
+    "gameId": "1835414308",
+    "rewards": [
+      {
+        "id": "8702292c-5e21-11f0-a719-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://fatetrigger.com/act/twitchdrops/index.html",
+        "description": "To claim the CBT drops: Join a participating live channel and watch for 1 hour.",
+        "detailsURL": "https://fatetrigger.com/act/twitchdrops/index.html",
+        "endAt": "2025-08-18T07:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1835414308",
+          "slug": "fate-trigger-the-novita",
+          "displayName": "Fate Trigger",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0b97fc0c-e2eb-42cb-8b60-5e6151cdcf49.png",
+        "name": "Fate Trigger CBT Drops",
+        "owner": {
+          "id": "026431de-0321-49a2-91e8-8204354c799d",
+          "name": "Saroasis Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-25T04:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9af575bf-5e21-11f0-ba8a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f5dfa382-5e21-11f0-ac9b-0a58a9feac02",
+                  "createdAt": "2025-07-11T06:40:40.049Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1835414308",
+                    "name": "Fate Trigger",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f73cc5d-9009-44be-93ee-cf51d5b4fd5f.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Steam or Non-steam Key",
+                  "ownerOrganization": {
+                    "id": "026431de-0321-49a2-91e8-8204354c799d",
+                    "name": "Saroasis Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-18T07:59:59.999Z",
+            "name": "Steam or Non-steam Key",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-07-25T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-25T04:00:00.000Z"
+  },
+  {
     "endAt": "2025-08-18T17:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/783596487_IGDB-120x160.jpg",
     "gameDisplayName": "Ghostbusters: Spirits Unleashed",
