@@ -816,6 +816,147 @@
     "startAt": "2025-07-26T10:30:00.000Z"
   },
   {
+    "endAt": "2025-07-26T19:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
+    "gameDisplayName": "Tanki Online",
+    "gameId": "417810",
+    "rewards": [
+      {
+        "id": "88321926-6954-11f0-bc2f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "117023453",
+              "displayName": "TankiSport_RU",
+              "name": "tankisport_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64274116",
+              "displayName": "TankiSport_EN",
+              "name": "tankisport_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806896138",
+              "displayName": "TankiSport_RU_2",
+              "name": "tankisport_ru_2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806894175",
+              "displayName": "TankiSport_EN_2",
+              "name": "tankisport_en_2",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://tankionline.com/play/",
+        "description": "Watch Tanki Online eSports match livestreams and get Epic Keys in Tanki Online",
+        "detailsURL": "https://tankionline.com/",
+        "endAt": "2025-07-26T19:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417810",
+          "slug": "tanki-online",
+          "displayName": "Tanki Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e26d8a77-c0bc-4942-812e-5557c61678ac.jpeg",
+        "name": "WMR1 2025 R3 (2)",
+        "owner": {
+          "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+          "name": "APL Publishing Ltd",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-26T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9eba5e2a-6954-11f0-8e6a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-26T19:29:59.999Z",
+            "name": "Match 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-07-26T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a1530e6c-6954-11f0-81a2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-26T19:29:59.999Z",
+            "name": "Match 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-07-26T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-26T17:00:00.000Z"
+  },
+  {
     "endAt": "2025-07-26T19:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
     "gameDisplayName": "Eternal Return",
@@ -7764,6 +7905,318 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 90,
             "startAt": "2025-07-25T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "0e47ebf3-66ce-11f0-87f9-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "112353016",
+              "displayName": "DELTA_FiX",
+              "name": "delta_fix",
+              "__typename": "Channel"
+            },
+            {
+              "id": "196891596",
+              "displayName": "stikinson",
+              "name": "stikinson",
+              "__typename": "Channel"
+            },
+            {
+              "id": "115156753",
+              "displayName": "TaisonTV",
+              "name": "taisontv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "109995694",
+              "displayName": "larrythecarry_",
+              "name": "larrythecarry_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "432212991",
+              "displayName": "tJ_sk1per",
+              "name": "tj_sk1per",
+              "__typename": "Channel"
+            },
+            {
+              "id": "42784672",
+              "displayName": "ATTURSSON",
+              "name": "attursson",
+              "__typename": "Channel"
+            },
+            {
+              "id": "117825189",
+              "displayName": "Tekk_tv",
+              "name": "tekk_tv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "212829766",
+              "displayName": "itznowh3re",
+              "name": "itznowh3re",
+              "__typename": "Channel"
+            },
+            {
+              "id": "794544200",
+              "displayName": "January",
+              "name": "january",
+              "__typename": "Channel"
+            },
+            {
+              "id": "29581554",
+              "displayName": "nihkilist",
+              "name": "nihkilist",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1102542905",
+              "displayName": "DeltaForceGameOfficial",
+              "name": "deltaforcegameofficial",
+              "__typename": "Channel"
+            },
+            {
+              "id": "480980530",
+              "displayName": "WA77EN",
+              "name": "wa77en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "177411744",
+              "displayName": "Minda999",
+              "name": "minda999",
+              "__typename": "Channel"
+            },
+            {
+              "id": "232870590",
+              "displayName": "siingsong",
+              "name": "siingsong",
+              "__typename": "Channel"
+            },
+            {
+              "id": "160116853",
+              "displayName": "EqualPlays",
+              "name": "equalplays",
+              "__typename": "Channel"
+            },
+            {
+              "id": "170637",
+              "displayName": "Sammy",
+              "name": "sammy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "29111753",
+              "displayName": "TheJDevise",
+              "name": "thejdevise",
+              "__typename": "Channel"
+            },
+            {
+              "id": "185574861",
+              "displayName": "Gorilla",
+              "name": "gorilla",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
+        "description": "Watch Delta Force Elite lnvitational to get good vibes & exclusive Twitch Drops!",
+        "detailsURL": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
+        "endAt": "2025-07-27T23:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1282866981",
+          "slug": "delta-force-hawk-ops",
+          "displayName": "Delta Force",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a2bfc833-7684-4f88-8d69-c90eb3d7e4c5.jpeg",
+        "name": "DF Elite lnvitational",
+        "owner": {
+          "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+          "name": "Level Infinite",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-26T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0ee674c0-66d3-11f0-85ab-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ebfcd2df-6771-11f0-a505-0a58a9feac02",
+                  "createdAt": "2025-07-23T03:05:43.666Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b02cf84-c78a-4463-83cf-03d481f7d6a1.png",
+                  "isIosAvailable": false,
+                  "name": "Recruit Gear Ticket",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-27T23:59:59.998Z",
+            "name": "Recruit Gear Ticket*1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-07-26T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a273d1ef-6771-11f0-81a2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2be8f3e9-6772-11f0-9edd-0a58a9feac02",
+                  "createdAt": "2025-07-23T03:07:30.91Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4775a9e3-3101-42d3-bbb8-630d54a7051a.png",
+                  "isIosAvailable": false,
+                  "name": "Standard Gear Ticket",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-27T23:59:59.998Z",
+            "name": "Standard Gear Ticket*1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-07-26T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "add6a98d-6771-11f0-9720-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "56eb93e0-6772-11f0-b595-0a58a9feac02",
+                  "createdAt": "2025-07-23T03:08:43.069Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ac599e0-e1aa-420b-a388-62280d833ab6.png",
+                  "isIosAvailable": false,
+                  "name": "SG552 Advanced Full Pk",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "e536e690-6773-11f0-87f9-0a58a9feac02",
+                  "createdAt": "2025-07-23T03:19:51.296Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/840697e1-6bdc-4087-b59d-30e4d819de37.png",
+                  "isIosAvailable": false,
+                  "name": "Armament Voucher X3",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-27T23:59:59.998Z",
+            "name": "SG552 Advanced Full Pk*1,Armament Voucher*3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-07-26T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c75f84ea-6771-11f0-8796-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "223fe2ba-6774-11f0-9720-0a58a9feac02",
+                  "createdAt": "2025-07-23T03:21:33.696Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/05420414-db64-42c0-b793-a98455ecae9f.png",
+                  "isIosAvailable": false,
+                  "name": "AKM - Delta Force",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-27T23:59:59.998Z",
+            "name": "AKM - Delta Force*1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-07-26T17:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
