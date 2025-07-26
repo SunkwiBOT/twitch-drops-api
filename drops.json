@@ -3058,6 +3058,93 @@
     "startAt": "2025-07-03T11:54:33.000Z"
   },
   {
+    "endAt": "2025-07-27T01:30:00.000Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509663-120x160.jpg",
+    "gameDisplayName": "Special Events",
+    "gameId": "509663",
+    "rewards": [
+      {
+        "id": "1feda114-6801-11f0-ad1f-5202ffea503a",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "83232866",
+              "displayName": "ibai",
+              "name": "ibai",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.twitch.tv/",
+        "description": "This badge was earned by watching La Velada V!",
+        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+        "endAt": "2025-07-27T01:30:00Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "509663",
+          "slug": "special-events",
+          "displayName": "Special Events",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/badges/v1/3f728095-b84d-4e7e-9eee-541ea02ddea0/3",
+        "name": "La Velada V",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-26T16:45:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "20066d5c-6801-11f0-ad1f-5202ffea503a",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "1fbafba6-6801-11f0-ad1f-5202ffea503a",
+                  "createdAt": "2025-07-23T20:10:48.508Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509663",
+                    "name": "Special Events",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/badges/v1/3f728095-b84d-4e7e-9eee-541ea02ddea0/3",
+                  "isIosAvailable": false,
+                  "name": "La Velada V",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-27T01:30:00Z",
+            "name": "La Velada Badge",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 5,
+            "startAt": "2025-07-26T16:45:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-26T16:45:00.000Z"
+  },
+  {
     "endAt": "2025-07-27T02:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/510056_IGDB-120x160.jpg",
     "gameDisplayName": "Epic Seven",
