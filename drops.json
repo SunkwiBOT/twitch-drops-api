@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2025-07-29T16:59:59.998Z",
+    "endAt": "2025-07-30T00:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/497057-120x160.jpg",
     "gameDisplayName": "Destiny 2",
     "gameId": "497057",
@@ -71,6 +71,84 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 0,
             "startAt": "2025-07-20T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "7e9c7beb-67d6-11f0-8cc3-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "997059744",
+              "displayName": "BungieFoundation",
+              "name": "bungiefoundation",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.bungie.net/LinkTwitch",
+        "description": "Thank you for joining the Bungie Foundation for the official Bungie Day - Seventh Column Chaos livestream. As a special thank you from us, we are offering the all new “Refulgent” emblem as a reward. Be sure your Twitch account is linked to your Bungie account.",
+        "detailsURL": "https://help.bungie.net/articles/8048011793812",
+        "endAt": "2025-07-30T00:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "497057",
+          "slug": "destiny-2",
+          "displayName": "Destiny 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "Bungie Day 2025",
+        "owner": {
+          "id": "3555708b-ff07-4392-a15b-bfae9356dfcf",
+          "name": "Bungie",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-29T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "95f9fb7e-67d6-11f0-8cc3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3555708b-ff07-4392-a15b-bfae9356dfcf_CUSTOM_ID_entitlements.crm_emblems.year_7.emblem55",
+                  "createdAt": "2025-07-23T15:03:27.904Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "497057",
+                    "name": "Destiny 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/27649b7b-c68d-4b5b-ae8a-545b620d5e40.png",
+                  "isIosAvailable": false,
+                  "name": "Refulgent Emblem",
+                  "ownerOrganization": {
+                    "id": "3555708b-ff07-4392-a15b-bfae9356dfcf",
+                    "name": "Bungie",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-30T00:59:59.999Z",
+            "name": "Refulgent Emblem",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-07-29T15:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -1091,6 +1169,450 @@
       }
     ],
     "startAt": "2025-07-28T17:59:00.000Z"
+  },
+  {
+    "endAt": "2025-07-29T17:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1393304883_IGDB-120x160.jpg",
+    "gameDisplayName": "Mir Tankov",
+    "gameId": "1393304883",
+    "rewards": [
+      {
+        "id": "fb2743f0-6b98-11f0-9137-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1150595403",
+              "displayName": "tanki_esports",
+              "name": "tanki_esports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://lesta.ru/personal/?bind-external=twitch",
+        "description": "Категория 1: •\t10 Золота •\t25 золота •\t10 000 кредитов •\t20 000 кредитов •\t1 день ТПА •\tx3 Большой огнетушитель •\tx3 Большая аптечка •\tx3 Большой ремкомплект  Категория 2: •\t50 золота •\t50 000 кредитов •\t3 дня ТПА •\tx1 Личный резерв +50% к опыту за бой на 1 ч  •\tx1 Личный резерв +200% к свободному опыту и опыту экипажа за бой на 1 ч  •\tx1 Личный резерв +100% к опыту за бой на 1 ч  •\tx1 Личный резерв +300% к свободному опыту и опыту экипажа за бой на 1 ч  Категория 3: •\t100 золота •\t100 000 кредитов •\t7 дней ТПА •\t14 дней ТПА •\t30 дней ТПА •\tx1 Личный резерв +50% к кредитам за бой на 1 ч  •\tУниверсальная брошюра 20000 опыта каждому члену экипажа.  •\t2D-стиль Штрих-стиль •\t2D-стиль Тхэгыкки  •\t2D-стиль Рэт-род  Категория 4: •\t1 000 золота •\t1 500 золота •\t250 000 кредитов •\t500 000 кредитов •\t90 дней ТПА •\tEMIL 1951  + 100% экипаж + слот - компенсация 2 200 000 кредитов •\tChieftain/T95+ 100% экипаж + слот - компенсация 2 200 000 кредитов •\tИСУ-152К + 100% экипаж + слот  - компенсация 2 200 000 кредитов",
+        "detailsURL": "https://tanki.su",
+        "endAt": "2025-07-29T17:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1393304883",
+          "slug": "mir-tankov",
+          "displayName": "Mir Tankov",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e19fb163-0e85-44cc-8c72-951e773e5710.png",
+        "name": "Кубок Чемпионов 29.07",
+        "owner": {
+          "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+          "name": "Lesta Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-29T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9b92cd9c-6bcc-11f0-923a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPLEAGUEMT1_2025_290725",
+                  "createdAt": "2025-07-28T16:06:46.502Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1393304883",
+                    "name": "Mir Tankov",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2cda4db5-4fd3-41ca-8d6f-f435ebd0bfa0.png",
+                  "isIosAvailable": false,
+                  "name": "Кубок Чемпионов #1",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-29T17:59:59.999Z",
+            "name": "Кубок Чемпионов #1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 20,
+            "startAt": "2025-07-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "aaed2042-6bcc-11f0-b2b9-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPLEAGUEMT2_2025_290725",
+                  "createdAt": "2025-07-28T16:07:13.847Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1393304883",
+                    "name": "Mir Tankov",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba81bde6-1a06-47bf-8b69-84066c3792cc.png",
+                  "isIosAvailable": false,
+                  "name": "Кубок Чемпионов #2",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-29T17:59:59.999Z",
+            "name": "Кубок Чемпионов #2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-07-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b1073d1c-6bcc-11f0-8fc6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPLEAGUEMT3_2025_290725",
+                  "createdAt": "2025-07-28T16:07:27.97Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1393304883",
+                    "name": "Mir Tankov",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/80cf6e9f-e865-46b6-b532-a63d5a13518b.png",
+                  "isIosAvailable": false,
+                  "name": "Кубок Чемпионов #3",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-29T17:59:59.999Z",
+            "name": "Кубок Чемпионов #3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-07-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b5781bec-6bcc-11f0-9d58-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPLEAGUEMT4_2025_290725",
+                  "createdAt": "2025-07-28T16:08:00.901Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1393304883",
+                    "name": "Mir Tankov",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c87f029c-1c98-409a-b4d5-f2c4096d0f02.png",
+                  "isIosAvailable": false,
+                  "name": "Кубок Чемпионов #4",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-29T17:59:59.999Z",
+            "name": "Кубок Чемпионов #4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-07-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-29T15:00:00.000Z"
+  },
+  {
+    "endAt": "2025-07-29T18:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/29918_IGDB-120x160.jpg",
+    "gameDisplayName": "Warface",
+    "gameId": "29918",
+    "rewards": [
+      {
+        "id": "0ef3725e-6c67-11f0-a708-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "47037896",
+              "displayName": "RazorRusTV",
+              "name": "razorrustv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "60316308",
+              "displayName": "Lickoar",
+              "name": "lickoar",
+              "__typename": "Channel"
+            },
+            {
+              "id": "460614455",
+              "displayName": "BeriaGames",
+              "name": "beriagames",
+              "__typename": "Channel"
+            },
+            {
+              "id": "270852033",
+              "displayName": "igromanochkaaa",
+              "name": "igromanochkaaa",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://ru.warface.com/promo/twitchdrops/",
+        "description": "Лето в разгаре — а значит, самое время для зрелищных дуэлей и трансляций! Стартует Summer Streamers Battle: поддержи своего фаворита, следи за играми и забирай подарки за просмотр! За просмотр каждых 30 минут трансляции ты гарантировано получаешь 1 кейс с редкими внутриигровыми наградами.",
+        "detailsURL": "https://ru.warface.com/news/1013356.html",
+        "endAt": "2025-07-29T18:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "29918",
+          "slug": "warface",
+          "displayName": "Warface",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/415083ef-aa76-49a8-a276-2404716ecc0b.png",
+        "name": "Streamers Battle. Day 1",
+        "owner": {
+          "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+          "name": "My.com",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-29T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "95d0daf4-6c67-11f0-a0af-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4_CUSTOM_ID_1_box_WeaponSet_BPs28_Gold_c",
+                  "createdAt": "2025-06-24T14:15:26.304Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29918",
+                    "name": "Warface",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c16140a9-6b7d-45ae-a7db-9645ab44f44f.png",
+                  "isIosAvailable": false,
+                  "name": "Box \"Опасный аттракцион\"",
+                  "ownerOrganization": {
+                    "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+                    "name": "My.com",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-29T18:29:59.999Z",
+            "name": "Коробка \"Опасный аттракцион\"",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-07-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "980b6124-6c67-11f0-a44f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4_CUSTOM_ID_1_box_WeaponSet_BPs28_Gold_c",
+                  "createdAt": "2025-06-24T14:15:26.304Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29918",
+                    "name": "Warface",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c16140a9-6b7d-45ae-a7db-9645ab44f44f.png",
+                  "isIosAvailable": false,
+                  "name": "Box \"Опасный аттракцион\"",
+                  "ownerOrganization": {
+                    "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+                    "name": "My.com",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-29T18:29:59.999Z",
+            "name": "Коробка \"Опасный аттракцион\"",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-07-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9ae7dd29-6c67-11f0-8483-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4_CUSTOM_ID_1_box_WeaponSet_BPs28_Gold_c",
+                  "createdAt": "2025-06-24T14:15:26.304Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29918",
+                    "name": "Warface",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c16140a9-6b7d-45ae-a7db-9645ab44f44f.png",
+                  "isIosAvailable": false,
+                  "name": "Box \"Опасный аттракцион\"",
+                  "ownerOrganization": {
+                    "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+                    "name": "My.com",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-29T18:29:59.999Z",
+            "name": "Коробка \"Опасный аттракцион\"",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-07-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9ebc96d2-6c67-11f0-bf98-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4_CUSTOM_ID_1_box_WeaponSet_BPs28_Gold_c",
+                  "createdAt": "2025-06-24T14:15:26.304Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29918",
+                    "name": "Warface",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c16140a9-6b7d-45ae-a7db-9645ab44f44f.png",
+                  "isIosAvailable": false,
+                  "name": "Box \"Опасный аттракцион\"",
+                  "ownerOrganization": {
+                    "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+                    "name": "My.com",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-29T18:29:59.999Z",
+            "name": "Коробка \"Опасный аттракцион\"",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-07-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a35d2233-6c67-11f0-a387-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4_CUSTOM_ID_1_box_WeaponSet_BPs28_Gold_c",
+                  "createdAt": "2025-06-24T14:15:26.304Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29918",
+                    "name": "Warface",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c16140a9-6b7d-45ae-a7db-9645ab44f44f.png",
+                  "isIosAvailable": false,
+                  "name": "Box \"Опасный аттракцион\"",
+                  "ownerOrganization": {
+                    "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+                    "name": "My.com",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-29T18:29:59.999Z",
+            "name": "Коробка \"Опасный аттракцион\"",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 150,
+            "startAt": "2025-07-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-29T15:00:00.000Z"
   },
   {
     "endAt": "2025-07-29T18:29:59.999Z",
@@ -35799,6 +36321,158 @@
       }
     ],
     "startAt": "2025-07-17T14:00:00.000Z"
+  },
+  {
+    "endAt": "2025-08-12T14:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/491487-120x160.jpg",
+    "gameDisplayName": "Dead by Daylight",
+    "gameId": "491487",
+    "rewards": [
+      {
+        "id": "27ab78b4-6966-11f0-9720-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.bhvr.com/twitch/dbd",
+        "description": "Earn exclusive Twitch Drops by watching Dead by Daylight streams between July 29, 2025 and August 12, 2025. We'll see you in The Fog!",
+        "detailsURL": "https://account.bhvr.com/twitch/dbd",
+        "endAt": "2025-08-12T14:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "491487",
+          "slug": "dead-by-daylight",
+          "displayName": "Dead by Daylight",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f892012d-6a7a-46eb-855e-8a4cad78f81c.png",
+        "name": "DBD: The Walking Dead",
+        "owner": {
+          "id": "6da09649-1fda-4446-a061-cacd8e21b886",
+          "name": "Behaviour Interactive Inc.",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-29T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "782fa54e-6966-11f0-845b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6da09649-1fda-4446-a061-cacd8e21b886_CUSTOM_ID_dbd.currency.BonusBloodpoints.200000",
+                  "createdAt": "2025-05-22T18:06:11.954Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "491487",
+                    "name": "Dead by Daylight",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/95a2c09a-1953-4760-9f60-bec222a92d34.png",
+                  "isIosAvailable": false,
+                  "name": "200K Bloodpoints",
+                  "ownerOrganization": {
+                    "id": "6da09649-1fda-4446-a061-cacd8e21b886",
+                    "name": "Behaviour Interactive Inc.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-12T14:59:59.999Z",
+            "name": "200K Bloodpoints",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-07-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7e209f6c-6966-11f0-a9e9-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6da09649-1fda-4446-a061-cacd8e21b886_CUSTOM_ID_KE_BDG_16",
+                  "createdAt": "2025-07-25T14:39:47.634Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "491487",
+                    "name": "Dead by Daylight",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/48e9d18f-cb1e-42f2-ba46-0ddef760d4d6.png",
+                  "isIosAvailable": false,
+                  "name": "Hungry Plant Badge",
+                  "ownerOrganization": {
+                    "id": "6da09649-1fda-4446-a061-cacd8e21b886",
+                    "name": "Behaviour Interactive Inc.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-12T14:59:59.999Z",
+            "name": "Hungry Plant Badge",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-07-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "83c45283-6966-11f0-9a62-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6da09649-1fda-4446-a061-cacd8e21b886_CUSTOM_ID_KE_BNR_02",
+                  "createdAt": "2025-07-25T14:39:18.832Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "491487",
+                    "name": "Dead by Daylight",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1dad457d-bb55-4c28-82ff-68428c364a44.png",
+                  "isIosAvailable": false,
+                  "name": "Deadly Garden Banner",
+                  "ownerOrganization": {
+                    "id": "6da09649-1fda-4446-a061-cacd8e21b886",
+                    "name": "Behaviour Interactive Inc.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-12T14:59:59.999Z",
+            "name": "Deadly Garden Banner",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-07-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-29T15:00:00.000Z"
   },
   {
     "endAt": "2025-08-15T07:58:59.999Z",
