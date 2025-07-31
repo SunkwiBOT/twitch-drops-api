@@ -4125,6 +4125,86 @@
     "startAt": "2025-07-24T17:15:00.000Z"
   },
   {
+    "endAt": "2025-07-31T23:28:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/707002701_IGDB-120x160.jpg",
+    "gameDisplayName": "Coryphaeus Championships",
+    "gameId": "707002701",
+    "rewards": [
+      {
+        "id": "4b291468-6dfa-11f0-82ea-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=qkxawi9g89zrh5p6kyzzxsysgq7g3h&redirect_uri=https%3A%2F%2Fwww.playcoryphaeus.com/twitch-drops&scope=channel%3Amanage%3Aredemptions+channel%3Aread%3Aredemptions+channel%3Aread%3Asubscriptions+moderator%3Aread%3Achatters+channel%3Aread%3Ahype_train+bits%3Aread",
+        "description": "Coryphaeus Summer Drops",
+        "detailsURL": "https://www.playcoryphaeus.com/twitch-drops-info",
+        "endAt": "2025-07-31T23:28:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "707002701",
+          "slug": "coryphaeus-championships",
+          "displayName": "Coryphaeus Championships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ea8930a3-1a79-45e1-aba6-43ad684d1e10.png",
+        "name": "Summer Drops July",
+        "owner": {
+          "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3",
+          "name": "Coryphaeus Corp",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-31T10:37:12Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "57b30bbd-6dfa-11f0-bec2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3_CUSTOM_ID_500coins",
+                  "createdAt": "2024-03-01T12:44:56.987Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "707002701",
+                    "name": "Coryphaeus Championships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/08aec75b-fc8a-4460-8929-1a9f49a0ad0c.png",
+                  "isIosAvailable": false,
+                  "name": "💰 500 C-Coins ",
+                  "ownerOrganization": {
+                    "id": "e3d13beb-c006-481b-af2e-b818ba77ebc3",
+                    "name": "Coryphaeus Corp",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-07-31T23:28:59.999Z",
+            "name": "Coins",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 210,
+            "startAt": "2025-07-31T10:37:12Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-31T10:37:12.000Z"
+  },
+  {
     "endAt": "2025-07-31T23:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/902050890_IGDB-120x160.jpg",
     "gameDisplayName": "Kakele Online: MMORPG",
