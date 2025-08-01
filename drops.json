@@ -80,6 +80,93 @@
     "startAt": "2025-08-01T10:21:16.000Z"
   },
   {
+    "endAt": "2025-08-02T00:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
+    "rewards": [
+      {
+        "id": "e3351b6f-6d49-11f0-afc0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "448738989",
+              "displayName": "ViceroyCyndr",
+              "name": "viceroycyndr",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Watch ViceroyCyndr for 30 minutes to receive a Lonesome Shawzin decoration!",
+        "detailsURL": "https://forums.warframe.com/topic/1464562-community-stream-schedule-july-28-august-1-2025/",
+        "endAt": "2025-08-02T00:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/476217d4-a0f8-4233-8d03-e386824ffe48.jpeg",
+        "name": "Community Drops #126",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-01T23:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ec19b366-6d49-11f0-a5ed-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "b9c1929f-6d49-11f0-8d84-0a58a9feac02",
+                  "createdAt": "2025-07-30T13:33:06.499Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "66170",
+                    "name": "Warframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a6020236-f3e3-4411-ab3c-217ebfd767e4.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Lonesome Shawzin",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-02T00:59:59.999Z",
+            "name": "Lonesome Shawzin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-08-01T23:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-08-01T23:00:00.000Z"
+  },
+  {
     "endAt": "2025-08-02T09:29:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
     "gameDisplayName": "Albion Online",
