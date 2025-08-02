@@ -4926,6 +4926,129 @@
     "startAt": "2025-08-01T11:00:00.000Z"
   },
   {
+    "endAt": "2025-08-03T01:08:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-120x160.jpg",
+    "gameDisplayName": "Coin Pusher World",
+    "gameId": "530998549",
+    "rewards": [
+      {
+        "id": "645af162-6f3d-11f0-8a6f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1319386939",
+              "displayName": "StormyDreams3",
+              "name": "stormydreams3",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://coins.coinpusherworld.co.uk/twitch/direct-auth.php",
+        "description": "Connect your Twitch account to Coin Pusher World to earn exclusive coin skins and tickets by watching streams! Watch eligible streams to progress toward earning drops, then claim them on our website to add them to your collection.",
+        "detailsURL": "https://coins.coinpusherworld.co.uk/twitch/drop-detail.php?id={dropId}",
+        "endAt": "2025-08-03T01:08:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "530998549",
+          "slug": "coin-pusher-world",
+          "displayName": "Coin Pusher World",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1842edc7-5235-4f85-bd16-25908c018b00.png",
+        "name": "First CPW Test Drops ",
+        "owner": {
+          "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
+          "name": "Coin Pusher World ",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-07-31T01:09:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7334d820-6f3d-11f0-b0cc-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0837fdcc-6f38-11f0-8c71-0a58a9feac02",
+                  "createdAt": "2025-08-02T00:31:29.522Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "530998549",
+                    "name": "Coin Pusher World",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/42fc784b-5c77-4739-935d-a8959744b554.png",
+                  "isIosAvailable": true,
+                  "name": "sunny-glow Coin ",
+                  "ownerOrganization": {
+                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
+                    "name": "Coin Pusher World ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-03T01:08:59.999Z",
+            "name": "Test Coin Skin sunny-glow",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-07-31T01:09:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7bf6d535-6f3d-11f0-86e6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d_CUSTOM_ID_Test",
+                  "createdAt": "2023-10-24T11:02:13.072Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "530998549",
+                    "name": "Coin Pusher World",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7711ce05-a5a3-48ac-b245-bb6948331c11.png",
+                  "isIosAvailable": false,
+                  "name": "1000 tickets",
+                  "ownerOrganization": {
+                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
+                    "name": "Coin Pusher World ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-03T01:08:59.999Z",
+            "name": "1000 CPW Tickets",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-07-31T01:09:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-07-31T01:09:00.000Z"
+  },
+  {
     "endAt": "2025-08-03T06:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/330654616_IGDB-120x160.jpg",
     "gameDisplayName": "Rivals of Aether II",
