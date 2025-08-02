@@ -28722,8 +28722,8 @@
             },
             {
               "id": "566835040",
-              "displayName": "100JuizoGAMES",
-              "name": "100juizogames",
+              "displayName": "100JuizoPLAY",
+              "name": "100juizoplay",
               "__typename": "Channel"
             },
             {
@@ -48612,5 +48612,157 @@
       }
     ],
     "startAt": "2025-08-01T12:46:12.000Z"
+  },
+  {
+    "endAt": "2025-08-28T23:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1757138379_IGDB-120x160.jpg",
+    "gameDisplayName": "Auroria",
+    "gameId": "1757138379",
+    "rewards": [
+      {
+        "id": "bf97450a-6c57-11f0-bf98-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://auroria.hero.com/twitchdrops/",
+        "description": "Auroria official Release Drop Event",
+        "detailsURL": "https://auroria.hero.com/twitchdrops/",
+        "endAt": "2025-08-28T23:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1757138379",
+          "slug": "auroria",
+          "displayName": "Auroria",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/081ce5cc-202b-41ea-8397-fcf1b9b5adb5.jpeg",
+        "name": "Auroria official Release",
+        "owner": {
+          "id": "a7688a88-e1cf-4f1d-b5d5-c0380cee2586",
+          "name": "Hero Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-02T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0d5b8900-6c58-11f0-9b79-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e900cdeb-2ef9-11f0-bc6d-0a58a9feac02",
+                  "createdAt": "2025-05-12T06:25:33.936Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1757138379",
+                    "name": "Auroria",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec6cc46b-e28d-4d1f-bc60-fda476d4a441.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Coin*1000",
+                  "ownerOrganization": {
+                    "id": "a7688a88-e1cf-4f1d-b5d5-c0380cee2586",
+                    "name": "Hero Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-28T23:59:59.999Z",
+            "name": "Coin*1000",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-08-02T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "277444c0-6c58-11f0-8599-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "03cd2166-2efa-11f0-a87e-0a58a9feac02",
+                  "createdAt": "2025-05-12T06:26:18.896Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1757138379",
+                    "name": "Auroria",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/469ea214-6881-496a-a2cf-1c76482b7f29.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Tier-3 Auracubes*3",
+                  "ownerOrganization": {
+                    "id": "a7688a88-e1cf-4f1d-b5d5-c0380cee2586",
+                    "name": "Hero Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-28T23:59:59.999Z",
+            "name": "Tier-3 Auracubes*3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-08-02T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "31b8cb20-6c58-11f0-8483-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0ca70ee9-2efa-11f0-90e7-0a58a9feac02",
+                  "createdAt": "2025-05-12T06:26:33.746Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1757138379",
+                    "name": "Auroria",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/48723d75-1c96-4382-af0c-201a96d8c42b.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Yellow Chuchu Hat",
+                  "ownerOrganization": {
+                    "id": "a7688a88-e1cf-4f1d-b5d5-c0380cee2586",
+                    "name": "Hero Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-28T23:59:59.999Z",
+            "name": "Yellow Chuchu Hat",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-08-02T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-08-02T00:00:00.000Z"
   }
 ]
