@@ -1,164 +1,5 @@
 [
   {
-    "endAt": "2025-08-02T13:57:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/461221_IGDB-120x160.jpg",
-    "gameDisplayName": "MARVEL Contest of Champions",
-    "gameId": "461221",
-    "rewards": [
-      {
-        "id": "22bc8d13-6818-11f0-9760-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "452239740",
-              "displayName": "Kabam",
-              "name": "kabam",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://kid.kabam.com/v1/kid/account/login",
-        "description": "Is your Twitch account connected to your Kabam ID?  Make sure you do that right away before claiming any rewards!\n\nJoin us on our next livestream as we run you through our August content coming to the Contest  including our newest Champions to come to the Battlerealm: Casandra Nova and Solvarch This is more of a test Twitch Drop campaign this time so make sure you do collect all the milestones. We'll see you..   In.. The...  Battlerealm.",
-        "detailsURL": "https://kid.kabam.com/v1/kid/account/login",
-        "endAt": "2025-08-02T13:57:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "461221",
-          "slug": "marvel-contest-of-champions",
-          "displayName": "MARVEL Contest of Champions",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/907dc79d-c344-46ff-986e-98efc840b0c6.jpeg",
-        "name": "8-01-2025",
-        "owner": {
-          "id": "787ffa29-14d6-4990-bd94-14f46c513068",
-          "name": "Kabam",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-08-01T13:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "04c009b8-6819-11f0-8209-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "787ffa29-14d6-4990-bd94-14f46c513068_CUSTOM_ID_com.kabam.marvel.twitch.reunioncrystals.3x",
-                  "createdAt": "2025-01-29T07:33:39.83Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "461221",
-                    "name": "MARVEL Contest of Champions",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ced30ab-efbe-418b-b2da-2c3739a14e71.png",
-                  "isIosAvailable": false,
-                  "name": "3x Reunion Crystals",
-                  "ownerOrganization": {
-                    "id": "787ffa29-14d6-4990-bd94-14f46c513068",
-                    "name": "Kabam",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-02T13:57:59.998Z",
-            "name": "3x Reunion Crystals",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-08-01T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "ceb29b73-6818-11f0-8642-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "787ffa29-14d6-4990-bd94-14f46c513068_CUSTOM_ID_com.kabam.marvel.twitch.energyrefill.5x",
-                  "createdAt": "2024-12-02T16:55:26.374Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "461221",
-                    "name": "MARVEL Contest of Champions",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/129a7e74-48fc-491d-abd3-bdd652084ce0.png",
-                  "isIosAvailable": false,
-                  "name": "5x Energy Refills",
-                  "ownerOrganization": {
-                    "id": "787ffa29-14d6-4990-bd94-14f46c513068",
-                    "name": "Kabam",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-02T13:57:59.998Z",
-            "name": "5x Energy Refills",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-08-01T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "f2d6abf4-6818-11f0-80d0-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "787ffa29-14d6-4990-bd94-14f46c513068_CUSTOM_ID_com.kabam.marvel.twitch.revives.3x",
-                  "createdAt": "2024-12-02T17:05:12.435Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "461221",
-                    "name": "MARVEL Contest of Champions",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f68706bf-d107-4d24-a946-5bfc4746b5d8.png",
-                  "isIosAvailable": false,
-                  "name": "3x Level 2 Revive",
-                  "ownerOrganization": {
-                    "id": "787ffa29-14d6-4990-bd94-14f46c513068",
-                    "name": "Kabam",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-02T13:57:59.998Z",
-            "name": "3x Revive Potions",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-08-01T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-08-01T13:00:00.000Z"
-  },
-  {
     "endAt": "2025-08-02T14:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
     "gameDisplayName": "Eternal Return",
@@ -1387,6 +1228,243 @@
     "startAt": "2025-08-01T17:59:00.000Z"
   },
   {
+    "endAt": "2025-08-02T18:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/29918_IGDB-120x160.jpg",
+    "gameDisplayName": "Warface",
+    "gameId": "29918",
+    "rewards": [
+      {
+        "id": "1dc2b357-6f80-11f0-99ad-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1295259996",
+              "displayName": "teeeeent",
+              "name": "teeeeent",
+              "__typename": "Channel"
+            },
+            {
+              "id": "672053703",
+              "displayName": "treizariowf",
+              "name": "treizariowf",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://ru.warface.com/promo/twitchdrops/",
+        "description": "Лето в разгаре — а значит, самое время для зрелищных дуэлей и трансляций! Стартует Summer Streamers Battle: поддержи своего фаворита, следи за играми и забирай подарки за просмотр! За просмотр каждых 30 минут трансляции ты гарантировано получаешь 1 кейс с редкими внутриигровыми наградами.",
+        "detailsURL": "https://ru.warface.com/news/1013356.html",
+        "endAt": "2025-08-02T18:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "29918",
+          "slug": "warface",
+          "displayName": "Warface",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/96f71f5f-497b-48bc-bb93-851970a7bd7b.png",
+        "name": "Streamers Battle. Day 1",
+        "owner": {
+          "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+          "name": "My.com",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-02T14:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "37b98547-6f80-11f0-8f02-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4_CUSTOM_ID_1_box_WeaponSet_BPs28_Gold_c",
+                  "createdAt": "2025-06-24T14:15:26.304Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29918",
+                    "name": "Warface",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c16140a9-6b7d-45ae-a7db-9645ab44f44f.png",
+                  "isIosAvailable": false,
+                  "name": "Box \"Опасный аттракцион\"",
+                  "ownerOrganization": {
+                    "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+                    "name": "My.com",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-02T18:59:59.999Z",
+            "name": "Коробка \"Опасный аттракцион\"",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-08-02T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "39ea8a9a-6f80-11f0-8a6f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4_CUSTOM_ID_1_box_WeaponSet_BPs28_Gold_c",
+                  "createdAt": "2025-06-24T14:15:26.304Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29918",
+                    "name": "Warface",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c16140a9-6b7d-45ae-a7db-9645ab44f44f.png",
+                  "isIosAvailable": false,
+                  "name": "Box \"Опасный аттракцион\"",
+                  "ownerOrganization": {
+                    "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+                    "name": "My.com",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-02T18:59:59.999Z",
+            "name": "Коробка \"Опасный аттракцион\"",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-08-02T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3cdb12ba-6f80-11f0-8a09-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4_CUSTOM_ID_1_box_WeaponSet_BPs28_Gold_c",
+                  "createdAt": "2025-06-24T14:15:26.304Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29918",
+                    "name": "Warface",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c16140a9-6b7d-45ae-a7db-9645ab44f44f.png",
+                  "isIosAvailable": false,
+                  "name": "Box \"Опасный аттракцион\"",
+                  "ownerOrganization": {
+                    "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+                    "name": "My.com",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-02T18:59:59.999Z",
+            "name": "Коробка \"Опасный аттракцион\"",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-08-02T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3f7bbb19-6f80-11f0-85c0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4_CUSTOM_ID_1_box_WeaponSet_BPs28_Gold_c",
+                  "createdAt": "2025-06-24T14:15:26.304Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29918",
+                    "name": "Warface",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c16140a9-6b7d-45ae-a7db-9645ab44f44f.png",
+                  "isIosAvailable": false,
+                  "name": "Box \"Опасный аттракцион\"",
+                  "ownerOrganization": {
+                    "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+                    "name": "My.com",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-02T18:59:59.999Z",
+            "name": "Коробка \"Опасный аттракцион\"",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-08-02T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "41dd49e0-6f80-11f0-b0cc-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4_CUSTOM_ID_1_box_WeaponSet_BPs28_Gold_c",
+                  "createdAt": "2025-06-24T14:15:26.304Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29918",
+                    "name": "Warface",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c16140a9-6b7d-45ae-a7db-9645ab44f44f.png",
+                  "isIosAvailable": false,
+                  "name": "Box \"Опасный аттракцион\"",
+                  "ownerOrganization": {
+                    "id": "8fbfc9fd-38be-4a80-afd4-d1ac1dab38f4",
+                    "name": "My.com",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-02T18:59:59.999Z",
+            "name": "Коробка \"Опасный аттракцион\"",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 150,
+            "startAt": "2025-08-02T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-08-02T14:00:00.000Z"
+  },
+  {
     "endAt": "2025-08-02T20:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1393304883_IGDB-120x160.jpg",
     "gameDisplayName": "Mir Tankov",
@@ -1580,6 +1658,255 @@
       }
     ],
     "startAt": "2025-08-02T09:00:00.000Z"
+  },
+  {
+    "endAt": "2025-08-02T21:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546-120x160.jpg",
+    "gameDisplayName": "World of Tanks",
+    "gameId": "27546",
+    "rewards": [
+      {
+        "id": "f051c2a1-67d6-11f0-b417-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "182560660",
+              "displayName": "WorldofTanks",
+              "name": "worldoftanks",
+              "__typename": "Channel"
+            },
+            {
+              "id": "169570447",
+              "displayName": "Lynxs___",
+              "name": "lynxs___",
+              "__typename": "Channel"
+            },
+            {
+              "id": "103179576",
+              "displayName": "Fr3ddy",
+              "name": "fr3ddy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41044567",
+              "displayName": "AzumDzumHzumS",
+              "name": "azumdzumhzums",
+              "__typename": "Channel"
+            },
+            {
+              "id": "52807558",
+              "displayName": "Eda007",
+              "name": "eda007",
+              "__typename": "Channel"
+            },
+            {
+              "id": "164097530",
+              "displayName": "Dejdy_",
+              "name": "dejdy_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "47167396",
+              "displayName": "MrScheff",
+              "name": "mrscheff",
+              "__typename": "Channel"
+            },
+            {
+              "id": "228082001",
+              "displayName": "Shadow_TheLoneWolf",
+              "name": "shadow_thelonewolf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "30118763",
+              "displayName": "NewMultiShow",
+              "name": "newmultishow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "62603776",
+              "displayName": "cyganzor",
+              "name": "cyganzor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38181398",
+              "displayName": "jXcr",
+              "name": "jxcr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51045488",
+              "displayName": "synop_s",
+              "name": "synop_s",
+              "__typename": "Channel"
+            },
+            {
+              "id": "50647345",
+              "displayName": "theruev",
+              "name": "theruev",
+              "__typename": "Channel"
+            },
+            {
+              "id": "906047053",
+              "displayName": "WorldofTanks_Ukraine",
+              "name": "worldoftanks_ukraine",
+              "__typename": "Channel"
+            },
+            {
+              "id": "881737884",
+              "displayName": "vgostiua",
+              "name": "vgostiua",
+              "__typename": "Channel"
+            },
+            {
+              "id": "852549791",
+              "displayName": "sh0kerix",
+              "name": "sh0kerix",
+              "__typename": "Channel"
+            },
+            {
+              "id": "138295620",
+              "displayName": "0miki0_",
+              "name": "0miki0_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "147904239",
+              "displayName": "youhey_k",
+              "name": "youhey_k",
+              "__typename": "Channel"
+            },
+            {
+              "id": "696668567",
+              "displayName": "AglioPasta",
+              "name": "agliopasta",
+              "__typename": "Channel"
+            },
+            {
+              "id": "511298079",
+              "displayName": "Mautz_",
+              "name": "mautz_",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
+        "description": "AMD OLC#4 Day 1 EU",
+        "detailsURL": "https://worldoftanks.eu/news/live-streams/onslaught-cup-finals-aug-2025/",
+        "endAt": "2025-08-02T21:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d6426ce6-d1b5-404d-9060-c66efe2ded88.jpeg",
+        "name": "AMD OLC#4 Day 1 EU",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-02T14:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3392a6d3-67d7-11f0-be12-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_OLC4_08_25_01",
+                  "createdAt": "2025-07-23T14:52:25.556Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a5cf4af-667b-452d-a055-ad28bd54df7e.png",
+                  "isIosAvailable": false,
+                  "name": "5x Large Repair Kits",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_OLC4_08_25_02",
+                  "createdAt": "2025-07-23T14:55:08.722Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/486b2d14-7a30-40f7-8fcb-e12d86cd6cb0.png",
+                  "isIosAvailable": false,
+                  "name": "5x Large First Aid Kits",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_OLC4_08_25_03",
+                  "createdAt": "2025-07-23T14:55:41.584Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/47bf55a7-ef9a-46c4-84a4-b1b1ce20314d.png",
+                  "isIosAvailable": false,
+                  "name": "5x Auto Fire Extinguisher",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-02T21:59:59.999Z",
+            "name": "180",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-08-02T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-08-02T14:00:00.000Z"
   },
   {
     "endAt": "2025-08-02T21:59:59.999Z",
