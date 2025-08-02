@@ -13824,7 +13824,7 @@
     "startAt": "2025-07-09T02:00:00.000Z"
   },
   {
-    "endAt": "2025-08-04T01:59:59.999Z",
+    "endAt": "2025-08-04T03:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/33214-120x160.jpg",
     "gameDisplayName": "Fortnite",
     "gameId": "33214",
@@ -13895,6 +13895,84 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 60,
             "startAt": "2025-08-02T13:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "41b18c0d-6fbd-11f0-80ce-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "19571641",
+              "displayName": "Ninja",
+              "name": "ninja",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.fortnite.com/twitch-drops",
+        "description": "New items, new rules, new Blitz! Earn the Gooey Wrap by watching 15mins of Fortnite Blitz streams, this item is not exclusive to Twitch Drops and could appear in the Fortnite Shop at a later date.",
+        "detailsURL": "https://www.fortnite.com/twitch-drops",
+        "endAt": "2025-08-04T03:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "33214",
+          "slug": "fortnite",
+          "displayName": "Fortnite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7a1a8d5a-1e55-46d3-a15d-fdc926255369.jpeg",
+        "name": "Blitz Boss Ninja",
+        "owner": {
+          "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+          "name": "Epic Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-02T20:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5278598d-6fbd-11f0-b6f5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a_CUSTOM_ID_A09BC04148B6A4C726775985C467D419",
+                  "createdAt": "2025-08-02T16:12:04.142Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "33214",
+                    "name": "Fortnite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/24184a96-2a2e-4134-b616-78424065075f.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Gooey Wrap",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-04T03:59:59.999Z",
+            "name": "Gooey Wrap",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-08-02T20:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
