@@ -31076,6 +31076,86 @@
     "startAt": "2025-07-30T03:00:00.000Z"
   },
   {
+    "endAt": "2025-08-19T16:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/497057-120x160.jpg",
+    "gameDisplayName": "Destiny 2",
+    "gameId": "497057",
+    "rewards": [
+      {
+        "id": "6ba88b68-718b-11f0-afe4-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.bungie.net/LinkTwitch",
+        "description": "The Solstice event is now live in Destiny 2, and we are giving away the \"Gracious Gloss\" emblem for watching 30 minutes. Please ensure your Bungie account is linked to Twitch.",
+        "detailsURL": "https://help.bungie.net/articles/8048011793812",
+        "endAt": "2025-08-19T16:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "497057",
+          "slug": "destiny-2",
+          "displayName": "Destiny 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/524e28da-641a-4950-ab9e-1f8859b07c59.jpeg",
+        "name": "Solstice Event",
+        "owner": {
+          "id": "3555708b-ff07-4392-a15b-bfae9356dfcf",
+          "name": "Bungie",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-05T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "62ba83b8-718c-11f0-abc2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3555708b-ff07-4392-a15b-bfae9356dfcf_CUSTOM_ID_crm_emblems.year_8.emblem6",
+                  "createdAt": "2025-08-04T23:41:02.196Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "497057",
+                    "name": "Destiny 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/85dfbde5-eefd-47aa-b9a6-39355f345706.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Gracious Gloss",
+                  "ownerOrganization": {
+                    "id": "3555708b-ff07-4392-a15b-bfae9356dfcf",
+                    "name": "Bungie",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-19T16:59:59.998Z",
+            "name": "Gracious Gloss Emblem",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-08-05T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-08-05T17:00:00.000Z"
+  },
+  {
     "endAt": "2025-08-19T23:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511295_IGDB-120x160.jpg",
     "gameDisplayName": "Predecessor",
