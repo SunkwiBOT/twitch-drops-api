@@ -42891,5 +42891,85 @@
       }
     ],
     "startAt": "2025-08-04T07:00:00.000Z"
+  },
+  {
+    "endAt": "2025-09-01T17:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/548794627_IGDB-120x160.jpg",
+    "gameDisplayName": "Stormgate",
+    "gameId": "548794627",
+    "rewards": [
+      {
+        "id": "03a60732-5c52-11f0-88aa-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://social.ptr.pegasus.frostgiant.pragmaengine.com/#/account/linked-accounts",
+        "description": "Celebrate the Early Access launch of Stormgate with three Twitch-themed in-game cosmetics! From July 30 until August 27, Twitch Drops will be enabled for all Stormgate-streaming channels. Tune into any streamer with Drops enabled to start earning progress towards our in-game rewards.",
+        "detailsURL": "https://playstormgate.com/news/twitch-drops",
+        "endAt": "2025-09-01T17:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "548794627",
+          "slug": "stormgate",
+          "displayName": "Stormgate",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3b96080b-5381-49a5-88b2-1f91629f6aaa.png",
+        "name": "Stormgate Campaign 1 Drop",
+        "owner": {
+          "id": "311bf375-d8ff-4d1c-a856-f6c3bdcd61d2",
+          "name": "Frost Giant Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-05T18:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "78f42279-5cf4-11f0-a786-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ed06306d-5c4e-11f0-8613-0a58a9feac02",
+                  "createdAt": "2025-07-08T22:57:30.229Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "548794627",
+                    "name": "Stormgate",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/89466f63-320a-4ff8-be98-f095d5a20711.png",
+                  "isIosAvailable": false,
+                  "name": "Digital Distortion Fog",
+                  "ownerOrganization": {
+                    "id": "311bf375-d8ff-4d1c-a856-f6c3bdcd61d2",
+                    "name": "Frost Giant Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-01T17:59:59.999Z",
+            "name": "Digital Distortion",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-08-05T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-08-05T18:00:00.000Z"
   }
 ]
