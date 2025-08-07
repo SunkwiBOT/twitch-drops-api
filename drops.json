@@ -22221,6 +22221,24 @@
               "displayName": "RedMxrcy",
               "name": "redmxrcy",
               "__typename": "Channel"
+            },
+            {
+              "id": "75203946",
+              "displayName": "FistyPlays",
+              "name": "fistyplays",
+              "__typename": "Channel"
+            },
+            {
+              "id": "851485050",
+              "displayName": "JakeclipsESO",
+              "name": "jakeclipseso",
+              "__typename": "Channel"
+            },
+            {
+              "id": "419223792",
+              "displayName": "KhamulESO",
+              "name": "khamuleso",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -34309,6 +34327,162 @@
     "gameId": "263490",
     "rewards": [
       {
+        "id": "13f7464f-72e6-11f0-b99b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "155806086",
+              "displayName": "Wabbit",
+              "name": "wabbit",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Join us for the 3rd round of Rust Home-Brew Twitch Drops!  Showcasing some of your favorite OG creators.  Be sure to get synced to claim your drops! https://twitch.facepunch.com/connect",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2025-08-17T22:58:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a62d6ecf-e023-4a0f-b488-21e5e6620437.png",
+        "name": "Home-Brewed 3-Wabbit",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-07T17:39:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "32ee021f-72e6-11f0-a7d1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11453",
+                  "createdAt": "2025-08-06T13:52:53.442Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/72c3d8fd-bd69-42f3-8a5d-c273e7771692.png",
+                  "isIosAvailable": false,
+                  "name": "Wabbit Thompson",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-17T22:58:59.997Z",
+            "name": "Wabbit Thompson",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-08-07T17:39:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "cd713a9b-72e6-11f0-b353-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "41176758",
+              "displayName": "GalaaxXy",
+              "name": "galaaxxy",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Join us for the 3rd round of Rust Home-Brew Twitch Drops!  Showcasing some of your favorite OG creators.  Be sure to get synced to claim your drops! https://twitch.facepunch.com/connect",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2025-08-17T22:58:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/91ae4d86-e0eb-4ebd-853a-dd7c1bfc5512.png",
+        "name": "Home-Brewed 3-Galaaxxy",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-07T17:40:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "10dce937-72e7-11f0-9c8d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11454",
+                  "createdAt": "2025-08-06T13:53:22.28Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b386bddb-d829-4d20-b672-bebb7286c560.png",
+                  "isIosAvailable": false,
+                  "name": "Galaaxxy M249",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-17T22:58:59.998Z",
+            "name": "Galaaxxy M249",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-08-07T17:40:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "93b3988b-72d3-11f0-a6f2-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -34381,6 +34555,84 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-08-07T17:31:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "43543ee0-72e1-11f0-b353-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "90328706",
+              "displayName": "ravennrust",
+              "name": "ravennrust",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Join us for the 3rd round of Rust Home-Brew Twitch Drops!  Showcasing some of your favorite OG creators.  Be sure to get synced to claim your drops! https://twitch.facepunch.com/connect",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2025-08-17T22:58:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dc28e35b-3a4b-489b-b086-2a344318d9a6.png",
+        "name": "Home-Brewed 3-RavennRust",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-07T17:38:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "69604f50-72e1-11f0-9aa2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11452",
+                  "createdAt": "2025-08-06T13:52:23.521Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ad6707b5-6858-4242-8a70-c80d5b7d6f18.png",
+                  "isIosAvailable": false,
+                  "name": "RavennRust AR",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-17T22:58:59.998Z",
+            "name": "RavennRust AR",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-08-07T17:38:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -34465,6 +34717,84 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "55a10504-72d9-11f0-8415-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "851449151",
+              "displayName": "vaybae",
+              "name": "vaybae",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Join us for the 3rd round of Rust Home-Brew Twitch Drops!  Showcasing some of your favorite OG creators.  Be sure to get synced to claim your drops! https://twitch.facepunch.com/connect",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2025-08-17T22:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ac5ea275-45a7-4e76-b4d9-404467c4e87a.png",
+        "name": "Home-Brewed 3-Vaybae",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-07T17:36:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "cdf9079a-72d9-11f0-820d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11450",
+                  "createdAt": "2025-08-06T13:51:31.292Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b5f2b7a5-bd2c-4bc1-997f-bd6962cf944a.png",
+                  "isIosAvailable": false,
+                  "name": "Vaybae AR",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-17T22:58:59.999Z",
+            "name": "Vaybae AR",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-08-07T17:36:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "2da9f8d0-72d4-11f0-ae47-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -34537,6 +34867,84 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-08-07T17:32:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "f909117b-72dd-11f0-a5f3-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "128799221",
+              "displayName": "ElWasabiTM",
+              "name": "elwasabitm",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Join us for the 3rd round of Rust Home-Brew Twitch Drops!  Showcasing some of your favorite OG creators.  Be sure to get synced to claim your drops! https://twitch.facepunch.com/connect",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2025-08-17T22:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5a17cca9-8fad-45c6-a62e-0ec67612da1d.png",
+        "name": "Home-Brewed 3-elWasabiTM",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-07T17:37:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3ba78b38-72de-11f0-94b0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11451",
+                  "createdAt": "2025-08-06T13:52:00.651Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e36c5330-c0c1-450f-bec3-c4c21e04054b.png",
+                  "isIosAvailable": false,
+                  "name": "elWasabiTM Door",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-17T22:58:59.999Z",
+            "name": "elWasabiTM Door",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-08-07T17:37:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
