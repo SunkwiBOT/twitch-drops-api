@@ -23361,7 +23361,7 @@
     "startAt": "2025-08-04T21:00:00.000Z"
   },
   {
-    "endAt": "2025-08-11T23:59:59.999Z",
+    "endAt": "2025-08-17T11:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
     "gameDisplayName": "Delta Force",
     "gameId": "1282866981",
@@ -23576,6 +23576,288 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-08-09T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "61ce11d8-7138-11f0-b068-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "737383083",
+              "displayName": "Leissik",
+              "name": "leissik",
+              "__typename": "Channel"
+            },
+            {
+              "id": "42784672",
+              "displayName": "ATTURSSON",
+              "name": "attursson",
+              "__typename": "Channel"
+            },
+            {
+              "id": "112353016",
+              "displayName": "DELTA_FiX",
+              "name": "delta_fix",
+              "__typename": "Channel"
+            },
+            {
+              "id": "123467818",
+              "displayName": "DineryTV",
+              "name": "dinerytv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "179918255",
+              "displayName": "farewellz_",
+              "name": "farewellz_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "402836856",
+              "displayName": "ICY757",
+              "name": "icy757",
+              "__typename": "Channel"
+            },
+            {
+              "id": "91901186",
+              "displayName": "jekxbond",
+              "name": "jekxbond",
+              "__typename": "Channel"
+            },
+            {
+              "id": "440851733",
+              "displayName": "ET_KEYZER",
+              "name": "et_keyzer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "200406678",
+              "displayName": "Moewazwaz",
+              "name": "moewazwaz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "218544438",
+              "displayName": "qKobyy",
+              "name": "qkobyy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "421725215",
+              "displayName": "ZaaykTV",
+              "name": "zaayktv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "117145844",
+              "displayName": "YakuPoseidon",
+              "name": "yakuposeidon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1102542905",
+              "displayName": "DeltaForceGameOfficial",
+              "name": "deltaforcegameofficial",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
+        "description": "Watch  DFI Open Qualifier to get good vibes & exclusive Twitch Drops!",
+        "detailsURL": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
+        "endAt": "2025-08-17T11:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1282866981",
+          "slug": "delta-force-hawk-ops",
+          "displayName": "Delta Force",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ac99e859-7f0c-47cf-926e-740bb02aaa12.jpeg",
+        "name": "DFI Open Qualifier",
+        "owner": {
+          "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+          "name": "Level Infinite",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-09T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "51c33390-7140-11f0-b258-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "90baf2fe-7147-11f0-b91f-0a58a9feac02",
+                  "createdAt": "2025-08-04T15:27:43.327Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8b1951f6-3246-4828-9ea5-6c83d5577fdd.png",
+                  "isIosAvailable": false,
+                  "name": "AKM - Delta Force",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-17T11:59:59.999Z",
+            "name": "AKM - Delta Force*1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-08-09T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7616ef60-713a-11f0-b44a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2821fd0b-7147-11f0-81b3-0a58a9feac02",
+                  "createdAt": "2025-08-04T15:24:47.841Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1669418a-70fd-4d62-9e00-31deaaa69a48.png",
+                  "isIosAvailable": false,
+                  "name": "SG552 Advanced Full Pk",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "640e241c-7147-11f0-b8e0-0a58a9feac02",
+                  "createdAt": "2025-08-04T15:26:28.375Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6599fe96-4884-438a-a43e-370384d2a980.png",
+                  "isIosAvailable": false,
+                  "name": "Armament Voucher X3",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-17T11:59:59.999Z",
+            "name": "SG552 Advanced Full Pack*1,Armament Voucher*3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-08-09T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "8203258a-7138-11f0-8898-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "c0e776d2-7141-11f0-83bd-0a58a9feac02",
+                  "createdAt": "2025-08-04T14:46:07.169Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a37dd02b-669f-4631-b5b1-0b496295bdb5.png",
+                  "isIosAvailable": false,
+                  "name": "Recruit Gear Ticket",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-17T11:59:59.999Z",
+            "name": "Recruit Gear Ticket*1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-08-09T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f129233e-7139-11f0-a99d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0300e1f9-7142-11f0-876b-0a58a9feac02",
+                  "createdAt": "2025-08-04T14:47:58.065Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1282866981",
+                    "name": "Delta Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e0b43c66-8558-4564-b515-ff873cf33998.png",
+                  "isIosAvailable": false,
+                  "name": "Standard Gear Ticket",
+                  "ownerOrganization": {
+                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
+                    "name": "Level Infinite",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-17T11:59:59.999Z",
+            "name": "Standard Gear Ticket*1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-08-09T17:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
