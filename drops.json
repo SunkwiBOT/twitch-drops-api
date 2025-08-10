@@ -24025,6 +24025,174 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "909e47aa-4d28-11f0-8687-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "28029009",
+              "displayName": "easportsfc",
+              "name": "easportsfc",
+              "__typename": "Channel"
+            },
+            {
+              "id": "137061523",
+              "displayName": "BrianSav_",
+              "name": "briansav_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "132289488",
+              "displayName": "HOLLYWOOD285",
+              "name": "hollywood285",
+              "__typename": "Channel"
+            },
+            {
+              "id": "438465591",
+              "displayName": "Stokes",
+              "name": "stokes",
+              "__typename": "Channel"
+            },
+            {
+              "id": "404813066",
+              "displayName": "Flokox",
+              "name": "flokox",
+              "__typename": "Channel"
+            },
+            {
+              "id": "48495043",
+              "displayName": "diegog1996",
+              "name": "diegog1996",
+              "__typename": "Channel"
+            },
+            {
+              "id": "121630302",
+              "displayName": "PHfreitas",
+              "name": "phfreitas",
+              "__typename": "Channel"
+            },
+            {
+              "id": "517517629",
+              "displayName": "EWC_STCArena_EN",
+              "name": "ewc_stcarena_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "91017948",
+              "displayName": "EWC_STCArena_EN2",
+              "name": "ewc_stcarena_en2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "147085022",
+              "displayName": "EWC_STCArena_AR",
+              "name": "ewc_stcarena_ar",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "FC Pro World Championships: Knockouts Day 2",
+        "detailsURL": "https://www.ea.com/games/ea-sports-fc/fc-pro/how-to-earn-rewards",
+        "endAt": "2025-08-13T23:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2011938005",
+          "slug": "ea-sports-fc-25",
+          "displayName": "EA Sports FC 25",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2c28e637-80da-41d3-8c0e-558d62713ca7.png",
+        "name": "FC Pro Worlds KO Day 2",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-01T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "2fba5b13-6cd2-11f0-a25f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_FCPRO_2560",
+                  "createdAt": "2025-06-19T15:57:49.956Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2011938005",
+                    "name": "EA Sports FC 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fe1f4c42-9d87-421d-893b-a1f2d892e2e6.png",
+                  "isIosAvailable": false,
+                  "name": "84+ Single",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-13T23:59:59.999Z",
+            "name": "84+ Single",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-08-01T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "35b7ddab-6cd2-11f0-affb-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_FCPRO_2561",
+                  "createdAt": "2025-06-19T15:58:16.07Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2011938005",
+                    "name": "EA Sports FC 25",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/90d8b0dc-0709-4d73-8635-9d500c1fb8f2.png",
+                  "isIosAvailable": false,
+                  "name": "86+ Double",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-13T23:59:59.999Z",
+            "name": "86+ Double",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-08-01T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "7cc5acfb-4d28-11f0-9a8d-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
