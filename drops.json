@@ -114,6 +114,12 @@
               "displayName": "Mautz_",
               "name": "mautz_",
               "__typename": "Channel"
+            },
+            {
+              "id": "25722719",
+              "displayName": "Dakillzor",
+              "name": "dakillzor",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -1217,6 +1223,93 @@
       }
     ],
     "startAt": "2025-08-16T16:00:00.000Z"
+  },
+  {
+    "endAt": "2025-08-17T01:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417969-120x160.jpg",
+    "gameDisplayName": "Halo: The Master Chief Collection",
+    "gameId": "417969",
+    "rewards": [
+      {
+        "id": "8bdfe8c0-699e-11f0-9cd8-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "28130176",
+              "displayName": "NapTimez",
+              "name": "naptimez",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn in-game content in Halo MCC",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-08-17T01:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417969",
+          "slug": "halo-the-master-chief-collection",
+          "displayName": "Halo: The Master Chief Collection",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/664345d1-b495-4b25-99bf-6cbf8cdd2933.png",
+        "name": "SWATNation 101 -AUG16",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-16T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9b51d25d-699e-11f0-9f0e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_HCSGR-MCC-YLJZ-XSAE-IT2R",
+                  "createdAt": "2024-01-02T22:07:30.347Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417969",
+                    "name": "Halo: The Master Chief Collection",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1b3ec14e-52ea-4869-ae2a-4105dbf8ec7d.png",
+                  "isIosAvailable": false,
+                  "name": "MCC Burst Fire",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-17T01:59:59.999Z",
+            "name": "Burst Fire Nameplate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-08-16T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-08-16T19:00:00.000Z"
   },
   {
     "endAt": "2025-08-17T02:59:59.999Z",
