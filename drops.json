@@ -1,152 +1,5 @@
 [
   {
-    "endAt": "2025-08-17T15:14:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/518379_IGDB-120x160.jpg",
-    "gameDisplayName": "Pokémon UNITE",
-    "gameId": "518379",
-    "rewards": [
-      {
-        "id": "22632431-6fee-11f0-a00b-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "461673582",
-              "displayName": "PokemonUNITE",
-              "name": "pokemonunite",
-              "__typename": "Channel"
-            },
-            {
-              "id": "769144452",
-              "displayName": "PokemonUNITEBrazil",
-              "name": "pokemonunitebrazil",
-              "__typename": "Channel"
-            },
-            {
-              "id": "769141613",
-              "displayName": "PokemonUNITELATAM",
-              "name": "pokemonunitelatam",
-              "__typename": "Channel"
-            },
-            {
-              "id": "36653045",
-              "displayName": "Pokemon",
-              "name": "pokemon",
-              "__typename": "Channel"
-            },
-            {
-              "id": "856770294",
-              "displayName": "pokemonunite_asiacl_jp",
-              "name": "pokemonunite_asiacl_jp",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://rewards.pokemon.com/",
-        "description": "Earn a Murkrow Platinum Emblem, Limited License Box and a Jersey Select Box in Pokémon UNITE by tuning in to twitch.tv/pokemonunite (8/15-8/17) during the official 2025 Worlds broadcasts. Redeem by Thursday October 09, 2025 15:00 UTC​. FAQ: pkmn.news/PokemonDrops",
-        "detailsURL": "https://worlds.pokemon.com/en-us/virtual/",
-        "endAt": "2025-08-17T15:14:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "518379",
-          "slug": "pokemon-unite",
-          "displayName": "Pokémon UNITE",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0031ceba-d81f-4412-b4c0-cb462750c6ac.png",
-        "name": "2025 Worlds UNITE Day 1-2",
-        "owner": {
-          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-          "name": "The Pokémon Company",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-08-15T07:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "0ecdf923-6ff0-11f0-bae6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "a1bf73df-6f54-11f0-a038-0a58a9feac02",
-                  "createdAt": "2025-08-02T03:56:13.01Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "518379",
-                    "name": "Pokémon UNITE",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b23ff423-18f8-4a89-8b21-6d5edd40062d.png",
-                  "isIosAvailable": false,
-                  "name": "Worlds25 JerseySelect Box",
-                  "ownerOrganization": {
-                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-                    "name": "The Pokémon Company",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-17T15:14:59.999Z",
-            "name": "Jersey Select Box",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-08-15T07:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "fabec741-6fef-11f0-85a0-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bd64cddf-6f54-11f0-b068-0a58a9feac02",
-                  "createdAt": "2025-08-02T03:56:59.392Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "518379",
-                    "name": "Pokémon UNITE",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ed682281-700e-405d-8e82-27d4bf70e893.png",
-                  "isIosAvailable": false,
-                  "name": "Worlds25 MurkrowPE and LL",
-                  "ownerOrganization": {
-                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-                    "name": "The Pokémon Company",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-17T15:14:59.999Z",
-            "name": "Murkrow Platinum Emblem and Limited License Box",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-08-15T07:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-08-15T07:00:00.000Z"
-  },
-  {
     "endAt": "2025-08-17T17:57:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
     "gameDisplayName": "Rise Online",
@@ -27393,6 +27246,171 @@
       }
     ],
     "startAt": "2025-08-15T01:45:00.000Z"
+  },
+  {
+    "endAt": "2025-08-25T06:58:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/518379_IGDB-120x160.jpg",
+    "gameDisplayName": "Pokémon UNITE",
+    "gameId": "518379",
+    "rewards": [
+      {
+        "id": "b612a157-6ff1-11f0-b4cb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "36653045",
+              "displayName": "Pokemon",
+              "name": "pokemon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "856770294",
+              "displayName": "pokemonunite_asiacl_jp",
+              "name": "pokemonunite_asiacl_jp",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://rewards.pokemon.com/",
+        "description": "Earn a Gift Box, Murkrow Platinum Emblem, 500 Aeos Coins, and a Limited License Box in Pokémon UNITE by tuning in to twitch.tv/pokemonunite on 8/17 during the official 2025 Worlds broadcasts. Redeem by Thursday October 09, 2025 15:00 UTC​. FAQ: pkmn.news/PokemonDrops",
+        "detailsURL": "https://worlds.pokemon.com/en-us/virtual/",
+        "endAt": "2025-08-25T06:58:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "518379",
+          "slug": "pokemon-unite",
+          "displayName": "Pokémon UNITE",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5314d714-a8dc-40a4-928c-d806561712eb.png",
+        "name": "2025 Worlds UNITE Day 3",
+        "owner": {
+          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+          "name": "The Pokémon Company",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-17T15:16:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a6ac3f11-6ff2-11f0-a174-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "c09ee0d6-6f53-11f0-94d4-0a58a9feac02",
+                  "createdAt": "2025-08-02T03:49:55.309Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518379",
+                    "name": "Pokémon UNITE",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5646260b-d00a-46db-8ec4-25f721c46541.png",
+                  "isIosAvailable": false,
+                  "name": "Worlds25 Day3 AC and LL",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-25T06:58:59.998Z",
+            "name": "500 Aeos Coins and Limited License Box",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-08-17T15:16:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b66d6b46-6ff2-11f0-8243-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e2fa9418-6f53-11f0-b77d-0a58a9feac02",
+                  "createdAt": "2025-08-02T03:50:52.952Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518379",
+                    "name": "Pokémon UNITE",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/77963fac-4c22-4788-bfbd-c789ed5a2277.png",
+                  "isIosAvailable": false,
+                  "name": "Worlds25 Day3 MurkrowPE",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-25T06:58:59.998Z",
+            "name": "Murkrow Platinum Emblem",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-08-17T15:16:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c131bf0a-6ff2-11f0-90e7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "26405f92-6f54-11f0-a20b-0a58a9feac02",
+                  "createdAt": "2025-08-02T03:52:45.817Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518379",
+                    "name": "Pokémon UNITE",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a897392-06d4-4ce2-ad83-9fb9338f9055.png",
+                  "isIosAvailable": false,
+                  "name": "Worlds25 Gift Box",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-25T06:58:59.998Z",
+            "name": "Gift Box",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-08-17T15:16:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-08-17T15:16:00.000Z"
   },
   {
     "endAt": "2025-08-25T15:58:59.999Z",
