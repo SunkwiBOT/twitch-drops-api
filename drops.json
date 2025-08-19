@@ -41823,6 +41823,86 @@
     "startAt": "2025-08-15T08:00:00.000Z"
   },
   {
+    "endAt": "2025-09-16T04:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-120x160.jpg",
+    "gameDisplayName": "Star Wars: The Old Republic",
+    "gameId": "21934",
+    "rewards": [
+      {
+        "id": "de070583-7cf2-11f0-9386-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.swtor.com/",
+        "description": "Watch for 4 hours and claim the TF-6 Striker Mount",
+        "detailsURL": "https://www.swtor.com/",
+        "endAt": "2025-09-16T04:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "21934",
+          "slug": "star-wars-the-old-republic",
+          "displayName": "Star Wars: The Old Republic",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0fe1010d-f943-4ba5-ae05-bf227ee0a8b4.png",
+        "name": "TF-6 Striker Mount",
+        "owner": {
+          "id": "f0bf8fc6-f94a-43ae-9f26-1f99377aa691",
+          "name": "Broadsword Online Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-19T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1468070a-7cf3-11f0-bfa1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f0bf8fc6-f94a-43ae-9f26-1f99377aa691_CUSTOM_ID_TWITCH_TF6_STRIKER",
+                  "createdAt": "2025-08-07T13:42:59.724Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "21934",
+                    "name": "Star Wars: The Old Republic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/77686740-f0df-4a8f-9bf4-35f3a94de8a0.png",
+                  "isIosAvailable": false,
+                  "name": "TF-6 Striker Mount",
+                  "ownerOrganization": {
+                    "id": "f0bf8fc6-f94a-43ae-9f26-1f99377aa691",
+                    "name": "Broadsword Online Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-16T04:58:59.999Z",
+            "name": "TF-6 Striker",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-08-19T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-08-19T16:00:00.000Z"
+  },
+  {
     "endAt": "2025-09-16T09:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/80607_IGDB-120x160.jpg",
     "gameDisplayName": "Elite: Dangerous",
