@@ -5637,6 +5637,86 @@
     "startAt": "2025-08-23T13:00:00.000Z"
   },
   {
+    "endAt": "2025-08-24T16:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1277238074_IGDB-120x160.jpg",
+    "gameDisplayName": "King of Meat",
+    "gameId": "1277238074",
+    "rewards": [
+      {
+        "id": "00287f9d-7149-11f0-93dd-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.kingofmeat.com/twitch-drops",
+        "description": "Watch any King of Meat stream and receive the Beta Rewards Top in your inventory",
+        "detailsURL": "https://www.kingofmeat.com/twitch-drops",
+        "endAt": "2025-08-24T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1277238074",
+          "slug": "king-of-meat",
+          "displayName": "King of Meat",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2e6af130-0015-475a-990c-fdc0909dd1e4.png",
+        "name": "Beta Rewards",
+        "owner": {
+          "id": "599f6d70-c5cd-4045-b920-e94d89e5cadb",
+          "name": "Amazon Games + Glowmade",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-23T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "090c703f-7149-11f0-83bd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "12e864da-7149-11f0-8f02-0a58a9feac02",
+                  "createdAt": "2025-08-04T15:38:31.225Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1277238074",
+                    "name": "King of Meat",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/834a1757-5b63-4d12-9317-789005706b7e.png",
+                  "isIosAvailable": false,
+                  "name": "Beta Rewards Top",
+                  "ownerOrganization": {
+                    "id": "599f6d70-c5cd-4045-b920-e94d89e5cadb",
+                    "name": "Amazon Games + Glowmade",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-24T16:59:59.999Z",
+            "name": "Beta Rewards Top",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-08-23T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-08-23T17:00:00.000Z"
+  },
+  {
     "endAt": "2025-08-24T20:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/514013_IGDB-120x160.jpg",
     "gameDisplayName": "Caliber",
