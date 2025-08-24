@@ -2468,8 +2468,15 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "113310810",
+              "displayName": "LTD2",
+              "name": "ltd2",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://beta.legiontd2.com/twitchdrops/",
