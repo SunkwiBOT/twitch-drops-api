@@ -1,69 +1,62 @@
 [
   {
-    "endAt": "2025-08-26T19:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
-    "gameDisplayName": "Eternal Return",
-    "gameId": "512864",
+    "endAt": "2025-08-26T10:59:59.997Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/518184-120x160.jpg",
+    "gameDisplayName": "Phasmophobia",
+    "gameId": "518184",
     "rewards": [
       {
-        "id": "624d4bb3-7ce5-11f0-98f0-0a58a9feac02",
+        "id": "659c2fb9-72d2-11f0-84b9-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": [
-            {
-              "id": "66548548",
-              "displayName": "丁義",
-              "name": "dingding248",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
+          "channels": null,
+          "isEnabled": false,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://twitch.playeternalreturn.com/",
-        "description": "https://twitch.playeternalreturn.com/",
-        "detailsURL": "https://twitch.playeternalreturn.com/",
-        "endAt": "2025-08-26T10:29:59.999Z",
+        "accountLinkURL": "https://www.kineticgames.co.uk/twitch-drops",
+        "description": "In celebration of the release of the reworked Grafton Farmhouse, earn an exclusive in-game ID card & badge by taking part in two separate campaigns throughout August. \n\n- August 7th, 2025 - August 8th, 2025: Animated ID card and badge available by watching 1 hour of Kinetic Games Partner streams.\n- August 12th, 2025  - August 26th, 2025: Standard reward campaign available to all Twitch streamers playing Phasmophobia, earnt by watching 2 hours of Phasmophobia streams.\n\n*PLEASE NOTE: THE REWARD WILL BE AVAILABLE IN-GAME WITH THE LAUNCH OF GRAFTON FARMHOUSE ON AUGUST 12TH*",
+        "detailsURL": "https://www.kineticgames.co.uk/blog/phasmophobia-twitchdrops-grafton-ghosttour",
+        "endAt": "2025-08-26T10:59:59.997Z",
         "eventBasedDrops": [],
         "game": {
-          "id": "512864",
-          "slug": "eternal-return",
-          "displayName": "Eternal Return",
+          "id": "518184",
+          "slug": "phasmophobia",
+          "displayName": "Phasmophobia",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4ece1c06-5cec-4a7c-9375-c89c3083b595.png",
-        "name": "孤狼模式上線",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/356faeea-09fa-4ad0-a617-44ad103fe736.png",
+        "name": "Grafton Drop #2",
         "owner": {
-          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-          "name": "Nimble Neuron Games",
+          "id": "e6ccb13c-19ad-4328-a547-693d402e7680",
+          "name": "Kinetic Games",
           "__typename": "Organization"
         },
-        "startAt": "2025-08-26T09:00:00Z",
+        "startAt": "2025-08-12T11:30:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "6897b08d-7ce5-11f0-bf11-0a58a9feac02",
+            "id": "e30e3357-72d2-11f0-9fe8-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
+                  "id": "4696cea8-6d46-11f0-9aae-0a58a9feac02",
+                  "createdAt": "2025-07-30T13:08:24.791Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
+                    "id": "518184",
+                    "name": "Phasmophobia",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/916ecc69-ad52-4562-9485-404ab0cca88e.png",
                   "isIosAvailable": false,
-                  "name": "Drops Token",
+                  "name": "Grafton Badge",
                   "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
+                    "id": "e6ccb13c-19ad-4328-a547-693d402e7680",
+                    "name": "Kinetic Games",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -73,16 +66,25 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-08-26T10:29:59.999Z",
-            "name": "DROPS TOKEN",
+            "endAt": "2025-08-26T10:59:59.997Z",
+            "name": "Grafton ID Card + Badge",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-08-26T09:00:00Z",
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-08-12T11:30:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
-      },
+      }
+    ],
+    "startAt": "2025-08-12T11:30:00.000Z"
+  },
+  {
+    "endAt": "2025-08-26T19:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
+    "gameDisplayName": "Eternal Return",
+    "gameId": "512864",
+    "rewards": [
       {
         "id": "8665d6e4-7ce5-11f0-815a-0a58a9feac02",
         "self": {
@@ -312,86 +314,6 @@
       }
     ],
     "startAt": "2025-08-25T20:00:00.000Z"
-  },
-  {
-    "endAt": "2025-08-26T10:59:59.997Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/518184-120x160.jpg",
-    "gameDisplayName": "Phasmophobia",
-    "gameId": "518184",
-    "rewards": [
-      {
-        "id": "659c2fb9-72d2-11f0-84b9-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.kineticgames.co.uk/twitch-drops",
-        "description": "In celebration of the release of the reworked Grafton Farmhouse, earn an exclusive in-game ID card & badge by taking part in two separate campaigns throughout August. \n\n- August 7th, 2025 - August 8th, 2025: Animated ID card and badge available by watching 1 hour of Kinetic Games Partner streams.\n- August 12th, 2025  - August 26th, 2025: Standard reward campaign available to all Twitch streamers playing Phasmophobia, earnt by watching 2 hours of Phasmophobia streams.\n\n*PLEASE NOTE: THE REWARD WILL BE AVAILABLE IN-GAME WITH THE LAUNCH OF GRAFTON FARMHOUSE ON AUGUST 12TH*",
-        "detailsURL": "https://www.kineticgames.co.uk/blog/phasmophobia-twitchdrops-grafton-ghosttour",
-        "endAt": "2025-08-26T10:59:59.997Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "518184",
-          "slug": "phasmophobia",
-          "displayName": "Phasmophobia",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/356faeea-09fa-4ad0-a617-44ad103fe736.png",
-        "name": "Grafton Drop #2",
-        "owner": {
-          "id": "e6ccb13c-19ad-4328-a547-693d402e7680",
-          "name": "Kinetic Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-08-12T11:30:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "e30e3357-72d2-11f0-9fe8-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "4696cea8-6d46-11f0-9aae-0a58a9feac02",
-                  "createdAt": "2025-07-30T13:08:24.791Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "518184",
-                    "name": "Phasmophobia",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/916ecc69-ad52-4562-9485-404ab0cca88e.png",
-                  "isIosAvailable": false,
-                  "name": "Grafton Badge",
-                  "ownerOrganization": {
-                    "id": "e6ccb13c-19ad-4328-a547-693d402e7680",
-                    "name": "Kinetic Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-26T10:59:59.997Z",
-            "name": "Grafton ID Card + Badge",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-08-12T11:30:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-08-12T11:30:00.000Z"
   },
   {
     "endAt": "2025-08-26T11:59:59.998Z",
