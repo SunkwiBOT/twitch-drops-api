@@ -496,6 +496,93 @@
     "startAt": "2025-08-21T16:00:00.000Z"
   },
   {
+    "endAt": "2025-08-28T16:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/272952894_IGDB-120x160.jpg",
+    "gameDisplayName": "Madden NFL 26",
+    "gameId": "272952894",
+    "rewards": [
+      {
+        "id": "6cadd5be-8354-11f0-9826-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "51914127",
+              "displayName": "EAMaddenNFL",
+              "name": "eamaddennfl",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch Good Morning Madden and earn Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-08-28T16:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "272952894",
+          "slug": "ea-sports-madden-nfl-26",
+          "displayName": "Madden NFL 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d7b69334-d321-433b-8e9c-215d1e83322a.png",
+        "name": "Good Morning Madden",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-28T14:20:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7aace165-8354-11f0-8361-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-030",
+                  "createdAt": "2025-08-27T14:43:12.818Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c1b97395-eca0-480a-902c-c6edcc6bb8a4.png",
+                  "isIosAvailable": false,
+                  "name": "GMM Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-08-28T16:29:59.999Z",
+            "name": "GMM Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-08-28T14:20:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-08-28T14:20:00.000Z"
+  },
+  {
     "endAt": "2025-08-28T16:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21779-120x160.jpg",
     "gameDisplayName": "League of Legends",
@@ -34105,6 +34192,86 @@
       }
     ],
     "startAt": "2025-08-25T18:00:00.000Z"
+  },
+  {
+    "endAt": "2025-09-15T13:55:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1415074616_IGDB-120x160.jpg",
+    "gameDisplayName": "BULLET YEETERS",
+    "gameId": "1415074616",
+    "rewards": [
+      {
+        "id": "fd345efc-8416-11f0-a0c9-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://discord.gg/DCD7xYbp6E",
+        "description": "Get American Football Pack DLC - Unique American Football Agent \"Crazy Legs\" (LV 10) and 7500 Yeeter Bucks to upgrade your gear! (Steam price 9,99)",
+        "detailsURL": "https://discord.gg/DCD7xYbp6E",
+        "endAt": "2025-09-15T13:55:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1415074616",
+          "slug": "bullet-yeeters",
+          "displayName": "BULLET YEETERS",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/446483e8-3b77-4d8c-8fa5-b1f87a844b50.png",
+        "name": "Crazy Legs DLC for 9,99!",
+        "owner": {
+          "id": "0c23ecea-3f47-4b48-ae40-568e733d58a5",
+          "name": "Brightika, Inc.",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-28T13:57:08Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0ac7373e-8417-11f0-ae07-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "7c5301f7-4600-11f0-b30f-0a58a9feac02",
+                  "createdAt": "2025-06-10T13:40:34.824Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1415074616",
+                    "name": "BULLET YEETERS",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bc7b5f5b-73bc-437e-b0c7-df4ce0b989f7.png",
+                  "isIosAvailable": false,
+                  "name": "Agent \"Crazy Legs\"",
+                  "ownerOrganization": {
+                    "id": "0c23ecea-3f47-4b48-ae40-568e733d58a5",
+                    "name": "Brightika, Inc.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-15T13:55:59.999Z",
+            "name": "Crazy Legs DLC",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-08-28T13:57:08Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-08-28T13:57:08.000Z"
   },
   {
     "endAt": "2025-09-16T04:58:59.999Z",
