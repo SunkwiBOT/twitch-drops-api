@@ -1,164 +1,12 @@
 [
   {
-    "endAt": "2025-08-28T23:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1757138379_IGDB-120x160.jpg",
-    "gameDisplayName": "Auroria",
-    "gameId": "1757138379",
-    "rewards": [
-      {
-        "id": "bf97450a-6c57-11f0-bf98-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://auroria.hero.com/twitchdrops/",
-        "description": "Auroria official Release Drop Event",
-        "detailsURL": "https://auroria.hero.com/twitchdrops/",
-        "endAt": "2025-08-28T23:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1757138379",
-          "slug": "auroria",
-          "displayName": "Auroria",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/081ce5cc-202b-41ea-8397-fcf1b9b5adb5.jpeg",
-        "name": "Auroria official Release",
-        "owner": {
-          "id": "a7688a88-e1cf-4f1d-b5d5-c0380cee2586",
-          "name": "Hero Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-08-02T00:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "0d5b8900-6c58-11f0-9b79-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e900cdeb-2ef9-11f0-bc6d-0a58a9feac02",
-                  "createdAt": "2025-05-12T06:25:33.936Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1757138379",
-                    "name": "Auroria",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec6cc46b-e28d-4d1f-bc60-fda476d4a441.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Coin*1000",
-                  "ownerOrganization": {
-                    "id": "a7688a88-e1cf-4f1d-b5d5-c0380cee2586",
-                    "name": "Hero Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-28T23:59:59.999Z",
-            "name": "Coin*1000",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-08-02T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "277444c0-6c58-11f0-8599-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "03cd2166-2efa-11f0-a87e-0a58a9feac02",
-                  "createdAt": "2025-05-12T06:26:18.896Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1757138379",
-                    "name": "Auroria",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/469ea214-6881-496a-a2cf-1c76482b7f29.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Tier-3 Auracubes*3",
-                  "ownerOrganization": {
-                    "id": "a7688a88-e1cf-4f1d-b5d5-c0380cee2586",
-                    "name": "Hero Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-28T23:59:59.999Z",
-            "name": "Tier-3 Auracubes*3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-08-02T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "31b8cb20-6c58-11f0-8483-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "0ca70ee9-2efa-11f0-90e7-0a58a9feac02",
-                  "createdAt": "2025-05-12T06:26:33.746Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1757138379",
-                    "name": "Auroria",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/48723d75-1c96-4382-af0c-201a96d8c42b.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Yellow Chuchu Hat",
-                  "ownerOrganization": {
-                    "id": "a7688a88-e1cf-4f1d-b5d5-c0380cee2586",
-                    "name": "Hero Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-28T23:59:59.999Z",
-            "name": "Yellow Chuchu Hat",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-08-02T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-08-02T00:00:00.000Z"
-  },
-  {
-    "endAt": "2025-08-29T00:14:59.999Z",
+    "endAt": "2025-08-29T01:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
     "gameDisplayName": "Warframe",
     "gameId": "66170",
     "rewards": [
       {
-        "id": "26f0dc97-8222-11f0-9ad9-0a58a9feac02",
+        "id": "af49a742-8222-11f0-b404-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
@@ -166,15 +14,9 @@
         "allow": {
           "channels": [
             {
-              "id": "145167538",
-              "displayName": "WarframeInternational",
-              "name": "warframeinternational",
-              "__typename": "Channel"
-            },
-            {
-              "id": "31557216",
-              "displayName": "Warframe",
-              "name": "warframe",
+              "id": "135427593",
+              "displayName": "7heClown",
+              "name": "7heclown",
               "__typename": "Channel"
             }
           ],
@@ -182,9 +24,9 @@
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://www.warframe.com/user",
-        "description": "Watch this week's Prime Time livestream for 30 minutes to receive a Relic Pack!",
+        "description": "Watch this week's Prime Time raid for 30 minutes to receive a Narmer Shawzin decoration!",
         "detailsURL": "https://forums.warframe.com/topic/1467105-community-stream-schedule-august-25-30th-2025/",
-        "endAt": "2025-08-29T00:14:59.999Z",
+        "endAt": "2025-08-29T01:29:59.999Z",
         "eventBasedDrops": [],
         "game": {
           "id": "66170",
@@ -192,33 +34,33 @@
           "displayName": "Warframe",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1b6220f0-4e96-418f-b5d0-6ea5a427c242.jpeg",
-        "name": "Prime Time #449",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/34be3db4-fcff-4486-a787-0522ebcb4176.jpeg",
+        "name": "Prime Time #449 Raid",
         "owner": {
           "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
           "name": "Digital Extremes",
           "__typename": "Organization"
         },
-        "startAt": "2025-08-27T19:00:00Z",
+        "startAt": "2025-08-29T00:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "30efc9a2-8222-11f0-a9da-0a58a9feac02",
+            "id": "ba0d690e-8222-11f0-a9da-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "e4d2b603-baf0-11ee-a576-0a58a9feac02",
-                  "createdAt": "2024-01-24T19:43:48.899Z",
+                  "id": "cce4a9ca-b0b4-11ee-b452-0a58a9feac02",
+                  "createdAt": "2024-01-11T19:08:27.32Z",
                   "entitlementLimit": 1,
                   "game": {
                     "id": "66170",
                     "name": "Warframe",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26a1e987-1278-4204-8a40-0528aa06b6e8.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Relic Pack",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4c2d592c-687a-4308-90b7-81266246ac55.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Narmer Shawzin",
                   "ownerOrganization": {
                     "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
                     "name": "Digital Extremes",
@@ -231,90 +73,18 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-08-29T00:14:59.999Z",
-            "name": "Relic Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-08-27T19:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "33360276-8222-11f0-864b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e4d2b603-baf0-11ee-a576-0a58a9feac02",
-                  "createdAt": "2024-01-24T19:43:48.899Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26a1e987-1278-4204-8a40-0528aa06b6e8.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Relic Pack",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-29T00:14:59.999Z",
-            "name": "Relic Pack",
+            "endAt": "2025-08-29T01:29:59.999Z",
+            "name": "Narmer Shawzin",
             "preconditionDrops": null,
             "requiredMinutesWatched": 30,
-            "startAt": "2025-08-27T19:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "3598d9c8-8222-11f0-b060-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e4d2b603-baf0-11ee-a576-0a58a9feac02",
-                  "createdAt": "2024-01-24T19:43:48.899Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26a1e987-1278-4204-8a40-0528aa06b6e8.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Relic Pack",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-29T00:14:59.999Z",
-            "name": "Relic Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-08-27T19:00:00Z",
+            "startAt": "2025-08-29T00:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2025-08-27T19:00:00.000Z"
+    "startAt": "2025-08-29T00:00:00.000Z"
   },
   {
     "endAt": "2025-08-29T01:29:59.999Z",
@@ -27956,6 +27726,86 @@
       }
     ],
     "startAt": "2025-08-14T14:00:00.000Z"
+  },
+  {
+    "endAt": "2025-09-06T23:29:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
+    "gameDisplayName": "Kirka.io",
+    "gameId": "356609813",
+    "rewards": [
+      {
+        "id": "7b46c039-8462-11f0-8a6d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Kirka.io drop for the Vionix",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2025-09-06T23:29:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ddefdf9e-6474-4445-8c60-b3e4c9977966.png",
+        "name": "Vionix",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-29T00:09:37Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "e87f3ade-8462-11f0-a6b7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_c7d90728-d58f-42df-9e64-70d3bb82d22f",
+                  "createdAt": "2025-08-28T22:57:59.353Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/72e840be-ab29-481f-8311-b9867b715633.png",
+                  "isIosAvailable": false,
+                  "name": "Vionix",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-06T23:29:59.998Z",
+            "name": "Vionix",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2025-08-29T00:09:37Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-08-29T00:09:37.000Z"
   },
   {
     "endAt": "2025-09-07T06:59:59.999Z",
