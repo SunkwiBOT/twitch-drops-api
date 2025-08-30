@@ -1322,7 +1322,7 @@
     "startAt": "2025-08-29T20:00:00.000Z"
   },
   {
-    "endAt": "2025-08-30T21:59:59.997Z",
+    "endAt": "2025-08-30T21:59:59.996Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/272952894_IGDB-120x160.jpg",
     "gameDisplayName": "Madden NFL 26",
     "gameId": "272952894",
@@ -1351,6 +1351,12 @@
               "id": "139778025",
               "displayName": "DubDot",
               "name": "dubdot",
+              "__typename": "Channel"
+            },
+            {
+              "id": "658292034",
+              "displayName": "MUTdotGG",
+              "name": "mutdotgg",
               "__typename": "Channel"
             }
           ],
@@ -1480,156 +1486,6 @@
               }
             ],
             "endAt": "2025-08-30T21:59:59.996Z",
-            "name": "Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-08-30T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "f2df992a-82a2-11f0-9586-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "554723459",
-              "displayName": "HuddleGG",
-              "name": "huddlegg",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
-        "description": "Tune into watch the MCS Kickoff Elimination Round to earn Twitch Drops to level up your Ultimate Team.",
-        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
-        "endAt": "2025-08-30T21:59:59.997Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "272952894",
-          "slug": "ea-sports-madden-nfl-26",
-          "displayName": "Madden NFL 26",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1b699aa9-0a3e-481e-b872-fc268d02c6c3.jpeg",
-        "name": "MCS Elims",
-        "owner": {
-          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-          "name": "Electronic Arts",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-08-30T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "6dbed5e7-82a3-11f0-b0d5-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-312",
-                  "createdAt": "2025-08-26T17:41:20.358Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "272952894",
-                    "name": "Madden NFL 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dc0f2cb1-33b0-4e18-94f8-a884358f77c2.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-30T21:59:59.997Z",
-            "name": "Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-08-30T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "7129b9b9-82a3-11f0-afde-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-313",
-                  "createdAt": "2025-08-26T17:41:34.757Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "272952894",
-                    "name": "Madden NFL 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fa269941-7807-410a-a26e-ed7bc217ce2d.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-30T21:59:59.997Z",
-            "name": "Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-08-30T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "750130c9-82a3-11f0-8e08-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-314",
-                  "createdAt": "2025-08-26T17:41:49.78Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "272952894",
-                    "name": "Madden NFL 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ed084aba-6768-4e56-9a35-159cb6e5793a.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-30T21:59:59.997Z",
             "name": "Twitch Pack",
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
