@@ -35564,6 +35564,266 @@
     "startAt": "2025-08-28T13:57:08.000Z"
   },
   {
+    "endAt": "2025-09-15T21:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516944_IGDB-120x160.jpg",
+    "gameDisplayName": "Corepunk",
+    "gameId": "516944",
+    "rewards": [
+      {
+        "id": "908e56e0-8517-11f0-be34-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://auth.corepunk.com/Identity/Account/Manage/Twitch",
+        "description": "Toxic Gladiator Set & Emerald Cyber Horse Corepunk is launching a brand-new experimental Twitch Drops campaign. The full set comes in five pieces, earned step by step as you watch longer. Once complete, you’ll own the Toxic Gladiator Tier 1 set—upgradeable in-game. This is a unique color theme for Gladiator skin set that can only be obtained through Twitch Drops campaigns and will never be sold in the shop. When you add the set to your skin library, you’ll be able to choose exactly which hero gets it, just like with quest skin rewards. And that’s not all: Emerald Cyber Horse can be unlocked through Twitch subscriptions. Subscribe with two Tier 1 subs to your favorite Corepunk streamer during the campaign to claim this exclusive ride.",
+        "detailsURL": "https://corepunk.com/en-us/news/twitch-drops-toxic-gladiator-set-emerald-cyber-horse-312",
+        "endAt": "2025-09-15T21:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "516944",
+          "slug": "corepunk",
+          "displayName": "Corepunk",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4dd87631-b303-4beb-81a7-b69a05989ee8.png",
+        "name": "Toxic Gladiator",
+        "owner": {
+          "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4",
+          "name": "Artificial Core",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-08-30T02:52:06Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0b7c4d36-8518-11f0-ab1b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4_CUSTOM_ID_rc_twitch_drop_toxic_gladiator_helmet",
+                  "createdAt": "2025-08-29T20:16:11.728Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516944",
+                    "name": "Corepunk",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fd4c0c63-5698-410f-a7a5-4deb5f574657.png",
+                  "isIosAvailable": false,
+                  "name": "Toxic Gladiator Helmet",
+                  "ownerOrganization": {
+                    "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4",
+                    "name": "Artificial Core",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-15T21:58:59.999Z",
+            "name": "Toxic Gladiator Helmet",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 600,
+            "startAt": "2025-08-30T02:52:06Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "1deb65b6-8518-11f0-94e8-0a58a9feac02",
+            "requiredSubs": 2,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4_CUSTOM_ID_rc_twitch_drop_emerald_cyber_horse",
+                  "createdAt": "2025-08-29T20:12:00.006Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516944",
+                    "name": "Corepunk",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fe20372a-c13e-4903-9335-2511bbf1be38.png",
+                  "isIosAvailable": false,
+                  "name": "Emerald Cyber Horse",
+                  "ownerOrganization": {
+                    "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4",
+                    "name": "Artificial Core",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-15T21:58:59.999Z",
+            "name": "Emerald Cyber Horse",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-08-30T02:52:06Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "bfb3ec6a-8517-11f0-ad0f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4_CUSTOM_ID_rc_twitch_drop_toxic_gladiator_legs",
+                  "createdAt": "2025-08-29T20:16:45.593Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516944",
+                    "name": "Corepunk",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6a64bc8d-88ec-4ea5-a64f-167b6e25f195.png",
+                  "isIosAvailable": false,
+                  "name": "Toxic Gladiator Shoes",
+                  "ownerOrganization": {
+                    "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4",
+                    "name": "Artificial Core",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-15T21:58:59.999Z",
+            "name": "Toxic Gladiator Shoes",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-08-30T02:52:06Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "dacc11e4-8517-11f0-a68b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4_CUSTOM_ID_rc_twitch_drop_toxic_gladiator_belt",
+                  "createdAt": "2025-08-29T20:14:23.595Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516944",
+                    "name": "Corepunk",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9737e83-2b41-487c-8c1b-de06bcb51f92.png",
+                  "isIosAvailable": false,
+                  "name": "Toxic Gladiator Pants",
+                  "ownerOrganization": {
+                    "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4",
+                    "name": "Artificial Core",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-15T21:58:59.999Z",
+            "name": "Toxic Gladiator Pants",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-08-30T02:52:06Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ec02f630-8517-11f0-924c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4_CUSTOM_ID_rc_twitch_drop_toxic_gladiator_body",
+                  "createdAt": "2025-08-29T20:15:25.585Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516944",
+                    "name": "Corepunk",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d4337ec6-54f3-4d64-b7fc-eb59a70bb404.png",
+                  "isIosAvailable": false,
+                  "name": "Toxic Gladiator Body",
+                  "ownerOrganization": {
+                    "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4",
+                    "name": "Artificial Core",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-15T21:58:59.999Z",
+            "name": "Toxic Gladiator Body",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2025-08-30T02:52:06Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "fe5ebb7b-8517-11f0-94ba-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4_CUSTOM_ID_rc_twitch_drop_toxic_gladiator_arms",
+                  "createdAt": "2025-08-29T20:13:22.228Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516944",
+                    "name": "Corepunk",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a0c676c6-a965-4799-bc69-937a4c7dd2b6.png",
+                  "isIosAvailable": false,
+                  "name": "Toxic Gladiator Gloves",
+                  "ownerOrganization": {
+                    "id": "3b9544ac-1547-4231-a3c6-1c91e8204aa4",
+                    "name": "Artificial Core",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-15T21:58:59.999Z",
+            "name": "Toxic Gladiator Gloves",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-08-30T02:52:06Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-08-30T02:52:06.000Z"
+  },
+  {
     "endAt": "2025-09-16T04:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-120x160.jpg",
     "gameDisplayName": "Star Wars: The Old Republic",
