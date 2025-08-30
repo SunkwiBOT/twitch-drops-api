@@ -1,164 +1,5 @@
 [
   {
-    "endAt": "2025-08-30T13:56:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/461221_IGDB-120x160.jpg",
-    "gameDisplayName": "MARVEL Contest of Champions",
-    "gameId": "461221",
-    "rewards": [
-      {
-        "id": "a74c8fb8-81d1-11f0-ae4f-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "452239740",
-              "displayName": "Kabam",
-              "name": "kabam",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://kid.kabam.com/v1/kid/account/login",
-        "description": "Is your Twitch account connected to your Kabam ID?  Make sure you do that right away before claiming any rewards!\n\nJoin us on our next livestream as we run you through our September content coming to the Contest  including our newest Champions to come to the Battlerealm: Mr. Knight and Silver Samurai! \n\nWe'll see you..   In.. The...  Battlerealm!",
-        "detailsURL": "https://kid.kabam.com/v1/kid/account/login",
-        "endAt": "2025-08-30T13:56:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "461221",
-          "slug": "marvel-contest-of-champions",
-          "displayName": "MARVEL Contest of Champions",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ba7dd094-410e-4195-a7d2-07918b7018a4.jpeg",
-        "name": "8-29-2025",
-        "owner": {
-          "id": "787ffa29-14d6-4990-bd94-14f46c513068",
-          "name": "Kabam",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-08-29T13:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "18519ab0-81d2-11f0-ab1c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "787ffa29-14d6-4990-bd94-14f46c513068_CUSTOM_ID_com.kabam.marvel.twitch.reunioncrystals.3x",
-                  "createdAt": "2025-01-29T07:33:39.83Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "461221",
-                    "name": "MARVEL Contest of Champions",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ced30ab-efbe-418b-b2da-2c3739a14e71.png",
-                  "isIosAvailable": false,
-                  "name": "3x Reunion Crystals",
-                  "ownerOrganization": {
-                    "id": "787ffa29-14d6-4990-bd94-14f46c513068",
-                    "name": "Kabam",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-30T13:56:59.999Z",
-            "name": "3x Reunion Crystal",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-08-29T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "24eee344-81d2-11f0-ba7c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "787ffa29-14d6-4990-bd94-14f46c513068_CUSTOM_ID_com.kabam.marvel.twitch.energyrefill.5x",
-                  "createdAt": "2024-12-02T16:55:26.374Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "461221",
-                    "name": "MARVEL Contest of Champions",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/129a7e74-48fc-491d-abd3-bdd652084ce0.png",
-                  "isIosAvailable": false,
-                  "name": "5x Energy Refills",
-                  "ownerOrganization": {
-                    "id": "787ffa29-14d6-4990-bd94-14f46c513068",
-                    "name": "Kabam",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-30T13:56:59.999Z",
-            "name": "5x Energy Refills",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-08-29T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "2ff15203-81d2-11f0-8246-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "787ffa29-14d6-4990-bd94-14f46c513068_CUSTOM_ID_com.kabam.marvel.twitch.revives.3x",
-                  "createdAt": "2024-12-02T17:05:12.435Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "461221",
-                    "name": "MARVEL Contest of Champions",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f68706bf-d107-4d24-a946-5bfc4746b5d8.png",
-                  "isIosAvailable": false,
-                  "name": "3x Level 2 Revive",
-                  "ownerOrganization": {
-                    "id": "787ffa29-14d6-4990-bd94-14f46c513068",
-                    "name": "Kabam",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-08-30T13:56:59.999Z",
-            "name": "3x Revive Potions",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-08-29T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-08-29T13:00:00.000Z"
-  },
-  {
     "endAt": "2025-08-30T14:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/495811_IGDB-120x160.jpg",
     "gameDisplayName": "SCUM",
@@ -35166,6 +35007,24 @@
               "id": "460291684",
               "displayName": "Adramtor",
               "name": "adramtor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "48285078",
+              "displayName": "eingyiflame",
+              "name": "eingyiflame",
+              "__typename": "Channel"
+            },
+            {
+              "id": "159799695",
+              "displayName": "Aurky_",
+              "name": "aurky_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "727199321",
+              "displayName": "Theory_Surf",
+              "name": "theory_surf",
               "__typename": "Channel"
             }
           ],
