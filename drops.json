@@ -39009,5 +39009,85 @@
       }
     ],
     "startAt": "2025-08-30T00:00:00.000Z"
+  },
+  {
+    "endAt": "2025-09-29T00:00:59.996Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/615993466_IGDB-120x160.jpg",
+    "gameDisplayName": "Wolvesville",
+    "gameId": "615993466",
+    "rewards": [
+      {
+        "id": "7364a370-84d2-11f0-aa99-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://wolvesville.com/",
+        "description": "Unlock the limited Twitch microphone item! You'll need to link your Twitch account with Wolvesville for this to work. Linking is only available with the latest update or via the web version at https://www.wolvesville.com/",
+        "detailsURL": "https://wolvesville.com/",
+        "endAt": "2025-09-29T00:00:59.996Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "615993466",
+          "slug": "wolvesville",
+          "displayName": "Wolvesville",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6bac3277-30d2-4625-9919-bb8af1a5b3f5.jpeg",
+        "name": "Tournament September 2025",
+        "owner": {
+          "id": "afc3b59c-a88e-4009-8114-cce32dfd0e23",
+          "name": "Wolvesville",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-01T00:01:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "2397f08e-84d6-11f0-94e8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "1dc20db1-8704-11f0-85df-0a58a9feac02",
+                  "createdAt": "2025-09-01T07:20:19.736Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "615993466",
+                    "name": "Wolvesville",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/48eba3bd-a59a-4618-8be7-be49e5cb9e75.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch microphone",
+                  "ownerOrganization": {
+                    "id": "afc3b59c-a88e-4009-8114-cce32dfd0e23",
+                    "name": "Wolvesville",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-29T00:00:59.996Z",
+            "name": "Twitch microphone",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-09-01T00:01:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-09-01T00:01:00.000Z"
   }
 ]
