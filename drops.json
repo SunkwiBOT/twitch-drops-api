@@ -44297,7 +44297,7 @@
     "startAt": "2025-09-02T07:00:00.000Z"
   },
   {
-    "endAt": "2025-09-22T23:59:59.998Z",
+    "endAt": "2025-10-01T06:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1441208453_IGDB-120x160.jpg",
     "gameDisplayName": "Once Human",
     "gameId": "1441208453",
@@ -44531,6 +44531,84 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 60,
             "startAt": "2025-08-26T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "9d96aea6-887d-11f0-a4f6-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "99350526",
+              "displayName": "qaixx",
+              "name": "qaixx",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.oncehuman.game/twitch/",
+        "description": "Once Human RaidZone Qaixx EXCLUSIVE Wish Scholar Drops event has started and will last until 12:00 AM October 1, 2025 (PDT).  Connect your Once Human character and Twitch account to receive the reward. Watch a Qaixx's RaidZone stream to join the activity! You need to watch for 1 hour to claim Qaixx's EXCLUSIVE Wish Scholar weapon sticker. The reward will be sent to your account in 24 hours.",
+        "detailsURL": "https://www.oncehuman.game/twitch/",
+        "endAt": "2025-10-01T06:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1441208453",
+          "slug": "once-human",
+          "displayName": "Once Human",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a7f2a98f-2ad7-43e3-9879-047efde14f9f.png",
+        "name": "RaidZone Qaixx Drops",
+        "owner": {
+          "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258",
+          "name": "Starry",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-03T07:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ce644a85-887d-11f0-9b9e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258_CUSTOM_ID_11130079",
+                  "createdAt": "2025-09-03T04:27:30.512Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1441208453",
+                    "name": "Once Human",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b0f211e-6ddf-466e-9aea-4362e5f9360d.png",
+                  "isIosAvailable": true,
+                  "name": "Sticker: Wish Scholar",
+                  "ownerOrganization": {
+                    "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258",
+                    "name": "Starry",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-01T06:59:59.998Z",
+            "name": "Sticker: Wish Scholar",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-09-03T07:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
