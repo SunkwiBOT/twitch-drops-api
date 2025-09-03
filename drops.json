@@ -1,62 +1,69 @@
 [
   {
-    "endAt": "2025-09-03T19:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
-    "gameDisplayName": "Eternal Return",
-    "gameId": "512864",
+    "endAt": "2025-09-05T00:14:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
     "rewards": [
       {
-        "id": "a646f9a6-77f3-11f0-a875-0a58a9feac02",
+        "id": "5e0b2e78-88eb-11f0-b256-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "188496427",
+              "displayName": "elicegameplay",
+              "name": "elicegameplay",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://twitch.playeternalreturn.com/",
-        "description": "https://twitch.playeternalreturn.com/",
-        "detailsURL": "https://twitch.playeternalreturn.com/",
-        "endAt": "2025-09-03T19:59:59.999Z",
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Watch this week's Emisión Tenno raid for 30 minutes to receive a Heurodis decoration!",
+        "detailsURL": "https://forums.warframe.com/topic/1467974-community-stream-schedule-september-1st-6th/",
+        "endAt": "2025-09-03T21:29:59.999Z",
         "eventBasedDrops": [],
         "game": {
-          "id": "512864",
-          "slug": "eternal-return",
-          "displayName": "Eternal Return",
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/96256661-f05a-4936-8ade-619d32973377.png",
-        "name": "SPLASH! MIDSEASON DROPS",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/108909e9-5405-4cdd-85d5-2c5ce1c79d59.jpeg",
+        "name": "Emisión Tenno #307 Raid",
         "owner": {
-          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-          "name": "Nimble Neuron Games",
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
           "__typename": "Organization"
         },
-        "startAt": "2025-09-02T20:00:00Z",
+        "startAt": "2025-09-03T20:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "adb956b8-77f3-11f0-b430-0a58a9feac02",
+            "id": "66175f3a-88eb-11f0-8a1b-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
+                  "id": "daab5402-ddb3-11ef-9ece-0a58a9feac02",
+                  "createdAt": "2025-01-28T20:10:00.932Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
+                    "id": "66170",
+                    "name": "Warframe",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5b39f2a9-88d4-4d49-b097-2d666d4352b4.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Heurodis Decoration",
                   "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -66,33 +73,117 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-09-03T19:59:59.999Z",
-            "name": "DROPS TOKEN",
+            "endAt": "2025-09-03T21:29:59.999Z",
+            "name": "Heurodis Decoration",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-09-03T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "1e16a461-88eb-11f0-97af-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "31557216",
+              "displayName": "Warframe",
+              "name": "warframe",
+              "__typename": "Channel"
+            },
+            {
+              "id": "145167538",
+              "displayName": "WarframeInternational",
+              "name": "warframeinternational",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Watch this week's Prime Time livestream for 30 minutes to receive a Relic Pack!",
+        "detailsURL": "https://forums.warframe.com/topic/1467974-community-stream-schedule-september-1st-6th/",
+        "endAt": "2025-09-05T00:14:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/21bac515-7fee-4a4b-bdc2-f9f10a7d7fae.jpeg",
+        "name": "Prime Time #450",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-03T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "290e13cb-88eb-11f0-b0c6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e4d2b603-baf0-11ee-a576-0a58a9feac02",
+                  "createdAt": "2024-01-24T19:43:48.899Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "66170",
+                    "name": "Warframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26a1e987-1278-4204-8a40-0528aa06b6e8.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Relic Pack",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-05T00:14:59.999Z",
+            "name": "Relic Pack",
             "preconditionDrops": null,
             "requiredMinutesWatched": 60,
-            "startAt": "2025-09-02T20:00:00Z",
+            "startAt": "2025-09-03T19:00:00Z",
             "__typename": "TimeBasedDrop"
           },
           {
-            "id": "aff9c55c-77f3-11f0-a808-0a58a9feac02",
+            "id": "2b5ba3f2-88eb-11f0-b6c9-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
+                  "id": "e4d2b603-baf0-11ee-a576-0a58a9feac02",
+                  "createdAt": "2024-01-24T19:43:48.899Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
+                    "id": "66170",
+                    "name": "Warframe",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26a1e987-1278-4204-8a40-0528aa06b6e8.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Relic Pack",
                   "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -102,33 +193,33 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-09-03T19:59:59.999Z",
-            "name": "DROPS TOKEN",
+            "endAt": "2025-09-05T00:14:59.999Z",
+            "name": "Relic Pack",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-09-02T20:00:00Z",
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-09-03T19:00:00Z",
             "__typename": "TimeBasedDrop"
           },
           {
-            "id": "b209a7f5-77f3-11f0-8fe5-0a58a9feac02",
+            "id": "2d5d2c92-88eb-11f0-a3f8-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
+                  "id": "e4d2b603-baf0-11ee-a576-0a58a9feac02",
+                  "createdAt": "2024-01-24T19:43:48.899Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
+                    "id": "66170",
+                    "name": "Warframe",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26a1e987-1278-4204-8a40-0528aa06b6e8.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Relic Pack",
                   "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -138,18 +229,18 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-09-03T19:59:59.999Z",
-            "name": "DROPS TOKEN",
+            "endAt": "2025-09-05T00:14:59.999Z",
+            "name": "Relic Pack",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-09-02T20:00:00Z",
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-09-03T19:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2025-09-02T20:00:00.000Z"
+    "startAt": "2025-09-03T19:00:00.000Z"
   },
   {
     "endAt": "2025-09-05T14:59:59.998Z",
@@ -5996,171 +6087,6 @@
       }
     ],
     "startAt": "2025-08-29T14:00:00.000Z"
-  },
-  {
-    "endAt": "2025-09-05T00:14:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
-    "gameDisplayName": "Warframe",
-    "gameId": "66170",
-    "rewards": [
-      {
-        "id": "1e16a461-88eb-11f0-97af-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "31557216",
-              "displayName": "Warframe",
-              "name": "warframe",
-              "__typename": "Channel"
-            },
-            {
-              "id": "145167538",
-              "displayName": "WarframeInternational",
-              "name": "warframeinternational",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.warframe.com/user",
-        "description": "Watch this week's Prime Time livestream for 30 minutes to receive a Relic Pack!",
-        "detailsURL": "https://forums.warframe.com/topic/1467974-community-stream-schedule-september-1st-6th/",
-        "endAt": "2025-09-05T00:14:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "66170",
-          "slug": "warframe",
-          "displayName": "Warframe",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/21bac515-7fee-4a4b-bdc2-f9f10a7d7fae.jpeg",
-        "name": "Prime Time #450",
-        "owner": {
-          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-          "name": "Digital Extremes",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-09-03T19:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "290e13cb-88eb-11f0-b0c6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e4d2b603-baf0-11ee-a576-0a58a9feac02",
-                  "createdAt": "2024-01-24T19:43:48.899Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26a1e987-1278-4204-8a40-0528aa06b6e8.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Relic Pack",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-09-05T00:14:59.999Z",
-            "name": "Relic Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-09-03T19:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "2b5ba3f2-88eb-11f0-b6c9-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e4d2b603-baf0-11ee-a576-0a58a9feac02",
-                  "createdAt": "2024-01-24T19:43:48.899Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26a1e987-1278-4204-8a40-0528aa06b6e8.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Relic Pack",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-09-05T00:14:59.999Z",
-            "name": "Relic Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-09-03T19:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "2d5d2c92-88eb-11f0-a3f8-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e4d2b603-baf0-11ee-a576-0a58a9feac02",
-                  "createdAt": "2024-01-24T19:43:48.899Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26a1e987-1278-4204-8a40-0528aa06b6e8.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Relic Pack",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-09-05T00:14:59.999Z",
-            "name": "Relic Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-09-03T19:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-09-03T19:00:00.000Z"
   },
   {
     "endAt": "2025-09-06T23:58:59.999Z",
@@ -18468,6 +18394,18 @@
               "id": "727199321",
               "displayName": "Theory_Surf",
               "name": "theory_surf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "30035674",
+              "displayName": "Crizack",
+              "name": "crizack",
+              "__typename": "Channel"
+            },
+            {
+              "id": "771228489",
+              "displayName": "NoahMontbarron",
+              "name": "noahmontbarron",
               "__typename": "Channel"
             }
           ],
