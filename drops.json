@@ -3908,7 +3908,7 @@
             },
             {
               "id": "131540874",
-              "displayName": "leahkimdataberna",
+              "displayName": "LeahkimDaTaberna",
               "name": "leahkimdataberna",
               "__typename": "Channel"
             },
@@ -31205,6 +31205,150 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 600,
             "startAt": "2025-09-03T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "a23228ab-8a5a-11f0-a81a-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "640936041",
+              "displayName": "wynnas",
+              "name": "wynnas",
+              "__typename": "Channel"
+            },
+            {
+              "id": "264887684",
+              "displayName": "notbeppler",
+              "name": "notbeppler",
+              "__typename": "Channel"
+            },
+            {
+              "id": "97843910",
+              "displayName": "blednykh",
+              "name": "blednykh",
+              "__typename": "Channel"
+            },
+            {
+              "id": "456454134",
+              "displayName": "DefNotFlaming",
+              "name": "defnotflaming",
+              "__typename": "Channel"
+            },
+            {
+              "id": "143660471",
+              "displayName": "JiChang25",
+              "name": "jichang25",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64667862",
+              "displayName": "moncixas",
+              "name": "moncixas",
+              "__typename": "Channel"
+            },
+            {
+              "id": "186398587",
+              "displayName": "Martinezgrx",
+              "name": "martinezgrx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1279195844",
+              "displayName": "GudRxEssenceEu",
+              "name": "gudrxessenceeu",
+              "__typename": "Channel"
+            },
+            {
+              "id": "12359294",
+              "displayName": "keepN",
+              "name": "keepn",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1032822251",
+              "displayName": "Valkasr",
+              "name": "valkasr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "139118985",
+              "displayName": "gilvandark",
+              "name": "gilvandark",
+              "__typename": "Channel"
+            },
+            {
+              "id": "108456822",
+              "displayName": "japoneis96",
+              "name": "japoneis96",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://eu.4game.com/drops/twitch/",
+        "description": "Reward for watching a live Lineage 2 broadcast.",
+        "detailsURL": "https://l2wiki.com/essence/events_and_promos/3114.html",
+        "endAt": "2025-09-09T20:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515349",
+          "slug": "lineage-ii",
+          "displayName": "Lineage II",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4c5a9c0c-2dd3-422d-993b-3740306789b2.png",
+        "name": "RoseVain Drops Essence EU",
+        "owner": {
+          "id": "9997a4e8-c43f-42fe-93fa-0c3ed88eecb0",
+          "name": "Innova",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-05T12:50:44Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "dd72cdd8-8a5a-11f0-a86c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9997a4e8-c43f-42fe-93fa-0c3ed88eecb0_CUSTOM_ID_10000311",
+                  "createdAt": "2025-09-05T12:46:46.244Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515349",
+                    "name": "Lineage II",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bc11b7fd-0733-42ff-a806-612b28328420.png",
+                  "isIosAvailable": false,
+                  "name": "RoseVain Essence 2 EU",
+                  "ownerOrganization": {
+                    "id": "9997a4e8-c43f-42fe-93fa-0c3ed88eecb0",
+                    "name": "Innova",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-09T20:59:59.999Z",
+            "name": "RoseVain Essence Drops",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-09-05T12:50:44Z",
             "__typename": "TimeBasedDrop"
           }
         ],
