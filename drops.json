@@ -291,7 +291,7 @@
     "startAt": "2025-08-29T07:00:00.000Z"
   },
   {
-    "endAt": "2025-09-06T11:59:59.999Z",
+    "endAt": "2025-09-06T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
     "gameDisplayName": "Black Desert",
     "gameId": "386821",
@@ -362,6 +362,102 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-09-05T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "3c5781b7-894d-11f0-b482-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "893293914",
+              "displayName": "FutsukaChannel",
+              "name": "futsukachannel",
+              "__typename": "Channel"
+            },
+            {
+              "id": "664461281",
+              "displayName": "bruceirvin_",
+              "name": "bruceirvin_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "433357287",
+              "displayName": "CosmicBoysx",
+              "name": "cosmicboysx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "721879591",
+              "displayName": "TheCosmic_11",
+              "name": "thecosmic_11",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
+        "description": "[ASIA Only] Earn exclusive drops by watching the Crossplay 2nd anniversary",
+        "detailsURL": "https://blackdesert.pearlabyss.com/Asia/en-US/News/Notice/Detail?_boardNo=8053",
+        "endAt": "2025-09-06T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "386821",
+          "slug": "black-desert",
+          "displayName": "Black Desert",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/86d45e5f-3211-4a22-9196-b8b35d874399.jpeg",
+        "name": "[ASIA] Crossplay 2nd ann",
+        "owner": {
+          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+          "name": "Pearl Abyss",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-06T09:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3197973b-894f-11f0-b755-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_CORSSPLAY2NDANNI",
+                  "createdAt": "2025-09-04T05:21:01.983Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/48b472c6-3a8f-47e4-82c3-102d07c38f07.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[ASIA] 1 Hour Reward",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-06T15:59:59.999Z",
+            "name": "1 hour",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-09-06T09:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
