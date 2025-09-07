@@ -2860,6 +2860,99 @@
     "startAt": "2025-09-06T17:59:00.000Z"
   },
   {
+    "endAt": "2025-09-07T19:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/33214-120x160.jpg",
+    "gameDisplayName": "Fortnite",
+    "gameId": "33214",
+    "rewards": [
+      {
+        "id": "9cec894a-8a5c-11f0-a9eb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "55125740",
+              "displayName": "Fortnite",
+              "name": "fortnite",
+              "__typename": "Channel"
+            },
+            {
+              "id": "428843137",
+              "displayName": "Brasil_Fortnite",
+              "name": "brasil_fortnite",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.epicgames.com/account/connections",
+        "description": "FNCS Knuckles Emoticon: Watch for 60 minutes cumulative on Day 2 of the Fortnite Global Championship on September 7. ",
+        "detailsURL": "https://www.fortnite.com/news/competitors-are-locked-and-loaded-for-the-2025-fortnite-global-championship?lang=en-US",
+        "endAt": "2025-09-07T19:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "33214",
+          "slug": "fortnite",
+          "displayName": "Fortnite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/42bc4d7b-b9cf-404a-809d-6c939f55afa5.jpeg",
+        "name": "Fortnite GC 2025",
+        "owner": {
+          "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+          "name": "Epic Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-07T14:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b8e7c064-8a5c-11f0-bebd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a_CUSTOM_ID_7447FA4E4F2DEC25A476EFB310B93E3F",
+                  "createdAt": "2025-09-05T09:21:31.996Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "33214",
+                    "name": "Fortnite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ad81d2b-1627-4a7c-88fb-aad7ec7a83c2.jpeg",
+                  "isIosAvailable": false,
+                  "name": "FNCS Knuckles Emoticon",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-07T19:58:59.999Z",
+            "name": "FNCS Knuckles Emoticon",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-09-07T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-09-07T14:00:00.000Z"
+  },
+  {
     "endAt": "2025-09-07T20:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/514013_IGDB-120x160.jpg",
     "gameDisplayName": "Caliber",
