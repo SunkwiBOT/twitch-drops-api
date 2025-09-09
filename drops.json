@@ -363,6 +363,86 @@
     "startAt": "2025-08-26T17:00:00.000Z"
   },
   {
+    "endAt": "2025-09-09T17:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/497057-120x160.jpg",
+    "gameDisplayName": "Destiny 2",
+    "gameId": "497057",
+    "rewards": [
+      {
+        "id": "e04b4486-838f-11f0-bace-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.bungie.net/LinkTwitch",
+        "description": "Tune in to the Ash & Iron Livestream on the Bungie Twitch channel starting 9 September at 9AM PT. Watch for 15 minutes and receive the Knights of Old Emblem! You must link your Bungie account to Twitch to receive the Emblem. You can redeem the Emblem by logging into your Bungie.net account and going to the Partner Rewards section of the Code Redemption area.",
+        "detailsURL": "https://help.bungie.net/articles/8048011793812",
+        "endAt": "2025-09-09T17:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "497057",
+          "slug": "destiny-2",
+          "displayName": "Destiny 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fd79297d-528f-46d3-9f82-98df050e75d9.jpeg",
+        "name": "Ash & Iron Livestream",
+        "owner": {
+          "id": "3555708b-ff07-4392-a15b-bfae9356dfcf",
+          "name": "Bungie",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-09T15:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ded81c4f-8390-11f0-824b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3555708b-ff07-4392-a15b-bfae9356dfcf_CUSTOM_ID_entitlements.crm_emblems.year_8.emblem19",
+                  "createdAt": "2025-08-27T22:10:57.649Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "497057",
+                    "name": "Destiny 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/57c32eef-faf9-40e1-87f3-db9a0477000f.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Knights of Old Emblem",
+                  "ownerOrganization": {
+                    "id": "3555708b-ff07-4392-a15b-bfae9356dfcf",
+                    "name": "Bungie",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-09T17:29:59.999Z",
+            "name": "Knights of Old",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-09-09T15:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-09-09T15:30:00.000Z"
+  },
+  {
     "endAt": "2025-09-09T17:57:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
     "gameDisplayName": "Rise Online",
