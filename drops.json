@@ -2907,7 +2907,7 @@
     "startAt": "2025-09-09T13:00:00.000Z"
   },
   {
-    "endAt": "2025-09-10T12:59:59.996Z",
+    "endAt": "2025-09-10T19:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/30921-120x160.jpg",
     "gameDisplayName": "Rocket League",
     "gameId": "30921",
@@ -3422,6 +3422,84 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 330,
             "startAt": "2025-08-21T21:52:27Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "f923b311-8d0f-11f0-bc74-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "57781936",
+              "displayName": "RocketLeague",
+              "name": "rocketleague",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.epicgames.com/id/login",
+        "description": "Watch First Touch Live from Lyon for 60 minutes and clail the Apex Wheels!",
+        "detailsURL": "https://www.rocketleague.com/en/news/the-rave-roller-wheels-echo-across-rocket-league",
+        "endAt": "2025-09-10T19:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "30921",
+          "slug": "rocket-league",
+          "displayName": "Rocket League",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2801e08b-0c9c-40e8-a541-9d3d3afad902.jpeg",
+        "name": "First Touch Live ",
+        "owner": {
+          "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+          "name": "Epic Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-09T18:14:49Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "08c26c98-8d10-11f0-aa64-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "104a76d9-8952-11f0-ad1d-0a58a9feac02",
+                  "createdAt": "2025-09-04T05:43:20.212Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "30921",
+                    "name": "Rocket League",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32f3f4a0-2478-4af5-b61c-f82c7ccfb48a.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Apex Wheels",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-10T19:29:59.999Z",
+            "name": "Apex Wheels",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-09-09T18:14:49Z",
             "__typename": "TimeBasedDrop"
           }
         ],
