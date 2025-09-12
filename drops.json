@@ -37945,7 +37945,7 @@
     "startAt": "2025-09-03T19:00:00.000Z"
   },
   {
-    "endAt": "2025-10-01T06:59:59.998Z",
+    "endAt": "2025-10-10T06:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1441208453_IGDB-120x160.jpg",
     "gameDisplayName": "Once Human",
     "gameId": "1441208453",
@@ -38257,6 +38257,84 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 60,
             "startAt": "2025-09-03T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "4e440236-8fac-11f0-9775-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "149439626",
+              "displayName": "Blooprint",
+              "name": "blooprint",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.oncehuman.game/twitch/",
+        "description": "Once Human RaidZone Blooprint EXCLUSIVE Wish Ace Drops event has started and will last until 12:00 AM October 10, 2025 (PDT).  Connect your Once Human character and Twitch account to receive the reward. Watch a Blooprint's RaidZone stream to join the activity! You need to watch for 1 hour to claim Blooprint's EXCLUSIVE Wish Ace weapon sticker. The reward will be sent to your account in 24 hours.",
+        "detailsURL": "https://www.oncehuman.game/twitch/",
+        "endAt": "2025-10-10T06:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1441208453",
+          "slug": "once-human",
+          "displayName": "Once Human",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/209edd2a-c757-46cc-955a-182cac7595ba.png",
+        "name": "RaidZone Blooprint Drops",
+        "owner": {
+          "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258",
+          "name": "Starry",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-12T07:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "07907d44-8fb4-11f0-b128-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258_CUSTOM_ID_11130086",
+                  "createdAt": "2025-09-12T08:41:01.914Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1441208453",
+                    "name": "Once Human",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eb249841-a710-4927-990f-e84bf8f70ec6.png",
+                  "isIosAvailable": true,
+                  "name": "Sticker: Wish Ace",
+                  "ownerOrganization": {
+                    "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258",
+                    "name": "Starry",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-10T06:59:59.997Z",
+            "name": "Sticker: Wish Ace",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-09-12T07:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
