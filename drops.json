@@ -243,6 +243,138 @@
     "gameId": "506416",
     "rewards": [
       {
+        "id": "80cc436c-8526-11f0-8b6a-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "35978160",
+              "displayName": "EXTREMEBREAKER1",
+              "name": "extremebreaker1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "32744512",
+              "displayName": "CardinalRedbird",
+              "name": "cardinalredbird",
+              "__typename": "Channel"
+            },
+            {
+              "id": "77973535",
+              "displayName": "RealLifeSpartan",
+              "name": "reallifespartan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64645926",
+              "displayName": "OmnicientWolf",
+              "name": "omnicientwolf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "775559897",
+              "displayName": "LaSinity",
+              "name": "lasinity",
+              "__typename": "Channel"
+            },
+            {
+              "id": "77428357",
+              "displayName": "AustinWebrink",
+              "name": "austinwebrink",
+              "__typename": "Channel"
+            },
+            {
+              "id": "484087870",
+              "displayName": "LadyMando",
+              "name": "ladymando",
+              "__typename": "Channel"
+            },
+            {
+              "id": "88061410",
+              "displayName": "HaZe117",
+              "name": "haze117",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36799798",
+              "displayName": "MintBlitz",
+              "name": "mintblitz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "10692319",
+              "displayName": "Eli_X",
+              "name": "eli_x",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn in-game content in Halo Infinite!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-09-13T05:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a159b6b8-c8c0-4598-abbb-09bb61f576d7.png",
+        "name": "Boomer Playdate-SEP12",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-13T01:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "deb83506-8526-11f0-ae3c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_ZXNN-KJ71-NZZK-3Y52-HNRR",
+                  "createdAt": "2024-02-16T19:21:33.242Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/73f639a5-9ff0-4e65-9705-062ff21391e0.png",
+                  "isIosAvailable": false,
+                  "name": "Athens Ascent Spartan ID",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-13T05:59:59.998Z",
+            "name": "Athens Ascent Spartan ID",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-09-13T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "a70ffb67-8f65-11f0-88ea-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
