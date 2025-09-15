@@ -13179,7 +13179,7 @@
     "startAt": "2025-08-19T16:00:00.000Z"
   },
   {
-    "endAt": "2025-09-16T06:58:59.999Z",
+    "endAt": "2025-10-05T06:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
     "gameDisplayName": "Overwatch 2",
     "gameId": "515025",
@@ -13322,6 +13322,204 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 420,
             "startAt": "2025-08-26T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "a2bd98b6-7f87-11f0-bbf0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "137512364",
+              "displayName": "ow_esports",
+              "name": "ow_esports",
+              "__typename": "Channel"
+            },
+            {
+              "id": "882546504",
+              "displayName": "OW_ESPORTS_JP",
+              "name": "ow_esports_jp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "42450967",
+              "displayName": "Unter",
+              "name": "unter",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.battle.net/connections",
+        "description": "Stage 3 of the Overwatch Champions Series continues. Tune in and earn special viewer rewards! Watch 2 hours to get the At the Top Spray, 4 hours to get the OWCS Cozy Cat Icon, 6 hours to get the Time to Shine Name Card, and 8 hours to get the OWCS Cozy Cat Nights Name Card.",
+        "detailsURL": "https://esports.overwatch.com/en-us/rewards",
+        "endAt": "2025-10-05T06:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515025",
+          "slug": "overwatch-2",
+          "displayName": "Overwatch 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ac02e27c-f3d1-4dcd-94a2-72a98a24231d.png",
+        "name": "OWCS 25' Stage 3 Groups 2",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-15T07:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "01f5c5a9-7f88-11f0-a9bc-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1976350",
+                  "createdAt": "2025-08-22T17:37:33.529Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f3c69c8-7b0f-49ba-9277-e7e0dd5af6d9.png",
+                  "isIosAvailable": false,
+                  "name": "Slice of Victory Spray",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-05T06:59:59.999Z",
+            "name": "Slice of Victory Spray",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-09-15T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "0a8fc294-7f88-11f0-8fc1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1976359",
+                  "createdAt": "2025-08-22T17:38:16.568Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7d9a28b5-24a3-46eb-91cf-5c51f1531476.png",
+                  "isIosAvailable": false,
+                  "name": "Late-Night Champion NC",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-05T06:59:59.999Z",
+            "name": "Late-Night Champion Name Card",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2025-09-15T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f2599b94-7f87-11f0-b1e1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1976349",
+                  "createdAt": "2025-08-22T17:36:24.566Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b6c44f48-2ca2-4d52-9600-00075a25f5eb.png",
+                  "isIosAvailable": false,
+                  "name": "Champions Energy Drink SP",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-05T06:59:59.999Z",
+            "name": "Champions Energy Drink Spray",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-09-15T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "fb371347-7f87-11f0-96db-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1976375",
+                  "createdAt": "2025-08-22T17:37:03.953Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4fc4a9de-75ee-4a8d-8812-e110d6a48192.png",
+                  "isIosAvailable": false,
+                  "name": "Champions Energy Drink IC",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-05T06:59:59.999Z",
+            "name": "Champions Energy Drink Icon",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-09-15T07:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
