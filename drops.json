@@ -35715,6 +35715,129 @@
     "startAt": "2025-09-02T16:00:00.000Z"
   },
   {
+    "endAt": "2025-09-29T23:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/624536948_IGDB-120x160.jpg",
+    "gameDisplayName": "EA Sports FC 26",
+    "gameId": "624536948",
+    "rewards": [
+      {
+        "id": "f780d89f-8e8f-11f0-a1ba-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "28029009",
+              "displayName": "easportsfc",
+              "name": "easportsfc",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://ea.com/twitchlinking",
+        "description": "FC 26 First Gameplay",
+        "detailsURL": "https://ea.com",
+        "endAt": "2025-09-29T23:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "624536948",
+          "slug": "ea-sports-fc-26",
+          "displayName": "EA Sports FC 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/96462e3c-20d1-41b0-8a54-1f00507ec27e.png",
+        "name": "FC 26 First Gameplay",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-10T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "6c94fbcf-9293-11f0-9901-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_GAMEPLAY_2601",
+                  "createdAt": "2025-09-10T21:52:15.288Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "624536948",
+                    "name": "EA Sports FC 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/255341bf-645d-4feb-b276-c1eea547ed4d.png",
+                  "isIosAvailable": false,
+                  "name": "Gold Players Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-29T23:59:59.999Z",
+            "name": "Gold Players Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-09-10T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "79782ba8-9293-11f0-8e4e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_GAMEPLAY_2602",
+                  "createdAt": "2025-09-10T21:52:42.292Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "624536948",
+                    "name": "EA Sports FC 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c1d9bc20-797b-41eb-9ee5-024b8c2446df.png",
+                  "isIosAvailable": false,
+                  "name": "Rare Gold Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-29T23:59:59.999Z",
+            "name": "Rare Gold Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-09-10T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-09-10T00:00:00.000Z"
+  },
+  {
     "endAt": "2025-09-30T03:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/513181_IGDB-120x160.jpg",
     "gameDisplayName": "Genshin Impact",
