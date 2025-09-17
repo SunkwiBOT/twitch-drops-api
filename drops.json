@@ -3614,6 +3614,86 @@
     "startAt": "2025-09-16T16:30:00.000Z"
   },
   {
+    "endAt": "2025-09-18T14:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/490100-120x160.jpg",
+    "gameDisplayName": "Lost Ark",
+    "gameId": "490100",
+    "rewards": [
+      {
+        "id": "561620ab-8827-11f0-ad0f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.playlostark.com/twitch-drops",
+        "description": "Get your Battle Chest and Legendary Card packs in this latest drop!",
+        "detailsURL": "https://www.playlostark.com/twitch-drops",
+        "endAt": "2025-09-18T14:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "490100",
+          "slug": "lost-ark",
+          "displayName": "Lost Ark",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c67b4690-e44c-4730-ae17-56601c6c9adb.jpeg",
+        "name": "Sept Evergreen Bundle",
+        "owner": {
+          "id": "8deb8492-e435-4375-9918-a270526bfdd2",
+          "name": "Smilegate + Amazon Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-01T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "821b3c3a-8827-11f0-ab1b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "97b5077c-8827-11f0-843e-0a58a9feac02",
+                  "createdAt": "2025-09-02T18:06:47.881Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490100",
+                    "name": "Lost Ark",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0622a124-fd49-4a30-bf2b-b994a570a76f.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Evergreen Bundle",
+                  "ownerOrganization": {
+                    "id": "8deb8492-e435-4375-9918-a270526bfdd2",
+                    "name": "Smilegate + Amazon Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-18T14:59:59.999Z",
+            "name": "Evergreen Bundle ",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-09-01T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-09-01T15:00:00.000Z"
+  },
+  {
     "endAt": "2025-09-18T15:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/223869970_IGDB-120x160.jpg",
     "gameDisplayName": "Warhammer 40,000: Space Marine II",
