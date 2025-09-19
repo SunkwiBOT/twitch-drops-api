@@ -3594,6 +3594,12 @@
               "displayName": "BpSwieb",
               "name": "bpswieb",
               "__typename": "Channel"
+            },
+            {
+              "id": "152588569",
+              "displayName": "kb7exe",
+              "name": "kb7exe",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -3661,6 +3667,129 @@
       }
     ],
     "startAt": "2025-09-18T17:59:00.000Z"
+  },
+  {
+    "endAt": "2025-09-19T18:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/551919008_IGDB-120x160.jpg",
+    "gameDisplayName": "EA Sports College Football 26",
+    "gameId": "551919008",
+    "rewards": [
+      {
+        "id": "a01e8d5a-924f-11f0-ab27-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1078884257",
+              "displayName": "easportscollege",
+              "name": "easportscollege",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch CFB Rundown and earn some Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-09-19T18:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "551919008",
+          "slug": "college-football-26",
+          "displayName": "EA Sports College Football 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a6ed6d8a-a232-4e5e-aef7-2340dd16de65.png",
+        "name": "CFB Rundown",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-19T14:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "101854a3-9250-11f0-ba15-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT26-TWITCH-0107",
+                  "createdAt": "2025-09-15T16:31:34.989Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "551919008",
+                    "name": "EA Sports College Football 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7956a7bb-762e-435f-a4d9-175c9665b255.png",
+                  "isIosAvailable": false,
+                  "name": "CFB Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-19T18:29:59.999Z",
+            "name": "CFB Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-09-19T14:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "133ba6dd-9250-11f0-9b8a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT26-TWITCH-0108",
+                  "createdAt": "2025-09-15T16:32:05.941Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "551919008",
+                    "name": "EA Sports College Football 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/54fcdb48-97e6-41c9-a998-8b73826de163.png",
+                  "isIosAvailable": false,
+                  "name": "CFB Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-19T18:29:59.999Z",
+            "name": "CFB Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-09-19T14:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-09-19T14:30:00.000Z"
   },
   {
     "endAt": "2025-09-19T19:59:59.999Z",
@@ -23251,6 +23380,18 @@
               "id": "551868208",
               "displayName": "Ncturnal_Gaming",
               "name": "ncturnal_gaming",
+              "__typename": "Channel"
+            },
+            {
+              "id": "477092932",
+              "displayName": "t3d_fx",
+              "name": "t3d_fx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1208479499",
+              "displayName": "scyther_warship",
+              "name": "scyther_warship",
               "__typename": "Channel"
             }
           ],
