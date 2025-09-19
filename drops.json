@@ -1,472 +1,5 @@
 [
   {
-    "endAt": "2025-09-23T21:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21136_IGDB-120x160.jpg",
-    "gameDisplayName": "Wakfu",
-    "gameId": "21136",
-    "rewards": [
-      {
-        "id": "1e6cc3a7-7375-11f0-924a-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.ankama.com/fr/twitch",
-        "description": "Pour accompagner la sortie de la mise à jour 1.89 , l'ensemble des streamers de la catégorie WAKFU sur Twitch sera éligible aux campagnes Twitch Drops du mardi 16 septembre à 16 h 00 jusqu'au mardi 23 septembre à 23 h 59 (heure de Paris).",
-        "detailsURL": "https://account.ankama.com/fr/twitch",
-        "endAt": "2025-09-19T21:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "21136",
-          "slug": "wakfu",
-          "displayName": "Wakfu",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7bff3833-42ff-4f1a-aab1-66bff1b08db8.png",
-        "name": "VB Polarynox - J3",
-        "owner": {
-          "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
-          "name": "ANKAMA Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-09-18T22:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "326cb147-7375-11f0-924a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "7fdbeb53-7370-11f0-9e9d-0a58a9feac02",
-                  "createdAt": "2025-08-07T09:25:46.713Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "21136",
-                    "name": "Wakfu",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b8f12a50-f59d-48b2-a9a0-c2c896fa98db.png",
-                  "isIosAvailable": false,
-                  "name": "Viewer Box - Polarynox",
-                  "ownerOrganization": {
-                    "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
-                    "name": "ANKAMA Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-09-19T21:59:59.999Z",
-            "name": "VB Polarynox",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-09-18T22:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "11b58213-7371-11f0-a65f-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "189560195",
-              "displayName": "AnkamaLive",
-              "name": "ankamalive",
-              "__typename": "Channel"
-            },
-            {
-              "id": "508460845",
-              "displayName": "Armadas_",
-              "name": "armadas_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "229167365",
-              "displayName": "Damdam_MVP",
-              "name": "damdam_mvp",
-              "__typename": "Channel"
-            },
-            {
-              "id": "190985347",
-              "displayName": "Franku1999",
-              "name": "franku1999",
-              "__typename": "Channel"
-            },
-            {
-              "id": "793132722",
-              "displayName": "Hexotik00",
-              "name": "hexotik00",
-              "__typename": "Channel"
-            },
-            {
-              "id": "478231344",
-              "displayName": "SD_Kaido",
-              "name": "sd_kaido",
-              "__typename": "Channel"
-            },
-            {
-              "id": "126695000",
-              "displayName": "Nozadah",
-              "name": "nozadah",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1034148502",
-              "displayName": "pioufanngoat",
-              "name": "pioufanngoat",
-              "__typename": "Channel"
-            },
-            {
-              "id": "137221696",
-              "displayName": "Professeur_Shaki",
-              "name": "professeur_shaki",
-              "__typename": "Channel"
-            },
-            {
-              "id": "107348879",
-              "displayName": "Ymoka",
-              "name": "ymoka",
-              "__typename": "Channel"
-            },
-            {
-              "id": "86080033",
-              "displayName": "Zimas",
-              "name": "zimas",
-              "__typename": "Channel"
-            },
-            {
-              "id": "421610211",
-              "displayName": "LightusTV",
-              "name": "lightustv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "507198148",
-              "displayName": "Skyaheart",
-              "name": "skyaheart",
-              "__typename": "Channel"
-            },
-            {
-              "id": "70176636",
-              "displayName": "suupremz",
-              "name": "suupremz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "135946952",
-              "displayName": "AkyraPor2",
-              "name": "akyrapor2",
-              "__typename": "Channel"
-            },
-            {
-              "id": "64196055",
-              "displayName": "Crouler",
-              "name": "crouler",
-              "__typename": "Channel"
-            },
-            {
-              "id": "777544299",
-              "displayName": "Eis_by_Eis",
-              "name": "eis_by_eis",
-              "__typename": "Channel"
-            },
-            {
-              "id": "111789145",
-              "displayName": "lucyfertsu",
-              "name": "lucyfertsu",
-              "__typename": "Channel"
-            },
-            {
-              "id": "727760215",
-              "displayName": "PolDarks11",
-              "name": "poldarks11",
-              "__typename": "Channel"
-            },
-            {
-              "id": "122153700",
-              "displayName": "ShinaShironeko",
-              "name": "shinashironeko",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1242154094",
-              "displayName": "ransomware_seji",
-              "name": "ransomware_seji",
-              "__typename": "Channel"
-            },
-            {
-              "id": "190097223",
-              "displayName": "RayfusWP",
-              "name": "rayfuswp",
-              "__typename": "Channel"
-            },
-            {
-              "id": "52680069",
-              "displayName": "revshiny",
-              "name": "revshiny",
-              "__typename": "Channel"
-            },
-            {
-              "id": "150958877",
-              "displayName": "walopi",
-              "name": "walopi",
-              "__typename": "Channel"
-            },
-            {
-              "id": "165331583",
-              "displayName": "Player_Minucioso",
-              "name": "player_minucioso",
-              "__typename": "Channel"
-            },
-            {
-              "id": "833977164",
-              "displayName": "HellDep",
-              "name": "helldep",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.ankama.com/fr/twitch",
-        "description": "Du mardi 16 au mardi 23 septembre, participez à la campagne de Twitch Drops à l'occasion de la sortie de la mise à jour 1.88 pour obtenir des objets inédits dans WAKFU !",
-        "detailsURL": "https://account.ankama.com/fr/twitch",
-        "endAt": "2025-09-23T21:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "21136",
-          "slug": "wakfu",
-          "displayName": "Wakfu",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3e60a5d2-96a4-426f-8991-a9040ce75d93.png",
-        "name": "Telenox",
-        "owner": {
-          "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
-          "name": "ANKAMA Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-09-16T14:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "38b0af5d-7371-11f0-a679-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "65a171f3-7370-11f0-bf8b-0a58a9feac02",
-                  "createdAt": "2025-08-07T09:25:02.709Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "21136",
-                    "name": "Wakfu",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52cb3405-47e7-447f-8599-ae512552eb26.png",
-                  "isIosAvailable": false,
-                  "name": "Telenox",
-                  "ownerOrganization": {
-                    "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
-                    "name": "ANKAMA Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-09-23T21:59:59.998Z",
-            "name": "Telenox",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-09-16T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-09-16T14:00:00.000Z"
-  },
-  {
-    "endAt": "2025-09-19T21:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
-    "gameDisplayName": "World of Warships",
-    "gameId": "32502",
-    "rewards": [
-      {
-        "id": "8e775dda-87d6-11f0-a023-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "182565961",
-              "displayName": "WorldofWarships",
-              "name": "worldofwarships",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://wargaming.net/personal/",
-        "description": "New drops!",
-        "detailsURL": "https://worldofwarships.eu/news/general-news/stream-rewards-147/",
-        "endAt": "2025-09-19T21:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "32502",
-          "slug": "world-of-warships",
-          "displayName": "World of Warships",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/03a9cd3f-2546-4b03-bee9-29e888cfbb17.png",
-        "name": "14.8 10th Anniversary",
-        "owner": {
-          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-          "name": "Wargaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-09-17T22:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "cccd2435-87d6-11f0-89e2-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1408_anniv_tile",
-                  "createdAt": "2025-09-02T08:19:05.446Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "32502",
-                    "name": "World of Warships",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/61be150b-bf9f-4ca3-be5d-785c9dbd6088.png",
-                  "isIosAvailable": false,
-                  "name": "14.8 Anniversary Camo",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-09-19T21:59:59.999Z",
-            "name": "Update 14.8 Anniversary Drop #1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-09-17T22:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "e06d7532-87d6-11f0-a926-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1408_anniv",
-                  "createdAt": "2025-09-02T08:04:31.136Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "32502",
-                    "name": "World of Warships",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a3dca4d5-5ede-4bcc-8033-00152c13be5d.png",
-                  "isIosAvailable": false,
-                  "name": "14.8 Anniversary Mission",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-09-19T21:59:59.999Z",
-            "name": "Update 14.8 Anniversary Mission",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-09-17T22:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "fa738fe2-87d6-11f0-a40e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1408_anniv_md",
-                  "createdAt": "2025-09-02T08:09:17.392Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "32502",
-                    "name": "World of Warships",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d30ed154-7860-42e7-afbf-ce0d14eff6a1.png",
-                  "isIosAvailable": false,
-                  "name": "14.8 10y Anniversary Drop",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-09-19T21:59:59.999Z",
-            "name": "Update 14.8 Anniversary Mystery Drop",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 270,
-            "startAt": "2025-09-17T22:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-09-17T22:00:00.000Z"
-  },
-  {
     "endAt": "2025-09-20T00:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1136666301_IGDB-120x160.jpg",
     "gameDisplayName": "MLB The Show 25",
@@ -999,6 +532,93 @@
       }
     ],
     "startAt": "2025-09-10T07:00:00.000Z"
+  },
+  {
+    "endAt": "2025-09-20T05:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
+    "gameDisplayName": "Halo Infinite",
+    "gameId": "506416",
+    "rewards": [
+      {
+        "id": "d8addd0c-8528-11f0-b602-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "35978160",
+              "displayName": "EXTREMEBREAKER1",
+              "name": "extremebreaker1",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn in-game content in Halo Infinite!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-09-20T05:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/92fb7aec-4ac3-4c59-a9be-79dbe7fefdc1.png",
+        "name": "La Arena Escalation-SEP19",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-19T22:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f623eeb0-8528-11f0-bc2b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_87IZ-UGBG-Z5WR-BM1T-2N5B",
+                  "createdAt": "2023-10-19T21:19:44.976Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b6f53def-94be-45e2-bb79-1649fee01a68.png",
+                  "isIosAvailable": false,
+                  "name": "Helljumpers Spartan ID",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-20T05:59:59.999Z",
+            "name": "Helljumpers Spartan ID",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-09-19T22:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-09-19T22:00:00.000Z"
   },
   {
     "endAt": "2025-09-20T09:29:59.999Z",
@@ -3701,6 +3321,314 @@
       }
     ],
     "startAt": "2025-09-19T17:59:00.000Z"
+  },
+  {
+    "endAt": "2025-09-23T21:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21136_IGDB-120x160.jpg",
+    "gameDisplayName": "Wakfu",
+    "gameId": "21136",
+    "rewards": [
+      {
+        "id": "5ce57d3e-7375-11f0-b883-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.ankama.com/fr/twitch",
+        "description": "Pour accompagner la sortie de la mise à jour 1.89 , l'ensemble des streamers de la catégorie WAKFU sur Twitch sera éligible aux campagnes Twitch Drops du mardi 16 septembre à 16 h 00 jusqu'au mardi 23 septembre à 23 h 59 (heure de Paris).",
+        "detailsURL": "https://account.ankama.com/fr/twitch",
+        "endAt": "2025-09-20T21:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "21136",
+          "slug": "wakfu",
+          "displayName": "Wakfu",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/96ff51cf-5528-481c-b7e2-270600687991.png",
+        "name": "VB Polarynox - J4",
+        "owner": {
+          "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
+          "name": "ANKAMA Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-19T22:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "94d65117-7375-11f0-861a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "7fdbeb53-7370-11f0-9e9d-0a58a9feac02",
+                  "createdAt": "2025-08-07T09:25:46.713Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "21136",
+                    "name": "Wakfu",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b8f12a50-f59d-48b2-a9a0-c2c896fa98db.png",
+                  "isIosAvailable": false,
+                  "name": "Viewer Box - Polarynox",
+                  "ownerOrganization": {
+                    "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
+                    "name": "ANKAMA Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-20T21:59:59.999Z",
+            "name": "VB Polarynox",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-09-19T22:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "11b58213-7371-11f0-a65f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "189560195",
+              "displayName": "AnkamaLive",
+              "name": "ankamalive",
+              "__typename": "Channel"
+            },
+            {
+              "id": "508460845",
+              "displayName": "Armadas_",
+              "name": "armadas_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "229167365",
+              "displayName": "Damdam_MVP",
+              "name": "damdam_mvp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "190985347",
+              "displayName": "Franku1999",
+              "name": "franku1999",
+              "__typename": "Channel"
+            },
+            {
+              "id": "793132722",
+              "displayName": "Hexotik00",
+              "name": "hexotik00",
+              "__typename": "Channel"
+            },
+            {
+              "id": "478231344",
+              "displayName": "SD_Kaido",
+              "name": "sd_kaido",
+              "__typename": "Channel"
+            },
+            {
+              "id": "126695000",
+              "displayName": "Nozadah",
+              "name": "nozadah",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1034148502",
+              "displayName": "pioufanngoat",
+              "name": "pioufanngoat",
+              "__typename": "Channel"
+            },
+            {
+              "id": "137221696",
+              "displayName": "Professeur_Shaki",
+              "name": "professeur_shaki",
+              "__typename": "Channel"
+            },
+            {
+              "id": "107348879",
+              "displayName": "Ymoka",
+              "name": "ymoka",
+              "__typename": "Channel"
+            },
+            {
+              "id": "86080033",
+              "displayName": "Zimas",
+              "name": "zimas",
+              "__typename": "Channel"
+            },
+            {
+              "id": "421610211",
+              "displayName": "LightusTV",
+              "name": "lightustv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "507198148",
+              "displayName": "Skyaheart",
+              "name": "skyaheart",
+              "__typename": "Channel"
+            },
+            {
+              "id": "70176636",
+              "displayName": "suupremz",
+              "name": "suupremz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "135946952",
+              "displayName": "AkyraPor2",
+              "name": "akyrapor2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64196055",
+              "displayName": "Crouler",
+              "name": "crouler",
+              "__typename": "Channel"
+            },
+            {
+              "id": "777544299",
+              "displayName": "Eis_by_Eis",
+              "name": "eis_by_eis",
+              "__typename": "Channel"
+            },
+            {
+              "id": "111789145",
+              "displayName": "lucyfertsu",
+              "name": "lucyfertsu",
+              "__typename": "Channel"
+            },
+            {
+              "id": "727760215",
+              "displayName": "PolDarks11",
+              "name": "poldarks11",
+              "__typename": "Channel"
+            },
+            {
+              "id": "122153700",
+              "displayName": "ShinaShironeko",
+              "name": "shinashironeko",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1242154094",
+              "displayName": "ransomware_seji",
+              "name": "ransomware_seji",
+              "__typename": "Channel"
+            },
+            {
+              "id": "190097223",
+              "displayName": "RayfusWP",
+              "name": "rayfuswp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "52680069",
+              "displayName": "revshiny",
+              "name": "revshiny",
+              "__typename": "Channel"
+            },
+            {
+              "id": "150958877",
+              "displayName": "walopi",
+              "name": "walopi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "165331583",
+              "displayName": "Player_Minucioso",
+              "name": "player_minucioso",
+              "__typename": "Channel"
+            },
+            {
+              "id": "833977164",
+              "displayName": "HellDep",
+              "name": "helldep",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.ankama.com/fr/twitch",
+        "description": "Du mardi 16 au mardi 23 septembre, participez à la campagne de Twitch Drops à l'occasion de la sortie de la mise à jour 1.88 pour obtenir des objets inédits dans WAKFU !",
+        "detailsURL": "https://account.ankama.com/fr/twitch",
+        "endAt": "2025-09-23T21:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "21136",
+          "slug": "wakfu",
+          "displayName": "Wakfu",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3e60a5d2-96a4-426f-8991-a9040ce75d93.png",
+        "name": "Telenox",
+        "owner": {
+          "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
+          "name": "ANKAMA Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-16T14:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "38b0af5d-7371-11f0-a679-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "65a171f3-7370-11f0-bf8b-0a58a9feac02",
+                  "createdAt": "2025-08-07T09:25:02.709Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "21136",
+                    "name": "Wakfu",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52cb3405-47e7-447f-8599-ae512552eb26.png",
+                  "isIosAvailable": false,
+                  "name": "Telenox",
+                  "ownerOrganization": {
+                    "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
+                    "name": "ANKAMA Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-23T21:59:59.998Z",
+            "name": "Telenox",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-09-16T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-09-16T14:00:00.000Z"
   },
   {
     "endAt": "2025-10-08T15:59:59.999Z",
