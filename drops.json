@@ -1210,6 +1210,132 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "7ac89db3-93a2-11f0-925d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "605673574",
+              "displayName": "NARAKABLADEPOINT",
+              "name": "narakabladepoint",
+              "__typename": "Channel"
+            },
+            {
+              "id": "714202554",
+              "displayName": "永劫無間_亞服",
+              "name": "naraka_asia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "798260911",
+              "displayName": "narakaesports",
+              "name": "narakaesports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
+        "description": "Watch livestreams to claim your drops!",
+        "detailsURL": "https://www.narakathegame.com/news/official/20231018/32172_1115415.html",
+        "endAt": "2025-09-21T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515474",
+          "slug": "naraka-bladepoint",
+          "displayName": "NARAKA: BLADEPOINT",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1ab03b3d-6346-4388-96e7-0e63a46c2d25.png",
+        "name": "NBPL 9.21",
+        "owner": {
+          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+          "name": "NetEase",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-21T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "96148d81-93a2-11f0-9424-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9134457",
+                  "createdAt": "2025-08-05T11:48:55.372Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/faf9c42b-0dc4-4708-9cf4-08f8ba7bb727.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Tae*200",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-21T15:59:59.999Z",
+            "name": "Tae*200",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-09-21T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9fb23b2b-93a2-11f0-9424-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9134458",
+                  "createdAt": "2025-08-05T11:52:04.588Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d60f651b-dee5-4216-8c7d-04af523835a1.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Spectral Silk*200",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-21T15:59:59.999Z",
+            "name": "Special Silk*200",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-09-21T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "14d862ce-93a3-11f0-996c-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
