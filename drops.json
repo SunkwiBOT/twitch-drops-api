@@ -40547,6 +40547,84 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "f87e81e9-97d3-11f0-91fc-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "126436297",
+              "displayName": "Klean",
+              "name": "klean",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.playrenown.com",
+        "description": "Renown is releasing into Early Access on the 22nd of September at 8am PST, be sure to watch your favorite steamers play and earn exclusive skins to be used in game.  Once you have earned and claimed your drops they will appear in your steam inventory and be used in game. ",
+        "detailsURL": "https://playrenown.com",
+        "endAt": "2025-10-06T14:59:59.995Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1783253626",
+          "slug": "renown",
+          "displayName": "Renown",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2a6132ff-02ad-47ca-a502-bcf9e6400b8f.png",
+        "name": "Renown Klean Drops",
+        "owner": {
+          "id": "bd9f8bee-6871-4705-ae1b-506a62da2c68",
+          "name": "RDBK Studios Pty Ltd",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-22T17:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "62edfd70-97dc-11f0-b7a5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bd9f8bee-6871-4705-ae1b-506a62da2c68_CUSTOM_ID_58",
+                  "createdAt": "2025-09-22T17:47:45.221Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1783253626",
+                    "name": "Renown",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7eacbf1-cbbd-4cb1-b4a5-7e5f00f8e907.png",
+                  "isIosAvailable": false,
+                  "name": "Klean's Greatsword",
+                  "ownerOrganization": {
+                    "id": "bd9f8bee-6871-4705-ae1b-506a62da2c68",
+                    "name": "RDBK Studios Pty Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-06T14:59:59.995Z",
+            "name": "Klean's Greatsword",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-09-22T17:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "63c723db-9375-11f0-bb1b-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
