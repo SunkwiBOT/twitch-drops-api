@@ -27689,6 +27689,96 @@
     "gameId": "263490",
     "rewards": [
       {
+        "id": "32e0216f-94d7-11f0-b630-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "73187680",
+              "displayName": "mohr",
+              "name": "mohr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "816147014",
+              "displayName": "SlightlyPoetic",
+              "name": "slightlypoetic",
+              "__typename": "Channel"
+            },
+            {
+              "id": "72472640",
+              "displayName": "Picco",
+              "name": "picco",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Join us for Kingdoms 3: Desolation!  Tune in as two Kingdoms battle it out for control of the throne. Be sure to sync your accounts to claim your drops! https://twitch.facepunch.com/connect",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2025-10-01T06:59:59.995Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d32120b1-3706-4946-a833-40c2f62c2404.png",
+        "name": "Kingdoms 3 Rock",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-24T01:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "c21176ce-94e3-11f0-aa39-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11479",
+                  "createdAt": "2025-09-18T20:27:02.478Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d497c822-dd4c-4626-8359-82d0ef126cbe.png",
+                  "isIosAvailable": false,
+                  "name": "Kingdoms 3 Rock",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-01T06:59:59.995Z",
+            "name": "Kingdoms 3 Rock",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-09-24T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "37d1687a-94d7-11f0-a28a-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -53981,5 +54071,229 @@
       }
     ],
     "startAt": "2025-09-20T16:00:00.000Z"
+  },
+  {
+    "endAt": "2025-10-22T00:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/213930085_IGDB-120x160.jpg",
+    "gameDisplayName": "Honkai: Star Rail",
+    "gameId": "213930085",
+    "rewards": [
+      {
+        "id": "00ad20d5-8eb9-11f0-9bd6-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://act.hoyoverse.com/puzzle/hkrpg/pz_u8LiB2qvFN/index.html?game_biz=hkrpg_global&utm_source=twitch&utm_medium=push",
+        "description": "Honkai: Star Rail Drops Campaign",
+        "detailsURL": "https://act.hoyoverse.com/puzzle/hkrpg/pz_u8LiB2qvFN/index.html?game_biz=hkrpg_global&utm_source=twitch&utm_medium=push",
+        "endAt": "2025-10-22T00:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "213930085",
+          "slug": "honkai-star-rail",
+          "displayName": "Honkai: Star Rail",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/01c7a22e-ffb1-4f61-87a7-fa7d1e9f3ef0.png",
+        "name": "V3.6 Honkai: Star Rail",
+        "owner": {
+          "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+          "name": "Cognosphere",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-24T01:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3fb0fac2-8eb9-11f0-bdd7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2deea1b8-5d2e-11ee-b040-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:05:41.555Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bdf2a93f-96e5-4544-9972-4b4d8eabddc9.png",
+                  "isIosAvailable": true,
+                  "name": "Credit*20000",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-22T00:59:59.999Z",
+            "name": "Credit*20000",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-09-24T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4599c331-8eb9-11f0-a266-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "38466902-5d2e-11ee-94c4-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:05:58.908Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8254bd0-87ab-491a-b5bf-2ba99d9ecf6f.png",
+                  "isIosAvailable": true,
+                  "name": "Lost Gold Fragment*4",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-22T00:59:59.999Z",
+            "name": "Lost Gold Fragment*4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-09-24T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4bc11551-8eb9-11f0-b60f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "227caadf-5d2e-11ee-ae95-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:05:22.353Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5cb5327-04fc-4537-ad6a-142b9bfa89fe.png",
+                  "isIosAvailable": true,
+                  "name": "Condensed Aether*5",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-22T00:59:59.999Z",
+            "name": "Condensed Aether*5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-09-24T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "5105259b-8eb9-11f0-b049-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "4fcbc7f0-5d2e-11ee-b040-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:06:38.369Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/10953670-5011-471e-b873-b1ef4901ba6e.png",
+                  "isIosAvailable": true,
+                  "name": "Traveler's Guide*3",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-22T00:59:59.999Z",
+            "name": "Traveler's Guide*3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-09-24T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "59164742-8eb9-11f0-b178-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "446e5402-5d2e-11ee-ae95-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:06:19.302Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35243e27-46dd-438a-b460-7bfafe547f18.png",
+                  "isIosAvailable": true,
+                  "name": "Stellar Jade*30",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-22T00:59:59.999Z",
+            "name": "Stellar Jade*30",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-09-24T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-09-24T01:00:00.000Z"
   }
 ]
