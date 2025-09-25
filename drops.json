@@ -40934,6 +40934,86 @@
     "startAt": "2025-09-15T07:00:00.000Z"
   },
   {
+    "endAt": "2025-10-05T18:59:59.000Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/376500771_IGDB-120x160.jpg",
+    "gameDisplayName": "Hades II",
+    "gameId": "376500771",
+    "rewards": [
+      {
+        "id": "a1696836-980d-11f0-9cfe-5202ffea5039",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.twitch.tv/",
+        "description": "This badge was earned by subscribing or gifting a sub for a streamer in the Hades II category.",
+        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+        "endAt": "2025-10-05T18:59:59Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "376500771",
+          "slug": "hades-ii",
+          "displayName": "Hades II",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/badges/v1/8a7c1d1d-12bb-40d9-9be8-0a4fdf0d870c/3",
+        "name": "Hades II",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-25T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a1838b58-980d-11f0-9cfe-5202ffea5039",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a131375e-980d-11f0-9cfe-5202ffea5039",
+                  "createdAt": "2025-09-22T23:41:15.484Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "376500771",
+                    "name": "Hades II",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/badges/v1/8a7c1d1d-12bb-40d9-9be8-0a4fdf0d870c/3",
+                  "isIosAvailable": false,
+                  "name": "Hades II",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-05T18:59:59Z",
+            "name": "Hades II Rewards",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-09-25T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-09-25T15:00:00.000Z"
+  },
+  {
     "endAt": "2025-10-06T14:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1783253626_IGDB-120x160.jpg",
     "gameDisplayName": "Renown",
