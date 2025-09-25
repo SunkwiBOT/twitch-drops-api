@@ -2020,7 +2020,7 @@
     "startAt": "2025-09-23T22:00:00.000Z"
   },
   {
-    "endAt": "2025-09-24T23:58:59.999Z",
+    "endAt": "2025-10-01T23:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1471416868_IGDB-120x160.jpg",
     "gameDisplayName": "UFL",
     "gameId": "1471416868",
@@ -2271,6 +2271,185 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-09-18T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "9390d949-9926-11f0-acd2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://auth.uflgame.com/twitch",
+        "description": "Watch any channel with drops enabled on Twitch in the UFL category and get cool rewards!",
+        "detailsURL": "https://auth.uflgame.com/twitch/drops",
+        "endAt": "2025-10-01T23:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1471416868",
+          "slug": "ufl",
+          "displayName": "UFL",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/13ad5c79-ed19-429d-a0b4-4e7c0023e9d0.png",
+        "name": "September #2",
+        "owner": {
+          "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+          "name": "XTEN LIMITED",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-25T09:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a4598984-9926-11f0-81c5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_53962",
+                  "createdAt": "2025-09-24T09:07:42.794Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1471416868",
+                    "name": "UFL",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f91f0fe3-101c-4ac1-affe-2e6c320fb7cb.png",
+                  "isIosAvailable": false,
+                  "name": "Enhanced CP Pack",
+                  "ownerOrganization": {
+                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+                    "name": "XTEN LIMITED",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-01T23:58:59.999Z",
+            "name": "Reward - 1h",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-09-25T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "cb6579df-9926-11f0-9e13-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_53963",
+                  "createdAt": "2025-09-24T09:08:23.646Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1471416868",
+                    "name": "UFL",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fe12b70e-646c-49fd-be0b-f8723f5dfec3.png",
+                  "isIosAvailable": false,
+                  "name": "Legendary Pack",
+                  "ownerOrganization": {
+                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+                    "name": "XTEN LIMITED",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-01T23:58:59.999Z",
+            "name": "Reward - 2h",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-09-25T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "dbf9bafe-9926-11f0-a7bf-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_53964",
+                  "createdAt": "2025-09-24T09:09:08.382Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1471416868",
+                    "name": "UFL",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/51425347-14eb-40ea-9d6f-541f65c1853f.png",
+                  "isIosAvailable": false,
+                  "name": "September Game Changers 3",
+                  "ownerOrganization": {
+                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+                    "name": "XTEN LIMITED",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-01T23:58:59.999Z",
+            "name": "Reward - 3h",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-09-25T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "eb47ea32-9926-11f0-a6aa-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_53965",
+                  "createdAt": "2025-09-24T09:09:53.655Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1471416868",
+                    "name": "UFL",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c1bddcec-6fa5-4649-8138-30b2aef168e4.png",
+                  "isIosAvailable": false,
+                  "name": "Legendary Pack",
+                  "ownerOrganization": {
+                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+                    "name": "XTEN LIMITED",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-01T23:58:59.999Z",
+            "name": "Reward - 4h",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-09-25T09:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
