@@ -40111,7 +40111,7 @@
     "startAt": "2025-09-17T11:00:00.000Z"
   },
   {
-    "endAt": "2025-10-01T21:59:59.999Z",
+    "endAt": "2025-10-02T01:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
     "gameDisplayName": "World of Warships",
     "gameId": "32502",
@@ -40189,6 +40189,113 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 60,
             "startAt": "2025-09-24T22:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "e6819dbf-87d7-11f0-b1ed-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://wargaming.net/personal/",
+        "description": "New drops!",
+        "detailsURL": "https://worldofwarships.eu/news/general-news/stream-rewards-147/",
+        "endAt": "2025-10-02T01:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "32502",
+          "slug": "world-of-warships",
+          "displayName": "World of Warships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ccd1b05c-c5b8-4344-9615-faf296ef8c2b.png",
+        "name": "Update 14.8 Drop: Week 4",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-25T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "06b9ec57-87d8-11f0-b602-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1408_mission4",
+                  "createdAt": "2025-09-02T08:06:38.324Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/779f2ba0-751c-45b1-85e4-a5fc4dc05148.png",
+                  "isIosAvailable": false,
+                  "name": "Update 14.8 Mission #4",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-02T01:59:59.999Z",
+            "name": "Twitch Container 14.8 week #4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-09-25T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "fc40d5e0-87d7-11f0-b256-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1408_twitchbox",
+                  "createdAt": "2025-09-02T07:57:57.597Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/59833fff-1049-4fd7-b747-2e2788d3f3d1.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch Container 14.8",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-02T01:59:59.999Z",
+            "name": "Update 14.8 Mission #4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-09-25T16:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
