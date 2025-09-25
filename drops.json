@@ -41955,6 +41955,86 @@
     "startAt": "2025-09-12T12:00:00.000Z"
   },
   {
+    "endAt": "2025-10-12T22:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1780647523_IGDB-120x160.jpg",
+    "gameDisplayName": "HITMAN World of Assassination",
+    "gameId": "1780647523",
+    "rewards": [
+      {
+        "id": "47246e79-99ff-11f0-a022-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.ioi.dk/",
+        "description": "Earning this reward is simple. You only need to link your IOI Account to your Twitch account and then watch a cumulative 30 minutes of HITMAN World of Assassination on Twitch during the drop campaign duration.",
+        "detailsURL": "https://account.ioi.dk/",
+        "endAt": "2025-10-12T22:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1780647523",
+          "slug": "hitman-world-of-assassination",
+          "displayName": "HITMAN World of Assassination",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c4061393-44b5-4f3c-8e4b-d65581cb7da2.png",
+        "name": "Season of The Dragon #1",
+        "owner": {
+          "id": "dc639b50-1310-465f-a3a2-7a77e73d6014",
+          "name": "IO Interactive",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-25T03:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b96d1af9-9a01-11f0-97f7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "dc639b50-1310-465f-a3a2-7a77e73d6014_CUSTOM_ID_fa305d8b-2dcd-4785-8a57-fbf689909ace",
+                  "createdAt": "2025-09-17T11:54:04.534Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1780647523",
+                    "name": "HITMAN World of Assassination",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5a2b916a-43f3-4347-b31c-8c2a7334f225.png",
+                  "isIosAvailable": false,
+                  "name": "Star Apple",
+                  "ownerOrganization": {
+                    "id": "dc639b50-1310-465f-a3a2-7a77e73d6014",
+                    "name": "IO Interactive",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-12T22:59:59.998Z",
+            "name": "Star Apple",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-09-25T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-09-25T03:00:00.000Z"
+  },
+  {
     "endAt": "2025-10-13T01:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/401587136_IGDB-120x160.jpg",
     "gameDisplayName": "Arena Breakout: Infinite",
