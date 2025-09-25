@@ -1467,7 +1467,7 @@
     "startAt": "2025-09-23T17:59:00.000Z"
   },
   {
-    "endAt": "2025-09-25T01:29:59.999Z",
+    "endAt": "2025-09-25T18:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/551919008_IGDB-120x160.jpg",
     "gameDisplayName": "EA Sports College Football 26",
     "gameId": "551919008",
@@ -1688,6 +1688,120 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 30,
             "startAt": "2025-09-24T23:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "c2f5bac7-9a1c-11f0-9503-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1078884257",
+              "displayName": "easportscollege",
+              "name": "easportscollege",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch CFB Live and earn some Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-09-25T18:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "551919008",
+          "slug": "college-football-26",
+          "displayName": "EA Sports College Football 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/70e92c9d-193e-4674-8cd7-75d066ee9e15.png",
+        "name": "CFB Live",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-25T14:33:43Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "d449d47a-9a1c-11f0-afd6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT26-TWITCH-0113",
+                  "createdAt": "2025-09-25T14:35:50.345Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "551919008",
+                    "name": "EA Sports College Football 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4f133e38-1124-4656-b4af-38dce8b30a3b.png",
+                  "isIosAvailable": false,
+                  "name": "CFB Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-25T18:29:59.999Z",
+            "name": "CFB Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-09-25T14:33:43Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d862942c-9a1c-11f0-9640-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT26-TWITCH-0114",
+                  "createdAt": "2025-09-25T14:36:10.823Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "551919008",
+                    "name": "EA Sports College Football 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d6ff3161-ed9c-4384-a2df-8cdc7fda97f6.png",
+                  "isIosAvailable": false,
+                  "name": "CFB Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-25T18:29:59.999Z",
+            "name": "CFB Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-09-25T14:33:43Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -9408,6 +9522,93 @@
       }
     ],
     "startAt": "2025-08-28T16:00:00.000Z"
+  },
+  {
+    "endAt": "2025-09-25T16:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/272952894_IGDB-120x160.jpg",
+    "gameDisplayName": "Madden NFL 26",
+    "gameId": "272952894",
+    "rewards": [
+      {
+        "id": "bb352856-98b7-11f0-bce5-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "51914127",
+              "displayName": "EAMaddenNFL",
+              "name": "eamaddennfl",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch Good Morning Madden and earn Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-09-25T16:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "272952894",
+          "slug": "ea-sports-madden-nfl-26",
+          "displayName": "Madden NFL 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6dfc0530-0740-496e-a41b-d16fecf545d6.png",
+        "name": "Good Morning Madden",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-25T14:29:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ce20c1c2-98b7-11f0-9ee0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-061",
+                  "createdAt": "2025-09-23T19:58:03.471Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d3f98ec7-79a1-4b56-8b54-e4dfc1c27751.png",
+                  "isIosAvailable": false,
+                  "name": "Madden Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-25T16:29:59.999Z",
+            "name": "Madden Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-09-25T14:29:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-09-25T14:29:00.000Z"
   },
   {
     "endAt": "2025-09-28T21:58:59.999Z",
@@ -45424,6 +45625,84 @@
               "id": "94166134",
               "displayName": "DylanDubs",
               "name": "dylandubs",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38292740",
+              "displayName": "Comixfans",
+              "name": "comixfans",
+              "__typename": "Channel"
+            },
+            {
+              "id": "433623998",
+              "displayName": "GilbertNoodle",
+              "name": "gilbertnoodle",
+              "__typename": "Channel"
+            },
+            {
+              "id": "252643830",
+              "displayName": "Miaow",
+              "name": "miaow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "136366909",
+              "displayName": "ThatPunchKid",
+              "name": "thatpunchkid",
+              "__typename": "Channel"
+            },
+            {
+              "id": "48976428",
+              "displayName": "Lunium",
+              "name": "lunium",
+              "__typename": "Channel"
+            },
+            {
+              "id": "546863753",
+              "displayName": "GallusOW",
+              "name": "gallusow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "697797145",
+              "displayName": "onlylegs",
+              "name": "onlylegs",
+              "__typename": "Channel"
+            },
+            {
+              "id": "402340842",
+              "displayName": "Sylin",
+              "name": "sylin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "653887101",
+              "displayName": "KassieKalico",
+              "name": "kassiekalico",
+              "__typename": "Channel"
+            },
+            {
+              "id": "105510075",
+              "displayName": "Neu_row",
+              "name": "neu_row",
+              "__typename": "Channel"
+            },
+            {
+              "id": "125142625",
+              "displayName": "Luckyzeal",
+              "name": "luckyzeal",
+              "__typename": "Channel"
+            },
+            {
+              "id": "155674667",
+              "displayName": "KabooKatoo",
+              "name": "kabookatoo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "96022648",
+              "displayName": "NineTyp",
+              "name": "ninetyp",
               "__typename": "Channel"
             }
           ],
