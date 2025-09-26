@@ -8480,7 +8480,7 @@
     "startAt": "2025-09-24T15:00:00.000Z"
   },
   {
-    "endAt": "2025-09-26T15:59:59.999Z",
+    "endAt": "2025-10-10T11:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515024-120x160.jpg",
     "gameDisplayName": "Diablo IV",
     "gameId": "515024",
@@ -8551,6 +8551,149 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-09-23T19:50:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "354d1b12-8a76-11f0-8f4a-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.battle.net/connections",
+        "description": "Collect emblems for each of the Starcraft factions! ",
+        "detailsURL": "https://news.blizzard.com/article/24224371/",
+        "endAt": "2025-10-10T11:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515024",
+          "slug": "diablo-iv",
+          "displayName": "Diablo IV",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5efbe3e9-279c-4699-b370-caeb8d9208e2.png",
+        "name": "Emblem Twitch Drops",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-26T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "140bb8ec-9a36-11f0-b0c4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1967736",
+                  "createdAt": "2025-09-25T17:30:14.687Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515024",
+                    "name": "Diablo IV",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ea42565c-5e04-42bc-a301-55e2251cce5b.png",
+                  "isIosAvailable": false,
+                  "name": "Ancient of the Void",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-10T11:59:59.998Z",
+            "name": "Ancient of the Void",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-09-26T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "1b8d3015-9a36-11f0-bda3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1967747",
+                  "createdAt": "2025-09-25T17:33:37.457Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515024",
+                    "name": "Diablo IV",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c7ff962b-8ce0-466f-b645-90487475b17b.png",
+                  "isIosAvailable": false,
+                  "name": "The Teeming Brood",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-10T11:59:59.998Z",
+            "name": "The Teeming Brood",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-09-26T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "25f2415c-9a36-11f0-8e24-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1967285",
+                  "createdAt": "2025-09-25T17:37:28.402Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515024",
+                    "name": "Diablo IV",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e36d5332-3d0c-4a5b-972d-bb2b85d61c0c.png",
+                  "isIosAvailable": false,
+                  "name": "Forward Unto Dominion",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-10T11:59:59.998Z",
+            "name": "Forward Unto Dominion",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-09-26T19:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -40635,6 +40778,342 @@
     "gameId": "33214",
     "rewards": [
       {
+        "id": "053a23e0-9afd-11f0-90b3-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "70661496",
+              "displayName": "Chica",
+              "name": "chica",
+              "__typename": "Channel"
+            },
+            {
+              "id": "101725379",
+              "displayName": "lazarbeam",
+              "name": "lazarbeam",
+              "__typename": "Channel"
+            },
+            {
+              "id": "48529284",
+              "displayName": "FlakesPower",
+              "name": "flakespower",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39276140",
+              "displayName": "Rubius",
+              "name": "rubius",
+              "__typename": "Channel"
+            },
+            {
+              "id": "48878319",
+              "displayName": "TheGrefg",
+              "name": "thegrefg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "224539819",
+              "displayName": "AussieAntics",
+              "name": "aussieantics",
+              "__typename": "Channel"
+            },
+            {
+              "id": "401670504",
+              "displayName": "Oatley",
+              "name": "oatley",
+              "__typename": "Channel"
+            },
+            {
+              "id": "66983298",
+              "displayName": "benjyfishy",
+              "name": "benjyfishy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "248836527",
+              "displayName": "queasy",
+              "name": "queasy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "413094491",
+              "displayName": "pinqeu",
+              "name": "pinqeu",
+              "__typename": "Channel"
+            },
+            {
+              "id": "270186408",
+              "displayName": "k1ng",
+              "name": "k1ng",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1251177373",
+              "displayName": "Fredoxie",
+              "name": "fredoxie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "159292184",
+              "displayName": "venofn",
+              "name": "venofn",
+              "__typename": "Channel"
+            },
+            {
+              "id": "487318498",
+              "displayName": "Vadeal",
+              "name": "vadeal",
+              "__typename": "Channel"
+            },
+            {
+              "id": "422417281",
+              "displayName": "rezonfn",
+              "name": "rezonfn",
+              "__typename": "Channel"
+            },
+            {
+              "id": "114150644",
+              "displayName": "MOTOR",
+              "name": "motor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "67931625",
+              "displayName": "Amar",
+              "name": "amar",
+              "__typename": "Channel"
+            },
+            {
+              "id": "240277531",
+              "displayName": "gorilon",
+              "name": "gorilon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "19571641",
+              "displayName": "Ninja",
+              "name": "ninja",
+              "__typename": "Channel"
+            },
+            {
+              "id": "24147592",
+              "displayName": "Gotaga",
+              "name": "gotaga",
+              "__typename": "Channel"
+            },
+            {
+              "id": "133705618",
+              "displayName": "Mongraal",
+              "name": "mongraal",
+              "__typename": "Channel"
+            },
+            {
+              "id": "181258781",
+              "displayName": "Khanada_",
+              "name": "khanada_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1016183683",
+              "displayName": "Fraanticc",
+              "name": "fraanticc",
+              "__typename": "Channel"
+            },
+            {
+              "id": "554057125",
+              "displayName": "Higgs",
+              "name": "higgs",
+              "__typename": "Channel"
+            },
+            {
+              "id": "107117952",
+              "displayName": "jasontheween",
+              "name": "jasontheween",
+              "__typename": "Channel"
+            },
+            {
+              "id": "148561738",
+              "displayName": "faxuty",
+              "name": "faxuty",
+              "__typename": "Channel"
+            },
+            {
+              "id": "494543675",
+              "displayName": "Lacy",
+              "name": "lacy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "246450563",
+              "displayName": "stableronaldo",
+              "name": "stableronaldo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38148938",
+              "displayName": "Rug",
+              "name": "rug",
+              "__typename": "Channel"
+            },
+            {
+              "id": "211234859",
+              "displayName": "Adapt",
+              "name": "adapt",
+              "__typename": "Channel"
+            },
+            {
+              "id": "220476955",
+              "displayName": "IShowSpeed",
+              "name": "ishowspeed",
+              "__typename": "Channel"
+            },
+            {
+              "id": "641972806",
+              "displayName": "KaiCenat",
+              "name": "kaicenat",
+              "__typename": "Channel"
+            },
+            {
+              "id": "139837888",
+              "displayName": "OliverOG",
+              "name": "oliverog",
+              "__typename": "Channel"
+            },
+            {
+              "id": "104632789",
+              "displayName": "Zemie",
+              "name": "zemie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "7154733",
+              "displayName": "TypicalGamer",
+              "name": "typicalgamer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "574141428",
+              "displayName": "Peterbot",
+              "name": "peterbot",
+              "__typename": "Channel"
+            },
+            {
+              "id": "66094104",
+              "displayName": "CoachBoop",
+              "name": "coachboop",
+              "__typename": "Channel"
+            },
+            {
+              "id": "120679071",
+              "displayName": "buckefps",
+              "name": "buckefps",
+              "__typename": "Channel"
+            },
+            {
+              "id": "277945156",
+              "displayName": "Sommerset",
+              "name": "sommerset",
+              "__typename": "Channel"
+            },
+            {
+              "id": "82524912",
+              "displayName": "Bugha",
+              "name": "bugha",
+              "__typename": "Channel"
+            },
+            {
+              "id": "44424631",
+              "displayName": "NickEh30",
+              "name": "nickeh30",
+              "__typename": "Channel"
+            },
+            {
+              "id": "106125347",
+              "displayName": "CouRageJD",
+              "name": "couragejd",
+              "__typename": "Channel"
+            },
+            {
+              "id": "32140000",
+              "displayName": "SypherPK",
+              "name": "sypherpk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "233300375",
+              "displayName": "Clix",
+              "name": "clix",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.fortnite.com/twitch-drops",
+        "description": "We're celebrating the launch of MrSavage in the Icon Series! Earn the Brain Twister Emoticon by watching MrSavage's friends channels for 15mins. This drop is not exclusive to Twitch and may be available in the Shop at a later date.",
+        "detailsURL": "https://www.fortnite.com/twitch-drops",
+        "endAt": "2025-09-29T03:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "33214",
+          "slug": "fortnite",
+          "displayName": "Fortnite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/33b3f901-f623-4daa-8b8b-5ac391720559.png",
+        "name": "MrSavage Icon Series",
+        "owner": {
+          "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+          "name": "Epic Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-26T17:20:18Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "8b827191-9b09-11f0-8159-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a_CUSTOM_ID_B2A6D2CF49FF4926D24FEFBBF6EC131F",
+                  "createdAt": "2025-09-26T18:41:31.306Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "33214",
+                    "name": "Fortnite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ebee1195-2362-4ff1-8d03-e16c68dd5d76.png",
+                  "isIosAvailable": false,
+                  "name": "Brain Twister Emoticon",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-29T03:59:59.998Z",
+            "name": "Brain Twister Emoticon",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-09-26T17:20:18Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "107429eb-9ae7-11f0-b467-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -40987,6 +41466,18 @@
               "id": "70661496",
               "displayName": "Chica",
               "name": "chica",
+              "__typename": "Channel"
+            },
+            {
+              "id": "66983298",
+              "displayName": "benjyfishy",
+              "name": "benjyfishy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "401670504",
+              "displayName": "Oatley",
+              "name": "oatley",
               "__typename": "Channel"
             }
           ],
