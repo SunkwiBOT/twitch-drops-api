@@ -3413,6 +3413,30 @@
               "displayName": "EAMaddenNFL",
               "name": "eamaddennfl",
               "__typename": "Channel"
+            },
+            {
+              "id": "39894746",
+              "displayName": "miniminter",
+              "name": "miniminter",
+              "__typename": "Channel"
+            },
+            {
+              "id": "544105255",
+              "displayName": "AaronTheLoco",
+              "name": "aarontheloco",
+              "__typename": "Channel"
+            },
+            {
+              "id": "29555307",
+              "displayName": "Behzinga",
+              "name": "behzinga",
+              "__typename": "Channel"
+            },
+            {
+              "id": "598713647",
+              "displayName": "angryginge13",
+              "name": "angryginge13",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -33923,6 +33947,77 @@
     "gameDisplayName": "Fortnite",
     "gameId": "33214",
     "rewards": [
+      {
+        "id": "107429eb-9ae7-11f0-b467-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.fortnite.com/twitch-drops",
+        "description": "Fortnite Delulu's second weekend is here! Earn the Hiccups Emote by watching any Fortnite stream in the directory for 1hr. This drop is not exclusive to Twitch and may be available in the Shop at a later date.",
+        "detailsURL": "https://www.fortnite.com/twitch-drops",
+        "endAt": "2025-09-29T03:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "33214",
+          "slug": "fortnite",
+          "displayName": "Fortnite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e3d6350b-4438-471d-a461-4f2bd97720cb.jpeg",
+        "name": "Delulu Weekend",
+        "owner": {
+          "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+          "name": "Epic Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-26T14:43:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "30bae421-9ae7-11f0-b207-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a_CUSTOM_ID_A28F0CEC47FAE75B204964BC21908197",
+                  "createdAt": "2025-09-18T00:05:19.027Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "33214",
+                    "name": "Fortnite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d19bb2f9-2026-4a5c-8004-1641103350da.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Hiccups Emote",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-29T03:59:59.998Z",
+            "name": "Hiccups Emote",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-09-26T14:43:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
       {
         "id": "d228082f-9a2b-11f0-b131-0a58a9feac02",
         "self": {
