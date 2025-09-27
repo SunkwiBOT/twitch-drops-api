@@ -33812,6 +33812,90 @@
     "gameId": "263490",
     "rewards": [
       {
+        "id": "10320709-94d8-11f0-890c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "227740311",
+              "displayName": "Farmerlucas",
+              "name": "farmerlucas",
+              "__typename": "Channel"
+            },
+            {
+              "id": "43872967",
+              "displayName": "sukidingels",
+              "name": "sukidingels",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Join us for Kingdoms 3: Desolation!  Tune in as two Kingdoms battle it out for control of the throne. Be sure to sync your accounts to claim your drops! https://twitch.facepunch.com/connect",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2025-10-01T06:59:59.994Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/73dc2501-cf1f-4c7e-a2fb-498b80ed7fc1.png",
+        "name": "Kingdoms 3 Boots",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-27T12:45:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "65dfb6db-94e3-11f0-a795-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11478",
+                  "createdAt": "2025-09-18T20:25:50.688Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c3d5daf-705b-4574-9325-3b692d43ea82.png",
+                  "isIosAvailable": false,
+                  "name": "Kingdoms 3 Boots",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-01T06:59:59.994Z",
+            "name": "Kingdoms 3 Boots",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-09-27T12:45:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "32e0216f-94d7-11f0-b630-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -34639,6 +34723,12 @@
               "id": "91067577",
               "displayName": "Emiru",
               "name": "emiru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "76084292",
+              "displayName": "MaryMaybe",
+              "name": "marymaybe",
               "__typename": "Channel"
             }
           ],
