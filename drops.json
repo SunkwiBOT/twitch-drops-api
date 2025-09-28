@@ -16102,7 +16102,7 @@
     "startAt": "2025-09-27T14:00:00.000Z"
   },
   {
-    "endAt": "2025-09-29T04:59:59.999Z",
+    "endAt": "2025-09-29T05:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
     "gameDisplayName": "Halo Infinite",
     "gameId": "506416",
@@ -16115,12 +16115,6 @@
         },
         "allow": {
           "channels": [
-            {
-              "id": "222719079",
-              "displayName": "LVTHalo",
-              "name": "lvthalo",
-              "__typename": "Channel"
-            },
             {
               "id": "762572239",
               "displayName": "ClutchAcademyGG",
@@ -16216,6 +16210,120 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-09-28T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "9879a5de-9c86-11f0-aea0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "222719079",
+              "displayName": "LVTHalo",
+              "name": "lvthalo",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn Halo Infinite in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-09-29T05:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/60a849ab-7313-4834-bcf2-8ebb65b3b063.png",
+        "name": "TSM Pro-Am-SEP28",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-28T16:15:49Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "d0e9f7e6-9c86-11f0-8ff0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_L2PZ-59BR-EFA2-8NK2-H7LS",
+                  "createdAt": "2025-04-17T15:40:51.284Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/38f2c1ca-52db-497e-83b5-86a206295c5a.png",
+                  "isIosAvailable": false,
+                  "name": "Desert Tea Coatings",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-29T05:59:59.999Z",
+            "name": "Desert Tea Armor",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-09-28T16:15:49Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d9c63eaa-9c86-11f0-9580-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_GS2G-S62N-EKAZ-IKFX-44LW",
+                  "createdAt": "2025-09-28T16:20:54.241Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bea63e7f-7493-4324-94ab-32b21e082c48.png",
+                  "isIosAvailable": false,
+                  "name": "Trivector Spartan ID",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-29T05:59:59.999Z",
+            "name": "Trivector Emblem and Nameplate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-09-28T16:15:49Z",
             "__typename": "TimeBasedDrop"
           }
         ],
