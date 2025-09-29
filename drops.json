@@ -1,163 +1,5 @@
 [
   {
-    "endAt": "2025-10-05T18:59:59.000Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516575-120x160.jpg",
-    "gameDisplayName": "VALORANT",
-    "gameId": "516575",
-    "rewards": [
-      {
-        "id": "307c0a39-884a-11f0-843e-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "490592527",
-              "displayName": "VALORANT",
-              "name": "valorant",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
-        "description": "VALORANT Champions is finally here! 16 teams from around the world face off in the pinnacle championship event of the 2025 VALORANT Champions Tour.\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t",
-        "detailsURL": "https://playvalorant.com/en-us/news/esports/everything-you-need-to-know-champions-paris/",
-        "endAt": "2025-09-29T19:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "516575",
-          "slug": "valorant",
-          "displayName": "VALORANT",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c220bbfd-8c3b-4fd9-a065-f4446730996d.png",
-        "name": "VCT25 Champs Paris",
-        "owner": {
-          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-          "name": "Riot Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-09-12T13:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "0aeee2be-8ab5-11f0-b948-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2025-VAL-ParisChamps-OuiChef",
-                  "createdAt": "2025-09-05T19:19:27.959Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "516575",
-                    "name": "VALORANT",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/863d0521-8014-4f5b-9809-c20f7c6b6241.png",
-                  "isIosAvailable": true,
-                  "name": "\"Oui Chef\" Title",
-                  "ownerOrganization": {
-                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-                    "name": "Riot Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-09-29T19:59:59.999Z",
-            "name": "\"Oui Chef\" Title",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-09-12T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "b56ed7e2-8f45-11f0-b888-5202ffea503a",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.twitch.tv/",
-        "description": "This badge was earned by subscribing to a VALORANT streamer while watching VALORANT Champions 2025!",
-        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
-        "endAt": "2025-10-05T18:59:59Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "516575",
-          "slug": "valorant",
-          "displayName": "VALORANT",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/badges/v1/63c91cf1-53d1-4ee9-821f-b4d6e4144e8e/3",
-        "name": "VALORANT Champions 2025",
-        "owner": {
-          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
-          "name": "Twitch Gaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-09-12T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "b587dfd0-8f45-11f0-b888-5202ffea503a",
-            "requiredSubs": 1,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "b5311812-8f45-11f0-b888-5202ffea503a",
-                  "createdAt": "2025-09-11T19:30:00.389Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "516575",
-                    "name": "VALORANT",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/badges/v1/63c91cf1-53d1-4ee9-821f-b4d6e4144e8e/3",
-                  "isIosAvailable": false,
-                  "name": "VCT Paris 2025",
-                  "ownerOrganization": {
-                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
-                    "name": "Twitch Gaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "BADGE",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-05T18:59:59Z",
-            "name": "Valorant 2025 Reward",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 0,
-            "startAt": "2025-09-12T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-09-12T13:00:00.000Z"
-  },
-  {
     "endAt": "2025-09-29T20:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/890558948_IGDB-120x160.jpg",
     "gameDisplayName": "Torchlight: Infinite",
@@ -32182,6 +32024,86 @@
       }
     ],
     "startAt": "2025-09-15T07:00:00.000Z"
+  },
+  {
+    "endAt": "2025-10-05T18:59:59.000Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516575-120x160.jpg",
+    "gameDisplayName": "VALORANT",
+    "gameId": "516575",
+    "rewards": [
+      {
+        "id": "b56ed7e2-8f45-11f0-b888-5202ffea503a",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.twitch.tv/",
+        "description": "This badge was earned by subscribing to a VALORANT streamer while watching VALORANT Champions 2025!",
+        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+        "endAt": "2025-10-05T18:59:59Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "516575",
+          "slug": "valorant",
+          "displayName": "VALORANT",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/badges/v1/63c91cf1-53d1-4ee9-821f-b4d6e4144e8e/3",
+        "name": "VALORANT Champions 2025",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-12T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b587dfd0-8f45-11f0-b888-5202ffea503a",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "b5311812-8f45-11f0-b888-5202ffea503a",
+                  "createdAt": "2025-09-11T19:30:00.389Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516575",
+                    "name": "VALORANT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/badges/v1/63c91cf1-53d1-4ee9-821f-b4d6e4144e8e/3",
+                  "isIosAvailable": false,
+                  "name": "VCT Paris 2025",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-05T18:59:59Z",
+            "name": "Valorant 2025 Reward",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-09-12T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-09-12T17:00:00.000Z"
   },
   {
     "endAt": "2025-10-05T18:59:59.000Z",
