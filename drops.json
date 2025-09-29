@@ -8321,7 +8321,7 @@
     "startAt": "2025-09-23T15:00:00.000Z"
   },
   {
-    "endAt": "2025-09-30T09:59:59.998Z",
+    "endAt": "2025-09-30T23:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511295_IGDB-120x160.jpg",
     "gameDisplayName": "Predecessor",
     "gameId": "511295",
@@ -8872,12 +8872,6 @@
               "id": "42264455",
               "displayName": "gratty",
               "name": "gratty",
-              "__typename": "Channel"
-            },
-            {
-              "id": "144859385",
-              "displayName": "grizzzly_gaming",
-              "name": "grizzzly_gaming",
               "__typename": "Channel"
             },
             {
@@ -9688,6 +9682,156 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 0,
             "startAt": "2025-09-02T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "7f32230d-9d13-11f0-8f08-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "144859385",
+              "displayName": "grizzzly_gaming",
+              "name": "grizzzly_gaming",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://predecessorgame.com/link-accounts",
+        "description": "Tune into specific partnered streamers to support their Subathon community events!",
+        "detailsURL": "https://predecessorgame.com/twitch-drops",
+        "endAt": "2025-09-30T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511295",
+          "slug": "predecessor",
+          "displayName": "Predecessor",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/78160125-089e-48a0-a6ac-055158b44626.png",
+        "name": "PCG Subathon 1",
+        "owner": {
+          "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+          "name": "Omeda Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-09-29T09:04:50Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "d4e0060e-9d13-11f0-aea0-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "58b718a2-eec5-11ef-bd23-0a58a9feac02",
+                  "createdAt": "2025-02-19T13:28:03.613Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d8a96f72-5a10-4eee-a10e-3ccb1ee1f02b.png",
+                  "isIosAvailable": false,
+                  "name": "Ion Loot Core",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-30T23:29:59.999Z",
+            "name": "Ion Loot Core",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-09-29T09:04:50Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "de75e105-9d13-11f0-aea0-0a58a9feac02",
+            "requiredSubs": 5,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60463a64-eec5-11ef-ad6e-0a58a9feac02",
+                  "createdAt": "2025-02-19T13:28:16.295Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a819a094-6df1-456e-bdea-ed1352eff85d.png",
+                  "isIosAvailable": false,
+                  "name": "Quantum Loot Core",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-30T23:29:59.999Z",
+            "name": "Quantum Loot Core",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-09-29T09:04:50Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "e359ee1d-9d13-11f0-9939-0a58a9feac02",
+            "requiredSubs": 3,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "58b718a2-eec5-11ef-bd23-0a58a9feac02",
+                  "createdAt": "2025-02-19T13:28:03.613Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d8a96f72-5a10-4eee-a10e-3ccb1ee1f02b.png",
+                  "isIosAvailable": false,
+                  "name": "Ion Loot Core",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-09-30T23:29:59.999Z",
+            "name": "Ion Loot Core",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-09-29T09:04:50Z",
             "__typename": "TimeBasedDrop"
           }
         ],
