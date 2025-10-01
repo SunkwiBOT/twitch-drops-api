@@ -1,85 +1,5 @@
 [
   {
-    "endAt": "2025-10-01T09:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/433493784_IGDB-120x160.jpg",
-    "gameDisplayName": "Warborne: Above Ashes",
-    "gameId": "433493784",
-    "rewards": [
-      {
-        "id": "cf8219f0-93e1-11f0-8380-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://r.qoolandgames.com/68b965883edba61214476572/index",
-        "description": "Participate in our live streaming event and get legendary mount.",
-        "detailsURL": "https://r.qoolandgames.com/68b965883edba61214476572/index",
-        "endAt": "2025-10-01T09:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "433493784",
-          "slug": "warborne-above-ashes",
-          "displayName": "Warborne: Above Ashes",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/187962e1-9f8c-4a94-a514-dcf1cc81abaf.png",
-        "name": "Twitch chest #12",
-        "owner": {
-          "id": "423069ae-a2c4-4bf4-9ed9-f6b62031fe0d",
-          "name": "Qoolandgames",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-09-30T10:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "dc459ccb-93e1-11f0-9481-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "423069ae-a2c4-4bf4-9ed9-f6b62031fe0d_CUSTOM_ID_20250930-01",
-                  "createdAt": "2025-09-14T11:22:37.663Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "433493784",
-                    "name": "Warborne: Above Ashes",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c1e69087-be42-45cd-af66-ed06c793c029.png",
-                  "isIosAvailable": false,
-                  "name": "Twitch chest #12",
-                  "ownerOrganization": {
-                    "id": "423069ae-a2c4-4bf4-9ed9-f6b62031fe0d",
-                    "name": "Qoolandgames",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-01T09:59:59.999Z",
-            "name": "Twitch chest #12",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-09-30T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-09-30T10:00:00.000Z"
-  },
-  {
     "endAt": "2025-10-01T10:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/412756_IGDB-120x160.jpg",
     "gameDisplayName": "Trove",
@@ -1293,6 +1213,174 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 180,
             "startAt": "2025-09-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "4b3eb672-8d7b-11f0-826f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "97903976",
+              "displayName": "Mouzakrobat",
+              "name": "mouzakrobat",
+              "__typename": "Channel"
+            },
+            {
+              "id": "61776958",
+              "displayName": "mailand",
+              "name": "mailand",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
+        "description": "Mouz & Mailand Drops",
+        "detailsURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
+        "endAt": "2025-10-01T21:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2f6385e9-1e0e-42c1-9f9a-153e0353ba20.jpeg",
+        "name": "Mouz & Mailand Drops",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-01T10:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5262aa98-8d7b-11f0-b82a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TD_Reuni_25_10_01",
+                  "createdAt": "2025-09-09T12:55:13.377Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5869a6f-0920-420b-a858-f4306e4ab47a.png",
+                  "isIosAvailable": false,
+                  "name": "3x Chocolate",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TD_Reuni_25_10_02",
+                  "createdAt": "2025-09-09T12:55:40.489Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/929a9189-f91c-471f-afb5-fda3a8341b68.png",
+                  "isIosAvailable": false,
+                  "name": "3x Large First Aid Kit",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TD_Reuni_25_10_03",
+                  "createdAt": "2025-09-09T12:56:14.406Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/106b2fa4-8693-4929-badb-8479990628fb.png",
+                  "isIosAvailable": false,
+                  "name": "3x Large Repair Kit",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-01T21:59:59.999Z",
+            "name": "Drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-10-01T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "57d8b497-8d7b-11f0-810b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TD_Reuni_25_10_04",
+                  "createdAt": "2025-09-09T14:07:54.702Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2a99ddc2-cac2-48d1-89d4-a6393c0035d0.png",
+                  "isIosAvailable": false,
+                  "name": "1x 2D Style",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-01T21:59:59.999Z",
+            "name": "Drop 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-10-01T10:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -11565,6 +11653,166 @@
       }
     ],
     "startAt": "2025-09-04T04:00:00.000Z"
+  },
+  {
+    "endAt": "2025-10-02T09:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+    "gameDisplayName": "Albion Online",
+    "gameId": "417528",
+    "rewards": [
+      {
+        "id": "4f80853a-949d-11f0-be73-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://albiononline.com/twitch",
+        "description": "Earn exclusive rewards by watching Albion Online livestreams!",
+        "detailsURL": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+        "endAt": "2025-10-02T09:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417528",
+          "slug": "albion-online",
+          "displayName": "Albion Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b35f1303-545d-4548-b5a5-7392fb4095a6.png",
+        "name": "Abyssal Depths 14 - #3/7",
+        "owner": {
+          "id": "39dcfadd-48e4-4362-8c22-974319aff88e",
+          "name": "Sandbox Interactive",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-01T10:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "20ce73c4-94a0-11f0-840a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "39dcfadd-48e4-4362-8c22-974319aff88e_CUSTOM_ID_abyssal_depths_chest-6b60cab5-ae22-4e0c-9965-e2ffb62f2b35",
+                  "createdAt": "2025-06-23T10:24:48.411Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417528",
+                    "name": "Albion Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4cc6775c-dc20-448a-b55e-5dfcd24403af.png",
+                  "isIosAvailable": true,
+                  "name": "Abyssal Depths Chest",
+                  "ownerOrganization": {
+                    "id": "39dcfadd-48e4-4362-8c22-974319aff88e",
+                    "name": "Sandbox Interactive",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-02T09:29:59.999Z",
+            "name": "Abyssal Depths Chest",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-10-01T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-01T10:00:00.000Z"
+  },
+  {
+    "endAt": "2025-10-02T09:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/433493784_IGDB-120x160.jpg",
+    "gameDisplayName": "Warborne: Above Ashes",
+    "gameId": "433493784",
+    "rewards": [
+      {
+        "id": "0435cef8-93e2-11f0-b5cc-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://r.qoolandgames.com/68b965883edba61214476572/index",
+        "description": "Participate in our live streaming event and get legendary mount.",
+        "detailsURL": "https://r.qoolandgames.com/68b965883edba61214476572/index",
+        "endAt": "2025-10-02T09:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "433493784",
+          "slug": "warborne-above-ashes",
+          "displayName": "Warborne: Above Ashes",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3214cb2a-d0d7-431e-8ac5-bd4e857112ec.png",
+        "name": "Twitch chest #13",
+        "owner": {
+          "id": "423069ae-a2c4-4bf4-9ed9-f6b62031fe0d",
+          "name": "Qoolandgames",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-01T10:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "136a4db5-93e2-11f0-939c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "423069ae-a2c4-4bf4-9ed9-f6b62031fe0d_CUSTOM_ID_20251001-02",
+                  "createdAt": "2025-09-14T11:23:02.279Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "433493784",
+                    "name": "Warborne: Above Ashes",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/53f0709e-3e6b-4cf6-987b-f37a2d21a9cf.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch chest #13",
+                  "ownerOrganization": {
+                    "id": "423069ae-a2c4-4bf4-9ed9-f6b62031fe0d",
+                    "name": "Qoolandgames",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-02T09:59:59.999Z",
+            "name": "Twitch chest #13",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-10-01T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-01T10:00:00.000Z"
   },
   {
     "endAt": "2025-10-02T15:58:59.998Z",
