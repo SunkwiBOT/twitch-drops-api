@@ -1302,7 +1302,7 @@
     "startAt": "2025-09-30T13:00:00.000Z"
   },
   {
-    "endAt": "2025-10-01T14:59:59.999Z",
+    "endAt": "2025-10-10T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
     "gameDisplayName": "World of Tanks",
     "gameId": "27546",
@@ -1373,6 +1373,186 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 180,
             "startAt": "2025-09-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "b00d6edb-982c-11f0-8727-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "138295620",
+              "displayName": "0miki0_",
+              "name": "0miki0_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "147904239",
+              "displayName": "youhey_k",
+              "name": "youhey_k",
+              "__typename": "Channel"
+            },
+            {
+              "id": "468199353",
+              "displayName": "系ーけいー",
+              "name": "kei_kakari",
+              "__typename": "Channel"
+            },
+            {
+              "id": "223501005",
+              "displayName": "hirolog123",
+              "name": "hirolog123",
+              "__typename": "Channel"
+            },
+            {
+              "id": "171838569",
+              "displayName": "purple67a",
+              "name": "purple67a",
+              "__typename": "Channel"
+            },
+            {
+              "id": "153555178",
+              "displayName": "MosquitoQueen",
+              "name": "mosquitoqueen",
+              "__typename": "Channel"
+            },
+            {
+              "id": "52114236",
+              "displayName": "豪斯流氓",
+              "name": "ttcf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "20862430",
+              "displayName": "阿賽",
+              "name": "sighsir",
+              "__typename": "Channel"
+            },
+            {
+              "id": "52286845",
+              "displayName": "熊貓看世界",
+              "name": "kiki00023",
+              "__typename": "Channel"
+            },
+            {
+              "id": "476438585",
+              "displayName": "XuanGaming03",
+              "name": "xuangaming03",
+              "__typename": "Channel"
+            },
+            {
+              "id": "31411247",
+              "displayName": "_星仔_",
+              "name": "starboy0509",
+              "__typename": "Channel"
+            },
+            {
+              "id": "653539694",
+              "displayName": "餡餡餡",
+              "name": "ansan0721",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.asia/en/content/guide/twitch-drops/",
+        "description": "Mid-Autumn Festival isn't all just about moon-gazing. It's also about watching live streams and getting all the drops exclusive to the Asia server!",
+        "detailsURL": "https://worldoftanks.asia/zh-tw/news/live-streams/apac-mid-autumn-2025/",
+        "endAt": "2025-10-10T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f1052271-89d5-478c-9445-ab6da2022da3.jpeg",
+        "name": "[APAC] Mid-Autumn Fes.",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-01T09:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f6047c25-982e-11f0-8c05-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_FullMoon_Drop1_25",
+                  "createdAt": "2025-09-23T03:42:31.706Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d8d1311-cfff-41c4-b0b3-e264669a0f57.png",
+                  "isIosAvailable": false,
+                  "name": "Mid-Autumn Drop #1",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-10T15:59:59.999Z",
+            "name": "Mid-Autumn Guaranteed Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-01T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "fc0aa7d6-982e-11f0-af16-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_FullMoon_Drop2_25",
+                  "createdAt": "2025-09-23T03:42:54.68Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/36e2ad5c-141d-4e70-a0c5-2c3fedd19de7.png",
+                  "isIosAvailable": false,
+                  "name": "Mid-Autumn Drop #2",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-10T15:59:59.999Z",
+            "name": "Mid-Autumn Mystery Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-10-01T09:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
