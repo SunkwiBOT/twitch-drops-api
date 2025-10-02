@@ -2086,6 +2086,93 @@
     "startAt": "2025-09-11T08:00:00.000Z"
   },
   {
+    "endAt": "2025-10-02T16:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/272952894_IGDB-120x160.jpg",
+    "gameDisplayName": "Madden NFL 26",
+    "gameId": "272952894",
+    "rewards": [
+      {
+        "id": "3ea3f641-9e1e-11f0-8bb2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "51914127",
+              "displayName": "EAMaddenNFL",
+              "name": "eamaddennfl",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch Good Morning Madden and earn Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-10-02T16:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "272952894",
+          "slug": "ea-sports-madden-nfl-26",
+          "displayName": "Madden NFL 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d05a3ad9-fdc6-4274-b375-37c38222a180.png",
+        "name": "Good Morning Madden",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-02T14:20:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "4aa64fe2-9e1e-11f0-a94a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-069",
+                  "createdAt": "2025-09-30T16:56:27.259Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d0dccd8f-7b44-4634-8180-05a3e292de43.png",
+                  "isIosAvailable": false,
+                  "name": "Madden Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-02T16:29:59.999Z",
+            "name": "Madden Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-10-02T14:20:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-02T14:20:00.000Z"
+  },
+  {
     "endAt": "2025-10-02T17:57:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
     "gameDisplayName": "Rise Online",
@@ -16198,6 +16285,12 @@
               "id": "44803385",
               "displayName": "SkullAngel0013",
               "name": "skullangel0013",
+              "__typename": "Channel"
+            },
+            {
+              "id": "117379932",
+              "displayName": "KingGeorge",
+              "name": "kinggeorge",
               "__typename": "Channel"
             }
           ],
