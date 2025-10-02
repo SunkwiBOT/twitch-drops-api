@@ -48580,6 +48580,86 @@
     "startAt": "2025-09-18T17:00:00.000Z"
   },
   {
+    "endAt": "2025-10-16T19:00:00.000Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509663-120x160.jpg",
+    "gameDisplayName": "Special Events",
+    "gameId": "509663",
+    "rewards": [
+      {
+        "id": "53a60e4c-9b28-11f0-bdc0-3e5eb49b485f",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.twitch.tv/",
+        "description": "Subbed to a streamer and got 3 months of free Super Duolingo!",
+        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+        "endAt": "2025-10-16T19:00:00Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "509663",
+          "slug": "special-events",
+          "displayName": "Special Events",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/badges/v1/be750d4d-a3b9-4116-ae75-6ee4f3294a19/3",
+        "name": "Sub for exclusive GamerDuo badge",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-02T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "53b89724-9b28-11f0-bdc0-3e5eb49b485f",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "537bf300-9b28-11f0-bdc0-3e5eb49b485f",
+                  "createdAt": "2025-09-26T22:29:55.011Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509663",
+                    "name": "Special Events",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/badges/v1/be750d4d-a3b9-4116-ae75-6ee4f3294a19/3",
+                  "isIosAvailable": false,
+                  "name": "GamerDuo",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-16T19:00:00Z",
+            "name": "Duolingo Badge Reward Group",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-10-02T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-02T19:00:00.000Z"
+  },
+  {
     "endAt": "2025-10-17T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/518186_IGDB-120x160.jpg",
     "gameDisplayName": "Party Animals",
