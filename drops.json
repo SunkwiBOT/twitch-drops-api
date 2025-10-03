@@ -23417,6 +23417,194 @@
     "startAt": "2025-10-02T17:00:00.000Z"
   },
   {
+    "endAt": "2025-10-08T23:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1471416868_IGDB-120x160.jpg",
+    "gameDisplayName": "UFL",
+    "gameId": "1471416868",
+    "rewards": [
+      {
+        "id": "232f4823-9f67-11f0-b123-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://auth.uflgame.com/twitch",
+        "description": "Watch any channel with drops enabled on Twitch in the UFL category and get cool rewards!",
+        "detailsURL": "https://auth.uflgame.com/twitch/drops ",
+        "endAt": "2025-10-08T23:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1471416868",
+          "slug": "ufl",
+          "displayName": "UFL",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/91ddbd7f-c1b1-47da-b489-a9b1c3261b32.png",
+        "name": "October #1",
+        "owner": {
+          "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+          "name": "XTEN LIMITED",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-03T09:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3c314bad-9f67-11f0-875b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_54165",
+                  "createdAt": "2025-10-02T08:01:09.551Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1471416868",
+                    "name": "UFL",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a2bf033c-b54d-4a78-b5cc-af8f516b949d.png",
+                  "isIosAvailable": false,
+                  "name": "Enhanced CP Pack",
+                  "ownerOrganization": {
+                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+                    "name": "XTEN LIMITED",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-08T23:58:59.999Z",
+            "name": "#1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-10-03T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "50fc0140-9f67-11f0-b230-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_54166",
+                  "createdAt": "2025-10-02T08:02:19.345Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1471416868",
+                    "name": "UFL",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/85bc2073-1339-4ff7-8ba5-7562aa80e086.png",
+                  "isIosAvailable": false,
+                  "name": "Enhanced CP Pack",
+                  "ownerOrganization": {
+                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+                    "name": "XTEN LIMITED",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-08T23:58:59.999Z",
+            "name": "#2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-10-03T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6b22939e-9f68-11f0-b7d8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_54168",
+                  "createdAt": "2025-10-02T08:07:56.856Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1471416868",
+                    "name": "UFL",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2330fb6e-4180-4805-882d-855613dfa0af.png",
+                  "isIosAvailable": false,
+                  "name": "Octoberpack",
+                  "ownerOrganization": {
+                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+                    "name": "XTEN LIMITED",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-08T23:58:59.999Z",
+            "name": "#4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-10-03T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a99e41f0-9f68-11f0-833d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_54167",
+                  "createdAt": "2025-10-02T08:07:02.961Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1471416868",
+                    "name": "UFL",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/84584841-cace-4590-8721-c763a7e0212e.png",
+                  "isIosAvailable": false,
+                  "name": "Game Changers Pack 4",
+                  "ownerOrganization": {
+                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+                    "name": "XTEN LIMITED",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-08T23:58:59.999Z",
+            "name": "#3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-10-03T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-03T09:00:00.000Z"
+  },
+  {
     "endAt": "2025-10-09T05:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/801541637_IGDB-120x160.jpg",
     "gameDisplayName": "Dragon Ball Gekishin Squadra",
