@@ -3920,6 +3920,141 @@
     "startAt": "2025-09-12T17:00:00.000Z"
   },
   {
+    "endAt": "2025-10-04T18:59:59.996Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
+    "gameDisplayName": "Mir Korabley",
+    "gameId": "2133072147",
+    "rewards": [
+      {
+        "id": "83121774-9d3e-11f0-938c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "793098652",
+              "displayName": "LestaKorabli",
+              "name": "lestakorabli",
+              "__typename": "Channel"
+            },
+            {
+              "id": "515919232",
+              "displayName": "Me4tatelnica_Irina",
+              "name": "me4tatelnica_irina",
+              "__typename": "Channel"
+            },
+            {
+              "id": "127356455",
+              "displayName": "DENIZAVRINA",
+              "name": "denizavrina",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://lesta.ru/personal/?bind-external=twitch",
+        "description": "Во время просмотра трансляций турнира «Царь морей V» на официальном канале и на каналах официальных стримеров можно будет получить множество наград, среди которых:\n\n• До 1500 штурманских жетонов;\n• Контейнер «Тактический»;\n• Контейнер «Путь победителей»;\n• Тематические расходуемые камуфляжи — «Дуб зелёный»;\n• Суперконтейнер;\n• 5000 ед. золота;\n• Контейнер «Премиум корабль IX».\n\nЖмите «Отслеживать», следите за сражениями и получайте награду!",
+        "detailsURL": "https://korabli.su/ru/news/sales-and-events/stream-rewards-2510/",
+        "endAt": "2025-10-04T18:59:59.996Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2133072147",
+          "slug": "mir-korabley",
+          "displayName": "Mir Korabley",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2737afe7-e283-4741-bb99-d9b707c4d737.png",
+        "name": "Царь морей V — 4 октября",
+        "owner": {
+          "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+          "name": "Lesta Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-04T10:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ec355cf3-9d3f-11f0-8411-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_2510_TWITCH_1S",
+                  "createdAt": "2025-09-29T13:22:23.291Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2133072147",
+                    "name": "Mir Korabley",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/065bdc76-b8c6-4a3d-bc73-3d1a532e0c4e.png",
+                  "isIosAvailable": false,
+                  "name": "Награды в эфире 25.10 #1",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-04T18:59:59.996Z",
+            "name": "Награды в эфире 25.10 #1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-10-04T10:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f7893545-9d3f-11f0-89ba-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_PRM_TMV_1",
+                  "createdAt": "2025-09-29T13:27:51.953Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2133072147",
+                    "name": "Mir Korabley",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/827a67fa-9371-454d-8956-106f20e49c50.png",
+                  "isIosAvailable": false,
+                  "name": "Трофеи Нокмара #1",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-04T18:59:59.996Z",
+            "name": "Трофеи Нокмара #1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-10-04T10:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-04T10:30:00.000Z"
+  },
+  {
     "endAt": "2025-10-04T22:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/551919008_IGDB-120x160.jpg",
     "gameDisplayName": "EA Sports College Football 26",
