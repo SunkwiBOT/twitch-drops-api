@@ -909,63 +909,82 @@
     "startAt": "2025-10-04T13:00:00.000Z"
   },
   {
-    "endAt": "2025-10-05T15:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1277238074_IGDB-120x160.jpg",
-    "gameDisplayName": "King of Meat",
-    "gameId": "1277238074",
+    "endAt": "2025-10-10T03:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
+    "gameDisplayName": "NARAKA: BLADEPOINT",
+    "gameId": "515474",
     "rewards": [
       {
-        "id": "8697ea96-8cc2-11f0-9e7c-0a58a9feac02",
+        "id": "5abf2671-9c4e-11f0-8d97-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "605673574",
+              "displayName": "NARAKABLADEPOINT",
+              "name": "narakabladepoint",
+              "__typename": "Channel"
+            },
+            {
+              "id": "714202554",
+              "displayName": "永劫無間_亞服",
+              "name": "naraka_asia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "798260911",
+              "displayName": "narakaesports",
+              "name": "narakaesports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://www.kingofmeat.com/twitch-drops",
-        "description": "Recharge with some power beats. A killer manicure. Stomp all over the competition. Amethyst power-pads to power-up your moves with amethyst inlaid knee protectors.",
-        "detailsURL": "https://www.kingofmeat.com/twitch-drops",
+        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
+        "description": "Watch livestreams to claim your drops!",
+        "detailsURL": "https://www.narakathegame.com/news/official/20231018/32172_1115415.html",
         "endAt": "2025-10-05T15:59:59.999Z",
         "eventBasedDrops": [],
         "game": {
-          "id": "1277238074",
-          "slug": "king-of-meat",
-          "displayName": "King of Meat",
+          "id": "515474",
+          "slug": "naraka-bladepoint",
+          "displayName": "NARAKA: BLADEPOINT",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/175a7f53-5faf-4fd3-bc37-dd2269181b28.png",
-        "name": "Power Gamer Early Access",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9e0bbaa9-0e7d-4f07-8079-3694b05ad546.png",
+        "name": "NBPL 10.5",
         "owner": {
-          "id": "599f6d70-c5cd-4045-b920-e94d89e5cadb",
-          "name": "Amazon Games + Glowmade",
+          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+          "name": "NetEase",
           "__typename": "Organization"
         },
-        "startAt": "2025-10-02T17:00:00Z",
+        "startAt": "2025-10-05T08:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "9d7f89be-8cc2-11f0-aab5-0a58a9feac02",
+            "id": "68d4dd3b-9c4e-11f0-93bc-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "ffb107e8-8ffd-11f0-956f-0a58a9feac02",
-                  "createdAt": "2025-09-12T17:29:12.777Z",
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9134457",
+                  "createdAt": "2025-08-05T11:48:55.372Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "1277238074",
-                    "name": "King of Meat",
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c696029-d58e-418e-a969-98e977e1ce5a.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/faf9c42b-0dc4-4708-9cf4-08f8ba7bb727.jpeg",
                   "isIosAvailable": false,
-                  "name": "Power Gamer Drop",
+                  "name": "Tae*200",
                   "ownerOrganization": {
-                    "id": "599f6d70-c5cd-4045-b920-e94d89e5cadb",
-                    "name": "Amazon Games + Glowmade",
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -976,24 +995,51 @@
               }
             ],
             "endAt": "2025-10-05T15:59:59.999Z",
-            "name": "Power Gamer Drop",
+            "name": "Tae*200",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-10-05T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7251f2f6-9c4e-11f0-944a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9134458",
+                  "createdAt": "2025-08-05T11:52:04.588Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d60f651b-dee5-4216-8c7d-04af523835a1.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Spectral Silk*200",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-05T15:59:59.999Z",
+            "name": "Special Silk*200",
             "preconditionDrops": null,
             "requiredMinutesWatched": 30,
-            "startAt": "2025-10-02T17:00:00Z",
+            "startAt": "2025-10-05T08:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-10-02T17:00:00.000Z"
-  },
-  {
-    "endAt": "2025-10-10T03:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515474_IGDB-120x160.jpg",
-    "gameDisplayName": "NARAKA: BLADEPOINT",
-    "gameId": "515474",
-    "rewards": [
+      },
       {
         "id": "94076776-99e2-11f0-9389-0a58a9feac02",
         "self": {
@@ -2687,6 +2733,86 @@
       }
     ],
     "startAt": "2025-09-11T08:00:00.000Z"
+  },
+  {
+    "endAt": "2025-10-05T15:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1277238074_IGDB-120x160.jpg",
+    "gameDisplayName": "King of Meat",
+    "gameId": "1277238074",
+    "rewards": [
+      {
+        "id": "8697ea96-8cc2-11f0-9e7c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.kingofmeat.com/twitch-drops",
+        "description": "Recharge with some power beats. A killer manicure. Stomp all over the competition. Amethyst power-pads to power-up your moves with amethyst inlaid knee protectors.",
+        "detailsURL": "https://www.kingofmeat.com/twitch-drops",
+        "endAt": "2025-10-05T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1277238074",
+          "slug": "king-of-meat",
+          "displayName": "King of Meat",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/175a7f53-5faf-4fd3-bc37-dd2269181b28.png",
+        "name": "Power Gamer Early Access",
+        "owner": {
+          "id": "599f6d70-c5cd-4045-b920-e94d89e5cadb",
+          "name": "Amazon Games + Glowmade",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-02T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9d7f89be-8cc2-11f0-aab5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ffb107e8-8ffd-11f0-956f-0a58a9feac02",
+                  "createdAt": "2025-09-12T17:29:12.777Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1277238074",
+                    "name": "King of Meat",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c696029-d58e-418e-a969-98e977e1ce5a.png",
+                  "isIosAvailable": false,
+                  "name": "Power Gamer Drop",
+                  "ownerOrganization": {
+                    "id": "599f6d70-c5cd-4045-b920-e94d89e5cadb",
+                    "name": "Amazon Games + Glowmade",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-05T15:59:59.999Z",
+            "name": "Power Gamer Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-02T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-02T17:00:00.000Z"
   },
   {
     "endAt": "2025-10-05T17:57:59.999Z",
