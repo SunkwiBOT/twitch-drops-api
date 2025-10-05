@@ -55409,6 +55409,86 @@
     "startAt": "2025-10-01T17:00:00.000Z"
   },
   {
+    "endAt": "2025-10-30T23:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/615993466_IGDB-120x160.jpg",
+    "gameDisplayName": "Wolvesville",
+    "gameId": "615993466",
+    "rewards": [
+      {
+        "id": "37424669-a091-11f0-ada4-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://wolvesville.com/",
+        "description": "Unlock the limited Twitch gravestone item! You'll need to link your Twitch account with Wolvesville for this to work.",
+        "detailsURL": "https://wolvesville.com/",
+        "endAt": "2025-10-30T23:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "615993466",
+          "slug": "wolvesville",
+          "displayName": "Wolvesville",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/527d8036-7579-4ebf-961c-b0d38189bdb0.png",
+        "name": "October 2025",
+        "owner": {
+          "id": "afc3b59c-a88e-4009-8114-cce32dfd0e23",
+          "name": "Wolvesville",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-03T19:41:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "6acbd793-a091-11f0-94d2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "dd0d5f76-a090-11f0-a7db-0a58a9feac02",
+                  "createdAt": "2025-10-03T19:40:49.286Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "615993466",
+                    "name": "Wolvesville",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/55471a36-5bae-49ac-a733-8a605e699c6f.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch gravestone",
+                  "ownerOrganization": {
+                    "id": "afc3b59c-a88e-4009-8114-cce32dfd0e23",
+                    "name": "Wolvesville",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-30T23:59:59.999Z",
+            "name": "Twitch gravestone",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-03T19:41:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-03T19:41:00.000Z"
+  },
+  {
     "endAt": "2025-10-31T16:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/271304_IGDB-120x160.jpg",
     "gameDisplayName": "7 Days to Die",
