@@ -1,5 +1,92 @@
 [
   {
+    "endAt": "2025-10-07T21:14:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/468533702_IGDB-120x160.jpg",
+    "gameDisplayName": "Soulframe",
+    "gameId": "468533702",
+    "rewards": [
+      {
+        "id": "b4dee147-a261-11f0-aa0c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "769461865",
+              "displayName": "PlaySoulframe",
+              "name": "playsoulframe",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.soulframe.com/user",
+        "description": "Watch Envoy Hour for 30 minutes to earn a Soulframe Preludes Key. Your code will appear in soulframe.com/user after claiming your Drop on the Twitch Inventory page. ",
+        "detailsURL": "https://forums.soulframe.com/topic/5781-introducing-envoy-hour/",
+        "endAt": "2025-10-07T21:14:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "468533702",
+          "slug": "soulframe",
+          "displayName": "Soulframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/831d2a99-87bf-4015-a669-e5f08252f9d0.png",
+        "name": "Envoy Hour #3",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-07T20:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "c269d83d-a261-11f0-b2b6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d9d4bcf1-1a31-11f0-99e5-0a58a9feac02",
+                  "createdAt": "2025-04-15T19:43:05.88Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "468533702",
+                    "name": "Soulframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0308cb07-413f-4930-99ef-38fcf55dca45.png",
+                  "isIosAvailable": false,
+                  "name": "Soulframe Preludes Key",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-07T21:14:59.998Z",
+            "name": "Soulframe Preludes Key",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-07T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-07T20:00:00.000Z"
+  },
+  {
     "endAt": "2025-10-07T22:59:59.995Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516656_IGDB-120x160.jpg",
     "gameDisplayName": "Slapshot: Rebound",
@@ -37128,7 +37215,7 @@
             },
             {
               "id": "98454338",
-              "displayName": null,
+              "displayName": "Galethorne",
               "name": "galethorne",
               "__typename": "Channel"
             },
