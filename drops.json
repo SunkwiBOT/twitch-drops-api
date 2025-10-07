@@ -1214,6 +1214,147 @@
     "startAt": "2025-10-07T14:30:00.000Z"
   },
   {
+    "endAt": "2025-10-07T19:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
+    "gameDisplayName": "Tanki Online",
+    "gameId": "417810",
+    "rewards": [
+      {
+        "id": "4ef4f7d0-a366-11f0-a029-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "117023453",
+              "displayName": "TankiSport_RU",
+              "name": "tankisport_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64274116",
+              "displayName": "TankiSport_EN",
+              "name": "tankisport_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806896138",
+              "displayName": "TankiSport_RU_2",
+              "name": "tankisport_ru_2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806894175",
+              "displayName": "TankiSport_EN_2",
+              "name": "tankisport_en_2",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://tankionline.com/play/",
+        "description": "Watch Tanki Online eSports match livestreams and get Epic Keys in Tanki Online",
+        "detailsURL": "https://tankionline.com/",
+        "endAt": "2025-10-07T19:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417810",
+          "slug": "tanki-online",
+          "displayName": "Tanki Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/50ca6760-6d39-4e0d-8a62-90f9af4cbd35.jpeg",
+        "name": "WMR3 2025 R1 (1)",
+        "owner": {
+          "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+          "name": "APL Publishing Ltd",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-07T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "721c734d-a366-11f0-88f1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-07T19:29:59.999Z",
+            "name": "Match 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-07T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7874cd06-a366-11f0-be28-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-07T19:29:59.999Z",
+            "name": "Match 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-07T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-07T17:00:00.000Z"
+  },
+  {
     "endAt": "2025-10-07T22:59:59.995Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516656_IGDB-120x160.jpg",
     "gameDisplayName": "Slapshot: Rebound",
@@ -48670,6 +48811,503 @@
       }
     ],
     "startAt": "2025-09-20T16:00:00.000Z"
+  },
+  {
+    "endAt": "2025-10-21T16:59:59.995Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/330654616_IGDB-120x160.jpg",
+    "gameDisplayName": "Rivals of Aether II",
+    "gameId": "330654616",
+    "rewards": [
+      {
+        "id": "e1d27ff0-9f02-11f0-a04b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.aetherstudios.com/twitchdrops",
+        "description": "The Galvan Update is here! Celebrate Galvan's launch with new drops available on any Rivals II streams with drops enabled for the next 2 weeks. IMPORTANT: You must visit this page (https://account.aetherstudios.com/twitchdrops) to successfully claim the drops in game once you have earned them on Twitch.",
+        "detailsURL": "https://account.aetherstudios.com/twitchdrops",
+        "endAt": "2025-10-21T16:59:59.995Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "330654616",
+          "slug": "rivals-2",
+          "displayName": "Rivals of Aether II",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/aa7f6bbc-38ba-4638-a9a8-7127465fe756.jpeg",
+        "name": "Galvan Launch Celebration",
+        "owner": {
+          "id": "d21af9db-64b7-4327-b785-5939435cae44",
+          "name": "Rivals Of Aether",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-07T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a11632a3-9f62-11f0-bd1d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d21af9db-64b7-4327-b785-5939435cae44_CUSTOM_ID_3e984bc4-7a2d-4ac5-a703-6c7c5a582db5",
+                  "createdAt": "2025-10-02T07:31:04.422Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "330654616",
+                    "name": "Rivals of Aether II",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/924c029e-58b4-4e11-a2a1-8a5a66df885d.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Galvan 100 Aether Bucks",
+                  "ownerOrganization": {
+                    "id": "d21af9db-64b7-4327-b785-5939435cae44",
+                    "name": "Rivals Of Aether",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-21T16:59:59.995Z",
+            "name": "100 Aether Bucks",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-07T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "bc512e91-9f62-11f0-95ef-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d21af9db-64b7-4327-b785-5939435cae44_CUSTOM_ID_783b2dab-cec4-44e1-90d3-5e4c03b54faa",
+                  "createdAt": "2025-10-02T07:32:08.558Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "330654616",
+                    "name": "Rivals of Aether II",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c2ac9728-5b63-411e-9b7b-9f5c0238d4ce.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Galvan Drop Icon",
+                  "ownerOrganization": {
+                    "id": "d21af9db-64b7-4327-b785-5939435cae44",
+                    "name": "Rivals Of Aether",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-21T16:59:59.995Z",
+            "name": "Purple Galvan Icon",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-10-07T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c8450f9c-9f62-11f0-a85f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d21af9db-64b7-4327-b785-5939435cae44_CUSTOM_ID_5b37bc4b-3210-4cf2-8d2f-df6c32f10be2",
+                  "createdAt": "2025-10-02T07:33:03.168Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "330654616",
+                    "name": "Rivals of Aether II",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/aca04953-670e-40d7-9280-794f5744433d.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Galvan Drop Palette",
+                  "ownerOrganization": {
+                    "id": "d21af9db-64b7-4327-b785-5939435cae44",
+                    "name": "Rivals Of Aether",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-21T16:59:59.995Z",
+            "name": "Purple Galvan Palette",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-10-07T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-07T17:00:00.000Z"
+  },
+  {
+    "endAt": "2025-10-21T16:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/774680424-120x160.jpg",
+    "gameDisplayName": "2XKO",
+    "gameId": "774680424",
+    "rewards": [
+      {
+        "id": "1093673a-9a4d-11f0-9527-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "411711363",
+              "displayName": "exodoplays",
+              "name": "exodoplays",
+              "__typename": "Channel"
+            },
+            {
+              "id": "24590287",
+              "displayName": "Keoma288",
+              "name": "keoma288",
+              "__typename": "Channel"
+            },
+            {
+              "id": "37516929",
+              "displayName": "ca_Millia",
+              "name": "ca_millia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "80540598",
+              "displayName": "RazzieBinx",
+              "name": "razziebinx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38617228",
+              "displayName": "PNDKandM",
+              "name": "pndkandm",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28202626",
+              "displayName": "ThisIsLIJoe",
+              "name": "thisislijoe",
+              "__typename": "Channel"
+            },
+            {
+              "id": "103815969",
+              "displayName": "Tru4Smash",
+              "name": "tru4smash",
+              "__typename": "Channel"
+            },
+            {
+              "id": "167618935",
+              "displayName": "tpk_live",
+              "name": "tpk_live",
+              "__typename": "Channel"
+            },
+            {
+              "id": "176685055",
+              "displayName": "slasht2m",
+              "name": "slasht2m",
+              "__typename": "Channel"
+            },
+            {
+              "id": "454660530",
+              "displayName": "Sh4rin",
+              "name": "sh4rin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "146242604",
+              "displayName": "broskifgc",
+              "name": "broskifgc",
+              "__typename": "Channel"
+            },
+            {
+              "id": "107676168",
+              "displayName": "MK_RZA",
+              "name": "mk_rza",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1527327",
+              "displayName": "Sajam",
+              "name": "sajam",
+              "__typename": "Channel"
+            },
+            {
+              "id": "26966095",
+              "displayName": "supernoon",
+              "name": "supernoon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "59302497",
+              "displayName": "Diaphone_",
+              "name": "diaphone_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "24565008",
+              "displayName": "SonicFox",
+              "name": "sonicfox",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
+        "description": "2XKO is a free 2v2 fighting game featuring the iconic champions from League of Legends. To celebrate the launch of the game on October 7, we're kicking off a special Twitch Drop campaign featuring two exclusive in-game rewards: the exclusive \"LIVE NOW\" Player Card and Player Title. Fans can earn both by watching participating streamers from the 2XKO creator community as they queue up and join the fight. Just link your game account to Twitch, tune in during the campaign, and claim your rewards to get in on the action.",
+        "detailsURL": "https://2xko.riotgames.com/en-us/",
+        "endAt": "2025-10-21T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "774680424",
+          "slug": "2xko",
+          "displayName": "2XKO",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cb3348d1-63a9-45dd-89bd-ba0cd234a726.png",
+        "name": "2XKO Season 0 Launch",
+        "owner": {
+          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+          "name": "Riot Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-07T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "47e89357-9a4d-11f0-b9bb-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2XKO-LIVENOW-ZERO",
+                  "createdAt": "2025-09-25T20:22:54.844Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "774680424",
+                    "name": "2XKO",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b92dcf66-7b18-4024-bfe6-bf3abd40c25d.png",
+                  "isIosAvailable": true,
+                  "name": "\"LIVE NOW\" Title",
+                  "ownerOrganization": {
+                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+                    "name": "Riot Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-21T16:59:59.999Z",
+            "name": "\"LIVE NOW\" Title",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-10-07T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "bc5b52e9-9a63-11f0-9158-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "411711363",
+              "displayName": "exodoplays",
+              "name": "exodoplays",
+              "__typename": "Channel"
+            },
+            {
+              "id": "24590287",
+              "displayName": "Keoma288",
+              "name": "keoma288",
+              "__typename": "Channel"
+            },
+            {
+              "id": "37516929",
+              "displayName": "ca_Millia",
+              "name": "ca_millia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "80540598",
+              "displayName": "RazzieBinx",
+              "name": "razziebinx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38617228",
+              "displayName": "PNDKandM",
+              "name": "pndkandm",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28202626",
+              "displayName": "ThisIsLIJoe",
+              "name": "thisislijoe",
+              "__typename": "Channel"
+            },
+            {
+              "id": "103815969",
+              "displayName": "Tru4Smash",
+              "name": "tru4smash",
+              "__typename": "Channel"
+            },
+            {
+              "id": "167618935",
+              "displayName": "tpk_live",
+              "name": "tpk_live",
+              "__typename": "Channel"
+            },
+            {
+              "id": "176685055",
+              "displayName": "slasht2m",
+              "name": "slasht2m",
+              "__typename": "Channel"
+            },
+            {
+              "id": "454660530",
+              "displayName": "Sh4rin",
+              "name": "sh4rin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "146242604",
+              "displayName": "broskifgc",
+              "name": "broskifgc",
+              "__typename": "Channel"
+            },
+            {
+              "id": "107676168",
+              "displayName": "MK_RZA",
+              "name": "mk_rza",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1527327",
+              "displayName": "Sajam",
+              "name": "sajam",
+              "__typename": "Channel"
+            },
+            {
+              "id": "26966095",
+              "displayName": "supernoon",
+              "name": "supernoon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "59302497",
+              "displayName": "Diaphone_",
+              "name": "diaphone_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "24565008",
+              "displayName": "SonicFox",
+              "name": "sonicfox",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
+        "description": "2XKO is a free 2v2 fighting game featuring the iconic champions from League of Legends. To celebrate the launch of the game on October 7, we're kicking off a special Twitch Drop campaign featuring two exclusive in-game rewards: the exclusive \"LIVE NOW\" Player Card and Player Title. Fans can earn both by watching participating streamers from the 2XKO creator community as they queue up and join the fight. Just link your game account to Twitch, tune in during the campaign, and claim your rewards to get in on the action.",
+        "detailsURL": "https://2xko.riotgames.com/en-us/",
+        "endAt": "2025-10-21T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "774680424",
+          "slug": "2xko",
+          "displayName": "2XKO",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f6fda463-3526-4760-829c-2d02fbc3de3e.png",
+        "name": "2XKO Season 0 Launch",
+        "owner": {
+          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+          "name": "Riot Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-07T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a8f6b513-9a64-11f0-a2a0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2XKO-PRIVATELOBBY-ZERO",
+                  "createdAt": "2025-09-25T23:10:39.565Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "774680424",
+                    "name": "2XKO",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b757aae-998f-4fc7-9a72-dbbb17822d78.png",
+                  "isIosAvailable": true,
+                  "name": "PRIVATE LOBBY",
+                  "ownerOrganization": {
+                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+                    "name": "Riot Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-21T16:59:59.999Z",
+            "name": "\"PRIVATE LOBBY\" Player Card\t\t\t\t\t",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-07T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-07T17:00:00.000Z"
   },
   {
     "endAt": "2025-10-22T00:59:59.999Z",
