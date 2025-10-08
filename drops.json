@@ -4633,7 +4633,7 @@
     "startAt": "2025-10-02T04:00:00.000Z"
   },
   {
-    "endAt": "2025-10-09T15:59:59.999Z",
+    "endAt": "2025-10-15T22:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
     "gameDisplayName": "World of Warships",
     "gameId": "32502",
@@ -4740,6 +4740,84 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 180,
             "startAt": "2025-10-02T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "48c4adea-9e0f-11f0-9c12-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "182565961",
+              "displayName": "WorldofWarships",
+              "name": "worldofwarships",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://wargaming.net/personal/",
+        "description": "New drops!",
+        "detailsURL": "https://worldofwarships.eu/news/general-news/stream-rewards-149/",
+        "endAt": "2025-10-15T22:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "32502",
+          "slug": "world-of-warships",
+          "displayName": "World of Warships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/af0ffa5b-2818-487f-b90a-9ac8cf6056ba.png",
+        "name": "Official Channel Drop",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-08T22:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "6414be6e-9e0f-11f0-811b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1409_250ct",
+                  "createdAt": "2025-09-30T11:46:33.104Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f0a26c8-8727-46c6-91c3-aacf1398b286.png",
+                  "isIosAvailable": false,
+                  "name": "Update 14.9: 250 CT",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-15T22:59:59.999Z",
+            "name": "Week 2: 250 Community Tokens",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-08T22:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
