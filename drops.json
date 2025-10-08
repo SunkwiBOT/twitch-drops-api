@@ -40521,6 +40521,158 @@
   },
   {
     "endAt": "2025-10-16T09:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/491117_IGDB-120x160.jpg",
+    "gameDisplayName": "Fishing Planet",
+    "gameId": "491117",
+    "rewards": [
+      {
+        "id": "041a67c8-9f87-11f0-a85f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.fishingplanet.com/",
+        "description": "Hey, Angler. Ready to catch some carp? Watch your favorite Fishing Planet streamers and grab awesome rewards. Get Credits, Baitcoins, and, most importantly, passes to Sander Baggersee, Dnipro and Weeping Willow – the real hotspots for carp fishing.  There’s plenty of carp in the lake – time to reel them in!",
+        "detailsURL": "https://forum.fishingplanet.com/index.php?/topic/39144-twitch-drops-step-by-step-instruction/",
+        "endAt": "2025-10-16T09:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "491117",
+          "slug": "fishing-planet",
+          "displayName": "Fishing Planet",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2e6b6733-e626-4929-bf38-6b6296e383ec.png",
+        "name": "Big Carp Campaign",
+        "owner": {
+          "id": "026e2491-7cdb-487a-878c-1115501db154",
+          "name": "Fishing Planet LLC",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-08T10:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5a30c415-9f88-11f0-b982-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "026e2491-7cdb-487a-878c-1115501db154_CUSTOM_ID_Big_Carp_Reward_1",
+                  "createdAt": "2025-04-16T08:31:57.514Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "491117",
+                    "name": "Fishing Planet",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c66411f-0aa8-40e8-abc0-8ff7a63e6347.png",
+                  "isIosAvailable": false,
+                  "name": "Sander Fisher Box",
+                  "ownerOrganization": {
+                    "id": "026e2491-7cdb-487a-878c-1115501db154",
+                    "name": "Fishing Planet LLC",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-16T09:59:59.999Z",
+            "name": "Sander Fisher Box",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-08T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6218220b-9f88-11f0-b230-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "026e2491-7cdb-487a-878c-1115501db154_CUSTOM_ID_Golden_Reward_2",
+                  "createdAt": "2025-03-31T07:38:40.289Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "491117",
+                    "name": "Fishing Planet",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c898d5e0-9ee1-40c7-a3ad-b62c414e50d1.png",
+                  "isIosAvailable": false,
+                  "name": "Dnipro Angler Box",
+                  "ownerOrganization": {
+                    "id": "026e2491-7cdb-487a-878c-1115501db154",
+                    "name": "Fishing Planet LLC",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-16T09:59:59.999Z",
+            "name": "Dnipro Angler Box",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-10-08T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6be33c9e-9f88-11f0-bebd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "026e2491-7cdb-487a-878c-1115501db154_CUSTOM_ID_Golden_Reward_3",
+                  "createdAt": "2025-03-31T07:39:25.924Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "491117",
+                    "name": "Fishing Planet",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/10f5217a-8190-4863-bd11-602d2b26b7e7.png",
+                  "isIosAvailable": false,
+                  "name": "Willow Master Box",
+                  "ownerOrganization": {
+                    "id": "026e2491-7cdb-487a-878c-1115501db154",
+                    "name": "Fishing Planet LLC",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-16T09:59:59.999Z",
+            "name": "Willow Master Box",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-10-08T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-08T10:00:00.000Z"
+  },
+  {
+    "endAt": "2025-10-16T09:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1910103699-120x160.jpg",
     "gameDisplayName": "THE FINALS",
     "gameId": "1910103699",
