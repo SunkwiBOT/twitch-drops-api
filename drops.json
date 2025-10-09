@@ -2617,8 +2617,21 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "31557216",
+              "displayName": "Warframe",
+              "name": "warframe",
+              "__typename": "Channel"
+            },
+            {
+              "id": "145167538",
+              "displayName": "WarframeInternational",
+              "name": "warframeinternational",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://www.warframe.com/user",
