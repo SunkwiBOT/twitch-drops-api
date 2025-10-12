@@ -3754,6 +3754,132 @@
     "gameId": "515474",
     "rewards": [
       {
+        "id": "18dc8858-9c50-11f0-80bf-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "605673574",
+              "displayName": "NARAKABLADEPOINT",
+              "name": "narakabladepoint",
+              "__typename": "Channel"
+            },
+            {
+              "id": "714202554",
+              "displayName": "永劫無間_亞服",
+              "name": "naraka_asia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "798260911",
+              "displayName": "narakaesports",
+              "name": "narakaesports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
+        "description": "Watch livestreams to claim your drops!",
+        "detailsURL": "https://www.narakathegame.com/news/official/20231018/32172_1115415.html",
+        "endAt": "2025-10-12T15:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515474",
+          "slug": "naraka-bladepoint",
+          "displayName": "NARAKA: BLADEPOINT",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ebe43180-73e7-48b4-9ac6-a886e13bcd11.png",
+        "name": "NBPL 10.12",
+        "owner": {
+          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+          "name": "NetEase",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-12T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "26780cd1-9c50-11f0-956f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9134457",
+                  "createdAt": "2025-08-05T11:48:55.372Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/faf9c42b-0dc4-4708-9cf4-08f8ba7bb727.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Tae*200",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-12T15:58:59.999Z",
+            "name": "Tae*200",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-10-12T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "2b1e0592-9c50-11f0-90dd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9134458",
+                  "createdAt": "2025-08-05T11:52:04.588Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d60f651b-dee5-4216-8c7d-04af523835a1.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Spectral Silk*200",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-12T15:58:59.999Z",
+            "name": "Special Silk*200",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-12T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "ad77f3cf-9c50-11f0-a2ad-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -30455,12 +30581,6 @@
               "__typename": "Channel"
             },
             {
-              "id": "86224100",
-              "displayName": "pge4",
-              "name": "pge4",
-              "__typename": "Channel"
-            },
-            {
               "id": "1134253144",
               "displayName": "ExtinctionNA1",
               "name": "extinctionna1",
@@ -30476,6 +30596,30 @@
               "id": "51929371",
               "displayName": "mL7support",
               "name": "ml7support",
+              "__typename": "Channel"
+            },
+            {
+              "id": "194464814",
+              "displayName": "CLEAR__OW",
+              "name": "clear__ow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "778249519",
+              "displayName": "GoudGuys",
+              "name": "goudguys",
+              "__typename": "Channel"
+            },
+            {
+              "id": "477111082",
+              "displayName": "owBRAIN",
+              "name": "owbrain",
+              "__typename": "Channel"
+            },
+            {
+              "id": "702304589",
+              "displayName": "TwisMinds",
+              "name": "twisminds",
               "__typename": "Channel"
             }
           ],
