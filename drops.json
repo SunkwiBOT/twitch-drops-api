@@ -28155,6 +28155,12 @@
               "displayName": "TioKuKZ",
               "name": "tiokukz",
               "__typename": "Channel"
+            },
+            {
+              "id": "552163331",
+              "displayName": "hollythemoth",
+              "name": "hollythemoth",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -50617,6 +50623,158 @@
       }
     ],
     "startAt": "2025-10-01T07:00:00.000Z"
+  },
+  {
+    "endAt": "2025-10-29T03:04:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/553295575_IGDB-120x160.jpg",
+    "gameDisplayName": "Dungeon Stalkers",
+    "gameId": "553295575",
+    "rewards": [
+      {
+        "id": "9897bf1d-a7e1-11f0-9405-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.dungeonstalkers.com",
+        "description": "Twitch Drop for Dungeon Stalkers!  Claim reward by watching your favorite streamers!",
+        "detailsURL": "https://www.dungeonstalkers.com/",
+        "endAt": "2025-10-29T03:04:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "553295575",
+          "slug": "dungeon-stalkers",
+          "displayName": "Dungeon Stalkers",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/63b30f66-4d69-4378-9b72-0ab693d9d7b2.png",
+        "name": "Dungeon Stalker Drops",
+        "owner": {
+          "id": "e5c5bb52-6314-456a-a399-8955f4497d65",
+          "name": "ONEUNIVERSE",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-13T03:05:26Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ade4c0a5-a7e1-11f0-a38b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e5c5bb52-6314-456a-a399-8955f4497d65_CUSTOM_ID_50100",
+                  "createdAt": "2025-08-08T20:29:48.522Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "553295575",
+                    "name": "Dungeon Stalkers",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cae18154-a713-4f8c-b7fa-ee8ce1d023a8.png",
+                  "isIosAvailable": false,
+                  "name": "Consumable Box x 2",
+                  "ownerOrganization": {
+                    "id": "e5c5bb52-6314-456a-a399-8955f4497d65",
+                    "name": "ONEUNIVERSE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-29T03:04:59.999Z",
+            "name": "30분 시청 보상",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-13T03:05:26Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b965bc56-a7e1-11f0-8927-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e5c5bb52-6314-456a-a399-8955f4497d65_CUSTOM_ID_50101",
+                  "createdAt": "2025-08-08T20:30:40.046Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "553295575",
+                    "name": "Dungeon Stalkers",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/44d5b469-d412-454b-b174-9471584275c9.png",
+                  "isIosAvailable": false,
+                  "name": "Rare Weaopn Selector Box",
+                  "ownerOrganization": {
+                    "id": "e5c5bb52-6314-456a-a399-8955f4497d65",
+                    "name": "ONEUNIVERSE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-29T03:04:59.999Z",
+            "name": "60분 시청 보상",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-13T03:05:26Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c3011c12-a7e1-11f0-8292-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e5c5bb52-6314-456a-a399-8955f4497d65_CUSTOM_ID_50102",
+                  "createdAt": "2025-08-08T20:34:10.835Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "553295575",
+                    "name": "Dungeon Stalkers",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f329c861-d204-4ca7-bf30-3b74263a79b0.png",
+                  "isIosAvailable": false,
+                  "name": "Hilda Twitch Skin",
+                  "ownerOrganization": {
+                    "id": "e5c5bb52-6314-456a-a399-8955f4497d65",
+                    "name": "ONEUNIVERSE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-29T03:04:59.999Z",
+            "name": "90분 시청 보상",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-10-13T03:05:26Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-13T03:05:26.000Z"
   },
   {
     "endAt": "2025-10-29T15:59:59.999Z",
