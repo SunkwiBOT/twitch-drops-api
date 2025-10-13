@@ -789,6 +789,147 @@
     "startAt": "2025-10-12T17:59:00.000Z"
   },
   {
+    "endAt": "2025-10-13T19:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
+    "gameDisplayName": "Tanki Online",
+    "gameId": "417810",
+    "rewards": [
+      {
+        "id": "46e248c2-a836-11f0-9fe1-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "117023453",
+              "displayName": "TankiSport_RU",
+              "name": "tankisport_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64274116",
+              "displayName": "TankiSport_EN",
+              "name": "tankisport_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806896138",
+              "displayName": "TankiSport_RU_2",
+              "name": "tankisport_ru_2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806894175",
+              "displayName": "TankiSport_EN_2",
+              "name": "tankisport_en_2",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://tankionline.com/play/",
+        "description": "Watch Tanki Online eSports match livestreams and get Epic Keys in Tanki Online",
+        "detailsURL": "https://tankionline.com/",
+        "endAt": "2025-10-13T19:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417810",
+          "slug": "tanki-online",
+          "displayName": "Tanki Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d05fee79-928a-4729-8815-8889fc541bdd.jpeg",
+        "name": "WMR3 2025 R3 (1)",
+        "owner": {
+          "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+          "name": "APL Publishing Ltd",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-13T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5d955651-a837-11f0-aa0b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-13T19:29:59.999Z",
+            "name": "Match 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-13T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "614c9d08-a837-11f0-9816-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-13T19:29:59.999Z",
+            "name": "Match 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-13T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-13T17:00:00.000Z"
+  },
+  {
     "endAt": "2025-10-13T20:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
     "gameDisplayName": "World of Tanks",
@@ -50548,6 +50689,122 @@
       }
     ],
     "startAt": "2025-10-04T19:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-03T16:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/493597_IGDB-120x160.jpg",
+    "gameDisplayName": "New World: Aeternum",
+    "gameId": "493597",
+    "rewards": [
+      {
+        "id": "9c9d9c72-901e-11f0-ae69-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.playnewworld.com/twitch-drops",
+        "description": "Celebrate the launch of Nighthaven with these latest drops!",
+        "detailsURL": "https://www.playnewworld.com/twitch-drops",
+        "endAt": "2025-11-03T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "493597",
+          "slug": "new-world",
+          "displayName": "New World: Aeternum",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/89d2f0be-f804-4b36-a84b-037789e828d9.jpeg",
+        "name": "Nighthaven Drops",
+        "owner": {
+          "id": "246dc007-9e20-4cc4-abe8-fe7c7039885a",
+          "name": "Amazon Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-13T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "cb5fb139-93e2-11f0-b2b5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f6f9e75c-901e-11f0-9ad5-0a58a9feac02",
+                  "createdAt": "2025-09-12T21:25:11.547Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "493597",
+                    "name": "New World: Aeternum",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e2dbe5dc-d460-426a-b29a-9b11e27eaf18.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Eternal Isle Cache",
+                  "ownerOrganization": {
+                    "id": "246dc007-9e20-4cc4-abe8-fe7c7039885a",
+                    "name": "Amazon Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-03T16:59:59.999Z",
+            "name": "Eternal Isle Cache",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-10-13T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d4805d7e-93e2-11f0-8e1b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "07d7cb90-901f-11f0-86ad-0a58a9feac02",
+                  "createdAt": "2025-09-12T21:25:39.845Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "493597",
+                    "name": "New World: Aeternum",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c881c86d-52ec-43b0-b992-eb7f04733aa9.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Fallen Spirit's Skin",
+                  "ownerOrganization": {
+                    "id": "246dc007-9e20-4cc4-abe8-fe7c7039885a",
+                    "name": "Amazon Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-03T16:59:59.999Z",
+            "name": "Fallen Spirit's Skin",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 420,
+            "startAt": "2025-10-13T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-13T17:00:00.000Z"
   },
   {
     "endAt": "2025-11-06T02:58:59.999Z",
