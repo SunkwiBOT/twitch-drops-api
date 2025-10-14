@@ -6,228 +6,6 @@
     "gameId": "207506430",
     "rewards": [
       {
-        "id": "145d9234-a3bd-11f0-a827-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "110879765",
-              "displayName": "OOTPDevelopments",
-              "name": "ootpdevelopments",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
-        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
-        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
-        "endAt": "2025-10-14T12:55:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "207506430",
-          "slug": "out-of-the-park-baseball-26",
-          "displayName": "Out of the Park Baseball 26",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/40d9fd78-7593-4242-8a3c-f3556d4d0111.png",
-        "name": "Official 10/13/25",
-        "owner": {
-          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-          "name": "Out of the Park Developments",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-10-13T13:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "256a74f8-a3bd-11f0-923b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-14T12:55:59.999Z",
-            "name": "1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-10-13T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "2a5671f4-a3bd-11f0-ace1-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-14T12:55:59.999Z",
-            "name": "2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-10-13T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "2ed0e939-a3bd-11f0-b592-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-14T12:55:59.999Z",
-            "name": "3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-10-13T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "338734e2-a3bd-11f0-b63a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-14T12:55:59.999Z",
-            "name": "4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-10-13T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "384eef80-a3bd-11f0-b12e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "35d2773b-fe75-11ef-9043-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:34:43.938Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c51bf0c7-61c4-408b-b438-512d7a16c123.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Silver Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-14T12:55:59.999Z",
-            "name": "5",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-10-13T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
         "id": "2a142bb0-a3b5-11f0-a0dd-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -41510,6 +41288,1226 @@
       }
     ],
     "startAt": "2025-10-13T17:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-04T12:45:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511295_IGDB-120x160.jpg",
+    "gameDisplayName": "Predecessor",
+    "gameId": "511295",
+    "rewards": [
+      {
+        "id": "88b9b4f7-a8f8-11f0-bae4-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "46785531",
+              "displayName": "A5StarDiningExperience",
+              "name": "a5stardiningexperience",
+              "__typename": "Channel"
+            },
+            {
+              "id": "547927463",
+              "displayName": "Adwiix",
+              "name": "adwiix",
+              "__typename": "Channel"
+            },
+            {
+              "id": "765459686",
+              "displayName": "AMedkitv",
+              "name": "amedkitv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "555297623",
+              "displayName": "astronorimical",
+              "name": "astronorimical",
+              "__typename": "Channel"
+            },
+            {
+              "id": "436177723",
+              "displayName": "BEARBOK",
+              "name": "bearbok",
+              "__typename": "Channel"
+            },
+            {
+              "id": "78426452",
+              "displayName": "Bigcat188",
+              "name": "bigcat188",
+              "__typename": "Channel"
+            },
+            {
+              "id": "117509283",
+              "displayName": "BlazingJacob",
+              "name": "blazingjacob",
+              "__typename": "Channel"
+            },
+            {
+              "id": "172734002",
+              "displayName": "cherrytemper",
+              "name": "cherrytemper",
+              "__typename": "Channel"
+            },
+            {
+              "id": "137077673",
+              "displayName": "ChoicePlays",
+              "name": "choiceplays",
+              "__typename": "Channel"
+            },
+            {
+              "id": "545680622",
+              "displayName": "Cloudie_xo",
+              "name": "cloudie_xo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "226680358",
+              "displayName": "Colonel_Kal",
+              "name": "colonel_kal",
+              "__typename": "Channel"
+            },
+            {
+              "id": "40482915",
+              "displayName": "Crazzyfool",
+              "name": "crazzyfool",
+              "__typename": "Channel"
+            },
+            {
+              "id": "74573592",
+              "displayName": "datguy_kill",
+              "name": "datguy_kill",
+              "__typename": "Channel"
+            },
+            {
+              "id": "78570714",
+              "displayName": "DaveRaged",
+              "name": "daveraged",
+              "__typename": "Channel"
+            },
+            {
+              "id": "409014105",
+              "displayName": "DeSoccerfan",
+              "name": "desoccerfan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "69231170",
+              "displayName": "Deviatingg",
+              "name": "deviatingg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "43013228",
+              "displayName": "DieMandarine",
+              "name": "diemandarine",
+              "__typename": "Channel"
+            },
+            {
+              "id": "96293129",
+              "displayName": "DM_NickD20",
+              "name": "dm_nickd20",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28688087",
+              "displayName": "Drasher",
+              "name": "drasher",
+              "__typename": "Channel"
+            },
+            {
+              "id": "514194753",
+              "displayName": "Efsixx",
+              "name": "efsixx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "433486320",
+              "displayName": "EGOfromESPORTS",
+              "name": "egofromesports",
+              "__typename": "Channel"
+            },
+            {
+              "id": "53178087",
+              "displayName": "ElDudikoff",
+              "name": "eldudikoff",
+              "__typename": "Channel"
+            },
+            {
+              "id": "604557194",
+              "displayName": "Electric__Boogie",
+              "name": "electric__boogie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "84778895",
+              "displayName": "ElLeon",
+              "name": "elleon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "56645485",
+              "displayName": "EmbodiedRevenant",
+              "name": "embodiedrevenant",
+              "__typename": "Channel"
+            },
+            {
+              "id": "135484872",
+              "displayName": "EmpressTiramisu",
+              "name": "empresstiramisu",
+              "__typename": "Channel"
+            },
+            {
+              "id": "119558588",
+              "displayName": "Ethardt",
+              "name": "ethardt",
+              "__typename": "Channel"
+            },
+            {
+              "id": "615831649",
+              "displayName": "Feppyttv",
+              "name": "feppyttv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41376469",
+              "displayName": "Ferlinna",
+              "name": "ferlinna",
+              "__typename": "Channel"
+            },
+            {
+              "id": "152124791",
+              "displayName": "FlyingGazelles",
+              "name": "flyinggazelles",
+              "__typename": "Channel"
+            },
+            {
+              "id": "104470903",
+              "displayName": "FormaGlorday",
+              "name": "formaglorday",
+              "__typename": "Channel"
+            },
+            {
+              "id": "166527036",
+              "displayName": "FranklinTurtz",
+              "name": "franklinturtz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "135580621",
+              "displayName": "funderburgar",
+              "name": "funderburgar",
+              "__typename": "Channel"
+            },
+            {
+              "id": "76494184",
+              "displayName": "G3ral2",
+              "name": "g3ral2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "133750042",
+              "displayName": "GentleGooseTV",
+              "name": "gentlegoosetv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "964980117",
+              "displayName": "GRAVYTRAINgaming",
+              "name": "gravytraingaming",
+              "__typename": "Channel"
+            },
+            {
+              "id": "42264455",
+              "displayName": "gratty",
+              "name": "gratty",
+              "__typename": "Channel"
+            },
+            {
+              "id": "180728466",
+              "displayName": "ImAlwaysPeachy",
+              "name": "imalwayspeachy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "189181178",
+              "displayName": "imNeft",
+              "name": "imneft",
+              "__typename": "Channel"
+            },
+            {
+              "id": "558929081",
+              "displayName": "ImWangle",
+              "name": "imwangle",
+              "__typename": "Channel"
+            },
+            {
+              "id": "632314281",
+              "displayName": "iiitsmeeee",
+              "name": "iiitsmeeee",
+              "__typename": "Channel"
+            },
+            {
+              "id": "130709742",
+              "displayName": "Indocomplex",
+              "name": "indocomplex",
+              "__typename": "Channel"
+            },
+            {
+              "id": "106729534",
+              "displayName": "ItsEmpti",
+              "name": "itsempti",
+              "__typename": "Channel"
+            },
+            {
+              "id": "115238598",
+              "displayName": "itsMike_TV",
+              "name": "itsmike_tv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "31482482",
+              "displayName": "Jaeben_",
+              "name": "jaeben_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64625989",
+              "displayName": "JaybloEscobar",
+              "name": "jaybloescobar",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51417879",
+              "displayName": "JayeFlow",
+              "name": "jayeflow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1048778083",
+              "displayName": "jcwolf__",
+              "name": "jcwolf__",
+              "__typename": "Channel"
+            },
+            {
+              "id": "29044119",
+              "displayName": "JebroUnity",
+              "name": "jebrounity",
+              "__typename": "Channel"
+            },
+            {
+              "id": "508885666",
+              "displayName": "julietacs_",
+              "name": "julietacs_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "106266916",
+              "displayName": "JUSTROWTV",
+              "name": "justrowtv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1019889938",
+              "displayName": "Ka__Lii",
+              "name": "ka__lii",
+              "__typename": "Channel"
+            },
+            {
+              "id": "903058796",
+              "displayName": "KevKaioken",
+              "name": "kevkaioken",
+              "__typename": "Channel"
+            },
+            {
+              "id": "168000578",
+              "displayName": "KillTroll_",
+              "name": "killtroll_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "146735342",
+              "displayName": "KiokuVT",
+              "name": "kiokuvt",
+              "__typename": "Channel"
+            },
+            {
+              "id": "182587512",
+              "displayName": "lesugamezttv",
+              "name": "lesugamezttv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "141540994",
+              "displayName": "LillebyTV",
+              "name": "lillebytv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "225969345",
+              "displayName": "LitaGames",
+              "name": "litagames",
+              "__typename": "Channel"
+            },
+            {
+              "id": "567867938",
+              "displayName": "maddogema",
+              "name": "maddogema",
+              "__typename": "Channel"
+            },
+            {
+              "id": "65696677",
+              "displayName": "Midknightblu1",
+              "name": "midknightblu1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124124530",
+              "displayName": "MillaVT",
+              "name": "millavt",
+              "__typename": "Channel"
+            },
+            {
+              "id": "73455041",
+              "displayName": "MisakiiAyuzawa19",
+              "name": "misakiiayuzawa19",
+              "__typename": "Channel"
+            },
+            {
+              "id": "45779457",
+              "displayName": "MMessias",
+              "name": "mmessias",
+              "__typename": "Channel"
+            },
+            {
+              "id": "209630633",
+              "displayName": "MoroseLive",
+              "name": "moroselive",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36931692",
+              "displayName": "muddx_",
+              "name": "muddx_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "32287651",
+              "displayName": "Mugiwawa",
+              "name": "mugiwawa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "147979506",
+              "displayName": "NeoVirus",
+              "name": "neovirus",
+              "__typename": "Channel"
+            },
+            {
+              "id": "65541964",
+              "displayName": "nervrock_ger",
+              "name": "nervrock_ger",
+              "__typename": "Channel"
+            },
+            {
+              "id": "143887179",
+              "displayName": "Nietzsche_Te_Ocurra",
+              "name": "nietzsche_te_ocurra",
+              "__typename": "Channel"
+            },
+            {
+              "id": "163967455",
+              "displayName": "omglookkitty",
+              "name": "omglookkitty",
+              "__typename": "Channel"
+            },
+            {
+              "id": "546771339",
+              "displayName": "Pap3rrrr",
+              "name": "pap3rrrr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "100307667",
+              "displayName": "Pinzo",
+              "name": "pinzo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "412672707",
+              "displayName": "PredecessorGame",
+              "name": "predecessorgame",
+              "__typename": "Channel"
+            },
+            {
+              "id": "509916345",
+              "displayName": "PresssAnyKey",
+              "name": "presssanykey",
+              "__typename": "Channel"
+            },
+            {
+              "id": "272350033",
+              "displayName": "pubbies_give_me_sniffles",
+              "name": "pubbies_give_me_sniffles",
+              "__typename": "Channel"
+            },
+            {
+              "id": "410703415",
+              "displayName": "Rancher1to",
+              "name": "rancher1to",
+              "__typename": "Channel"
+            },
+            {
+              "id": "40848168",
+              "displayName": "rdawggg",
+              "name": "rdawggg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "102797879",
+              "displayName": "Rebekiiful",
+              "name": "rebekiiful",
+              "__typename": "Channel"
+            },
+            {
+              "id": "148737841",
+              "displayName": "RITTERRIFFIC",
+              "name": "ritterriffic",
+              "__typename": "Channel"
+            },
+            {
+              "id": "599263153",
+              "displayName": "RolyJR",
+              "name": "rolyjr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "134160249",
+              "displayName": "Rosemary",
+              "name": "rosemary",
+              "__typename": "Channel"
+            },
+            {
+              "id": "53141507",
+              "displayName": "RurouniShogun",
+              "name": "rurounishogun",
+              "__typename": "Channel"
+            },
+            {
+              "id": "44696649",
+              "displayName": "SamDaDude",
+              "name": "samdadude",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1041954074",
+              "displayName": "Schmoovy_",
+              "name": "schmoovy_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "159131480",
+              "displayName": "SecretSalsa",
+              "name": "secretsalsa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "48909485",
+              "displayName": "Sickks",
+              "name": "sickks",
+              "__typename": "Channel"
+            },
+            {
+              "id": "558254348",
+              "displayName": "Silox_kill",
+              "name": "silox_kill",
+              "__typename": "Channel"
+            },
+            {
+              "id": "7374",
+              "displayName": "Simbana",
+              "name": "simbana",
+              "__typename": "Channel"
+            },
+            {
+              "id": "50823095",
+              "displayName": "SneakyIndustries",
+              "name": "sneakyindustries",
+              "__typename": "Channel"
+            },
+            {
+              "id": "142147551",
+              "displayName": "Sockcap",
+              "name": "sockcap",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64385878",
+              "displayName": "son1c_ttv",
+              "name": "son1c_ttv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "73061211",
+              "displayName": "SoulRe4p3r",
+              "name": "soulre4p3r",
+              "__typename": "Channel"
+            },
+            {
+              "id": "211919522",
+              "displayName": "stsbutters",
+              "name": "stsbutters",
+              "__typename": "Channel"
+            },
+            {
+              "id": "146796496",
+              "displayName": "SURVIVORTV",
+              "name": "survivortv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "472585238",
+              "displayName": "SYS_Bradmin",
+              "name": "sys_bradmin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51361833",
+              "displayName": "tcmich31",
+              "name": "tcmich31",
+              "__typename": "Channel"
+            },
+            {
+              "id": "109748251",
+              "displayName": "The_BeverageMan",
+              "name": "the_beverageman",
+              "__typename": "Channel"
+            },
+            {
+              "id": "137328306",
+              "displayName": "The_Crutch",
+              "name": "the_crutch",
+              "__typename": "Channel"
+            },
+            {
+              "id": "655691466",
+              "displayName": "The_Ogier",
+              "name": "the_ogier",
+              "__typename": "Channel"
+            },
+            {
+              "id": "171023696",
+              "displayName": "TheBeardedWolverine",
+              "name": "thebeardedwolverine",
+              "__typename": "Channel"
+            },
+            {
+              "id": "43025716",
+              "displayName": "thebesttaco",
+              "name": "thebesttaco",
+              "__typename": "Channel"
+            },
+            {
+              "id": "63548110",
+              "displayName": "TheCozmicExpansionShow",
+              "name": "thecozmicexpansionshow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "32082113",
+              "displayName": "Tno_MSA",
+              "name": "tno_msa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39988047",
+              "displayName": "TopTyr",
+              "name": "toptyr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38375583",
+              "displayName": "Twitchor",
+              "name": "twitchor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "113297220",
+              "displayName": "unicod10",
+              "name": "unicod10",
+              "__typename": "Channel"
+            },
+            {
+              "id": "569751119",
+              "displayName": "VulpineVoice",
+              "name": "vulpinevoice",
+              "__typename": "Channel"
+            },
+            {
+              "id": "131701501",
+              "displayName": "waleader626",
+              "name": "waleader626",
+              "__typename": "Channel"
+            },
+            {
+              "id": "46467268",
+              "displayName": "WinduTheMace",
+              "name": "winduthemace",
+              "__typename": "Channel"
+            },
+            {
+              "id": "27723101",
+              "displayName": "Xclusive",
+              "name": "xclusive",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124174772",
+              "displayName": "Zurigui",
+              "name": "zurigui",
+              "__typename": "Channel"
+            },
+            {
+              "id": "144859385",
+              "displayName": "grizzzly_gaming",
+              "name": "grizzzly_gaming",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://predecessorgame.com/link-accounts",
+        "description": "It's Halloween! Support members of the Predecessor Creator Guild as they take on Update 1.9 and earn exclusive rewards!",
+        "detailsURL": "https://predecessorgame.com/twitch-drops",
+        "endAt": "2025-11-04T12:09:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511295",
+          "slug": "predecessor",
+          "displayName": "Predecessor",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/20be68bd-e396-4c83-9187-fbcedac05c45.png",
+        "name": "💎 Halloween [2025] 🎃",
+        "owner": {
+          "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+          "name": "Omeda Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-14T12:10:28Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "6a17c0ed-a8f9-11f0-9b67-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a91f7166-8559-11ef-8308-0a58a9feac02",
+                  "createdAt": "2024-10-08T09:42:40.776Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e0a7c196-b610-45c7-b3e4-60c703ea49dc.png",
+                  "isIosAvailable": false,
+                  "name": "Sweet Dreams Khai Icon",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-04T12:09:59.998Z",
+            "name": "Sweet Dreams Khaimera",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-10-14T12:10:28Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6d943278-a8f9-11f0-ae7a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9ed13219-8559-11ef-afe8-0a58a9feac02",
+                  "createdAt": "2024-10-08T09:42:23.486Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c9ef8daa-1443-446f-b1cf-fe41d4dfd041.png",
+                  "isIosAvailable": false,
+                  "name": "Sweet Dreams Khai Spray",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-04T12:09:59.998Z",
+            "name": "Sweet Dreams Khaimera",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2025-10-14T12:10:28Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "70fe7327-a8f9-11f0-9e87-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "b182db74-8559-11ef-9153-0a58a9feac02",
+                  "createdAt": "2024-10-08T09:42:54.85Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/078c9fe1-21f3-40bd-b54b-a2dda479a3ec.png",
+                  "isIosAvailable": false,
+                  "name": "Sweet Dreams Khai Skin",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-04T12:09:59.998Z",
+            "name": "Sweet Dreams Khaimera",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 720,
+            "startAt": "2025-10-14T12:10:28Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "891c1b47-a8f9-11f0-84b5-0a58a9feac02",
+            "requiredSubs": 5,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60463a64-eec5-11ef-ad6e-0a58a9feac02",
+                  "createdAt": "2025-02-19T13:28:16.295Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a819a094-6df1-456e-bdea-ed1352eff85d.png",
+                  "isIosAvailable": false,
+                  "name": "Quantum Loot Core",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-04T12:09:59.998Z",
+            "name": "Quantum Loot Core",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-10-14T12:10:28Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ab22aba1-a8f9-11f0-ae1b-0a58a9feac02",
+            "requiredSubs": 5,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60463a64-eec5-11ef-ad6e-0a58a9feac02",
+                  "createdAt": "2025-02-19T13:28:16.295Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a819a094-6df1-456e-bdea-ed1352eff85d.png",
+                  "isIosAvailable": false,
+                  "name": "Quantum Loot Core",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-04T12:09:59.998Z",
+            "name": "Quantum Loot Core",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-10-14T12:10:28Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "aee6ceff-a8f9-11f0-a01b-0a58a9feac02",
+            "requiredSubs": 5,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60463a64-eec5-11ef-ad6e-0a58a9feac02",
+                  "createdAt": "2025-02-19T13:28:16.295Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a819a094-6df1-456e-bdea-ed1352eff85d.png",
+                  "isIosAvailable": false,
+                  "name": "Quantum Loot Core",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-04T12:09:59.998Z",
+            "name": "Quantum Loot Core",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-10-14T12:10:28Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b4431b74-a8f9-11f0-a5dc-0a58a9feac02",
+            "requiredSubs": 5,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "58b718a2-eec5-11ef-bd23-0a58a9feac02",
+                  "createdAt": "2025-02-19T13:28:03.613Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d8a96f72-5a10-4eee-a10e-3ccb1ee1f02b.png",
+                  "isIosAvailable": false,
+                  "name": "Ion Loot Core",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-04T12:09:59.998Z",
+            "name": "Ion Loot Core",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-10-14T12:10:28Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b9a68389-a8f9-11f0-a1e4-0a58a9feac02",
+            "requiredSubs": 5,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "58b718a2-eec5-11ef-bd23-0a58a9feac02",
+                  "createdAt": "2025-02-19T13:28:03.613Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d8a96f72-5a10-4eee-a10e-3ccb1ee1f02b.png",
+                  "isIosAvailable": false,
+                  "name": "Ion Loot Core",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-04T12:09:59.998Z",
+            "name": "Ion Loot Core",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-10-14T12:10:28Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "e9e9fd1f-a8fb-11f0-a30a-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://predecessorgame.com/link-accounts",
+        "description": "It's Halloween! Support anyone streaming Predecessor as they take on Update 1.9 and earn exclusive rewards!",
+        "detailsURL": "https://predecessorgame.com/twitch-drops",
+        "endAt": "2025-11-04T12:45:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511295",
+          "slug": "predecessor",
+          "displayName": "Predecessor",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f03ce1e6-a45f-4ebc-a020-a3270a9efb65.png",
+        "name": "Halloween [2025]",
+        "owner": {
+          "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+          "name": "Omeda Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-14T12:46:14Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0238fc2f-a8fc-11f0-ad18-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "13092b6c-bc81-11ef-a919-0a58a9feac02",
+                  "createdAt": "2024-12-17T14:13:22.794Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6a4897cb-648d-4aab-ade7-b978f4dfbc97.png",
+                  "isIosAvailable": false,
+                  "name": "Tombstone Spray",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-04T12:45:59.999Z",
+            "name": "Tombstone Spray",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2025-10-14T12:46:14Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "1b406514-a8fc-11f0-ae1b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fb969e10-4442-11ef-a5bb-0a58a9feac02",
+                  "createdAt": "2024-07-17T13:46:35.125Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6732043e-6426-4d50-ba1c-1f25fbac091a.png",
+                  "isIosAvailable": false,
+                  "name": "Countess Punk Var. Skin",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-04T12:45:59.999Z",
+            "name": "Punk Countess",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 720,
+            "startAt": "2025-10-14T12:46:14Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4690d51b-a8fc-11f0-95f4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "58b718a2-eec5-11ef-bd23-0a58a9feac02",
+                  "createdAt": "2025-02-19T13:28:03.613Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d8a96f72-5a10-4eee-a10e-3ccb1ee1f02b.png",
+                  "isIosAvailable": false,
+                  "name": "Ion Loot Core",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-04T12:45:59.999Z",
+            "name": "Ion Loot Core",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-10-14T12:46:14Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "93f0abfb-a8fc-11f0-881e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "58b718a2-eec5-11ef-bd23-0a58a9feac02",
+                  "createdAt": "2025-02-19T13:28:03.613Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d8a96f72-5a10-4eee-a10e-3ccb1ee1f02b.png",
+                  "isIosAvailable": false,
+                  "name": "Ion Loot Core",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-04T12:45:59.999Z",
+            "name": "Ion Loot Core",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 540,
+            "startAt": "2025-10-14T12:46:14Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f31a93c8-a8fb-11f0-9c04-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d5c49622-8557-11ef-beec-0a58a9feac02",
+                  "createdAt": "2024-10-08T09:29:36.685Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/933ecb7a-bd65-414f-a944-06bcfe871785.png",
+                  "isIosAvailable": false,
+                  "name": "Spirits Eve Pumpkin Spray",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-04T12:45:59.999Z",
+            "name": "Pumpkin Spray",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-10-14T12:46:14Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-14T12:10:28.000Z"
   },
   {
     "endAt": "2025-11-06T02:58:59.999Z",
