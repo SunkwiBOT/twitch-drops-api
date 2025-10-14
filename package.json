@@ -2,7 +2,11 @@
   "name": "twitch-drops-api",
   "version": "1.0.0",
   "description": "API providing a list of available Twitch campaigns and rewards with detailed information.",
-  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "fetch:drops": "bun run fetch-drops.ts",
+    "fetch:rewards": "bun run fetch-rewards.ts"
+  },
   "keywords": [
     "Twitch",
     "Twitch Drops",

@@ -1,5 +1,7 @@
 # Public Twitch Drops API 🎮
 
+![Repository Views](https://komarev.com/ghpvc/?username=SunkwiBOT&repo=twitch-drops-api&label=Repository%20Views&color=brightgreen&style=flat)
+
 This API provides a list of available Twitch campaigns and rewards with detailed information. It includes two main endpoints: one for retrieving Twitch campaigns and another for Twitch rewards.
 
 > **Note**: This API is used in [Twitch Alerts 🔔](https://discord.com/application-directory/1041679706988228639), a free Discord bot that allows users to:
@@ -152,6 +154,7 @@ type TwitchDropCampaignType = {
             name: string;
             __typename: string;
           };
+          distributionType: string;
           __typename: string;
         };
         entitlementLimit: number;
@@ -179,7 +182,7 @@ type TwitchRewardCampaignType = {
   brand: string;
   endsAt: string;
   externalURL: string;
-  game: {
+  game?: {
     __typename: string;
     displayName: string;
     id: string;
@@ -212,6 +215,7 @@ type TwitchRewardCampaignType = {
   rewardValueURLParam: string;
   startsAt: string;
   status: string;
+  summary: string;
   unlockRequirements: {
     __typename: string;
     minuteWatchedGoal: number;
