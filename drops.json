@@ -41187,6 +41187,158 @@
     "startAt": "2025-09-25T08:00:00.000Z"
   },
   {
+    "endAt": "2025-10-23T08:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/223869970_IGDB-120x160.jpg",
+    "gameDisplayName": "Warhammer 40,000: Space Marine II",
+    "gameId": "223869970",
+    "rewards": [
+      {
+        "id": "c200da28-a9a3-11f0-a1ac-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://prismray.io/account/connections",
+        "description": "Watch any Warhammer 40,000: Space Marine 2 stream on Twitch between October 16, 2025 (11:00 am Central Europe Summer Time), and October 24, 2025 (11:00 am Central Europe Summer Time), to earn in-game rewards: \n- Watch 30 minutes to earn the Porphyr Shield Bolt Pistol skin. \n- Watch 1 hour to earn the Porphyr Shield Power Axe skin. \n- Watch 2 hours to earn the Porphyr Shield Power Fist skin.",
+        "detailsURL": "https://support.prismray.io/hc/en-us/articles/14680545135761-How-to-Get-Twitch-Drops",
+        "endAt": "2025-10-23T08:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "223869970",
+          "slug": "warhammer-40-000-space-marine-ii",
+          "displayName": "Warhammer 40,000: Space Marine II",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f61d724e-0617-48da-9008-28a5b0150743.jpeg",
+        "name": "Twitch Drops!",
+        "owner": {
+          "id": "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d",
+          "name": "Saber Interactive",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-16T08:25:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "054abdaa-a9a4-11f0-84f2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d_CUSTOM_ID_twitch_boltpistol",
+                  "createdAt": "2024-07-15T07:28:36.94Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "223869970",
+                    "name": "Warhammer 40,000: Space Marine II",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5b998d84-a82c-493c-8d13-ebdb2e904c56.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Porphyr Shield BoltPistol",
+                  "ownerOrganization": {
+                    "id": "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d",
+                    "name": "Saber Interactive",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-23T08:59:59.999Z",
+            "name": "Bolt Pistol",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-16T08:25:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "0ade9a38-a9a4-11f0-81c2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d_CUSTOM_ID_Porphyr_Shield_Power_Axe",
+                  "createdAt": "2025-08-13T14:14:25.086Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "223869970",
+                    "name": "Warhammer 40,000: Space Marine II",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1c99f0df-2b91-4ad5-b2ac-807f91d8a2d6.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Porphyr Shield Power Axe",
+                  "ownerOrganization": {
+                    "id": "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d",
+                    "name": "Saber Interactive",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-23T08:59:59.999Z",
+            "name": "Power Axe",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-16T08:25:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "0ff63a24-a9a4-11f0-9b56-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d_CUSTOM_ID_twitch_powerfist",
+                  "createdAt": "2024-06-24T12:41:37.73Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "223869970",
+                    "name": "Warhammer 40,000: Space Marine II",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9b01d9f0-cb79-49f6-a837-1a535fd53503.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Porphyr Shield Powerfist",
+                  "ownerOrganization": {
+                    "id": "2e4bad9d-3613-48a1-a3e7-b66c6a2b181d",
+                    "name": "Saber Interactive",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-23T08:59:59.999Z",
+            "name": "Power Fist",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-10-16T08:25:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-16T08:25:00.000Z"
+  },
+  {
     "endAt": "2025-10-23T18:59:59.000Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1936054038_IGDB-120x160.jpg",
     "gameDisplayName": "Little Nightmares III",
