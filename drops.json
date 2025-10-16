@@ -1,309 +1,5 @@
 [
   {
-    "endAt": "2025-10-16T09:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/491117_IGDB-120x160.jpg",
-    "gameDisplayName": "Fishing Planet",
-    "gameId": "491117",
-    "rewards": [
-      {
-        "id": "041a67c8-9f87-11f0-a85f-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.fishingplanet.com/",
-        "description": "Hey, Angler. Ready to catch some carp? Watch your favorite Fishing Planet streamers and grab awesome rewards. Get Credits, Baitcoins, and, most importantly, passes to Sander Baggersee, Dnipro and Weeping Willow – the real hotspots for carp fishing.  There’s plenty of carp in the lake – time to reel them in!",
-        "detailsURL": "https://forum.fishingplanet.com/index.php?/topic/39144-twitch-drops-step-by-step-instruction/",
-        "endAt": "2025-10-16T09:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "491117",
-          "slug": "fishing-planet",
-          "displayName": "Fishing Planet",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2e6b6733-e626-4929-bf38-6b6296e383ec.png",
-        "name": "Big Carp Campaign",
-        "owner": {
-          "id": "026e2491-7cdb-487a-878c-1115501db154",
-          "name": "Fishing Planet LLC",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-10-08T10:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "5a30c415-9f88-11f0-b982-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "026e2491-7cdb-487a-878c-1115501db154_CUSTOM_ID_Big_Carp_Reward_1",
-                  "createdAt": "2025-04-16T08:31:57.514Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "491117",
-                    "name": "Fishing Planet",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c66411f-0aa8-40e8-abc0-8ff7a63e6347.png",
-                  "isIosAvailable": false,
-                  "name": "Sander Fisher Box",
-                  "ownerOrganization": {
-                    "id": "026e2491-7cdb-487a-878c-1115501db154",
-                    "name": "Fishing Planet LLC",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-16T09:59:59.999Z",
-            "name": "Sander Fisher Box",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-10-08T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "6218220b-9f88-11f0-b230-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "026e2491-7cdb-487a-878c-1115501db154_CUSTOM_ID_Golden_Reward_2",
-                  "createdAt": "2025-03-31T07:38:40.289Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "491117",
-                    "name": "Fishing Planet",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c898d5e0-9ee1-40c7-a3ad-b62c414e50d1.png",
-                  "isIosAvailable": false,
-                  "name": "Dnipro Angler Box",
-                  "ownerOrganization": {
-                    "id": "026e2491-7cdb-487a-878c-1115501db154",
-                    "name": "Fishing Planet LLC",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-16T09:59:59.999Z",
-            "name": "Dnipro Angler Box",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-10-08T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "6be33c9e-9f88-11f0-bebd-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "026e2491-7cdb-487a-878c-1115501db154_CUSTOM_ID_Golden_Reward_3",
-                  "createdAt": "2025-03-31T07:39:25.924Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "491117",
-                    "name": "Fishing Planet",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/10f5217a-8190-4863-bd11-602d2b26b7e7.png",
-                  "isIosAvailable": false,
-                  "name": "Willow Master Box",
-                  "ownerOrganization": {
-                    "id": "026e2491-7cdb-487a-878c-1115501db154",
-                    "name": "Fishing Planet LLC",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-16T09:59:59.999Z",
-            "name": "Willow Master Box",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-10-08T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-10-08T10:00:00.000Z"
-  },
-  {
-    "endAt": "2025-10-16T09:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1910103699-120x160.jpg",
-    "gameDisplayName": "THE FINALS",
-    "gameId": "1910103699",
-    "rewards": [
-      {
-        "id": "e525d148-9f5b-11f0-95ef-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://embark-games.embark.net/",
-        "description": "In celebration of the Heaven or Else event, proudly sponsored by HOLTOW and the new Pearly Gates Insurance, you'll be able to fight for your afterlife in the Arena and collect the Broadcast Blaze Twitch Drops!",
-        "detailsURL": "https://www.reachthefinals.com/twitch",
-        "endAt": "2025-10-16T09:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1910103699",
-          "slug": "the-finals",
-          "displayName": "THE FINALS",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-        "name": "Heaven or Else Drops!",
-        "owner": {
-          "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
-          "name": "Embark Studios",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-10-02T12:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "1f9d5328-9f61-11f0-b069-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55_CUSTOM_ID_BroadcastBM26",
-                  "createdAt": "2025-10-02T07:45:22.489Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1910103699",
-                    "name": "THE FINALS",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/698c534f-bcdc-4baa-8005-697a5f34a4a3.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Broadcast Blaze M26",
-                  "ownerOrganization": {
-                    "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
-                    "name": "Embark Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-16T09:59:59.999Z",
-            "name": "Broadcast Blaze M26 Matter",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-10-02T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "25f06c16-9f61-11f0-8811-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55_CUSTOM_ID_BroadcastBCerberus",
-                  "createdAt": "2025-10-02T07:46:30.478Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1910103699",
-                    "name": "THE FINALS",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c62e17d8-c990-4653-b317-17ad441ce336.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Broadcast Blaze Cerberus",
-                  "ownerOrganization": {
-                    "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
-                    "name": "Embark Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-16T09:59:59.999Z",
-            "name": "Broadcast Blaze Cerberus 12GA",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-10-02T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "2b164593-9f61-11f0-b41b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55_CUSTOM_ID_BroadcastBlazeShAK",
-                  "createdAt": "2025-10-02T07:46:54.556Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1910103699",
-                    "name": "THE FINALS",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a3e03e5d-be68-42a0-8aec-10e0ffad43cf.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Broadcast Blaze ShAK-50",
-                  "ownerOrganization": {
-                    "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
-                    "name": "Embark Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-16T09:59:59.999Z",
-            "name": "Broadcast Blaze ShAK-50",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-10-02T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-10-02T12:00:00.000Z"
-  },
-  {
     "endAt": "2025-10-16T11:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/266795834_IGDB-120x160.jpg",
     "gameDisplayName": "Blue Protocol: Star Resonance",
@@ -6715,6 +6411,86 @@
       }
     ],
     "startAt": "2025-10-13T14:00:00.000Z"
+  },
+  {
+    "endAt": "2025-10-17T09:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+    "gameDisplayName": "Albion Online",
+    "gameId": "417528",
+    "rewards": [
+      {
+        "id": "7f58028b-949e-11f0-8ff3-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://albiononline.com/twitch",
+        "description": "Earn exclusive rewards by watching Albion Online livestreams!",
+        "detailsURL": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+        "endAt": "2025-10-17T09:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417528",
+          "slug": "albion-online",
+          "displayName": "Albion Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/21057b8a-3a2c-4031-be8b-f044b3e95a76.png",
+        "name": "Abyssal Depths 16 - #4/7",
+        "owner": {
+          "id": "39dcfadd-48e4-4362-8c22-974319aff88e",
+          "name": "Sandbox Interactive",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-16T10:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "badd33c5-94a0-11f0-968b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "39dcfadd-48e4-4362-8c22-974319aff88e_CUSTOM_ID_abyssal_depths_chest-6b60cab5-ae22-4e0c-9965-e2ffb62f2b35",
+                  "createdAt": "2025-06-23T10:24:48.411Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417528",
+                    "name": "Albion Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4cc6775c-dc20-448a-b55e-5dfcd24403af.png",
+                  "isIosAvailable": true,
+                  "name": "Abyssal Depths Chest",
+                  "ownerOrganization": {
+                    "id": "39dcfadd-48e4-4362-8c22-974319aff88e",
+                    "name": "Sandbox Interactive",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-17T09:29:59.999Z",
+            "name": "Abyssal Depths Chest",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-10-16T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-16T10:00:00.000Z"
   },
   {
     "endAt": "2025-10-17T10:59:59.999Z",
