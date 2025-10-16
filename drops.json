@@ -48186,5 +48186,85 @@
       }
     ],
     "startAt": "2025-10-15T14:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-13T02:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/490100-120x160.jpg",
+    "gameDisplayName": "Lost Ark",
+    "gameId": "490100",
+    "rewards": [
+      {
+        "id": "5b263c84-9994-11f0-88d9-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.playlostark.com/twitch-drops",
+        "description": "Get your Battle Chest and Legendary Card packs in this latest drop!",
+        "detailsURL": "https://www.playlostark.com/twitch-drops",
+        "endAt": "2025-11-13T02:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "490100",
+          "slug": "lost-ark",
+          "displayName": "Lost Ark",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f82a5ce5-d9b0-4415-811e-23f313278743.jpeg",
+        "name": "October Evergreen Drop",
+        "owner": {
+          "id": "8deb8492-e435-4375-9918-a270526bfdd2",
+          "name": "Smilegate + Amazon Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-16T03:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "75a3ad46-9994-11f0-8c47-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a5830970-9994-11f0-8bf6-0a58a9feac02",
+                  "createdAt": "2025-09-24T22:20:15.952Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490100",
+                    "name": "Lost Ark",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f816c49-8691-4243-8308-01da9012c66d.jpeg",
+                  "isIosAvailable": false,
+                  "name": "October Evergreen",
+                  "ownerOrganization": {
+                    "id": "8deb8492-e435-4375-9918-a270526bfdd2",
+                    "name": "Smilegate + Amazon Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-13T02:59:59.999Z",
+            "name": "October Evergreen",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-10-16T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-16T03:00:00.000Z"
   }
 ]
