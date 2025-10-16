@@ -608,7 +608,7 @@
     "startAt": "2025-10-09T12:00:00.000Z"
   },
   {
-    "endAt": "2025-10-17T23:29:59.999Z",
+    "endAt": "2025-10-16T11:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
     "gameDisplayName": "Black Desert",
     "gameId": "386821",
@@ -751,84 +751,6 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-10-15T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "ef801b73-aa4e-11f0-88df-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "1344442043",
-              "displayName": "checheetv",
-              "name": "checheetv",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://paalphaqa-account.pearlabyss.com/Account/SNSLink",
-        "description": "-",
-        "detailsURL": "https://paalphaqa-www.kr.playblackdesert.com/ko-KR/News/Detail?groupContentNo=4923",
-        "endAt": "2025-10-17T23:29:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "386821",
-          "slug": "black-desert",
-          "displayName": "Black Desert",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-        "name": "ASIA - 20251016_TEST",
-        "owner": {
-          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
-          "name": "Pearl Abyss",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-10-16T00:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "8cab022b-aa4f-11f0-85cd-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_2025101520251015",
-                  "createdAt": "2025-10-16T05:16:55.887Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "386821",
-                    "name": "Black Desert",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
-                  "isIosAvailable": false,
-                  "name": "20251016 ASIA TEST",
-                  "ownerOrganization": {
-                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
-                    "name": "Pearl Abyss",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-17T23:29:59.999Z",
-            "name": "TEST",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-10-16T00:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
