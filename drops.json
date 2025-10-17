@@ -1,157 +1,5 @@
 [
   {
-    "endAt": "2025-10-17T03:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/65654_IGDB-120x160.jpg",
-    "gameDisplayName": "The Elder Scrolls Online",
-    "gameId": "65654",
-    "rewards": [
-      {
-        "id": "c781ca66-a604-11f0-9445-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.elderscrollsonline.com/",
-        "description": "Earn the Imperial War Mastiff Pet and Auroran Warhorse Mount simply by watching Drop-enabled ESO streams on Twitch!",
-        "detailsURL": "https://www.elderscrollsonline.com/en-us/news/post/68785",
-        "endAt": "2025-10-17T03:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "65654",
-          "slug": "the-elder-scrolls-online",
-          "displayName": "The Elder Scrolls Online",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0662ec83-8df5-44a1-88d7-73800e19eaa3.png",
-        "name": "Writhing Wall Event\t",
-        "owner": {
-          "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
-          "name": "ZeniMax Online Studios",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-10-13T14:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "e703d0a6-a604-11f0-a416-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_661",
-                  "createdAt": "2023-10-16T20:45:26.801Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "65654",
-                    "name": "The Elder Scrolls Online",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82e27bfb-eed2-4d24-bbeb-668789ff1dd4.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Ouroboros Crown Crate",
-                  "ownerOrganization": {
-                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
-                    "name": "ZeniMax Online Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-17T03:59:59.999Z",
-            "name": "Ouroboros Crown Crate",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-10-13T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "f42d6cca-a604-11f0-855f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_1841",
-                  "createdAt": "2025-10-10T18:10:43.945Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "65654",
-                    "name": "The Elder Scrolls Online",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d2c8540e-c5d4-4a5b-ae08-a0efcb615e84.png",
-                  "isIosAvailable": false,
-                  "name": "Imperial War Mastiff Pet",
-                  "ownerOrganization": {
-                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
-                    "name": "ZeniMax Online Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-17T03:59:59.999Z",
-            "name": "Imperial War Mastiff Pet",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-10-13T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "fb080450-a604-11f0-9579-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_1837",
-                  "createdAt": "2025-10-10T18:10:13.113Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "65654",
-                    "name": "The Elder Scrolls Online",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/37c6b57f-4a15-4bce-b9a4-245c001248c9.png",
-                  "isIosAvailable": false,
-                  "name": "Auroran Warhorse Mount",
-                  "ownerOrganization": {
-                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
-                    "name": "ZeniMax Online Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-17T03:59:59.999Z",
-            "name": "Auroran Warhorse Mount",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 480,
-            "startAt": "2025-10-13T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-10-13T14:00:00.000Z"
-  },
-  {
     "endAt": "2025-10-17T09:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
     "gameDisplayName": "Albion Online",
@@ -26306,6 +26154,230 @@
     "startAt": "2025-10-15T17:20:00.000Z"
   },
   {
+    "endAt": "2025-10-20T03:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/272952894_IGDB-120x160.jpg",
+    "gameDisplayName": "Madden NFL 26",
+    "gameId": "272952894",
+    "rewards": [
+      {
+        "id": "f4ef447d-a9e2-11f0-aaee-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Celebrate Most Feared by watching your favorite creators play Madden NFL 26 earn some Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-10-20T03:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "272952894",
+          "slug": "ea-sports-madden-nfl-26",
+          "displayName": "Madden NFL 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1011a83c-e265-4757-ae0a-174591959668.png",
+        "name": "Madden 26 Most Feared ",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-17T04:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "8e963c4b-a9e3-11f0-99f9-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-MCS-MF-002",
+                  "createdAt": "2025-10-15T16:14:58.697Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a2015858-ebce-408a-b4b1-606972fe049e.png",
+                  "isIosAvailable": false,
+                  "name": "Madden Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-20T03:59:59.999Z",
+            "name": "Madden Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-17T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "96fb213a-a9e3-11f0-a431-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-MCS-MF-003",
+                  "createdAt": "2025-10-15T16:15:25.973Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31c1ce40-4359-4355-910c-2e18702e11da.png",
+                  "isIosAvailable": false,
+                  "name": "Madden Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-20T03:59:59.999Z",
+            "name": "Madden Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-10-17T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9ac0c92e-a9e3-11f0-8d26-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-MCS-MF-004",
+                  "createdAt": "2025-10-15T16:15:54.69Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/71922fe9-d29f-4f65-a9ef-13017c277d7a.png",
+                  "isIosAvailable": false,
+                  "name": "Madden Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-20T03:59:59.999Z",
+            "name": "Madden Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-10-17T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9e113990-a9e3-11f0-af8e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-MCS-MF-005",
+                  "createdAt": "2025-10-15T16:16:15.606Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d05d32de-3ba6-4bbb-aedd-acbd48c58187.png",
+                  "isIosAvailable": false,
+                  "name": "Madden Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-20T03:59:59.999Z",
+            "name": "Madden Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-10-17T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a797cab5-a9e3-11f0-a50b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-MCS-MF-006",
+                  "createdAt": "2025-10-15T16:17:38.877Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a152d953-6d52-40a2-8381-8da91ada0485.png",
+                  "isIosAvailable": false,
+                  "name": "82+ Most Feared BND Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-20T03:59:59.999Z",
+            "name": "82+ Most Feared BND Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2025-10-17T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-17T04:00:00.000Z"
+  },
+  {
     "endAt": "2025-11-10T07:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
     "gameDisplayName": "Overwatch 2",
@@ -48524,5 +48596,157 @@
       }
     ],
     "startAt": "2025-10-16T03:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-14T03:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/65654_IGDB-120x160.jpg",
+    "gameDisplayName": "The Elder Scrolls Online",
+    "gameId": "65654",
+    "rewards": [
+      {
+        "id": "4d33aaa1-aaf6-11f0-b4f2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.elderscrollsonline.com/",
+        "description": "Earn the Imperial War Mastiff Pet and Auroran Warhorse Mount simply by watching Drop-enabled ESO streams on Twitch!",
+        "detailsURL": "https://www.elderscrollsonline.com/en-us/news/post/68785",
+        "endAt": "2025-11-14T03:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "65654",
+          "slug": "the-elder-scrolls-online",
+          "displayName": "The Elder Scrolls Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/432ce47e-90ce-44e9-8163-49552ced2a18.png",
+        "name": "Writhing Wall Event",
+        "owner": {
+          "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
+          "name": "ZeniMax Online Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-17T04:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "60688848-aaf6-11f0-8f78-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_661",
+                  "createdAt": "2023-10-16T20:45:26.801Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "65654",
+                    "name": "The Elder Scrolls Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82e27bfb-eed2-4d24-bbeb-668789ff1dd4.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Ouroboros Crown Crate",
+                  "ownerOrganization": {
+                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
+                    "name": "ZeniMax Online Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-14T03:59:59.999Z",
+            "name": "Ouroboros Crown Crate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-17T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "68fa73aa-aaf6-11f0-a1ca-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_1841",
+                  "createdAt": "2025-10-10T18:10:43.945Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "65654",
+                    "name": "The Elder Scrolls Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d2c8540e-c5d4-4a5b-ae08-a0efcb615e84.png",
+                  "isIosAvailable": false,
+                  "name": "Imperial War Mastiff Pet",
+                  "ownerOrganization": {
+                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
+                    "name": "ZeniMax Online Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-14T03:59:59.999Z",
+            "name": "Imperial War Mastiff Pet",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-10-17T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6f700d05-aaf6-11f0-b30c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0_CUSTOM_ID_1837",
+                  "createdAt": "2025-10-10T18:10:13.113Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "65654",
+                    "name": "The Elder Scrolls Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/37c6b57f-4a15-4bce-b9a4-245c001248c9.png",
+                  "isIosAvailable": false,
+                  "name": "Auroran Warhorse Mount",
+                  "ownerOrganization": {
+                    "id": "e8dbecb8-428b-43c6-ae8f-f94ee1c632d0",
+                    "name": "ZeniMax Online Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-14T03:59:59.999Z",
+            "name": "Auroran Warhorse Mount",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2025-10-17T04:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-17T04:00:00.000Z"
   }
 ]
