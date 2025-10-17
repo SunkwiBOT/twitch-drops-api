@@ -45042,6 +45042,86 @@
     "startAt": "2025-10-04T19:00:00.000Z"
   },
   {
+    "endAt": "2025-11-02T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1780647523_IGDB-120x160.jpg",
+    "gameDisplayName": "HITMAN World of Assassination",
+    "gameId": "1780647523",
+    "rewards": [
+      {
+        "id": "aa68d8a6-ab34-11f0-b852-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.ioi.dk/",
+        "description": "Earning this reward is simple. You only need to link your IOI Account to your Twitch account and then watch a cumulative 30 minutes of HITMAN World of Assassination on Twitch during the drop campaign duration.",
+        "detailsURL": "https://account.ioi.dk/",
+        "endAt": "2025-11-02T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1780647523",
+          "slug": "hitman-world-of-assassination",
+          "displayName": "HITMAN World of Assassination",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "Season of The Dragon #2",
+        "owner": {
+          "id": "dc639b50-1310-465f-a3a2-7a77e73d6014",
+          "name": "IO Interactive",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-17T08:36:52Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "e7154f98-ab34-11f0-af1f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "dc639b50-1310-465f-a3a2-7a77e73d6014_CUSTOM_ID_97d4c9dc-095c-4ca7-817a-29a736e0ef9a",
+                  "createdAt": "2025-09-17T11:53:30.539Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1780647523",
+                    "name": "HITMAN World of Assassination",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/babcfb74-880f-4ece-b8ad-a56e0c6074e0.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Purple Streak Crowbar",
+                  "ownerOrganization": {
+                    "id": "dc639b50-1310-465f-a3a2-7a77e73d6014",
+                    "name": "IO Interactive",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-02T23:29:59.999Z",
+            "name": "Purple Streak Crowbar",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-17T08:36:52Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-17T08:36:52.000Z"
+  },
+  {
     "endAt": "2025-11-03T05:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/491117_IGDB-120x160.jpg",
     "gameDisplayName": "Fishing Planet",
