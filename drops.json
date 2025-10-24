@@ -1,5 +1,314 @@
 [
   {
+    "endAt": "2025-10-25T01:28:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1233312672_IGDB-120x160.jpg",
+    "gameDisplayName": "Grand Chase Classic",
+    "gameId": "1233312672",
+    "rewards": [
+      {
+        "id": "85d6af4d-ade1-11f0-ad7c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1001432414",
+              "displayName": "koggmstorm",
+              "name": "koggmstorm",
+              "__typename": "Channel"
+            },
+            {
+              "id": "899363469",
+              "displayName": "GCClassic",
+              "name": "gcclassic",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.koggames.com/game/grandchaseclassic/drops/",
+        "description": "The official GrandChase Classic Twitch will livestream for over two hours for players to receive Twitch Drops. Players are encouraged to begin viewing at the start time to ensure they are able to view for the full two hours to receive all rewards. This campaign will only be available through the official GrandChase Classic Twitch.",
+        "detailsURL": "https://www.koggames.com/game/grandchaseclassic/drops/",
+        "endAt": "2025-10-25T01:28:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1233312672",
+          "slug": "grand-chase-classic",
+          "displayName": "Grand Chase Classic",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/25bef808-7b48-4c13-8cdf-cfb479d8decd.png",
+        "name": "10/24 Livestream",
+        "owner": {
+          "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
+          "name": "KOG CO., LTD",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-23T07:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "cd5e0270-ade1-11f0-a381-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1869470_1_-1",
+                  "createdAt": "2025-08-22T17:28:11.278Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1233312672",
+                    "name": "Grand Chase Classic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/acead1d5-a210-4fd6-bac0-a4893724ebc6.png",
+                  "isIosAvailable": false,
+                  "name": "Abyss Card Box",
+                  "ownerOrganization": {
+                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
+                    "name": "KOG CO., LTD",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1017260_1_-1",
+                  "createdAt": "2025-08-22T17:28:44.313Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1233312672",
+                    "name": "Grand Chase Classic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31d7073a-909d-496e-aa2d-a19c4376792c.png",
+                  "isIosAvailable": false,
+                  "name": "GP Item Property Scrollx1",
+                  "ownerOrganization": {
+                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
+                    "name": "KOG CO., LTD",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1522310_-1_-1",
+                  "createdAt": "2025-06-11T17:20:03.677Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1233312672",
+                    "name": "Grand Chase Classic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4bdd0df6-0236-4ed9-a6d5-3d2fb85b5caf.png",
+                  "isIosAvailable": false,
+                  "name": "Premium GC Club (1 Day)",
+                  "ownerOrganization": {
+                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
+                    "name": "KOG CO., LTD",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-25T01:28:59.998Z",
+            "name": "30 Minutes",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-23T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "cfe12fa9-ade1-11f0-98d0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1522310_-1_-1",
+                  "createdAt": "2025-06-11T17:20:03.677Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1233312672",
+                    "name": "Grand Chase Classic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4bdd0df6-0236-4ed9-a6d5-3d2fb85b5caf.png",
+                  "isIosAvailable": false,
+                  "name": "Premium GC Club (1 Day)",
+                  "ownerOrganization": {
+                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
+                    "name": "KOG CO., LTD",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1017260_2_-1",
+                  "createdAt": "2025-07-17T17:22:12.362Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1233312672",
+                    "name": "Grand Chase Classic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/490b98e1-96c4-4442-9659-3eb7a7b51d3a.png",
+                  "isIosAvailable": false,
+                  "name": "GP Item Property Scrollx2",
+                  "ownerOrganization": {
+                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
+                    "name": "KOG CO., LTD",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1860900_10_-1",
+                  "createdAt": "2025-08-22T17:29:22.264Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1233312672",
+                    "name": "Grand Chase Classic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a448f929-0fec-4d5e-ac3b-d0ee506c06da.png",
+                  "isIosAvailable": false,
+                  "name": "Abyss Bullions",
+                  "ownerOrganization": {
+                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
+                    "name": "KOG CO., LTD",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-25T01:28:59.998Z",
+            "name": "1 Hour",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-23T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d355358e-ade1-11f0-92dd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1017260_3_-1",
+                  "createdAt": "2025-10-20T18:23:42.268Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1233312672",
+                    "name": "Grand Chase Classic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/215204f5-5139-4b19-8e9f-3932797b3c26.png",
+                  "isIosAvailable": false,
+                  "name": "GP Item Property Scrollx3",
+                  "ownerOrganization": {
+                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
+                    "name": "KOG CO., LTD",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1522310_-1_-1",
+                  "createdAt": "2025-06-11T17:20:03.677Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1233312672",
+                    "name": "Grand Chase Classic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4bdd0df6-0236-4ed9-a6d5-3d2fb85b5caf.png",
+                  "isIosAvailable": false,
+                  "name": "Premium GC Club (1 Day)",
+                  "ownerOrganization": {
+                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
+                    "name": "KOG CO., LTD",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1860500_3_-1",
+                  "createdAt": "2025-07-17T17:23:15.38Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1233312672",
+                    "name": "Grand Chase Classic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/828ab99f-e5cc-47e5-b50f-d1fb7e8ed04b.png",
+                  "isIosAvailable": false,
+                  "name": "Hero Dungeon Sweep Tix x3",
+                  "ownerOrganization": {
+                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
+                    "name": "KOG CO., LTD",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-25T01:28:59.998Z",
+            "name": "2 Hours",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-10-23T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-23T07:00:00.000Z"
+  },
+  {
     "endAt": "2025-10-25T06:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1846512643_IGDB-120x160.jpg",
     "gameDisplayName": "Borderlands 4",
@@ -9530,6 +9839,639 @@
       }
     ],
     "startAt": "2025-10-20T00:00:00.000Z"
+  },
+  {
+    "endAt": "2025-10-26T23:59:59.997Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2009321156_IGDB-120x160.jpg",
+    "gameDisplayName": "Dark and Darker",
+    "gameId": "2009321156",
+    "rewards": [
+      {
+        "id": "de21191d-af13-11f0-b235-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "732574179",
+              "displayName": "IRONMACE__",
+              "name": "ironmace__",
+              "__typename": "Channel"
+            },
+            {
+              "id": "143656500",
+              "displayName": "vApolloDD",
+              "name": "vapollodd",
+              "__typename": "Channel"
+            },
+            {
+              "id": "146781104",
+              "displayName": "camsoda",
+              "name": "camsoda",
+              "__typename": "Channel"
+            },
+            {
+              "id": "42351817",
+              "displayName": "KenKnobi",
+              "name": "kenknobi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "773548439",
+              "displayName": "duwap",
+              "name": "duwap",
+              "__typename": "Channel"
+            },
+            {
+              "id": "35074137",
+              "displayName": "FoxmanSlays",
+              "name": "foxmanslays",
+              "__typename": "Channel"
+            },
+            {
+              "id": "228191529",
+              "displayName": "FredTheFireball",
+              "name": "fredthefireball",
+              "__typename": "Channel"
+            },
+            {
+              "id": "103741510",
+              "displayName": "Glocktane",
+              "name": "glocktane",
+              "__typename": "Channel"
+            },
+            {
+              "id": "86347328",
+              "displayName": "ItsSolarBear",
+              "name": "itssolarbear",
+              "__typename": "Channel"
+            },
+            {
+              "id": "58529158",
+              "displayName": "Katie",
+              "name": "katie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "52321201",
+              "displayName": "kazaren_tv",
+              "name": "kazaren_tv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "68935704",
+              "displayName": "Majora",
+              "name": "majora",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51746081",
+              "displayName": "mezology",
+              "name": "mezology",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1075993026",
+              "displayName": "PartyChip",
+              "name": "partychip",
+              "__typename": "Channel"
+            },
+            {
+              "id": "537605796",
+              "displayName": "Thekidneypounder",
+              "name": "thekidneypounder",
+              "__typename": "Channel"
+            },
+            {
+              "id": "245039391",
+              "displayName": "promoz",
+              "name": "promoz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "538971223",
+              "displayName": "Redami",
+              "name": "redami",
+              "__typename": "Channel"
+            },
+            {
+              "id": "551313706",
+              "displayName": "Repoze",
+              "name": "repoze",
+              "__typename": "Channel"
+            },
+            {
+              "id": "21842736",
+              "displayName": "retzi",
+              "name": "retzi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "741107771",
+              "displayName": "SkinnyPete",
+              "name": "skinnypete",
+              "__typename": "Channel"
+            },
+            {
+              "id": "66729949",
+              "displayName": "SoBadStrange",
+              "name": "sobadstrange",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1322420327",
+              "displayName": "hippomaxxing",
+              "name": "hippomaxxing",
+              "__typename": "Channel"
+            },
+            {
+              "id": "848757939",
+              "displayName": "UrbanGent253",
+              "name": "urbangent253",
+              "__typename": "Channel"
+            },
+            {
+              "id": "122413431",
+              "displayName": "utoast",
+              "name": "utoast",
+              "__typename": "Channel"
+            },
+            {
+              "id": "125953517",
+              "displayName": "Y4mi",
+              "name": "y4mi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "899657133",
+              "displayName": "Papi_ChuloPc",
+              "name": "papi_chulopc",
+              "__typename": "Channel"
+            },
+            {
+              "id": "215494040",
+              "displayName": "Aikira",
+              "name": "aikira",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39563045",
+              "displayName": "cngblade",
+              "name": "cngblade",
+              "__typename": "Channel"
+            },
+            {
+              "id": "15310631",
+              "displayName": "Greekgodx",
+              "name": "greekgodx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "608113665",
+              "displayName": "onetruemorty11",
+              "name": "onetruemorty11",
+              "__typename": "Channel"
+            },
+            {
+              "id": "999301433",
+              "displayName": "PopcornNate",
+              "name": "popcornnate",
+              "__typename": "Channel"
+            },
+            {
+              "id": "145188914",
+              "displayName": "Onepeg",
+              "name": "onepeg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36384551",
+              "displayName": "TheEndBoss",
+              "name": "theendboss",
+              "__typename": "Channel"
+            },
+            {
+              "id": "955173538",
+              "displayName": "thelorr",
+              "name": "thelorr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "92327399",
+              "displayName": "Toddfather",
+              "name": "toddfather",
+              "__typename": "Channel"
+            },
+            {
+              "id": "451955490",
+              "displayName": "vincennt",
+              "name": "vincennt",
+              "__typename": "Channel"
+            },
+            {
+              "id": "926025314",
+              "displayName": "mrbob_ttv",
+              "name": "mrbob_ttv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "994684482",
+              "displayName": "straightskill1",
+              "name": "straightskill1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "431470138",
+              "displayName": "Dezignful",
+              "name": "dezignful",
+              "__typename": "Channel"
+            },
+            {
+              "id": "409132177",
+              "displayName": "jontheboat",
+              "name": "jontheboat",
+              "__typename": "Channel"
+            },
+            {
+              "id": "26490481",
+              "displayName": "summit1g",
+              "name": "summit1g",
+              "__typename": "Channel"
+            },
+            {
+              "id": "83821051",
+              "displayName": "Markstrom",
+              "name": "markstrom",
+              "__typename": "Channel"
+            },
+            {
+              "id": "205454036",
+              "displayName": "skimasktheslumpgod",
+              "name": "skimasktheslumpgod",
+              "__typename": "Channel"
+            },
+            {
+              "id": "25458544",
+              "displayName": "Sequisha",
+              "name": "sequisha",
+              "__typename": "Channel"
+            },
+            {
+              "id": "63176137",
+              "displayName": "hunterpence",
+              "name": "hunterpence",
+              "__typename": "Channel"
+            },
+            {
+              "id": "738453660",
+              "displayName": "Ryan6DaysAWeek",
+              "name": "ryan6daysaweek",
+              "__typename": "Channel"
+            },
+            {
+              "id": "21588571",
+              "displayName": "Anthony_Kongphan",
+              "name": "anthony_kongphan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "149439626",
+              "displayName": "Blooprint",
+              "name": "blooprint",
+              "__typename": "Channel"
+            },
+            {
+              "id": "206743596",
+              "displayName": "jsonV",
+              "name": "jsonv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "12943173",
+              "displayName": "pokelawls",
+              "name": "pokelawls",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://darkanddarker.com/twitch-drops",
+        "description": "Thank you for your support and love for Dark and Darker! Watch participating Twitch streamers to earn rewards!",
+        "detailsURL": "https://darkanddarker.com/twitch-drops",
+        "endAt": "2025-10-26T23:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2009321156",
+          "slug": "dark-and-darker",
+          "displayName": "Dark and Darker",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1d0f4d5b-e64e-42d8-8d0a-075226acd5e2.png",
+        "name": "Dungeon Rivals Drops #1",
+        "owner": {
+          "id": "765bce30-7a4e-4b03-8210-d93067f171ec",
+          "name": "IRONMACE",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-24T22:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9e7518c8-af1a-11f0-b9c1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cadb7978-af26-11f0-93c1-0a58a9feac02",
+                  "createdAt": "2025-10-22T09:09:19.548Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2009321156",
+                    "name": "Dark and Darker",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4b5b8884-2fab-4753-a825-59dbb9f63380.png",
+                  "isIosAvailable": false,
+                  "name": "Rivals Token Pack #1",
+                  "ownerOrganization": {
+                    "id": "765bce30-7a4e-4b03-8210-d93067f171ec",
+                    "name": "IRONMACE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-26T23:59:59.997Z",
+            "name": "5 Reward Tokens Pack #1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-24T22:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a8b29c9b-af1a-11f0-b959-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0649d3a1-af27-11f0-abeb-0a58a9feac02",
+                  "createdAt": "2025-10-22T09:10:59.257Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2009321156",
+                    "name": "Dark and Darker",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5b63b47-ebe3-456a-a7ce-599227742c3c.png",
+                  "isIosAvailable": false,
+                  "name": "Rivals Great Luck Potions",
+                  "ownerOrganization": {
+                    "id": "765bce30-7a4e-4b03-8210-d93067f171ec",
+                    "name": "IRONMACE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-26T23:59:59.997Z",
+            "name": "Great Luck Potions Set",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-24T22:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b3450afd-af1a-11f0-8181-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "211aad9a-af27-11f0-86e5-0a58a9feac02",
+                  "createdAt": "2025-10-22T09:11:44.246Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2009321156",
+                    "name": "Dark and Darker",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f753f8a-c64c-465c-9a46-a1e4e2a06390.png",
+                  "isIosAvailable": false,
+                  "name": "Rivals Gold Pouch Set #1",
+                  "ownerOrganization": {
+                    "id": "765bce30-7a4e-4b03-8210-d93067f171ec",
+                    "name": "IRONMACE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-26T23:59:59.997Z",
+            "name": "Gold Pouch Pack #1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-10-24T22:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "bb4ab04a-af1a-11f0-9c18-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "de0d7a9d-af26-11f0-8b66-0a58a9feac02",
+                  "createdAt": "2025-10-22T09:09:51.752Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2009321156",
+                    "name": "Dark and Darker",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/70c534c7-0706-431b-bc3e-5361fa65b363.png",
+                  "isIosAvailable": false,
+                  "name": "Rivals Token Pack #2",
+                  "ownerOrganization": {
+                    "id": "765bce30-7a4e-4b03-8210-d93067f171ec",
+                    "name": "IRONMACE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-26T23:59:59.997Z",
+            "name": "5 Reward Tokens Pack #2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-10-24T22:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c44c9a72-af1a-11f0-a82d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3a8b5ac3-af27-11f0-a1e3-0a58a9feac02",
+                  "createdAt": "2025-10-22T09:12:26.928Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2009321156",
+                    "name": "Dark and Darker",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5c8c1f1f-c8d1-447f-b158-bb6d194a82a3.png",
+                  "isIosAvailable": false,
+                  "name": "Rivals Antiquated Coins 1",
+                  "ownerOrganization": {
+                    "id": "765bce30-7a4e-4b03-8210-d93067f171ec",
+                    "name": "IRONMACE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-26T23:59:59.997Z",
+            "name": "5 Antiquated Coins Pack #1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 210,
+            "startAt": "2025-10-24T22:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d0e11ee5-af1a-11f0-927c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "259ee8ad-af27-11f0-843b-0a58a9feac02",
+                  "createdAt": "2025-10-22T09:11:51.824Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2009321156",
+                    "name": "Dark and Darker",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c07d8d5b-57cb-4a3c-83a9-6170497949b7.png",
+                  "isIosAvailable": false,
+                  "name": "Rivals Gold Pouch Set #2",
+                  "ownerOrganization": {
+                    "id": "765bce30-7a4e-4b03-8210-d93067f171ec",
+                    "name": "IRONMACE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-26T23:59:59.997Z",
+            "name": "Gold Pouch Pack #2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 270,
+            "startAt": "2025-10-24T22:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "dd1f3057-af1a-11f0-86e5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "540b971f-af27-11f0-8b1f-0a58a9feac02",
+                  "createdAt": "2025-10-22T09:13:09.711Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2009321156",
+                    "name": "Dark and Darker",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a3865a20-57a9-45c5-908c-048ad05884f9.png",
+                  "isIosAvailable": false,
+                  "name": "Rivals Antiquated Coins 2",
+                  "ownerOrganization": {
+                    "id": "765bce30-7a4e-4b03-8210-d93067f171ec",
+                    "name": "IRONMACE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-26T23:59:59.997Z",
+            "name": "5 Antiquated Coins Pack #2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2025-10-24T22:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ea30940b-af1a-11f0-a2ad-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "7b551c80-af27-11f0-bc1d-0a58a9feac02",
+                  "createdAt": "2025-10-22T09:14:15.624Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2009321156",
+                    "name": "Dark and Darker",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/582be903-838d-400c-b301-71477164edfc.png",
+                  "isIosAvailable": false,
+                  "name": "Candy Cascade Emote",
+                  "ownerOrganization": {
+                    "id": "765bce30-7a4e-4b03-8210-d93067f171ec",
+                    "name": "IRONMACE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-26T23:59:59.997Z",
+            "name": "Candy Cascade",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-10-24T22:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-24T22:30:00.000Z"
   },
   {
     "endAt": "2025-10-26T23:59:59.998Z",
