@@ -1,430 +1,5 @@
 [
   {
-    "endAt": "2025-10-24T19:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/513501_IGDB-120x160.jpg",
-    "gameDisplayName": "Standoff 2",
-    "gameId": "513501",
-    "rewards": [
-      {
-        "id": "997abb83-ae66-11f0-ad7c-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "1124895128",
-              "displayName": "standoff2esports_ru",
-              "name": "standoff2esports_ru",
-              "__typename": "Channel"
-            },
-            {
-              "id": "106631515",
-              "displayName": "Standoff2RuHub",
-              "name": "standoff2ruhub",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://link.standoff2.com/twitch/link/",
-        "description": "Twitch Drops — это система наград, которая позволяет зрителям стрима получать внутриигровые предметы за просмотр трансляции в течение определенного времени.\nКак получить награды:\n– Зайдите в игру и убедитесь, что учетная запись привязана к тому же Twitch-аккаунту.\n– Накопите необходимое время просмотра на официальном канале Standoff 2.\n– Отслеживайте свой прогресс в разделе Drops на Twitch (обычно находится в профиле Twitch → «Drops и награды»).",
-        "detailsURL": "https://install.standoff2.com/ru/twitch-drops",
-        "endAt": "2025-10-24T19:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "513501",
-          "slug": "standoff-2",
-          "displayName": "Standoff 2",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5c7f1e2f-6c20-44ea-ad8a-41f11dc371ef.png",
-        "name": "SO2 PawPaw: Ep.6",
-        "owner": {
-          "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-          "name": "Axlebolt",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-10-24T13:45:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "d9f97274-ae66-11f0-95e0-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate",
-                  "createdAt": "2025-05-30T13:18:07.828Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4ddf84b3-d74f-4ae4-b3ef-4b0016c14c84.png",
-                  "isIosAvailable": false,
-                  "name": "\"Stream\" crate",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-24T19:59:59.999Z",
-            "name": "reward_stream_crate_1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-10-24T13:45:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "dc3f969e-ae66-11f0-b30c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate_1",
-                  "createdAt": "2025-10-21T10:25:57.761Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/cb230e10-3638-4ec5-97d9-b67d2a91b84c.png",
-                  "isIosAvailable": false,
-                  "name": "\"Stream\" crate 1",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-24T19:59:59.999Z",
-            "name": "reward_stream_crate_2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-10-24T13:45:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "e03398ef-ae66-11f0-976c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate_2",
-                  "createdAt": "2025-10-21T10:46:54.272Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1a02e8be-210d-4bbb-8e65-e65d7c13b03c.png",
-                  "isIosAvailable": false,
-                  "name": "\"Stream\" crate 2",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-24T19:59:59.999Z",
-            "name": "reward_stream_crate_3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-10-24T13:45:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "e64ca788-ae66-11f0-9af6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate_3",
-                  "createdAt": "2025-10-21T10:47:19.006Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ea3dfa2a-95ee-4009-b672-5b781a64c7b5.png",
-                  "isIosAvailable": false,
-                  "name": "\"Stream\" crate 3",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-24T19:59:59.999Z",
-            "name": "reward_stream_crate_4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-10-24T13:45:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "e9471df5-ae66-11f0-95b0-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate_4",
-                  "createdAt": "2025-10-21T10:47:34.149Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b16ae098-38c9-4a03-a7aa-00509056d964.png",
-                  "isIosAvailable": false,
-                  "name": "\"Stream\" crate 4",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-24T19:59:59.999Z",
-            "name": "reward_stream_crate_5",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 300,
-            "startAt": "2025-10-24T13:45:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "ed1589b7-ae66-11f0-8a44-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate_5",
-                  "createdAt": "2025-10-21T10:47:50.285Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c976c4b2-2224-4d28-9d67-97acdcd46a62.png",
-                  "isIosAvailable": false,
-                  "name": "\"Stream\" crate 5",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-24T19:59:59.999Z",
-            "name": "reward_stream_crate_6",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2025-10-24T13:45:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-10-24T13:45:00.000Z"
-  },
-  {
-    "endAt": "2025-10-24T19:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
-    "gameDisplayName": "Eternal Return",
-    "gameId": "512864",
-    "rewards": [
-      {
-        "id": "62a04c5a-af0f-11f0-b587-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://playeternalreturn.com/posts/news/3116",
-        "description": "https://playeternalreturn.com/posts/news/3116",
-        "detailsURL": "https://playeternalreturn.com/posts/news/3116",
-        "endAt": "2025-10-24T19:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "512864",
-          "slug": "eternal-return",
-          "displayName": "Eternal Return",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8297e770-ffeb-4bfd-9cc2-1e839c9bfc52.png",
-        "name": "S9 DROPS TOKENS FESTIVAL",
-        "owner": {
-          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-          "name": "Nimble Neuron Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-10-23T20:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "6a2fa44f-af0f-11f0-9336-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-24T19:59:59.999Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-10-23T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "6c604deb-af0f-11f0-ba1a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-24T19:59:59.999Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-10-23T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "6ed19e99-af0f-11f0-87b5-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-24T19:59:59.999Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-10-23T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-10-23T20:00:00.000Z"
-  },
-  {
     "endAt": "2025-10-24T21:29:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1393304883_IGDB-120x160.jpg",
     "gameDisplayName": "Mir Tankov",
@@ -6759,6 +6334,158 @@
       }
     ],
     "startAt": "2025-10-24T17:59:00.000Z"
+  },
+  {
+    "endAt": "2025-10-25T19:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
+    "gameDisplayName": "Eternal Return",
+    "gameId": "512864",
+    "rewards": [
+      {
+        "id": "92260f6e-af0f-11f0-b3ba-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://playeternalreturn.com/posts/news/3116",
+        "description": "https://playeternalreturn.com/posts/news/3116",
+        "detailsURL": "https://playeternalreturn.com/posts/news/3116",
+        "endAt": "2025-10-25T19:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "512864",
+          "slug": "eternal-return",
+          "displayName": "Eternal Return",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/55baa6a1-5ee5-4e58-858c-d97e64220303.png",
+        "name": "S9 DROPS TOKENS FESTIVAL",
+        "owner": {
+          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+          "name": "Nimble Neuron Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-24T20:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "97dd6f63-af0f-11f0-9c18-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
+                  "createdAt": "2025-08-07T07:50:44.716Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+                  "isIosAvailable": false,
+                  "name": "Drops Token",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-25T19:59:59.999Z",
+            "name": "DROPS TOKEN",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-24T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "99b994c7-af0f-11f0-9c6a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
+                  "createdAt": "2025-08-07T07:50:44.716Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+                  "isIosAvailable": false,
+                  "name": "Drops Token",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-25T19:59:59.999Z",
+            "name": "DROPS TOKEN",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-10-24T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9bb61575-af0f-11f0-9c24-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
+                  "createdAt": "2025-08-07T07:50:44.716Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+                  "isIosAvailable": false,
+                  "name": "Drops Token",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-25T19:59:59.999Z",
+            "name": "DROPS TOKEN",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-10-24T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-24T20:00:00.000Z"
   },
   {
     "endAt": "2025-10-26T02:56:59.999Z",
@@ -33599,6 +33326,735 @@
       }
     ],
     "startAt": "2025-10-13T17:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-03T19:59:59.996Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2054317_IGDB-120x160.jpg",
+    "gameDisplayName": "Legacy: Steel & Sorcery",
+    "gameId": "2054317",
+    "rewards": [
+      {
+        "id": "b5da3df8-a9f0-11f0-810f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1029902076",
+              "displayName": "Infernox_TV",
+              "name": "infernox_tv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "121677039",
+              "displayName": "zner0",
+              "name": "zner0",
+              "__typename": "Channel"
+            },
+            {
+              "id": "488953377",
+              "displayName": "1Butcher",
+              "name": "1butcher",
+              "__typename": "Channel"
+            },
+            {
+              "id": "557146039",
+              "displayName": "ThreeOJack",
+              "name": "threeojack",
+              "__typename": "Channel"
+            },
+            {
+              "id": "108655749",
+              "displayName": "thebronzebeards",
+              "name": "thebronzebeards",
+              "__typename": "Channel"
+            },
+            {
+              "id": "32607267",
+              "displayName": "blahbar",
+              "name": "blahbar",
+              "__typename": "Channel"
+            },
+            {
+              "id": "215605497",
+              "displayName": "R0b0Fett",
+              "name": "r0b0fett",
+              "__typename": "Channel"
+            },
+            {
+              "id": "156580422",
+              "displayName": "Modusmonster",
+              "name": "modusmonster",
+              "__typename": "Channel"
+            },
+            {
+              "id": "195143931",
+              "displayName": "PondoBruin85",
+              "name": "pondobruin85",
+              "__typename": "Channel"
+            },
+            {
+              "id": "76576450",
+              "displayName": "WhiteOilOtter",
+              "name": "whiteoilotter",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1294149389",
+              "displayName": "OTAttack",
+              "name": "otattack",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1271039847",
+              "displayName": "StrengthCheckGaming",
+              "name": "strengthcheckgaming",
+              "__typename": "Channel"
+            },
+            {
+              "id": "192922313",
+              "displayName": "thatguydale3",
+              "name": "thatguydale3",
+              "__typename": "Channel"
+            },
+            {
+              "id": "121106434",
+              "displayName": "JungleJon37",
+              "name": "junglejon37",
+              "__typename": "Channel"
+            },
+            {
+              "id": "78992409",
+              "displayName": "KeyvanB_",
+              "name": "keyvanb_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "99598675",
+              "displayName": "Gilchriist",
+              "name": "gilchriist",
+              "__typename": "Channel"
+            },
+            {
+              "id": "477606553",
+              "displayName": "Dressden",
+              "name": "dressden",
+              "__typename": "Channel"
+            },
+            {
+              "id": "123574931",
+              "displayName": "cconradd",
+              "name": "cconradd",
+              "__typename": "Channel"
+            },
+            {
+              "id": "62852982",
+              "displayName": "Harukin22",
+              "name": "harukin22",
+              "__typename": "Channel"
+            },
+            {
+              "id": "37341076",
+              "displayName": "xsatorixx",
+              "name": "xsatorixx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "101350195",
+              "displayName": "Your_Life_is_Mine_",
+              "name": "your_life_is_mine_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41826848",
+              "displayName": "Master_Loti",
+              "name": "master_loti",
+              "__typename": "Channel"
+            },
+            {
+              "id": "571292186",
+              "displayName": "muckwav",
+              "name": "muckwav",
+              "__typename": "Channel"
+            },
+            {
+              "id": "48867521",
+              "displayName": "ephemeralp",
+              "name": "ephemeralp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1142360340",
+              "displayName": "legacyroguemain",
+              "name": "legacyroguemain",
+              "__typename": "Channel"
+            },
+            {
+              "id": "234823075",
+              "displayName": "SturdyBirdTV",
+              "name": "sturdybirdtv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "54078776",
+              "displayName": "JxJthejit",
+              "name": "jxjthejit",
+              "__typename": "Channel"
+            },
+            {
+              "id": "874229685",
+              "displayName": "azcalon_ttv",
+              "name": "azcalon_ttv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "141185807",
+              "displayName": "Firebox720",
+              "name": "firebox720",
+              "__typename": "Channel"
+            },
+            {
+              "id": "85005336",
+              "displayName": "aGoofBall",
+              "name": "agoofball",
+              "__typename": "Channel"
+            },
+            {
+              "id": "230339109",
+              "displayName": "Swanifier",
+              "name": "swanifier",
+              "__typename": "Channel"
+            },
+            {
+              "id": "111579116",
+              "displayName": "decapause",
+              "name": "decapause",
+              "__typename": "Channel"
+            },
+            {
+              "id": "496551882",
+              "displayName": "Lukarito_",
+              "name": "lukarito_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "597865240",
+              "displayName": "imEludo",
+              "name": "imeludo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "98596001",
+              "displayName": "paapsie",
+              "name": "paapsie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "119395566",
+              "displayName": "DKayDave",
+              "name": "dkaydave",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64458823",
+              "displayName": "growLron",
+              "name": "growlron",
+              "__typename": "Channel"
+            },
+            {
+              "id": "76335941",
+              "displayName": "ARROWli",
+              "name": "arrowli",
+              "__typename": "Channel"
+            },
+            {
+              "id": "16589017",
+              "displayName": "Kothorix",
+              "name": "kothorix",
+              "__typename": "Channel"
+            },
+            {
+              "id": "81930732",
+              "displayName": "DJMontague",
+              "name": "djmontague",
+              "__typename": "Channel"
+            },
+            {
+              "id": "216797936",
+              "displayName": "TheSima0GG",
+              "name": "thesima0gg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "159587807",
+              "displayName": "TrickTrick",
+              "name": "tricktrick",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36609198",
+              "displayName": "fallXone",
+              "name": "fallxone",
+              "__typename": "Channel"
+            },
+            {
+              "id": "184800672",
+              "displayName": "iamraidentv",
+              "name": "iamraidentv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "110234148",
+              "displayName": "vibrinttt",
+              "name": "vibrinttt",
+              "__typename": "Channel"
+            },
+            {
+              "id": "105034017",
+              "displayName": "Kesun",
+              "name": "kesun",
+              "__typename": "Channel"
+            },
+            {
+              "id": "62892853",
+              "displayName": "Ovcian",
+              "name": "ovcian",
+              "__typename": "Channel"
+            },
+            {
+              "id": "32085830",
+              "displayName": "Xaryu",
+              "name": "xaryu",
+              "__typename": "Channel"
+            },
+            {
+              "id": "44099416",
+              "displayName": "Rakin",
+              "name": "rakin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "21588571",
+              "displayName": "Anthony_Kongphan",
+              "name": "anthony_kongphan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "176149748",
+              "displayName": "mellyttv_",
+              "name": "mellyttv_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "456195877",
+              "displayName": "MarwinIch",
+              "name": "marwinich",
+              "__typename": "Channel"
+            },
+            {
+              "id": "738453660",
+              "displayName": "Ryan6DaysAWeek",
+              "name": "ryan6daysaweek",
+              "__typename": "Channel"
+            },
+            {
+              "id": "27361204",
+              "displayName": "Teldoo",
+              "name": "teldoo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "30852740",
+              "displayName": "Trikeri_Omni",
+              "name": "trikeri_omni",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1317809033",
+              "displayName": "RememberRakan",
+              "name": "rememberrakan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "441056031",
+              "displayName": "itssnowtech",
+              "name": "itssnowtech",
+              "__typename": "Channel"
+            },
+            {
+              "id": "551161228",
+              "displayName": "AdrianoooTTV",
+              "name": "adrianooottv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "155561203",
+              "displayName": "Youngm4n",
+              "name": "youngm4n",
+              "__typename": "Channel"
+            },
+            {
+              "id": "86380580",
+              "displayName": "Zakattack1221",
+              "name": "zakattack1221",
+              "__typename": "Channel"
+            },
+            {
+              "id": "172833221",
+              "displayName": "TheSpudHunter",
+              "name": "thespudhunter",
+              "__typename": "Channel"
+            },
+            {
+              "id": "473780643",
+              "displayName": "Frangie",
+              "name": "frangie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39824206",
+              "displayName": "Beansack",
+              "name": "beansack",
+              "__typename": "Channel"
+            },
+            {
+              "id": "30787338",
+              "displayName": "Nazori",
+              "name": "nazori",
+              "__typename": "Channel"
+            },
+            {
+              "id": "25330807",
+              "displayName": "Cruxion",
+              "name": "cruxion",
+              "__typename": "Channel"
+            },
+            {
+              "id": "21705388",
+              "displayName": "issashow",
+              "name": "issashow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "48409251",
+              "displayName": "Telestrio",
+              "name": "telestrio",
+              "__typename": "Channel"
+            },
+            {
+              "id": "130709742",
+              "displayName": "Indocomplex",
+              "name": "indocomplex",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38389438",
+              "displayName": "Echo5Brav0",
+              "name": "echo5brav0",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51465465",
+              "displayName": "Geef",
+              "name": "geef",
+              "__typename": "Channel"
+            },
+            {
+              "id": "204103926",
+              "displayName": "Arkaviun",
+              "name": "arkaviun",
+              "__typename": "Channel"
+            },
+            {
+              "id": "116284423",
+              "displayName": "itMemories",
+              "name": "itmemories",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1300743760",
+              "displayName": "Kupotek_SDG",
+              "name": "kupotek_sdg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "223146081",
+              "displayName": "roofeo",
+              "name": "roofeo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "66515923",
+              "displayName": "notDerb",
+              "name": "notderb",
+              "__typename": "Channel"
+            },
+            {
+              "id": "42133254",
+              "displayName": "IRLSmurf",
+              "name": "irlsmurf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64140473",
+              "displayName": "SaltyStingray",
+              "name": "saltystingray",
+              "__typename": "Channel"
+            },
+            {
+              "id": "130429023",
+              "displayName": "Majorz1",
+              "name": "majorz1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1314939",
+              "displayName": "Activee",
+              "name": "activee",
+              "__typename": "Channel"
+            },
+            {
+              "id": "90608415",
+              "displayName": "Kira",
+              "name": "kira",
+              "__typename": "Channel"
+            },
+            {
+              "id": "58529158",
+              "displayName": "Katie",
+              "name": "katie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "677696192",
+              "displayName": "CtrlPaulDelete",
+              "name": "ctrlpauldelete",
+              "__typename": "Channel"
+            },
+            {
+              "id": "143968874",
+              "displayName": "Reddalf",
+              "name": "reddalf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "53570423",
+              "displayName": "FabiobiOX",
+              "name": "fabiobiox",
+              "__typename": "Channel"
+            },
+            {
+              "id": "43830727",
+              "displayName": "KingGothalion",
+              "name": "kinggothalion",
+              "__typename": "Channel"
+            },
+            {
+              "id": "483987651",
+              "displayName": "Triple_G",
+              "name": "triple_g",
+              "__typename": "Channel"
+            },
+            {
+              "id": "80823678",
+              "displayName": "yyackk",
+              "name": "yyackk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28277640",
+              "displayName": "pfreshtv",
+              "name": "pfreshtv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "34805620",
+              "displayName": "Remmold",
+              "name": "remmold",
+              "__typename": "Channel"
+            },
+            {
+              "id": "460291684",
+              "displayName": "Adramtor",
+              "name": "adramtor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "48285078",
+              "displayName": "eingyiflame",
+              "name": "eingyiflame",
+              "__typename": "Channel"
+            },
+            {
+              "id": "159799695",
+              "displayName": "Aurky_",
+              "name": "aurky_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "727199321",
+              "displayName": "Theory_Surf",
+              "name": "theory_surf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "30035674",
+              "displayName": "Crizack",
+              "name": "crizack",
+              "__typename": "Channel"
+            },
+            {
+              "id": "771228489",
+              "displayName": "NoahMontbarron",
+              "name": "noahmontbarron",
+              "__typename": "Channel"
+            },
+            {
+              "id": "150563579",
+              "displayName": "jiggyspice",
+              "name": "jiggyspice",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://steamcommunity.com/app/2344320/discussions/0/604155961116003210/",
+        "description": "Celebrate the Season 3: Ring of Blood release of Legacy: Steel & Sorcery with us.\nWatch one of the participating channels and earn rewards ranging from health potions and bandages, to a random weapon, and more. We hope you enjoy the new class, new maps, and the fresh season start.\nTo claim the reward, you have to link your Twitch account with your game account by clicking the Twitch Rewards button on the Adventure tab.",
+        "detailsURL": "https://steamcommunity.com/app/2344320/discussions/0/604155961116003210/",
+        "endAt": "2025-11-03T19:59:59.996Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2054317",
+          "slug": "legacy-steel-and-sorcery",
+          "displayName": "Legacy: Steel & Sorcery",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7c1673c1-e809-42c8-b4a9-b910d76dee9b.png",
+        "name": "Season 3: Ring of Blood",
+        "owner": {
+          "id": "bda15568-2503-4dc0-85c4-1ee6fc2bf691",
+          "name": "Notorious Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-24T20:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0ce1db89-a9f1-11f0-ba14-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bda15568-2503-4dc0-85c4-1ee6fc2bf691_CUSTOM_ID_2948",
+                  "createdAt": "2025-10-15T17:51:53.474Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2054317",
+                    "name": "Legacy: Steel & Sorcery",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2265973c-2f56-470d-b7f1-c71270d5dd28.png",
+                  "isIosAvailable": false,
+                  "name": "Spiritbound Crate",
+                  "ownerOrganization": {
+                    "id": "bda15568-2503-4dc0-85c4-1ee6fc2bf691",
+                    "name": "Notorious Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-03T19:59:59.996Z",
+            "name": "Spiritbound Crate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-24T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "1809a459-a9f1-11f0-b1fc-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bda15568-2503-4dc0-85c4-1ee6fc2bf691_CUSTOM_ID_2949",
+                  "createdAt": "2025-10-15T17:52:23.836Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2054317",
+                    "name": "Legacy: Steel & Sorcery",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b9b532b-770b-422e-b033-abf68c3415df.png",
+                  "isIosAvailable": false,
+                  "name": "Haunted Harvest Box",
+                  "ownerOrganization": {
+                    "id": "bda15568-2503-4dc0-85c4-1ee6fc2bf691",
+                    "name": "Notorious Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-03T19:59:59.996Z",
+            "name": "Haunted Harvest Box",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-10-24T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "24ac0af5-a9f1-11f0-b03a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bda15568-2503-4dc0-85c4-1ee6fc2bf691_CUSTOM_ID_2950",
+                  "createdAt": "2025-10-15T17:52:49.045Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2054317",
+                    "name": "Legacy: Steel & Sorcery",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/abd848c0-2cf9-45b3-9a4b-9c4c8a4ba52a.png",
+                  "isIosAvailable": false,
+                  "name": "All Hallows Hoard",
+                  "ownerOrganization": {
+                    "id": "bda15568-2503-4dc0-85c4-1ee6fc2bf691",
+                    "name": "Notorious Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-03T19:59:59.996Z",
+            "name": "All Hallows Hoard",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-10-24T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-24T20:00:00.000Z"
   },
   {
     "endAt": "2025-11-04T15:59:59.999Z",
