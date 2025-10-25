@@ -732,6 +732,12 @@
               "displayName": "reisbozo",
               "name": "reisbozo",
               "__typename": "Channel"
+            },
+            {
+              "id": "690618443",
+              "displayName": "lilougamingx",
+              "name": "lilougamingx",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -1036,6 +1042,234 @@
       }
     ],
     "startAt": "2025-10-25T12:45:00.000Z"
+  },
+  {
+    "endAt": "2025-10-25T18:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
+    "gameDisplayName": "Tanki Online",
+    "gameId": "417810",
+    "rewards": [
+      {
+        "id": "4ebaef39-b194-11f0-8f65-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "117023453",
+              "displayName": "TankiSport_RU",
+              "name": "tankisport_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64274116",
+              "displayName": "TankiSport_EN",
+              "name": "tankisport_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806896138",
+              "displayName": "TankiSport_RU_2",
+              "name": "tankisport_ru_2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806894175",
+              "displayName": "TankiSport_EN_2",
+              "name": "tankisport_en_2",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://tankionline.com/play/",
+        "description": "Watch Tanki Online eSports match livestreams and get Epic Keys in Tanki Online",
+        "detailsURL": "https://tankionline.com/",
+        "endAt": "2025-10-25T18:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417810",
+          "slug": "tanki-online",
+          "displayName": "Tanki Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/042cdff9-7bae-486b-add6-859d59ad1d20.jpeg",
+        "name": "WMR3 2025 R7 (1)",
+        "owner": {
+          "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+          "name": "APL Publishing Ltd",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-25T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "71ef579e-b194-11f0-8005-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-25T18:29:59.999Z",
+            "name": "Match",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "76ab6565-b194-11f0-bcf0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-25T18:29:59.999Z",
+            "name": "Match 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-25T17:00:00.000Z"
+  },
+  {
+    "endAt": "2025-10-25T18:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
+    "rewards": [
+      {
+        "id": "30ddbcf2-ad77-11f0-be1e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "8734695",
+              "displayName": "WidescreenJohn",
+              "name": "widescreenjohn",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Support our Quest to Conquer Cancer through the month of October! Watch WidescreenJohn's fundraising stream for 30 minutes to receive a random Furniture Decoration.",
+        "detailsURL": "https://forums.warframe.com/topic/1472738-qtcc-2025-community-fundraising-stream-schedule-oct-20-26/",
+        "endAt": "2025-10-25T18:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/32789584-5268-4393-bf27-ccbe223817de.jpeg",
+        "name": "QTCC 25 - WidescreenJohn",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-25T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3bb6f796-ad77-11f0-92dd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6b198d25-9e89-11f0-a989-0a58a9feac02",
+                  "createdAt": "2025-10-01T05:42:29.303Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "66170",
+                    "name": "Warframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fbc06183-0261-4990-a8d0-e2b0754e9b7e.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Random Furniture (QTCC)",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-25T18:59:59.999Z",
+            "name": "Random Furniture Deco",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-25T17:00:00.000Z"
   },
   {
     "endAt": "2025-10-25T19:59:59.999Z",
@@ -7555,6 +7789,597 @@
       }
     ],
     "startAt": "2025-10-13T08:00:00.000Z"
+  },
+  {
+    "endAt": "2025-10-26T16:56:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/623291583_IGDB-120x160.jpg",
+    "gameDisplayName": "Ghosts of Tabor",
+    "gameId": "623291583",
+    "rewards": [
+      {
+        "id": "ab831c6b-a147-11f0-832f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "70390101",
+              "displayName": "ytSmiles3x",
+              "name": "ytsmiles3x",
+              "__typename": "Channel"
+            },
+            {
+              "id": "911719028",
+              "displayName": "2crypticTV",
+              "name": "2cryptictv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "126512372",
+              "displayName": "AlphaBroVR",
+              "name": "alphabrovr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "475009754",
+              "displayName": "angryleprechaunn",
+              "name": "angryleprechaunn",
+              "__typename": "Channel"
+            },
+            {
+              "id": "127672032",
+              "displayName": "ArtificialActr",
+              "name": "artificialactr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "140184222",
+              "displayName": "Aussie_Damnation",
+              "name": "aussie_damnation",
+              "__typename": "Channel"
+            },
+            {
+              "id": "541328419",
+              "displayName": "AyooHenry",
+              "name": "ayoohenry",
+              "__typename": "Channel"
+            },
+            {
+              "id": "743141033",
+              "displayName": "Baertas",
+              "name": "baertas",
+              "__typename": "Channel"
+            },
+            {
+              "id": "205419751",
+              "displayName": "ClassicJackGaming",
+              "name": "classicjackgaming",
+              "__typename": "Channel"
+            },
+            {
+              "id": "130043412",
+              "displayName": "CozyGuardian",
+              "name": "cozyguardian",
+              "__typename": "Channel"
+            },
+            {
+              "id": "110975685",
+              "displayName": "CrawlerTV",
+              "name": "crawlertv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "70825745",
+              "displayName": "Fr0st_B1t3z",
+              "name": "fr0st_b1t3z",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1208382647",
+              "displayName": "therealghostvr",
+              "name": "therealghostvr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "56180740",
+              "displayName": "ZstormVR",
+              "name": "zstormvr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "625301661",
+              "displayName": "GlizzyProvider",
+              "name": "glizzyprovider",
+              "__typename": "Channel"
+            },
+            {
+              "id": "53869051",
+              "displayName": "Gr1mReap1r",
+              "name": "gr1mreap1r",
+              "__typename": "Channel"
+            },
+            {
+              "id": "687647610",
+              "displayName": "Havelmon",
+              "name": "havelmon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "954108553",
+              "displayName": "HumpadoorVR",
+              "name": "humpadoorvr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "867315586",
+              "displayName": "ImaGroovyGuy",
+              "name": "imagroovyguy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "23323396",
+              "displayName": "jBahrVR",
+              "name": "jbahrvr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "210727989",
+              "displayName": "JgreenyVR",
+              "name": "jgreenyvr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "55162321",
+              "displayName": "JThomasVR",
+              "name": "jthomasvr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "193186857",
+              "displayName": "Lawtender",
+              "name": "lawtender",
+              "__typename": "Channel"
+            },
+            {
+              "id": "45075391",
+              "displayName": "LeonKnightAs",
+              "name": "leonknightas",
+              "__typename": "Channel"
+            },
+            {
+              "id": "100007011",
+              "displayName": "LSToast",
+              "name": "lstoast",
+              "__typename": "Channel"
+            },
+            {
+              "id": "436916015",
+              "displayName": "luckoftheirish_vr",
+              "name": "luckoftheirish_vr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "92018343",
+              "displayName": "MetaSukiya",
+              "name": "metasukiya",
+              "__typename": "Channel"
+            },
+            {
+              "id": "823293944",
+              "displayName": "ItsMetrAlex",
+              "name": "itsmetralex",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1125832504",
+              "displayName": "MichaelZhaoLive",
+              "name": "michaelzhaolive",
+              "__typename": "Channel"
+            },
+            {
+              "id": "658846154",
+              "displayName": "NotTaughtFunny",
+              "name": "nottaughtfunny",
+              "__typename": "Channel"
+            },
+            {
+              "id": "688954640",
+              "displayName": "OperatingDre",
+              "name": "operatingdre",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1094266483",
+              "displayName": "Paratrooper_23",
+              "name": "paratrooper_23",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1096575040",
+              "displayName": "Rivalize_VR",
+              "name": "rivalize_vr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "103682436",
+              "displayName": "ScopeOG",
+              "name": "scopeog",
+              "__typename": "Channel"
+            },
+            {
+              "id": "56275128",
+              "displayName": "ShortStackVR",
+              "name": "shortstackvr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "662357032",
+              "displayName": "StarchyKid",
+              "name": "starchykid",
+              "__typename": "Channel"
+            },
+            {
+              "id": "880381573",
+              "displayName": "Striker3_vr",
+              "name": "striker3_vr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "784956831",
+              "displayName": "Sui_Dabz",
+              "name": "sui_dabz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "77250404",
+              "displayName": "SwaggerLeeTV",
+              "name": "swaggerleetv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "752878048",
+              "displayName": "TDVR_Gaming",
+              "name": "tdvr_gaming",
+              "__typename": "Channel"
+            },
+            {
+              "id": "796643877",
+              "displayName": "TheKingChava",
+              "name": "thekingchava",
+              "__typename": "Channel"
+            },
+            {
+              "id": "62345078",
+              "displayName": "TheNollic",
+              "name": "thenollic",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124575474",
+              "displayName": "TimelessVR_",
+              "name": "timelessvr_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "892462195",
+              "displayName": "TheScythe999_",
+              "name": "thescythe999_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "459398858",
+              "displayName": "Resirus_",
+              "name": "resirus_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39567588",
+              "displayName": "Twiejk",
+              "name": "twiejk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1002047558",
+              "displayName": "Vixiaan",
+              "name": "vixiaan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "780172054",
+              "displayName": "WD_VR",
+              "name": "wd_vr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "435008944",
+              "displayName": "WolfDoesGamesYT",
+              "name": "wolfdoesgamesyt",
+              "__typename": "Channel"
+            },
+            {
+              "id": "660823904",
+              "displayName": "xSmittyTTV",
+              "name": "xsmittyttv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "35994194",
+              "displayName": "Xyrage",
+              "name": "xyrage",
+              "__typename": "Channel"
+            },
+            {
+              "id": "465105331",
+              "displayName": "ZIPPYJOKERTTV",
+              "name": "zippyjokerttv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1237206205",
+              "displayName": "rai_of_fking_sunshine",
+              "name": "rai_of_fking_sunshine",
+              "__typename": "Channel"
+            },
+            {
+              "id": "267610532",
+              "displayName": "Princess_kuchikopi",
+              "name": "princess_kuchikopi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1121839092",
+              "displayName": "MissngFleshVR",
+              "name": "missngfleshvr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "157976194",
+              "displayName": "IdentityCrisisVR",
+              "name": "identitycrisisvr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "891855259",
+              "displayName": "SlimToey",
+              "name": "slimtoey",
+              "__typename": "Channel"
+            },
+            {
+              "id": "126327044",
+              "displayName": "iSpadeKing",
+              "name": "ispadeking",
+              "__typename": "Channel"
+            },
+            {
+              "id": "678649717",
+              "displayName": "ProxyBoom1",
+              "name": "proxyboom1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "469806524",
+              "displayName": "TeffCity_",
+              "name": "teffcity_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "755827106",
+              "displayName": "CanadianTubs",
+              "name": "canadiantubs",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://ghostsoftabor.com/twitch-drops-event-op-dullahan/",
+        "description": "From October 25th to November 1st, tune into participating Ghosts of Tabor streams on Twitch to earn exclusive Halloween Drops inspired by the Reaper himself. Expect gear that carries the mark of death.",
+        "detailsURL": "https://ghostsoftabor.com/twitch-drops-event-op-dullahan/",
+        "endAt": "2025-10-26T16:56:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "623291583",
+          "slug": "ghosts-of-tabor",
+          "displayName": "Ghosts of Tabor",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c36ed64a-acd2-450c-930d-326a472c1083.png",
+        "name": "Op: Dullahan Day 1",
+        "owner": {
+          "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+          "name": "Combat Waffle Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-25T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5dd0b120-a15e-11f0-8ad4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_50kKoruna",
+                  "createdAt": "2025-02-11T16:19:08.174Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d95fda87-7fb6-41b0-867c-ba8bff7b6f47.png",
+                  "isIosAvailable": false,
+                  "name": "50k Koruna",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-26T16:56:59.999Z",
+            "name": "50k Koruna",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-10-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "635fb872-a15e-11f0-bb43-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_RandomGun",
+                  "createdAt": "2025-02-11T16:18:54.013Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1a418700-38fc-4237-9489-4bbdb3653509.png",
+                  "isIosAvailable": false,
+                  "name": "Random Gun",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-26T16:56:59.999Z",
+            "name": "Random Weapon",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6923d21d-a15e-11f0-a306-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_streameritem",
+                  "createdAt": "2025-06-07T16:03:39.033Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8af19724-e898-46a0-99d3-f54de21a49db.png",
+                  "isIosAvailable": false,
+                  "name": "Random Streamer Item",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-26T16:56:59.999Z",
+            "name": "Random Streamer Item",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6fdc2a4e-a15e-11f0-ad91-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_GPU",
+                  "createdAt": "2025-02-11T16:18:21.348Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/adfab12c-222f-424e-93b0-ef8d79806cc8.png",
+                  "isIosAvailable": false,
+                  "name": "GPU",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-26T16:56:59.999Z",
+            "name": "GPU",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-10-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7c8561e8-a15e-11f0-b82b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_HockeyMask",
+                  "createdAt": "2025-10-04T20:17:09.554Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/64c8e97d-a799-4d7b-b650-fa42acdb50b1.png",
+                  "isIosAvailable": false,
+                  "name": "Hockey Mask",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-26T16:56:59.999Z",
+            "name": "Hockey Mask (Halloween Exclusive)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-10-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-25T17:00:00.000Z"
   },
   {
     "endAt": "2025-10-26T19:59:59.998Z",
@@ -14418,6 +15243,249 @@
       }
     ],
     "startAt": "2025-10-20T21:00:00.000Z"
+  },
+  {
+    "endAt": "2025-10-28T22:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511224-120x160.jpg",
+    "gameDisplayName": "Apex Legends",
+    "gameId": "511224",
+    "rewards": [
+      {
+        "id": "c0eee2ae-b02e-11f0-95ce-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "597852613",
+              "displayName": "PRZSacredxRose",
+              "name": "przsacredxrose",
+              "__typename": "Channel"
+            },
+            {
+              "id": "939267576",
+              "displayName": "PRZesports_",
+              "name": "przesports_",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "Tune into creators part of the Apex Legends Tournament series to earn two free weapon skins.",
+        "detailsURL": "https://www.ea.com/games/apex-legends/news",
+        "endAt": "2025-10-27T22:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511224",
+          "slug": "apex-legends",
+          "displayName": "Apex Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "PRZ CTS",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-25T06:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "69444a07-b02f-11f0-acf8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_algs_s20_wingman_skin",
+                  "createdAt": "2024-04-26T01:34:06.419Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9256c29f-1e30-4430-9243-a14b264f85ce.png",
+                  "isIosAvailable": false,
+                  "name": "Crimson Slash Wingman ",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_algs_s21_r99_skin",
+                  "createdAt": "2024-08-21T22:54:14.206Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ca8334d7-b368-42fc-9907-987695fa951e.png",
+                  "isIosAvailable": false,
+                  "name": "Crimson Slash R99 Skin",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-27T22:59:59.999Z",
+            "name": "PRZ",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-25T06:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "d90c4a68-b1c3-11f0-9bb7-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "412671040",
+              "displayName": "SheisBoogie",
+              "name": "sheisboogie",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "Tune into creators part of the Apex Legends Tournament series to earn two free weapon skins.",
+        "detailsURL": "https://www.ea.com/games/apex-legends/news",
+        "endAt": "2025-10-28T22:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511224",
+          "slug": "apex-legends",
+          "displayName": "Apex Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "Boogie CTS",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-25T06:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "fa64464f-b1c3-11f0-9bab-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_algs_s20_conduit_skin",
+                  "createdAt": "2024-04-26T01:34:46.787Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/164144d5-fe03-47c9-8de0-2aaa1c2df477.png",
+                  "isIosAvailable": false,
+                  "name": "Crimson Clash Conduit",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_twitch_drops_s23_cosmic_04",
+                  "createdAt": "2024-12-11T23:23:23.251Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2686fe09-08f3-4645-a8c4-5098565df888.png",
+                  "isIosAvailable": false,
+                  "name": "Pathfinder Sticker",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_twitch_drops_s23_cosmic_01",
+                  "createdAt": "2024-11-02T01:18:56.868Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7436e056-eb8d-4eda-9a22-2f7efd8fb799.png",
+                  "isIosAvailable": false,
+                  "name": "Lifeline Holospray",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-28T22:59:59.999Z",
+            "name": "Boogie",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-25T06:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-25T06:30:00.000Z"
   },
   {
     "endAt": "2025-10-28T00:59:59.998Z",
