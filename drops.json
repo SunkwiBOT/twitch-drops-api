@@ -5012,6 +5012,243 @@
     "startAt": "2025-10-24T17:59:00.000Z"
   },
   {
+    "endAt": "2025-10-25T17:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/513501_IGDB-120x160.jpg",
+    "gameDisplayName": "Standoff 2",
+    "gameId": "513501",
+    "rewards": [
+      {
+        "id": "56a5fadd-ae67-11f0-9d4b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1124895128",
+              "displayName": "standoff2esports_ru",
+              "name": "standoff2esports_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "106631515",
+              "displayName": "Standoff2RuHub",
+              "name": "standoff2ruhub",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://link.standoff2.com/twitch/link/",
+        "description": "Twitch Drops — это система наград, которая позволяет зрителям стрима получать внутриигровые предметы за просмотр трансляции в течение определенного времени.\nКак получить награды:\n– Зайдите в игру и убедитесь, что учетная запись привязана к тому же Twitch-аккаунту.\n– Накопите необходимое время просмотра на официальном канале Standoff 2.\n– Отслеживайте свой прогресс в разделе Drops на Twitch (обычно находится в профиле Twitch → «Drops и награды»).",
+        "detailsURL": "https://install.standoff2.com/ru/twitch-drops",
+        "endAt": "2025-10-25T17:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "513501",
+          "slug": "standoff-2",
+          "displayName": "Standoff 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/948a0666-6060-4e02-9127-f5e5489c8cd7.png",
+        "name": "SO2 PawPaw: Ep.6",
+        "owner": {
+          "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+          "name": "Axlebolt",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-25T12:45:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "8a46babe-ae67-11f0-85af-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate_6",
+                  "createdAt": "2025-10-21T10:48:31.61Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fc861eb0-efc0-4734-adcc-271c7b6ba30c.png",
+                  "isIosAvailable": false,
+                  "name": "\"Stream\" crate 6",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-25T17:59:59.999Z",
+            "name": "reward_stream_crate_1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-25T12:45:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "8e9983f7-ae67-11f0-976c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate_7",
+                  "createdAt": "2025-10-21T10:48:48.604Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4865f29-8796-427f-9241-f5b5ce5227ea.png",
+                  "isIosAvailable": false,
+                  "name": "\"Stream\" crate 7",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-25T17:59:59.999Z",
+            "name": "reward_stream_crate_2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-10-25T12:45:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "92f71d22-ae67-11f0-8574-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate_8",
+                  "createdAt": "2025-10-21T10:49:24.691Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dde48a33-9044-4bdc-88ff-df1a0063967e.png",
+                  "isIosAvailable": false,
+                  "name": "\"Stream\" crate 8",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-25T17:59:59.999Z",
+            "name": "reward_stream_crate_3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-10-25T12:45:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "96b1067d-ae67-11f0-b34c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate_9",
+                  "createdAt": "2025-10-21T10:49:52.165Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c6dfcff-49db-4dcd-9b51-b2b540b3e1a0.png",
+                  "isIosAvailable": false,
+                  "name": "\"Stream\" crate 9",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-25T17:59:59.999Z",
+            "name": "reward_stream_crate_4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-10-25T12:45:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9a0abe9f-ae67-11f0-a4e8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_stream_crate_10",
+                  "createdAt": "2025-10-21T10:50:13.335Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5bfce86d-066b-4b2c-9246-6da6b5d36931.png",
+                  "isIosAvailable": false,
+                  "name": "\"Stream\" crate 10",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-10-25T17:59:59.999Z",
+            "name": "reward_stream_crate_5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2025-10-25T12:45:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-25T12:45:00.000Z"
+  },
+  {
     "endAt": "2025-10-25T19:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
     "gameDisplayName": "Eternal Return",
