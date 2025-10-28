@@ -30184,7 +30184,7 @@
     "startAt": "2025-10-14T15:00:00.000Z"
   },
   {
-    "endAt": "2025-11-04T21:58:59.999Z",
+    "endAt": "2025-11-11T23:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/497431_IGDB-120x160.jpg",
     "gameDisplayName": "Skull and Bones",
     "gameId": "497431",
@@ -32080,6 +32080,84 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-10-21T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "150123c2-ae99-11f0-ab1f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "98058108",
+              "displayName": "Spammals",
+              "name": "spammals",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://drops-register.ubi.com",
+        "description": "Spammals",
+        "detailsURL": "https://www.ubisoft.com/fr-fr/help/gameplay/article/information-about-twitch-drops-for-ubisoft-games/000065532",
+        "endAt": "2025-11-11T23:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "497431",
+          "slug": "skull-and-bones",
+          "displayName": "Skull and Bones",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ba68741f-75a9-405f-8e30-7925e59b6b7c.png",
+        "name": "S&B Y2S3 Spammals",
+        "owner": {
+          "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+          "name": "Ubisoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-28T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a994d8e0-b01b-11f0-93e7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b_CUSTOM_ID_mayhem_spammals_oct25",
+                  "createdAt": "2025-10-23T14:35:39.662Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "497431",
+                    "name": "Skull and Bones",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/23965fb1-3434-436a-997c-d0ae09e23264.png",
+                  "isIosAvailable": false,
+                  "name": "Mayhem Bringer",
+                  "ownerOrganization": {
+                    "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+                    "name": "Ubisoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-11T23:58:59.999Z",
+            "name": "drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-28T00:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
