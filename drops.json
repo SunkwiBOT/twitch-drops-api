@@ -51686,5 +51686,85 @@
       }
     ],
     "startAt": "2025-10-30T04:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-26T17:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/375403621_IGDB-120x160.jpg",
+    "gameDisplayName": "Pokémon Trading Card Game Pocket",
+    "gameId": "375403621",
+    "rewards": [
+      {
+        "id": "3465df54-b511-11f0-af24-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://rewards.pokemon.com/",
+        "description": "Earn 12 pack hourglasses and 12 wonder hourglasses in Pokémon Trading Card Game Pocket by tuning in to any channel streaming to the Pokémon Trading Card Game Pocket category. Redeem by November 26, 2025 5:59 UTC.",
+        "detailsURL": "https://rewards.pokemon.com/",
+        "endAt": "2025-11-26T17:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "375403621",
+          "slug": "pokemon-trading-card-game-pocket",
+          "displayName": "Pokémon Trading Card Game Pocket",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/04d71c9b-2f2d-49af-98ff-5048e8e3b7d0.png",
+        "name": "Pocket 1st Anniv. Drops",
+        "owner": {
+          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+          "name": "The Pokémon Company",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-30T06:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a640d365-b511-11f0-b9a4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f1e8178d-b50d-11f0-9215-0a58a9feac02",
+                  "createdAt": "2025-10-29T21:26:34.62Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "375403621",
+                    "name": "Pokémon Trading Card Game Pocket",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/14427f59-ae6c-40c0-914f-e1c7440e7e2d.png",
+                  "isIosAvailable": false,
+                  "name": "1st Anniv. Twitch Drops",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-26T17:58:59.999Z",
+            "name": "Pokémon TCG Pocket 1st Anniv. Drops",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 20,
+            "startAt": "2025-10-30T06:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-30T06:00:00.000Z"
   }
 ]
