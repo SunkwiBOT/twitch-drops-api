@@ -28552,7 +28552,7 @@
     "startAt": "2025-10-21T16:00:00.000Z"
   },
   {
-    "endAt": "2025-11-05T07:59:59.999Z",
+    "endAt": "2025-11-17T07:59:59.000Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1848745913_IGDB-120x160.jpg",
     "gameDisplayName": "Battlefield REDSEC",
     "gameId": "1848745913",
@@ -28731,6 +28731,77 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 240,
             "startAt": "2025-10-28T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "bf225dc1-b5cf-11f0-9ef9-0acac55b430b",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/games/battlefield/battlefield-6/news/battlefield-redsec-season-1-twitch-drops",
+        "description": "Watch any Battlefield RedSec stream for 5 minutes to unlock the BFTank emote for a limited time.",
+        "detailsURL": "https://help.twitch.tv/s/article/how-to-use-emotes",
+        "endAt": "2025-11-17T07:59:59Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1848745913",
+          "slug": "battlefield-redsec",
+          "displayName": "Battlefield REDSEC",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/quests_battlefield_6_2025/BF_Tank_Emote.gif",
+        "name": "BF6 RedSec Launch",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-30T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "bf243756-b5cf-11f0-9ef9-0acac55b430b",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bf1d3bac-b5cf-11f0-9ef9-0acac55b430b",
+                  "createdAt": "2025-10-30T20:33:51.77Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1848745913",
+                    "name": "Battlefield REDSEC",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/quests_battlefield_6_2025/BF_Tank_Emote.gif",
+                  "isIosAvailable": false,
+                  "name": "BFTank",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "UNSPECIFIED",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-17T07:59:59Z",
+            "name": "BF6 RedSec Launch",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 5,
+            "startAt": "2025-10-30T16:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
