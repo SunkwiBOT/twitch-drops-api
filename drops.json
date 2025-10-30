@@ -47329,6 +47329,86 @@
     "startAt": "2025-10-22T01:31:59.000Z"
   },
   {
+    "endAt": "2025-11-17T07:59:00.000Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/464339927-120x160.jpg",
+    "gameDisplayName": "ARC Raiders",
+    "gameId": "464339927",
+    "rewards": [
+      {
+        "id": "50f6e3db-b37c-11f0-b911-0acac55b430b",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.twitch.tv",
+        "description": "Watch any ARC Raiders stream for 30 minutes to unlock the ArcRaidersDance emote for a limited time.",
+        "detailsURL": "https://help.twitch.tv/s/article/how-to-use-emotes",
+        "endAt": "2025-11-17T07:59:00Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "464339927",
+          "slug": "arc-raiders",
+          "displayName": "ARC Raiders",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/quests_arc_raiders_q4_2025/arc_raiders_112x112.gif",
+        "name": "Arc Raiders Launch",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-30T09:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "50f8e83b-b37c-11f0-b911-0acac55b430b",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "50f057e7-b37c-11f0-b911-0acac55b430b",
+                  "createdAt": "2025-10-27T21:31:36.373Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "464339927",
+                    "name": "ARC Raiders",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/quests_arc_raiders_q4_2025/arc_raiders_112x112.gif",
+                  "isIosAvailable": false,
+                  "name": "ArcRaidersDance",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "UNSPECIFIED",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-17T07:59:00Z",
+            "name": "ArcRaidersDance",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-10-30T09:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-30T09:30:00.000Z"
+  },
+  {
     "endAt": "2025-11-17T13:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/723461364_IGDB-120x160.jpg",
     "gameDisplayName": "Mecha BREAK",
