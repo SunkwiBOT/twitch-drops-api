@@ -1,311 +1,12 @@
 [
   {
-    "endAt": "2025-10-30T23:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/615993466_IGDB-120x160.jpg",
-    "gameDisplayName": "Wolvesville",
-    "gameId": "615993466",
-    "rewards": [
-      {
-        "id": "37424669-a091-11f0-ada4-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://wolvesville.com/",
-        "description": "Unlock the limited Twitch gravestone item! You'll need to link your Twitch account with Wolvesville for this to work.",
-        "detailsURL": "https://wolvesville.com/",
-        "endAt": "2025-10-30T23:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "615993466",
-          "slug": "wolvesville",
-          "displayName": "Wolvesville",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/527d8036-7579-4ebf-961c-b0d38189bdb0.png",
-        "name": "October 2025",
-        "owner": {
-          "id": "afc3b59c-a88e-4009-8114-cce32dfd0e23",
-          "name": "Wolvesville",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-10-03T19:41:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "6acbd793-a091-11f0-94d2-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "dd0d5f76-a090-11f0-a7db-0a58a9feac02",
-                  "createdAt": "2025-10-03T19:40:49.286Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "615993466",
-                    "name": "Wolvesville",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/55471a36-5bae-49ac-a733-8a605e699c6f.png",
-                  "isIosAvailable": false,
-                  "name": "Twitch gravestone",
-                  "ownerOrganization": {
-                    "id": "afc3b59c-a88e-4009-8114-cce32dfd0e23",
-                    "name": "Wolvesville",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-30T23:59:59.999Z",
-            "name": "Twitch gravestone",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-10-03T19:41:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-10-03T19:41:00.000Z"
-  },
-  {
-    "endAt": "2025-10-30T23:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
-    "gameDisplayName": "World of Tanks",
-    "gameId": "27546",
-    "rewards": [
-      {
-        "id": "27ac195f-92e3-11f0-8d8c-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "182560660",
-              "displayName": "WorldofTanks",
-              "name": "worldoftanks",
-              "__typename": "Channel"
-            },
-            {
-              "id": "906047053",
-              "displayName": "WorldofTanks_Ukraine",
-              "name": "worldoftanks_ukraine",
-              "__typename": "Channel"
-            },
-            {
-              "id": "111768177",
-              "displayName": "Chessgenie",
-              "name": "chessgenie",
-              "__typename": "Channel"
-            },
-            {
-              "id": "103179576",
-              "displayName": "Fr3ddy",
-              "name": "fr3ddy",
-              "__typename": "Channel"
-            },
-            {
-              "id": "52807558",
-              "displayName": "Eda007",
-              "name": "eda007",
-              "__typename": "Channel"
-            },
-            {
-              "id": "47167396",
-              "displayName": "MrScheff",
-              "name": "mrscheff",
-              "__typename": "Channel"
-            },
-            {
-              "id": "135445967",
-              "displayName": "Dani2999_",
-              "name": "dani2999_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "228082001",
-              "displayName": "Shadow_TheLoneWolf",
-              "name": "shadow_thelonewolf",
-              "__typename": "Channel"
-            },
-            {
-              "id": "30118763",
-              "displayName": "NewMultiShow",
-              "name": "newmultishow",
-              "__typename": "Channel"
-            },
-            {
-              "id": "62603776",
-              "displayName": "cyganzor",
-              "name": "cyganzor",
-              "__typename": "Channel"
-            },
-            {
-              "id": "38181398",
-              "displayName": "jXcr",
-              "name": "jxcr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "51045488",
-              "displayName": "synop_s",
-              "name": "synop_s",
-              "__typename": "Channel"
-            },
-            {
-              "id": "227768077",
-              "displayName": "Avolve_8",
-              "name": "avolve_8",
-              "__typename": "Channel"
-            },
-            {
-              "id": "50647345",
-              "displayName": "theruev",
-              "name": "theruev",
-              "__typename": "Channel"
-            },
-            {
-              "id": "103573025",
-              "displayName": "Dak_28",
-              "name": "dak_28",
-              "__typename": "Channel"
-            },
-            {
-              "id": "41044567",
-              "displayName": "AzumDzumHzumS",
-              "name": "azumdzumhzums",
-              "__typename": "Channel"
-            },
-            {
-              "id": "881737884",
-              "displayName": "vgostiua",
-              "name": "vgostiua",
-              "__typename": "Channel"
-            },
-            {
-              "id": "416271045",
-              "displayName": "skifler_wot",
-              "name": "skifler_wot",
-              "__typename": "Channel"
-            },
-            {
-              "id": "852549791",
-              "displayName": "sh0kerix",
-              "name": "sh0kerix",
-              "__typename": "Channel"
-            },
-            {
-              "id": "592436994",
-              "displayName": "Bizzord_WOT",
-              "name": "bizzord_wot",
-              "__typename": "Channel"
-            },
-            {
-              "id": "511298079",
-              "displayName": "Mautz_",
-              "name": "mautz_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "116558499",
-              "displayName": "Tyrion9189",
-              "name": "tyrion9189",
-              "__typename": "Channel"
-            },
-            {
-              "id": "25722719",
-              "displayName": "Dakillzor",
-              "name": "dakillzor",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
-        "description": "AMD OLS#4 Phase 2 Day 2",
-        "detailsURL": "https://worldoftanks.eu/news/live-streams/token-store-september-2025/",
-        "endAt": "2025-10-30T23:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "27546",
-          "slug": "world-of-tanks",
-          "displayName": "World of Tanks",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1d52cf77-163e-4147-9bb4-fe0f4999e2f1.png",
-        "name": "AMD OLS#4 Phase 2 Day 2",
-        "owner": {
-          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-          "name": "Wargaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-10-30T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "8f909f01-92e3-11f0-83ff-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TD_OLS4_10_25_13",
-                  "createdAt": "2025-09-17T07:47:46.374Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c01e9251-9059-4843-9b53-a770a6015924.png",
-                  "isIosAvailable": false,
-                  "name": "5x OLS Tokens",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-30T23:59:59.999Z",
-            "name": "Drop 1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 150,
-            "startAt": "2025-10-30T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-10-30T17:00:00.000Z"
-  },
-  {
-    "endAt": "2025-10-31T00:14:59.999Z",
+    "endAt": "2025-10-31T01:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
     "gameDisplayName": "Warframe",
     "gameId": "66170",
     "rewards": [
       {
-        "id": "74152dd5-b2a4-11f0-8edc-0a58a9feac02",
+        "id": "835cd656-b5df-11f0-8861-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
@@ -313,9 +14,9 @@
         "allow": {
           "channels": [
             {
-              "id": "31557216",
-              "displayName": "Warframe",
-              "name": "warframe",
+              "id": "1072067517",
+              "displayName": "Tenno_Ben",
+              "name": "tenno_ben",
               "__typename": "Channel"
             }
           ],
@@ -323,9 +24,9 @@
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://www.warframe.com/user",
-        "description": "Support our Quest to Conquer Cancer through the month of October! Watch our finale stream for 30 minutes to receive a random reward!",
+        "description": "Watch this week's Prime Time raid for 30 minutes to receive an Ordis Floof decoration!",
         "detailsURL": "https://forums.warframe.com/topic/1474344-qtcc-2025-community-fundraising-stream-schedule-oct-27-30th/",
-        "endAt": "2025-10-31T00:14:59.999Z",
+        "endAt": "2025-10-31T01:29:59.999Z",
         "eventBasedDrops": [],
         "game": {
           "id": "66170",
@@ -333,33 +34,33 @@
           "displayName": "Warframe",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/93714d3b-872b-4891-bf7f-ef25c9ecca5e.jpeg",
-        "name": "QTCC 25 - Finale Stream!",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b8169ead-360c-47d1-aa30-6c22a42fef63.jpeg",
+        "name": "Prime Time #458 Raid",
         "owner": {
           "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
           "name": "Digital Extremes",
           "__typename": "Organization"
         },
-        "startAt": "2025-10-30T16:25:00Z",
+        "startAt": "2025-10-31T00:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "8146c387-b2a4-11f0-b525-0a58a9feac02",
+            "id": "88815304-b5df-11f0-abcb-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "03b35e4e-9712-11ef-a86b-0a58a9feac02",
-                  "createdAt": "2024-10-30T22:55:09.906Z",
+                  "id": "abc68f2f-9e8a-11f0-86a2-0a58a9feac02",
+                  "createdAt": "2025-10-01T05:51:27.307Z",
                   "entitlementLimit": 1,
                   "game": {
                     "id": "66170",
                     "name": "Warframe",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/99fc6df0-e5d1-4453-a977-1fd3ec3da955.jpeg",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/33446217-df7b-4166-acd3-c9dcc9bf9a4e.jpeg",
                   "isIosAvailable": true,
-                  "name": "QTCC Finale Grab Bag",
+                  "name": "Ordis Floof",
                   "ownerOrganization": {
                     "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
                     "name": "Digital Extremes",
@@ -372,126 +73,18 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-10-31T00:14:59.999Z",
-            "name": "Finale Grab Bag",
+            "endAt": "2025-10-31T01:29:59.999Z",
+            "name": "ordis floof",
             "preconditionDrops": null,
             "requiredMinutesWatched": 30,
-            "startAt": "2025-10-30T16:25:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "83073d3e-b2a4-11f0-8439-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "03b35e4e-9712-11ef-a86b-0a58a9feac02",
-                  "createdAt": "2024-10-30T22:55:09.906Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/99fc6df0-e5d1-4453-a977-1fd3ec3da955.jpeg",
-                  "isIosAvailable": true,
-                  "name": "QTCC Finale Grab Bag",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-31T00:14:59.999Z",
-            "name": "Finale Grab Bag",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-10-30T16:25:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "866a5a43-b2a4-11f0-bd13-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "03b35e4e-9712-11ef-a86b-0a58a9feac02",
-                  "createdAt": "2024-10-30T22:55:09.906Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/99fc6df0-e5d1-4453-a977-1fd3ec3da955.jpeg",
-                  "isIosAvailable": true,
-                  "name": "QTCC Finale Grab Bag",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-31T00:14:59.999Z",
-            "name": "Finale Grab Bag",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-10-30T16:25:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "88ef24c1-b2a4-11f0-8b3a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "03b35e4e-9712-11ef-a86b-0a58a9feac02",
-                  "createdAt": "2024-10-30T22:55:09.906Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/99fc6df0-e5d1-4453-a977-1fd3ec3da955.jpeg",
-                  "isIosAvailable": true,
-                  "name": "QTCC Finale Grab Bag",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-10-31T00:14:59.999Z",
-            "name": "Finale Grab Bag",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-10-30T16:25:00Z",
+            "startAt": "2025-10-31T00:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2025-10-30T16:25:00.000Z"
+    "startAt": "2025-10-31T00:00:00.000Z"
   },
   {
     "endAt": "2025-10-31T05:59:59.999Z",
