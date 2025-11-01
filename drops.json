@@ -2885,7 +2885,7 @@
     "startAt": "2025-10-29T11:00:00.000Z"
   },
   {
-    "endAt": "2025-11-01T11:59:59.999Z",
+    "endAt": "2025-11-01T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
     "gameDisplayName": "Black Desert",
     "gameId": "386821",
@@ -2956,6 +2956,162 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-10-31T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "6d160327-b617-11f0-b0c0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "433357287",
+              "displayName": "CosmicBoysx",
+              "name": "cosmicboysx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "205555230",
+              "displayName": "AtomKenshiroZ",
+              "name": "atomkenshiroz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "664461281",
+              "displayName": "bruceirvin_",
+              "name": "bruceirvin_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "101641403",
+              "displayName": "WinThaWalK",
+              "name": "winthawalk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "645490020",
+              "displayName": "casablancass_",
+              "name": "casablancass_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "690825023",
+              "displayName": "DOGBROLOVELOVE",
+              "name": "dogbrolovelove",
+              "__typename": "Channel"
+            },
+            {
+              "id": "121527467",
+              "displayName": "Hideaplaya",
+              "name": "hideaplaya",
+              "__typename": "Channel"
+            },
+            {
+              "id": "197248763",
+              "displayName": "noonneenannn",
+              "name": "noonneenannn",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
+        "description": "[ASIA Only] Earn exclusive drops by watching the Master Class 2025",
+        "detailsURL": "https://blackdesert.pearlabyss.com/Asia/en-US/News/Notice/Detail?_boardNo=8053",
+        "endAt": "2025-11-01T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "386821",
+          "slug": "black-desert",
+          "displayName": "Black Desert",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dfe04564-2235-46d5-9f41-dd0ae2b53349.jpeg",
+        "name": "[ASIA] Master Class_1101",
+        "owner": {
+          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+          "name": "Pearl Abyss",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-01T07:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "22e84bf0-b619-11f0-bf75-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_MASTERCLASS20251",
+                  "createdAt": "2025-10-31T05:16:36.904Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6f909513-d589-4da0-8eda-7f57d63d68fa.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[ASIA] 1 Hour Reward",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-01T15:59:59.999Z",
+            "name": "1 Hour (Nov. 1)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-01T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "2848bcb5-b619-11f0-8aac-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_MASTERCLASS20252",
+                  "createdAt": "2025-10-31T05:17:49.257Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f11b2dc0-64fe-47e8-b3b8-1d814eb4a2f2.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[ASIA] 2 Hours Reward",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-01T15:59:59.999Z",
+            "name": "2 Hour (Nov. 1)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-01T07:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -53926,6 +54082,675 @@
       }
     ],
     "startAt": "2025-10-22T01:31:59.000Z"
+  },
+  {
+    "endAt": "2025-11-15T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/902050890_IGDB-120x160.jpg",
+    "gameDisplayName": "Kakele Online - MMORPG",
+    "gameId": "902050890",
+    "rewards": [
+      {
+        "id": "8a31e8e6-b589-11f0-a540-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "629037015",
+              "displayName": "KAKELEMMORPG",
+              "name": "kakelemmorpg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "546999559",
+              "displayName": "mage1tv",
+              "name": "mage1tv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "132557219",
+              "displayName": "Macielzera__",
+              "name": "macielzera__",
+              "__typename": "Channel"
+            },
+            {
+              "id": "660050189",
+              "displayName": "akashi_rpg",
+              "name": "akashi_rpg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1084583095",
+              "displayName": "KapparzoJr",
+              "name": "kapparzojr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "443632498",
+              "displayName": "xFussy",
+              "name": "xfussy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "937576973",
+              "displayName": "KillerTech_",
+              "name": "killertech_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1046469425",
+              "displayName": "batatynha_",
+              "name": "batatynha_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "945708082",
+              "displayName": "SrAnjOaBs",
+              "name": "sranjoabs",
+              "__typename": "Channel"
+            },
+            {
+              "id": "947031795",
+              "displayName": "arrkkham",
+              "name": "arrkkham",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1019837889",
+              "displayName": "PodajMaslo",
+              "name": "podajmaslo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "69829174",
+              "displayName": "eryczaks",
+              "name": "eryczaks",
+              "__typename": "Channel"
+            },
+            {
+              "id": "958281099",
+              "displayName": "lordignizyt",
+              "name": "lordignizyt",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1093443973",
+              "displayName": "PescoMage",
+              "name": "pescomage",
+              "__typename": "Channel"
+            },
+            {
+              "id": "995703106",
+              "displayName": "deiver304",
+              "name": "deiver304",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1037340071",
+              "displayName": "godzintv",
+              "name": "godzintv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1357243747",
+              "displayName": "ego_gamer_xd",
+              "name": "ego_gamer_xd",
+              "__typename": "Channel"
+            },
+            {
+              "id": "451850010",
+              "displayName": "FNGSilva",
+              "name": "fngsilva",
+              "__typename": "Channel"
+            },
+            {
+              "id": "145975396",
+              "displayName": "mavip_",
+              "name": "mavip_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1198482405",
+              "displayName": "reedtvoficial",
+              "name": "reedtvoficial",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://id.twitch.tv/oauth2/authorize?client_id=9awx3xtp59477gdaslg318amuimqp8&redirect_uri=https%3A%2F%2Fwww.kakele.io%2Fdrops&response_type=code&scope=user:read:email",
+        "description": "🎮 Announcing Kakele Online's Epic Twitch Drops!  Embark on a unique journey in Kakele's realm. Dive into mystical lands, conquer quests, and enjoy our exciting Twitch Drops for enhanced gaming. Unlock rewards, including teleports, herbs, potions, and materials.  🕒 Timed Rewards: Enjoy cities Teleports, Ultra potions, Gold Refiner Kits and collect Dog Cards and Trophies.  💰 Prosperity Path: Gain Copper, Tin, Silver, Iron, Gold, Life Herbs, Mana Herbs for success. Accumulate Reputation Coins.  🎈 Grand Finale: End with an exclusive Twitch Drop and Bacon Extravaganza surprise! Link accounts, watch streams, and claim rewards for an unforgettable RPG experience.  🌟 How to Join:  Link Accounts: Connect your account and Twitch in the game app. Watch Streams: Tune in during to your favorite Kakele streamer. Claim Rewards: Receive Twitch Drop notifications claim in the game app.  Influencers: To enable drops on your stream, email us!  Don't miss the chance to enrich your journey with Twitch Drops!",
+        "detailsURL": "https://www.kakele.io/?utm_source=drops",
+        "endAt": "2025-11-15T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "902050890",
+          "slug": "kakele-online-mmorpg",
+          "displayName": "Kakele Online - MMORPG",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c6bc2b9b-edac-4c77-b5f9-0a36277eddd6.png",
+        "name": "Kakele Online-November",
+        "owner": {
+          "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+          "name": "ViVa Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-01T07:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "cbcb15d3-b589-11f0-b992-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3af8e6f6-780b-11ee-b0fe-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:33:32.442Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0740ea50-b39a-4e12-b1da-9d390e560c56.png",
+                  "isIosAvailable": false,
+                  "name": "2 Kebelessa Teleports",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "29498454-780b-11ee-af23-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:33:02.772Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8a5b234f-eb7e-4dcf-b4e8-fa94931777df.png",
+                  "isIosAvailable": false,
+                  "name": "2 Muroria Teleports",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "0fe71c9e-780b-11ee-8782-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:32:20.184Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b0a7f648-5793-455c-95f6-386d9f687e61.png",
+                  "isIosAvailable": false,
+                  "name": "2 Kechelada Teleports",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-15T23:29:59.999Z",
+            "name": "Traveler Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-01T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d22e7892-b589-11f0-950b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9dbbda1c-780b-11ee-8782-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:36:18.137Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/54e92edb-3ab0-48d8-b39d-456bad420a05.png",
+                  "isIosAvailable": false,
+                  "name": "30 Supreme Mana Bottles",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "895141c2-780b-11ee-8ad4-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:35:43.884Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/53c591dc-6c1f-4453-92c4-a548f3bd67fb.png",
+                  "isIosAvailable": false,
+                  "name": "15 Ultra Mana Bottles",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "7b4a062f-780b-11ee-8638-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:35:20.348Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b5f057f0-3ea0-4bc3-a580-c72b266d1a62.png",
+                  "isIosAvailable": false,
+                  "name": "15 Ultra Health Bottles",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-15T23:29:59.999Z",
+            "name": "Life Supplies",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-11-01T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d8f18c1c-b589-11f0-bd77-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "c5d42cf1-780b-11ee-b083-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:37:25.405Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/40bf2da6-6a63-4077-bce8-17c90df7bc53.png",
+                  "isIosAvailable": false,
+                  "name": "10 Raw Iron",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "db81d4fc-780b-11ee-bf86-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:38:01.775Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8d5f4723-e87c-4478-9865-c4d5e2748cce.png",
+                  "isIosAvailable": false,
+                  "name": "15 Raw Silver",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "d0969ae7-780b-11ee-84e6-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:37:43.456Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fe82985-0ff8-4d1e-af9e-b7f6389345a7.png",
+                  "isIosAvailable": false,
+                  "name": "10 Raw Gold",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-15T23:29:59.999Z",
+            "name": "Precious Metals",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-11-01T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "df3b66d3-b589-11f0-a540-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9fb548de-780c-11ee-b083-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:43:30.946Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4b541ab7-dde1-487a-b1e9-21b45300d4ad.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch Drop",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "09f93f35-780c-11ee-bb60-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:39:19.733Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a5151156-0de7-4119-ad6d-a7c4f059a802.png",
+                  "isIosAvailable": false,
+                  "name": "50 Reputation Coins",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "29c88721-780c-11ee-a40e-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:40:13.101Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ccbb9448-e02c-4ee0-a4f0-6a5450ded7e4.png",
+                  "isIosAvailable": false,
+                  "name": "5 Gold Refiner Kits",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-15T23:29:59.999Z",
+            "name": "Reputation Coins",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 540,
+            "startAt": "2025-11-01T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "e6f0340a-b589-11f0-bd32-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "428eed26-780c-11ee-9c9d-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:40:54.666Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8bac004-1c92-4cb1-93cf-9fa82009374a.png",
+                  "isIosAvailable": false,
+                  "name": "10 Life Herbs",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "36ee5781-780c-11ee-bddd-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:40:35.159Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a92e4ffd-aa48-4636-81d0-be3a71c6edac.png",
+                  "isIosAvailable": false,
+                  "name": "10 Mana Herbs",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "29c88721-780c-11ee-a40e-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:40:13.101Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ccbb9448-e02c-4ee0-a4f0-6a5450ded7e4.png",
+                  "isIosAvailable": false,
+                  "name": "5 Gold Refiner Kits",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-15T23:29:59.999Z",
+            "name": "Gold Refiner and Herbalist Kit",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 660,
+            "startAt": "2025-11-01T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ef2abdc2-b589-11f0-b41b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "b6fa437a-b0d6-11ef-9da6-0a58a9feac02",
+                  "createdAt": "2024-12-02T17:56:11.111Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/837c6d8f-5935-4b9c-9d4b-d057e52d0521.png",
+                  "isIosAvailable": false,
+                  "name": "Coins Stream",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "fc6b0d32-780b-11ee-bf86-0a58a9feac02",
+                  "createdAt": "2023-10-31T16:38:56.991Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5b2cddf0-d4d4-4c8f-a52c-21b9a56c6b95.png",
+                  "isIosAvailable": false,
+                  "name": "50 Kakele Coins (NT)",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "dc491f0a-b58a-11f0-895c-0a58a9feac02",
+                  "createdAt": "2025-10-30T12:20:45.438Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "902050890",
+                    "name": "Kakele Online - MMORPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c7ab6eb2-f486-447d-97b8-eea5724f74df.png",
+                  "isIosAvailable": false,
+                  "name": "Ice Slime Trophy",
+                  "ownerOrganization": {
+                    "id": "392e8b0d-e928-437f-a87d-c8f9eae3f8c7",
+                    "name": "ViVa Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-15T23:29:59.999Z",
+            "name": "The Ultimate Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2025-11-01T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-01T07:00:00.000Z"
   },
   {
     "endAt": "2025-11-18T13:59:59.995Z",
