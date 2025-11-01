@@ -8725,6 +8725,86 @@
     "startAt": "2025-10-31T14:00:00.000Z"
   },
   {
+    "endAt": "2025-11-03T04:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/33214-120x160.jpg",
+    "gameDisplayName": "Fortnite",
+    "gameId": "33214",
+    "rewards": [
+      {
+        "id": "e3093119-b75b-11f0-9b4c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.fortnite.com/twitch-drops",
+        "description": "Fortnite | Simpsons: Drop into Springfield in BR and Delulu! Watch any Fortnite stream on Twitch for 30mins to earn The Siiimpsooooons… Wrap. This reward is not exclusive to Twitch and can appear in the Shop at a later date. ",
+        "detailsURL": "https://www.fortnite.com/news/fortnite-simpsons-drop-into-springfield-in-br-and-delulu",
+        "endAt": "2025-11-03T04:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "33214",
+          "slug": "fortnite",
+          "displayName": "Fortnite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2a8aa9a5-d33f-4ca0-8549-1bf912555e51.jpeg",
+        "name": "Fortnite | The Simpsons",
+        "owner": {
+          "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+          "name": "Epic Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-01T20:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0e85c17b-b75c-11f0-a6e9-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a_CUSTOM_ID_545CEF074DBCEB9570944B86F7C4701C",
+                  "createdAt": "2025-11-01T19:46:55.079Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "33214",
+                    "name": "Fortnite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f39cf497-6013-4e9d-808e-b0bf6042e452.jpeg",
+                  "isIosAvailable": false,
+                  "name": "The Siiimpsooooons… Wrap",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-03T04:59:59.999Z",
+            "name": "The Siiimpsooooons… Wrap",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-11-01T20:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-01T20:30:00.000Z"
+  },
+  {
     "endAt": "2025-11-03T05:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/491117_IGDB-120x160.jpg",
     "gameDisplayName": "Fishing Planet",
