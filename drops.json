@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2025-11-02T11:59:59.998Z",
+    "endAt": "2025-11-02T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
     "gameDisplayName": "Black Desert",
     "gameId": "386821",
@@ -257,6 +257,156 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-11-01T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "4a1aa64a-b61a-11f0-863e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "101641403",
+              "displayName": "WinThaWalK",
+              "name": "winthawalk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "664461281",
+              "displayName": "bruceirvin_",
+              "name": "bruceirvin_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "690825023",
+              "displayName": "DOGBROLOVELOVE",
+              "name": "dogbrolovelove",
+              "__typename": "Channel"
+            },
+            {
+              "id": "121527467",
+              "displayName": "Hideaplaya",
+              "name": "hideaplaya",
+              "__typename": "Channel"
+            },
+            {
+              "id": "246407403",
+              "displayName": "Jaodear_",
+              "name": "jaodear_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "645490020",
+              "displayName": "casablancass_",
+              "name": "casablancass_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "446760820",
+              "displayName": "DOKxDAEKs",
+              "name": "dokxdaeks",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
+        "description": "[ASIA Only] Earn exclusive drops by watching the Master Class 2025",
+        "detailsURL": "https://blackdesert.pearlabyss.com/Asia/en-US/News/Notice/Detail?_boardNo=8053",
+        "endAt": "2025-11-02T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "386821",
+          "slug": "black-desert",
+          "displayName": "Black Desert",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e7d3835d-84f5-4e31-96b2-c87a1723b9d9.jpeg",
+        "name": "[ASIA] Master Class_1102",
+        "owner": {
+          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+          "name": "Pearl Abyss",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-02T07:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "53aa4092-b61a-11f0-9a7b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_MASTERCLASS20251",
+                  "createdAt": "2025-10-31T05:16:36.904Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6f909513-d589-4da0-8eda-7f57d63d68fa.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[ASIA] 1 Hour Reward",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-02T15:59:59.999Z",
+            "name": "1 Hour (Nov. 2)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-02T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "5994bb4f-b61a-11f0-a72a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_MASTERCLASS20252",
+                  "createdAt": "2025-10-31T05:17:49.257Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f11b2dc0-64fe-47e8-b3b8-1d814eb4a2f2.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[ASIA] 2 Hours Reward",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-02T15:59:59.999Z",
+            "name": "2 Hour (Nov. 2)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-02T07:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
