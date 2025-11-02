@@ -5745,7 +5745,7 @@
     "startAt": "2025-10-16T14:00:00.000Z"
   },
   {
-    "endAt": "2025-11-03T06:53:59.998Z",
+    "endAt": "2025-11-05T11:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/624536948_IGDB-120x160.jpg",
     "gameDisplayName": "EA Sports FC 26",
     "gameId": "624536948",
@@ -5859,6 +5859,144 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 60,
             "startAt": "2025-10-07T06:54:59Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "4744df64-a34b-11f0-b278-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "487492505",
+              "displayName": "Abo_Fawzi18",
+              "name": "abo_fawzi18",
+              "__typename": "Channel"
+            },
+            {
+              "id": "46224797",
+              "displayName": "MrD0ne",
+              "name": "mrd0ne",
+              "__typename": "Channel"
+            },
+            {
+              "id": "121630302",
+              "displayName": "PHfreitas",
+              "name": "phfreitas",
+              "__typename": "Channel"
+            },
+            {
+              "id": "48495043",
+              "displayName": "diegog1996",
+              "name": "diegog1996",
+              "__typename": "Channel"
+            },
+            {
+              "id": "404813066",
+              "displayName": "Flokox",
+              "name": "flokox",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "FC Pro Open GlobalQualifier Day 1",
+        "detailsURL": "https://www.ea.com/games/ea-sports-fc/fc-pro/how-to-earn-rewards",
+        "endAt": "2025-11-05T11:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "624536948",
+          "slug": "ea-sports-fc-26",
+          "displayName": "EA Sports FC 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1f2e44a5-32e6-41d4-a92b-72f228618a02.png",
+        "name": "FC Pro Open GQ Day 2",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-31T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "54324f3f-a34b-11f0-977f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_FCPRO_2605",
+                  "createdAt": "2025-10-07T06:53:33.36Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "624536948",
+                    "name": "EA Sports FC 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5f02038-e7bf-4cf8-9b0c-a729f0beb200.png",
+                  "isIosAvailable": false,
+                  "name": "80+ Triple",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-05T11:59:59.999Z",
+            "name": "80+ Triple",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-10-31T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "59b74985-a34b-11f0-a029-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_FCPRO_2606",
+                  "createdAt": "2025-10-07T06:53:57.481Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "624536948",
+                    "name": "EA Sports FC 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/10455833-fec8-4612-b9b8-d55e959ce8e8.png",
+                  "isIosAvailable": false,
+                  "name": "81+ x 5",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-05T11:59:59.999Z",
+            "name": "81+ x 5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-10-31T00:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
