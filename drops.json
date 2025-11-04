@@ -56517,6 +56517,86 @@
     "startAt": "2025-11-04T02:30:00.000Z"
   },
   {
+    "endAt": "2025-11-30T17:59:59.997Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1482602869_IGDB-120x160.jpg",
+    "gameDisplayName": "7 Days Blood Moons",
+    "gameId": "1482602869",
+    "rewards": [
+      {
+        "id": "c774192d-b8d6-11f0-8754-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://drops.thefunpimps.com/",
+        "description": "Support a 7 Days Blood Moons streamer on launch by purchasing two subs to earn the exclusive Watcher Set cosmetic. Once claimed, the cosmetic will also become available in 7 Days to Die in early December.",
+        "detailsURL": "https://7daysbloodmoons.com/",
+        "endAt": "2025-11-30T17:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1482602869",
+          "slug": "7-days-blood-moons",
+          "displayName": "7 Days Blood Moons",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "7 Days Blood Moons Launch",
+        "owner": {
+          "id": "95200ec2-aee2-4bdf-a8e7-5c4108b1bdd7",
+          "name": "The Fun Pimps Entertainment",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-04T06:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a8fc899b-b8d8-11f0-9701-0a58a9feac02",
+            "requiredSubs": 2,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "95200ec2-aee2-4bdf-a8e7-5c4108b1bdd7_CUSTOM_ID_4a8d3253-b365-11f0-9e83-0a58a9feac02",
+                  "createdAt": "2025-10-29T16:54:30.526Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1482602869",
+                    "name": "7 Days Blood Moons",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1049ed77-1e07-47cf-bfe2-7ee334cad6ef.png",
+                  "isIosAvailable": false,
+                  "name": "Watcher Set",
+                  "ownerOrganization": {
+                    "id": "95200ec2-aee2-4bdf-a8e7-5c4108b1bdd7",
+                    "name": "The Fun Pimps Entertainment",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-30T17:59:59.997Z",
+            "name": "Watcher Set",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-11-04T06:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-04T06:00:00.000Z"
+  },
+  {
     "endAt": "2025-11-30T18:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1426040084_IGDB-120x160.jpg",
     "gameDisplayName": "Coin Pusher Live",
