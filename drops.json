@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2025-11-05T02:59:59.999Z",
+    "endAt": "2025-11-05T03:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/272952894_IGDB-120x160.jpg",
     "gameDisplayName": "Madden NFL 26",
     "gameId": "272952894",
@@ -150,6 +150,156 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 60,
             "startAt": "2025-11-04T12:20:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "029c3cd2-b1f2-11f0-b0bb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "554723459",
+              "displayName": "HuddleGG",
+              "name": "huddlegg",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Tune into In The Huddle to earn Twitch Drops to level up your Ultimate Team.",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-11-05T03:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "272952894",
+          "slug": "ea-sports-madden-nfl-26",
+          "displayName": "Madden NFL 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/522c9eaf-41ba-490c-8032-9dd825b3cc31.jpeg",
+        "name": "In The Huddle",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-05T01:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9f164456-b1f2-11f0-828b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-377",
+                  "createdAt": "2025-10-25T22:35:23.689Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7c921aa-934e-424b-b7fa-acd95e5b8a9a.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-05T03:59:59.999Z",
+            "name": "Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-11-05T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a09894c5-b1f2-11f0-a0ff-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-378",
+                  "createdAt": "2025-10-25T22:35:38.85Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/56f2f39b-ac41-4bc2-a7c5-df5470203ea2.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-05T03:59:59.999Z",
+            "name": "Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-05T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a2c7d536-b1f2-11f0-9d2c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-379",
+                  "createdAt": "2025-10-25T22:35:52.674Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3212ca44-56f9-4577-b67f-6b9e02bbab46.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-05T03:59:59.999Z",
+            "name": "Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-05T01:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -49094,6 +49244,12 @@
               "displayName": "AlemaoNFTReal",
               "name": "alemaonftreal",
               "__typename": "Channel"
+            },
+            {
+              "id": "886461320",
+              "displayName": "nari_ozzy",
+              "name": "nari_ozzy",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -49897,5 +50053,229 @@
       }
     ],
     "startAt": "2025-11-02T19:00:00.000Z"
+  },
+  {
+    "endAt": "2025-12-03T00:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/213930085_IGDB-120x160.jpg",
+    "gameDisplayName": "Honkai: Star Rail",
+    "gameId": "213930085",
+    "rewards": [
+      {
+        "id": "c920b240-b2fa-11f0-a936-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://act.hoyoverse.com/puzzle/hkrpg/pz_u8LiB2qvFN/index.html?game_biz=hkrpg_global&utm_source=twitch&utm_medium=push",
+        "description": "Honkai: Star Rail Drops Campaign",
+        "detailsURL": "https://act.hoyoverse.com/puzzle/hkrpg/pz_u8LiB2qvFN/index.html?game_biz=hkrpg_global&utm_source=twitch&utm_medium=push",
+        "endAt": "2025-12-03T00:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "213930085",
+          "slug": "honkai-star-rail",
+          "displayName": "Honkai: Star Rail",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/78133ed3-13de-4e01-ac02-c98a8a3e5077.png",
+        "name": "V3.7 Honkai: Star Rail",
+        "owner": {
+          "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+          "name": "Cognosphere",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-05T01:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "384be1d7-b301-11f0-9cd4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "227caadf-5d2e-11ee-ae95-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:05:22.353Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5cb5327-04fc-4537-ad6a-142b9bfa89fe.png",
+                  "isIosAvailable": true,
+                  "name": "Condensed Aether*5",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-03T00:59:59.999Z",
+            "name": "Condensed Aether*5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-11-05T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3dabba98-b301-11f0-bd13-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "4fcbc7f0-5d2e-11ee-b040-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:06:38.369Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/10953670-5011-471e-b873-b1ef4901ba6e.png",
+                  "isIosAvailable": true,
+                  "name": "Traveler's Guide*3",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-03T00:59:59.999Z",
+            "name": "Traveler's Guide*3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-05T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "42f8bdc1-b301-11f0-8bf6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "446e5402-5d2e-11ee-ae95-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:06:19.302Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35243e27-46dd-438a-b460-7bfafe547f18.png",
+                  "isIosAvailable": true,
+                  "name": "Stellar Jade*30",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-03T00:59:59.999Z",
+            "name": "Stellar Jade*30",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-05T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d6f3ab3a-b300-11f0-8962-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2deea1b8-5d2e-11ee-b040-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:05:41.555Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bdf2a93f-96e5-4544-9972-4b4d8eabddc9.png",
+                  "isIosAvailable": true,
+                  "name": "Credit*20000",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-03T00:59:59.999Z",
+            "name": "Credit*20000",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-11-05T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "de9df1aa-b300-11f0-960b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "38466902-5d2e-11ee-94c4-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:05:58.908Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8254bd0-87ab-491a-b5bf-2ba99d9ecf6f.png",
+                  "isIosAvailable": true,
+                  "name": "Lost Gold Fragment*4",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-03T00:59:59.999Z",
+            "name": "Lost Gold Fragment*4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-11-05T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-05T01:00:00.000Z"
   }
 ]
