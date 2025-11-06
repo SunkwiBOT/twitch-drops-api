@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2025-11-06T16:59:59.999Z",
+    "endAt": "2025-11-13T16:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
     "gameDisplayName": "World of Warships",
     "gameId": "32502",
@@ -778,12 +778,119 @@
           }
         ],
         "__typename": "DropCampaign"
+      },
+      {
+        "id": "1ff1887b-b8c4-11f0-b16e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://wargaming.net/personal/",
+        "description": "drops",
+        "detailsURL": "https://worldofwarships.eu/news/general-news/stream-rewards-1410/",
+        "endAt": "2025-11-13T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "32502",
+          "slug": "world-of-warships",
+          "displayName": "World of Warships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4a506d04-9b29-4712-b260-3cefde341f63.png",
+        "name": "Update 14.10 Drop: Week 2",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-06T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "4899a0db-b8c4-11f0-b014-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1410_mission2",
+                  "createdAt": "2025-10-27T15:02:01.735Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0341cfe3-1fdb-4be5-87b3-cd2bcd51c631.png",
+                  "isIosAvailable": false,
+                  "name": "Update 14.10 Mission #2",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-13T16:59:59.999Z",
+            "name": "Update 14.10 Mission #2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-11-06T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4ff6dcb7-b8c4-11f0-8ddd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1410_twitchbox",
+                  "createdAt": "2025-10-27T15:04:24.978Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d552966b-99bd-4b09-8146-a0f0daa65dc4.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch Container 14.10",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-13T16:59:59.999Z",
+            "name": "Twitch Container 14.10 week #2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-11-06T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
       }
     ],
     "startAt": "2025-10-30T15:00:00.000Z"
   },
   {
-    "endAt": "2025-11-10T07:59:59.000Z",
+    "endAt": "2025-12-04T16:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21779-120x160.jpg",
     "gameDisplayName": "League of Legends",
     "gameId": "21779",
@@ -1599,6 +1706,138 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 0,
             "startAt": "2025-10-10T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "af67e7e3-9ee4-11f0-814e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "36029255",
+              "displayName": "Riot Games",
+              "name": "riotgames",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1103155299",
+              "displayName": "leagueoflegendsth",
+              "name": "leagueoflegendsth",
+              "__typename": "Channel"
+            },
+            {
+              "id": "485855940",
+              "displayName": "lolesportstw",
+              "name": "lolesportstw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "142055874",
+              "displayName": "ltaespanol",
+              "name": "ltaespanol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "104833324",
+              "displayName": "LeagueofLegendsJP",
+              "name": "leagueoflegendsjp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36511475",
+              "displayName": "LTASul",
+              "name": "ltasul",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124425501",
+              "displayName": "LCK",
+              "name": "lck",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124420521",
+              "displayName": "lcs",
+              "name": "lcs",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124422593",
+              "displayName": "LEC",
+              "name": "lec",
+              "__typename": "Channel"
+            },
+            {
+              "id": "485725873",
+              "displayName": "LoLPacificEN",
+              "name": "lolpacificen",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
+        "description": "Subscribers with paid and gifted Tier 1 subscriptions will earn the “FABULOUS!” emote by subscribing to participating LoL Esports channels. By subscribing, fans will receive an enhanced viewing experience while providing direct support to their favorite leagues and teams.",
+        "detailsURL": "https://lolesports.com/en-US/news/worlds-2025-primer",
+        "endAt": "2025-12-04T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "21779",
+          "slug": "league-of-legends",
+          "displayName": "League of Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c0e07684-d4d8-45f4-8d4f-635c5eb20ab8.png",
+        "name": "Worlds - Sub Drop",
+        "owner": {
+          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+          "name": "Riot Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-06T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "db4f0d03-9ee4-11f0-ad5c-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2025-LoL-TwitchSubs-WorldsDrop",
+                  "createdAt": "2025-09-30T18:13:00.346Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "21779",
+                    "name": "League of Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ecc6beab-beed-4698-980a-f61c43437593.png",
+                  "isIosAvailable": true,
+                  "name": "\"FABULOUS!\" Emote\t\t\t\t\t",
+                  "ownerOrganization": {
+                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+                    "name": "Riot Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-04T16:59:59.999Z",
+            "name": "\"FABULOUS!\" Emote",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-11-06T17:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -2738,6 +2977,147 @@
     "startAt": "2025-11-05T17:59:00.000Z"
   },
   {
+    "endAt": "2025-11-06T19:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
+    "gameDisplayName": "Tanki Online",
+    "gameId": "417810",
+    "rewards": [
+      {
+        "id": "5db75452-baf1-11f0-b647-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "117023453",
+              "displayName": "TankiSport_RU",
+              "name": "tankisport_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64274116",
+              "displayName": "TankiSport_EN",
+              "name": "tankisport_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806896138",
+              "displayName": "TankiSport_RU_2",
+              "name": "tankisport_ru_2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806894175",
+              "displayName": "TankiSport_EN_2",
+              "name": "tankisport_en_2",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://tankionline.com/play/",
+        "description": "Watch Tanki Online eSports match livestreams and get Epic Keys in Tanki Online",
+        "detailsURL": "https://tankionline.com/",
+        "endAt": "2025-11-06T19:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417810",
+          "slug": "tanki-online",
+          "displayName": "Tanki Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e4363374-f9be-4736-909d-35e8169eacdc.jpeg",
+        "name": "WM 2025 CS R1",
+        "owner": {
+          "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+          "name": "APL Publishing Ltd",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-06T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7b88c9af-baf1-11f0-a849-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-06T19:29:59.999Z",
+            "name": "Match 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-11-06T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7e8fb5a3-baf1-11f0-bca5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-06T19:29:59.999Z",
+            "name": "Match 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-06T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-06T17:00:00.000Z"
+  },
+  {
     "endAt": "2025-11-09T22:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/510389_IGDB-120x160.jpg",
     "gameDisplayName": "Shakes and Fidget",
@@ -3843,6 +4223,219 @@
       }
     ],
     "startAt": "2025-10-31T15:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-06T23:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
+    "gameDisplayName": "World of Tanks",
+    "gameId": "27546",
+    "rewards": [
+      {
+        "id": "23676383-92e3-11f0-a123-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "182560660",
+              "displayName": "WorldofTanks",
+              "name": "worldoftanks",
+              "__typename": "Channel"
+            },
+            {
+              "id": "906047053",
+              "displayName": "WorldofTanks_Ukraine",
+              "name": "worldoftanks_ukraine",
+              "__typename": "Channel"
+            },
+            {
+              "id": "111768177",
+              "displayName": "Chessgenie",
+              "name": "chessgenie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "103179576",
+              "displayName": "Fr3ddy",
+              "name": "fr3ddy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "52807558",
+              "displayName": "Eda007",
+              "name": "eda007",
+              "__typename": "Channel"
+            },
+            {
+              "id": "47167396",
+              "displayName": "MrScheff",
+              "name": "mrscheff",
+              "__typename": "Channel"
+            },
+            {
+              "id": "135445967",
+              "displayName": "Dani2999_",
+              "name": "dani2999_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "228082001",
+              "displayName": "Shadow_TheLoneWolf",
+              "name": "shadow_thelonewolf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "30118763",
+              "displayName": "NewMultiShow",
+              "name": "newmultishow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "62603776",
+              "displayName": "cyganzor",
+              "name": "cyganzor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38181398",
+              "displayName": "jXcr",
+              "name": "jxcr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51045488",
+              "displayName": "synop_s",
+              "name": "synop_s",
+              "__typename": "Channel"
+            },
+            {
+              "id": "227768077",
+              "displayName": "Avolve_8",
+              "name": "avolve_8",
+              "__typename": "Channel"
+            },
+            {
+              "id": "50647345",
+              "displayName": "theruev",
+              "name": "theruev",
+              "__typename": "Channel"
+            },
+            {
+              "id": "103573025",
+              "displayName": "Dak_28",
+              "name": "dak_28",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41044567",
+              "displayName": "AzumDzumHzumS",
+              "name": "azumdzumhzums",
+              "__typename": "Channel"
+            },
+            {
+              "id": "881737884",
+              "displayName": "vgostiua",
+              "name": "vgostiua",
+              "__typename": "Channel"
+            },
+            {
+              "id": "416271045",
+              "displayName": "skifler_wot",
+              "name": "skifler_wot",
+              "__typename": "Channel"
+            },
+            {
+              "id": "852549791",
+              "displayName": "sh0kerix",
+              "name": "sh0kerix",
+              "__typename": "Channel"
+            },
+            {
+              "id": "592436994",
+              "displayName": "Bizzord_WOT",
+              "name": "bizzord_wot",
+              "__typename": "Channel"
+            },
+            {
+              "id": "511298079",
+              "displayName": "Mautz_",
+              "name": "mautz_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "116558499",
+              "displayName": "Tyrion9189",
+              "name": "tyrion9189",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
+        "description": "AMD OLS#4 Phase 2 Day 5",
+        "detailsURL": "https://worldoftanks.eu/news/live-streams/token-store-september-2025/",
+        "endAt": "2025-11-06T23:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d49bb726-2104-4da0-9c56-b0af902ae38e.png",
+        "name": "AMD OLS#4 Phase 2 Day 5",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-06T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "cfcfa4ca-92e3-11f0-a31e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TD_OLS4_10_25_16",
+                  "createdAt": "2025-09-17T07:48:42.055Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c934b024-bf16-4070-aec5-85d95c6bf7f0.png",
+                  "isIosAvailable": false,
+                  "name": "5x OLS Tokens",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-06T23:59:59.999Z",
+            "name": "Drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 150,
+            "startAt": "2025-11-06T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-06T17:00:00.000Z"
   },
   {
     "endAt": "2025-11-07T07:58:59.999Z",
@@ -37403,6 +37996,194 @@
       }
     ],
     "startAt": "2025-10-30T16:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-17T08:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/493489_IGDB-120x160.jpg",
+    "gameDisplayName": "Legion TD 2",
+    "gameId": "493489",
+    "rewards": [
+      {
+        "id": "0d9de70d-b31f-11f0-80fc-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://beta.legiontd2.com/twitchdrops/",
+        "description": "Free Weekend Celebration",
+        "detailsURL": "https://beta.legiontd2.com/twitchdrops/",
+        "endAt": "2025-11-17T08:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "493489",
+          "slug": "legion-td-2",
+          "displayName": "Legion TD 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/664399fb-d6c2-4f32-b201-5ce34ae2402a.png",
+        "name": "Free Weekend",
+        "owner": {
+          "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
+          "name": "AutoAttack Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-06T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "391de648-b320-11f0-ae18-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_SS_5000",
+                  "createdAt": "2024-11-04T12:56:51.087Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "493489",
+                    "name": "Legion TD 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b8071ed0-1e66-4a01-88c0-b847d85f2d7a.png",
+                  "isIosAvailable": false,
+                  "name": "5000 Essence",
+                  "ownerOrganization": {
+                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
+                    "name": "AutoAttack Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-17T08:59:59.998Z",
+            "name": "5000 Essence",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-06T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4367aff8-b320-11f0-8fa1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_mysterious_card_item_id",
+                  "createdAt": "2023-09-29T13:22:48.895Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "493489",
+                    "name": "Legion TD 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41813476-fffc-45b9-99a6-1c1517354e98.png",
+                  "isIosAvailable": false,
+                  "name": "Random Card",
+                  "ownerOrganization": {
+                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
+                    "name": "AutoAttack Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-17T08:59:59.998Z",
+            "name": "Random Card",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-11-06T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "5cff2906-b320-11f0-8343-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_PE_1000",
+                  "createdAt": "2023-09-29T13:23:16.53Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "493489",
+                    "name": "Legion TD 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2dea1f19-d013-4aae-a1dc-f2aad3ac1ad1.png",
+                  "isIosAvailable": false,
+                  "name": "1000 Premium Essence",
+                  "ownerOrganization": {
+                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
+                    "name": "AutoAttack Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-17T08:59:59.998Z",
+            "name": "1000 Premium Essence",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-11-06T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6a2824f9-b320-11f0-a7be-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cbb815ca-f371-4243-8ab6-c702f77844c0_CUSTOM_ID_random_secret_card_item_id",
+                  "createdAt": "2024-11-04T13:42:29.282Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "493489",
+                    "name": "Legion TD 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e9050b24-40ef-4e4b-ad19-12a56bf0b313.png",
+                  "isIosAvailable": false,
+                  "name": "Random Secret Card",
+                  "ownerOrganization": {
+                    "id": "cbb815ca-f371-4243-8ab6-c702f77844c0",
+                    "name": "AutoAttack Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-17T08:59:59.998Z",
+            "name": "Random Secret Card",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 600,
+            "startAt": "2025-11-06T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-06T17:00:00.000Z"
   },
   {
     "endAt": "2025-11-17T13:59:59.999Z",
