@@ -1,62 +1,69 @@
 [
   {
-    "endAt": "2025-11-06T11:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
-    "gameDisplayName": "Black Desert",
-    "gameId": "386821",
+    "endAt": "2025-11-07T11:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/207506430_IGDB-120x160.jpg",
+    "gameDisplayName": "Out of the Park Baseball 26",
+    "gameId": "207506430",
     "rewards": [
       {
-        "id": "252e7685-b5f1-11f0-9436-0a58a9feac02",
+        "id": "f8f1299d-b996-11f0-baf4-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "110879765",
+              "displayName": "OOTPDevelopments",
+              "name": "ootpdevelopments",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
-        "description": "• NAEU: https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878 • SA: https://www.sa.playblackdesert.com/News/Detail?groupContentNo=3504 • ASIA: https://blackdesert.pearlabyss.com/ASIA/en-US/News/Notice/Detail?_boardNo=5614 • JP : https://www.jp.playblackdesert.com/ja-JP/News/Detail?boardNo=8505 • TR : https://www.tr.playblackdesert.com/tr-TR/News/Detail?groupContentNo=10256 • TW : https://www.tw.playblackdesert.com/zh-TW/News/Detail?groupContentNo=14444",
-        "detailsURL": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
-        "endAt": "2025-11-06T11:59:59.998Z",
+        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
+        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
+        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
+        "endAt": "2025-11-06T12:53:59.999Z",
         "eventBasedDrops": [],
         "game": {
-          "id": "386821",
-          "slug": "black-desert",
-          "displayName": "Black Desert",
+          "id": "207506430",
+          "slug": "out-of-the-park-baseball-26",
+          "displayName": "Out of the Park Baseball 26",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3227871c-9b6d-4e6a-9102-29569da14e1e.png",
-        "name": "2025 BDO Drops (Nov. 5)",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d5dfcdbd-a4e5-4c04-8c74-12b9ce621c50.png",
+        "name": "Official 11/5/25",
         "owner": {
-          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
-          "name": "Pearl Abyss",
+          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+          "name": "Out of the Park Developments",
           "__typename": "Organization"
         },
-        "startAt": "2025-11-05T12:00:00Z",
+        "startAt": "2025-11-05T13:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "4d8b48c2-b5f1-11f0-be97-0a58a9feac02",
+            "id": "121f8c48-b997-11f0-8e88-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_TWITCHDROP251101",
-                  "createdAt": "2025-10-31T00:28:57.864Z",
+                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:32:57.165Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "386821",
-                    "name": "Black Desert",
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60a102bf-87c7-4b9b-8601-06c1c864b92e.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
                   "isIosAvailable": false,
-                  "name": "2 Hour (2025 Nov~Jan)",
+                  "name": "PT26 Standard Pack",
                   "ownerOrganization": {
-                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
-                    "name": "Pearl Abyss",
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -66,27 +73,162 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-11-06T11:59:59.998Z",
-            "name": "2 Hour (Nov. 5)",
+            "endAt": "2025-11-06T12:53:59.999Z",
+            "name": "1",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-11-05T12:00:00Z",
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-11-05T13:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "24dfa889-b997-11f0-9d41-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:32:57.165Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
+                  "isIosAvailable": false,
+                  "name": "PT26 Standard Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-06T12:53:59.999Z",
+            "name": "2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-11-05T13:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3f7160eb-b997-11f0-8fe7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:32:57.165Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
+                  "isIosAvailable": false,
+                  "name": "PT26 Standard Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-06T12:53:59.999Z",
+            "name": "3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-11-05T13:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "44159bc8-b997-11f0-abf0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:32:57.165Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
+                  "isIosAvailable": false,
+                  "name": "PT26 Standard Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-06T12:53:59.999Z",
+            "name": "4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-05T13:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4e18e95a-b997-11f0-822a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "35d2773b-fe75-11ef-9043-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:34:43.938Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c51bf0c7-61c4-408b-b438-512d7a16c123.png",
+                  "isIosAvailable": false,
+                  "name": "PT26 Silver Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-06T12:53:59.999Z",
+            "name": "5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-11-05T13:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-11-05T12:00:00.000Z"
-  },
-  {
-    "endAt": "2025-11-06T12:53:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/207506430_IGDB-120x160.jpg",
-    "gameDisplayName": "Out of the Park Baseball 26",
-    "gameId": "207506430",
-    "rewards": [
+      },
       {
-        "id": "3465c1f3-b992-11f0-a45e-0a58a9feac02",
+        "id": "86be0100-b993-11f0-8a20-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
@@ -310,7 +452,7 @@
         "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
         "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
         "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
-        "endAt": "2025-11-06T11:59:59.999Z",
+        "endAt": "2025-11-07T11:59:59.999Z",
         "eventBasedDrops": [],
         "game": {
           "id": "207506430",
@@ -318,18 +460,18 @@
           "displayName": "Out of the Park Baseball 26",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9a139df5-cab7-4a46-b968-2d3e67412a8d.png",
-        "name": "Affiliate11/5/25",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6a1153a2-acb0-479c-90d6-db579f3c1921.png",
+        "name": "Affiliate11/6/25",
         "owner": {
           "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
           "name": "Out of the Park Developments",
           "__typename": "Organization"
         },
-        "startAt": "2025-11-05T12:00:00Z",
+        "startAt": "2025-11-06T12:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "1ae0edf9-b993-11f0-96b9-0a58a9feac02",
+            "id": "980b9849-b993-11f0-86d9-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
@@ -357,15 +499,15 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-11-06T11:59:59.999Z",
+            "endAt": "2025-11-07T11:59:59.999Z",
             "name": "1",
             "preconditionDrops": null,
             "requiredMinutesWatched": 15,
-            "startAt": "2025-11-05T12:00:00Z",
+            "startAt": "2025-11-06T12:00:00Z",
             "__typename": "TimeBasedDrop"
           },
           {
-            "id": "21e61621-b993-11f0-8160-0a58a9feac02",
+            "id": "9dbfb460-b993-11f0-97ee-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
@@ -393,15 +535,15 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-11-06T11:59:59.999Z",
+            "endAt": "2025-11-07T11:59:59.999Z",
             "name": "2",
             "preconditionDrops": null,
             "requiredMinutesWatched": 30,
-            "startAt": "2025-11-05T12:00:00Z",
+            "startAt": "2025-11-06T12:00:00Z",
             "__typename": "TimeBasedDrop"
           },
           {
-            "id": "27298228-b993-11f0-844d-0a58a9feac02",
+            "id": "ae310318-b993-11f0-b3b8-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
@@ -429,15 +571,15 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-11-06T11:59:59.999Z",
+            "endAt": "2025-11-07T11:59:59.999Z",
             "name": "3",
             "preconditionDrops": null,
             "requiredMinutesWatched": 45,
-            "startAt": "2025-11-05T12:00:00Z",
+            "startAt": "2025-11-06T12:00:00Z",
             "__typename": "TimeBasedDrop"
           },
           {
-            "id": "2b5d5b62-b993-11f0-a39f-0a58a9feac02",
+            "id": "b297a6d2-b993-11f0-afed-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
@@ -465,15 +607,15 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-11-06T11:59:59.999Z",
+            "endAt": "2025-11-07T11:59:59.999Z",
             "name": "4",
             "preconditionDrops": null,
             "requiredMinutesWatched": 60,
-            "startAt": "2025-11-05T12:00:00Z",
+            "startAt": "2025-11-06T12:00:00Z",
             "__typename": "TimeBasedDrop"
           },
           {
-            "id": "31935525-b993-11f0-b70a-0a58a9feac02",
+            "id": "b751df8c-b993-11f0-9716-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
@@ -501,240 +643,18 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-11-06T11:59:59.999Z",
+            "endAt": "2025-11-07T11:59:59.999Z",
             "name": "5",
             "preconditionDrops": null,
             "requiredMinutesWatched": 90,
-            "startAt": "2025-11-05T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "f8f1299d-b996-11f0-baf4-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "110879765",
-              "displayName": "OOTPDevelopments",
-              "name": "ootpdevelopments",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
-        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
-        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
-        "endAt": "2025-11-06T12:53:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "207506430",
-          "slug": "out-of-the-park-baseball-26",
-          "displayName": "Out of the Park Baseball 26",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d5dfcdbd-a4e5-4c04-8c74-12b9ce621c50.png",
-        "name": "Official 11/5/25",
-        "owner": {
-          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-          "name": "Out of the Park Developments",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-05T13:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "121f8c48-b997-11f0-8e88-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-06T12:53:59.999Z",
-            "name": "1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-11-05T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "24dfa889-b997-11f0-9d41-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-06T12:53:59.999Z",
-            "name": "2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-11-05T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "3f7160eb-b997-11f0-8fe7-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-06T12:53:59.999Z",
-            "name": "3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-11-05T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "44159bc8-b997-11f0-abf0-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-06T12:53:59.999Z",
-            "name": "4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-05T13:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "4e18e95a-b997-11f0-822a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "35d2773b-fe75-11ef-9043-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:34:43.938Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c51bf0c7-61c4-408b-b438-512d7a16c123.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Silver Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-06T12:53:59.999Z",
-            "name": "5",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-11-05T13:00:00Z",
+            "startAt": "2025-11-06T12:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2025-11-05T12:00:00.000Z"
+    "startAt": "2025-11-05T13:00:00.000Z"
   },
   {
     "endAt": "2025-11-06T16:59:59.999Z",
@@ -18749,6 +18669,86 @@
       }
     ],
     "startAt": "2025-11-06T10:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-07T11:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
+    "gameDisplayName": "Black Desert",
+    "gameId": "386821",
+    "rewards": [
+      {
+        "id": "2584cdd6-b5f1-11f0-935a-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
+        "description": "• NAEU: https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878 • SA: https://www.sa.playblackdesert.com/News/Detail?groupContentNo=3504 • ASIA: https://blackdesert.pearlabyss.com/ASIA/en-US/News/Notice/Detail?_boardNo=5614 • JP : https://www.jp.playblackdesert.com/ja-JP/News/Detail?boardNo=8505 • TR : https://www.tr.playblackdesert.com/tr-TR/News/Detail?groupContentNo=10256 • TW : https://www.tw.playblackdesert.com/zh-TW/News/Detail?groupContentNo=14444",
+        "detailsURL": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
+        "endAt": "2025-11-07T11:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "386821",
+          "slug": "black-desert",
+          "displayName": "Black Desert",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ae1b08de-e071-43ff-8191-1c67779106af.png",
+        "name": "2025 BDO Drops (Nov. 6)",
+        "owner": {
+          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+          "name": "Pearl Abyss",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-06T12:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "50910a8d-b5f1-11f0-98d9-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_TWITCHDROP251101",
+                  "createdAt": "2025-10-31T00:28:57.864Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60a102bf-87c7-4b9b-8601-06c1c864b92e.png",
+                  "isIosAvailable": false,
+                  "name": "2 Hour (2025 Nov~Jan)",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-07T11:59:59.998Z",
+            "name": "2 Hour (Nov. 6)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-06T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-06T12:00:00.000Z"
   },
   {
     "endAt": "2025-11-07T14:59:59.998Z",
