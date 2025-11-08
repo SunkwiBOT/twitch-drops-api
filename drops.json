@@ -1876,7 +1876,7 @@
     "startAt": "2025-11-08T12:00:00.000Z"
   },
   {
-    "endAt": "2025-11-09T11:59:59.999Z",
+    "endAt": "2025-11-09T16:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
     "gameDisplayName": "Black Desert",
     "gameId": "386821",
@@ -2307,6 +2307,168 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-11-08T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "09b426b6-bc3a-11f0-b940-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "88586473",
+              "displayName": "Gaztohrn",
+              "name": "gaztohrn",
+              "__typename": "Channel"
+            },
+            {
+              "id": "60680545",
+              "displayName": "icathie",
+              "name": "icathie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "79207724",
+              "displayName": "moskitow1",
+              "name": "moskitow1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "161013139",
+              "displayName": "Gnallas",
+              "name": "gnallas",
+              "__typename": "Channel"
+            },
+            {
+              "id": "169428053",
+              "displayName": "kunglao17",
+              "name": "kunglao17",
+              "__typename": "Channel"
+            },
+            {
+              "id": "232717366",
+              "displayName": "Feilavrin",
+              "name": "feilavrin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "723004821",
+              "displayName": "Rode41",
+              "name": "rode41",
+              "__typename": "Channel"
+            },
+            {
+              "id": "632703779",
+              "displayName": "Daminmikk",
+              "name": "daminmikk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64390837",
+              "displayName": "ZeusGhostz",
+              "name": "zeusghostz",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
+        "description": "https://www.sa.playblackdesert.com/News/Detail?groupContentNo=7006",
+        "detailsURL": "https://www.sa.playblackdesert.com/News/Detail?groupContentNo=7006",
+        "endAt": "2025-11-09T16:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "386821",
+          "slug": "black-desert",
+          "displayName": "Black Desert",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0cf36e71-dabf-4ffd-bd60-2822b128242b.jpeg",
+        "name": "[SA] Master Class Group C",
+        "owner": {
+          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+          "name": "Pearl Abyss",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-08T16:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "38c7562b-bc3a-11f0-b19c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_202511BDSABDMC01",
+                  "createdAt": "2025-11-08T00:34:32.565Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f58aa0de-5b6f-49d5-991f-c429b34dd63e.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[SA] BDMC 1 Hour Reward",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-09T16:29:59.999Z",
+            "name": "1 Hour (Nov. 8)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-08T16:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3e00d724-bc3a-11f0-ac27-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_202511BDSABDMC02",
+                  "createdAt": "2025-11-08T00:34:55.495Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3d760b4c-8f1e-4842-8925-a2d776c10270.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[SA] BDMC 2 Hour Reward",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-09T16:29:59.999Z",
+            "name": "2 Hour (Nov. 8)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-08T16:30:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
