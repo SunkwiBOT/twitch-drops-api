@@ -1,521 +1,5 @@
 [
   {
-    "endAt": "2025-11-08T04:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1233312672_IGDB-120x160.jpg",
-    "gameDisplayName": "Grand Chase Classic",
-    "gameId": "1233312672",
-    "rewards": [
-      {
-        "id": "3f33448a-b9a9-11f0-9b39-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "899363469",
-              "displayName": "GCClassic",
-              "name": "gcclassic",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.koggames.com/game/grandchaseclassic/drops/",
-        "description": "The official GrandChase Classic Twitch will livestream for over two hours for players to receive Twitch Drops. Players are encouraged to begin viewing at the start time to ensure they are able to view for the full two hours to receive all rewards. This campaign will only be available through the official GrandChase Classic Twitch.",
-        "detailsURL": "https://www.koggames.com/game/grandchaseclassic/drops/",
-        "endAt": "2025-11-08T04:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1233312672",
-          "slug": "grand-chase-classic",
-          "displayName": "Grand Chase Classic",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0787c1aa-5451-4237-8be3-bf431a7e5818.png",
-        "name": "11/7 Livestream",
-        "owner": {
-          "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
-          "name": "KOG CO., LTD",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-07T07:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "8c91db39-b9a9-11f0-a71a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1869470_1_-1",
-                  "createdAt": "2025-08-22T17:28:11.278Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1233312672",
-                    "name": "Grand Chase Classic",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/acead1d5-a210-4fd6-bac0-a4893724ebc6.png",
-                  "isIosAvailable": false,
-                  "name": "Abyss Card Box",
-                  "ownerOrganization": {
-                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
-                    "name": "KOG CO., LTD",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1017260_1_-1",
-                  "createdAt": "2025-08-22T17:28:44.313Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1233312672",
-                    "name": "Grand Chase Classic",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31d7073a-909d-496e-aa2d-a19c4376792c.png",
-                  "isIosAvailable": false,
-                  "name": "GP Item Property Scrollx1",
-                  "ownerOrganization": {
-                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
-                    "name": "KOG CO., LTD",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1522310_-1_-1",
-                  "createdAt": "2025-06-11T17:20:03.677Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1233312672",
-                    "name": "Grand Chase Classic",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4bdd0df6-0236-4ed9-a6d5-3d2fb85b5caf.png",
-                  "isIosAvailable": false,
-                  "name": "Premium GC Club (1 Day)",
-                  "ownerOrganization": {
-                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
-                    "name": "KOG CO., LTD",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-08T04:59:59.998Z",
-            "name": "30 Minutes",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-11-07T07:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "8f59a2bb-b9a9-11f0-9e0b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1860900_10_-1",
-                  "createdAt": "2025-08-22T17:29:22.264Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1233312672",
-                    "name": "Grand Chase Classic",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a448f929-0fec-4d5e-ac3b-d0ee506c06da.png",
-                  "isIosAvailable": false,
-                  "name": "Abyss Bullions",
-                  "ownerOrganization": {
-                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
-                    "name": "KOG CO., LTD",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1017260_1_-1",
-                  "createdAt": "2025-08-22T17:28:44.313Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1233312672",
-                    "name": "Grand Chase Classic",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31d7073a-909d-496e-aa2d-a19c4376792c.png",
-                  "isIosAvailable": false,
-                  "name": "GP Item Property Scrollx1",
-                  "ownerOrganization": {
-                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
-                    "name": "KOG CO., LTD",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1522310_-1_-1",
-                  "createdAt": "2025-06-11T17:20:03.677Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1233312672",
-                    "name": "Grand Chase Classic",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4bdd0df6-0236-4ed9-a6d5-3d2fb85b5caf.png",
-                  "isIosAvailable": false,
-                  "name": "Premium GC Club (1 Day)",
-                  "ownerOrganization": {
-                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
-                    "name": "KOG CO., LTD",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-08T04:59:59.998Z",
-            "name": "1 Hour",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-07T07:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "92d1ea50-b9a9-11f0-8d75-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1860500_3_-1",
-                  "createdAt": "2025-07-17T17:23:15.38Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1233312672",
-                    "name": "Grand Chase Classic",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/828ab99f-e5cc-47e5-b50f-d1fb7e8ed04b.png",
-                  "isIosAvailable": false,
-                  "name": "Hero Dungeon Sweep Tix x3",
-                  "ownerOrganization": {
-                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
-                    "name": "KOG CO., LTD",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1017260_1_-1",
-                  "createdAt": "2025-08-22T17:28:44.313Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1233312672",
-                    "name": "Grand Chase Classic",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/31d7073a-909d-496e-aa2d-a19c4376792c.png",
-                  "isIosAvailable": false,
-                  "name": "GP Item Property Scrollx1",
-                  "ownerOrganization": {
-                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
-                    "name": "KOG CO., LTD",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "e17debae-f2cc-496e-961c-6b14f46b0b79_CUSTOM_ID_1522310_-1_-1",
-                  "createdAt": "2025-06-11T17:20:03.677Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1233312672",
-                    "name": "Grand Chase Classic",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4bdd0df6-0236-4ed9-a6d5-3d2fb85b5caf.png",
-                  "isIosAvailable": false,
-                  "name": "Premium GC Club (1 Day)",
-                  "ownerOrganization": {
-                    "id": "e17debae-f2cc-496e-961c-6b14f46b0b79",
-                    "name": "KOG CO., LTD",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-08T04:59:59.998Z",
-            "name": "2 Hours",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-11-07T07:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-11-07T07:00:00.000Z"
-  },
-  {
-    "endAt": "2025-11-09T23:59:59.997Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
-    "gameDisplayName": "Halo Infinite",
-    "gameId": "506416",
-    "rewards": [
-      {
-        "id": "1067f5b4-b8fe-11f0-ab71-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "77973535",
-              "displayName": "RealLifeSpartan",
-              "name": "reallifespartan",
-              "__typename": "Channel"
-            },
-            {
-              "id": "25664179",
-              "displayName": "UberNick",
-              "name": "ubernick",
-              "__typename": "Channel"
-            },
-            {
-              "id": "35978160",
-              "displayName": "EXTREMEBREAKER1",
-              "name": "extremebreaker1",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
-        "description": "Tune into this HCS Grassroots event to earn in-game content in Halo Infinite!",
-        "detailsURL": "https://www.halowaypoint.com",
-        "endAt": "2025-11-08T04:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "506416",
-          "slug": "halo-infinite",
-          "displayName": "Halo Infinite",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f8083789-a265-4001-b679-c9446ca6d309.png",
-        "name": "Grassroots Squad/BTB-NOV7",
-        "owner": {
-          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
-          "name": "Microsoft",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-07T20:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "297ac8f8-b8fe-11f0-baed-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_JN7E-TKUN-KLAQ-7Y4V-W2E6",
-                  "createdAt": "2024-05-24T16:53:21.732Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "506416",
-                    "name": "Halo Infinite",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/542cdbe1-33b3-4042-b6ed-9dc17e85c2c3.png",
-                  "isIosAvailable": false,
-                  "name": "Harvest Dusk MKVII",
-                  "ownerOrganization": {
-                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
-                    "name": "Microsoft",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-08T04:59:59.998Z",
-            "name": "Harvest Dusk MKVII",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-11-07T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "94ff8388-b8fe-11f0-b613-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "522578039",
-              "displayName": "EUHaloLeague",
-              "name": "euhaloleague",
-              "__typename": "Channel"
-            },
-            {
-              "id": "25254906",
-              "displayName": "Stresss",
-              "name": "stresss",
-              "__typename": "Channel"
-            },
-            {
-              "id": "10692319",
-              "displayName": "Eli_X",
-              "name": "eli_x",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
-        "description": "Tune into this HCS Grassroots event to earn in-game content in Halo Infinite!",
-        "detailsURL": "https://www.halowaypoint.com",
-        "endAt": "2025-11-09T23:59:59.997Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "506416",
-          "slug": "halo-infinite",
-          "displayName": "Halo Infinite",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/af898ed0-b29e-44cb-a2c2-b7e45540baf5.png",
-        "name": "EHL Championship-NOV7-9",
-        "owner": {
-          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
-          "name": "Microsoft",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-07T07:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "a9883549-b8fe-11f0-aa1a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_N9AV-CHKG-1YC6-BWG2-4QP3",
-                  "createdAt": "2025-05-21T19:57:00.881Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "506416",
-                    "name": "Halo Infinite",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f7243b25-e6a1-4d83-8382-395817b3f014.png",
-                  "isIosAvailable": false,
-                  "name": "Can Opener Pose",
-                  "ownerOrganization": {
-                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
-                    "name": "Microsoft",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_Q978-K2EI-LV7W-E4HN",
-                  "createdAt": "2025-07-14T22:15:02.987Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "506416",
-                    "name": "Halo Infinite",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b4ea69b9-e907-4be9-9a94-f29706d9cf43.png",
-                  "isIosAvailable": false,
-                  "name": "Hamma Dream Weapons",
-                  "ownerOrganization": {
-                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
-                    "name": "Microsoft",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T23:59:59.997Z",
-            "name": "Watch 2 Hours",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-11-07T07:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-11-07T07:00:00.000Z"
-  },
-  {
     "endAt": "2025-11-08T07:59:59.996Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1136666301_IGDB-120x160.jpg",
     "gameDisplayName": "MLB The Show 25",
@@ -6798,6 +6282,129 @@
       }
     ],
     "startAt": "2025-11-03T15:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-09T23:59:59.997Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
+    "gameDisplayName": "Halo Infinite",
+    "gameId": "506416",
+    "rewards": [
+      {
+        "id": "94ff8388-b8fe-11f0-b613-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "522578039",
+              "displayName": "EUHaloLeague",
+              "name": "euhaloleague",
+              "__typename": "Channel"
+            },
+            {
+              "id": "25254906",
+              "displayName": "Stresss",
+              "name": "stresss",
+              "__typename": "Channel"
+            },
+            {
+              "id": "10692319",
+              "displayName": "Eli_X",
+              "name": "eli_x",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn in-game content in Halo Infinite!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-11-09T23:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/af898ed0-b29e-44cb-a2c2-b7e45540baf5.png",
+        "name": "EHL Championship-NOV7-9",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-07T07:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a9883549-b8fe-11f0-aa1a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_N9AV-CHKG-1YC6-BWG2-4QP3",
+                  "createdAt": "2025-05-21T19:57:00.881Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f7243b25-e6a1-4d83-8382-395817b3f014.png",
+                  "isIosAvailable": false,
+                  "name": "Can Opener Pose",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_Q978-K2EI-LV7W-E4HN",
+                  "createdAt": "2025-07-14T22:15:02.987Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b4ea69b9-e907-4be9-9a94-f29706d9cf43.png",
+                  "isIosAvailable": false,
+                  "name": "Hamma Dream Weapons",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-09T23:59:59.997Z",
+            "name": "Watch 2 Hours",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-07T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-07T07:00:00.000Z"
   },
   {
     "endAt": "2025-11-09T23:59:59.998Z",
