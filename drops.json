@@ -541,6 +541,144 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "9c85f4b9-bba0-11f0-b9d9-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "664461281",
+              "displayName": "bruceirvin_",
+              "name": "bruceirvin_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "101641403",
+              "displayName": "WinThaWalK",
+              "name": "winthawalk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "418843831",
+              "displayName": "Devandimion",
+              "name": "devandimion",
+              "__typename": "Channel"
+            },
+            {
+              "id": "205555230",
+              "displayName": "AtomKenshiroZ",
+              "name": "atomkenshiroz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "121527467",
+              "displayName": "Hideaplaya",
+              "name": "hideaplaya",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
+        "description": "[ASIA Only] Earn exclusive drops by watching the Master Class 2025",
+        "detailsURL": "https://blackdesert.pearlabyss.com/Asia/en-US/News/Notice/Detail?_boardNo=8164",
+        "endAt": "2025-11-09T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "386821",
+          "slug": "black-desert",
+          "displayName": "Black Desert",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "[ASIA] Master Class_1109",
+        "owner": {
+          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+          "name": "Pearl Abyss",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-09T07:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a5269b96-bba0-11f0-b2cd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_MASTERCLASS20253",
+                  "createdAt": "2025-11-07T06:06:23.814Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2bc8f35d-210e-41e7-a3f5-85ba747b3cbc.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[ASIA] 1 Hour Reward_2",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-09T15:59:59.999Z",
+            "name": "1 Hour (Nov.9)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-09T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b0ff6188-bba0-11f0-b41c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_MASTERCLASS20254",
+                  "createdAt": "2025-11-07T06:06:48.712Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be24ba04-33ad-43fd-887a-2338e9072f6f.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[ASIA] 2 Hours Reward_2",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-09T15:59:59.999Z",
+            "name": "2 Hour (Nov.9)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-09T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "09b426b6-bc3a-11f0-b940-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
