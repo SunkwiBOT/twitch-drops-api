@@ -1,12 +1,12 @@
 [
   {
-    "endAt": "2025-11-09T11:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/207506430_IGDB-120x160.jpg",
-    "gameDisplayName": "Out of the Park Baseball 26",
-    "gameId": "207506430",
+    "endAt": "2025-11-09T14:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
+    "gameDisplayName": "Eternal Return",
+    "gameId": "512864",
     "rewards": [
       {
-        "id": "c01880f9-bb4c-11f0-a8f6-0a58a9feac02",
+        "id": "efb0209e-baee-11f0-ab66-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
@@ -14,56 +14,68 @@
         "allow": {
           "channels": [
             {
-              "id": "31583330",
-              "displayName": "Skyrolla",
-              "name": "skyrolla",
+              "id": "695173418",
+              "displayName": "EternalReturn_JP",
+              "name": "eternalreturn_jp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "427263285",
+              "displayName": "EternalReturnGame",
+              "name": "eternalreturngame",
+              "__typename": "Channel"
+            },
+            {
+              "id": "695170110",
+              "displayName": "EternalReturn_TPE",
+              "name": "eternalreturn_tpe",
               "__typename": "Channel"
             }
           ],
           "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
-        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
-        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
-        "endAt": "2025-11-09T11:59:59.996Z",
+        "accountLinkURL": "https://twitch.playeternalreturn.com/",
+        "description": "https://twitch.playeternalreturn.com/",
+        "detailsURL": "https://twitch.playeternalreturn.com/",
+        "endAt": "2025-11-09T14:59:59.998Z",
         "eventBasedDrops": [],
         "game": {
-          "id": "207506430",
-          "slug": "out-of-the-park-baseball-26",
-          "displayName": "Out of the Park Baseball 26",
+          "id": "512864",
+          "slug": "eternal-return",
+          "displayName": "Eternal Return",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/220f478e-ad02-4d80-8035-ccdfb002316d.png",
-        "name": "PTCS Skyrolla 11/8/25",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4d301646-e047-4b29-b572-9d6ff03c0cd9.png",
+        "name": "Masters S9 P1 WildCard",
         "owner": {
-          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-          "name": "Out of the Park Developments",
+          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+          "name": "Nimble Neuron Games",
           "__typename": "Organization"
         },
-        "startAt": "2025-11-08T12:00:00Z",
+        "startAt": "2025-11-09T07:30:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "d6525d31-bb4c-11f0-97ba-0a58a9feac02",
+            "id": "05f58954-baef-11f0-a741-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
+                  "createdAt": "2025-08-07T07:50:44.716Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
+                    "id": "512864",
+                    "name": "Eternal Return",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
                   "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
+                  "name": "Drops Token",
                   "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -73,219 +85,33 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-11-09T11:59:59.996Z",
-            "name": "1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "de904b8e-bb4c-11f0-a7db-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.996Z",
-            "name": "2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "ea61c926-bb4c-11f0-8588-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.996Z",
-            "name": "3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "eecc54c7-bb4c-11f0-a4f6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.996Z",
-            "name": "4",
+            "endAt": "2025-11-09T14:59:59.998Z",
+            "name": "DROPS TOKEN",
             "preconditionDrops": null,
             "requiredMinutesWatched": 60,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "0fbaac11-bb4d-11f0-8592-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "815895593",
-              "displayName": "laptophound",
-              "name": "laptophound",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
-        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
-        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
-        "endAt": "2025-11-09T11:59:59.996Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "207506430",
-          "slug": "out-of-the-park-baseball-26",
-          "displayName": "Out of the Park Baseball 26",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7c3681da-49cb-4641-b607-d264e4103151.png",
-        "name": "PTCS Laptophound 11/8/25",
-        "owner": {
-          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-          "name": "Out of the Park Developments",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-08T12:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "2770488d-bb4d-11f0-b2cd-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.996Z",
-            "name": "1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-11-08T12:00:00Z",
+            "startAt": "2025-11-09T07:30:00Z",
             "__typename": "TimeBasedDrop"
           },
           {
-            "id": "2c3344ef-bb4d-11f0-a5e5-0a58a9feac02",
+            "id": "08b075a0-baef-11f0-9856-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
+                  "createdAt": "2025-08-07T07:50:44.716Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
+                    "id": "512864",
+                    "name": "Eternal Return",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
                   "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
+                  "name": "Drops Token",
                   "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -295,33 +121,33 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-11-09T11:59:59.996Z",
-            "name": "2",
+            "endAt": "2025-11-09T14:59:59.998Z",
+            "name": "DROPS TOKEN",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-11-08T12:00:00Z",
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-09T07:30:00Z",
             "__typename": "TimeBasedDrop"
           },
           {
-            "id": "353f3a5a-bb4d-11f0-9d71-0a58a9feac02",
+            "id": "0b2cc211-baef-11f0-8963-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
+                  "createdAt": "2025-08-07T07:50:44.716Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
+                    "id": "512864",
+                    "name": "Eternal Return",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
                   "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
+                  "name": "Drops Token",
                   "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -331,1668 +157,25 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-11-09T11:59:59.996Z",
-            "name": "3",
+            "endAt": "2025-11-09T14:59:59.998Z",
+            "name": "DROPS TOKEN",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "3ee87ba6-bb4d-11f0-b3c3-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.996Z",
-            "name": "4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "36f99a75-bb4b-11f0-a830-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "234834715",
-              "displayName": "MaxLP80",
-              "name": "maxlp80",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
-        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
-        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
-        "endAt": "2025-11-09T11:59:59.997Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "207506430",
-          "slug": "out-of-the-park-baseball-26",
-          "displayName": "Out of the Park Baseball 26",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ddaae202-4992-474b-8b6f-1ec573f74b2f.png",
-        "name": "PTCS MaxLP 11/8/25",
-        "owner": {
-          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-          "name": "Out of the Park Developments",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-08T12:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "50ef675c-bb4b-11f0-bb0b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.997Z",
-            "name": "1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "55dd2c38-bb4b-11f0-9d4e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.997Z",
-            "name": "2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "5b16f9a8-bb4b-11f0-a7db-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.997Z",
-            "name": "3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "632298b9-bb4b-11f0-8588-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.997Z",
-            "name": "4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "7338e041-bb4b-11f0-8588-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "1049178332",
-              "displayName": "Aydubby",
-              "name": "aydubby",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
-        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
-        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
-        "endAt": "2025-11-09T11:59:59.997Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "207506430",
-          "slug": "out-of-the-park-baseball-26",
-          "displayName": "Out of the Park Baseball 26",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/17bc6aab-b628-4036-ad26-0c3796d747c8.png",
-        "name": "PTCS AyDubby 11/8/25",
-        "owner": {
-          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-          "name": "Out of the Park Developments",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-08T12:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "b0ff3686-bb4b-11f0-9e61-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.997Z",
-            "name": "1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "b7be83ec-bb4b-11f0-a600-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.997Z",
-            "name": "2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "bd838eb1-bb4b-11f0-813b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.997Z",
-            "name": "3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "c1928d7a-bb4b-11f0-a2c0-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.997Z",
-            "name": "4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "efbacdad-bb4b-11f0-8266-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "1069369941",
-              "displayName": "FranchiseTimeMachine",
-              "name": "franchisetimemachine",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
-        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
-        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
-        "endAt": "2025-11-09T11:59:59.997Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "207506430",
-          "slug": "out-of-the-park-baseball-26",
-          "displayName": "Out of the Park Baseball 26",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f7d9bd8b-e740-468b-85a6-b7f58774ff7c.png",
-        "name": "PTCS FTM 11/8/25",
-        "owner": {
-          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-          "name": "Out of the Park Developments",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-08T12:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "0dd7f95e-bb4c-11f0-bcec-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.997Z",
-            "name": "1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "4550f436-bb4c-11f0-b41c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.997Z",
-            "name": "2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "4ac098c2-bb4c-11f0-9d4e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.997Z",
-            "name": "3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "4fc92e97-bb4c-11f0-affb-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.997Z",
-            "name": "4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "47d5520a-bb49-11f0-8592-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "550758034",
-              "displayName": "EVCinNYC2",
-              "name": "evcinnyc2",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
-        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
-        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
-        "endAt": "2025-11-09T11:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "207506430",
-          "slug": "out-of-the-park-baseball-26",
-          "displayName": "Out of the Park Baseball 26",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8e55e894-5171-431c-9f05-a6913ac74e98.png",
-        "name": "PTCS  EVCinNYC 11/8/25",
-        "owner": {
-          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-          "name": "Out of the Park Developments",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-08T12:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "9f212223-bb49-11f0-a63a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.998Z",
-            "name": "1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "a4f15878-bb49-11f0-bc9d-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.998Z",
-            "name": "2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "aacdf9cd-bb49-11f0-a63a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.998Z",
-            "name": "3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "af250968-bb49-11f0-bdfa-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.998Z",
-            "name": "4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "c8b8dbfc-bb4a-11f0-9d33-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "38148728",
-              "displayName": "smileyfacejane",
-              "name": "smileyfacejane",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
-        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
-        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
-        "endAt": "2025-11-09T11:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "207506430",
-          "slug": "out-of-the-park-baseball-26",
-          "displayName": "Out of the Park Baseball 26",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6f0a1da8-6e90-4311-a408-864c48f7b01f.png",
-        "name": "PTCS SFJ 11/8/25",
-        "owner": {
-          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-          "name": "Out of the Park Developments",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-08T12:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "0f766fa0-bb4b-11f0-8592-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.998Z",
-            "name": "1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "14c6ea3e-bb4b-11f0-9e61-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.998Z",
-            "name": "2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "19f4a4e3-bb4b-11f0-a5e5-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.998Z",
-            "name": "3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "1e74984f-bb4b-11f0-9001-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.998Z",
-            "name": "4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "d73b906d-b999-11f0-9601-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "110879765",
-              "displayName": "OOTPDevelopments",
-              "name": "ootpdevelopments",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
-        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
-        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
-        "endAt": "2025-11-09T11:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "207506430",
-          "slug": "out-of-the-park-baseball-26",
-          "displayName": "Out of the Park Baseball 26",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/70c35ba9-6e3c-477f-b52a-b975325b0e15.png",
-        "name": "Official 11/8/25",
-        "owner": {
-          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-          "name": "Out of the Park Developments",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-08T12:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "1f8a9802-b99a-11f0-afed-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.999Z",
-            "name": "1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "25221983-b99a-11f0-a39f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.999Z",
-            "name": "2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "2a331898-b99a-11f0-9d1a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.999Z",
-            "name": "3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "2ec21841-b99a-11f0-844d-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.999Z",
-            "name": "4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "343bbd09-b99a-11f0-8d75-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "35d2773b-fe75-11ef-9043-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:34:43.938Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c51bf0c7-61c4-408b-b438-512d7a16c123.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Silver Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.999Z",
-            "name": "5",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "0219ba0e-b995-11f0-a1a7-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "15850551",
-              "displayName": "Sporer",
-              "name": "sporer",
-              "__typename": "Channel"
-            },
-            {
-              "id": "24670980",
-              "displayName": "dishnet34",
-              "name": "dishnet34",
-              "__typename": "Channel"
-            },
-            {
-              "id": "188788173",
-              "displayName": "DrDynastic",
-              "name": "drdynastic",
-              "__typename": "Channel"
-            },
-            {
-              "id": "36581970",
-              "displayName": "ThatSportsGamer",
-              "name": "thatsportsgamer",
-              "__typename": "Channel"
-            },
-            {
-              "id": "62230591",
-              "displayName": "FKNCommishLB",
-              "name": "fkncommishlb",
-              "__typename": "Channel"
-            },
-            {
-              "id": "78625424",
-              "displayName": "tehSuigi",
-              "name": "tehsuigi",
-              "__typename": "Channel"
-            },
-            {
-              "id": "169303051",
-              "displayName": "BullLeague",
-              "name": "bullleague",
-              "__typename": "Channel"
-            },
-            {
-              "id": "123399982",
-              "displayName": "nershabainco",
-              "name": "nershabainco",
-              "__typename": "Channel"
-            },
-            {
-              "id": "38033372",
-              "displayName": "IRockThs",
-              "name": "irockths",
-              "__typename": "Channel"
-            },
-            {
-              "id": "218496691",
-              "displayName": "pbesim",
-              "name": "pbesim",
-              "__typename": "Channel"
-            },
-            {
-              "id": "256172095",
-              "displayName": "ezradenney",
-              "name": "ezradenney",
-              "__typename": "Channel"
-            },
-            {
-              "id": "526686323",
-              "displayName": "nasbase",
-              "name": "nasbase",
-              "__typename": "Channel"
-            },
-            {
-              "id": "61026170",
-              "displayName": "AtticaOnline",
-              "name": "atticaonline",
-              "__typename": "Channel"
-            },
-            {
-              "id": "38134200",
-              "displayName": "AZAxle",
-              "name": "azaxle",
-              "__typename": "Channel"
-            },
-            {
-              "id": "82695286",
-              "displayName": "Cavacom",
-              "name": "cavacom",
-              "__typename": "Channel"
-            },
-            {
-              "id": "61021047",
-              "displayName": "DA186",
-              "name": "da186",
-              "__typename": "Channel"
-            },
-            {
-              "id": "408789860",
-              "displayName": "thenolannetwork",
-              "name": "thenolannetwork",
-              "__typename": "Channel"
-            },
-            {
-              "id": "78557187",
-              "displayName": "RipleyTheOriole",
-              "name": "ripleytheoriole",
-              "__typename": "Channel"
-            },
-            {
-              "id": "36211317",
-              "displayName": "twins_34",
-              "name": "twins_34",
-              "__typename": "Channel"
-            },
-            {
-              "id": "124593929",
-              "displayName": "CWhitDCFC",
-              "name": "cwhitdcfc",
-              "__typename": "Channel"
-            },
-            {
-              "id": "37191513",
-              "displayName": "Xtoforas",
-              "name": "xtoforas",
-              "__typename": "Channel"
-            },
-            {
-              "id": "157686951",
-              "displayName": "esc_V",
-              "name": "esc_v",
-              "__typename": "Channel"
-            },
-            {
-              "id": "140283247",
-              "displayName": "Angered_Unicorn",
-              "name": "angered_unicorn",
-              "__typename": "Channel"
-            },
-            {
-              "id": "29928551",
-              "displayName": "YukarinKazami",
-              "name": "yukarinkazami",
-              "__typename": "Channel"
-            },
-            {
-              "id": "661591955",
-              "displayName": "Baseball_Dreamland",
-              "name": "baseball_dreamland",
-              "__typename": "Channel"
-            },
-            {
-              "id": "153016348",
-              "displayName": "Edwon_",
-              "name": "edwon_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "57780943",
-              "displayName": "Carini_Harpua",
-              "name": "carini_harpua",
-              "__typename": "Channel"
-            },
-            {
-              "id": "102264302",
-              "displayName": "shawncurtis430",
-              "name": "shawncurtis430",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
-        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
-        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
-        "endAt": "2025-11-09T11:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "207506430",
-          "slug": "out-of-the-park-baseball-26",
-          "displayName": "Out of the Park Baseball 26",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ab6e9792-bb75-43e2-bf96-8af2066593f4.png",
-        "name": "Affiliate11/8/25",
-        "owner": {
-          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-          "name": "Out of the Park Developments",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-08T12:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "224057db-b995-11f0-8bee-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.999Z",
-            "name": "1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "2ab32188-b995-11f0-bca3-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.999Z",
-            "name": "2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "3077fe87-b995-11f0-bec9-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.999Z",
-            "name": "3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "3578db34-b995-11f0-8a91-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:32:57.165Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Standard Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.999Z",
-            "name": "4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "3b316232-b995-11f0-9e0b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "35d2773b-fe75-11ef-9043-0a58a9feac02",
-                  "createdAt": "2025-03-11T12:34:43.938Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "207506430",
-                    "name": "Out of the Park Baseball 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c51bf0c7-61c4-408b-b438-512d7a16c123.png",
-                  "isIosAvailable": false,
-                  "name": "PT26 Silver Pack",
-                  "ownerOrganization": {
-                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
-                    "name": "Out of the Park Developments",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.999Z",
-            "name": "5",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-11-08T12:00:00Z",
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-11-09T07:30:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2025-11-08T12:00:00.000Z"
+    "startAt": "2025-11-09T07:30:00.000Z"
   },
   {
-    "endAt": "2025-11-10T07:59:59.999Z",
+    "endAt": "2025-11-10T11:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
     "gameDisplayName": "Black Desert",
     "gameId": "386821",
     "rewards": [
-      {
-        "id": "bc9cb35d-ba86-11f0-9f3c-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
-        "description": "• NAEU: https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878 • SA: https://www.sa.playblackdesert.com/News/Detail?groupContentNo=3504 • ASIA: https://blackdesert.pearlabyss.com/ASIA/en-US/News/Notice/Detail?_boardNo=5614 • JP : https://www.jp.playblackdesert.com/ja-JP/News/Detail?boardNo=8505 • TR : https://www.tr.playblackdesert.com/tr-TR/News/Detail?groupContentNo=10256 • TW : https://www.tw.playblackdesert.com/zh-TW/News/Detail?groupContentNo=14444 • RU :  https://www.ru.playblackdesert.com/News/Notice/Detail?boardNo=11543",
-        "detailsURL": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
-        "endAt": "2025-11-09T11:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "386821",
-          "slug": "black-desert",
-          "displayName": "Black Desert",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b318e901-2279-4c0b-bd54-0f1b3c1bb966.png",
-        "name": "2025 BDO Drops (Nov. 8)",
-        "owner": {
-          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
-          "name": "Pearl Abyss",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-08T12:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "fced6d54-ba86-11f0-93cf-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_TWITCHDROP251101",
-                  "createdAt": "2025-10-31T00:28:57.864Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "386821",
-                    "name": "Black Desert",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60a102bf-87c7-4b9b-8601-06c1c864b92e.png",
-                  "isIosAvailable": false,
-                  "name": "2 Hour (2025 Nov~Jan)",
-                  "ownerOrganization": {
-                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
-                    "name": "Pearl Abyss",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.999Z",
-            "name": "2 Hour (Nov. 8)",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-11-08T12:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
       {
         "id": "9c85f4b9-bba0-11f0-b9d9-0a58a9feac02",
         "self": {
@@ -2658,1506 +841,59 @@
           }
         ],
         "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-11-08T12:00:00.000Z"
-  },
-  {
-    "endAt": "2025-12-04T16:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21779-120x160.jpg",
-    "gameDisplayName": "League of Legends",
-    "gameId": "21779",
-    "rewards": [
-      {
-        "id": "f08a50a4-b90f-11f0-a855-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "25075983",
-              "displayName": "YamatoCannon",
-              "name": "yamatocannon",
-              "__typename": "Channel"
-            },
-            {
-              "id": "134104249",
-              "displayName": "MrsChimChim",
-              "name": "mrschimchim",
-              "__typename": "Channel"
-            },
-            {
-              "id": "49796473",
-              "displayName": "JSkillz_lol",
-              "name": "jskillz_lol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "468083960",
-              "displayName": "TwoStoneLoL",
-              "name": "twostonelol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27187817",
-              "displayName": "Lewus",
-              "name": "lewus",
-              "__typename": "Channel"
-            },
-            {
-              "id": "132180077",
-              "displayName": "agresivoo_",
-              "name": "agresivoo_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "54319112",
-              "displayName": "Nickdaboom",
-              "name": "nickdaboom",
-              "__typename": "Channel"
-            },
-            {
-              "id": "30264374",
-              "displayName": "Terenas",
-              "name": "terenas",
-              "__typename": "Channel"
-            },
-            {
-              "id": "26753250",
-              "displayName": "Freezecz",
-              "name": "freezecz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "264453364",
-              "displayName": "PresenceLoL",
-              "name": "presencelol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "56924673",
-              "displayName": "Obsess3",
-              "name": "obsess3",
-              "__typename": "Channel"
-            },
-            {
-              "id": "92113890",
-              "displayName": "midbeast",
-              "name": "midbeast",
-              "__typename": "Channel"
-            },
-            {
-              "id": "77208443",
-              "displayName": "jukes",
-              "name": "jukes",
-              "__typename": "Channel"
-            },
-            {
-              "id": "87041939",
-              "displayName": "Brizz94",
-              "name": "brizz94",
-              "__typename": "Channel"
-            },
-            {
-              "id": "24534372",
-              "displayName": "JimRsng",
-              "name": "jimrsng",
-              "__typename": "Channel"
-            },
-            {
-              "id": "92078908",
-              "displayName": "TL_Nero",
-              "name": "tl_nero",
-              "__typename": "Channel"
-            },
-            {
-              "id": "228428255",
-              "displayName": "Jonnijuro",
-              "name": "jonnijuro",
-              "__typename": "Channel"
-            },
-            {
-              "id": "6094619",
-              "displayName": "Jankos",
-              "name": "jankos",
-              "__typename": "Channel"
-            },
-            {
-              "id": "28036688",
-              "displayName": "Trick2g",
-              "name": "trick2g",
-              "__typename": "Channel"
-            },
-            {
-              "id": "26513896",
-              "displayName": "imls",
-              "name": "imls",
-              "__typename": "Channel"
-            },
-            {
-              "id": "24538518",
-              "displayName": "sneakylol",
-              "name": "sneakylol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "144924031",
-              "displayName": "kiittwy",
-              "name": "kiittwy",
-              "__typename": "Channel"
-            },
-            {
-              "id": "40017619",
-              "displayName": "Doublelift",
-              "name": "doublelift",
-              "__typename": "Channel"
-            },
-            {
-              "id": "25080754",
-              "displayName": "Pobelter",
-              "name": "pobelter",
-              "__typename": "Channel"
-            },
-            {
-              "id": "43976593",
-              "displayName": "Zaboutine",
-              "name": "zaboutine",
-              "__typename": "Channel"
-            },
-            {
-              "id": "92038375",
-              "displayName": "Caedrel",
-              "name": "caedrel",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27115917",
-              "displayName": "Kamet0",
-              "name": "kamet0",
-              "__typename": "Channel"
-            },
-            {
-              "id": "70298660",
-              "displayName": "Skyyart",
-              "name": "skyyart",
-              "__typename": "Channel"
-            },
-            {
-              "id": "35739604",
-              "displayName": "Rekkles",
-              "name": "rekkles",
-              "__typename": "Channel"
-            },
-            {
-              "id": "93305727",
-              "displayName": "たかやスペシャル",
-              "name": "takayaspecial",
-              "__typename": "Channel"
-            },
-            {
-              "id": "98914728",
-              "displayName": "KamusLoL",
-              "name": "kamuslol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "92062529",
-              "displayName": "Karni",
-              "name": "karni",
-              "__typename": "Channel"
-            },
-            {
-              "id": "29066611",
-              "displayName": "咪咪蛋",
-              "name": "yulihong22",
-              "__typename": "Channel"
-            },
-            {
-              "id": "40083477",
-              "displayName": "粒鷗滴",
-              "name": "zod0416",
-              "__typename": "Channel"
-            },
-            {
-              "id": "29722828",
-              "displayName": "NeVeR_LosEs",
-              "name": "never_loses",
-              "__typename": "Channel"
-            },
-            {
-              "id": "128222917",
-              "displayName": "世誠",
-              "name": "bbbb87",
-              "__typename": "Channel"
-            },
-            {
-              "id": "115361391",
-              "displayName": "Dynquedo1",
-              "name": "dynquedo1",
-              "__typename": "Channel"
-            },
-            {
-              "id": "57557944",
-              "displayName": "Nymaera_",
-              "name": "nymaera_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27370971",
-              "displayName": "Xnapycz",
-              "name": "xnapycz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "86690831",
-              "displayName": "Takluz",
-              "name": "takluz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "38708489",
-              "displayName": "Meteos",
-              "name": "meteos",
-              "__typename": "Channel"
-            },
-            {
-              "id": "30689180",
-              "displayName": "Halpern",
-              "name": "halpern",
-              "__typename": "Channel"
-            },
-            {
-              "id": "271964110",
-              "displayName": "1Smalli",
-              "name": "1smalli",
-              "__typename": "Channel"
-            },
-            {
-              "id": "115780502",
-              "displayName": "feviknight",
-              "name": "feviknight",
-              "__typename": "Channel"
-            },
-            {
-              "id": "45839490",
-              "displayName": "らいじん",
-              "name": "alfrea",
-              "__typename": "Channel"
-            },
-            {
-              "id": "123278702",
-              "displayName": "しゃるる",
-              "name": "syaruru3",
-              "__typename": "Channel"
-            },
-            {
-              "id": "106867975",
-              "displayName": "skain",
-              "name": "skain",
-              "__typename": "Channel"
-            },
-            {
-              "id": "29836234",
-              "displayName": "Teshrak",
-              "name": "teshrak",
-              "__typename": "Channel"
-            },
-            {
-              "id": "180086554",
-              "displayName": "JuMayumin",
-              "name": "jumayumin",
-              "__typename": "Channel"
-            },
-            {
-              "id": "184578486",
-              "displayName": "mfreak00",
-              "name": "mfreak00",
-              "__typename": "Channel"
-            },
-            {
-              "id": "569472371",
-              "displayName": "GuiangGaming",
-              "name": "guianggaming",
-              "__typename": "Channel"
-            },
-            {
-              "id": "85886787",
-              "displayName": "LastpickCL",
-              "name": "lastpickcl",
-              "__typename": "Channel"
-            },
-            {
-              "id": "246074082",
-              "displayName": "MercyPlaysTW",
-              "name": "mercyplaystw",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1097252496",
-              "displayName": "千燈ゆうひ",
-              "name": "sendo_yuuhi",
-              "__typename": "Channel"
-            },
-            {
-              "id": "140772558",
-              "displayName": "Baiano",
-              "name": "baiano",
-              "__typename": "Channel"
-            },
-            {
-              "id": "474236515",
-              "displayName": "Akofena_",
-              "name": "akofena_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "186322512",
-              "displayName": "HoangLuanBLV",
-              "name": "hoangluanblv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "216467396",
-              "displayName": "exvestor_ch",
-              "name": "exvestor_ch",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1071236126",
-              "displayName": "leomiho_ttv",
-              "name": "leomiho_ttv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "134863913",
-              "displayName": "Lastcrosser",
-              "name": "lastcrosser",
-              "__typename": "Channel"
-            },
-            {
-              "id": "264230873",
-              "displayName": "KMTlol",
-              "name": "kmtlol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "81446331",
-              "displayName": "TraYtoNlol",
-              "name": "traytonlol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "76342610",
-              "displayName": "利斧1",
-              "name": "ziv_lol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "568329848",
-              "displayName": "sunnys",
-              "name": "sunnys",
-              "__typename": "Channel"
-            },
-            {
-              "id": "145111861",
-              "displayName": "CaioDancarino",
-              "name": "caiodancarino",
-              "__typename": "Channel"
-            },
-            {
-              "id": "50864193",
-              "displayName": "yamada_wr",
-              "name": "yamada_wr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "158408968",
-              "displayName": "KingFB",
-              "name": "kingfb",
-              "__typename": "Channel"
-            },
-            {
-              "id": "183812670",
-              "displayName": "RauxTV",
-              "name": "rauxtv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "526104755",
-              "displayName": "fialkovitzy",
-              "name": "fialkovitzy",
-              "__typename": "Channel"
-            },
-            {
-              "id": "163999438",
-              "displayName": "feelpin_wr",
-              "name": "feelpin_wr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "189706194",
-              "displayName": "Ozzyallstryker",
-              "name": "ozzyallstryker",
-              "__typename": "Channel"
-            },
-            {
-              "id": "902173025",
-              "displayName": "Cauaboywr",
-              "name": "cauaboywr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "193885125",
-              "displayName": "piloniten",
-              "name": "piloniten",
-              "__typename": "Channel"
-            },
-            {
-              "id": "180671441",
-              "displayName": "akaNemsko",
-              "name": "akanemsko",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27842439",
-              "displayName": "Lourlo",
-              "name": "lourlo",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27045041",
-              "displayName": "ToadAmarillo",
-              "name": "toadamarillo",
-              "__typename": "Channel"
-            },
-            {
-              "id": "153991013",
-              "displayName": "JordiLMK",
-              "name": "jordilmk",
-              "__typename": "Channel"
-            },
-            {
-              "id": "83232866",
-              "displayName": "ibai",
-              "name": "ibai",
-              "__typename": "Channel"
-            },
-            {
-              "id": "25653002",
-              "displayName": "IWDominate",
-              "name": "iwdominate",
-              "__typename": "Channel"
-            },
-            {
-              "id": "451106403",
-              "displayName": "Blaire",
-              "name": "blaire",
-              "__typename": "Channel"
-            },
-            {
-              "id": "547957872",
-              "displayName": "KapitanPugoo",
-              "name": "kapitanpugoo",
-              "__typename": "Channel"
-            },
-            {
-              "id": "124420521",
-              "displayName": "LCS",
-              "name": "lcs",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27680990",
-              "displayName": "yeTz",
-              "name": "yetz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "165204409",
-              "displayName": "comp_lol",
-              "name": "comp_lol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "539477590",
-              "displayName": "Rebyczko",
-              "name": "rebyczko",
-              "__typename": "Channel"
-            },
-            {
-              "id": "30357893",
-              "displayName": "Werlyb",
-              "name": "werlyb",
-              "__typename": "Channel"
-            },
-            {
-              "id": "38287412",
-              "displayName": "Naru",
-              "name": "naru",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
-        "description": "During the 2025 League of Legends World Championship Finals, fans tuning into official co-streams on Twitch will have the chance to earn an exclusive reward! By watching any participating co-streamer for an hour, viewers can unlock the special “Chat, Did You See That?!” through Twitch Drops. This unique emote celebrates the Worlds 2025 finals and is only available for a limited time.",
-        "detailsURL": "https://www.riotgames.com/en",
-        "endAt": "2025-11-09T11:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "21779",
-          "slug": "league-of-legends",
-          "displayName": "League of Legends",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/98710c2f-16db-4b66-a7e2-7ba58b5c8c99.png",
-        "name": "LoL Worlds 2025 Finals",
-        "owner": {
-          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-          "name": "Riot Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-09T06:30:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "89517783-b910-11f0-a45e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2025-LOL-Worlds-CHATDIDYOUSEETHAT",
-                  "createdAt": "2025-11-04T00:11:48.372Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "21779",
-                    "name": "League of Legends",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2404c07d-1bd5-4536-8f26-6bba1f7628a1.png",
-                  "isIosAvailable": true,
-                  "name": "Chat, Did You See That?!",
-                  "ownerOrganization": {
-                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-                    "name": "Riot Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T11:59:59.999Z",
-            "name": "Chat, Did You See That?!",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-09T06:30:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
       },
       {
-        "id": "3a3847b8-a60e-11f0-a71c-2685a1a50e1d",
+        "id": "bcf7b22e-ba86-11f0-a72e-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": [
-            {
-              "id": "25075983",
-              "displayName": "YamatoCannon",
-              "name": "yamatocannon",
-              "__typename": "Channel"
-            },
-            {
-              "id": "134104249",
-              "displayName": "MrsChimChim",
-              "name": "mrschimchim",
-              "__typename": "Channel"
-            },
-            {
-              "id": "49796473",
-              "displayName": "JSkillz_lol",
-              "name": "jskillz_lol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "468083960",
-              "displayName": "TwoStoneLoL",
-              "name": "twostonelol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27187817",
-              "displayName": "Lewus",
-              "name": "lewus",
-              "__typename": "Channel"
-            },
-            {
-              "id": "132180077",
-              "displayName": "agresivoo_",
-              "name": "agresivoo_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "54319112",
-              "displayName": "Nickdaboom",
-              "name": "nickdaboom",
-              "__typename": "Channel"
-            },
-            {
-              "id": "30264374",
-              "displayName": "Terenas",
-              "name": "terenas",
-              "__typename": "Channel"
-            },
-            {
-              "id": "26753250",
-              "displayName": "Freezecz",
-              "name": "freezecz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "264453364",
-              "displayName": "PresenceLoL",
-              "name": "presencelol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "56924673",
-              "displayName": "Obsess3",
-              "name": "obsess3",
-              "__typename": "Channel"
-            },
-            {
-              "id": "92113890",
-              "displayName": "midbeast",
-              "name": "midbeast",
-              "__typename": "Channel"
-            },
-            {
-              "id": "77208443",
-              "displayName": "jukes",
-              "name": "jukes",
-              "__typename": "Channel"
-            },
-            {
-              "id": "87041939",
-              "displayName": "Brizz94",
-              "name": "brizz94",
-              "__typename": "Channel"
-            },
-            {
-              "id": "24534372",
-              "displayName": "JimRsng",
-              "name": "jimrsng",
-              "__typename": "Channel"
-            },
-            {
-              "id": "92078908",
-              "displayName": "TL_Nero",
-              "name": "tl_nero",
-              "__typename": "Channel"
-            },
-            {
-              "id": "228428255",
-              "displayName": "Jonnijuro",
-              "name": "jonnijuro",
-              "__typename": "Channel"
-            },
-            {
-              "id": "6094619",
-              "displayName": "Jankos",
-              "name": "jankos",
-              "__typename": "Channel"
-            },
-            {
-              "id": "28036688",
-              "displayName": "Trick2g",
-              "name": "trick2g",
-              "__typename": "Channel"
-            },
-            {
-              "id": "26513896",
-              "displayName": "imls",
-              "name": "imls",
-              "__typename": "Channel"
-            },
-            {
-              "id": "24538518",
-              "displayName": "sneakylol",
-              "name": "sneakylol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "144924031",
-              "displayName": "kiittwy",
-              "name": "kiittwy",
-              "__typename": "Channel"
-            },
-            {
-              "id": "40017619",
-              "displayName": "Doublelift",
-              "name": "doublelift",
-              "__typename": "Channel"
-            },
-            {
-              "id": "25080754",
-              "displayName": "Pobelter",
-              "name": "pobelter",
-              "__typename": "Channel"
-            },
-            {
-              "id": "43976593",
-              "displayName": "Zaboutine",
-              "name": "zaboutine",
-              "__typename": "Channel"
-            },
-            {
-              "id": "92038375",
-              "displayName": "Caedrel",
-              "name": "caedrel",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27115917",
-              "displayName": "Kamet0",
-              "name": "kamet0",
-              "__typename": "Channel"
-            },
-            {
-              "id": "70298660",
-              "displayName": "Skyyart",
-              "name": "skyyart",
-              "__typename": "Channel"
-            },
-            {
-              "id": "35739604",
-              "displayName": "Rekkles",
-              "name": "rekkles",
-              "__typename": "Channel"
-            },
-            {
-              "id": "93305727",
-              "displayName": "たかやスペシャル",
-              "name": "takayaspecial",
-              "__typename": "Channel"
-            },
-            {
-              "id": "98914728",
-              "displayName": "KamusLoL",
-              "name": "kamuslol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "92062529",
-              "displayName": "Karni",
-              "name": "karni",
-              "__typename": "Channel"
-            },
-            {
-              "id": "29066611",
-              "displayName": "咪咪蛋",
-              "name": "yulihong22",
-              "__typename": "Channel"
-            },
-            {
-              "id": "40083477",
-              "displayName": "粒鷗滴",
-              "name": "zod0416",
-              "__typename": "Channel"
-            },
-            {
-              "id": "29722828",
-              "displayName": "NeVeR_LosEs",
-              "name": "never_loses",
-              "__typename": "Channel"
-            },
-            {
-              "id": "128222917",
-              "displayName": "世誠",
-              "name": "bbbb87",
-              "__typename": "Channel"
-            },
-            {
-              "id": "29506118",
-              "displayName": "超負荷",
-              "name": "sam1268",
-              "__typename": "Channel"
-            },
-            {
-              "id": "115361391",
-              "displayName": "Dynquedo1",
-              "name": "dynquedo1",
-              "__typename": "Channel"
-            },
-            {
-              "id": "57557944",
-              "displayName": "Nymaera_",
-              "name": "nymaera_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27370971",
-              "displayName": "Xnapycz",
-              "name": "xnapycz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "86690831",
-              "displayName": "Takluz",
-              "name": "takluz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "38708489",
-              "displayName": "Meteos",
-              "name": "meteos",
-              "__typename": "Channel"
-            },
-            {
-              "id": "30689180",
-              "displayName": "Halpern",
-              "name": "halpern",
-              "__typename": "Channel"
-            },
-            {
-              "id": "271964110",
-              "displayName": "1Smalli",
-              "name": "1smalli",
-              "__typename": "Channel"
-            },
-            {
-              "id": "115780502",
-              "displayName": "feviknight",
-              "name": "feviknight",
-              "__typename": "Channel"
-            },
-            {
-              "id": "45839490",
-              "displayName": "らいじん",
-              "name": "alfrea",
-              "__typename": "Channel"
-            },
-            {
-              "id": "123278702",
-              "displayName": "しゃるる",
-              "name": "syaruru3",
-              "__typename": "Channel"
-            },
-            {
-              "id": "106867975",
-              "displayName": "skain",
-              "name": "skain",
-              "__typename": "Channel"
-            },
-            {
-              "id": "29836234",
-              "displayName": "Teshrak",
-              "name": "teshrak",
-              "__typename": "Channel"
-            },
-            {
-              "id": "180086554",
-              "displayName": "JuMayumin",
-              "name": "jumayumin",
-              "__typename": "Channel"
-            },
-            {
-              "id": "184578486",
-              "displayName": "mfreak00",
-              "name": "mfreak00",
-              "__typename": "Channel"
-            },
-            {
-              "id": "569472371",
-              "displayName": "GuiangGaming",
-              "name": "guianggaming",
-              "__typename": "Channel"
-            },
-            {
-              "id": "85886787",
-              "displayName": "LastpickCL",
-              "name": "lastpickcl",
-              "__typename": "Channel"
-            },
-            {
-              "id": "246074082",
-              "displayName": "MercyPlaysTW",
-              "name": "mercyplaystw",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1097252496",
-              "displayName": "千燈ゆうひ",
-              "name": "sendo_yuuhi",
-              "__typename": "Channel"
-            },
-            {
-              "id": "140772558",
-              "displayName": "Baiano",
-              "name": "baiano",
-              "__typename": "Channel"
-            },
-            {
-              "id": "474236515",
-              "displayName": "Akofena_",
-              "name": "akofena_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "186322512",
-              "displayName": "HoangLuanBLV",
-              "name": "hoangluanblv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "216467396",
-              "displayName": "exvestor_ch",
-              "name": "exvestor_ch",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1071236126",
-              "displayName": "leomiho_ttv",
-              "name": "leomiho_ttv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "134863913",
-              "displayName": "Lastcrosser",
-              "name": "lastcrosser",
-              "__typename": "Channel"
-            },
-            {
-              "id": "264230873",
-              "displayName": "KMTlol",
-              "name": "kmtlol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "81446331",
-              "displayName": "TraYtoNlol",
-              "name": "traytonlol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "76342610",
-              "displayName": "利斧1",
-              "name": "ziv_lol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "145111861",
-              "displayName": "CaioDancarino",
-              "name": "caiodancarino",
-              "__typename": "Channel"
-            },
-            {
-              "id": "50864193",
-              "displayName": "yamada_wr",
-              "name": "yamada_wr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "158408968",
-              "displayName": "KingFB",
-              "name": "kingfb",
-              "__typename": "Channel"
-            },
-            {
-              "id": "183812670",
-              "displayName": "RauxTV",
-              "name": "rauxtv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "526104755",
-              "displayName": "fialkovitzy",
-              "name": "fialkovitzy",
-              "__typename": "Channel"
-            },
-            {
-              "id": "163999438",
-              "displayName": "feelpin_wr",
-              "name": "feelpin_wr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "189706194",
-              "displayName": "Ozzyallstryker",
-              "name": "ozzyallstryker",
-              "__typename": "Channel"
-            },
-            {
-              "id": "902173025",
-              "displayName": "Cauaboywr",
-              "name": "cauaboywr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "193885125",
-              "displayName": "piloniten",
-              "name": "piloniten",
-              "__typename": "Channel"
-            },
-            {
-              "id": "180671441",
-              "displayName": "akaNemsko",
-              "name": "akanemsko",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27842439",
-              "displayName": "Lourlo",
-              "name": "lourlo",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27045041",
-              "displayName": "ToadAmarillo",
-              "name": "toadamarillo",
-              "__typename": "Channel"
-            },
-            {
-              "id": "153991013",
-              "displayName": "JordiLMK",
-              "name": "jordilmk",
-              "__typename": "Channel"
-            },
-            {
-              "id": "83232866",
-              "displayName": "ibai",
-              "name": "ibai",
-              "__typename": "Channel"
-            },
-            {
-              "id": "25653002",
-              "displayName": "IWDominate",
-              "name": "iwdominate",
-              "__typename": "Channel"
-            },
-            {
-              "id": "451106403",
-              "displayName": "Blaire",
-              "name": "blaire",
-              "__typename": "Channel"
-            },
-            {
-              "id": "547957872",
-              "displayName": "KapitanPugoo",
-              "name": "kapitanpugoo",
-              "__typename": "Channel"
-            },
-            {
-              "id": "36029255",
-              "displayName": "Riot Games",
-              "name": "riotgames",
-              "__typename": "Channel"
-            },
-            {
-              "id": "36511475",
-              "displayName": "LTASul",
-              "name": "ltasul",
-              "__typename": "Channel"
-            },
-            {
-              "id": "142055874",
-              "displayName": "ltaespanol",
-              "name": "ltaespanol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "485855940",
-              "displayName": "lolesportstw",
-              "name": "lolesportstw",
-              "__typename": "Channel"
-            },
-            {
-              "id": "104833324",
-              "displayName": "LeagueofLegendsJP",
-              "name": "leagueoflegendsjp",
-              "__typename": "Channel"
-            },
-            {
-              "id": "568329848",
-              "displayName": "sunnys",
-              "name": "sunnys",
-              "__typename": "Channel"
-            },
-            {
-              "id": "124420521",
-              "displayName": "LCS",
-              "name": "lcs",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1103155299",
-              "displayName": "leagueoflegendsth",
-              "name": "leagueoflegendsth",
-              "__typename": "Channel"
-            },
-            {
-              "id": "124425501",
-              "displayName": "LCK",
-              "name": "lck",
-              "__typename": "Channel"
-            },
-            {
-              "id": "124422593",
-              "displayName": "LEC",
-              "name": "lec",
-              "__typename": "Channel"
-            },
-            {
-              "id": "485725873",
-              "displayName": "LoLPacificEN",
-              "name": "lolpacificen",
-              "__typename": "Channel"
-            },
-            {
-              "id": "424571482",
-              "displayName": "maisesportsbr",
-              "name": "maisesportsbr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27680990",
-              "displayName": "yeTz",
-              "name": "yetz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "165204409",
-              "displayName": "comp_lol",
-              "name": "comp_lol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "539477590",
-              "displayName": "Rebyczko",
-              "name": "rebyczko",
-              "__typename": "Channel"
-            },
-            {
-              "id": "30357893",
-              "displayName": "Werlyb",
-              "name": "werlyb",
-              "__typename": "Channel"
-            },
-            {
-              "id": "79615025",
-              "displayName": "Valkyrae",
-              "name": "valkyrae",
-              "__typename": "Channel"
-            },
-            {
-              "id": "204730616",
-              "displayName": "Cinna",
-              "name": "cinna",
-              "__typename": "Channel"
-            },
-            {
-              "id": "70225218",
-              "displayName": "TenZ",
-              "name": "tenz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "132230344",
-              "displayName": "moistcr1tikal",
-              "name": "moistcr1tikal",
-              "__typename": "Channel"
-            },
-            {
-              "id": "40934651",
-              "displayName": "Ludwig",
-              "name": "ludwig",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
+          "channels": null,
+          "isEnabled": false,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://twitch.tv/",
-        "description": "This badge was earned by subscribing to a participating LoL Esports broadcast or co-stream of the 2025 League of Legends World Championship!",
-        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
-        "endAt": "2025-11-10T07:59:59Z",
+        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
+        "description": "• NAEU: https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878 • SA: https://www.sa.playblackdesert.com/News/Detail?groupContentNo=3504 • ASIA: https://blackdesert.pearlabyss.com/ASIA/en-US/News/Notice/Detail?_boardNo=5614 • JP : https://www.jp.playblackdesert.com/ja-JP/News/Detail?boardNo=8505 • TR : https://www.tr.playblackdesert.com/tr-TR/News/Detail?groupContentNo=10256 • TW : https://www.tw.playblackdesert.com/zh-TW/News/Detail?groupContentNo=14444 • RU :  https://www.ru.playblackdesert.com/News/Notice/Detail?boardNo=11543",
+        "detailsURL": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=5878",
+        "endAt": "2025-11-10T11:59:59.999Z",
         "eventBasedDrops": [],
         "game": {
-          "id": "21779",
-          "slug": "league-of-legends",
-          "displayName": "League of Legends",
+          "id": "386821",
+          "slug": "black-desert",
+          "displayName": "Black Desert",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/badges/v1/4545b0b5-c825-487e-8958-ce5512eb6f84/3",
-        "name": "LoL Worlds 2025",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4d3a6912-b9e1-431d-adbf-6efeb4e5b34b.png",
+        "name": "2025 BDO Drops (Nov. 9)",
         "owner": {
-          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
-          "name": "Twitch Gaming",
+          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+          "name": "Pearl Abyss",
           "__typename": "Organization"
         },
-        "startAt": "2025-10-10T16:00:00Z",
+        "startAt": "2025-11-09T12:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "3a5288a8-a60e-11f0-a71c-2685a1a50e1d",
-            "requiredSubs": 1,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "39ff4a80-a60e-11f0-a71c-2685a1a50e1d",
-                  "createdAt": "2025-10-10T19:20:48.127Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "21779",
-                    "name": "League of Legends",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/badges/v1/4545b0b5-c825-487e-8958-ce5512eb6f84/3",
-                  "isIosAvailable": false,
-                  "name": "LoL Worlds 2025",
-                  "ownerOrganization": {
-                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
-                    "name": "Twitch Gaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "BADGE",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-10T07:59:59Z",
-            "name": "LoL Worlds 2025 Badge Reward Group",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 0,
-            "startAt": "2025-10-10T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "af67e7e3-9ee4-11f0-814e-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "36029255",
-              "displayName": "Riot Games",
-              "name": "riotgames",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1103155299",
-              "displayName": "leagueoflegendsth",
-              "name": "leagueoflegendsth",
-              "__typename": "Channel"
-            },
-            {
-              "id": "485855940",
-              "displayName": "lolesportstw",
-              "name": "lolesportstw",
-              "__typename": "Channel"
-            },
-            {
-              "id": "142055874",
-              "displayName": "ltaespanol",
-              "name": "ltaespanol",
-              "__typename": "Channel"
-            },
-            {
-              "id": "104833324",
-              "displayName": "LeagueofLegendsJP",
-              "name": "leagueoflegendsjp",
-              "__typename": "Channel"
-            },
-            {
-              "id": "36511475",
-              "displayName": "LTASul",
-              "name": "ltasul",
-              "__typename": "Channel"
-            },
-            {
-              "id": "124425501",
-              "displayName": "LCK",
-              "name": "lck",
-              "__typename": "Channel"
-            },
-            {
-              "id": "124420521",
-              "displayName": "LCS",
-              "name": "lcs",
-              "__typename": "Channel"
-            },
-            {
-              "id": "124422593",
-              "displayName": "LEC",
-              "name": "lec",
-              "__typename": "Channel"
-            },
-            {
-              "id": "485725873",
-              "displayName": "LoLPacificEN",
-              "name": "lolpacificen",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
-        "description": "Subscribers with paid and gifted Tier 1 subscriptions will earn the “FABULOUS!” emote by subscribing to participating LoL Esports channels. By subscribing, fans will receive an enhanced viewing experience while providing direct support to their favorite leagues and teams.",
-        "detailsURL": "https://lolesports.com/en-US/news/worlds-2025-primer",
-        "endAt": "2025-12-04T16:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "21779",
-          "slug": "league-of-legends",
-          "displayName": "League of Legends",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c0e07684-d4d8-45f4-8d4f-635c5eb20ab8.png",
-        "name": "Worlds - Sub Drop",
-        "owner": {
-          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-          "name": "Riot Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-06T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "db4f0d03-9ee4-11f0-ad5c-0a58a9feac02",
-            "requiredSubs": 1,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2025-LoL-TwitchSubs-WorldsDrop",
-                  "createdAt": "2025-09-30T18:13:00.346Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "21779",
-                    "name": "League of Legends",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ecc6beab-beed-4698-980a-f61c43437593.png",
-                  "isIosAvailable": true,
-                  "name": "\"FABULOUS!\" Emote\t\t\t\t\t",
-                  "ownerOrganization": {
-                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
-                    "name": "Riot Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-04T16:59:59.999Z",
-            "name": "\"FABULOUS!\" Emote",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 0,
-            "startAt": "2025-11-06T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-10-10T16:00:00.000Z"
-  },
-  {
-    "endAt": "2025-11-09T14:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
-    "gameDisplayName": "Eternal Return",
-    "gameId": "512864",
-    "rewards": [
-      {
-        "id": "efb0209e-baee-11f0-ab66-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "695173418",
-              "displayName": "EternalReturn_JP",
-              "name": "eternalreturn_jp",
-              "__typename": "Channel"
-            },
-            {
-              "id": "427263285",
-              "displayName": "EternalReturnGame",
-              "name": "eternalreturngame",
-              "__typename": "Channel"
-            },
-            {
-              "id": "695170110",
-              "displayName": "EternalReturn_TPE",
-              "name": "eternalreturn_tpe",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.playeternalreturn.com/",
-        "description": "https://twitch.playeternalreturn.com/",
-        "detailsURL": "https://twitch.playeternalreturn.com/",
-        "endAt": "2025-11-09T14:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "512864",
-          "slug": "eternal-return",
-          "displayName": "Eternal Return",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4d301646-e047-4b29-b572-9d6ff03c0cd9.png",
-        "name": "Masters S9 P1 WildCard",
-        "owner": {
-          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-          "name": "Nimble Neuron Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-09T07:30:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "05f58954-baef-11f0-a741-0a58a9feac02",
+            "id": "fff7e555-ba86-11f0-98e5-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_TWITCHDROP251101",
+                  "createdAt": "2025-10-31T00:28:57.864Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
+                    "id": "386821",
+                    "name": "Black Desert",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60a102bf-87c7-4b9b-8601-06c1c864b92e.png",
                   "isIosAvailable": false,
-                  "name": "Drops Token",
+                  "name": "2 Hour (2025 Nov~Jan)",
                   "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -4167,90 +903,18 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2025-11-09T14:59:59.998Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-09T07:30:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "08b075a0-baef-11f0-9856-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T14:59:59.998Z",
-            "name": "DROPS TOKEN",
+            "endAt": "2025-11-10T11:59:59.999Z",
+            "name": "2 Hour (Nov. 9)",
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
-            "startAt": "2025-11-09T07:30:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "0b2cc211-baef-11f0-8963-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-09T14:59:59.998Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-11-09T07:30:00Z",
+            "startAt": "2025-11-09T12:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2025-11-09T07:30:00.000Z"
+    "startAt": "2025-11-08T16:30:00.000Z"
   },
   {
     "endAt": "2025-11-09T17:57:59.999Z",
@@ -8858,6 +5522,831 @@
     "startAt": "2025-10-14T18:00:00.000Z"
   },
   {
+    "endAt": "2025-12-04T16:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21779-120x160.jpg",
+    "gameDisplayName": "League of Legends",
+    "gameId": "21779",
+    "rewards": [
+      {
+        "id": "3a3847b8-a60e-11f0-a71c-2685a1a50e1d",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "25075983",
+              "displayName": "YamatoCannon",
+              "name": "yamatocannon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "134104249",
+              "displayName": "MrsChimChim",
+              "name": "mrschimchim",
+              "__typename": "Channel"
+            },
+            {
+              "id": "49796473",
+              "displayName": "JSkillz_lol",
+              "name": "jskillz_lol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "468083960",
+              "displayName": "TwoStoneLoL",
+              "name": "twostonelol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "27187817",
+              "displayName": "Lewus",
+              "name": "lewus",
+              "__typename": "Channel"
+            },
+            {
+              "id": "132180077",
+              "displayName": "agresivoo_",
+              "name": "agresivoo_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "54319112",
+              "displayName": "Nickdaboom",
+              "name": "nickdaboom",
+              "__typename": "Channel"
+            },
+            {
+              "id": "30264374",
+              "displayName": "Terenas",
+              "name": "terenas",
+              "__typename": "Channel"
+            },
+            {
+              "id": "26753250",
+              "displayName": "Freezecz",
+              "name": "freezecz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "264453364",
+              "displayName": "PresenceLoL",
+              "name": "presencelol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "56924673",
+              "displayName": "Obsess3",
+              "name": "obsess3",
+              "__typename": "Channel"
+            },
+            {
+              "id": "92113890",
+              "displayName": "midbeast",
+              "name": "midbeast",
+              "__typename": "Channel"
+            },
+            {
+              "id": "77208443",
+              "displayName": "jukes",
+              "name": "jukes",
+              "__typename": "Channel"
+            },
+            {
+              "id": "87041939",
+              "displayName": "Brizz94",
+              "name": "brizz94",
+              "__typename": "Channel"
+            },
+            {
+              "id": "24534372",
+              "displayName": "JimRsng",
+              "name": "jimrsng",
+              "__typename": "Channel"
+            },
+            {
+              "id": "92078908",
+              "displayName": "TL_Nero",
+              "name": "tl_nero",
+              "__typename": "Channel"
+            },
+            {
+              "id": "228428255",
+              "displayName": "Jonnijuro",
+              "name": "jonnijuro",
+              "__typename": "Channel"
+            },
+            {
+              "id": "6094619",
+              "displayName": "Jankos",
+              "name": "jankos",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28036688",
+              "displayName": "Trick2g",
+              "name": "trick2g",
+              "__typename": "Channel"
+            },
+            {
+              "id": "26513896",
+              "displayName": "imls",
+              "name": "imls",
+              "__typename": "Channel"
+            },
+            {
+              "id": "24538518",
+              "displayName": "sneakylol",
+              "name": "sneakylol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "144924031",
+              "displayName": "kiittwy",
+              "name": "kiittwy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "40017619",
+              "displayName": "Doublelift",
+              "name": "doublelift",
+              "__typename": "Channel"
+            },
+            {
+              "id": "25080754",
+              "displayName": "Pobelter",
+              "name": "pobelter",
+              "__typename": "Channel"
+            },
+            {
+              "id": "43976593",
+              "displayName": "Zaboutine",
+              "name": "zaboutine",
+              "__typename": "Channel"
+            },
+            {
+              "id": "92038375",
+              "displayName": "Caedrel",
+              "name": "caedrel",
+              "__typename": "Channel"
+            },
+            {
+              "id": "27115917",
+              "displayName": "Kamet0",
+              "name": "kamet0",
+              "__typename": "Channel"
+            },
+            {
+              "id": "70298660",
+              "displayName": "Skyyart",
+              "name": "skyyart",
+              "__typename": "Channel"
+            },
+            {
+              "id": "35739604",
+              "displayName": "Rekkles",
+              "name": "rekkles",
+              "__typename": "Channel"
+            },
+            {
+              "id": "93305727",
+              "displayName": "たかやスペシャル",
+              "name": "takayaspecial",
+              "__typename": "Channel"
+            },
+            {
+              "id": "98914728",
+              "displayName": "KamusLoL",
+              "name": "kamuslol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "92062529",
+              "displayName": "Karni",
+              "name": "karni",
+              "__typename": "Channel"
+            },
+            {
+              "id": "29066611",
+              "displayName": "咪咪蛋",
+              "name": "yulihong22",
+              "__typename": "Channel"
+            },
+            {
+              "id": "40083477",
+              "displayName": "粒鷗滴",
+              "name": "zod0416",
+              "__typename": "Channel"
+            },
+            {
+              "id": "29722828",
+              "displayName": "NeVeR_LosEs",
+              "name": "never_loses",
+              "__typename": "Channel"
+            },
+            {
+              "id": "128222917",
+              "displayName": "世誠",
+              "name": "bbbb87",
+              "__typename": "Channel"
+            },
+            {
+              "id": "29506118",
+              "displayName": "超負荷",
+              "name": "sam1268",
+              "__typename": "Channel"
+            },
+            {
+              "id": "115361391",
+              "displayName": "Dynquedo1",
+              "name": "dynquedo1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "57557944",
+              "displayName": "Nymaera_",
+              "name": "nymaera_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "27370971",
+              "displayName": "Xnapycz",
+              "name": "xnapycz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "86690831",
+              "displayName": "Takluz",
+              "name": "takluz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38708489",
+              "displayName": "Meteos",
+              "name": "meteos",
+              "__typename": "Channel"
+            },
+            {
+              "id": "30689180",
+              "displayName": "Halpern",
+              "name": "halpern",
+              "__typename": "Channel"
+            },
+            {
+              "id": "271964110",
+              "displayName": "1Smalli",
+              "name": "1smalli",
+              "__typename": "Channel"
+            },
+            {
+              "id": "115780502",
+              "displayName": "feviknight",
+              "name": "feviknight",
+              "__typename": "Channel"
+            },
+            {
+              "id": "45839490",
+              "displayName": "らいじん",
+              "name": "alfrea",
+              "__typename": "Channel"
+            },
+            {
+              "id": "123278702",
+              "displayName": "しゃるる",
+              "name": "syaruru3",
+              "__typename": "Channel"
+            },
+            {
+              "id": "106867975",
+              "displayName": "skain",
+              "name": "skain",
+              "__typename": "Channel"
+            },
+            {
+              "id": "29836234",
+              "displayName": "Teshrak",
+              "name": "teshrak",
+              "__typename": "Channel"
+            },
+            {
+              "id": "180086554",
+              "displayName": "JuMayumin",
+              "name": "jumayumin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "184578486",
+              "displayName": "mfreak00",
+              "name": "mfreak00",
+              "__typename": "Channel"
+            },
+            {
+              "id": "569472371",
+              "displayName": "GuiangGaming",
+              "name": "guianggaming",
+              "__typename": "Channel"
+            },
+            {
+              "id": "85886787",
+              "displayName": "LastpickCL",
+              "name": "lastpickcl",
+              "__typename": "Channel"
+            },
+            {
+              "id": "246074082",
+              "displayName": "MercyPlaysTW",
+              "name": "mercyplaystw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1097252496",
+              "displayName": "千燈ゆうひ",
+              "name": "sendo_yuuhi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "140772558",
+              "displayName": "Baiano",
+              "name": "baiano",
+              "__typename": "Channel"
+            },
+            {
+              "id": "474236515",
+              "displayName": "Akofena_",
+              "name": "akofena_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "186322512",
+              "displayName": "HoangLuanBLV",
+              "name": "hoangluanblv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "216467396",
+              "displayName": "exvestor_ch",
+              "name": "exvestor_ch",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1071236126",
+              "displayName": "leomiho_ttv",
+              "name": "leomiho_ttv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "134863913",
+              "displayName": "Lastcrosser",
+              "name": "lastcrosser",
+              "__typename": "Channel"
+            },
+            {
+              "id": "264230873",
+              "displayName": "KMTlol",
+              "name": "kmtlol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "81446331",
+              "displayName": "TraYtoNlol",
+              "name": "traytonlol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "76342610",
+              "displayName": "利斧1",
+              "name": "ziv_lol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "145111861",
+              "displayName": "CaioDancarino",
+              "name": "caiodancarino",
+              "__typename": "Channel"
+            },
+            {
+              "id": "50864193",
+              "displayName": "yamada_wr",
+              "name": "yamada_wr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "158408968",
+              "displayName": "KingFB",
+              "name": "kingfb",
+              "__typename": "Channel"
+            },
+            {
+              "id": "183812670",
+              "displayName": "RauxTV",
+              "name": "rauxtv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "526104755",
+              "displayName": "fialkovitzy",
+              "name": "fialkovitzy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "163999438",
+              "displayName": "feelpin_wr",
+              "name": "feelpin_wr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "189706194",
+              "displayName": "Ozzyallstryker",
+              "name": "ozzyallstryker",
+              "__typename": "Channel"
+            },
+            {
+              "id": "902173025",
+              "displayName": "Cauaboywr",
+              "name": "cauaboywr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "193885125",
+              "displayName": "piloniten",
+              "name": "piloniten",
+              "__typename": "Channel"
+            },
+            {
+              "id": "180671441",
+              "displayName": "akaNemsko",
+              "name": "akanemsko",
+              "__typename": "Channel"
+            },
+            {
+              "id": "27842439",
+              "displayName": "Lourlo",
+              "name": "lourlo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "27045041",
+              "displayName": "ToadAmarillo",
+              "name": "toadamarillo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "153991013",
+              "displayName": "JordiLMK",
+              "name": "jordilmk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "83232866",
+              "displayName": "ibai",
+              "name": "ibai",
+              "__typename": "Channel"
+            },
+            {
+              "id": "25653002",
+              "displayName": "IWDominate",
+              "name": "iwdominate",
+              "__typename": "Channel"
+            },
+            {
+              "id": "451106403",
+              "displayName": "Blaire",
+              "name": "blaire",
+              "__typename": "Channel"
+            },
+            {
+              "id": "547957872",
+              "displayName": "KapitanPugoo",
+              "name": "kapitanpugoo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36029255",
+              "displayName": "Riot Games",
+              "name": "riotgames",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36511475",
+              "displayName": "LTASul",
+              "name": "ltasul",
+              "__typename": "Channel"
+            },
+            {
+              "id": "142055874",
+              "displayName": "ltaespanol",
+              "name": "ltaespanol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "485855940",
+              "displayName": "lolesportstw",
+              "name": "lolesportstw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "104833324",
+              "displayName": "LeagueofLegendsJP",
+              "name": "leagueoflegendsjp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "568329848",
+              "displayName": "sunnys",
+              "name": "sunnys",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124420521",
+              "displayName": "LCS",
+              "name": "lcs",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1103155299",
+              "displayName": "leagueoflegendsth",
+              "name": "leagueoflegendsth",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124425501",
+              "displayName": "LCK",
+              "name": "lck",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124422593",
+              "displayName": "LEC",
+              "name": "lec",
+              "__typename": "Channel"
+            },
+            {
+              "id": "485725873",
+              "displayName": "LoLPacificEN",
+              "name": "lolpacificen",
+              "__typename": "Channel"
+            },
+            {
+              "id": "424571482",
+              "displayName": "maisesportsbr",
+              "name": "maisesportsbr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "27680990",
+              "displayName": "yeTz",
+              "name": "yetz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "165204409",
+              "displayName": "comp_lol",
+              "name": "comp_lol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "539477590",
+              "displayName": "Rebyczko",
+              "name": "rebyczko",
+              "__typename": "Channel"
+            },
+            {
+              "id": "30357893",
+              "displayName": "Werlyb",
+              "name": "werlyb",
+              "__typename": "Channel"
+            },
+            {
+              "id": "79615025",
+              "displayName": "Valkyrae",
+              "name": "valkyrae",
+              "__typename": "Channel"
+            },
+            {
+              "id": "204730616",
+              "displayName": "Cinna",
+              "name": "cinna",
+              "__typename": "Channel"
+            },
+            {
+              "id": "70225218",
+              "displayName": "TenZ",
+              "name": "tenz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "132230344",
+              "displayName": "moistcr1tikal",
+              "name": "moistcr1tikal",
+              "__typename": "Channel"
+            },
+            {
+              "id": "40934651",
+              "displayName": "Ludwig",
+              "name": "ludwig",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv/",
+        "description": "This badge was earned by subscribing to a participating LoL Esports broadcast or co-stream of the 2025 League of Legends World Championship!",
+        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+        "endAt": "2025-11-10T07:59:59Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "21779",
+          "slug": "league-of-legends",
+          "displayName": "League of Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/badges/v1/4545b0b5-c825-487e-8958-ce5512eb6f84/3",
+        "name": "LoL Worlds 2025",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-10-10T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3a5288a8-a60e-11f0-a71c-2685a1a50e1d",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "39ff4a80-a60e-11f0-a71c-2685a1a50e1d",
+                  "createdAt": "2025-10-10T19:20:48.127Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "21779",
+                    "name": "League of Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/badges/v1/4545b0b5-c825-487e-8958-ce5512eb6f84/3",
+                  "isIosAvailable": false,
+                  "name": "LoL Worlds 2025",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-10T07:59:59Z",
+            "name": "LoL Worlds 2025 Badge Reward Group",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-10-10T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "af67e7e3-9ee4-11f0-814e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "36029255",
+              "displayName": "Riot Games",
+              "name": "riotgames",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1103155299",
+              "displayName": "leagueoflegendsth",
+              "name": "leagueoflegendsth",
+              "__typename": "Channel"
+            },
+            {
+              "id": "485855940",
+              "displayName": "lolesportstw",
+              "name": "lolesportstw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "142055874",
+              "displayName": "ltaespanol",
+              "name": "ltaespanol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "104833324",
+              "displayName": "LeagueofLegendsJP",
+              "name": "leagueoflegendsjp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36511475",
+              "displayName": "LTASul",
+              "name": "ltasul",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124425501",
+              "displayName": "LCK",
+              "name": "lck",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124420521",
+              "displayName": "LCS",
+              "name": "lcs",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124422593",
+              "displayName": "LEC",
+              "name": "lec",
+              "__typename": "Channel"
+            },
+            {
+              "id": "485725873",
+              "displayName": "LoLPacificEN",
+              "name": "lolpacificen",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
+        "description": "Subscribers with paid and gifted Tier 1 subscriptions will earn the “FABULOUS!” emote by subscribing to participating LoL Esports channels. By subscribing, fans will receive an enhanced viewing experience while providing direct support to their favorite leagues and teams.",
+        "detailsURL": "https://lolesports.com/en-US/news/worlds-2025-primer",
+        "endAt": "2025-12-04T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "21779",
+          "slug": "league-of-legends",
+          "displayName": "League of Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c0e07684-d4d8-45f4-8d4f-635c5eb20ab8.png",
+        "name": "Worlds - Sub Drop",
+        "owner": {
+          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+          "name": "Riot Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-06T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "db4f0d03-9ee4-11f0-ad5c-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2025-LoL-TwitchSubs-WorldsDrop",
+                  "createdAt": "2025-09-30T18:13:00.346Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "21779",
+                    "name": "League of Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ecc6beab-beed-4698-980a-f61c43437593.png",
+                  "isIosAvailable": true,
+                  "name": "\"FABULOUS!\" Emote\t\t\t\t\t",
+                  "ownerOrganization": {
+                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+                    "name": "Riot Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-04T16:59:59.999Z",
+            "name": "\"FABULOUS!\" Emote",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-11-06T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-10-10T16:00:00.000Z"
+  },
+  {
     "endAt": "2025-11-17T13:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/723461364_IGDB-120x160.jpg",
     "gameDisplayName": "Mecha BREAK",
@@ -10998,6 +8487,657 @@
       }
     ],
     "startAt": "2025-11-02T10:01:00.000Z"
+  },
+  {
+    "endAt": "2025-11-10T11:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/207506430_IGDB-120x160.jpg",
+    "gameDisplayName": "Out of the Park Baseball 26",
+    "gameId": "207506430",
+    "rewards": [
+      {
+        "id": "aaefcf08-b99a-11f0-ae43-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "110879765",
+              "displayName": "OOTPDevelopments",
+              "name": "ootpdevelopments",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
+        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
+        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
+        "endAt": "2025-11-10T11:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "207506430",
+          "slug": "out-of-the-park-baseball-26",
+          "displayName": "Out of the Park Baseball 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6029e1ef-b93a-4d2d-9db8-6c260da89be5.png",
+        "name": "Official 11/9/25",
+        "owner": {
+          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+          "name": "Out of the Park Developments",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-09T12:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "bcf9ecd4-b99a-11f0-a41b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:32:57.165Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
+                  "isIosAvailable": false,
+                  "name": "PT26 Standard Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-10T11:59:59.999Z",
+            "name": "1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-11-09T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c23f1bf4-b99a-11f0-a1a7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:32:57.165Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
+                  "isIosAvailable": false,
+                  "name": "PT26 Standard Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-10T11:59:59.999Z",
+            "name": "2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-11-09T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c78a6b90-b99a-11f0-84c7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:32:57.165Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
+                  "isIosAvailable": false,
+                  "name": "PT26 Standard Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-10T11:59:59.999Z",
+            "name": "3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-11-09T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "cb43f6f5-b99a-11f0-bca4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:32:57.165Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
+                  "isIosAvailable": false,
+                  "name": "PT26 Standard Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-10T11:59:59.999Z",
+            "name": "4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-09T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d0c1f508-b99a-11f0-8d75-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "35d2773b-fe75-11ef-9043-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:34:43.938Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c51bf0c7-61c4-408b-b438-512d7a16c123.png",
+                  "isIosAvailable": false,
+                  "name": "PT26 Silver Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-10T11:59:59.999Z",
+            "name": "5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-11-09T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "bc4dd2f9-b995-11f0-835d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "15850551",
+              "displayName": "Sporer",
+              "name": "sporer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "24670980",
+              "displayName": "dishnet34",
+              "name": "dishnet34",
+              "__typename": "Channel"
+            },
+            {
+              "id": "188788173",
+              "displayName": "DrDynastic",
+              "name": "drdynastic",
+              "__typename": "Channel"
+            },
+            {
+              "id": "815895593",
+              "displayName": "laptophound",
+              "name": "laptophound",
+              "__typename": "Channel"
+            },
+            {
+              "id": "550758034",
+              "displayName": "EVCinNYC2",
+              "name": "evcinnyc2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36581970",
+              "displayName": "ThatSportsGamer",
+              "name": "thatsportsgamer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "78625424",
+              "displayName": "tehSuigi",
+              "name": "tehsuigi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "169303051",
+              "displayName": "BullLeague",
+              "name": "bullleague",
+              "__typename": "Channel"
+            },
+            {
+              "id": "123399982",
+              "displayName": "nershabainco",
+              "name": "nershabainco",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38033372",
+              "displayName": "IRockThs",
+              "name": "irockths",
+              "__typename": "Channel"
+            },
+            {
+              "id": "218496691",
+              "displayName": "pbesim",
+              "name": "pbesim",
+              "__typename": "Channel"
+            },
+            {
+              "id": "256172095",
+              "displayName": "ezradenney",
+              "name": "ezradenney",
+              "__typename": "Channel"
+            },
+            {
+              "id": "526686323",
+              "displayName": "nasbase",
+              "name": "nasbase",
+              "__typename": "Channel"
+            },
+            {
+              "id": "61026170",
+              "displayName": "AtticaOnline",
+              "name": "atticaonline",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38134200",
+              "displayName": "AZAxle",
+              "name": "azaxle",
+              "__typename": "Channel"
+            },
+            {
+              "id": "82695286",
+              "displayName": "Cavacom",
+              "name": "cavacom",
+              "__typename": "Channel"
+            },
+            {
+              "id": "61021047",
+              "displayName": "DA186",
+              "name": "da186",
+              "__typename": "Channel"
+            },
+            {
+              "id": "408789860",
+              "displayName": "thenolannetwork",
+              "name": "thenolannetwork",
+              "__typename": "Channel"
+            },
+            {
+              "id": "78557187",
+              "displayName": "RipleyTheOriole",
+              "name": "ripleytheoriole",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36211317",
+              "displayName": "twins_34",
+              "name": "twins_34",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124593929",
+              "displayName": "CWhitDCFC",
+              "name": "cwhitdcfc",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1069369941",
+              "displayName": "FranchiseTimeMachine",
+              "name": "franchisetimemachine",
+              "__typename": "Channel"
+            },
+            {
+              "id": "234834715",
+              "displayName": "MaxLP80",
+              "name": "maxlp80",
+              "__typename": "Channel"
+            },
+            {
+              "id": "37191513",
+              "displayName": "Xtoforas",
+              "name": "xtoforas",
+              "__typename": "Channel"
+            },
+            {
+              "id": "157686951",
+              "displayName": "esc_V",
+              "name": "esc_v",
+              "__typename": "Channel"
+            },
+            {
+              "id": "140283247",
+              "displayName": "Angered_Unicorn",
+              "name": "angered_unicorn",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1049178332",
+              "displayName": "Aydubby",
+              "name": "aydubby",
+              "__typename": "Channel"
+            },
+            {
+              "id": "29928551",
+              "displayName": "YukarinKazami",
+              "name": "yukarinkazami",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38148728",
+              "displayName": "smileyfacejane",
+              "name": "smileyfacejane",
+              "__typename": "Channel"
+            },
+            {
+              "id": "661591955",
+              "displayName": "Baseball_Dreamland",
+              "name": "baseball_dreamland",
+              "__typename": "Channel"
+            },
+            {
+              "id": "153016348",
+              "displayName": "Edwon_",
+              "name": "edwon_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "31583330",
+              "displayName": "Skyrolla",
+              "name": "skyrolla",
+              "__typename": "Channel"
+            },
+            {
+              "id": "57780943",
+              "displayName": "Carini_Harpua",
+              "name": "carini_harpua",
+              "__typename": "Channel"
+            },
+            {
+              "id": "102264302",
+              "displayName": "shawncurtis430",
+              "name": "shawncurtis430",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
+        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
+        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
+        "endAt": "2025-11-10T11:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "207506430",
+          "slug": "out-of-the-park-baseball-26",
+          "displayName": "Out of the Park Baseball 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fcaebf25-a5aa-4958-9eed-f362402004e6.png",
+        "name": "Affiliate11/9/25",
+        "owner": {
+          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+          "name": "Out of the Park Developments",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-09T12:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ccf68185-b995-11f0-baf4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:32:57.165Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
+                  "isIosAvailable": false,
+                  "name": "PT26 Standard Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-10T11:59:59.999Z",
+            "name": "1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-11-09T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d1c66ace-b995-11f0-aaa5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:32:57.165Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
+                  "isIosAvailable": false,
+                  "name": "PT26 Standard Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-10T11:59:59.999Z",
+            "name": "2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-11-09T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d68aff86-b995-11f0-a36f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:32:57.165Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
+                  "isIosAvailable": false,
+                  "name": "PT26 Standard Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-10T11:59:59.999Z",
+            "name": "3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-11-09T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "dae72c6c-b995-11f0-a41b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f62e11cc-fe74-11ef-b324-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:32:57.165Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2caf1eb5-7a6b-4dff-bed1-48f68eff8e57.png",
+                  "isIosAvailable": false,
+                  "name": "PT26 Standard Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-10T11:59:59.999Z",
+            "name": "4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-09T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "e02cb0c5-b995-11f0-bf2b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "35d2773b-fe75-11ef-9043-0a58a9feac02",
+                  "createdAt": "2025-03-11T12:34:43.938Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c51bf0c7-61c4-408b-b438-512d7a16c123.png",
+                  "isIosAvailable": false,
+                  "name": "PT26 Silver Pack",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-10T11:59:59.999Z",
+            "name": "5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-11-09T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-09T12:00:00.000Z"
   },
   {
     "endAt": "2025-11-10T14:59:59.998Z",
