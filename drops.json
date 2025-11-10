@@ -14286,8 +14286,8 @@
             },
             {
               "id": "186253133",
-              "displayName": "Azumi_Nakano",
-              "name": "azumi_nakano",
+              "displayName": "Azmew_the_Cat",
+              "name": "azmew_the_cat",
               "__typename": "Channel"
             },
             {
@@ -16422,8 +16422,8 @@
             },
             {
               "id": "186253133",
-              "displayName": "Azumi_Nakano",
-              "name": "azumi_nakano",
+              "displayName": "Azmew_the_Cat",
+              "name": "azmew_the_cat",
               "__typename": "Channel"
             },
             {
@@ -18540,8 +18540,8 @@
             },
             {
               "id": "186253133",
-              "displayName": "Azumi_Nakano",
-              "name": "azumi_nakano",
+              "displayName": "Azmew_the_Cat",
+              "name": "azmew_the_cat",
               "__typename": "Channel"
             },
             {
@@ -20652,8 +20652,8 @@
             },
             {
               "id": "186253133",
-              "displayName": "Azumi_Nakano",
-              "name": "azumi_nakano",
+              "displayName": "Azmew_the_Cat",
+              "name": "azmew_the_cat",
               "__typename": "Channel"
             },
             {
@@ -22770,8 +22770,8 @@
             },
             {
               "id": "186253133",
-              "displayName": "Azumi_Nakano",
-              "name": "azumi_nakano",
+              "displayName": "Azmew_the_Cat",
+              "name": "azmew_the_cat",
               "__typename": "Channel"
             },
             {
@@ -26191,6 +26191,117 @@
       }
     ],
     "startAt": "2025-10-17T04:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-14T07:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/491931_IGDB-120x160.jpg",
+    "gameDisplayName": "Escape from Tarkov",
+    "gameId": "491931",
+    "rewards": [
+      {
+        "id": "f76abf46-bcb7-11f0-8f7f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "106013742",
+              "displayName": "Pestily",
+              "name": "pestily",
+              "__typename": "Channel"
+            },
+            {
+              "id": "69439030",
+              "displayName": "ToastRackTV",
+              "name": "toastracktv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "158875619",
+              "displayName": "Train__",
+              "name": "train__",
+              "__typename": "Channel"
+            },
+            {
+              "id": "72839510",
+              "displayName": "RedOpz",
+              "name": "redopz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "65240429",
+              "displayName": "MrDrakezilla",
+              "name": "mrdrakezilla",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.escapefromtarkov.com/profile",
+        "description": "Thank you for participating in \"Forged in Beta\" event hosted by Pestily. The armband will be available upon the release of Escape from Tarkov on November 15th",
+        "detailsURL": "https://www.twitch.tv/",
+        "endAt": "2025-11-14T07:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "491931",
+          "slug": "escape-from-tarkov",
+          "displayName": "Escape from Tarkov",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b7cf51c2-8e2d-44bd-9c8e-33d4fb6876dd.jpeg",
+        "name": "Forged in Beta",
+        "owner": {
+          "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
+          "name": "Battlestate Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-10T17:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "07fdd4ce-bd70-11f0-8870-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cb74a9e3-38be-41c8-90c9-a746079ea512_CUSTOM_ID_69109699ebd4be7bdf077f09",
+                  "createdAt": "2025-11-09T13:27:56.45Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "491931",
+                    "name": "Escape from Tarkov",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1c58430a-b175-41f9-abab-18cc36087806.png",
+                  "isIosAvailable": false,
+                  "name": "Forged in Beta armband",
+                  "ownerOrganization": {
+                    "id": "cb74a9e3-38be-41c8-90c9-a746079ea512",
+                    "name": "Battlestate Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-14T07:59:59.999Z",
+            "name": "Forged in Beta armband",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-11-10T17:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-10T17:30:00.000Z"
   },
   {
     "endAt": "2025-11-14T14:59:59.998Z",
