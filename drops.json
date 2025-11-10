@@ -867,6 +867,147 @@
     "startAt": "2025-11-09T17:59:00.000Z"
   },
   {
+    "endAt": "2025-11-10T19:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
+    "gameDisplayName": "Tanki Online",
+    "gameId": "417810",
+    "rewards": [
+      {
+        "id": "8fad0f83-be23-11f0-87c1-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "117023453",
+              "displayName": "TankiSport_RU",
+              "name": "tankisport_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64274116",
+              "displayName": "TankiSport_EN",
+              "name": "tankisport_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806896138",
+              "displayName": "TankiSport_RU_2",
+              "name": "tankisport_ru_2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806894175",
+              "displayName": "TankiSport_EN_2",
+              "name": "tankisport_en_2",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://tankionline.com/play/",
+        "description": "Watch Tanki Online eSports match livestreams and get Epic Keys in Tanki Online",
+        "detailsURL": "https://tankionline.com/",
+        "endAt": "2025-11-10T19:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417810",
+          "slug": "tanki-online",
+          "displayName": "Tanki Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/efdc2a2f-c443-469e-beff-6a4546cad0ca.jpeg",
+        "name": "WM 2025 CS R3 (1)",
+        "owner": {
+          "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+          "name": "APL Publishing Ltd",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-10T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b0e45b2c-be23-11f0-b1c4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-10T19:29:59.999Z",
+            "name": "Match 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-11-10T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b369d1c3-be23-11f0-ac06-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-10T19:29:59.999Z",
+            "name": "Match 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-10T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-10T17:00:00.000Z"
+  },
+  {
     "endAt": "2025-11-10T20:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/504651_IGDB-120x160.jpg",
     "gameDisplayName": "MARVEL Strike Force",
@@ -1394,12 +1535,6 @@
               "id": "58683351",
               "displayName": "المعلم",
               "name": "bigjoe_tv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "129342719",
-              "displayName": "BikiniBodhi",
-              "name": "bikinibodhi",
               "__typename": "Channel"
             },
             {
@@ -3884,12 +4019,6 @@
               "id": "220049087",
               "displayName": "SandraKaz",
               "name": "sandrakaz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "129342719",
-              "displayName": "BikiniBodhi",
-              "name": "bikinibodhi",
               "__typename": "Channel"
             },
             {
@@ -43434,6 +43563,350 @@
       }
     ],
     "startAt": "2025-10-27T17:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-24T22:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1637021799_IGDB-120x160.jpg",
+    "gameDisplayName": "Anno 117: Pax Romana",
+    "gameId": "1637021799",
+    "rewards": [
+      {
+        "id": "a0220777-b98d-11f0-88d0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "12875057",
+              "displayName": "GRONKH",
+              "name": "gronkh",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://drops-register.ubi.com",
+        "description": "Gronkh special drops",
+        "detailsURL": "https://www.ubisoft.com/fr-fr/help/gameplay/article/information-about-twitch-drops-for-ubisoft-games/000065532",
+        "endAt": "2025-11-24T22:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1637021799",
+          "slug": "anno-117-pax-romana",
+          "displayName": "Anno 117: Pax Romana",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "Anno 117 Launch DE",
+        "owner": {
+          "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+          "name": "Ubisoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-10T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "be5b8494-b992-11f0-8a20-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b_CUSTOM_ID_gronkh_logo_anno_launch",
+                  "createdAt": "2025-11-04T15:50:01.165Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1637021799",
+                    "name": "Anno 117: Pax Romana",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2a2e195f-50c0-4de3-b5f5-add3377f1eed.png",
+                  "isIosAvailable": false,
+                  "name": "Logo Gronkh",
+                  "ownerOrganization": {
+                    "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+                    "name": "Ubisoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-24T22:58:59.999Z",
+            "name": "Logo",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-10T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c227c23c-b992-11f0-9601-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b_CUSTOM_ID_gronkh_flag_anno_launch",
+                  "createdAt": "2025-11-04T15:50:50.892Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1637021799",
+                    "name": "Anno 117: Pax Romana",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/df69516c-c750-41e6-9634-9689c69371f7.png",
+                  "isIosAvailable": false,
+                  "name": "Flag Gronkh",
+                  "ownerOrganization": {
+                    "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+                    "name": "Ubisoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-24T22:58:59.999Z",
+            "name": "Falg",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-11-10T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "9c30d0ad-b029-11f0-be02-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://drops-register.ubi.com",
+        "description": "Launch - Open to all Drops",
+        "detailsURL": "https://www.ubisoft.com/fr-fr/help/gameplay/article/information-about-twitch-drops-for-ubisoft-games/000065532",
+        "endAt": "2025-11-24T22:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1637021799",
+          "slug": "anno-117-pax-romana",
+          "displayName": "Anno 117: Pax Romana",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "Anno 117 Launch",
+        "owner": {
+          "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+          "name": "Ubisoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-10T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "127dbf2a-b02a-11f0-8bd0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b_CUSTOM_ID_classisnova_anno_launch",
+                  "createdAt": "2025-11-04T14:36:24.375Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1637021799",
+                    "name": "Anno 117: Pax Romana",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/08614016-d27e-4e21-b9c7-101b387efd2f.png",
+                  "isIosAvailable": false,
+                  "name": "Classis Nova Alba",
+                  "ownerOrganization": {
+                    "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+                    "name": "Ubisoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-24T22:58:59.999Z",
+            "name": "Classis Nova Alba",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-10T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "17c4ca50-b02a-11f0-a492-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b_CUSTOM_ID_legion_anno_launch",
+                  "createdAt": "2025-11-04T14:36:58.885Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1637021799",
+                    "name": "Anno 117: Pax Romana",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bf464c1c-6d42-41fa-b3ad-02735addd53b.png",
+                  "isIosAvailable": false,
+                  "name": "Legion Trading Post",
+                  "ownerOrganization": {
+                    "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+                    "name": "Ubisoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-24T22:58:59.999Z",
+            "name": "Legion Trading Post",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-11-10T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "0af6b167-b98d-11f0-aaa5-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "70878755",
+              "displayName": "Cringer",
+              "name": "cringer",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://drops-register.ubi.com",
+        "description": "Cringer special drops",
+        "detailsURL": "https://www.ubisoft.com/fr-fr/help/gameplay/article/information-about-twitch-drops-for-ubisoft-games/000065532",
+        "endAt": "2025-11-24T22:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1637021799",
+          "slug": "anno-117-pax-romana",
+          "displayName": "Anno 117: Pax Romana",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "Anno 117 Launch US",
+        "owner": {
+          "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+          "name": "Ubisoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-10T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "30187d8a-b98d-11f0-bca3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b_CUSTOM_ID_cringer_logo_anno_launch",
+                  "createdAt": "2025-11-04T15:47:11.675Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1637021799",
+                    "name": "Anno 117: Pax Romana",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7f1c25ff-d40d-4fbd-a40f-06e5cd60b56e.png",
+                  "isIosAvailable": false,
+                  "name": "Logo Cringer",
+                  "ownerOrganization": {
+                    "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+                    "name": "Ubisoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-24T22:58:59.999Z",
+            "name": "Logo",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-10T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "35b69c99-b98d-11f0-8403-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b_CUSTOM_ID_cringer_flag_anno_launch",
+                  "createdAt": "2025-11-04T15:53:31.496Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1637021799",
+                    "name": "Anno 117: Pax Romana",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dfe52374-2f16-4204-9fe3-2aabde1b4a65.png",
+                  "isIosAvailable": false,
+                  "name": "Flag Cringer",
+                  "ownerOrganization": {
+                    "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+                    "name": "Ubisoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-24T22:58:59.999Z",
+            "name": "flag",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-11-10T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-10T17:00:00.000Z"
   },
   {
     "endAt": "2025-11-25T07:58:59.999Z",
