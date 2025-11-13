@@ -388,6 +388,93 @@
     "startAt": "2025-11-06T17:00:00.000Z"
   },
   {
+    "endAt": "2025-11-13T17:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/272952894_IGDB-120x160.jpg",
+    "gameDisplayName": "Madden NFL 26",
+    "gameId": "272952894",
+    "rewards": [
+      {
+        "id": "2bb36e38-be68-11f0-8c72-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "51914127",
+              "displayName": "EAMaddenNFL",
+              "name": "eamaddennfl",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch Good Morning Madden and earn Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2025-11-13T17:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "272952894",
+          "slug": "ea-sports-madden-nfl-26",
+          "displayName": "Madden NFL 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d1414d8a-5b68-4843-83a0-b97f996828f8.png",
+        "name": "Good Morning Madden ",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-13T15:20:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "62ad1d18-be68-11f0-a810-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-093",
+                  "createdAt": "2025-11-10T19:04:09.124Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d528bbf7-ecae-4bb5-a34d-c90dc0c162a7.png",
+                  "isIosAvailable": false,
+                  "name": "Madden Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-13T17:29:59.999Z",
+            "name": "Madden Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-11-13T15:20:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-13T15:20:00.000Z"
+  },
+  {
     "endAt": "2025-11-13T17:57:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
     "gameDisplayName": "Rise Online",
@@ -17401,6 +17488,18 @@
               "id": "108456822",
               "displayName": "japoneis96",
               "name": "japoneis96",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1279195844",
+              "displayName": "gudrx12",
+              "name": "gudrx12",
+              "__typename": "Channel"
+            },
+            {
+              "id": "264887684",
+              "displayName": "notbeppler",
+              "name": "notbeppler",
               "__typename": "Channel"
             }
           ],
