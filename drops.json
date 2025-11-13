@@ -1,272 +1,5 @@
 [
   {
-    "endAt": "2025-11-13T21:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1393304883_IGDB-120x160.jpg",
-    "gameDisplayName": "Mir Tankov",
-    "gameId": "1393304883",
-    "rewards": [
-      {
-        "id": "404059ce-bfa0-11f0-8c48-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "30437881",
-              "displayName": "mir_tankov_official",
-              "name": "mir_tankov_official",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://lesta.ru/personal/?bind-external=twitch",
-        "description": "Следи за шоу-матчем на нашей официальной странице в Twitch и забирай ценное игровое имущество за просмотр!",
-        "detailsURL": "https://tanki.su/ru/news/tournaments/battle-royale/",
-        "endAt": "2025-11-13T21:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1393304883",
-          "slug": "mir-tankov",
-          "displayName": "Mir Tankov",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e4176828-5ae5-4004-8b0e-d58ffbfd8d39.png",
-        "name": "Шоу-матч БКБ",
-        "owner": {
-          "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
-          "name": "Lesta Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-13T14:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "44b19ced-bfa0-11f0-a8e8-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPTOURNAMENT1_2025_031125",
-                  "createdAt": "2025-11-12T08:22:56.899Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1393304883",
-                    "name": "Mir Tankov",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a0744b9-d3e1-4781-b052-855612db15c1.png",
-                  "isIosAvailable": false,
-                  "name": "Награда за Шоу-Матч #1",
-                  "ownerOrganization": {
-                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
-                    "name": "Lesta Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-13T21:59:59.999Z",
-            "name": "1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-11-13T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "46e5c942-bfa0-11f0-853c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPTOURNAMENT2_2025_031125",
-                  "createdAt": "2025-11-12T08:23:22.378Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1393304883",
-                    "name": "Mir Tankov",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7717c4a2-0f13-4de0-bac7-9256e34a5f8a.png",
-                  "isIosAvailable": false,
-                  "name": "Награда за Шоу-Матч #2",
-                  "ownerOrganization": {
-                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
-                    "name": "Lesta Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-13T21:59:59.999Z",
-            "name": "2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-13T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "492fe88c-bfa0-11f0-b10c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPTOURNAMENT3_2025_031125",
-                  "createdAt": "2025-11-12T08:23:46.084Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1393304883",
-                    "name": "Mir Tankov",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1d0d78d3-1321-451d-9014-59061ec47f9e.png",
-                  "isIosAvailable": false,
-                  "name": "Награда за Шоу-Матч #3",
-                  "ownerOrganization": {
-                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
-                    "name": "Lesta Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-13T21:59:59.999Z",
-            "name": "3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-11-13T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "4bb182b5-bfa0-11f0-aad6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPTOURNAMENT4_2025_031125",
-                  "createdAt": "2025-11-12T08:31:41.143Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1393304883",
-                    "name": "Mir Tankov",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dc3d6155-f028-4bb8-acdb-1735d2275e54.png",
-                  "isIosAvailable": false,
-                  "name": "Награда за Шоу-Матч #4",
-                  "ownerOrganization": {
-                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
-                    "name": "Lesta Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-13T21:59:59.999Z",
-            "name": "4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-11-13T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "53767bd0-bfa0-11f0-a491-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPTOURNAMENT5_2025_031125",
-                  "createdAt": "2025-11-12T08:32:13.668Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1393304883",
-                    "name": "Mir Tankov",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3a5bd8fc-7559-47e9-9649-e94bbda66eae.png",
-                  "isIosAvailable": false,
-                  "name": "Награда за Шоу-Матч #5",
-                  "ownerOrganization": {
-                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
-                    "name": "Lesta Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-13T21:59:59.999Z",
-            "name": "5",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 150,
-            "startAt": "2025-11-13T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "55b18cfe-bfa0-11f0-b6d6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPTOURNAMENT6_2025_031125",
-                  "createdAt": "2025-11-12T08:32:34.785Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1393304883",
-                    "name": "Mir Tankov",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4f863baf-88a0-40d0-bf72-df6c6c49157e.png",
-                  "isIosAvailable": false,
-                  "name": "Награда за Шоу-Матч #6",
-                  "ownerOrganization": {
-                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
-                    "name": "Lesta Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-13T21:59:59.999Z",
-            "name": "6",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-11-13T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-11-13T14:00:00.000Z"
-  },
-  {
     "endAt": "2025-11-16T22:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/510389_IGDB-120x160.jpg",
     "gameDisplayName": "Shakes and Fidget",
@@ -1464,6 +1197,129 @@
       }
     ],
     "startAt": "2025-11-12T23:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-13T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/503018_IGDB-120x160.jpg",
+    "gameDisplayName": "With Your Destiny",
+    "gameId": "503018",
+    "rewards": [
+      {
+        "id": "2faa13e4-c07c-11f0-b807-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "136713221",
+              "displayName": "fafaolive",
+              "name": "fafaolive",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://wydglobal.raidhut.com/pt-br/community/twitch",
+        "description": "WYD NEWS 13/11",
+        "detailsURL": "https://wydglobal.raidhut.com/pt-br/community/twitch",
+        "endAt": "2025-11-13T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "503018",
+          "slug": "with-your-destiny",
+          "displayName": "With Your Destiny",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "WYD NEWS 13/11",
+        "owner": {
+          "id": "107b672d-4b66-4589-af6a-3df0a90ba81a",
+          "name": "RaidHut",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-13T22:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "48869d2e-c07c-11f0-89f1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "107b672d-4b66-4589-af6a-3df0a90ba81a_CUSTOM_ID_3328_0_0_0_0_111_1_1_0",
+                  "createdAt": "2023-10-20T01:31:12.904Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "503018",
+                    "name": "With Your Destiny",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6ca26cf4-4275-4857-aa23-8d041ad18dbe.gif",
+                  "isIosAvailable": false,
+                  "name": "Entrada Zona Infernal",
+                  "ownerOrganization": {
+                    "id": "107b672d-4b66-4589-af6a-3df0a90ba81a",
+                    "name": "RaidHut",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-13T23:29:59.999Z",
+            "name": "WYD News",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-11-13T22:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "56af776d-c07c-11f0-8102-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "107b672d-4b66-4589-af6a-3df0a90ba81a_CUSTOM_ID_6065_0_0_0_0_111_1_2_0",
+                  "createdAt": "2024-10-17T18:56:13.849Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "503018",
+                    "name": "With Your Destiny",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8a291068-6f96-4354-b9e3-062d8090b521.gif",
+                  "isIosAvailable": false,
+                  "name": "WYDHut Pizza [2x]",
+                  "ownerOrganization": {
+                    "id": "107b672d-4b66-4589-af6a-3df0a90ba81a",
+                    "name": "RaidHut",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-13T23:29:59.999Z",
+            "name": "WYD News",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-13T22:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-13T22:00:00.000Z"
   },
   {
     "endAt": "2025-11-13T23:58:59.999Z",
