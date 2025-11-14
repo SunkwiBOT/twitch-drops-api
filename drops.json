@@ -12567,6 +12567,86 @@
     "startAt": "2025-11-14T14:00:00.000Z"
   },
   {
+    "endAt": "2025-11-17T14:59:59.997Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/468533702_IGDB-120x160.jpg",
+    "gameDisplayName": "Soulframe",
+    "gameId": "468533702",
+    "rewards": [
+      {
+        "id": "2ceab891-c05b-11f0-a0f7-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.soulframe.com/user",
+        "description": "Watch any Soulframe stream for 30 minutes to earn a Soulframe Preludes Key. Your code will appear in soulframe.com/user after claiming your Drop on the Twitch Inventory page. ",
+        "detailsURL": "https://forums.soulframe.com/topic/6442-coming-soon-soulframe-devstream-11/",
+        "endAt": "2025-11-17T14:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "468533702",
+          "slug": "soulframe",
+          "displayName": "Soulframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fcca2dc8-78cd-4f62-bb59-343e19fabdad.png",
+        "name": "SF Devstream #11 Weekend",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-14T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "411e61c2-c05b-11f0-802a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d9d4bcf1-1a31-11f0-99e5-0a58a9feac02",
+                  "createdAt": "2025-04-15T19:43:05.88Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "468533702",
+                    "name": "Soulframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0308cb07-413f-4930-99ef-38fcf55dca45.png",
+                  "isIosAvailable": false,
+                  "name": "Soulframe Preludes Key",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-17T14:59:59.997Z",
+            "name": "Soulframe Preludes Key",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-11-14T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-14T19:00:00.000Z"
+  },
+  {
     "endAt": "2025-11-17T20:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/504651_IGDB-120x160.jpg",
     "gameDisplayName": "MARVEL Strike Force",
