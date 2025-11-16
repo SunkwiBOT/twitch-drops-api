@@ -1,408 +1,5 @@
 [
   {
-    "endAt": "2025-11-16T23:28:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1393304883_IGDB-120x160.jpg",
-    "gameDisplayName": "Mir Tankov",
-    "gameId": "1393304883",
-    "rewards": [
-      {
-        "id": "abc6d3ab-c12b-11f0-b0df-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "30437881",
-              "displayName": "mir_tankov_official",
-              "name": "mir_tankov_official",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://lesta.ru/personal/?bind-external=twitch",
-        "description": "Следи за финалом на нашей \"Блогерская королевская битва\" на официальной странице в Twitch и забирай ценное игровое имущество за просмотр!",
-        "detailsURL": "https://tanki.su/ru/news/tournaments/battle-royale/",
-        "endAt": "2025-11-16T23:28:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1393304883",
-          "slug": "mir-tankov",
-          "displayName": "Mir Tankov",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0c88e499-c782-4a44-bbb3-586beec7b3d0.png",
-        "name": "Финал турнира \"БКБ\"",
-        "owner": {
-          "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
-          "name": "Lesta Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-16T14:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "94462881-c2e5-11f0-83de-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPTOURNAMENT1_2025_161125",
-                  "createdAt": "2025-11-16T12:53:43.902Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1393304883",
-                    "name": "Mir Tankov",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7a061f2e-ce6a-4eab-87c1-4a763fa84447.png",
-                  "isIosAvailable": false,
-                  "name": "Смотри и получай!",
-                  "ownerOrganization": {
-                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
-                    "name": "Lesta Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-16T23:28:59.999Z",
-            "name": "1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-16T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "971ae01c-c2e5-11f0-8d41-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPTOURNAMENT2_2025_161125",
-                  "createdAt": "2025-11-16T12:53:45.355Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1393304883",
-                    "name": "Mir Tankov",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a708ee24-9506-4079-8282-d9c3d6992ee5.png",
-                  "isIosAvailable": false,
-                  "name": "Продолжаем!",
-                  "ownerOrganization": {
-                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
-                    "name": "Lesta Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-16T23:28:59.999Z",
-            "name": "2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-11-16T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "995ffd70-c2e5-11f0-82d4-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_MT_TWITCH_DROPTOURNAMENT3_2025_161125",
-                  "createdAt": "2025-11-16T12:53:47.674Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1393304883",
-                    "name": "Mir Tankov",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2b80993a-7851-437a-b725-e432f0f5cd26.png",
-                  "isIosAvailable": false,
-                  "name": "Финальный дроп!",
-                  "ownerOrganization": {
-                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
-                    "name": "Lesta Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-16T23:28:59.999Z",
-            "name": "3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-11-16T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-11-16T14:00:00.000Z"
-  },
-  {
-    "endAt": "2025-11-16T23:29:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1780647523_IGDB-120x160.jpg",
-    "gameDisplayName": "HITMAN World of Assassination",
-    "gameId": "1780647523",
-    "rewards": [
-      {
-        "id": "82529238-bb12-11f0-b588-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.ioi.dk/",
-        "description": "Earning this reward is simple. You only need to link your IOI Account to your Twitch account and then watch a cumulative 30 minutes of HITMAN World of Assassination on Twitch during the drop campaign duration.",
-        "detailsURL": "https://account.ioi.dk/",
-        "endAt": "2025-11-16T23:29:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1780647523",
-          "slug": "hitman-world-of-assassination",
-          "displayName": "HITMAN World of Assassination",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9af67ca1-a81b-42a5-9778-a45cdd545281.jpeg",
-        "name": "Season of the Dragon #3",
-        "owner": {
-          "id": "dc639b50-1310-465f-a3a2-7a77e73d6014",
-          "name": "IO Interactive",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-07T14:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "9b1a902a-bb12-11f0-b613-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "dc639b50-1310-465f-a3a2-7a77e73d6014_CUSTOM_ID_58f7d6db-d95f-46ae-b018-4f6098eb8d35",
-                  "createdAt": "2025-09-17T11:54:29.408Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1780647523",
-                    "name": "HITMAN World of Assassination",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec599d56-694c-4bd6-adc5-4307537ca2c0.jpeg",
-                  "isIosAvailable": false,
-                  "name": "The Dragon Duck",
-                  "ownerOrganization": {
-                    "id": "dc639b50-1310-465f-a3a2-7a77e73d6014",
-                    "name": "IO Interactive",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-16T23:29:59.998Z",
-            "name": "The Dragon Duck",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-11-07T14:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-11-07T14:00:00.000Z"
-  },
-  {
-    "endAt": "2025-11-27T20:48:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
-    "gameDisplayName": "Kirka.io",
-    "gameId": "356609813",
-    "rewards": [
-      {
-        "id": "96ccffde-bc35-11f0-b72a-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://kirka.io/connectTwitch=1",
-        "description": "Kirka.io drop for the Twitch Unobtainable",
-        "detailsURL": "https://kirka.io/connectTwitch=1",
-        "endAt": "2025-11-16T23:29:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "356609813",
-          "slug": "kirka-io",
-          "displayName": "Kirka.io",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dd717c4e-e6bc-4d3f-b54b-3275349c5509.png",
-        "name": "Twitch",
-        "owner": {
-          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
-          "name": "Kirka.io",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-07T02:35:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "f956b3d5-bc38-11f0-ae7f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_5a751d9a-422f-48ae-a5f5-95c51bf601fe",
-                  "createdAt": "2025-11-08T00:22:33.776Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "356609813",
-                    "name": "Kirka.io",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/92488115-fdd1-4e11-bb60-d8e1a24a8e55.png",
-                  "isIosAvailable": false,
-                  "name": "Twitch",
-                  "ownerOrganization": {
-                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
-                    "name": "Kirka.io",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-16T23:29:59.999Z",
-            "name": "Twitch",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 900,
-            "startAt": "2025-11-07T02:35:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "6bb0a683-b764-11f0-a6e9-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "276250741",
-              "displayName": "Boingoo",
-              "name": "boingoo",
-              "__typename": "Channel"
-            },
-            {
-              "id": "268119114",
-              "displayName": "Sniper_Gecko",
-              "name": "sniper_gecko",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://kirka.io/connectTwitch=1",
-        "description": "Watch 15 hours to get rewarded a Spice skin",
-        "detailsURL": "https://kirka.io/connectTwitch=1",
-        "endAt": "2025-11-27T20:48:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "356609813",
-          "slug": "kirka-io",
-          "displayName": "Kirka.io",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3cdcaea4-3d83-4a10-8403-b04f27cf3690.png",
-        "name": "Spice",
-        "owner": {
-          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
-          "name": "Kirka.io",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-01T20:49:39Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "b6363e0a-b764-11f0-8a8f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "c41d4054-b764-11f0-9bc9-0a58a9feac02",
-                  "createdAt": "2025-11-01T20:53:06.334Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "356609813",
-                    "name": "Kirka.io",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/18104f7d-7157-40f8-93b7-97c09b52900e.png",
-                  "isIosAvailable": false,
-                  "name": "Spice",
-                  "ownerOrganization": {
-                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
-                    "name": "Kirka.io",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-27T20:48:59.999Z",
-            "name": "Spice",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 900,
-            "startAt": "2025-11-01T20:49:39Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-11-01T20:49:39.000Z"
-  },
-  {
     "endAt": "2025-11-16T23:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
     "gameDisplayName": "Delta Force",
@@ -38981,6 +38578,99 @@
       }
     ],
     "startAt": "2025-11-13T11:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-27T20:48:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
+    "gameDisplayName": "Kirka.io",
+    "gameId": "356609813",
+    "rewards": [
+      {
+        "id": "6bb0a683-b764-11f0-a6e9-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "276250741",
+              "displayName": "Boingoo",
+              "name": "boingoo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "268119114",
+              "displayName": "Sniper_Gecko",
+              "name": "sniper_gecko",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Watch 15 hours to get rewarded a Spice skin",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2025-11-27T20:48:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3cdcaea4-3d83-4a10-8403-b04f27cf3690.png",
+        "name": "Spice",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-01T20:49:39Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b6363e0a-b764-11f0-8a8f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "c41d4054-b764-11f0-9bc9-0a58a9feac02",
+                  "createdAt": "2025-11-01T20:53:06.334Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/18104f7d-7157-40f8-93b7-97c09b52900e.png",
+                  "isIosAvailable": false,
+                  "name": "Spice",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-27T20:48:59.999Z",
+            "name": "Spice",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2025-11-01T20:49:39Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-01T20:49:39.000Z"
   },
   {
     "endAt": "2025-11-30T11:53:59.999Z",
