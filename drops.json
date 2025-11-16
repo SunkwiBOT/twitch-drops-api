@@ -3226,6 +3226,120 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "2a35787c-c191-11f0-aaf8-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "621319816",
+              "displayName": "BlackDesertGame",
+              "name": "blackdesertgame",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
+        "description": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=9305",
+        "detailsURL": "https://www.naeu.playblackdesert.com/News/Detail?groupContentNo=9305",
+        "endAt": "2025-11-17T05:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "386821",
+          "slug": "black-desert",
+          "displayName": "Black Desert",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0ac78386-cd40-4797-893e-02b0b9748603.jpeg",
+        "name": "[NAEU] BDMC Finals Day 2",
+        "owner": {
+          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+          "name": "Pearl Abyss",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-16T13:45:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "4d8071dd-c191-11f0-a745-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_202511NAEUBDMCF1",
+                  "createdAt": "2025-11-14T19:38:55.112Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1f75d926-ae70-4e74-b8db-b7c48358ae60.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[NAEU]BDMC Finals 1 Hour ",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-17T05:59:59.999Z",
+            "name": "1 Hour (Nov. 16)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-16T13:45:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4fbe9427-c191-11f0-a0c7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_202511NAEUBDMCF2",
+                  "createdAt": "2025-11-14T19:39:20.827Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0e936623-6dde-4a54-b458-74465266a9b5.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[NAEU]BDMC Finals 2 Hour",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-17T05:59:59.999Z",
+            "name": "2 Hour (Nov. 16)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-16T13:45:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "bfef50bc-ba86-11f0-bdc6-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
