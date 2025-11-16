@@ -484,7 +484,7 @@
     "startAt": "2025-11-15T11:30:00.000Z"
   },
   {
-    "endAt": "2025-11-16T11:59:59.999Z",
+    "endAt": "2025-11-16T20:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
     "gameDisplayName": "Black Desert",
     "gameId": "386821",
@@ -555,6 +555,144 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-11-15T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "84952057-bf97-11f0-87d9-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "123999648",
+              "displayName": "Bacordi",
+              "name": "bacordi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "109254404",
+              "displayName": "ry6kagop",
+              "name": "ry6kagop",
+              "__typename": "Channel"
+            },
+            {
+              "id": "263046720",
+              "displayName": "drDoozA",
+              "name": "drdooza",
+              "__typename": "Channel"
+            },
+            {
+              "id": "989722502",
+              "displayName": "ALESHA_KOTIK",
+              "name": "alesha_kotik",
+              "__typename": "Channel"
+            },
+            {
+              "id": "182163802",
+              "displayName": "Dizers666",
+              "name": "dizers666",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ru.playblackdesert.com/Mypage/SNSLink",
+        "description": "Получайте особые Twitch Drops за просмотр турнира «Master Class 2025»",
+        "detailsURL": "https://www.ru.playblackdesert.com/News/Notice/Detail?boardNo=11577&countryType=ru-RU",
+        "endAt": "2025-11-16T20:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "386821",
+          "slug": "black-desert",
+          "displayName": "Black Desert",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/65b4b6cf-c6d1-4f59-99e1-eba0e215920e.jpeg",
+        "name": "[RU] Master Class_1116",
+        "owner": {
+          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+          "name": "Pearl Abyss",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-16T10:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "90789b97-bf97-11f0-8976-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_MASTERCLASS20257",
+                  "createdAt": "2025-11-12T07:12:34.752Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9e1b6e48-26f4-4f8f-b512-0f117abbf23f.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[RU] 1 Hour Reward_1115",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-16T20:59:59.998Z",
+            "name": "1 Hour (Nov.16)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-16T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9fc4766e-bf97-11f0-93b1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_MASTERCLASS20258",
+                  "createdAt": "2025-11-12T07:13:28.938Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/77d94ced-70a9-4f91-86fe-b1fc40290bc2.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[RU] 2 Hour Reward_1115",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-16T20:59:59.998Z",
+            "name": "2 Hour (Nov.16)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-16T10:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -2559,6 +2697,308 @@
       }
     ],
     "startAt": "2025-11-15T18:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-20T16:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
+    "gameDisplayName": "World of Warships",
+    "gameId": "32502",
+    "rewards": [
+      {
+        "id": "41cdd67e-b998-11f0-9bfe-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "888359734",
+              "displayName": "44irikss",
+              "name": "44irikss",
+              "__typename": "Channel"
+            },
+            {
+              "id": "53798319",
+              "displayName": "Admiral_Revan",
+              "name": "admiral_revan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "152373749",
+              "displayName": "dreadhead112nl",
+              "name": "dreadhead112nl",
+              "__typename": "Channel"
+            },
+            {
+              "id": "815111198",
+              "displayName": "El_ProfeDeHistoria",
+              "name": "el_profedehistoria",
+              "__typename": "Channel"
+            },
+            {
+              "id": "654829428",
+              "displayName": "Gigante0110",
+              "name": "gigante0110",
+              "__typename": "Channel"
+            },
+            {
+              "id": "794370642",
+              "displayName": "Joe_Muetze",
+              "name": "joe_muetze",
+              "__typename": "Channel"
+            },
+            {
+              "id": "591971432",
+              "displayName": "Lenny_GTs",
+              "name": "lenny_gts",
+              "__typename": "Channel"
+            },
+            {
+              "id": "76735118",
+              "displayName": "Lord_Zath",
+              "name": "lord_zath",
+              "__typename": "Channel"
+            },
+            {
+              "id": "439887914",
+              "displayName": "Lunae",
+              "name": "lunae",
+              "__typename": "Channel"
+            },
+            {
+              "id": "80934441",
+              "displayName": "OverLordBou",
+              "name": "overlordbou",
+              "__typename": "Channel"
+            },
+            {
+              "id": "31443772",
+              "displayName": "Painezor",
+              "name": "painezor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "48107542",
+              "displayName": "PrivatePinguin",
+              "name": "privatepinguin",
+              "__typename": "Channel"
+            },
+            {
+              "id": "92120603",
+              "displayName": "SeaRaptor",
+              "name": "searaptor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "94606599",
+              "displayName": "Teamkrado",
+              "name": "teamkrado",
+              "__typename": "Channel"
+            },
+            {
+              "id": "190736728",
+              "displayName": "toshinai_",
+              "name": "toshinai_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "175400318",
+              "displayName": "Xairen",
+              "name": "xairen",
+              "__typename": "Channel"
+            },
+            {
+              "id": "132201087",
+              "displayName": "Yves_the_Chief28",
+              "name": "yves_the_chief28",
+              "__typename": "Channel"
+            },
+            {
+              "id": "132113763",
+              "displayName": "torpedochka_",
+              "name": "torpedochka_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "179118582",
+              "displayName": "ぽじゃ",
+              "name": "po_ja",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://wargaming.net/personal/",
+        "description": "New Drops!",
+        "detailsURL": "https://worldofwarships.eu/news/general-news/stream-rewards-1410/",
+        "endAt": "2025-11-16T17:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "32502",
+          "slug": "world-of-warships",
+          "displayName": "World of Warships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/79e62239-c6ca-49b4-a6d0-24ccf3d78fcb.png",
+        "name": "KotS 18 Int'l Group Stage",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-16T10:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5505146e-b998-11f0-8531-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1410_flag_drop",
+                  "createdAt": "2025-10-27T15:12:46.886Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4cca290f-0a9d-4c37-9ac7-8f594530e3ef.png",
+                  "isIosAvailable": false,
+                  "name": "14.10 300 King Tokens",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-16T17:59:59.998Z",
+            "name": "14.10 KOTS: 300 King Tokens + Viewer Flag",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-11-16T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "a019e589-b991-11f0-a184-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://wargaming.net/personal/",
+        "description": "Droppitty droopitty",
+        "detailsURL": "https://worldofwarships.eu/news/general-news/stream-rewards-1410/",
+        "endAt": "2025-11-20T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "32502",
+          "slug": "world-of-warships",
+          "displayName": "World of Warships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e7545601-d381-430e-bc87-7115dd397cd5.png",
+        "name": "Update 14.10 Drop: Week 3",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-13T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7abd9c9e-b992-11f0-8ad6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1410_mission3",
+                  "createdAt": "2025-10-27T15:02:36.575Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2f9bf703-9dfa-483e-a3e7-1a3ccceb5050.png",
+                  "isIosAvailable": false,
+                  "name": "Update 14.10 Mission #3",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-20T16:59:59.999Z",
+            "name": "Update 14.10 Mission #3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-11-13T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "82c04f22-b992-11f0-9b17-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1410_twitchbox",
+                  "createdAt": "2025-10-27T15:04:24.978Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d552966b-99bd-4b09-8146-a0f0daa65dc4.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch Container 14.10",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-20T16:59:59.999Z",
+            "name": "Twitch Container 14.10 week #3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-11-13T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-13T17:00:00.000Z"
   },
   {
     "endAt": "2025-11-16T17:59:59.998Z",
@@ -8090,6 +8530,86 @@
       }
     ],
     "startAt": "2025-11-06T17:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-17T09:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
+    "gameDisplayName": "Albion Online",
+    "gameId": "417528",
+    "rewards": [
+      {
+        "id": "b723d23a-b004-11f0-811b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://albiononline.com/twitch",
+        "description": "Earn exclusive rewards by watching Albion Online livestreams!",
+        "detailsURL": "https://forum.albiononline.com/index.php/Thread/214756-New-Twitch-Drops-Launching-Monday-July-28-2025/",
+        "endAt": "2025-11-17T09:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417528",
+          "slug": "albion-online",
+          "displayName": "Albion Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/90ed4a32-d197-469a-a1a8-779d5099cbd2.png",
+        "name": "Abyssal Depths 20 - #7/7",
+        "owner": {
+          "id": "39dcfadd-48e4-4362-8c22-974319aff88e",
+          "name": "Sandbox Interactive",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-16T10:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "e4da12fa-b004-11f0-9ed4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "39dcfadd-48e4-4362-8c22-974319aff88e_CUSTOM_ID_abyssal_depths_chest-6b60cab5-ae22-4e0c-9965-e2ffb62f2b35",
+                  "createdAt": "2025-06-23T10:24:48.411Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417528",
+                    "name": "Albion Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4cc6775c-dc20-448a-b55e-5dfcd24403af.png",
+                  "isIosAvailable": true,
+                  "name": "Abyssal Depths Chest",
+                  "ownerOrganization": {
+                    "id": "39dcfadd-48e4-4362-8c22-974319aff88e",
+                    "name": "Sandbox Interactive",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-17T09:29:59.999Z",
+            "name": "Abyssal Depths Chest",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-11-16T10:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-16T10:00:00.000Z"
   },
   {
     "endAt": "2025-11-17T13:59:59.999Z",
@@ -17374,122 +17894,6 @@
       }
     ],
     "startAt": "2025-10-23T14:00:00.000Z"
-  },
-  {
-    "endAt": "2025-11-20T16:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
-    "gameDisplayName": "World of Warships",
-    "gameId": "32502",
-    "rewards": [
-      {
-        "id": "a019e589-b991-11f0-a184-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://wargaming.net/personal/",
-        "description": "Droppitty droopitty",
-        "detailsURL": "https://worldofwarships.eu/news/general-news/stream-rewards-1410/",
-        "endAt": "2025-11-20T16:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "32502",
-          "slug": "world-of-warships",
-          "displayName": "World of Warships",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e7545601-d381-430e-bc87-7115dd397cd5.png",
-        "name": "Update 14.10 Drop: Week 3",
-        "owner": {
-          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-          "name": "Wargaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-13T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "7abd9c9e-b992-11f0-8ad6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1410_mission3",
-                  "createdAt": "2025-10-27T15:02:36.575Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "32502",
-                    "name": "World of Warships",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2f9bf703-9dfa-483e-a3e7-1a3ccceb5050.png",
-                  "isIosAvailable": false,
-                  "name": "Update 14.10 Mission #3",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-20T16:59:59.999Z",
-            "name": "Update 14.10 Mission #3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-11-13T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "82c04f22-b992-11f0-9b17-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1410_twitchbox",
-                  "createdAt": "2025-10-27T15:04:24.978Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "32502",
-                    "name": "World of Warships",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d552966b-99bd-4b09-8146-a0f0daa65dc4.png",
-                  "isIosAvailable": false,
-                  "name": "Twitch Container 14.10",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-20T16:59:59.999Z",
-            "name": "Twitch Container 14.10 week #3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-11-13T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-11-13T17:00:00.000Z"
   },
   {
     "endAt": "2025-11-20T23:59:59.999Z",
