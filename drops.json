@@ -1,85 +1,5 @@
 [
   {
-    "endAt": "2025-11-18T22:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21136_IGDB-120x160.jpg",
-    "gameDisplayName": "Wakfu",
-    "gameId": "21136",
-    "rewards": [
-      {
-        "id": "106b1d76-baf5-11f0-bca5-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://account.ankama.com/fr/twitch",
-        "description": "You'll have just as much fun exploring the Neo Servers yourself as you will watching other players' adventures! From November 10 to 30, claim Twitch Drops by watching streamers in the WAKFU category! ",
-        "detailsURL": "https://account.ankama.com/fr/twitch",
-        "endAt": "2025-11-18T22:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "21136",
-          "slug": "wakfu",
-          "displayName": "Wakfu",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/90e3dcec-e078-4129-aaf6-de69196dd35f.png",
-        "name": "Neo-Twitch Drops [D9]",
-        "owner": {
-          "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
-          "name": "ANKAMA Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-11-17T23:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "20047411-baf5-11f0-847e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ef0e6145-baed-11f0-81b5-0a58a9feac02",
-                  "createdAt": "2025-11-06T08:52:32.919Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "21136",
-                    "name": "Wakfu",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6dd21093-42b5-4e67-9515-e5450df451bc.png",
-                  "isIosAvailable": false,
-                  "name": "Neo-Viewer Box",
-                  "ownerOrganization": {
-                    "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
-                    "name": "ANKAMA Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-11-18T22:59:59.999Z",
-            "name": "Neo-Viewer Box",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-11-17T23:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-11-17T23:00:00.000Z"
-  },
-  {
     "endAt": "2025-11-19T06:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515349_IGDB-120x160.jpg",
     "gameDisplayName": "Lineage II",
@@ -585,6 +505,99 @@
       }
     ],
     "startAt": "2025-11-12T08:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-19T06:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
+    "gameDisplayName": "Halo Infinite",
+    "gameId": "506416",
+    "rewards": [
+      {
+        "id": "6ff4bf91-b90a-11f0-83fb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "10692319",
+              "displayName": "Eli_X",
+              "name": "eli_x",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36799798",
+              "displayName": "MintBlitz",
+              "name": "mintblitz",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn in-game content in Halo Infinite!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-11-19T06:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fee68706-0045-4d79-887a-065b035ee6c5.png",
+        "name": "Monthly Clip Hunt-NOV18",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-18T23:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7dc1c361-b90a-11f0-a6c0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_6WTC-HHAD-HK76-SCU1-WU6G",
+                  "createdAt": "2024-05-24T16:58:47.328Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/136769c6-ec35-4600-8610-7f765aecfa72.png",
+                  "isIosAvailable": false,
+                  "name": "Tasteful Sensation R.Back",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-19T06:59:59.999Z",
+            "name": "Tasteful Sensation Coating",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-11-18T23:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-18T23:00:00.000Z"
   },
   {
     "endAt": "2025-11-19T09:29:59.999Z",
@@ -6762,6 +6775,86 @@
       }
     ],
     "startAt": "2025-11-18T18:00:00.000Z"
+  },
+  {
+    "endAt": "2025-11-19T22:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21136_IGDB-120x160.jpg",
+    "gameDisplayName": "Wakfu",
+    "gameId": "21136",
+    "rewards": [
+      {
+        "id": "37d4f7c1-baf5-11f0-9bfb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.ankama.com/fr/twitch",
+        "description": "You'll have just as much fun exploring the Neo Servers yourself as you will watching other players' adventures! From November 10 to 30, claim Twitch Drops by watching streamers in the WAKFU category! ",
+        "detailsURL": "https://account.ankama.com/fr/twitch",
+        "endAt": "2025-11-19T22:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "21136",
+          "slug": "wakfu",
+          "displayName": "Wakfu",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ca07d533-3d24-4e6e-bc39-61227248d9be.png",
+        "name": "Neo-Twitch Drops [D10]",
+        "owner": {
+          "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
+          "name": "ANKAMA Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-18T23:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "470aeb52-baf5-11f0-9030-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef0e6145-baed-11f0-81b5-0a58a9feac02",
+                  "createdAt": "2025-11-06T08:52:32.919Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "21136",
+                    "name": "Wakfu",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6dd21093-42b5-4e67-9515-e5450df451bc.png",
+                  "isIosAvailable": false,
+                  "name": "Neo-Viewer Box",
+                  "ownerOrganization": {
+                    "id": "b49ffdba-da9b-49ba-b5a5-59fcd6f73770",
+                    "name": "ANKAMA Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-19T22:59:59.998Z",
+            "name": "Neo-Viewer Box",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-18T23:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-18T23:00:00.000Z"
   },
   {
     "endAt": "2025-11-19T23:29:59.999Z",
