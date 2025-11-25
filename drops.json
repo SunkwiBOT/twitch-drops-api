@@ -19611,7 +19611,7 @@
     "startAt": "2025-11-24T14:00:00.000Z"
   },
   {
-    "endAt": "2025-11-28T16:08:59.999Z",
+    "endAt": "2025-11-28T16:10:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/624536948_IGDB-120x160.jpg",
     "gameDisplayName": "EA Sports FC 26",
     "gameId": "624536948",
@@ -19725,6 +19725,120 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 15,
             "startAt": "2025-11-13T16:09:17Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "784959ee-c0ab-11f0-a67b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "28029009",
+              "displayName": "easportsfc",
+              "name": "easportsfc",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.ea.com/twitchlinking",
+        "description": "FC Pro Open Matchday 2",
+        "detailsURL": "https://www.ea.com/games/ea-sports-fc/fc-pro/how-to-earn-rewards",
+        "endAt": "2025-11-28T16:10:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "624536948",
+          "slug": "ea-sports-fc-26",
+          "displayName": "EA Sports FC 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8b47eac5-9f73-4101-ab63-bcfb535ace1b.png",
+        "name": "FC Pro Open Matchday 2",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-13T16:11:27Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "496278c9-c0ac-11f0-a934-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_FCPRO_2609",
+                  "createdAt": "2025-11-13T16:14:17.069Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "624536948",
+                    "name": "EA Sports FC 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/63739772-6243-45b1-bc61-266383899a75.png",
+                  "isIosAvailable": false,
+                  "name": "FC Pro Klosterman Loan(9)",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-28T16:10:59.999Z",
+            "name": "FC Pro Klosterman Loan (9 games)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-11-13T16:11:27Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "55020bf6-c0ac-11f0-a67b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_FCPRO_2610",
+                  "createdAt": "2025-11-13T16:14:59.299Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "624536948",
+                    "name": "EA Sports FC 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4bfa118f-46b9-4a46-af6f-c193cab5dd11.png",
+                  "isIosAvailable": false,
+                  "name": "83+ x5",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-28T16:10:59.999Z",
+            "name": "83+ x 5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-11-13T16:11:27Z",
             "__typename": "TimeBasedDrop"
           }
         ],
