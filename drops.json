@@ -9648,6 +9648,90 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "63457d41-cc67-11f0-ab3b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "548125882",
+              "displayName": "あこみんぐ",
+              "name": "acomingzz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "425366368",
+              "displayName": "くるみ㌠",
+              "name": "curumi0x0",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
+        "description": "If you tune in during the Game Changers Championship Grand Finals weekend (Nov 28 - 30) with the following On Site Watch Parties, you can earn exclusive titles on Twitch and Soop!\t",
+        "detailsURL": "https://www.riotgames.com/en",
+        "endAt": "2025-11-30T13:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "516575",
+          "slug": "valorant",
+          "displayName": "VALORANT",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/77737ad4-1359-4573-948c-496e9c9432fa.png",
+        "name": "VCT25 GCC Co-stream Drops",
+        "owner": {
+          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+          "name": "Riot Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-28T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "75446488-cc67-11f0-8805-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2025-VAL-GCC-MeltingTitle",
+                  "createdAt": "2025-11-25T05:48:21.203Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516575",
+                    "name": "VALORANT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/678546ed-ea4f-42b4-aac9-3b76ea3e350c.png",
+                  "isIosAvailable": true,
+                  "name": "Melting Title",
+                  "ownerOrganization": {
+                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+                    "name": "Riot Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-30T13:59:59.998Z",
+            "name": "\"Melting\" Title",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-11-28T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "5f2a72c3-ca47-11f0-b655-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
