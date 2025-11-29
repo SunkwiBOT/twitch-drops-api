@@ -643,6 +643,93 @@
     "startAt": "2025-11-28T20:00:00.000Z"
   },
   {
+    "endAt": "2025-11-29T20:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
+    "rewards": [
+      {
+        "id": "44938634-ca99-11f0-b27b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "158489326",
+              "displayName": "EMOVJ",
+              "name": "emovj",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Watch EMOVJ for 30 minutes to receive a Kahl-175 Noggle decoration!",
+        "detailsURL": "https://forums.warframe.com/topic/1477222-community-stream-schedule-november-24-29-2025/",
+        "endAt": "2025-11-29T20:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ecf1218b-909a-4dcf-8f15-0377d55203b2.jpeg",
+        "name": "Community Drops #151",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-29T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5631a062-ca99-11f0-9846-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "65d4480b-ca99-11f0-918e-0a58a9feac02",
+                  "createdAt": "2025-11-26T07:27:43.57Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "66170",
+                    "name": "Warframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d9f2edbc-c591-4f96-b611-7ffcc7a581fc.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Kahl-175 Noggle",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-29T20:59:59.998Z",
+            "name": "Kahl-175 Noggle",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-11-29T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-29T19:00:00.000Z"
+  },
+  {
     "endAt": "2025-11-29T22:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21136_IGDB-120x160.jpg",
     "gameDisplayName": "WAKFU",
