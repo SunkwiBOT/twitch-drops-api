@@ -80,6 +80,93 @@
     "startAt": "2025-11-28T23:00:00.000Z"
   },
   {
+    "endAt": "2025-11-29T23:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
+    "rewards": [
+      {
+        "id": "c830a594-ca99-11f0-aaab-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "36194251",
+              "displayName": "Vamp6x6x6x",
+              "name": "vamp6x6x6x",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Watch Vamp6x6x6x for 30 minutes to receive an Aoi Floof decoration!",
+        "detailsURL": "https://forums.warframe.com/topic/1477222-community-stream-schedule-november-24-29-2025/",
+        "endAt": "2025-11-29T23:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/09cffc20-7f5a-419a-9e8f-8a663767a6aa.jpeg",
+        "name": "Community Drops #152",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-11-29T22:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "d76b27fc-ca99-11f0-96e2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cb90a4c9-4cbb-11f0-9701-0a58a9feac02",
+                  "createdAt": "2025-06-19T03:16:30.633Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "66170",
+                    "name": "Warframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/574c853c-57b4-4631-a619-ce663051ffb4.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Aoi Floof",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-11-29T23:59:59.998Z",
+            "name": "Aoi Floof",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-11-29T22:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-11-29T22:00:00.000Z"
+  },
+  {
     "endAt": "2025-12-12T08:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1264310518-120x160.jpg",
     "gameDisplayName": "Marvel Rivals",
