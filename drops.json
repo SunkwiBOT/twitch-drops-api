@@ -31759,5 +31759,85 @@
       }
     ],
     "startAt": "2025-11-30T18:00:00.000Z"
+  },
+  {
+    "endAt": "2026-01-01T07:59:00.000Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/460630-120x160.jpg",
+    "gameDisplayName": "Tom Clancy's Rainbow Six Siege X",
+    "gameId": "460630",
+    "rewards": [
+      {
+        "id": "7eb0580a-c65b-11f0-af1b-5202ffea503a",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.twitch.tv",
+        "description": "This badge was earned by subscribing of gifting a sub to a Rainbow Six Siege X streamer during its 10th anniversary celebration!",
+        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+        "endAt": "2026-01-01T07:59:00Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "460630",
+          "slug": "tom-clancys-rainbow-six-siege",
+          "displayName": "Tom Clancy's Rainbow Six Siege X",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/badges/v1/00fc50e1-dea9-47a4-9db5-ff087e91dd0d/3",
+        "name": "Rainbow Six Siege X 10th Anniversary",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-01T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7ec8aba8-c65b-11f0-af1b-5202ffea503a",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "7e79db04-c65b-11f0-af1b-5202ffea503a",
+                  "createdAt": "2025-11-20T21:54:31.472Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "460630",
+                    "name": "Tom Clancy's Rainbow Six Siege X",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/badges/v1/00fc50e1-dea9-47a4-9db5-ff087e91dd0d/3",
+                  "isIosAvailable": false,
+                  "name": "Rainbow Six Siege X 10th Anniversary",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-01T07:59:00Z",
+            "name": "Rainbow Six Siege X 10th Anniversary Reward Group",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-12-01T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-01T19:00:00.000Z"
   }
 ]
