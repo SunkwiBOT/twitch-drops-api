@@ -1,5 +1,92 @@
 [
   {
+    "endAt": "2025-12-02T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/138585-120x160.jpg",
+    "gameDisplayName": "Hearthstone",
+    "gameId": "138585",
+    "rewards": [
+      {
+        "id": "248498c2-caf5-11f0-bf3c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "60978448",
+              "displayName": "dogdog",
+              "name": "dogdog",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://support.blizzard.com/article/000066385",
+        "description": "Watch Battlegrounds Designer George Webb (BoarControl) as he joins DogDog on his stream for a one-hour Q&A and play session!",
+        "detailsURL": "https://hearthstone.blizzard.com/news/24244882/",
+        "endAt": "2025-12-02T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "138585",
+          "slug": "hearthstone",
+          "displayName": "Hearthstone",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7c39293d-65cd-4bba-940d-79609eec904a.png",
+        "name": "Battlegrounds with DogDog",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-02T22:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "533824bd-caf5-11f0-bb88-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1888902",
+                  "createdAt": "2024-12-02T06:23:15.439Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "138585",
+                    "name": "Hearthstone",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9199376b-583d-4803-adc6-b33a4afaea9b.png",
+                  "isIosAvailable": false,
+                  "name": "2 Battlegrounds Tokens",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-02T23:29:59.999Z",
+            "name": "2 Battlegrounds Tokens",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 20,
+            "startAt": "2025-12-02T22:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-02T22:00:00.000Z"
+  },
+  {
     "endAt": "2025-12-03T00:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/213930085_IGDB-120x160.jpg",
     "gameDisplayName": "Honkai: Star Rail",
