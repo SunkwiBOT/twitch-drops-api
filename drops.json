@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2025-12-02T23:29:59.999Z",
+    "endAt": "2025-12-03T00:29:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/138585-120x160.jpg",
     "gameDisplayName": "Hearthstone",
     "gameId": "138585",
@@ -78,6 +78,84 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 20,
             "startAt": "2025-12-02T22:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "410d931c-caf7-11f0-b042-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "202100080",
+              "displayName": "HapaBear",
+              "name": "hapabear",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://support.blizzard.com/article/000066385",
+        "description": "Check out Battlegrounds Lead Designer Mitchell Lowen joining HapaBear on her stream for a one-hour Q&A and play session!",
+        "detailsURL": "https://hearthstone.blizzard.com/news/24244882/",
+        "endAt": "2025-12-03T00:29:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "138585",
+          "slug": "hearthstone",
+          "displayName": "Hearthstone",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3d3ce10d-92d2-49b0-88d2-033f19f4f057.png",
+        "name": "Battlegrounds & HapaBear",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-02T23:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "54ea46be-caf7-11f0-8b0f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1888902",
+                  "createdAt": "2024-12-02T06:23:15.439Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "138585",
+                    "name": "Hearthstone",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9199376b-583d-4803-adc6-b33a4afaea9b.png",
+                  "isIosAvailable": false,
+                  "name": "2 Battlegrounds Tokens",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-03T00:29:59.998Z",
+            "name": "2 Battlegrounds Tokens",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 20,
+            "startAt": "2025-12-02T23:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
