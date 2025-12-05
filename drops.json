@@ -783,6 +783,129 @@
     "startAt": "2025-12-04T20:00:00.000Z"
   },
   {
+    "endAt": "2025-12-05T20:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/499551-120x160.jpg",
+    "gameDisplayName": "World of Tanks Console",
+    "gameId": "499551",
+    "rewards": [
+      {
+        "id": "570a4243-d14a-11f0-9a9c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "183562961",
+              "displayName": "WoTModernArmor",
+              "name": "wotmodernarmor",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://modernarmor.worldoftanks.com/accounts/management/",
+        "description": "Something lurks in the Ice, Commanders. Tune into WoTModernArmor to find out what! ",
+        "detailsURL": "https://modernarmor.worldoftanks.com/en/cms/notes/twitch-drops/",
+        "endAt": "2025-12-05T20:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "499551",
+          "slug": "world-of-tanks-console",
+          "displayName": "World of Tanks Console",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/29660322-d56f-49f2-9f7b-66a8f1978849.png",
+        "name": "What lurks in the Ice?",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-05T18:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "73a979e1-d14a-11f0-9fa5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA_1Day",
+                  "createdAt": "2025-11-26T21:28:30.563Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
+                  "isIosAvailable": false,
+                  "name": "1 Day of Premium",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-05T20:29:59.999Z",
+            "name": "1 Day of Premium",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-12-05T18:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7c060e6d-d14a-11f0-ab4b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA2025_IWC",
+                  "createdAt": "2025-11-26T19:14:27.927Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
+                  "isIosAvailable": false,
+                  "name": "Icebound War Chest",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-05T20:29:59.999Z",
+            "name": "Icebound War Chest",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-05T18:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-05T18:30:00.000Z"
+  },
+  {
     "endAt": "2026-01-01T07:59:00.000Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/460630-120x160.jpg",
     "gameDisplayName": "Tom Clancy's Rainbow Six Siege X",
@@ -5986,6 +6109,48 @@
               "id": "906047053",
               "displayName": "WorldofTanks_Ukraine",
               "name": "worldoftanks_ukraine",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41800397",
+              "displayName": "DezGamez",
+              "name": "dezgamez",
+              "__typename": "Channel"
+            },
+            {
+              "id": "97903976",
+              "displayName": "Mouzakrobat",
+              "name": "mouzakrobat",
+              "__typename": "Channel"
+            },
+            {
+              "id": "141982730",
+              "displayName": "God_Pack",
+              "name": "god_pack",
+              "__typename": "Channel"
+            },
+            {
+              "id": "109431309",
+              "displayName": "German_intelligence",
+              "name": "german_intelligence",
+              "__typename": "Channel"
+            },
+            {
+              "id": "56443942",
+              "displayName": "Monsteryoo",
+              "name": "monsteryoo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "903369516",
+              "displayName": "Arkos_UA",
+              "name": "arkos_ua",
+              "__typename": "Channel"
+            },
+            {
+              "id": "66019478",
+              "displayName": "KorbenDetka",
+              "name": "korbendetka",
               "__typename": "Channel"
             }
           ],
