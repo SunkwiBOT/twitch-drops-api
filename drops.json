@@ -10414,6 +10414,93 @@
     "startAt": "2025-12-04T19:00:00.000Z"
   },
   {
+    "endAt": "2025-12-07T07:59:59.000Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-120x160.jpg",
+    "gameDisplayName": "Just Chatting",
+    "gameId": "509658",
+    "rewards": [
+      {
+        "id": "9d683ea2-cf0c-11f0-a533-3a137f91499c",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "247808909",
+              "displayName": "QTCinderella",
+              "name": "qtcinderella",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.twitch.tv/",
+        "description": "I earned this badge by watching the 2025 Streamer Awards!",
+        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+        "endAt": "2025-12-07T07:59:59Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "509658",
+          "slug": "just-chatting",
+          "displayName": "Just Chatting",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/badges/v1/d52bd174-3509-460b-80ac-4a8d5840194b/3",
+        "name": "Streamer Awards 2025",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-06T23:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9d76e1fa-cf0c-11f0-a533-3a137f91499c",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9d458344-cf0c-11f0-a533-3a137f91499c",
+                  "createdAt": "2025-12-01T23:22:33.362Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509658",
+                    "name": "Just Chatting",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/badges/v1/d52bd174-3509-460b-80ac-4a8d5840194b/3",
+                  "isIosAvailable": false,
+                  "name": "Streamer Awards Tux",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-07T07:59:59Z",
+            "name": "Streamer Awards Tux",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-06T23:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-06T23:00:00.000Z"
+  },
+  {
     "endAt": "2025-12-07T08:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/514013_IGDB-120x160.jpg",
     "gameDisplayName": "Caliber",
