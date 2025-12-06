@@ -45524,6 +45524,93 @@
     "startAt": "2025-11-25T10:00:00.000Z"
   },
   {
+    "endAt": "2025-12-22T07:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/490655_IGDB-120x160.jpg",
+    "gameDisplayName": "Pokémon GO",
+    "gameId": "490655",
+    "rewards": [
+      {
+        "id": "cd313474-cfcb-11f0-a613-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "116082737",
+              "displayName": "PokemonGO",
+              "name": "pokemongo",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://rewards.pokemon.com/",
+        "description": "Tune in to our Pokémon GO Battle League Day livestream to earn awesome in-game rewards and get expert tips from World Champions, Beezleboy and ItsAXN!",
+        "detailsURL": "https://rewards.pokemon.com/",
+        "endAt": "2025-12-22T07:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "490655",
+          "slug": "pokemon-go",
+          "displayName": "Pokémon GO",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b9e897d0-3a3f-4ec7-a50d-5f3e248d9256.png",
+        "name": "2025 GO Battle Day Drops",
+        "owner": {
+          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+          "name": "The Pokémon Company",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-06T17:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "e078d468-cfcb-11f0-9eeb-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "13cd07cd-cf0c-11f0-ab8d-0a58a9feac02",
+                  "createdAt": "2025-12-01T23:18:42.724Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490655",
+                    "name": "Pokémon GO",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7d95330e-dc8e-45f7-a8d6-4f0791d96bc1.png",
+                  "isIosAvailable": false,
+                  "name": "2025 GO Battle Day",
+                  "ownerOrganization": {
+                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
+                    "name": "The Pokémon Company",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-22T07:29:59.999Z",
+            "name": "2025 GO Battle Day Drops",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-12-06T17:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-06T17:30:00.000Z"
+  },
+  {
     "endAt": "2025-12-23T03:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/513181_IGDB-120x160.jpg",
     "gameDisplayName": "Genshin Impact",
