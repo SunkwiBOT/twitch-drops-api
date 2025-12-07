@@ -30311,7 +30311,7 @@
     "startAt": "2025-11-14T19:25:50.000Z"
   },
   {
-    "endAt": "2025-12-12T08:59:59.999Z",
+    "endAt": "2025-12-15T23:29:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1264310518-120x160.jpg",
     "gameDisplayName": "Marvel Rivals",
     "gameId": "1264310518",
@@ -30490,6 +30490,77 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2025-11-14T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "59d0e06e-d365-11f0-9d9e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.twitch.tv/",
+        "description": "Earn a Jeff the Land Shark badge by subscribing or gifting a sub in the Marvel Rivals category during Marvel Rivals' 1-year anniversary!",
+        "detailsURL": "https://www.twitch.tv/",
+        "endAt": "2025-12-15T23:29:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1264310518",
+          "slug": "marvel-rivals",
+          "displayName": "Marvel Rivals",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0fb49518-5be1-42c2-a616-42e0ad55c6aa.png",
+        "name": "Jeff the Land Shark Badge",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-06T09:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "c7c5c967-d365-11f0-aed6-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "67a0cc0c-d367-11f0-87ce-0a58a9feac02",
+                  "createdAt": "2025-12-07T12:22:32.216Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1264310518",
+                    "name": "Marvel Rivals",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/204fd7c3-c674-4876-95f7-83f9c823c1bd.png",
+                  "isIosAvailable": false,
+                  "name": "Jeff The Land Shark",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-15T23:29:59.997Z",
+            "name": "Jeff the Land Shark",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-12-06T09:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
