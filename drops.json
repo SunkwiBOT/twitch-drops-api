@@ -7487,6 +7487,93 @@
     "startAt": "2025-12-05T17:00:00.000Z"
   },
   {
+    "endAt": "2025-12-09T01:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/33214-120x160.jpg",
+    "gameDisplayName": "Fortnite",
+    "gameId": "33214",
+    "rewards": [
+      {
+        "id": "f39cc4e8-d45d-11f0-97d2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "106125347",
+              "displayName": "CouRageJD",
+              "name": "couragejd",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.fortnite.com/twitch-drops",
+        "description": "CouRage is FINALLY joining the Fortnite Icon Series! To celebrate, earn the Hoppa Sack Back Bling by watching his stream for 30mins. This drop is not exclusive to Twitch and may be available in the Shop at a later date.",
+        "detailsURL": "https://www.fortnite.com/twitch-drops",
+        "endAt": "2025-12-09T01:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "33214",
+          "slug": "fortnite",
+          "displayName": "Fortnite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e8e262bd-9441-44d7-887d-084b101cf1f5.jpeg",
+        "name": "CouRage Icon Series ",
+        "owner": {
+          "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+          "name": "Epic Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-08T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "fd5ab406-d45e-11f0-9fa2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a_CUSTOM_ID_DC910B604E72B871A2C4CB809B5CE19C",
+                  "createdAt": "2025-12-08T18:05:54.331Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "33214",
+                    "name": "Fortnite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/923b12f5-bd52-4481-8cc8-b8e98dace178.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Hoppa Sack Back Bling",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-09T01:59:59.999Z",
+            "name": "Hoppa Sack Back Bling ",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-12-08T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-08T19:00:00.000Z"
+  },
+  {
     "endAt": "2025-12-09T07:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/493057-120x160.jpg",
     "gameDisplayName": "PUBG: BATTLEGROUNDS",
