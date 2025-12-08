@@ -155,6 +155,90 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "2ff3e69e-c47d-11f0-b050-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "182560660",
+              "displayName": "WorldofTanks",
+              "name": "worldoftanks",
+              "__typename": "Channel"
+            },
+            {
+              "id": "906047053",
+              "displayName": "WorldofTanks_Ukraine",
+              "name": "worldoftanks_ukraine",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
+        "description": "Tankmas - Day 6",
+        "detailsURL": "https://worldoftanks.eu/news/general-news/wot-monthly-december-2025/",
+        "endAt": "2025-12-08T23:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b771e6a3-0dff-4276-8afb-14f9d9ed5227.jpeg",
+        "name": "Tankmas - Day 6",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-08T13:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "34526865-c47d-11f0-854d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_12DOT_1225_6",
+                  "createdAt": "2025-11-18T12:27:31.405Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/558fbec5-2fbb-4e46-bce7-2d67f0f7e09b.png",
+                  "isIosAvailable": false,
+                  "name": "Mystery Drop",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-08T23:59:59.999Z",
+            "name": "Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-12-08T13:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "78290120-d08d-11f0-b196-0acac55b430b",
         "self": {
           "isAccountConnected": false,
