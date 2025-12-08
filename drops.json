@@ -30842,6 +30842,84 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "3f3e3961-d166-11f0-b7b2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1129649784",
+              "displayName": "shared_chat_partner_1",
+              "name": "shared_chat_partner_1",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.twitch.tv/",
+        "description": "This badge was earned by subscribing or gifting a sub to a Rust streamer during Rustmas 2025!",
+        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+        "endAt": "2026-01-01T07:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/495ebb6b-8134-4e51-b9d0-1f4a221b4f8d.png",
+        "name": "Rustmas 2025",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-08T18:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "792b65c0-d166-11f0-92e0-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ba258f8d-d166-11f0-9e01-0a58a9feac02",
+                  "createdAt": "2025-12-04T23:12:38.837Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f661988a-406a-425b-8742-c62a87716318.png",
+                  "isIosAvailable": false,
+                  "name": "Rustmas 2025",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-01T07:59:59.999Z",
+            "name": "Rustmas 2025 Reward Group",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-12-08T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "d1f07b30-d08e-11f0-88bc-0acac55b430b",
         "self": {
           "isAccountConnected": false,
