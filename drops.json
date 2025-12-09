@@ -36905,6 +36905,158 @@
     "startAt": "2025-12-04T17:00:00.000Z"
   },
   {
+    "endAt": "2025-12-31T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/613430080_IGDB-120x160.jpg",
+    "gameDisplayName": "Heroes of Newerth Reborn",
+    "gameId": "613430080",
+    "rewards": [
+      {
+        "id": "ae0c029b-d510-11f0-9af8-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://app.juvio.com/profile",
+        "description": "To celebrate HoN Reborn's Open Beta, we are giving out the following rewards to twitch viewers: Wasteland Twitch Flint Beastwood (Avatar), Wasteland Twitch Jetpacker (Courier), and Toxic Barrel (Emote).",
+        "detailsURL": "https://app.juvio.com/twitch",
+        "endAt": "2025-12-31T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "613430080",
+          "slug": "heroes-of-newerth-reborn",
+          "displayName": "Heroes of Newerth Reborn",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fc613990-c417-4b59-8bd7-a261b11f85d4.png",
+        "name": "HoN Reborn - Open Beta",
+        "owner": {
+          "id": "1e4a5ab9-588a-41c6-9554-6519788d7b41",
+          "name": "Kongor Studios, LLC",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-09T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "c1a6e493-d510-11f0-a12b-0a58a9feac02",
+            "requiredSubs": 2,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "1e4a5ab9-588a-41c6-9554-6519788d7b41_CUSTOM_ID_019a6ae7-8ea1-7f00-aaf4-d5e6b97f053c",
+                  "createdAt": "2025-11-10T18:48:39.292Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "613430080",
+                    "name": "Heroes of Newerth Reborn",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fd5d4f1c-d460-476f-84ac-e605ffb700ba.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch: Wasteland Flint",
+                  "ownerOrganization": {
+                    "id": "1e4a5ab9-588a-41c6-9554-6519788d7b41",
+                    "name": "Kongor Studios, LLC",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-31T23:29:59.999Z",
+            "name": "Avatar - Wasteland Twitch Flint Beastwood",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-12-09T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c83be7aa-d510-11f0-a6ce-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "1e4a5ab9-588a-41c6-9554-6519788d7b41_CUSTOM_ID_019a64f5-d484-751e-98f5-26859d9cf09c",
+                  "createdAt": "2025-11-10T18:52:14.754Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "613430080",
+                    "name": "Heroes of Newerth Reborn",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ca88679a-167e-4c43-871a-5027fd9324c6.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch: Wasteland Courier",
+                  "ownerOrganization": {
+                    "id": "1e4a5ab9-588a-41c6-9554-6519788d7b41",
+                    "name": "Kongor Studios, LLC",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-31T23:29:59.999Z",
+            "name": "Courier - Wasteland Twitch Jetpacker",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-12-09T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d00c65b7-d510-11f0-b004-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "1e4a5ab9-588a-41c6-9554-6519788d7b41_CUSTOM_ID_019a59da-d5f7-7d72-8830-49017c760072",
+                  "createdAt": "2025-11-10T18:52:52.19Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "613430080",
+                    "name": "Heroes of Newerth Reborn",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/843f5149-58ff-472f-8fab-25815777f8f6.png",
+                  "isIosAvailable": false,
+                  "name": "Toxic Barrel Emote",
+                  "ownerOrganization": {
+                    "id": "1e4a5ab9-588a-41c6-9554-6519788d7b41",
+                    "name": "Kongor Studios, LLC",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-31T23:29:59.999Z",
+            "name": "Emote - Toxic Barrel",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-09T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-09T15:00:00.000Z"
+  },
+  {
     "endAt": "2026-01-01T07:59:00.000Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/460630-120x160.jpg",
     "gameDisplayName": "Tom Clancy's Rainbow Six Siege X",
@@ -37652,6 +37804,86 @@
       }
     ],
     "startAt": "2025-12-05T08:00:00.000Z"
+  },
+  {
+    "endAt": "2026-01-06T05:58:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-120x160.jpg",
+    "gameDisplayName": "Star Wars: The Old Republic",
+    "gameId": "21934",
+    "rewards": [
+      {
+        "id": "85db289d-d082-11f0-a23b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.swtor.com/",
+        "description": "Watch for 4 hours and claim the Twilight Acklay Mount ",
+        "detailsURL": "https://www.swtor.com/",
+        "endAt": "2026-01-06T05:58:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "21934",
+          "slug": "star-wars-the-old-republic",
+          "displayName": "Star Wars: The Old Republic",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/75b33b4f-1684-4695-8568-beb3316d901d.png",
+        "name": "Twilight Acklay Mount ",
+        "owner": {
+          "id": "f0bf8fc6-f94a-43ae-9f26-1f99377aa691",
+          "name": "Broadsword Online Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-09T15:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "06357ee3-d083-11f0-a2f1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f0bf8fc6-f94a-43ae-9f26-1f99377aa691_CUSTOM_ID_TWITCH_TWILIGHT_ACKLAY",
+                  "createdAt": "2025-12-03T20:01:59.998Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "21934",
+                    "name": "Star Wars: The Old Republic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3476f081-5223-4f01-b2d1-41b6e3246981.png",
+                  "isIosAvailable": false,
+                  "name": "Twilight Acklay Mount ",
+                  "ownerOrganization": {
+                    "id": "f0bf8fc6-f94a-43ae-9f26-1f99377aa691",
+                    "name": "Broadsword Online Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-06T05:58:59.998Z",
+            "name": "Twilight Acklay",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-12-09T15:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-09T15:30:00.000Z"
   },
   {
     "endAt": "2026-01-06T13:59:59.999Z",
