@@ -9169,6 +9169,12 @@
               "displayName": "13Raum13",
               "name": "13raum13",
               "__typename": "Channel"
+            },
+            {
+              "id": "753761878",
+              "displayName": "4ePToBKa_54_",
+              "name": "4eptobka_54_",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -37725,6 +37731,158 @@
       }
     ],
     "startAt": "2025-12-03T03:00:00.000Z"
+  },
+  {
+    "endAt": "2025-12-31T10:58:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1910103699-120x160.jpg",
+    "gameDisplayName": "THE FINALS",
+    "gameId": "1910103699",
+    "rewards": [
+      {
+        "id": "fb322ccb-d442-11f0-a695-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://embark-games.embark.net/",
+        "description": "Welcome to Season 9 of THE FINALS - Dragon Rising.\nExplore our beautiful newest map Fangwai City and crank the dynamism all the way to 11 on our brand new gamemode Point Break!\nCelebrate the season launch by watching any of your favorite Content Creators play THE FINALS on Twitch.tv and earn three rewards!",
+        "detailsURL": "https://www.reachthefinals.com/twitch",
+        "endAt": "2025-12-31T10:58:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1910103699",
+          "slug": "the-finals",
+          "displayName": "THE FINALS",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e6d7c2ce-cd80-4912-a95c-82a9fd27f8f6.png",
+        "name": "DRAGON RISING",
+        "owner": {
+          "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
+          "name": "Embark Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-10T16:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5ee2fef2-d444-11f0-866d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55_CUSTOM_ID_CalvinTag",
+                  "createdAt": "2025-12-08T14:45:53.212Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1910103699",
+                    "name": "THE FINALS",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/11900701-4cb0-4216-b228-eb01297baf96.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Calvin's Tag",
+                  "ownerOrganization": {
+                    "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
+                    "name": "Embark Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-31T10:58:59.998Z",
+            "name": "Calvin's Tag",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-10T16:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "63ff67a2-d444-11f0-885e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55_CUSTOM_ID_CalvinPlate",
+                  "createdAt": "2025-12-08T14:46:09.744Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1910103699",
+                    "name": "THE FINALS",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b4493275-e914-4e9f-9ec6-cd4a4c6dd7da.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Calvin's Plate",
+                  "ownerOrganization": {
+                    "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
+                    "name": "Embark Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-31T10:58:59.998Z",
+            "name": "Calvin's Plate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-10T16:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6848f04a-d444-11f0-9fa2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55_CUSTOM_ID_CalvinTheCube",
+                  "createdAt": "2025-12-08T14:46:25.6Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1910103699",
+                    "name": "THE FINALS",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/07fa20c8-d1fa-4ca4-83e4-2a3a9d559b2a.png",
+                  "isIosAvailable": false,
+                  "name": "Calvin the Cube",
+                  "ownerOrganization": {
+                    "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
+                    "name": "Embark Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-31T10:58:59.998Z",
+            "name": "Calvin the Cube",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-12-10T16:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-10T16:30:00.000Z"
   },
   {
     "endAt": "2025-12-31T22:59:59.999Z",
