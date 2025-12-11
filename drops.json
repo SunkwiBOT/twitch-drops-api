@@ -4742,8 +4742,57 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "627905458",
+              "displayName": "小俞ツ",
+              "name": "xiaoyu24323",
+              "__typename": "Channel"
+            },
+            {
+              "id": "561130154",
+              "displayName": "那隻熊",
+              "name": "kumabear_ouo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "467098316",
+              "displayName": "_阿迪_",
+              "name": "dee0717",
+              "__typename": "Channel"
+            },
+            {
+              "id": "21374078",
+              "displayName": "娃娃兔",
+              "name": "small_doller",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41584197",
+              "displayName": "阿傑汪汪",
+              "name": "csj_1122",
+              "__typename": "Channel"
+            },
+            {
+              "id": "734229232",
+              "displayName": "喬安安之冰箱幽靈",
+              "name": "ciaoan519",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1400827379",
+              "displayName": "deltaforcetw",
+              "name": "deltaforcetw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1224293679",
+              "displayName": "GarenaDF",
+              "name": "garenadf",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://twitchdrops.df.garena.sg/",
@@ -38602,6 +38651,122 @@
       }
     ],
     "startAt": "2025-12-09T15:00:00.000Z"
+  },
+  {
+    "endAt": "2025-12-31T23:58:59.996Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1023750977_IGDB-120x160.jpg",
+    "gameDisplayName": "FragPunk",
+    "gameId": "1023750977",
+    "rewards": [
+      {
+        "id": "5d9fc230-d4c9-11f0-9933-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.fragpunk.com/account/",
+        "description": "Watch any FragPunk New Season streaming and keep an eye out for FragPunk rewards!",
+        "detailsURL": "https://www.fragpunk.com/twitchdrops/",
+        "endAt": "2025-12-31T23:58:59.996Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1023750977",
+          "slug": "fragpunk",
+          "displayName": "FragPunk",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/57a96909-b2ba-471c-a28c-42fb0269765d.jpeg",
+        "name": "FragPunk Winter Festivals",
+        "owner": {
+          "id": "9b6aa321-67ce-4a0c-97b6-f276926b8580",
+          "name": "Bad Guitar Studio",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-11T06:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "6cb1a630-d4cb-11f0-a7e5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3068eb5e-d4cb-11f0-9c8b-0a58a9feac02",
+                  "createdAt": "2025-12-09T06:49:20.411Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1023750977",
+                    "name": "FragPunk",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/729f117e-1fb2-460a-a6a1-bc0625cbc284.png",
+                  "isIosAvailable": false,
+                  "name": "Snowman's Gift",
+                  "ownerOrganization": {
+                    "id": "9b6aa321-67ce-4a0c-97b6-f276926b8580",
+                    "name": "Bad Guitar Studio",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-31T23:58:59.996Z",
+            "name": "Snowman's Gift",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-12-11T06:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7bdf1d67-d4cb-11f0-8c55-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "4028aed0-d4cb-11f0-926a-0a58a9feac02",
+                  "createdAt": "2025-12-09T06:49:46.834Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1023750977",
+                    "name": "FragPunk",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e210dbc4-ddf7-45c1-879f-0d1618a01178.png",
+                  "isIosAvailable": false,
+                  "name": "Sack of Presents",
+                  "ownerOrganization": {
+                    "id": "9b6aa321-67ce-4a0c-97b6-f276926b8580",
+                    "name": "Bad Guitar Studio",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-31T23:58:59.996Z",
+            "name": "Sack of Presents",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-11T06:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-11T06:00:00.000Z"
   },
   {
     "endAt": "2026-01-01T07:29:59.999Z",
