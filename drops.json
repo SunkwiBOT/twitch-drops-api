@@ -6704,6 +6704,77 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "bf104cd5-d602-11f0-b8bb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
+        "description": "This badge was earned by subscribing or gifting a sub to any World of Tanks broadcast during the Holiday Ops 26 campaign period",
+        "detailsURL": "https://worldoftanks.eu/en/news/live-streams/combined-streams-promotion-december-2025/",
+        "endAt": "2025-12-22T23:58:59.996Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f66a5c12-e319-4609-947e-d94a56b73ac1.png",
+        "name": "Holiday Ops 2026",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-15T09:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f678d72b-d602-11f0-9c61-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "44972fe4-d603-11f0-b8af-0a58a9feac02",
+                  "createdAt": "2025-12-10T20:03:17.249Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3a484580-de76-4231-8798-426d89ce5396.png",
+                  "isIosAvailable": false,
+                  "name": "Holiday Ops 2026",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-22T23:58:59.996Z",
+            "name": "Holiday Ops 2026",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-12-15T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "78290120-d08d-11f0-b196-0acac55b430b",
         "self": {
           "isAccountConnected": false,
