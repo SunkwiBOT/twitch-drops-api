@@ -40750,6 +40750,113 @@
     "gameId": "464339927",
     "rewards": [
       {
+        "id": "70f6ff21-d027-11f0-b482-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://embark-games-iap.embark.net/id/sign-in",
+        "description": "Winter hits the Rust Belt.\n\nFrigid winds carve through the valleys of The Blue Gate. Blizzards sweep across the abandoned spaceport while the Red Lakes freeze and crack. Raiders Topside battle on as they shiver and stumble and swear.\n\nCelebrate the Cold Snap update together with us to get the Black Band face style and the Vintage Mic backpack charm!\n",
+        "detailsURL": "https://arcraiders.com/twitch-drops",
+        "endAt": "2026-01-12T23:28:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "464339927",
+          "slug": "arc-raiders",
+          "displayName": "ARC Raiders",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2959013b-1268-452a-a7a9-7e25065965fd.png",
+        "name": "ARC Raiders - Cold Snap",
+        "owner": {
+          "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
+          "name": "Embark Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-16T12:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b378ce41-d75c-11f0-b30b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55_CUSTOM_ID_FaceStyleEyeBand",
+                  "createdAt": "2025-12-12T13:09:41.648Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "464339927",
+                    "name": "ARC Raiders",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32597c28-6638-4216-8446-a1090b3f6b83.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Eye Band",
+                  "ownerOrganization": {
+                    "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
+                    "name": "Embark Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-12T23:28:59.998Z",
+            "name": "Eye Band",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-16T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c8830124-d75c-11f0-9cf1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55_CUSTOM_ID_BackpackCharmVintageMic",
+                  "createdAt": "2025-12-12T13:15:03.039Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "464339927",
+                    "name": "ARC Raiders",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b9abda6b-a79e-40cc-bf01-18c93c62de8c.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Vintage Mic",
+                  "ownerOrganization": {
+                    "id": "e2a2aacb-acce-4761-8960-3c7f814a3f55",
+                    "name": "Embark Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-12T23:28:59.998Z",
+            "name": "Vintage Mic",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-16T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "6d29e93a-d5eb-11f0-a753-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
