@@ -40916,5 +40916,85 @@
       }
     ],
     "startAt": "2025-12-15T00:01:00.000Z"
+  },
+  {
+    "endAt": "2026-01-12T23:57:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/464339927-120x160.jpg",
+    "gameDisplayName": "ARC Raiders",
+    "gameId": "464339927",
+    "rewards": [
+      {
+        "id": "6d29e93a-d5eb-11f0-a753-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://id.embark.games/id",
+        "description": "This badge was earned by subscribing or gifting a sub to an ARC Raiders streamer during the campaign period",
+        "detailsURL": "https://arcraiders.com/twitch-drops",
+        "endAt": "2026-01-12T23:57:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "464339927",
+          "slug": "arc-raiders",
+          "displayName": "ARC Raiders",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/40785067-985d-41cc-b4d7-5c25078a6b59.png",
+        "name": "Cold Snap Update",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-16T09:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f6333fd6-d5ee-11f0-8edf-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a0f77e67-d5f3-11f0-ae1a-0a58a9feac02",
+                  "createdAt": "2025-12-10T18:11:20.282Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "464339927",
+                    "name": "ARC Raiders",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/72a9b1e3-a12e-431b-829c-a2eb313eca5e.png",
+                  "isIosAvailable": false,
+                  "name": "Raider Icon",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-12T23:57:59.999Z",
+            "name": "Raider Icon",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-12-16T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-16T09:00:00.000Z"
   }
 ]
