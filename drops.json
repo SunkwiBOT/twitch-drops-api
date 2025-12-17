@@ -43660,6 +43660,86 @@
     "startAt": "2025-12-10T02:00:00.000Z"
   },
   {
+    "endAt": "2026-01-05T07:59:59.994Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-120x160.jpg",
+    "gameDisplayName": "ROBLOX",
+    "gameId": "23020",
+    "rewards": [
+      {
+        "id": "2f909c7f-db88-11f0-87b6-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.twitch.tv/",
+        "description": "Watch 1 hour of Roblox content on Twitch to earn this happy little badge. EZ W.",
+        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide ",
+        "endAt": "2026-01-05T07:59:59.994Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "23020",
+          "slug": "roblox",
+          "displayName": "ROBLOX",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/bb0ad7f9-97c3-4bed-a255-f4c2d76e3709.png",
+        "name": "Purple Noob",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-17T20:45:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5c024c0b-db88-11f0-a480-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3853e2d0-d9f1-11f0-b391-0a58a9feac02",
+                  "createdAt": "2025-12-15T20:04:10.385Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "23020",
+                    "name": "ROBLOX",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/38478e92-2cd6-4882-bd9e-349620ac70fd.png",
+                  "isIosAvailable": false,
+                  "name": "Purple Noob",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-05T07:59:59.994Z",
+            "name": "Purple Noob",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-17T20:45:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-17T20:45:00.000Z"
+  },
+  {
     "endAt": "2026-01-05T14:59:59.996Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/977067351_IGDB-120x160.jpg",
     "gameDisplayName": "Deadzone: Rogue",
