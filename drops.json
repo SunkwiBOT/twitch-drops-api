@@ -39502,6 +39502,185 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "ad8a9319-d9d5-11f0-b940-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Merry Rustmas!  https://twitch.facepunch.com/",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2026-01-01T18:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9737bd01-2076-4b89-a1e7-5c4a1d097924.png",
+        "name": "Twitch Rustmas 2025",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-18T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3d6e6788-d9e9-11f0-abb6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11525",
+                  "createdAt": "2025-12-15T17:04:28.332Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b8a5916b-1c73-485e-8704-334e99d4ff66.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Rustmas 2025 Hatchet",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-01T18:59:59.999Z",
+            "name": "Rustmas 2025 Hatchet",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-18T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4e07b009-d9e9-11f0-9ffc-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11526",
+                  "createdAt": "2025-12-15T19:04:05.44Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0db145d3-4979-435d-bbff-f39be774f13e.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Rustmas 2025 Pickaxe",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-01T18:59:59.999Z",
+            "name": "Rustmas 2025 Pickaxe",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-12-18T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "666f2625-d9e9-11f0-b23d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11527",
+                  "createdAt": "2025-12-15T19:05:04.748Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4a18fc70-c5b3-490b-87f0-6f7543f6ba89.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Rustmas 2025 Furnace",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-01T18:59:59.999Z",
+            "name": "Rustmas 2025 Furnace",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-12-18T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "75322fae-d9e9-11f0-80a4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11528",
+                  "createdAt": "2025-12-15T19:05:48.34Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f198e687-19dd-45b6-84e0-a78a8b5d7386.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Rustmas 2025 SAR",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-01T18:59:59.999Z",
+            "name": "Rustmas 2025 SAR",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2025-12-18T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "d1f07b30-d08e-11f0-88bc-0acac55b430b",
         "self": {
           "isAccountConnected": false,
