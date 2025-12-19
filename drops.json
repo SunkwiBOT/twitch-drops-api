@@ -297,6 +297,228 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "c07836f0-dc1d-11f0-a07e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "183562961",
+              "displayName": "WoTModernArmor",
+              "name": "wotmodernarmor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "60957250",
+              "displayName": "Zactule",
+              "name": "zactule",
+              "__typename": "Channel"
+            },
+            {
+              "id": "68651620",
+              "displayName": "xiverisx",
+              "name": "xiverisx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "472207393",
+              "displayName": "Army_Guy_E8",
+              "name": "army_guy_e8",
+              "__typename": "Channel"
+            },
+            {
+              "id": "118948966",
+              "displayName": "Petty3601",
+              "name": "petty3601",
+              "__typename": "Channel"
+            },
+            {
+              "id": "66580390",
+              "displayName": "Sinstr1",
+              "name": "sinstr1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39822197",
+              "displayName": "Vishaw",
+              "name": "vishaw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "105524220",
+              "displayName": "GoliathGamesTV",
+              "name": "goliathgamestv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "444013214",
+              "displayName": "HELATTV",
+              "name": "helattv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "115148539",
+              "displayName": "JeffRiker",
+              "name": "jeffriker",
+              "__typename": "Channel"
+            },
+            {
+              "id": "588940811",
+              "displayName": "beaverdamstudios",
+              "name": "beaverdamstudios",
+              "__typename": "Channel"
+            },
+            {
+              "id": "270605976",
+              "displayName": "kwiatossttv",
+              "name": "kwiatossttv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "95720138",
+              "displayName": "Swindle_321",
+              "name": "swindle_321",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://modernarmor.worldoftanks.com/accounts/management/",
+        "description": "Wrap up warm & watch your favorite creators during Icebound",
+        "detailsURL": "https://modernarmor.worldoftanks.com/en/cms/notes/twitch-drops/",
+        "endAt": "2025-12-23T09:57:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "499551",
+          "slug": "world-of-tanks-console",
+          "displayName": "World of Tanks Console",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/71e1f6e7-453b-4e77-af2d-e6a03d555a16.png",
+        "name": "Tanksmas After Party",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-19T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "12d8d3f6-dc1e-11f0-b804-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA2025_NYSG",
+                  "createdAt": "2025-11-26T21:30:05.893Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
+                  "isIosAvailable": false,
+                  "name": "New Year Star Green",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-23T09:57:59.999Z",
+            "name": "New Year Star Green",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-12-19T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "1ddee286-dc1e-11f0-81e2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA2025_YETI2D",
+                  "createdAt": "2025-12-02T15:19:38.926Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
+                  "isIosAvailable": false,
+                  "name": "Yeti 2D Commander",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-23T09:57:59.999Z",
+            "name": "Yeti 2D Commander",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-12-19T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "23d3bc04-dc1e-11f0-80a4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA2025_IWC",
+                  "createdAt": "2025-11-26T19:14:27.927Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
+                  "isIosAvailable": false,
+                  "name": "Icebound War Chest",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-23T09:57:59.999Z",
+            "name": "Icebound War Chest",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2025-12-19T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "fd09b556-d9a0-11f0-b539-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -1796,6 +2018,93 @@
       }
     ],
     "startAt": "2025-12-19T14:00:00.000Z"
+  },
+  {
+    "endAt": "2025-12-20T06:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
+    "gameDisplayName": "Halo Infinite",
+    "gameId": "506416",
+    "rewards": [
+      {
+        "id": "2d3070bc-cb0f-11f0-bf2e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "28130176",
+              "displayName": "NapTimez",
+              "name": "naptimez",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn in-game content in Halo Infinite!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-12-20T06:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/18895534-19f2-421f-a9a9-6a1c78ca5d6d.png",
+        "name": "Swatnation Duos-DEC19",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-19T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "426ddd0b-cb0f-11f0-85f0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_N88L-723S-M7XF-YKLR-9DGZ",
+                  "createdAt": "2024-01-18T01:51:32.079Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b16ad2b7-5499-47b5-b091-226fda733eb9.png",
+                  "isIosAvailable": false,
+                  "name": "Sabre Metrics Spartan ID",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-20T06:59:59.999Z",
+            "name": "Sabre Metrics Spartan ID",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-19T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-19T19:00:00.000Z"
   },
   {
     "endAt": "2025-12-20T07:58:59.999Z",
@@ -39285,6 +39594,194 @@
       }
     ],
     "startAt": "2025-12-09T18:00:00.000Z"
+  },
+  {
+    "endAt": "2025-12-30T23:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/983841243_IGDB-120x160.jpg",
+    "gameDisplayName": "Off The Grid",
+    "gameId": "983841243",
+    "rewards": [
+      {
+        "id": "c55360b9-dd0a-11f0-875b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://gameoffthegrid.com/twitch-drops/",
+        "description": "Play OTG and earn great in-game items for Off the Grid",
+        "detailsURL": "https://gameoffthegrid.com/twitch-drops/",
+        "endAt": "2025-12-30T23:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "983841243",
+          "slug": "off-the-grid",
+          "displayName": "Off The Grid",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "OTG - Christmas Drop",
+        "owner": {
+          "id": "326a9d84-1384-4979-8469-305208d14d08",
+          "name": "Gunzilla Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-17T18:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "276ff840-dd0b-11f0-9039-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "326a9d84-1384-4979-8469-305208d14d08_CUSTOM_ID_UmV3YXJkOkRBX1Jld2FyZF9DaHJpc3RtYXMyMDI1X1R3aXRjaFN1Yg",
+                  "createdAt": "2025-12-18T15:04:20.414Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "983841243",
+                    "name": "Off The Grid",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c71569bd-5136-48e4-92a0-bbb097a81bd9.png",
+                  "isIosAvailable": false,
+                  "name": "Christmas Sweater",
+                  "ownerOrganization": {
+                    "id": "326a9d84-1384-4979-8469-305208d14d08",
+                    "name": "Gunzilla Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-30T23:59:59.999Z",
+            "name": "Christmas Sweater",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-12-17T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ecfa2cb7-dd0a-11f0-8836-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "326a9d84-1384-4979-8469-305208d14d08_CUSTOM_ID_UmV3YXJkOkRBX1Jld2FyZF9DaHJpc3RtYXMyMDI1X1R3aXRjaDAx",
+                  "createdAt": "2025-12-18T15:02:08.053Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "983841243",
+                    "name": "Off The Grid",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c3ce1c35-c7ae-4e10-ab71-c0090b6fec8d.png",
+                  "isIosAvailable": false,
+                  "name": "Christmas Profile Avatar",
+                  "ownerOrganization": {
+                    "id": "326a9d84-1384-4979-8469-305208d14d08",
+                    "name": "Gunzilla Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-30T23:59:59.999Z",
+            "name": "Christmas Avatar",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-12-17T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f27be8fc-dd0a-11f0-ba02-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "326a9d84-1384-4979-8469-305208d14d08_CUSTOM_ID_UmV3YXJkOkRBX1Jld2FyZF9DaHJpc3RtYXMyMDI1X1R3aXRjaDAy",
+                  "createdAt": "2025-12-18T15:03:22.796Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "983841243",
+                    "name": "Off The Grid",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/91800be8-eb2b-4c26-b20c-32b9afc0de7c.png",
+                  "isIosAvailable": false,
+                  "name": "Christmas Hex",
+                  "ownerOrganization": {
+                    "id": "326a9d84-1384-4979-8469-305208d14d08",
+                    "name": "Gunzilla Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-30T23:59:59.999Z",
+            "name": "Christmas Hex",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-17T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f9783e0b-dd0a-11f0-8057-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "326a9d84-1384-4979-8469-305208d14d08_CUSTOM_ID_UmV3YXJkOkRBX1Jld2FyZF9DaHJpc3RtYXMyMDI1X1R3aXRjaDAz",
+                  "createdAt": "2025-12-18T15:03:53.623Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "983841243",
+                    "name": "Off The Grid",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6a65abaa-c5c5-444b-8995-5cfc84942528.png",
+                  "isIosAvailable": false,
+                  "name": "Christmas Barett",
+                  "ownerOrganization": {
+                    "id": "326a9d84-1384-4979-8469-305208d14d08",
+                    "name": "Gunzilla Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-30T23:59:59.999Z",
+            "name": "Christmas Barett",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-17T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-17T18:00:00.000Z"
   },
   {
     "endAt": "2025-12-31T02:59:59.999Z",
