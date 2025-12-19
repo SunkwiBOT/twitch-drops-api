@@ -46791,6 +46791,86 @@
     "startAt": "2025-12-18T04:00:00.000Z"
   },
   {
+    "endAt": "2026-01-15T15:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/518186_IGDB-120x160.jpg",
+    "gameDisplayName": "Party Animals",
+    "gameId": "518186",
+    "rewards": [
+      {
+        "id": "ba0fdf59-d416-11f0-838d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://partyanimals.com/twitch-drops",
+        "description": "Watch for 1 hour and claim the reward X-mas Ron outfit x1",
+        "detailsURL": "https://partyanimals.com/twitch-drops",
+        "endAt": "2026-01-15T15:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "518186",
+          "slug": "party-animals",
+          "displayName": "Party Animals",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cd54e956-a0b4-4845-9818-ff5b7001e158.png",
+        "name": "Twitch Winter Drop",
+        "owner": {
+          "id": "5ae7c1e8-4cf7-4eb7-ba29-a5bc890a0b3c",
+          "name": "Recreate Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-18T15:59:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "4f850717-d65c-11f0-a066-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5ae7c1e8-4cf7-4eb7-ba29-a5bc890a0b3c_CUSTOM_ID_TD0032__1_14",
+                  "createdAt": "2025-12-11T06:44:45.973Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "518186",
+                    "name": "Party Animals",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a98f4864-3f9f-41af-bbd7-61e02fb0ae1e.png",
+                  "isIosAvailable": false,
+                  "name": "X-mas Ron outfit",
+                  "ownerOrganization": {
+                    "id": "5ae7c1e8-4cf7-4eb7-ba29-a5bc890a0b3c",
+                    "name": "Recreate Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-15T15:58:59.999Z",
+            "name": "X-mas Ron outfit",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-18T15:59:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-18T15:59:00.000Z"
+  },
+  {
     "endAt": "2026-01-15T17:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/488634_IGDB-120x160.jpg",
     "gameDisplayName": "Don't Starve Together",
