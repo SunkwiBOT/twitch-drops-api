@@ -1464,6 +1464,243 @@
   },
   {
     "endAt": "2025-12-20T14:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/513501_IGDB-120x160.jpg",
+    "gameDisplayName": "Standoff 2",
+    "gameId": "513501",
+    "rewards": [
+      {
+        "id": "08a298c0-d5c6-11f0-9edd-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1124895128",
+              "displayName": "standoff2esports_ru",
+              "name": "standoff2esports_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "106631515",
+              "displayName": "Standoff2RuHub",
+              "name": "standoff2ruhub",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://link.standoff2.com/twitch/link/",
+        "description": "Twitch Drops — это система наград, которая позволяет зрителям стрима получать внутриигровые предметы за просмотр трансляции в течение определенного времени.\nКак получить награды: \n– Зайдите в игру и убедитесь, что учетная запись привязана к тому же Twitch-аккаунту. \n– Накопите необходимое время просмотра на официальном канале Standoff 2. \n– Отслеживайте свой прогресс в разделе Drops на Twitch (обычно находится в профиле Twitch → «Drops и награды»).",
+        "detailsURL": "https://install.standoff2.com/ru/twitch-drops",
+        "endAt": "2025-12-20T14:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "513501",
+          "slug": "standoff-2",
+          "displayName": "Standoff 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/087f3b03-bf6e-4c81-9f63-451136637486.png",
+        "name": "Winline SO2 NY Bounty",
+        "owner": {
+          "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+          "name": "Axlebolt",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-20T09:45:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "439f6231-d5c6-11f0-b072-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_crate_ny26_b_1",
+                  "createdAt": "2025-12-10T11:52:41.14Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/029b6bad-0adf-4347-bd53-0cf844e8bc99.png",
+                  "isIosAvailable": false,
+                  "name": "\"PawPaw\" Stream Crate 1",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-20T14:59:59.999Z",
+            "name": "reward_stream_crate_1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-20T09:45:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "49189202-d5c6-11f0-8df6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_crate_ny26_b_2",
+                  "createdAt": "2025-12-10T11:53:06.156Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e4d433d0-b672-4a35-b9ae-39234ec9e011.png",
+                  "isIosAvailable": false,
+                  "name": "\"PawPaw\" Stream Crate 2",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-20T14:59:59.999Z",
+            "name": "reward_stream_crate_2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-20T09:45:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4c0765c7-d5c6-11f0-95bf-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_crate_ny26_b_3",
+                  "createdAt": "2025-12-10T11:53:32.546Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52f1dcad-e798-4245-a0b7-dd56045ceecb.png",
+                  "isIosAvailable": false,
+                  "name": "\"PawPaw\" Stream Crate 3",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-20T14:59:59.999Z",
+            "name": "reward_stream_crate_3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-12-20T09:45:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4f7941e4-d5c6-11f0-8c81-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_crate_ny26_b_4",
+                  "createdAt": "2025-12-10T11:53:48.389Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/005ddb3d-1e90-4849-af3d-069eb4f71f5a.png",
+                  "isIosAvailable": false,
+                  "name": "\"PawPaw\" Stream Crate 4",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-20T14:59:59.999Z",
+            "name": "reward_stream_crate_4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-12-20T09:45:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "529b4b6b-d5c6-11f0-93e1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_crate_ny26_b_5",
+                  "createdAt": "2025-12-10T11:54:29.174Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "513501",
+                    "name": "Standoff 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/adb3be8f-d48f-490d-9489-3f90d07ded45.png",
+                  "isIosAvailable": false,
+                  "name": "\"PawPaw\" Stream Crate 5",
+                  "ownerOrganization": {
+                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
+                    "name": "Axlebolt",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-20T14:59:59.999Z",
+            "name": "reward_stream_crate_5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2025-12-20T09:45:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-20T09:45:00.000Z"
+  },
+  {
+    "endAt": "2025-12-20T14:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
     "gameDisplayName": "Marbles on Stream",
     "gameId": "509511",
