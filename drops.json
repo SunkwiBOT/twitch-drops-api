@@ -1,466 +1,5 @@
 [
   {
-    "endAt": "2025-12-20T14:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/513501_IGDB-120x160.jpg",
-    "gameDisplayName": "Standoff 2",
-    "gameId": "513501",
-    "rewards": [
-      {
-        "id": "08a298c0-d5c6-11f0-9edd-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "1124895128",
-              "displayName": "standoff2esports_ru",
-              "name": "standoff2esports_ru",
-              "__typename": "Channel"
-            },
-            {
-              "id": "106631515",
-              "displayName": "Standoff2RuHub",
-              "name": "standoff2ruhub",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://link.standoff2.com/twitch/link/",
-        "description": "Twitch Drops — это система наград, которая позволяет зрителям стрима получать внутриигровые предметы за просмотр трансляции в течение определенного времени.\nКак получить награды: \n– Зайдите в игру и убедитесь, что учетная запись привязана к тому же Twitch-аккаунту. \n– Накопите необходимое время просмотра на официальном канале Standoff 2. \n– Отслеживайте свой прогресс в разделе Drops на Twitch (обычно находится в профиле Twitch → «Drops и награды»).",
-        "detailsURL": "https://install.standoff2.com/ru/twitch-drops",
-        "endAt": "2025-12-20T14:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "513501",
-          "slug": "standoff-2",
-          "displayName": "Standoff 2",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/087f3b03-bf6e-4c81-9f63-451136637486.png",
-        "name": "Winline SO2 NY Bounty",
-        "owner": {
-          "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-          "name": "Axlebolt",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-12-20T09:45:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "439f6231-d5c6-11f0-b072-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_crate_ny26_b_1",
-                  "createdAt": "2025-12-10T11:52:41.14Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/029b6bad-0adf-4347-bd53-0cf844e8bc99.png",
-                  "isIosAvailable": false,
-                  "name": "\"PawPaw\" Stream Crate 1",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-20T14:59:59.999Z",
-            "name": "reward_stream_crate_1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-12-20T09:45:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "49189202-d5c6-11f0-8df6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_crate_ny26_b_2",
-                  "createdAt": "2025-12-10T11:53:06.156Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e4d433d0-b672-4a35-b9ae-39234ec9e011.png",
-                  "isIosAvailable": false,
-                  "name": "\"PawPaw\" Stream Crate 2",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-20T14:59:59.999Z",
-            "name": "reward_stream_crate_2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-12-20T09:45:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "4c0765c7-d5c6-11f0-95bf-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_crate_ny26_b_3",
-                  "createdAt": "2025-12-10T11:53:32.546Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52f1dcad-e798-4245-a0b7-dd56045ceecb.png",
-                  "isIosAvailable": false,
-                  "name": "\"PawPaw\" Stream Crate 3",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-20T14:59:59.999Z",
-            "name": "reward_stream_crate_3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-12-20T09:45:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "4f7941e4-d5c6-11f0-8c81-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_crate_ny26_b_4",
-                  "createdAt": "2025-12-10T11:53:48.389Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/005ddb3d-1e90-4849-af3d-069eb4f71f5a.png",
-                  "isIosAvailable": false,
-                  "name": "\"PawPaw\" Stream Crate 4",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-20T14:59:59.999Z",
-            "name": "reward_stream_crate_4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-12-20T09:45:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "529b4b6b-d5c6-11f0-93e1-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3_CUSTOM_ID_twitch_drops_crate_ny26_b_5",
-                  "createdAt": "2025-12-10T11:54:29.174Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "513501",
-                    "name": "Standoff 2",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/adb3be8f-d48f-490d-9489-3f90d07ded45.png",
-                  "isIosAvailable": false,
-                  "name": "\"PawPaw\" Stream Crate 5",
-                  "ownerOrganization": {
-                    "id": "ced1b26f-d4a8-4a60-8af9-9573e4456bb3",
-                    "name": "Axlebolt",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-20T14:59:59.999Z",
-            "name": "reward_stream_crate_5",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 300,
-            "startAt": "2025-12-20T09:45:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-12-20T09:45:00.000Z"
-  },
-  {
-    "endAt": "2025-12-20T14:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
-    "gameDisplayName": "Marbles on Stream",
-    "gameId": "509511",
-    "rewards": [
-      {
-        "id": "be8ce931-d96e-11f0-9e8a-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://app.pixelbypixelstudios.live/auth/twitch/link",
-        "description": "Marbles on Stream is the most welcoming stream interactive experience where a streamer can run the game and welcome anyone in their chat to participate with \"!play\". That's it!\n\nJoin in for exclusive prizes and keep an eye on our for how we evolve this event in the future. If you need assistance please join our discord. Discord.gg/pixelbypixelstudios ",
-        "detailsURL": "https://pixelbypixel.studio/about/twitch-drops",
-        "endAt": "2025-12-20T14:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "509511",
-          "slug": "marbles-on-stream",
-          "displayName": "Marbles on Stream",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f960a49a-0e4c-4c42-9e43-0e6e94d55f95.png",
-        "name": "Marble Day 227",
-        "owner": {
-          "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
-          "name": "Pixel by Pixel Studios",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-12-19T15:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "d7aca8f2-d96e-11f0-94ac-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTestBundleCC",
-                  "createdAt": "2023-10-26T09:00:50.239Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "509511",
-                    "name": "Marbles on Stream",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7519a7e0-3787-4284-8790-071aaf244db2.png",
-                  "isIosAvailable": false,
-                  "name": "15 Community Coins",
-                  "ownerOrganization": {
-                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
-                    "name": "Pixel by Pixel Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-20T14:59:59.999Z",
-            "name": "DROP 1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "dde0eb9d-d96e-11f0-a23e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_S39_PixelbyPixel",
-                  "createdAt": "2023-10-26T09:05:33.475Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "509511",
-                    "name": "Marbles on Stream",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74bbfca0-63d3-41be-986e-b96bdbf0f5df.png",
-                  "isIosAvailable": false,
-                  "name": "PbP Deep Vibe",
-                  "ownerOrganization": {
-                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
-                    "name": "Pixel by Pixel Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-20T14:59:59.999Z",
-            "name": "DROP 2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "e605162c-d96e-11f0-b391-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTestBundleCC",
-                  "createdAt": "2023-10-26T09:00:50.239Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "509511",
-                    "name": "Marbles on Stream",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7519a7e0-3787-4284-8790-071aaf244db2.png",
-                  "isIosAvailable": false,
-                  "name": "15 Community Coins",
-                  "ownerOrganization": {
-                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
-                    "name": "Pixel by Pixel Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-20T14:59:59.999Z",
-            "name": "DROP 3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 720,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "ebbca5b3-d96e-11f0-b2d2-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTC30",
-                  "createdAt": "2023-10-26T09:04:25.736Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "509511",
-                    "name": "Marbles on Stream",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c00d8c14-ba12-4dc4-ab75-b400b3ba927c.png",
-                  "isIosAvailable": false,
-                  "name": "30 Tournament Coins",
-                  "ownerOrganization": {
-                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
-                    "name": "Pixel by Pixel Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-20T14:59:59.999Z",
-            "name": "DROP 4",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 900,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "f381e000-d96e-11f0-ae14-0a58a9feac02",
-            "requiredSubs": 2,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTC30",
-                  "createdAt": "2023-10-26T09:04:25.736Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "509511",
-                    "name": "Marbles on Stream",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c00d8c14-ba12-4dc4-ab75-b400b3ba927c.png",
-                  "isIosAvailable": false,
-                  "name": "30 Tournament Coins",
-                  "ownerOrganization": {
-                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
-                    "name": "Pixel by Pixel Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-20T14:59:59.999Z",
-            "name": "DROP - SUBS",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 0,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-12-19T15:00:00.000Z"
-  },
-  {
     "endAt": "2025-12-20T15:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/471371947_IGDB-120x160.jpg",
     "gameDisplayName": "Higan: Eruthyll",
@@ -13394,6 +12933,230 @@
       }
     ],
     "startAt": "2025-12-15T05:00:00.000Z"
+  },
+  {
+    "endAt": "2025-12-22T05:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
+    "gameDisplayName": "Marbles on Stream",
+    "gameId": "509511",
+    "rewards": [
+      {
+        "id": "24c71f9d-d96f-11f0-b7c2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://app.pixelbypixelstudios.live/auth/twitch/link",
+        "description": "Marbles on Stream is the most welcoming stream interactive experience where a streamer can run the game and welcome anyone in their chat to participate with \"!play\". That's it!\n\nJoin in for exclusive prizes and keep an eye on our for how we evolve this event in the future. If you need assistance please join our discord. Discord.gg/pixelbypixelstudios ",
+        "detailsURL": "https://pixelbypixel.studio/about/twitch-drops",
+        "endAt": "2025-12-22T05:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "509511",
+          "slug": "marbles-on-stream",
+          "displayName": "Marbles on Stream",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/eb0f13ef-a527-46a8-9c2f-98f08c798f17.png",
+        "name": "MarbleFest 12/20 - 12/21",
+        "owner": {
+          "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+          "name": "Pixel by Pixel Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-20T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "4e05fa9a-d96f-11f0-9280-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTestBundleCC",
+                  "createdAt": "2023-10-26T09:00:50.239Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509511",
+                    "name": "Marbles on Stream",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7519a7e0-3787-4284-8790-071aaf244db2.png",
+                  "isIosAvailable": false,
+                  "name": "15 Community Coins",
+                  "ownerOrganization": {
+                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+                    "name": "Pixel by Pixel Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-22T05:59:59.999Z",
+            "name": "DROP 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-20T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "53632bcd-d96f-11f0-a7ec-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_S39_PixelbyPixel",
+                  "createdAt": "2023-10-26T09:05:33.475Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509511",
+                    "name": "Marbles on Stream",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74bbfca0-63d3-41be-986e-b96bdbf0f5df.png",
+                  "isIosAvailable": false,
+                  "name": "PbP Deep Vibe",
+                  "ownerOrganization": {
+                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+                    "name": "Pixel by Pixel Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-22T05:59:59.999Z",
+            "name": "DROP 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-12-20T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "5ad4ed57-d96f-11f0-bc18-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTestBundleCC",
+                  "createdAt": "2023-10-26T09:00:50.239Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509511",
+                    "name": "Marbles on Stream",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7519a7e0-3787-4284-8790-071aaf244db2.png",
+                  "isIosAvailable": false,
+                  "name": "15 Community Coins",
+                  "ownerOrganization": {
+                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+                    "name": "Pixel by Pixel Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-22T05:59:59.999Z",
+            "name": "DROP 3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 720,
+            "startAt": "2025-12-20T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "61681993-d96f-11f0-90f7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTC30",
+                  "createdAt": "2023-10-26T09:04:25.736Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509511",
+                    "name": "Marbles on Stream",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c00d8c14-ba12-4dc4-ab75-b400b3ba927c.png",
+                  "isIosAvailable": false,
+                  "name": "30 Tournament Coins",
+                  "ownerOrganization": {
+                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+                    "name": "Pixel by Pixel Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-22T05:59:59.999Z",
+            "name": "DROP 4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2025-12-20T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "68710319-d96f-11f0-8db4-0a58a9feac02",
+            "requiredSubs": 2,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTC30",
+                  "createdAt": "2023-10-26T09:04:25.736Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509511",
+                    "name": "Marbles on Stream",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c00d8c14-ba12-4dc4-ab75-b400b3ba927c.png",
+                  "isIosAvailable": false,
+                  "name": "30 Tournament Coins",
+                  "ownerOrganization": {
+                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+                    "name": "Pixel by Pixel Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-22T05:59:59.999Z",
+            "name": "DROP - SUBS",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-12-20T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-20T15:00:00.000Z"
   },
   {
     "endAt": "2025-12-22T07:29:59.999Z",
@@ -44106,6 +43869,18 @@
               "id": "60765576",
               "displayName": "Serjekk",
               "name": "serjekk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "412357054",
+              "displayName": "JimmyDebloons",
+              "name": "jimmydebloons",
+              "__typename": "Channel"
+            },
+            {
+              "id": "917527751",
+              "displayName": "oarbarex",
+              "name": "oarbarex",
               "__typename": "Channel"
             }
           ],
