@@ -1,3290 +1,5 @@
 [
   {
-    "endAt": "2025-12-25T22:58:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/510389_IGDB-120x160.jpg",
-    "gameDisplayName": "Shakes and Fidget",
-    "gameId": "510389",
-    "rewards": [
-      {
-        "id": "420b4e0d-c13b-11f0-8075-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "72617505",
-              "displayName": "moZoneTV",
-              "name": "mozonetv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "231431192",
-              "displayName": "TunyGhost",
-              "name": "tunyghost",
-              "__typename": "Channel"
-            },
-            {
-              "id": "115148629",
-              "displayName": "Zsombey",
-              "name": "zsombey",
-              "__typename": "Channel"
-            },
-            {
-              "id": "163488747",
-              "displayName": "N3utr4LSF",
-              "name": "n3utr4lsf",
-              "__typename": "Channel"
-            },
-            {
-              "id": "175988361",
-              "displayName": "DomCaOfficial",
-              "name": "domcaofficial",
-              "__typename": "Channel"
-            },
-            {
-              "id": "442193279",
-              "displayName": "Waves",
-              "name": "waves",
-              "__typename": "Channel"
-            },
-            {
-              "id": "277405774",
-              "displayName": "sfgameofficial",
-              "name": "sfgameofficial",
-              "__typename": "Channel"
-            },
-            {
-              "id": "705911590",
-              "displayName": "Sadeg_SF_Official",
-              "name": "sadeg_sf_official",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://sfgame.net/",
-        "description": "Watch the official Shakes & Fidget stream on Twitch to obtain unique Drops.",
-        "detailsURL": "https://playa-games.helpshift.com/hc/faq/255-twitch-drops/",
-        "endAt": "2025-12-21T22:58:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "510389",
-          "slug": "shakes-and-fidget",
-          "displayName": "Shakes and Fidget",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6d2b39ed-2bab-4e62-a2ce-2a4718e499dd.png",
-        "name": "S&F Drops 1/3",
-        "owner": {
-          "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-          "name": "Playa-Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-12-15T15:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "53cd0aed-c13b-11f0-bd37-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_gold_1",
-                  "createdAt": "2023-10-23T13:18:52.734Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/47c0dba2-cba2-4e95-9275-7a90e5001e7b.png",
-                  "isIosAvailable": false,
-                  "name": "Gilded Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Gilded Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-12-15T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "5c17b01c-c13b-11f0-a36d-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_main_potion_1",
-                  "createdAt": "2023-10-23T13:22:26.882Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4444d112-e29a-4a7c-ab72-d74e22bec75b.png",
-                  "isIosAvailable": false,
-                  "name": "Potion Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Potion Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-12-15T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "62b72746-c13b-11f0-bd77-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_souls_1",
-                  "createdAt": "2023-10-23T13:22:53.815Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e79e0a45-6818-487b-8f82-5b07e9984c61.png",
-                  "isIosAvailable": false,
-                  "name": "Soul Taker Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Soul Taker Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-12-15T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "6a9cd195-c13b-11f0-b0b0-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_fortress_1",
-                  "createdAt": "2023-10-23T13:19:20.681Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/49697d01-d7a2-404e-b45a-a05dec0932a2.png",
-                  "isIosAvailable": false,
-                  "name": "Fortification Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Fortification Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-12-15T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "72677334-c13b-11f0-ad48-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_smith_1",
-                  "createdAt": "2023-10-23T13:20:49.242Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52713587-b18e-4fb5-98e7-98d18ac8a90c.png",
-                  "isIosAvailable": false,
-                  "name": "Smith Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Smith Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-12-15T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "7a307745-c13b-11f0-aa98-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_hourglasses_1",
-                  "createdAt": "2023-10-23T13:18:23.309Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dc368fe3-3599-4a70-872a-d8363f300c32.png",
-                  "isIosAvailable": false,
-                  "name": "Time Jump Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Time Jump Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 150,
-            "startAt": "2025-12-15T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "825087f6-c13b-11f0-bd37-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_gem",
-                  "createdAt": "2024-03-18T13:06:34.481Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/de32e173-c21a-465c-af66-b39c3d1a9e29.png",
-                  "isIosAvailable": false,
-                  "name": "Gem Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Gem Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-12-15T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "a6cd848b-c13b-11f0-96f5-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "72617505",
-              "displayName": "moZoneTV",
-              "name": "mozonetv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "231431192",
-              "displayName": "TunyGhost",
-              "name": "tunyghost",
-              "__typename": "Channel"
-            },
-            {
-              "id": "115148629",
-              "displayName": "Zsombey",
-              "name": "zsombey",
-              "__typename": "Channel"
-            },
-            {
-              "id": "163488747",
-              "displayName": "N3utr4LSF",
-              "name": "n3utr4lsf",
-              "__typename": "Channel"
-            },
-            {
-              "id": "175988361",
-              "displayName": "DomCaOfficial",
-              "name": "domcaofficial",
-              "__typename": "Channel"
-            },
-            {
-              "id": "442193279",
-              "displayName": "Waves",
-              "name": "waves",
-              "__typename": "Channel"
-            },
-            {
-              "id": "277405774",
-              "displayName": "sfgameofficial",
-              "name": "sfgameofficial",
-              "__typename": "Channel"
-            },
-            {
-              "id": "705911590",
-              "displayName": "Sadeg_SF_Official",
-              "name": "sadeg_sf_official",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://sfgame.net/",
-        "description": "Watch the official Shakes & Fidget stream on Twitch to obtain unique Drops.",
-        "detailsURL": "https://playa-games.helpshift.com/hc/faq/255-twitch-drops/",
-        "endAt": "2025-12-21T22:58:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "510389",
-          "slug": "shakes-and-fidget",
-          "displayName": "Shakes and Fidget",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/74e8019e-9074-4194-9074-c6012b45e8fb.png",
-        "name": "S&F Drops 2/3",
-        "owner": {
-          "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-          "name": "Playa-Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-12-17T15:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "c2754797-c13b-11f0-9f1e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_gold_1",
-                  "createdAt": "2023-10-23T13:18:52.734Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/47c0dba2-cba2-4e95-9275-7a90e5001e7b.png",
-                  "isIosAvailable": false,
-                  "name": "Gilded Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Gilded Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-12-17T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "cb3dd06c-c13b-11f0-aa98-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_life_potion",
-                  "createdAt": "2023-10-23T13:21:22.647Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7cb69da8-da4a-4c7f-88e3-96f8baf73835.png",
-                  "isIosAvailable": false,
-                  "name": "Winged Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Winged Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-12-17T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "d243ea32-c13b-11f0-b9c6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_metal_1",
-                  "createdAt": "2023-10-23T13:19:48.193Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c49543aa-42f0-41fe-b0f4-0ab083fb9fb7.png",
-                  "isIosAvailable": false,
-                  "name": "Metal Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Metal Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-12-17T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "da0a324b-c13b-11f0-a90c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_smith_1",
-                  "createdAt": "2023-10-23T13:20:49.242Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52713587-b18e-4fb5-98e7-98d18ac8a90c.png",
-                  "isIosAvailable": false,
-                  "name": "Smith Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Smith Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-12-17T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "e35008ee-c13b-11f0-bec4-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_stone_1",
-                  "createdAt": "2023-10-23T13:26:54.703Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1ade6cce-9bc6-439e-b10a-96e316ae7ab7.png",
-                  "isIosAvailable": false,
-                  "name": "Construction Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Construction Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-12-17T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "eecb6830-c13b-11f0-b9f1-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_fruits_x1",
-                  "createdAt": "2024-11-07T15:58:19.565Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/532077d5-4762-4658-958d-3ce63cdda7ca.png",
-                  "isIosAvailable": false,
-                  "name": "Fruit Basket",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Fruit Basket",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 150,
-            "startAt": "2025-12-17T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "f77e90ac-c13b-11f0-a092-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_epic_rand",
-                  "createdAt": "2025-09-16T10:41:41.939Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/47491620-58c2-42a6-a39c-3b997717cca9.png",
-                  "isIosAvailable": false,
-                  "name": "Random Twitch Epic",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Random Twitch Epic",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-12-17T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "095d6ba3-c13c-11f0-bf11-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "72617505",
-              "displayName": "moZoneTV",
-              "name": "mozonetv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "231431192",
-              "displayName": "TunyGhost",
-              "name": "tunyghost",
-              "__typename": "Channel"
-            },
-            {
-              "id": "115148629",
-              "displayName": "Zsombey",
-              "name": "zsombey",
-              "__typename": "Channel"
-            },
-            {
-              "id": "163488747",
-              "displayName": "N3utr4LSF",
-              "name": "n3utr4lsf",
-              "__typename": "Channel"
-            },
-            {
-              "id": "175988361",
-              "displayName": "DomCaOfficial",
-              "name": "domcaofficial",
-              "__typename": "Channel"
-            },
-            {
-              "id": "442193279",
-              "displayName": "Waves",
-              "name": "waves",
-              "__typename": "Channel"
-            },
-            {
-              "id": "277405774",
-              "displayName": "sfgameofficial",
-              "name": "sfgameofficial",
-              "__typename": "Channel"
-            },
-            {
-              "id": "705911590",
-              "displayName": "Sadeg_SF_Official",
-              "name": "sadeg_sf_official",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://sfgame.net/",
-        "description": "Watch the official Shakes & Fidget stream on Twitch to obtain unique Drops.",
-        "detailsURL": "https://playa-games.helpshift.com/hc/faq/255-twitch-drops/",
-        "endAt": "2025-12-21T22:58:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "510389",
-          "slug": "shakes-and-fidget",
-          "displayName": "Shakes and Fidget",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2e2f646d-35d2-406d-a89f-ea456a266a75.png",
-        "name": "S&F Drops 3/3",
-        "owner": {
-          "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-          "name": "Playa-Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-12-19T15:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "1ec908fd-c13c-11f0-bdf2-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_gold_1",
-                  "createdAt": "2023-10-23T13:18:52.734Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/47c0dba2-cba2-4e95-9275-7a90e5001e7b.png",
-                  "isIosAvailable": false,
-                  "name": "Gilded Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Gilded Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "26c0b454-c13c-11f0-bb74-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_lucky_coins_1",
-                  "createdAt": "2023-10-23T13:17:33.933Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8200b7e8-c409-4d9a-a034-d160045b71e5.png",
-                  "isIosAvailable": false,
-                  "name": "Clover Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Clover Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "2e8b6c7c-c13c-11f0-b9f1-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_wood_1",
-                  "createdAt": "2023-10-23T13:26:30.773Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7b4ee0c-f09a-4db3-8302-7f87d1dede78.png",
-                  "isIosAvailable": false,
-                  "name": "Lumberjack Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Lumberjack Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "35a96bc1-c13c-11f0-bb74-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_arcane_1",
-                  "createdAt": "2023-10-23T13:20:14.832Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/afdebe30-7182-479d-9a0a-625aaf572892.png",
-                  "isIosAvailable": false,
-                  "name": "Arcane Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Arcane Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "3d6c7351-c13c-11f0-bdf2-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_coins_1",
-                  "createdAt": "2023-10-23T13:21:52.772Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a700720-5536-4e26-9e88-e7acd65fa50d.png",
-                  "isIosAvailable": false,
-                  "name": "Allrounder Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Allrounder Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "4776056d-c13c-11f0-a59c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_achievement",
-                  "createdAt": "2023-10-23T13:55:20.018Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7571baa9-06be-4a7c-953c-ddb43ffda1d8.png",
-                  "isIosAvailable": false,
-                  "name": "Achievement Drop",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Achievement Drop",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 150,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "51a6c9fd-c13c-11f0-a36d-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_fruits_x4",
-                  "createdAt": "2024-11-07T15:58:52.146Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/191aa866-5c14-4d7a-b471-c43e6b1c9a08.png",
-                  "isIosAvailable": false,
-                  "name": "Big Fruit Basket",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Big Fruit Basket",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "5ce64427-c13c-11f0-8877-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_frame",
-                  "createdAt": "2023-10-23T13:29:52.104Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9f3efab6-2144-4d1b-b3e0-a405e6493942.png",
-                  "isIosAvailable": false,
-                  "name": "Twitch Frame",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Twitch Frame",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 210,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "661a9927-c13c-11f0-8cc0-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_potion_stamina",
-                  "createdAt": "2024-11-07T15:54:39.916Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2b3d5644-13b9-4ae0-8837-29edd3d6d147.png",
-                  "isIosAvailable": false,
-                  "name": "Constitution Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Constitution Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "71cadb33-c13c-11f0-830f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_gem",
-                  "createdAt": "2024-03-18T13:06:34.481Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/de32e173-c21a-465c-af66-b39c3d1a9e29.png",
-                  "isIosAvailable": false,
-                  "name": "Gem Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:58:59.999Z",
-            "name": "Gem Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 300,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "c1371f67-c13f-11f0-bd37-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "31546195",
-              "displayName": "DORZER",
-              "name": "dorzer",
-              "__typename": "Channel"
-            },
-            {
-              "id": "528627315",
-              "displayName": "CHAZE",
-              "name": "chaze",
-              "__typename": "Channel"
-            },
-            {
-              "id": "461027402",
-              "displayName": "ChromieDE",
-              "name": "chromiede",
-              "__typename": "Channel"
-            },
-            {
-              "id": "183467919",
-              "displayName": "Niisa",
-              "name": "niisa",
-              "__typename": "Channel"
-            },
-            {
-              "id": "23219030",
-              "displayName": "MrMoregame",
-              "name": "mrmoregame",
-              "__typename": "Channel"
-            },
-            {
-              "id": "835202159",
-              "displayName": "MoxTales",
-              "name": "moxtales",
-              "__typename": "Channel"
-            },
-            {
-              "id": "111907235",
-              "displayName": "UweReinholzen",
-              "name": "uwereinholzen",
-              "__typename": "Channel"
-            },
-            {
-              "id": "617586038",
-              "displayName": "der_cyberpunk",
-              "name": "der_cyberpunk",
-              "__typename": "Channel"
-            },
-            {
-              "id": "511077598",
-              "displayName": "Blackhammerplay",
-              "name": "blackhammerplay",
-              "__typename": "Channel"
-            },
-            {
-              "id": "60107409",
-              "displayName": "ZiroTV",
-              "name": "zirotv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "144297117",
-              "displayName": "feena1986",
-              "name": "feena1986",
-              "__typename": "Channel"
-            },
-            {
-              "id": "28764226",
-              "displayName": "Terste",
-              "name": "terste",
-              "__typename": "Channel"
-            },
-            {
-              "id": "57361005",
-              "displayName": "Slayproxx",
-              "name": "slayproxx",
-              "__typename": "Channel"
-            },
-            {
-              "id": "27122439",
-              "displayName": "FlyGunCZ",
-              "name": "flyguncz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "506569203",
-              "displayName": "FeketeMiklos",
-              "name": "feketemiklos",
-              "__typename": "Channel"
-            },
-            {
-              "id": "131302635",
-              "displayName": "Crappa",
-              "name": "crappa",
-              "__typename": "Channel"
-            },
-            {
-              "id": "50548499",
-              "displayName": "Karthas",
-              "name": "karthas",
-              "__typename": "Channel"
-            },
-            {
-              "id": "96654503",
-              "displayName": "Avid_is_Odd",
-              "name": "avid_is_odd",
-              "__typename": "Channel"
-            },
-            {
-              "id": "36875967",
-              "displayName": "HaiseT",
-              "name": "haiset",
-              "__typename": "Channel"
-            },
-            {
-              "id": "35669163",
-              "displayName": "Patrikturi",
-              "name": "patrikturi",
-              "__typename": "Channel"
-            },
-            {
-              "id": "70962587",
-              "displayName": "spajKK",
-              "name": "spajkk",
-              "__typename": "Channel"
-            },
-            {
-              "id": "106318725",
-              "displayName": "demonzz1",
-              "name": "demonzz1",
-              "__typename": "Channel"
-            },
-            {
-              "id": "58462752",
-              "displayName": "Angela35",
-              "name": "angela35",
-              "__typename": "Channel"
-            },
-            {
-              "id": "699164718",
-              "displayName": "BanditSF",
-              "name": "banditsf",
-              "__typename": "Channel"
-            },
-            {
-              "id": "114725203",
-              "displayName": "LootenantSF",
-              "name": "lootenantsf",
-              "__typename": "Channel"
-            },
-            {
-              "id": "805125142",
-              "displayName": "Gorgoss9000",
-              "name": "gorgoss9000",
-              "__typename": "Channel"
-            },
-            {
-              "id": "39366973",
-              "displayName": "ByLeBajLo",
-              "name": "bylebajlo",
-              "__typename": "Channel"
-            },
-            {
-              "id": "54537654",
-              "displayName": "eGoLeipzig",
-              "name": "egoleipzig",
-              "__typename": "Channel"
-            },
-            {
-              "id": "168406730",
-              "displayName": "Karolinger",
-              "name": "karolinger",
-              "__typename": "Channel"
-            },
-            {
-              "id": "32346877",
-              "displayName": "Nayfal",
-              "name": "nayfal",
-              "__typename": "Channel"
-            },
-            {
-              "id": "786358692",
-              "displayName": "chris2000_sf",
-              "name": "chris2000_sf",
-              "__typename": "Channel"
-            },
-            {
-              "id": "46420142",
-              "displayName": "Spielestyler",
-              "name": "spielestyler",
-              "__typename": "Channel"
-            },
-            {
-              "id": "41158487",
-              "displayName": "gilmacek",
-              "name": "gilmacek",
-              "__typename": "Channel"
-            },
-            {
-              "id": "144670369",
-              "displayName": "Yvraldis",
-              "name": "yvraldis",
-              "__typename": "Channel"
-            },
-            {
-              "id": "35884167",
-              "displayName": "Sintica",
-              "name": "sintica",
-              "__typename": "Channel"
-            },
-            {
-              "id": "173255814",
-              "displayName": "Katazuri",
-              "name": "katazuri",
-              "__typename": "Channel"
-            },
-            {
-              "id": "478970738",
-              "displayName": "nikoletaa",
-              "name": "nikoletaa",
-              "__typename": "Channel"
-            },
-            {
-              "id": "156642160",
-              "displayName": "FormulaLena",
-              "name": "formulalena",
-              "__typename": "Channel"
-            },
-            {
-              "id": "63958651",
-              "displayName": "HollaDieWaldfee",
-              "name": "holladiewaldfee",
-              "__typename": "Channel"
-            },
-            {
-              "id": "461754237",
-              "displayName": "froschmaedchen",
-              "name": "froschmaedchen",
-              "__typename": "Channel"
-            },
-            {
-              "id": "759378266",
-              "displayName": "Salz_Live",
-              "name": "salz_live",
-              "__typename": "Channel"
-            },
-            {
-              "id": "612288491",
-              "displayName": "RicAres_",
-              "name": "ricares_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "119347026",
-              "displayName": "Maexel",
-              "name": "maexel",
-              "__typename": "Channel"
-            },
-            {
-              "id": "550749478",
-              "displayName": "DrArteck",
-              "name": "drarteck",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1269292404",
-              "displayName": "Aurikos_Zonestos",
-              "name": "aurikos_zonestos",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1404388762",
-              "displayName": "kleiner_bandit",
-              "name": "kleiner_bandit",
-              "__typename": "Channel"
-            },
-            {
-              "id": "711169992",
-              "displayName": "geerzson",
-              "name": "geerzson",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://sfgame.net/",
-        "description": "Droplets are additional drops to our main drop campaigns.",
-        "detailsURL": "https://playa-games.helpshift.com/hc/faq/255-twitch-drops/",
-        "endAt": "2025-12-25T22:58:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "510389",
-          "slug": "shakes-and-fidget",
-          "displayName": "Shakes and Fidget",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6151a32e-e373-422c-9f80-f6d637474a3a.png",
-        "name": "S&F Droplets",
-        "owner": {
-          "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-          "name": "Playa-Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-12-19T15:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "074ea627-c140-11f0-be84-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_smith_1",
-                  "createdAt": "2023-10-23T13:20:49.242Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52713587-b18e-4fb5-98e7-98d18ac8a90c.png",
-                  "isIosAvailable": false,
-                  "name": "Smith Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-25T22:58:59.999Z",
-            "name": "Smith Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 150,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "105deb3d-c140-11f0-903b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_coins_1",
-                  "createdAt": "2023-10-23T13:21:52.772Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a700720-5536-4e26-9e88-e7acd65fa50d.png",
-                  "isIosAvailable": false,
-                  "name": "Allrounder Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-25T22:58:59.999Z",
-            "name": "Allrounder Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "dc2e5999-c13f-11f0-b0b0-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_gold_1",
-                  "createdAt": "2023-10-23T13:18:52.734Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/47c0dba2-cba2-4e95-9275-7a90e5001e7b.png",
-                  "isIosAvailable": false,
-                  "name": "Gilded Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-25T22:58:59.999Z",
-            "name": "Gilded Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "e59c2b9f-c13f-11f0-bd77-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_stone_1",
-                  "createdAt": "2023-10-23T13:26:54.703Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1ade6cce-9bc6-439e-b10a-96e316ae7ab7.png",
-                  "isIosAvailable": false,
-                  "name": "Construction Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-25T22:58:59.999Z",
-            "name": "Construction Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "ecb6a4f0-c13f-11f0-846c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_arcane_1",
-                  "createdAt": "2023-10-23T13:20:14.832Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/afdebe30-7182-479d-9a0a-625aaf572892.png",
-                  "isIosAvailable": false,
-                  "name": "Arcane Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-25T22:58:59.999Z",
-            "name": "Arcane Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "f64f162c-c13f-11f0-a59c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_souls_1",
-                  "createdAt": "2023-10-23T13:22:53.815Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e79e0a45-6818-487b-8f82-5b07e9984c61.png",
-                  "isIosAvailable": false,
-                  "name": "Soul Taker Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-25T22:58:59.999Z",
-            "name": "Soul Taker Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "ffb1f99f-c13f-11f0-aa74-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_fortress_1",
-                  "createdAt": "2023-10-23T13:19:20.681Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "510389",
-                    "name": "Shakes and Fidget",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/49697d01-d7a2-404e-b45a-a05dec0932a2.png",
-                  "isIosAvailable": false,
-                  "name": "Fortification Package",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-25T22:58:59.999Z",
-            "name": "Fortification Package",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-12-19T15:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-12-15T15:00:00.000Z"
-  },
-  {
-    "endAt": "2026-01-13T07:29:59.000Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
-    "gameDisplayName": "World of Tanks",
-    "gameId": "27546",
-    "rewards": [
-      {
-        "id": "92df6f97-cec3-11f0-bb56-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "97903976",
-              "displayName": "Mouzakrobat",
-              "name": "mouzakrobat",
-              "__typename": "Channel"
-            },
-            {
-              "id": "25722719",
-              "displayName": "Dakillzor",
-              "name": "dakillzor",
-              "__typename": "Channel"
-            },
-            {
-              "id": "110775952",
-              "displayName": "skill4ltu",
-              "name": "skill4ltu",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
-        "description": "Mouzarkobat Charity Stream",
-        "detailsURL": "https://worldoftanks.eu/en/news/live-streams/combined-streams-promotion-december-2025/",
-        "endAt": "2025-12-21T22:59:59.996Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "27546",
-          "slug": "world-of-tanks",
-          "displayName": "World of Tanks",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/57bc5afc-b6e0-4ebb-9101-ccf12d25c567.png",
-        "name": "Mouzakrobat Charity 2025",
-        "owner": {
-          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-          "name": "Wargaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-12-21T11:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "c67054bd-cec3-11f0-9d48-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_Charity_12_25_07",
-                  "createdAt": "2025-12-01T15:27:27.947Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/712b8185-e953-4836-a007-37f8c92bbeb8.png",
-                  "isIosAvailable": false,
-                  "name": "2x Personal Reserves",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_Charity_12_25_08",
-                  "createdAt": "2025-12-01T15:27:49.775Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5e2dfbc1-f5e5-43a6-8a30-0e13287e8daa.png",
-                  "isIosAvailable": false,
-                  "name": "2x Personal Reserves ",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_Charity_12_25_09",
-                  "createdAt": "2025-12-01T15:28:15.245Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/82b7fe2e-d936-42bb-94fc-75dc32610d93.png",
-                  "isIosAvailable": false,
-                  "name": "5x Consumables",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_Charity_12_25_10",
-                  "createdAt": "2025-12-01T15:28:54.233Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fc70500e-8828-49ed-ad28-d8698dead28a.png",
-                  "isIosAvailable": false,
-                  "name": "5x Consumables",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_Charity_12_25_11",
-                  "createdAt": "2025-12-01T15:29:13.408Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f18f4cb3-e245-4efc-bf98-74fbc829c748.png",
-                  "isIosAvailable": false,
-                  "name": "5x Consumables",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_Charity_12_25_12",
-                  "createdAt": "2025-12-01T15:32:09.367Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dc811684-3733-4372-b694-64472461ab75.png",
-                  "isIosAvailable": false,
-                  "name": "1x 2D Style",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-21T22:59:59.996Z",
-            "name": "Drop 1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2025-12-21T11:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "e2caea31-c482-11f0-bc59-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "57885921",
-              "displayName": "06wallst",
-              "name": "06wallst",
-              "__typename": "Channel"
-            },
-            {
-              "id": "63152635",
-              "displayName": "13Disciple",
-              "name": "13disciple",
-              "__typename": "Channel"
-            },
-            {
-              "id": "64100925",
-              "displayName": "aaalois",
-              "name": "aaalois",
-              "__typename": "Channel"
-            },
-            {
-              "id": "190234525",
-              "displayName": "AtakanAtillaa",
-              "name": "atakanatillaa",
-              "__typename": "Channel"
-            },
-            {
-              "id": "472207393",
-              "displayName": "Army_Guy_E8",
-              "name": "army_guy_e8",
-              "__typename": "Channel"
-            },
-            {
-              "id": "52161910",
-              "displayName": "AwesomeEpicGuys",
-              "name": "awesomeepicguys",
-              "__typename": "Channel"
-            },
-            {
-              "id": "269428412",
-              "displayName": "BasterdBari",
-              "name": "basterdbari",
-              "__typename": "Channel"
-            },
-            {
-              "id": "434996393",
-              "displayName": "be_zone",
-              "name": "be_zone",
-              "__typename": "Channel"
-            },
-            {
-              "id": "112710939",
-              "displayName": "Benso",
-              "name": "benso",
-              "__typename": "Channel"
-            },
-            {
-              "id": "592436994",
-              "displayName": "Bizzord_WOT",
-              "name": "bizzord_wot",
-              "__typename": "Channel"
-            },
-            {
-              "id": "80515877",
-              "displayName": "BangAverageTanker",
-              "name": "bangaveragetanker",
-              "__typename": "Channel"
-            },
-            {
-              "id": "166135339",
-              "displayName": "BruhMeh82",
-              "name": "bruhmeh82",
-              "__typename": "Channel"
-            },
-            {
-              "id": "933282983",
-              "displayName": "carotte_p2n",
-              "name": "carotte_p2n",
-              "__typename": "Channel"
-            },
-            {
-              "id": "98314017",
-              "displayName": "ChudyChudziutki",
-              "name": "chudychudziutki",
-              "__typename": "Channel"
-            },
-            {
-              "id": "138758200",
-              "displayName": "ConTrollFM",
-              "name": "controllfm",
-              "__typename": "Channel"
-            },
-            {
-              "id": "62603776",
-              "displayName": "cyganzor",
-              "name": "cyganzor",
-              "__typename": "Channel"
-            },
-            {
-              "id": "25722719",
-              "displayName": "Dakillzor",
-              "name": "dakillzor",
-              "__typename": "Channel"
-            },
-            {
-              "id": "162137646",
-              "displayName": "danma_935",
-              "name": "danma_935",
-              "__typename": "Channel"
-            },
-            {
-              "id": "28576941",
-              "displayName": "DamiensGaming",
-              "name": "damiensgaming",
-              "__typename": "Channel"
-            },
-            {
-              "id": "271379029",
-              "displayName": "d1namka",
-              "name": "d1namka",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1102027926",
-              "displayName": "D1namka_ua",
-              "name": "d1namka_ua",
-              "__typename": "Channel"
-            },
-            {
-              "id": "74696708",
-              "displayName": "DED87",
-              "name": "ded87",
-              "__typename": "Channel"
-            },
-            {
-              "id": "41800397",
-              "displayName": "DezGamez",
-              "name": "dezgamez",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1032554410",
-              "displayName": "Divich_UA",
-              "name": "divich_ua",
-              "__typename": "Channel"
-            },
-            {
-              "id": "137138717",
-              "displayName": "dorotka22_",
-              "name": "dorotka22_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "801133265",
-              "displayName": "dodo_imperfection",
-              "name": "dodo_imperfection",
-              "__typename": "Channel"
-            },
-            {
-              "id": "121647123",
-              "displayName": "Draconis73",
-              "name": "draconis73",
-              "__typename": "Channel"
-            },
-            {
-              "id": "217078732",
-              "displayName": "DrapsM",
-              "name": "drapsm",
-              "__typename": "Channel"
-            },
-            {
-              "id": "111783598",
-              "displayName": "EinfachSmon",
-              "name": "einfachsmon",
-              "__typename": "Channel"
-            },
-            {
-              "id": "449251134",
-              "displayName": "ElProjektRED",
-              "name": "elprojektred",
-              "__typename": "Channel"
-            },
-            {
-              "id": "515949357",
-              "displayName": "ErictheVirus",
-              "name": "ericthevirus",
-              "__typename": "Channel"
-            },
-            {
-              "id": "887150585",
-              "displayName": "FioStern",
-              "name": "fiostern",
-              "__typename": "Channel"
-            },
-            {
-              "id": "197056992",
-              "displayName": "foxsea",
-              "name": "foxsea",
-              "__typename": "Channel"
-            },
-            {
-              "id": "103179576",
-              "displayName": "Fr3ddy",
-              "name": "fr3ddy",
-              "__typename": "Channel"
-            },
-            {
-              "id": "442517675",
-              "displayName": "fr3dyy",
-              "name": "fr3dyy",
-              "__typename": "Channel"
-            },
-            {
-              "id": "64032139",
-              "displayName": "Gazelle_Intensity",
-              "name": "gazelle_intensity",
-              "__typename": "Channel"
-            },
-            {
-              "id": "109431309",
-              "displayName": "German_intelligence",
-              "name": "german_intelligence",
-              "__typename": "Channel"
-            },
-            {
-              "id": "141982730",
-              "displayName": "God_Pack",
-              "name": "god_pack",
-              "__typename": "Channel"
-            },
-            {
-              "id": "101563036",
-              "displayName": "gr4siii",
-              "name": "gr4siii",
-              "__typename": "Channel"
-            },
-            {
-              "id": "401188376",
-              "displayName": "habwot",
-              "name": "habwot",
-              "__typename": "Channel"
-            },
-            {
-              "id": "719582046",
-              "displayName": "iulia_slays",
-              "name": "iulia_slays",
-              "__typename": "Channel"
-            },
-            {
-              "id": "270618132",
-              "displayName": "iRocket1997i",
-              "name": "irocket1997i",
-              "__typename": "Channel"
-            },
-            {
-              "id": "996278485",
-              "displayName": "INeSp1kI",
-              "name": "inesp1ki",
-              "__typename": "Channel"
-            },
-            {
-              "id": "132698290",
-              "displayName": "jaeckefa",
-              "name": "jaeckefa",
-              "__typename": "Channel"
-            },
-            {
-              "id": "38181398",
-              "displayName": "jXcr",
-              "name": "jxcr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "403404680",
-              "displayName": "julesteam",
-              "name": "julesteam",
-              "__typename": "Channel"
-            },
-            {
-              "id": "96467932",
-              "displayName": "JujuGZN",
-              "name": "jujugzn",
-              "__typename": "Channel"
-            },
-            {
-              "id": "443826579",
-              "displayName": "K4ROL___",
-              "name": "k4rol___",
-              "__typename": "Channel"
-            },
-            {
-              "id": "123584344",
-              "displayName": null,
-              "name": "kamileater",
-              "__typename": "Channel"
-            },
-            {
-              "id": "214777260",
-              "displayName": "KECAJEK",
-              "name": "kecajek",
-              "__typename": "Channel"
-            },
-            {
-              "id": "60229623",
-              "displayName": "kelj0streams",
-              "name": "kelj0streams",
-              "__typename": "Channel"
-            },
-            {
-              "id": "133972531",
-              "displayName": "kestrelhawk_",
-              "name": "kestrelhawk_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "431577214",
-              "displayName": "Killer0005_",
-              "name": "killer0005_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "92428969",
-              "displayName": "Kipinka",
-              "name": "kipinka",
-              "__typename": "Channel"
-            },
-            {
-              "id": "153260511",
-              "displayName": "kiryuton",
-              "name": "kiryuton",
-              "__typename": "Channel"
-            },
-            {
-              "id": "66019478",
-              "displayName": "KorbenDetka",
-              "name": "korbendetka",
-              "__typename": "Channel"
-            },
-            {
-              "id": "573304905",
-              "displayName": "kubiktvua",
-              "name": "kubiktvua",
-              "__typename": "Channel"
-            },
-            {
-              "id": "117972622",
-              "displayName": "L4ny_",
-              "name": "l4ny_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "100509600",
-              "displayName": "LadyMaeUS",
-              "name": "ladymaeus",
-              "__typename": "Channel"
-            },
-            {
-              "id": "116768600",
-              "displayName": "lazerok07",
-              "name": "lazerok07",
-              "__typename": "Channel"
-            },
-            {
-              "id": "269378078",
-              "displayName": "lordly_ua",
-              "name": "lordly_ua",
-              "__typename": "Channel"
-            },
-            {
-              "id": "269454246",
-              "displayName": "LorduGamer",
-              "name": "lordugamer",
-              "__typename": "Channel"
-            },
-            {
-              "id": "175364825",
-              "displayName": "Lucinka351",
-              "name": "lucinka351",
-              "__typename": "Channel"
-            },
-            {
-              "id": "169570447",
-              "displayName": "Lynxs___",
-              "name": "lynxs___",
-              "__typename": "Channel"
-            },
-            {
-              "id": "61776958",
-              "displayName": "mailand",
-              "name": "mailand",
-              "__typename": "Channel"
-            },
-            {
-              "id": "91133155",
-              "displayName": "Manst3inB",
-              "name": "manst3inb",
-              "__typename": "Channel"
-            },
-            {
-              "id": "511298079",
-              "displayName": "Mautz_",
-              "name": "mautz_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "63420921",
-              "displayName": "MaxGamingFPS",
-              "name": "maxgamingfps",
-              "__typename": "Channel"
-            },
-            {
-              "id": "58150192",
-              "displayName": "Maxximus2323",
-              "name": "maxximus2323",
-              "__typename": "Channel"
-            },
-            {
-              "id": "530448904",
-              "displayName": "meowcat16_",
-              "name": "meowcat16_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "107470869",
-              "displayName": "MikeMorrinson",
-              "name": "mikemorrinson",
-              "__typename": "Channel"
-            },
-            {
-              "id": "90809514",
-              "displayName": "Mlle_Heloise",
-              "name": "mlle_heloise",
-              "__typename": "Channel"
-            },
-            {
-              "id": "107025980",
-              "displayName": "Mishulika12",
-              "name": "mishulika12",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1106897432",
-              "displayName": "miss_corvina",
-              "name": "miss_corvina",
-              "__typename": "Channel"
-            },
-            {
-              "id": "51420061",
-              "displayName": "missj4cky",
-              "name": "missj4cky",
-              "__typename": "Channel"
-            },
-            {
-              "id": "131192328",
-              "displayName": "mohjo_beist",
-              "name": "mohjo_beist",
-              "__typename": "Channel"
-            },
-            {
-              "id": "115872559",
-              "displayName": "M0ff_",
-              "name": "m0ff_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "97903976",
-              "displayName": "Mouzakrobat",
-              "name": "mouzakrobat",
-              "__typename": "Channel"
-            },
-            {
-              "id": "47167396",
-              "displayName": "MrScheff",
-              "name": "mrscheff",
-              "__typename": "Channel"
-            },
-            {
-              "id": "604841537",
-              "displayName": "Mrs__Vi",
-              "name": "mrs__vi",
-              "__typename": "Channel"
-            },
-            {
-              "id": "91282212",
-              "displayName": "MrBotosh",
-              "name": "mrbotosh",
-              "__typename": "Channel"
-            },
-            {
-              "id": "52556545",
-              "displayName": "Msimpson54",
-              "name": "msimpson54",
-              "__typename": "Channel"
-            },
-            {
-              "id": "30118763",
-              "displayName": "NewMultiShow",
-              "name": "newmultishow",
-              "__typename": "Channel"
-            },
-            {
-              "id": "81188606",
-              "displayName": "Nick_Shox",
-              "name": "nick_shox",
-              "__typename": "Channel"
-            },
-            {
-              "id": "518182797",
-              "displayName": "nolik192",
-              "name": "nolik192",
-              "__typename": "Channel"
-            },
-            {
-              "id": "62763356",
-              "displayName": "oldskool",
-              "name": "oldskool",
-              "__typename": "Channel"
-            },
-            {
-              "id": "488800873",
-              "displayName": "Olenkaa___",
-              "name": "olenkaa___",
-              "__typename": "Channel"
-            },
-            {
-              "id": "44536868",
-              "displayName": "Orzanel",
-              "name": "orzanel",
-              "__typename": "Channel"
-            },
-            {
-              "id": "60537669",
-              "displayName": "O_P_Hacker",
-              "name": "o_p_hacker",
-              "__typename": "Channel"
-            },
-            {
-              "id": "122422572",
-              "displayName": "pamboum",
-              "name": "pamboum",
-              "__typename": "Channel"
-            },
-            {
-              "id": "54884216",
-              "displayName": "PaPaPawian",
-              "name": "papapawian",
-              "__typename": "Channel"
-            },
-            {
-              "id": "141988493",
-              "displayName": "petrus89",
-              "name": "petrus89",
-              "__typename": "Channel"
-            },
-            {
-              "id": "37863672",
-              "displayName": "POtkanzoR",
-              "name": "potkanzor",
-              "__typename": "Channel"
-            },
-            {
-              "id": "963705608",
-              "displayName": "POTUJNOSLAVE",
-              "name": "potujnoslave",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1051847884",
-              "displayName": "PR0L1GHT",
-              "name": "pr0l1ght",
-              "__typename": "Channel"
-            },
-            {
-              "id": "30623831",
-              "displayName": "QuickyBaby",
-              "name": "quickybaby",
-              "__typename": "Channel"
-            },
-            {
-              "id": "163216709",
-              "displayName": "Quinnetic",
-              "name": "quinnetic",
-              "__typename": "Channel"
-            },
-            {
-              "id": "79075908",
-              "displayName": "RagingRaptor",
-              "name": "ragingraptor",
-              "__typename": "Channel"
-            },
-            {
-              "id": "737873611",
-              "displayName": "rambina1989",
-              "name": "rambina1989",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1191637262",
-              "displayName": "RarHarpia",
-              "name": "rarharpia",
-              "__typename": "Channel"
-            },
-            {
-              "id": "104114361",
-              "displayName": "Remi_iD",
-              "name": "remi_id",
-              "__typename": "Channel"
-            },
-            {
-              "id": "967082239",
-              "displayName": "Roha_wot",
-              "name": "roha_wot",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1105566019",
-              "displayName": "SaprosTV",
-              "name": "saprostv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "496375480",
-              "displayName": "schattenfee_",
-              "name": "schattenfee_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "418577381",
-              "displayName": "schumi_wot",
-              "name": "schumi_wot",
-              "__typename": "Channel"
-            },
-            {
-              "id": "852549791",
-              "displayName": "sh0kerix",
-              "name": "sh0kerix",
-              "__typename": "Channel"
-            },
-            {
-              "id": "83620472",
-              "displayName": "Sir8J",
-              "name": "sir8j",
-              "__typename": "Channel"
-            },
-            {
-              "id": "110775952",
-              "displayName": "skill4ltu",
-              "name": "skill4ltu",
-              "__typename": "Channel"
-            },
-            {
-              "id": "416271045",
-              "displayName": "skifler_wot",
-              "name": "skifler_wot",
-              "__typename": "Channel"
-            },
-            {
-              "id": "247378647",
-              "displayName": "stahlsebbl",
-              "name": "stahlsebbl",
-              "__typename": "Channel"
-            },
-            {
-              "id": "36854432",
-              "displayName": "Sturgie_Pooh",
-              "name": "sturgie_pooh",
-              "__typename": "Channel"
-            },
-            {
-              "id": "428377602",
-              "displayName": "styperek",
-              "name": "styperek",
-              "__typename": "Channel"
-            },
-            {
-              "id": "149590098",
-              "displayName": "SuperKravatak",
-              "name": "superkravatak",
-              "__typename": "Channel"
-            },
-            {
-              "id": "112120139",
-              "displayName": "SwissNada",
-              "name": "swissnada",
-              "__typename": "Channel"
-            },
-            {
-              "id": "51045488",
-              "displayName": "synop_s",
-              "name": "synop_s",
-              "__typename": "Channel"
-            },
-            {
-              "id": "35628354",
-              "displayName": "Svitman",
-              "name": "svitman",
-              "__typename": "Channel"
-            },
-            {
-              "id": "672502866",
-              "displayName": "szulik____",
-              "name": "szulik____",
-              "__typename": "Channel"
-            },
-            {
-              "id": "101916738",
-              "displayName": "tablito_na",
-              "name": "tablito_na",
-              "__typename": "Channel"
-            },
-            {
-              "id": "21547838",
-              "displayName": "TalkTo_MeGoose",
-              "name": "talkto_megoose",
-              "__typename": "Channel"
-            },
-            {
-              "id": "98827681",
-              "displayName": "Tankelit",
-              "name": "tankelit",
-              "__typename": "Channel"
-            },
-            {
-              "id": "797214049",
-              "displayName": "TaxiTodd",
-              "name": "taxitodd",
-              "__typename": "Channel"
-            },
-            {
-              "id": "94606599",
-              "displayName": "Teamkrado",
-              "name": "teamkrado",
-              "__typename": "Channel"
-            },
-            {
-              "id": "569917351",
-              "displayName": "terry_talk",
-              "name": "terry_talk",
-              "__typename": "Channel"
-            },
-            {
-              "id": "79159662",
-              "displayName": "TheGamingLion7",
-              "name": "thegaminglion7",
-              "__typename": "Channel"
-            },
-            {
-              "id": "532984495",
-              "displayName": "theincredulousk",
-              "name": "theincredulousk",
-              "__typename": "Channel"
-            },
-            {
-              "id": "950213144",
-              "displayName": "thelordgamingttv",
-              "name": "thelordgamingttv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "90185555",
-              "displayName": "TonTon_BeBeR",
-              "name": "tonton_beber",
-              "__typename": "Channel"
-            },
-            {
-              "id": "56307400",
-              "displayName": "Trinxxy",
-              "name": "trinxxy",
-              "__typename": "Channel"
-            },
-            {
-              "id": "73230656",
-              "displayName": "Ulfhednarr",
-              "name": "ulfhednarr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "122838951",
-              "displayName": "Valliwusel",
-              "name": "valliwusel",
-              "__typename": "Channel"
-            },
-            {
-              "id": "901341371",
-              "displayName": "Venixi_UA",
-              "name": "venixi_ua",
-              "__typename": "Channel"
-            },
-            {
-              "id": "72618986",
-              "displayName": "Vdr1984",
-              "name": "vdr1984",
-              "__typename": "Channel"
-            },
-            {
-              "id": "865713154",
-              "displayName": "V_I_P_Person_WOT",
-              "name": "v_i_p_person_wot",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1129989425",
-              "displayName": "WabbitQueen",
-              "name": "wabbitqueen",
-              "__typename": "Channel"
-            },
-            {
-              "id": "128678170",
-              "displayName": "WarChildWins",
-              "name": "warchildwins",
-              "__typename": "Channel"
-            },
-            {
-              "id": "119864669",
-              "displayName": "xNarfix",
-              "name": "xnarfix",
-              "__typename": "Channel"
-            },
-            {
-              "id": "166514356",
-              "displayName": "Xilense",
-              "name": "xilense",
-              "__typename": "Channel"
-            },
-            {
-              "id": "263067318",
-              "displayName": "zellner__",
-              "name": "zellner__",
-              "__typename": "Channel"
-            },
-            {
-              "id": "125185642",
-              "displayName": "Zurugula",
-              "name": "zurugula",
-              "__typename": "Channel"
-            },
-            {
-              "id": "49099014",
-              "displayName": "marty_vole",
-              "name": "marty_vole",
-              "__typename": "Channel"
-            },
-            {
-              "id": "79248512",
-              "displayName": "Ohare83",
-              "name": "ohare83",
-              "__typename": "Channel"
-            },
-            {
-              "id": "90326940",
-              "displayName": "StronkMaxi",
-              "name": "stronkmaxi",
-              "__typename": "Channel"
-            },
-            {
-              "id": "138295620",
-              "displayName": "0miki0_",
-              "name": "0miki0_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "653539694",
-              "displayName": "餡餡餡",
-              "name": "ansan0721",
-              "__typename": "Channel"
-            },
-            {
-              "id": "223501005",
-              "displayName": "hirolog123",
-              "name": "hirolog123",
-              "__typename": "Channel"
-            },
-            {
-              "id": "468199353",
-              "displayName": "系ーけいー",
-              "name": "kei_kakari",
-              "__typename": "Channel"
-            },
-            {
-              "id": "171838569",
-              "displayName": "purple67a",
-              "name": "purple67a",
-              "__typename": "Channel"
-            },
-            {
-              "id": "68231863",
-              "displayName": "teppei_game",
-              "name": "teppei_game",
-              "__typename": "Channel"
-            },
-            {
-              "id": "147904239",
-              "displayName": "youhey_k",
-              "name": "youhey_k",
-              "__typename": "Channel"
-            },
-            {
-              "id": "610158036",
-              "displayName": "PrimulaChiel",
-              "name": "primulachiel",
-              "__typename": "Channel"
-            },
-            {
-              "id": "52286845",
-              "displayName": "熊貓看世界",
-              "name": "kiki00023",
-              "__typename": "Channel"
-            },
-            {
-              "id": "153555178",
-              "displayName": "MosquitoQueen",
-              "name": "mosquitoqueen",
-              "__typename": "Channel"
-            },
-            {
-              "id": "20862430",
-              "displayName": "阿賽",
-              "name": "sighsir",
-              "__typename": "Channel"
-            },
-            {
-              "id": "31411247",
-              "displayName": "_星仔_",
-              "name": "starboy0509",
-              "__typename": "Channel"
-            },
-            {
-              "id": "52114236",
-              "displayName": "豪斯流氓",
-              "name": "ttcf",
-              "__typename": "Channel"
-            },
-            {
-              "id": "476438585",
-              "displayName": "XuanGaming03",
-              "name": "xuangaming03",
-              "__typename": "Channel"
-            },
-            {
-              "id": "45210752",
-              "displayName": "bossdog_",
-              "name": "bossdog_",
-              "__typename": "Channel"
-            },
-            {
-              "id": "962525794",
-              "displayName": "General_Hans98",
-              "name": "general_hans98",
-              "__typename": "Channel"
-            },
-            {
-              "id": "216509846",
-              "displayName": "KNineTanksVN",
-              "name": "kninetanksvn",
-              "__typename": "Channel"
-            },
-            {
-              "id": "53606905",
-              "displayName": "stewiejp",
-              "name": "stewiejp",
-              "__typename": "Channel"
-            },
-            {
-              "id": "454605451",
-              "displayName": "teysanook",
-              "name": "teysanook",
-              "__typename": "Channel"
-            },
-            {
-              "id": "64061739",
-              "displayName": "TheNapalmer",
-              "name": "thenapalmer",
-              "__typename": "Channel"
-            },
-            {
-              "id": "105248091",
-              "displayName": "캐비어",
-              "name": "violetcav1ar",
-              "__typename": "Channel"
-            },
-            {
-              "id": "204249769",
-              "displayName": "아르콩",
-              "name": "aarkongdiary",
-              "__typename": "Channel"
-            },
-            {
-              "id": "145424381",
-              "displayName": "_라텐_",
-              "name": "ra77en",
-              "__typename": "Channel"
-            },
-            {
-              "id": "438569700",
-              "displayName": "말랑체리카우",
-              "name": "malrangcherrycow",
-              "__typename": "Channel"
-            },
-            {
-              "id": "112154351",
-              "displayName": "리브즈",
-              "name": "nay3028",
-              "__typename": "Channel"
-            },
-            {
-              "id": "17457368",
-              "displayName": "嗶嗶",
-              "name": "cksbb_channel",
-              "__typename": "Channel"
-            },
-            {
-              "id": "57952709",
-              "displayName": "Aramoso",
-              "name": "aramoso",
-              "__typename": "Channel"
-            },
-            {
-              "id": "28454116",
-              "displayName": "sakalito",
-              "name": "sakalito",
-              "__typename": "Channel"
-            },
-            {
-              "id": "56443942",
-              "displayName": "Monsteryoo",
-              "name": "monsteryoo",
-              "__typename": "Channel"
-            },
-            {
-              "id": "52092222",
-              "displayName": "Rysiek",
-              "name": "rysiek",
-              "__typename": "Channel"
-            },
-            {
-              "id": "132092863",
-              "displayName": "GotYouBaby",
-              "name": "gotyoubaby",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
-        "description": "Support a Streamer",
-        "detailsURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
-        "endAt": "2025-12-22T15:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "27546",
-          "slug": "world-of-tanks",
-          "displayName": "World of Tanks",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/77c43047-4e75-42bb-8aad-28a4406e9bde.jpeg",
-        "name": "Support a Streamer",
-        "owner": {
-          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-          "name": "Wargaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-12-15T16:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "16af496b-c483-11f0-8cb3-0a58a9feac02",
-            "requiredSubs": 1,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_SAS_1225",
-                  "createdAt": "2025-11-18T13:34:11.217Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87e0ee0d-7201-425f-89fc-7892475b9517.png",
-                  "isIosAvailable": false,
-                  "name": "Aurora Borealis 2D style",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-22T15:59:59.999Z",
-            "name": "Drop",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 0,
-            "startAt": "2025-12-15T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "ee12af97-c460-11f0-9fed-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
-        "description": "Festive Token Store #9",
-        "detailsURL": "https://worldoftanks.eu/news/general-news/wot-monthly-december-2025/",
-        "endAt": "2025-12-22T15:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "27546",
-          "slug": "world-of-tanks",
-          "displayName": "World of Tanks",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a513744c-c71f-4698-9294-e4089aee7c92.png",
-        "name": "Festive Token Store #9",
-        "owner": {
-          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-          "name": "Wargaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-12-19T16:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "f382d0ca-c460-11f0-a2f7-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_FTS_1225_9_1",
-                  "createdAt": "2025-11-18T09:09:07.333Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d2bf0be8-4251-4578-9aa5-91748c373e6a.png",
-                  "isIosAvailable": false,
-                  "name": "10x Festive Tokens",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_FTS_1225_9_2",
-                  "createdAt": "2025-11-18T09:09:48.933Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/481bb7a1-0443-460d-b2f0-9ecc1febc15e.png",
-                  "isIosAvailable": false,
-                  "name": "5x consumables",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_FTS_1225_9_3",
-                  "createdAt": "2025-11-18T09:10:41.711Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62758204-eb6e-42ab-80c7-26c879ff1e5c.png",
-                  "isIosAvailable": false,
-                  "name": "3x emblems",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-22T15:59:59.999Z",
-            "name": "Drop",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-12-19T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "bf104cd5-d602-11f0-b8bb-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
-        "description": "This badge was earned by subscribing or gifting a sub to any World of Tanks broadcast during the Holiday Ops 26 campaign period",
-        "detailsURL": "https://worldoftanks.eu/en/news/live-streams/combined-streams-promotion-december-2025/",
-        "endAt": "2025-12-22T23:58:59.996Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "27546",
-          "slug": "world-of-tanks",
-          "displayName": "World of Tanks",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f66a5c12-e319-4609-947e-d94a56b73ac1.png",
-        "name": "Holiday Ops 2026",
-        "owner": {
-          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
-          "name": "Twitch Gaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-12-15T09:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "f678d72b-d602-11f0-9c61-0a58a9feac02",
-            "requiredSubs": 1,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "44972fe4-d603-11f0-b8af-0a58a9feac02",
-                  "createdAt": "2025-12-10T20:03:17.249Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3a484580-de76-4231-8798-426d89ce5396.png",
-                  "isIosAvailable": false,
-                  "name": "Holiday Ops 2026",
-                  "ownerOrganization": {
-                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
-                    "name": "Twitch Gaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "BADGE",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-22T23:58:59.996Z",
-            "name": "Holiday Ops 2026",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 0,
-            "startAt": "2025-12-15T09:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "78290120-d08d-11f0-b196-0acac55b430b",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://help.twitch.tv/s/article/how-to-use-emotes",
-        "description": "Watch any WorldOfTanks stream for 30 minutes to unlock the WorldOfTanksBenedict emote until January 19th, 2026.",
-        "detailsURL": "https://help.twitch.tv/s/article/how-to-use-emotes",
-        "endAt": "2026-01-13T07:29:59Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "27546",
-          "slug": "world-of-tanks",
-          "displayName": "World of Tanks",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/world_of_tanks_benedict_q4_2025/worldoftanksbenedict_112x112.png",
-        "name": "World of Tanks Winter Ops",
-        "owner": {
-          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
-          "name": "Twitch Gaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-12-05T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "782acb9a-d08d-11f0-b196-0acac55b430b",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "7822fbfe-d08d-11f0-b196-0acac55b430b",
-                  "createdAt": "2025-12-03T21:17:27.301Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/world_of_tanks_benedict_q4_2025/worldoftanksbenedict_112x112.png",
-                  "isIosAvailable": false,
-                  "name": "WorldOfTanksBenedict Emote",
-                  "ownerOrganization": {
-                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
-                    "name": "Twitch Gaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "EMOTE",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-13T07:29:59Z",
-            "name": "WorldOfTanksBenedict Emote",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 5,
-            "startAt": "2025-12-05T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-12-05T17:00:00.000Z"
-  },
-  {
     "endAt": "2025-12-21T23:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
     "gameDisplayName": "Delta Force",
@@ -9279,6 +5994,1386 @@
       }
     ],
     "startAt": "2025-12-19T07:00:00.000Z"
+  },
+  {
+    "endAt": "2026-01-13T07:29:59.000Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
+    "gameDisplayName": "World of Tanks",
+    "gameId": "27546",
+    "rewards": [
+      {
+        "id": "e2caea31-c482-11f0-bc59-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "57885921",
+              "displayName": "06wallst",
+              "name": "06wallst",
+              "__typename": "Channel"
+            },
+            {
+              "id": "63152635",
+              "displayName": "13Disciple",
+              "name": "13disciple",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64100925",
+              "displayName": "aaalois",
+              "name": "aaalois",
+              "__typename": "Channel"
+            },
+            {
+              "id": "190234525",
+              "displayName": "AtakanAtillaa",
+              "name": "atakanatillaa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "472207393",
+              "displayName": "Army_Guy_E8",
+              "name": "army_guy_e8",
+              "__typename": "Channel"
+            },
+            {
+              "id": "52161910",
+              "displayName": "AwesomeEpicGuys",
+              "name": "awesomeepicguys",
+              "__typename": "Channel"
+            },
+            {
+              "id": "269428412",
+              "displayName": "BasterdBari",
+              "name": "basterdbari",
+              "__typename": "Channel"
+            },
+            {
+              "id": "434996393",
+              "displayName": "be_zone",
+              "name": "be_zone",
+              "__typename": "Channel"
+            },
+            {
+              "id": "112710939",
+              "displayName": "Benso",
+              "name": "benso",
+              "__typename": "Channel"
+            },
+            {
+              "id": "592436994",
+              "displayName": "Bizzord_WOT",
+              "name": "bizzord_wot",
+              "__typename": "Channel"
+            },
+            {
+              "id": "80515877",
+              "displayName": "BangAverageTanker",
+              "name": "bangaveragetanker",
+              "__typename": "Channel"
+            },
+            {
+              "id": "166135339",
+              "displayName": "BruhMeh82",
+              "name": "bruhmeh82",
+              "__typename": "Channel"
+            },
+            {
+              "id": "933282983",
+              "displayName": "carotte_p2n",
+              "name": "carotte_p2n",
+              "__typename": "Channel"
+            },
+            {
+              "id": "98314017",
+              "displayName": "ChudyChudziutki",
+              "name": "chudychudziutki",
+              "__typename": "Channel"
+            },
+            {
+              "id": "138758200",
+              "displayName": "ConTrollFM",
+              "name": "controllfm",
+              "__typename": "Channel"
+            },
+            {
+              "id": "62603776",
+              "displayName": "cyganzor",
+              "name": "cyganzor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "25722719",
+              "displayName": "Dakillzor",
+              "name": "dakillzor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "162137646",
+              "displayName": "danma_935",
+              "name": "danma_935",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28576941",
+              "displayName": "DamiensGaming",
+              "name": "damiensgaming",
+              "__typename": "Channel"
+            },
+            {
+              "id": "271379029",
+              "displayName": "d1namka",
+              "name": "d1namka",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1102027926",
+              "displayName": "D1namka_ua",
+              "name": "d1namka_ua",
+              "__typename": "Channel"
+            },
+            {
+              "id": "74696708",
+              "displayName": "DED87",
+              "name": "ded87",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41800397",
+              "displayName": "DezGamez",
+              "name": "dezgamez",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1032554410",
+              "displayName": "Divich_UA",
+              "name": "divich_ua",
+              "__typename": "Channel"
+            },
+            {
+              "id": "137138717",
+              "displayName": "dorotka22_",
+              "name": "dorotka22_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "801133265",
+              "displayName": "dodo_imperfection",
+              "name": "dodo_imperfection",
+              "__typename": "Channel"
+            },
+            {
+              "id": "121647123",
+              "displayName": "Draconis73",
+              "name": "draconis73",
+              "__typename": "Channel"
+            },
+            {
+              "id": "217078732",
+              "displayName": "DrapsM",
+              "name": "drapsm",
+              "__typename": "Channel"
+            },
+            {
+              "id": "111783598",
+              "displayName": "EinfachSmon",
+              "name": "einfachsmon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "449251134",
+              "displayName": "ElProjektRED",
+              "name": "elprojektred",
+              "__typename": "Channel"
+            },
+            {
+              "id": "515949357",
+              "displayName": "ErictheVirus",
+              "name": "ericthevirus",
+              "__typename": "Channel"
+            },
+            {
+              "id": "887150585",
+              "displayName": "FioStern",
+              "name": "fiostern",
+              "__typename": "Channel"
+            },
+            {
+              "id": "197056992",
+              "displayName": "foxsea",
+              "name": "foxsea",
+              "__typename": "Channel"
+            },
+            {
+              "id": "103179576",
+              "displayName": "Fr3ddy",
+              "name": "fr3ddy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "442517675",
+              "displayName": "fr3dyy",
+              "name": "fr3dyy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64032139",
+              "displayName": "Gazelle_Intensity",
+              "name": "gazelle_intensity",
+              "__typename": "Channel"
+            },
+            {
+              "id": "109431309",
+              "displayName": "German_intelligence",
+              "name": "german_intelligence",
+              "__typename": "Channel"
+            },
+            {
+              "id": "141982730",
+              "displayName": "God_Pack",
+              "name": "god_pack",
+              "__typename": "Channel"
+            },
+            {
+              "id": "101563036",
+              "displayName": "gr4siii",
+              "name": "gr4siii",
+              "__typename": "Channel"
+            },
+            {
+              "id": "401188376",
+              "displayName": "habwot",
+              "name": "habwot",
+              "__typename": "Channel"
+            },
+            {
+              "id": "719582046",
+              "displayName": "iulia_slays",
+              "name": "iulia_slays",
+              "__typename": "Channel"
+            },
+            {
+              "id": "270618132",
+              "displayName": "iRocket1997i",
+              "name": "irocket1997i",
+              "__typename": "Channel"
+            },
+            {
+              "id": "996278485",
+              "displayName": "INeSp1kI",
+              "name": "inesp1ki",
+              "__typename": "Channel"
+            },
+            {
+              "id": "132698290",
+              "displayName": "jaeckefa",
+              "name": "jaeckefa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38181398",
+              "displayName": "jXcr",
+              "name": "jxcr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "403404680",
+              "displayName": "julesteam",
+              "name": "julesteam",
+              "__typename": "Channel"
+            },
+            {
+              "id": "96467932",
+              "displayName": "JujuGZN",
+              "name": "jujugzn",
+              "__typename": "Channel"
+            },
+            {
+              "id": "443826579",
+              "displayName": "K4ROL___",
+              "name": "k4rol___",
+              "__typename": "Channel"
+            },
+            {
+              "id": "123584344",
+              "displayName": null,
+              "name": "kamileater",
+              "__typename": "Channel"
+            },
+            {
+              "id": "214777260",
+              "displayName": "KECAJEK",
+              "name": "kecajek",
+              "__typename": "Channel"
+            },
+            {
+              "id": "60229623",
+              "displayName": "kelj0streams",
+              "name": "kelj0streams",
+              "__typename": "Channel"
+            },
+            {
+              "id": "133972531",
+              "displayName": "kestrelhawk_",
+              "name": "kestrelhawk_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "431577214",
+              "displayName": "Killer0005_",
+              "name": "killer0005_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "92428969",
+              "displayName": "Kipinka",
+              "name": "kipinka",
+              "__typename": "Channel"
+            },
+            {
+              "id": "153260511",
+              "displayName": "kiryuton",
+              "name": "kiryuton",
+              "__typename": "Channel"
+            },
+            {
+              "id": "66019478",
+              "displayName": "KorbenDetka",
+              "name": "korbendetka",
+              "__typename": "Channel"
+            },
+            {
+              "id": "573304905",
+              "displayName": "kubiktvua",
+              "name": "kubiktvua",
+              "__typename": "Channel"
+            },
+            {
+              "id": "117972622",
+              "displayName": "L4ny_",
+              "name": "l4ny_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "100509600",
+              "displayName": "LadyMaeUS",
+              "name": "ladymaeus",
+              "__typename": "Channel"
+            },
+            {
+              "id": "116768600",
+              "displayName": "lazerok07",
+              "name": "lazerok07",
+              "__typename": "Channel"
+            },
+            {
+              "id": "269378078",
+              "displayName": "lordly_ua",
+              "name": "lordly_ua",
+              "__typename": "Channel"
+            },
+            {
+              "id": "269454246",
+              "displayName": "LorduGamer",
+              "name": "lordugamer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "175364825",
+              "displayName": "Lucinka351",
+              "name": "lucinka351",
+              "__typename": "Channel"
+            },
+            {
+              "id": "169570447",
+              "displayName": "Lynxs___",
+              "name": "lynxs___",
+              "__typename": "Channel"
+            },
+            {
+              "id": "61776958",
+              "displayName": "mailand",
+              "name": "mailand",
+              "__typename": "Channel"
+            },
+            {
+              "id": "91133155",
+              "displayName": "Manst3inB",
+              "name": "manst3inb",
+              "__typename": "Channel"
+            },
+            {
+              "id": "511298079",
+              "displayName": "Mautz_",
+              "name": "mautz_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "63420921",
+              "displayName": "MaxGamingFPS",
+              "name": "maxgamingfps",
+              "__typename": "Channel"
+            },
+            {
+              "id": "58150192",
+              "displayName": "Maxximus2323",
+              "name": "maxximus2323",
+              "__typename": "Channel"
+            },
+            {
+              "id": "530448904",
+              "displayName": "meowcat16_",
+              "name": "meowcat16_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "107470869",
+              "displayName": "MikeMorrinson",
+              "name": "mikemorrinson",
+              "__typename": "Channel"
+            },
+            {
+              "id": "90809514",
+              "displayName": "Mlle_Heloise",
+              "name": "mlle_heloise",
+              "__typename": "Channel"
+            },
+            {
+              "id": "107025980",
+              "displayName": "Mishulika12",
+              "name": "mishulika12",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1106897432",
+              "displayName": "miss_corvina",
+              "name": "miss_corvina",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51420061",
+              "displayName": "missj4cky",
+              "name": "missj4cky",
+              "__typename": "Channel"
+            },
+            {
+              "id": "131192328",
+              "displayName": "mohjo_beist",
+              "name": "mohjo_beist",
+              "__typename": "Channel"
+            },
+            {
+              "id": "115872559",
+              "displayName": "M0ff_",
+              "name": "m0ff_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "97903976",
+              "displayName": "Mouzakrobat",
+              "name": "mouzakrobat",
+              "__typename": "Channel"
+            },
+            {
+              "id": "47167396",
+              "displayName": "MrScheff",
+              "name": "mrscheff",
+              "__typename": "Channel"
+            },
+            {
+              "id": "604841537",
+              "displayName": "Mrs__Vi",
+              "name": "mrs__vi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "91282212",
+              "displayName": "MrBotosh",
+              "name": "mrbotosh",
+              "__typename": "Channel"
+            },
+            {
+              "id": "52556545",
+              "displayName": "Msimpson54",
+              "name": "msimpson54",
+              "__typename": "Channel"
+            },
+            {
+              "id": "30118763",
+              "displayName": "NewMultiShow",
+              "name": "newmultishow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "81188606",
+              "displayName": "Nick_Shox",
+              "name": "nick_shox",
+              "__typename": "Channel"
+            },
+            {
+              "id": "518182797",
+              "displayName": "nolik192",
+              "name": "nolik192",
+              "__typename": "Channel"
+            },
+            {
+              "id": "62763356",
+              "displayName": "oldskool",
+              "name": "oldskool",
+              "__typename": "Channel"
+            },
+            {
+              "id": "488800873",
+              "displayName": "Olenkaa___",
+              "name": "olenkaa___",
+              "__typename": "Channel"
+            },
+            {
+              "id": "44536868",
+              "displayName": "Orzanel",
+              "name": "orzanel",
+              "__typename": "Channel"
+            },
+            {
+              "id": "60537669",
+              "displayName": "O_P_Hacker",
+              "name": "o_p_hacker",
+              "__typename": "Channel"
+            },
+            {
+              "id": "122422572",
+              "displayName": "pamboum",
+              "name": "pamboum",
+              "__typename": "Channel"
+            },
+            {
+              "id": "54884216",
+              "displayName": "PaPaPawian",
+              "name": "papapawian",
+              "__typename": "Channel"
+            },
+            {
+              "id": "141988493",
+              "displayName": "petrus89",
+              "name": "petrus89",
+              "__typename": "Channel"
+            },
+            {
+              "id": "37863672",
+              "displayName": "POtkanzoR",
+              "name": "potkanzor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "963705608",
+              "displayName": "POTUJNOSLAVE",
+              "name": "potujnoslave",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1051847884",
+              "displayName": "PR0L1GHT",
+              "name": "pr0l1ght",
+              "__typename": "Channel"
+            },
+            {
+              "id": "30623831",
+              "displayName": "QuickyBaby",
+              "name": "quickybaby",
+              "__typename": "Channel"
+            },
+            {
+              "id": "163216709",
+              "displayName": "Quinnetic",
+              "name": "quinnetic",
+              "__typename": "Channel"
+            },
+            {
+              "id": "79075908",
+              "displayName": "RagingRaptor",
+              "name": "ragingraptor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "737873611",
+              "displayName": "rambina1989",
+              "name": "rambina1989",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1191637262",
+              "displayName": "RarHarpia",
+              "name": "rarharpia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "104114361",
+              "displayName": "Remi_iD",
+              "name": "remi_id",
+              "__typename": "Channel"
+            },
+            {
+              "id": "967082239",
+              "displayName": "Roha_wot",
+              "name": "roha_wot",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1105566019",
+              "displayName": "SaprosTV",
+              "name": "saprostv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "496375480",
+              "displayName": "schattenfee_",
+              "name": "schattenfee_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "418577381",
+              "displayName": "schumi_wot",
+              "name": "schumi_wot",
+              "__typename": "Channel"
+            },
+            {
+              "id": "852549791",
+              "displayName": "sh0kerix",
+              "name": "sh0kerix",
+              "__typename": "Channel"
+            },
+            {
+              "id": "83620472",
+              "displayName": "Sir8J",
+              "name": "sir8j",
+              "__typename": "Channel"
+            },
+            {
+              "id": "110775952",
+              "displayName": "skill4ltu",
+              "name": "skill4ltu",
+              "__typename": "Channel"
+            },
+            {
+              "id": "416271045",
+              "displayName": "skifler_wot",
+              "name": "skifler_wot",
+              "__typename": "Channel"
+            },
+            {
+              "id": "247378647",
+              "displayName": "stahlsebbl",
+              "name": "stahlsebbl",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36854432",
+              "displayName": "Sturgie_Pooh",
+              "name": "sturgie_pooh",
+              "__typename": "Channel"
+            },
+            {
+              "id": "428377602",
+              "displayName": "styperek",
+              "name": "styperek",
+              "__typename": "Channel"
+            },
+            {
+              "id": "149590098",
+              "displayName": "SuperKravatak",
+              "name": "superkravatak",
+              "__typename": "Channel"
+            },
+            {
+              "id": "112120139",
+              "displayName": "SwissNada",
+              "name": "swissnada",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51045488",
+              "displayName": "synop_s",
+              "name": "synop_s",
+              "__typename": "Channel"
+            },
+            {
+              "id": "35628354",
+              "displayName": "Svitman",
+              "name": "svitman",
+              "__typename": "Channel"
+            },
+            {
+              "id": "672502866",
+              "displayName": "szulik____",
+              "name": "szulik____",
+              "__typename": "Channel"
+            },
+            {
+              "id": "101916738",
+              "displayName": "tablito_na",
+              "name": "tablito_na",
+              "__typename": "Channel"
+            },
+            {
+              "id": "21547838",
+              "displayName": "TalkTo_MeGoose",
+              "name": "talkto_megoose",
+              "__typename": "Channel"
+            },
+            {
+              "id": "98827681",
+              "displayName": "Tankelit",
+              "name": "tankelit",
+              "__typename": "Channel"
+            },
+            {
+              "id": "797214049",
+              "displayName": "TaxiTodd",
+              "name": "taxitodd",
+              "__typename": "Channel"
+            },
+            {
+              "id": "94606599",
+              "displayName": "Teamkrado",
+              "name": "teamkrado",
+              "__typename": "Channel"
+            },
+            {
+              "id": "569917351",
+              "displayName": "terry_talk",
+              "name": "terry_talk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "79159662",
+              "displayName": "TheGamingLion7",
+              "name": "thegaminglion7",
+              "__typename": "Channel"
+            },
+            {
+              "id": "532984495",
+              "displayName": "theincredulousk",
+              "name": "theincredulousk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "950213144",
+              "displayName": "thelordgamingttv",
+              "name": "thelordgamingttv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "90185555",
+              "displayName": "TonTon_BeBeR",
+              "name": "tonton_beber",
+              "__typename": "Channel"
+            },
+            {
+              "id": "56307400",
+              "displayName": "Trinxxy",
+              "name": "trinxxy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "73230656",
+              "displayName": "Ulfhednarr",
+              "name": "ulfhednarr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "122838951",
+              "displayName": "Valliwusel",
+              "name": "valliwusel",
+              "__typename": "Channel"
+            },
+            {
+              "id": "901341371",
+              "displayName": "Venixi_UA",
+              "name": "venixi_ua",
+              "__typename": "Channel"
+            },
+            {
+              "id": "72618986",
+              "displayName": "Vdr1984",
+              "name": "vdr1984",
+              "__typename": "Channel"
+            },
+            {
+              "id": "865713154",
+              "displayName": "V_I_P_Person_WOT",
+              "name": "v_i_p_person_wot",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1129989425",
+              "displayName": "WabbitQueen",
+              "name": "wabbitqueen",
+              "__typename": "Channel"
+            },
+            {
+              "id": "128678170",
+              "displayName": "WarChildWins",
+              "name": "warchildwins",
+              "__typename": "Channel"
+            },
+            {
+              "id": "119864669",
+              "displayName": "xNarfix",
+              "name": "xnarfix",
+              "__typename": "Channel"
+            },
+            {
+              "id": "166514356",
+              "displayName": "Xilense",
+              "name": "xilense",
+              "__typename": "Channel"
+            },
+            {
+              "id": "263067318",
+              "displayName": "zellner__",
+              "name": "zellner__",
+              "__typename": "Channel"
+            },
+            {
+              "id": "125185642",
+              "displayName": "Zurugula",
+              "name": "zurugula",
+              "__typename": "Channel"
+            },
+            {
+              "id": "49099014",
+              "displayName": "marty_vole",
+              "name": "marty_vole",
+              "__typename": "Channel"
+            },
+            {
+              "id": "79248512",
+              "displayName": "Ohare83",
+              "name": "ohare83",
+              "__typename": "Channel"
+            },
+            {
+              "id": "90326940",
+              "displayName": "StronkMaxi",
+              "name": "stronkmaxi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "138295620",
+              "displayName": "0miki0_",
+              "name": "0miki0_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "653539694",
+              "displayName": "餡餡餡",
+              "name": "ansan0721",
+              "__typename": "Channel"
+            },
+            {
+              "id": "223501005",
+              "displayName": "hirolog123",
+              "name": "hirolog123",
+              "__typename": "Channel"
+            },
+            {
+              "id": "468199353",
+              "displayName": "系ーけいー",
+              "name": "kei_kakari",
+              "__typename": "Channel"
+            },
+            {
+              "id": "171838569",
+              "displayName": "purple67a",
+              "name": "purple67a",
+              "__typename": "Channel"
+            },
+            {
+              "id": "68231863",
+              "displayName": "teppei_game",
+              "name": "teppei_game",
+              "__typename": "Channel"
+            },
+            {
+              "id": "147904239",
+              "displayName": "youhey_k",
+              "name": "youhey_k",
+              "__typename": "Channel"
+            },
+            {
+              "id": "610158036",
+              "displayName": "PrimulaChiel",
+              "name": "primulachiel",
+              "__typename": "Channel"
+            },
+            {
+              "id": "52286845",
+              "displayName": "熊貓看世界",
+              "name": "kiki00023",
+              "__typename": "Channel"
+            },
+            {
+              "id": "153555178",
+              "displayName": "MosquitoQueen",
+              "name": "mosquitoqueen",
+              "__typename": "Channel"
+            },
+            {
+              "id": "20862430",
+              "displayName": "阿賽",
+              "name": "sighsir",
+              "__typename": "Channel"
+            },
+            {
+              "id": "31411247",
+              "displayName": "_星仔_",
+              "name": "starboy0509",
+              "__typename": "Channel"
+            },
+            {
+              "id": "52114236",
+              "displayName": "豪斯流氓",
+              "name": "ttcf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "476438585",
+              "displayName": "XuanGaming03",
+              "name": "xuangaming03",
+              "__typename": "Channel"
+            },
+            {
+              "id": "45210752",
+              "displayName": "bossdog_",
+              "name": "bossdog_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "962525794",
+              "displayName": "General_Hans98",
+              "name": "general_hans98",
+              "__typename": "Channel"
+            },
+            {
+              "id": "216509846",
+              "displayName": "KNineTanksVN",
+              "name": "kninetanksvn",
+              "__typename": "Channel"
+            },
+            {
+              "id": "53606905",
+              "displayName": "stewiejp",
+              "name": "stewiejp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "454605451",
+              "displayName": "teysanook",
+              "name": "teysanook",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64061739",
+              "displayName": "TheNapalmer",
+              "name": "thenapalmer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "105248091",
+              "displayName": "캐비어",
+              "name": "violetcav1ar",
+              "__typename": "Channel"
+            },
+            {
+              "id": "204249769",
+              "displayName": "아르콩",
+              "name": "aarkongdiary",
+              "__typename": "Channel"
+            },
+            {
+              "id": "145424381",
+              "displayName": "_라텐_",
+              "name": "ra77en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "438569700",
+              "displayName": "말랑체리카우",
+              "name": "malrangcherrycow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "112154351",
+              "displayName": "리브즈",
+              "name": "nay3028",
+              "__typename": "Channel"
+            },
+            {
+              "id": "17457368",
+              "displayName": "嗶嗶",
+              "name": "cksbb_channel",
+              "__typename": "Channel"
+            },
+            {
+              "id": "57952709",
+              "displayName": "Aramoso",
+              "name": "aramoso",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28454116",
+              "displayName": "sakalito",
+              "name": "sakalito",
+              "__typename": "Channel"
+            },
+            {
+              "id": "56443942",
+              "displayName": "Monsteryoo",
+              "name": "monsteryoo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "52092222",
+              "displayName": "Rysiek",
+              "name": "rysiek",
+              "__typename": "Channel"
+            },
+            {
+              "id": "132092863",
+              "displayName": "GotYouBaby",
+              "name": "gotyoubaby",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
+        "description": "Support a Streamer",
+        "detailsURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
+        "endAt": "2025-12-22T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/77c43047-4e75-42bb-8aad-28a4406e9bde.jpeg",
+        "name": "Support a Streamer",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-15T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "16af496b-c483-11f0-8cb3-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_SAS_1225",
+                  "createdAt": "2025-11-18T13:34:11.217Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/87e0ee0d-7201-425f-89fc-7892475b9517.png",
+                  "isIosAvailable": false,
+                  "name": "Aurora Borealis 2D style",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-22T15:59:59.999Z",
+            "name": "Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-12-15T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "ee12af97-c460-11f0-9fed-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
+        "description": "Festive Token Store #9",
+        "detailsURL": "https://worldoftanks.eu/news/general-news/wot-monthly-december-2025/",
+        "endAt": "2025-12-22T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a513744c-c71f-4698-9294-e4089aee7c92.png",
+        "name": "Festive Token Store #9",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-19T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f382d0ca-c460-11f0-a2f7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_FTS_1225_9_1",
+                  "createdAt": "2025-11-18T09:09:07.333Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d2bf0be8-4251-4578-9aa5-91748c373e6a.png",
+                  "isIosAvailable": false,
+                  "name": "10x Festive Tokens",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_FTS_1225_9_2",
+                  "createdAt": "2025-11-18T09:09:48.933Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/481bb7a1-0443-460d-b2f0-9ecc1febc15e.png",
+                  "isIosAvailable": false,
+                  "name": "5x consumables",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_FTS_1225_9_3",
+                  "createdAt": "2025-11-18T09:10:41.711Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62758204-eb6e-42ab-80c7-26c879ff1e5c.png",
+                  "isIosAvailable": false,
+                  "name": "3x emblems",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-22T15:59:59.999Z",
+            "name": "Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-12-19T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "bf104cd5-d602-11f0-b8bb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
+        "description": "This badge was earned by subscribing or gifting a sub to any World of Tanks broadcast during the Holiday Ops 26 campaign period",
+        "detailsURL": "https://worldoftanks.eu/en/news/live-streams/combined-streams-promotion-december-2025/",
+        "endAt": "2025-12-22T23:58:59.996Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f66a5c12-e319-4609-947e-d94a56b73ac1.png",
+        "name": "Holiday Ops 2026",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-15T09:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f678d72b-d602-11f0-9c61-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "44972fe4-d603-11f0-b8af-0a58a9feac02",
+                  "createdAt": "2025-12-10T20:03:17.249Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3a484580-de76-4231-8798-426d89ce5396.png",
+                  "isIosAvailable": false,
+                  "name": "Holiday Ops 2026",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-22T23:58:59.996Z",
+            "name": "Holiday Ops 2026",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-12-15T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "78290120-d08d-11f0-b196-0acac55b430b",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://help.twitch.tv/s/article/how-to-use-emotes",
+        "description": "Watch any WorldOfTanks stream for 30 minutes to unlock the WorldOfTanksBenedict emote until January 19th, 2026.",
+        "detailsURL": "https://help.twitch.tv/s/article/how-to-use-emotes",
+        "endAt": "2026-01-13T07:29:59Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/world_of_tanks_benedict_q4_2025/worldoftanksbenedict_112x112.png",
+        "name": "World of Tanks Winter Ops",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-05T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "782acb9a-d08d-11f0-b196-0acac55b430b",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "7822fbfe-d08d-11f0-b196-0acac55b430b",
+                  "createdAt": "2025-12-03T21:17:27.301Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/world_of_tanks_benedict_q4_2025/worldoftanksbenedict_112x112.png",
+                  "isIosAvailable": false,
+                  "name": "WorldOfTanksBenedict Emote",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "EMOTE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-13T07:29:59Z",
+            "name": "WorldOfTanksBenedict Emote",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 5,
+            "startAt": "2025-12-05T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-05T17:00:00.000Z"
   },
   {
     "endAt": "2025-12-22T16:58:59.999Z",
@@ -22084,6 +20179,585 @@
       }
     ],
     "startAt": "2025-12-18T09:00:00.000Z"
+  },
+  {
+    "endAt": "2025-12-25T22:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/510389_IGDB-120x160.jpg",
+    "gameDisplayName": "Shakes and Fidget",
+    "gameId": "510389",
+    "rewards": [
+      {
+        "id": "c1371f67-c13f-11f0-bd37-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "31546195",
+              "displayName": "DORZER",
+              "name": "dorzer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "528627315",
+              "displayName": "CHAZE",
+              "name": "chaze",
+              "__typename": "Channel"
+            },
+            {
+              "id": "461027402",
+              "displayName": "ChromieDE",
+              "name": "chromiede",
+              "__typename": "Channel"
+            },
+            {
+              "id": "183467919",
+              "displayName": "Niisa",
+              "name": "niisa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "23219030",
+              "displayName": "MrMoregame",
+              "name": "mrmoregame",
+              "__typename": "Channel"
+            },
+            {
+              "id": "835202159",
+              "displayName": "MoxTales",
+              "name": "moxtales",
+              "__typename": "Channel"
+            },
+            {
+              "id": "111907235",
+              "displayName": "UweReinholzen",
+              "name": "uwereinholzen",
+              "__typename": "Channel"
+            },
+            {
+              "id": "617586038",
+              "displayName": "der_cyberpunk",
+              "name": "der_cyberpunk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "511077598",
+              "displayName": "Blackhammerplay",
+              "name": "blackhammerplay",
+              "__typename": "Channel"
+            },
+            {
+              "id": "60107409",
+              "displayName": "ZiroTV",
+              "name": "zirotv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "144297117",
+              "displayName": "feena1986",
+              "name": "feena1986",
+              "__typename": "Channel"
+            },
+            {
+              "id": "28764226",
+              "displayName": "Terste",
+              "name": "terste",
+              "__typename": "Channel"
+            },
+            {
+              "id": "57361005",
+              "displayName": "Slayproxx",
+              "name": "slayproxx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "27122439",
+              "displayName": "FlyGunCZ",
+              "name": "flyguncz",
+              "__typename": "Channel"
+            },
+            {
+              "id": "506569203",
+              "displayName": "FeketeMiklos",
+              "name": "feketemiklos",
+              "__typename": "Channel"
+            },
+            {
+              "id": "131302635",
+              "displayName": "Crappa",
+              "name": "crappa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "50548499",
+              "displayName": "Karthas",
+              "name": "karthas",
+              "__typename": "Channel"
+            },
+            {
+              "id": "96654503",
+              "displayName": "Avid_is_Odd",
+              "name": "avid_is_odd",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36875967",
+              "displayName": "HaiseT",
+              "name": "haiset",
+              "__typename": "Channel"
+            },
+            {
+              "id": "35669163",
+              "displayName": "Patrikturi",
+              "name": "patrikturi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "70962587",
+              "displayName": "spajKK",
+              "name": "spajkk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "106318725",
+              "displayName": "demonzz1",
+              "name": "demonzz1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "58462752",
+              "displayName": "Angela35",
+              "name": "angela35",
+              "__typename": "Channel"
+            },
+            {
+              "id": "699164718",
+              "displayName": "BanditSF",
+              "name": "banditsf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "114725203",
+              "displayName": "LootenantSF",
+              "name": "lootenantsf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "805125142",
+              "displayName": "Gorgoss9000",
+              "name": "gorgoss9000",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39366973",
+              "displayName": "ByLeBajLo",
+              "name": "bylebajlo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "54537654",
+              "displayName": "eGoLeipzig",
+              "name": "egoleipzig",
+              "__typename": "Channel"
+            },
+            {
+              "id": "168406730",
+              "displayName": "Karolinger",
+              "name": "karolinger",
+              "__typename": "Channel"
+            },
+            {
+              "id": "32346877",
+              "displayName": "Nayfal",
+              "name": "nayfal",
+              "__typename": "Channel"
+            },
+            {
+              "id": "786358692",
+              "displayName": "chris2000_sf",
+              "name": "chris2000_sf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "46420142",
+              "displayName": "Spielestyler",
+              "name": "spielestyler",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41158487",
+              "displayName": "gilmacek",
+              "name": "gilmacek",
+              "__typename": "Channel"
+            },
+            {
+              "id": "144670369",
+              "displayName": "Yvraldis",
+              "name": "yvraldis",
+              "__typename": "Channel"
+            },
+            {
+              "id": "35884167",
+              "displayName": "Sintica",
+              "name": "sintica",
+              "__typename": "Channel"
+            },
+            {
+              "id": "173255814",
+              "displayName": "Katazuri",
+              "name": "katazuri",
+              "__typename": "Channel"
+            },
+            {
+              "id": "478970738",
+              "displayName": "nikoletaa",
+              "name": "nikoletaa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "156642160",
+              "displayName": "FormulaLena",
+              "name": "formulalena",
+              "__typename": "Channel"
+            },
+            {
+              "id": "63958651",
+              "displayName": "HollaDieWaldfee",
+              "name": "holladiewaldfee",
+              "__typename": "Channel"
+            },
+            {
+              "id": "461754237",
+              "displayName": "froschmaedchen",
+              "name": "froschmaedchen",
+              "__typename": "Channel"
+            },
+            {
+              "id": "759378266",
+              "displayName": "Salz_Live",
+              "name": "salz_live",
+              "__typename": "Channel"
+            },
+            {
+              "id": "612288491",
+              "displayName": "RicAres_",
+              "name": "ricares_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "119347026",
+              "displayName": "Maexel",
+              "name": "maexel",
+              "__typename": "Channel"
+            },
+            {
+              "id": "550749478",
+              "displayName": "DrArteck",
+              "name": "drarteck",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1269292404",
+              "displayName": "Aurikos_Zonestos",
+              "name": "aurikos_zonestos",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1404388762",
+              "displayName": "kleiner_bandit",
+              "name": "kleiner_bandit",
+              "__typename": "Channel"
+            },
+            {
+              "id": "711169992",
+              "displayName": "geerzson",
+              "name": "geerzson",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://sfgame.net/",
+        "description": "Droplets are additional drops to our main drop campaigns.",
+        "detailsURL": "https://playa-games.helpshift.com/hc/faq/255-twitch-drops/",
+        "endAt": "2025-12-25T22:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "510389",
+          "slug": "shakes-and-fidget",
+          "displayName": "Shakes and Fidget",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6151a32e-e373-422c-9f80-f6d637474a3a.png",
+        "name": "S&F Droplets",
+        "owner": {
+          "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+          "name": "Playa-Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-19T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "074ea627-c140-11f0-be84-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_smith_1",
+                  "createdAt": "2023-10-23T13:20:49.242Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52713587-b18e-4fb5-98e7-98d18ac8a90c.png",
+                  "isIosAvailable": false,
+                  "name": "Smith Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-25T22:58:59.999Z",
+            "name": "Smith Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 150,
+            "startAt": "2025-12-19T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "105deb3d-c140-11f0-903b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_coins_1",
+                  "createdAt": "2023-10-23T13:21:52.772Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0a700720-5536-4e26-9e88-e7acd65fa50d.png",
+                  "isIosAvailable": false,
+                  "name": "Allrounder Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-25T22:58:59.999Z",
+            "name": "Allrounder Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-12-19T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "dc2e5999-c13f-11f0-b0b0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_gold_1",
+                  "createdAt": "2023-10-23T13:18:52.734Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/47c0dba2-cba2-4e95-9275-7a90e5001e7b.png",
+                  "isIosAvailable": false,
+                  "name": "Gilded Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-25T22:58:59.999Z",
+            "name": "Gilded Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-12-19T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "e59c2b9f-c13f-11f0-bd77-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_stone_1",
+                  "createdAt": "2023-10-23T13:26:54.703Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1ade6cce-9bc6-439e-b10a-96e316ae7ab7.png",
+                  "isIosAvailable": false,
+                  "name": "Construction Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-25T22:58:59.999Z",
+            "name": "Construction Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-12-19T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ecb6a4f0-c13f-11f0-846c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_arcane_1",
+                  "createdAt": "2023-10-23T13:20:14.832Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/afdebe30-7182-479d-9a0a-625aaf572892.png",
+                  "isIosAvailable": false,
+                  "name": "Arcane Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-25T22:58:59.999Z",
+            "name": "Arcane Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-19T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f64f162c-c13f-11f0-a59c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_souls_1",
+                  "createdAt": "2023-10-23T13:22:53.815Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e79e0a45-6818-487b-8f82-5b07e9984c61.png",
+                  "isIosAvailable": false,
+                  "name": "Soul Taker Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-25T22:58:59.999Z",
+            "name": "Soul Taker Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-12-19T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ffb1f99f-c13f-11f0-aa74-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_fortress_1",
+                  "createdAt": "2023-10-23T13:19:20.681Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/49697d01-d7a2-404e-b45a-a05dec0932a2.png",
+                  "isIosAvailable": false,
+                  "name": "Fortification Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-25T22:58:59.999Z",
+            "name": "Fortification Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-19T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-19T15:00:00.000Z"
   },
   {
     "endAt": "2025-12-26T05:44:59.999Z",
