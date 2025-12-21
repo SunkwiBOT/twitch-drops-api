@@ -84,6 +84,240 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "2b44fdcb-d968-11f0-937d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "605673574",
+              "displayName": "NARAKABLADEPOINT",
+              "name": "narakabladepoint",
+              "__typename": "Channel"
+            },
+            {
+              "id": "714202554",
+              "displayName": "永劫無間_亞服",
+              "name": "naraka_asia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "798260911",
+              "displayName": "narakaesports",
+              "name": "narakaesports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.narakathegame.com/news/guide/20230710/35647_1097721.html",
+        "description": "Watch livestreams to claim your drops!",
+        "detailsURL": "https://www.narakathegame.com/news/official/20250723/32172_1249209.html",
+        "endAt": "2025-12-21T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515474",
+          "slug": "naraka-bladepoint",
+          "displayName": "NARAKA: BLADEPOINT",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/de83daf3-593a-4662-aeef-37706a3fcb3c.png",
+        "name": "12.21 J Cup",
+        "owner": {
+          "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+          "name": "NetEase",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-21T07:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "4139d4c1-d968-11f0-86aa-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9134651",
+                  "createdAt": "2025-11-19T06:46:17.454Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/25e227b4-2ed3-44ec-a99f-cc69a9b70704.jpeg",
+                  "isIosAvailable": false,
+                  "name": "J Cup",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-21T15:59:59.999Z",
+            "name": " J Cup*2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-12-21T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4567a4b2-d968-11f0-a0cb-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9134652",
+                  "createdAt": "2025-11-19T06:46:36.474Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e580b5b3-5cb0-4b3d-9c9a-6d1d74b6ab88.jpeg",
+                  "isIosAvailable": false,
+                  "name": " J Cup",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-21T15:59:59.999Z",
+            "name": "J Cup*3 ",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-12-21T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "49935644-d968-11f0-87b6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9134653",
+                  "createdAt": "2025-11-19T06:46:53.138Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dd2a39ea-07ce-43d7-868c-413d36d9b758.jpeg",
+                  "isIosAvailable": false,
+                  "name": " J Cup",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-21T15:59:59.999Z",
+            "name": "J Cup*4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-21T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4d5e8832-d968-11f0-a287-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9134654",
+                  "createdAt": "2025-11-19T06:47:14.145Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f2d33a04-4619-4e9e-aad1-e7abd3d1b10d.jpeg",
+                  "isIosAvailable": false,
+                  "name": "J Cup",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-21T15:59:59.999Z",
+            "name": "J Cup*6",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-12-21T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "52ecd325-d968-11f0-a287-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47_CUSTOM_ID_9134694",
+                  "createdAt": "2025-11-19T06:50:42.115Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515474",
+                    "name": "NARAKA: BLADEPOINT",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/57848879-6635-4d9f-b215-81dc9a4c7ecc.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Kurumi·Can't Look",
+                  "ownerOrganization": {
+                    "id": "417c83f8-80bc-400e-9cde-0c3289ee0a47",
+                    "name": "NetEase",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-21T15:59:59.999Z",
+            "name": "Kurumi·Can't Look",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-21T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "7986e8a9-d3e0-11f0-b4cd-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
