@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2025-12-23T16:58:59.999Z",
+    "endAt": "2025-12-24T16:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/623291583_IGDB-120x160.jpg",
     "gameDisplayName": "Ghosts of Tabor",
     "gameId": "623291583",
@@ -215,6 +215,221 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 180,
             "startAt": "2025-12-22T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "a791f6ed-d6ce-11f0-b19b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://ghostsoftabor.com/twitch-drops-event-slaymas/",
+        "description": "It is Slaymas season in Tabor. For 12 days straight, Twitch viewers can earn exclusive event-only rewards. Watch participating channels, collect your drops, and bring some holiday havoc into every raid.",
+        "detailsURL": "https://ghostsoftabor.com/twitch-drops-event-slaymas/",
+        "endAt": "2025-12-24T16:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "623291583",
+          "slug": "ghosts-of-tabor",
+          "displayName": "Ghosts of Tabor",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/867cabea-ca25-487f-b1d4-b71aa02526c8.png",
+        "name": "Day 5 of SLAYMAS",
+        "owner": {
+          "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+          "name": "Combat Waffle Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-23T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b86cc7b3-d6ce-11f0-80d6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_RandomHealthItem",
+                  "createdAt": "2025-02-11T16:17:23.992Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a9c5e686-3fb8-4ec2-81dd-94bd920670e1.png",
+                  "isIosAvailable": false,
+                  "name": "Random Health Item",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-24T16:58:59.999Z",
+            "name": "Random Health Item",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-12-23T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "bf437adf-d6ce-11f0-b399-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_SeedBag",
+                  "createdAt": "2025-12-11T22:54:53.853Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d2833930-150d-4e53-b108-537eebf1f031.png",
+                  "isIosAvailable": false,
+                  "name": "Takistan Seeds",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-24T16:58:59.999Z",
+            "name": "Takistan Seeds Bag",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-12-23T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c348a44a-d6ce-11f0-8dcd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_NRS2",
+                  "createdAt": "2025-12-12T13:58:16.784Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e1f12135-6f75-41cc-bb08-bc6fda85a272.png",
+                  "isIosAvailable": false,
+                  "name": "2x NRS",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-24T16:58:59.999Z",
+            "name": "2x NRS",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-23T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "cabb9594-d6ce-11f0-9ab6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_RagnarWhite",
+                  "createdAt": "2025-12-11T22:54:29.632Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be07eb08-6a27-460a-b73c-b7c8793a2154.png",
+                  "isIosAvailable": false,
+                  "name": "Ragnar Skin- White",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-24T16:58:59.999Z",
+            "name": "BackPack Skin - White",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-23T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "cfa3663f-d6ce-11f0-b53d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_Ragnar",
+                  "createdAt": "2025-12-11T22:54:05.44Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dc2620e8-3e10-465a-84f1-702a3d01725b.png",
+                  "isIosAvailable": false,
+                  "name": "Ragnar Backpack",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-24T16:58:59.999Z",
+            "name": "Ragnar Backpack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-12-23T17:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -2254,6 +2469,255 @@
       }
     ],
     "startAt": "2025-12-22T05:00:00.000Z"
+  },
+  {
+    "endAt": "2025-12-23T19:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
+    "gameDisplayName": "Tanki Online",
+    "gameId": "417810",
+    "rewards": [
+      {
+        "id": "4210aaa4-dfef-11f0-829d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "117023453",
+              "displayName": "TankiSport_RU",
+              "name": "tankisport_ru",
+              "__typename": "Channel"
+            },
+            {
+              "id": "64274116",
+              "displayName": "TankiSport_EN",
+              "name": "tankisport_en",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806896138",
+              "displayName": "TankiSport_RU_2",
+              "name": "tankisport_ru_2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "806894175",
+              "displayName": "TankiSport_EN_2",
+              "name": "tankisport_en_2",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://tankionline.com/play/",
+        "description": "Watch Tanki Online eSports match livestreams and get Epic Keys in Tanki Online",
+        "detailsURL": "https://tankionline.com/",
+        "endAt": "2025-12-23T19:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417810",
+          "slug": "tanki-online",
+          "displayName": "Tanki Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6743ebfc-2d2c-43f7-9472-1ad2116a59a6.jpeg",
+        "name": "WM 2025 ChS 1st (GF)",
+        "owner": {
+          "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+          "name": "APL Publishing Ltd",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-23T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5ce60225-dfef-11f0-b610-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-23T19:29:59.999Z",
+            "name": "Drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 20,
+            "startAt": "2025-12-23T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "61a36bc4-dfef-11f0-a9d8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-23T19:29:59.999Z",
+            "name": "Drop 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-12-23T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "669c37f2-dfef-11f0-99e9-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-23T19:29:59.999Z",
+            "name": "Drop 3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2025-12-23T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "69a8e733-dfef-11f0-9068-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-23T19:29:59.999Z",
+            "name": "Drop 4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-23T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6ea87de6-dfef-11f0-8bce-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d_CUSTOM_ID_01e203c8-9582-4c7d-94e6-920e59d5fa40",
+                  "createdAt": "2023-10-18T14:21:12.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417810",
+                    "name": "Tanki Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e7e439fb-4418-4b0e-8d06-2f0390149f18.png",
+                  "isIosAvailable": false,
+                  "name": "Epic Key",
+                  "ownerOrganization": {
+                    "id": "81aa7ca2-3eca-435b-849b-f23fe1b45a9d",
+                    "name": "APL Publishing Ltd",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-23T19:29:59.999Z",
+            "name": "Drop 5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2025-12-23T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-23T17:00:00.000Z"
   },
   {
     "endAt": "2025-12-23T19:59:59.996Z",
