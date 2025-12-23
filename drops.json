@@ -1252,6 +1252,111 @@
     "startAt": "2025-12-12T18:10:00.000Z"
   },
   {
+    "endAt": "2025-12-24T06:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
+    "gameDisplayName": "Halo Infinite",
+    "gameId": "506416",
+    "rewards": [
+      {
+        "id": "3140bc3e-cfce-11f0-98be-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "10692319",
+              "displayName": "Eli_X",
+              "name": "eli_x",
+              "__typename": "Channel"
+            },
+            {
+              "id": "77973535",
+              "displayName": "RealLifeSpartan",
+              "name": "reallifespartan",
+              "__typename": "Channel"
+            },
+            {
+              "id": "129132342",
+              "displayName": "Reclximer",
+              "name": "reclximer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "25664179",
+              "displayName": "UberNick",
+              "name": "ubernick",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn in-game content in Halo Infinite!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2025-12-24T06:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c66b28e9-e736-4d40-b4c2-5195c69b6603.png",
+        "name": "Grassroots Ranked-DEC23",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-23T23:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3bd368bb-cfce-11f0-b729-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_I75N-XHKI-ITLN-UQLS",
+                  "createdAt": "2024-07-11T17:28:34.411Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0fca25df-0273-472b-bf47-8df910253f2d.png",
+                  "isIosAvailable": false,
+                  "name": "Electron Spartan ID",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-24T06:59:59.999Z",
+            "name": "Electron Spartan ID",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-23T23:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-23T23:00:00.000Z"
+  },
+  {
     "endAt": "2025-12-24T09:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
     "gameDisplayName": "Albion Online",
