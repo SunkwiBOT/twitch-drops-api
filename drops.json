@@ -1,229 +1,5 @@
 [
   {
-    "endAt": "2025-12-24T16:58:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/623291583_IGDB-120x160.jpg",
-    "gameDisplayName": "Ghosts of Tabor",
-    "gameId": "623291583",
-    "rewards": [
-      {
-        "id": "a791f6ed-d6ce-11f0-b19b-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://ghostsoftabor.com/twitch-drops-event-slaymas/",
-        "description": "It is Slaymas season in Tabor. For 12 days straight, Twitch viewers can earn exclusive event-only rewards. Watch participating channels, collect your drops, and bring some holiday havoc into every raid.",
-        "detailsURL": "https://ghostsoftabor.com/twitch-drops-event-slaymas/",
-        "endAt": "2025-12-24T16:58:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "623291583",
-          "slug": "ghosts-of-tabor",
-          "displayName": "Ghosts of Tabor",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/867cabea-ca25-487f-b1d4-b71aa02526c8.png",
-        "name": "Day 5 of SLAYMAS",
-        "owner": {
-          "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
-          "name": "Combat Waffle Studios",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-12-23T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "b86cc7b3-d6ce-11f0-80d6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_RandomHealthItem",
-                  "createdAt": "2025-02-11T16:17:23.992Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "623291583",
-                    "name": "Ghosts of Tabor",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a9c5e686-3fb8-4ec2-81dd-94bd920670e1.png",
-                  "isIosAvailable": false,
-                  "name": "Random Health Item",
-                  "ownerOrganization": {
-                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
-                    "name": "Combat Waffle Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-24T16:58:59.999Z",
-            "name": "Random Health Item",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2025-12-23T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "bf437adf-d6ce-11f0-b399-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_SeedBag",
-                  "createdAt": "2025-12-11T22:54:53.853Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "623291583",
-                    "name": "Ghosts of Tabor",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d2833930-150d-4e53-b108-537eebf1f031.png",
-                  "isIosAvailable": false,
-                  "name": "Takistan Seeds",
-                  "ownerOrganization": {
-                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
-                    "name": "Combat Waffle Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-24T16:58:59.999Z",
-            "name": "Takistan Seeds Bag",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2025-12-23T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "c348a44a-d6ce-11f0-8dcd-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_NRS2",
-                  "createdAt": "2025-12-12T13:58:16.784Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "623291583",
-                    "name": "Ghosts of Tabor",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e1f12135-6f75-41cc-bb08-bc6fda85a272.png",
-                  "isIosAvailable": false,
-                  "name": "2x NRS",
-                  "ownerOrganization": {
-                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
-                    "name": "Combat Waffle Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-24T16:58:59.999Z",
-            "name": "2x NRS",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2025-12-23T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "cabb9594-d6ce-11f0-9ab6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_RagnarWhite",
-                  "createdAt": "2025-12-11T22:54:29.632Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "623291583",
-                    "name": "Ghosts of Tabor",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/be07eb08-6a27-460a-b73c-b7c8793a2154.png",
-                  "isIosAvailable": false,
-                  "name": "Ragnar Skin- White",
-                  "ownerOrganization": {
-                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
-                    "name": "Combat Waffle Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-24T16:58:59.999Z",
-            "name": "BackPack Skin - White",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2025-12-23T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "cfa3663f-d6ce-11f0-b53d-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_Ragnar",
-                  "createdAt": "2025-12-11T22:54:05.44Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "623291583",
-                    "name": "Ghosts of Tabor",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dc2620e8-3e10-465a-84f1-702a3d01725b.png",
-                  "isIosAvailable": false,
-                  "name": "Ragnar Backpack",
-                  "ownerOrganization": {
-                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
-                    "name": "Combat Waffle Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2025-12-24T16:58:59.999Z",
-            "name": "Ragnar Backpack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2025-12-23T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-12-23T17:00:00.000Z"
-  },
-  {
     "endAt": "2025-12-24T17:57:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
     "gameDisplayName": "Rise Online",
@@ -4591,6 +4367,230 @@
       }
     ],
     "startAt": "2025-12-22T16:00:00.000Z"
+  },
+  {
+    "endAt": "2025-12-25T16:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/623291583_IGDB-120x160.jpg",
+    "gameDisplayName": "Ghosts of Tabor",
+    "gameId": "623291583",
+    "rewards": [
+      {
+        "id": "19358ff5-d6cb-11f0-bef3-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://ghostsoftabor.com/twitch-drops-event-slaymas/",
+        "description": "It is Slaymas season in Tabor. For 12 days straight, Twitch viewers can earn exclusive event-only rewards. Watch participating channels, collect your drops, and bring some holiday havoc into every raid.",
+        "detailsURL": "https://ghostsoftabor.com/twitch-drops-event-slaymas/",
+        "endAt": "2025-12-25T16:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "623291583",
+          "slug": "ghosts-of-tabor",
+          "displayName": "Ghosts of Tabor",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/559da591-69c8-4228-b141-39b5a4949681.png",
+        "name": "Day 6 of SLAYMAS",
+        "owner": {
+          "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+          "name": "Combat Waffle Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-24T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "2406b134-d6cf-11f0-95f0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_APPOWDER",
+                  "createdAt": "2025-11-05T16:26:37.009Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ff74a8ed-fd6c-40c7-8369-8956c23d4f6c.png",
+                  "isIosAvailable": false,
+                  "name": "AP Powder",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-25T16:58:59.999Z",
+            "name": "AP Powder",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-12-24T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ee68f273-d6ce-11f0-9200-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_Promedol",
+                  "createdAt": "2025-12-11T20:01:15.004Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/204fa4dd-1ce2-4c70-af4c-b23611a4960d.png",
+                  "isIosAvailable": false,
+                  "name": "Promedol",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-25T16:58:59.999Z",
+            "name": "Promedol",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2025-12-24T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f321a91f-d6ce-11f0-8f89-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_RandomFigurine",
+                  "createdAt": "2025-11-05T19:28:26.511Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4fa3c3ed-4809-431e-88c6-ac363e913a46.png",
+                  "isIosAvailable": false,
+                  "name": "Random Figurine",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-25T16:58:59.999Z",
+            "name": "Random Figure",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-12-24T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "f8d2f672-d6ce-11f0-aba1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_BrassJar",
+                  "createdAt": "2025-12-11T20:59:02.825Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/01464367-968f-4da8-997c-0e43da83c191.png",
+                  "isIosAvailable": false,
+                  "name": "Brass Jar",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-25T16:58:59.999Z",
+            "name": "Brass Jar",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-24T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "fd87e2f5-d6ce-11f0-bf2b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc_CUSTOM_ID_PatchXmas",
+                  "createdAt": "2025-12-11T22:52:15.383Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "623291583",
+                    "name": "Ghosts of Tabor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/42f2af66-9a1a-4ff4-9c37-e048ae31711d.png",
+                  "isIosAvailable": false,
+                  "name": "Patch Xmas Little Debbie",
+                  "ownerOrganization": {
+                    "id": "60d0d638-ee2a-4ed2-9181-7b127dc186dc",
+                    "name": "Combat Waffle Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-25T16:58:59.999Z",
+            "name": "Patch- Christmas",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-24T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-24T17:00:00.000Z"
   },
   {
     "endAt": "2025-12-29T08:58:59.999Z",
