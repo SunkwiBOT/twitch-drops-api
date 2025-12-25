@@ -18464,6 +18464,12 @@
               "displayName": "1insomniah1",
               "name": "1insomniah1",
               "__typename": "Channel"
+            },
+            {
+              "id": "35942364",
+              "displayName": "TheDonfps",
+              "name": "thedonfps",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -41193,6 +41199,554 @@
     "startAt": "2025-12-23T13:00:00.000Z"
   },
   {
+    "endAt": "2026-01-06T11:59:59.997Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511295_IGDB-120x160.jpg",
+    "gameDisplayName": "Predecessor",
+    "gameId": "511295",
+    "rewards": [
+      {
+        "id": "484da8a3-dc29-11f0-aa35-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://predecessorgame.com/link-accounts",
+        "description": "Celebrate the holiday season with some exclusive festive drops!",
+        "detailsURL": "https://predecessorgame.com/twitch-drops",
+        "endAt": "2026-01-06T11:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511295",
+          "slug": "predecessor",
+          "displayName": "Predecessor",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/062271be-2223-4258-b791-8a89481ec83f.png",
+        "name": "🎁 Winterfest [2025]",
+        "owner": {
+          "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+          "name": "Omeda Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-25T01:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "0fdf4cef-dc2a-11f0-b391-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8a4dc97a-bc81-11ef-957e-0a58a9feac02",
+                  "createdAt": "2024-12-17T14:16:42.893Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c42082a0-21be-4a56-93f2-8120d285b8e9.png",
+                  "isIosAvailable": false,
+                  "name": "Mistletoe Icon",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-06T11:59:59.997Z",
+            "name": "Mistletoe [Icon]",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2025-12-25T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "2ecae3da-dc2a-11f0-b7c2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "58b718a2-eec5-11ef-bd23-0a58a9feac02",
+                  "createdAt": "2025-02-19T13:28:03.613Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3d23d56e-1719-4fff-a001-c16c7e9f923f.png",
+                  "isIosAvailable": false,
+                  "name": "Ion Loot Core",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-06T11:59:59.997Z",
+            "name": "Ion Loot Core",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-12-25T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3bf56453-dc2a-11f0-9f81-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bcec037e-db38-11f0-90aa-0a58a9feac02",
+                  "createdAt": "2025-12-17T11:08:38.272Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5752084d-596d-4a74-ae23-c38310a06e19.png",
+                  "isIosAvailable": false,
+                  "name": "Blue Reindeer Grux",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-06T11:59:59.997Z",
+            "name": "Blue Reindeer Grux [Skin Variant]",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-12-25T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "48bbc731-df3d-11f0-b085-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3adaf77a-bc81-11ef-aa9d-0a58a9feac02",
+                  "createdAt": "2024-12-17T14:14:29.6Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2d311095-9e9a-4ee1-ace7-1898b8eccec6.png",
+                  "isIosAvailable": false,
+                  "name": "Polar Strike Skin",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "07c82364-6eb5-11ef-9d0c-0a58a9feac02",
+                  "createdAt": "2024-09-09T14:08:47.046Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/45a14f03-fd17-43e9-8cf0-8993db568281.png",
+                  "isIosAvailable": false,
+                  "name": "Polar Strike Spray",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "542f0856-6eb4-11ef-b0b0-0a58a9feac02",
+                  "createdAt": "2024-09-09T14:03:45.731Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/add05603-8251-4d4e-ac97-ec6303bf0494.png",
+                  "isIosAvailable": false,
+                  "name": "Polar Strike Icon",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "92261106-6eb4-11ef-a546-0a58a9feac02",
+                  "createdAt": "2024-09-09T14:05:29.691Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bf6cb0dc-1878-42af-ac4d-c6ce90211024.png",
+                  "isIosAvailable": false,
+                  "name": "Polar Strike Banner",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-06T11:59:59.997Z",
+            "name": "Polar Strike Belica [Collection]",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-25T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4b11ac0d-dc2a-11f0-b2d2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a867b630-bc81-11ef-866b-0a58a9feac02",
+                  "createdAt": "2024-12-17T14:17:33.394Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/22620473-eaab-4267-8707-c8d186c4387e.png",
+                  "isIosAvailable": false,
+                  "name": "5,000 Amber",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "60463a64-eec5-11ef-ad6e-0a58a9feac02",
+                  "createdAt": "2025-02-19T13:28:16.295Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/524953d6-ade9-4ad3-8f65-2120682a44f3.png",
+                  "isIosAvailable": false,
+                  "name": "Quantum Loot Core",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-06T11:59:59.997Z",
+            "name": "Quantum Loot Core & Amber",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 600,
+            "startAt": "2025-12-25T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "59c62d4e-dc2a-11f0-9309-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "b1176870-db39-11f0-b940-0a58a9feac02",
+                  "createdAt": "2025-12-17T11:15:27.92Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e1a91761-f062-4c6d-8a93-fa11dea6bad6.png",
+                  "isIosAvailable": false,
+                  "name": "Tasty Countess OHE",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6d3272d6-bc80-11ef-8232-0a58a9feac02",
+                  "createdAt": "2024-12-17T14:08:44.563Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/990f1751-fb63-415a-9227-02ce951bac82.png",
+                  "isIosAvailable": false,
+                  "name": "Crown Overhead Emote",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "907d505f-bc80-11ef-b5cb-0a58a9feac02",
+                  "createdAt": "2024-12-17T14:09:43.774Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62855886-e570-489f-9bb8-46e5f8429978.png",
+                  "isIosAvailable": false,
+                  "name": "Bright Idea OH Emote",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-06T11:59:59.997Z",
+            "name": "Overhead Emote [Collection]",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2025-12-25T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6ad21fc2-df3d-11f0-ad4e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "799004eb-ca15-11f0-9103-0a58a9feac02",
+                  "createdAt": "2025-11-25T15:43:23.109Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4a12e366-d804-49dd-a4bb-e63d3ee2b588.png",
+                  "isIosAvailable": false,
+                  "name": "Purple Sentinel Eden",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-06T11:59:59.997Z",
+            "name": "Purple Sentinel Eden [Skin Variant]",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2025-12-25T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "763fc4cd-dc2a-11f0-81e2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d529da16-bc80-11ef-83b6-0a58a9feac02",
+                  "createdAt": "2024-12-17T14:11:38.99Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/63635c62-af51-43cd-b84e-71cede0c878c.png",
+                  "isIosAvailable": false,
+                  "name": "Explosive Gift Spray",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-06T11:59:59.997Z",
+            "name": "Explosive Gift [Spray]",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2025-12-25T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7e5d6bf3-dc2a-11f0-8db4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d05934b7-db38-11f0-90f7-0a58a9feac02",
+                  "createdAt": "2025-12-17T11:09:10.864Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c56fb45e-529c-48d2-b94d-fdd71a7a6f46.png",
+                  "isIosAvailable": false,
+                  "name": "Red Reindeer Grux",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-06T11:59:59.997Z",
+            "name": "Red Reindeer Grux [Skin Variant]",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 720,
+            "startAt": "2025-12-25T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "992c41d5-df3d-11f0-aa05-0a58a9feac02",
+            "requiredSubs": 5,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a22be1de-db38-11f0-b7c2-0a58a9feac02",
+                  "createdAt": "2025-12-17T11:07:53.392Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511295",
+                    "name": "Predecessor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4031eaab-cc5a-4731-b0a3-dffaee8e3b6c.png",
+                  "isIosAvailable": false,
+                  "name": "Cyan Sentinel Eden",
+                  "ownerOrganization": {
+                    "id": "22c57757-e520-49ee-a5fa-0313f78c6c1f",
+                    "name": "Omeda Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-06T11:59:59.997Z",
+            "name": "Cyan Sentinel Eden [Skin Variant]",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-12-25T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-25T01:00:00.000Z"
+  },
+  {
     "endAt": "2026-01-06T13:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1798838504_IGDB-120x160.jpg",
     "gameDisplayName": "Jurassic World Evolution 3",
@@ -49624,5 +50178,193 @@
       }
     ],
     "startAt": "2025-12-22T08:00:00.000Z"
+  },
+  {
+    "endAt": "2026-01-20T23:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1441208453_IGDB-120x160.jpg",
+    "gameDisplayName": "Once Human",
+    "gameId": "1441208453",
+    "rewards": [
+      {
+        "id": "7ec8e92f-dee4-11f0-944f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.oncehuman.game/twitch/",
+        "description": "Holiday Twitch Drops Event will start from December 25, 2025 to January 20, 2025 (UTC).  Connect your Once Human character and Twitch account to receive the reward. Watch a participating stream channel to join the activity. You need to watch Once Human for 6 hours to claim all the rewards. The rewards will be sent to your account in 24 hours.",
+        "detailsURL": "https://www.oncehuman.game/twitch/",
+        "endAt": "2026-01-20T23:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1441208453",
+          "slug": "once-human",
+          "displayName": "Once Human",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0f53ef32-cc8e-4135-a979-c53a00343930.png",
+        "name": "Holiday Twitch Drops",
+        "owner": {
+          "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258",
+          "name": "Starry",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-25T01:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a4450250-dee4-11f0-b5dc-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258_CUSTOM_ID_11120099",
+                  "createdAt": "2025-12-22T03:25:37.102Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1441208453",
+                    "name": "Once Human",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1e382e2d-01be-4384-bff8-d3ddeb448da8.png",
+                  "isIosAvailable": true,
+                  "name": "Sticker: Gingerbread Man",
+                  "ownerOrganization": {
+                    "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258",
+                    "name": "Starry",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-20T23:58:59.999Z",
+            "name": "Sticker: Gingerbread Man",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2025-12-25T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ab32329d-dee4-11f0-b2b5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258_CUSTOM_ID_85000096",
+                  "createdAt": "2025-12-22T03:26:06.213Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1441208453",
+                    "name": "Once Human",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/11a0401c-ba67-4c11-8711-58aa44391bd6.png",
+                  "isIosAvailable": true,
+                  "name": "Cradle Charm: Gingerbread",
+                  "ownerOrganization": {
+                    "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258",
+                    "name": "Starry",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-20T23:58:59.999Z",
+            "name": "Cradle Charm: Gingerbread Man",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-25T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "affc08fb-dee4-11f0-8bce-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258_CUSTOM_ID_37560048",
+                  "createdAt": "2025-12-22T03:27:04.936Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1441208453",
+                    "name": "Once Human",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74539e0c-2a7b-4525-ab50-6cbe0cb3c522.png",
+                  "isIosAvailable": true,
+                  "name": "New Year Cosmetic Select1",
+                  "ownerOrganization": {
+                    "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258",
+                    "name": "Starry",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-20T23:58:59.999Z",
+            "name": "New Year Cosmetic Selection Gift Box I",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2025-12-25T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b517d486-dee4-11f0-b085-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258_CUSTOM_ID_37560047",
+                  "createdAt": "2025-12-22T03:27:49.137Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1441208453",
+                    "name": "Once Human",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ab1d735e-b636-4a00-b983-77bffe648782.png",
+                  "isIosAvailable": true,
+                  "name": "New Year Cosmetic Select2",
+                  "ownerOrganization": {
+                    "id": "342881d8-de19-427a-b1b8-2c0ebbcbe258",
+                    "name": "Starry",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-20T23:58:59.999Z",
+            "name": "New Year Cosmetic Selection Gift Box II ",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2025-12-25T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-25T01:00:00.000Z"
   }
 ]
