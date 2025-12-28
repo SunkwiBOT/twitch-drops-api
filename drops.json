@@ -311,6 +311,93 @@
     "startAt": "2025-12-27T18:00:00.000Z"
   },
   {
+    "endAt": "2025-12-28T06:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
+    "gameDisplayName": "Marbles on Stream",
+    "gameId": "509511",
+    "rewards": [
+      {
+        "id": "ccf200e3-e303-11f0-874d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "103738974",
+              "displayName": "Shambugi",
+              "name": "shambugi",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://app.pixelbypixelstudios.live/auth/twitch/link",
+        "description": "Marbles on Stream is the most welcoming stream interactive experience where a streamer can run the game and welcome anyone in their chat to participate with \"!play\". That's it!\n\nJoin in for exclusive prizes and keep an eye on our for how we evolve this event in the future. If you need assistance please join our discord. Discord.gg/pixelbypixelstudios ",
+        "detailsURL": "https://pixelbypixel.studio/about/twitch-drops",
+        "endAt": "2025-12-28T06:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "509511",
+          "slug": "marbles-on-stream",
+          "displayName": "Marbles on Stream",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a26c38ae-2bac-441e-b851-106693df5bdc.png",
+        "name": "Shambugi Litmas Drop",
+        "owner": {
+          "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+          "name": "Pixel by Pixel Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-28T03:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "719be8cf-e304-11f0-924e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTestBundleCC",
+                  "createdAt": "2023-10-26T09:00:50.239Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "509511",
+                    "name": "Marbles on Stream",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7519a7e0-3787-4284-8790-071aaf244db2.png",
+                  "isIosAvailable": false,
+                  "name": "15 Community Coins",
+                  "ownerOrganization": {
+                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+                    "name": "Pixel by Pixel Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2025-12-28T06:59:59.999Z",
+            "name": "DROP",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2025-12-28T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-28T03:00:00.000Z"
+  },
+  {
     "endAt": "2025-12-28T09:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
     "gameDisplayName": "Albion Online",
