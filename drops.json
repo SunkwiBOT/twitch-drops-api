@@ -32638,6 +32638,122 @@
     "startAt": "2025-12-29T17:00:00.000Z"
   },
   {
+    "endAt": "2026-01-06T16:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/497057-120x160.jpg",
+    "gameDisplayName": "Destiny 2",
+    "gameId": "497057",
+    "rewards": [
+      {
+        "id": "747ecbfa-e5c1-11f0-a07c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.bungie.net/LinkTwitch",
+        "description": "Tune in as The Dawning returns to Destiny 2 for a Winter Wonderland event! Watch any D2 stream for 30 minutes to unlock the 'This Moment Forever' emblem and Subscribe or Gift a Sub to your favorite opted-in Destiny 2 streamer and receive the Awake at Night Emblem! This Emblem will be available from 16 December at 9AM PT until 30 December at 9AM PT, throughout The Dawning. You must link your Bungie account to Twitch to receive the Emblem. You can redeem the Emblem by logging into your Bungie.net account and going to the Partner Rewards section of the Code Redemption area. ",
+        "detailsURL": "https://help.bungie.net/articles/8048011793812",
+        "endAt": "2026-01-06T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "497057",
+          "slug": "destiny-2",
+          "displayName": "Destiny 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a5751288-0233-4e65-80c3-6bcbb3001016.jpeg",
+        "name": "The Dawning 2025",
+        "owner": {
+          "id": "3555708b-ff07-4392-a15b-bfae9356dfcf",
+          "name": "Bungie",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-30T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b3676c4d-e5c1-11f0-848f-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3555708b-ff07-4392-a15b-bfae9356dfcf_CUSTOM_ID_offers.entitlements.crm_emblems.year_8.emblem32",
+                  "createdAt": "2025-12-16T00:18:51.347Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "497057",
+                    "name": "Destiny 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee336068-4031-4526-950c-feac6b3dce79.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Awake at Night",
+                  "ownerOrganization": {
+                    "id": "3555708b-ff07-4392-a15b-bfae9356dfcf",
+                    "name": "Bungie",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-06T16:59:59.999Z",
+            "name": "Awake at Night",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2025-12-30T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "bf14c45e-e5c1-11f0-aae5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3555708b-ff07-4392-a15b-bfae9356dfcf_CUSTOM_ID_offers.entitlements.crm_emblems.year_8.emblem31",
+                  "createdAt": "2025-12-16T00:17:42.8Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "497057",
+                    "name": "Destiny 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/921f044b-2271-4e65-98fc-b145591bad2c.jpeg",
+                  "isIosAvailable": false,
+                  "name": "This Moment Forever",
+                  "ownerOrganization": {
+                    "id": "3555708b-ff07-4392-a15b-bfae9356dfcf",
+                    "name": "Bungie",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-06T16:59:59.999Z",
+            "name": "This Moment Forever",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2025-12-30T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-30T17:00:00.000Z"
+  },
+  {
     "endAt": "2026-01-06T23:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/603089883_IGDB-120x160.jpg",
     "gameDisplayName": "West Hunt",
