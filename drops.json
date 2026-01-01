@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2026-01-05T08:57:59.999Z",
+    "endAt": "2026-01-08T16:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
     "gameDisplayName": "World of Warships",
     "gameId": "32502",
@@ -939,6 +939,113 @@
           }
         ],
         "__typename": "DropCampaign"
+      },
+      {
+        "id": "f95b28dd-bfcc-11f0-b384-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://wargaming.net/personal/",
+        "description": "Derp",
+        "detailsURL": "https://worldofwarships.eu/news/general-news/stream-rewards-1411/",
+        "endAt": "2026-01-08T16:59:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "32502",
+          "slug": "world-of-warships",
+          "displayName": "World of Warships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/19820b9f-3e3d-4c43-976c-7dce318d0431.png",
+        "name": "Update 14.11 Drop: Week 6",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-01T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "09817c99-bfcd-11f0-89b5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1411_mission6",
+                  "createdAt": "2025-11-12T10:35:39.039Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b2751562-741b-4999-bea7-b327a1334988.png",
+                  "isIosAvailable": false,
+                  "name": "Update 14.11 Mission #6",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-08T16:59:59.997Z",
+            "name": "Update 14.11 Mission #6",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2026-01-01T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "132963ba-bfcd-11f0-b680-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1411_twitchbox",
+                  "createdAt": "2025-11-12T10:31:26.01Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2b41a383-0263-462c-a17c-345b3cbcb37b.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch Container 14.11",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-08T16:59:59.997Z",
+            "name": "Twitch Container 14.11 week #6",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-01-01T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
       }
     ],
     "startAt": "2025-12-25T17:00:00.000Z"
@@ -1240,7 +1347,7 @@
     "startAt": "2025-12-22T15:27:00.000Z"
   },
   {
-    "endAt": "2026-01-01T16:59:59.999Z",
+    "endAt": "2026-01-05T16:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21779-120x160.jpg",
     "gameDisplayName": "League of Legends",
     "gameId": "21779",
@@ -1372,6 +1479,138 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 0,
             "startAt": "2025-12-04T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "f3d118d4-9eea-11f0-b982-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "36029255",
+              "displayName": "Riot Games",
+              "name": "riotgames",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1103155299",
+              "displayName": "leagueoflegendsth",
+              "name": "leagueoflegendsth",
+              "__typename": "Channel"
+            },
+            {
+              "id": "485855940",
+              "displayName": "lolesportstw",
+              "name": "lolesportstw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "142055874",
+              "displayName": "ltaespanol",
+              "name": "ltaespanol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "104833324",
+              "displayName": "LeagueofLegendsJP",
+              "name": "leagueoflegendsjp",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36511475",
+              "displayName": "CBLOL",
+              "name": "cblol",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124425501",
+              "displayName": "LCK",
+              "name": "lck",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124420521",
+              "displayName": "LCS",
+              "name": "lcs",
+              "__typename": "Channel"
+            },
+            {
+              "id": "124422593",
+              "displayName": "LEC",
+              "name": "lec",
+              "__typename": "Channel"
+            },
+            {
+              "id": "485725873",
+              "displayName": "LoLPacificEN",
+              "name": "lolpacificen",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv/settings/connections#riot-connection",
+        "description": "Subscribers with paid and gifted Tier 1 subscriptions will earn the “FABULOUS!” emote by subscribing to participating LoL Esports channels. By subscribing, fans will receive an enhanced viewing experience while providing direct support to their favorite leagues and teams. ",
+        "detailsURL": "https://lolesports.com/en-US/news/worlds-2025-primer",
+        "endAt": "2026-01-05T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "21779",
+          "slug": "league-of-legends",
+          "displayName": "League of Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3cfe680c-cb31-4329-8fdc-f51c5e2b0d1c.png",
+        "name": "Worlds - Sub Drop",
+        "owner": {
+          "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+          "name": "Riot Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-01T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "d6e40450-9eeb-11f0-a389-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "931fd934-2149-4a85-a6d8-2190aa4439f3_CUSTOM_ID_2025-LoL-TwitchSubs-WorldsDrop",
+                  "createdAt": "2025-09-30T18:13:00.346Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "21779",
+                    "name": "League of Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ecc6beab-beed-4698-980a-f61c43437593.png",
+                  "isIosAvailable": true,
+                  "name": "\"FABULOUS!\" Emote\t\t\t\t\t",
+                  "ownerOrganization": {
+                    "id": "931fd934-2149-4a85-a6d8-2190aa4439f3",
+                    "name": "Riot Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-05T16:59:59.999Z",
+            "name": "\"FABULOUS!\" Emote",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2026-01-01T17:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
