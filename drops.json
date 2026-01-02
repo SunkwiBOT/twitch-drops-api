@@ -21003,6 +21003,150 @@
           }
         ],
         "__typename": "DropCampaign"
+      },
+      {
+        "id": "55bf2e05-dc24-11f0-b23d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "60957250",
+              "displayName": "Zactule",
+              "name": "zactule",
+              "__typename": "Channel"
+            },
+            {
+              "id": "68651620",
+              "displayName": "xiverisx",
+              "name": "xiverisx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "472207393",
+              "displayName": "Army_Guy_E8",
+              "name": "army_guy_e8",
+              "__typename": "Channel"
+            },
+            {
+              "id": "118948966",
+              "displayName": "Petty3601",
+              "name": "petty3601",
+              "__typename": "Channel"
+            },
+            {
+              "id": "66580390",
+              "displayName": "Sinstr1",
+              "name": "sinstr1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39822197",
+              "displayName": "Vishaw",
+              "name": "vishaw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "105524220",
+              "displayName": "GoliathGamesTV",
+              "name": "goliathgamestv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "444013214",
+              "displayName": "HELATTV",
+              "name": "helattv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "115148539",
+              "displayName": "JeffRiker",
+              "name": "jeffriker",
+              "__typename": "Channel"
+            },
+            {
+              "id": "588940811",
+              "displayName": "beaverdamstudios",
+              "name": "beaverdamstudios",
+              "__typename": "Channel"
+            },
+            {
+              "id": "270605976",
+              "displayName": "kwiatossttv",
+              "name": "kwiatossttv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "95720138",
+              "displayName": "Swindle_321",
+              "name": "swindle_321",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://modernarmor.worldoftanks.com/accounts/management/",
+        "description": "Happy New Year!",
+        "detailsURL": "https://modernarmor.worldoftanks.com/en/cms/notes/twitch-drops/",
+        "endAt": "2026-01-06T09:57:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "499551",
+          "slug": "world-of-tanks-console",
+          "displayName": "World of Tanks Console",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/af4e9593-fa28-4595-903b-da583c2c0d33.png",
+        "name": "Happy New Year",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-02T13:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7c89241f-dc24-11f0-9a82-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA_3DP_2024",
+                  "createdAt": "2024-04-17T09:41:05.128Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7cb1d90-3fe2-4ecf-b3f5-75c28229ebf5.png",
+                  "isIosAvailable": false,
+                  "name": "3 Days of Premium",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-06T09:57:59.999Z",
+            "name": "3 Days of Premium",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-01-02T13:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
       }
     ],
     "startAt": "2025-12-23T13:00:00.000Z"
