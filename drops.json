@@ -11795,7 +11795,7 @@
     "startAt": "2025-12-18T10:30:00.000Z"
   },
   {
-    "endAt": "2026-01-08T10:59:59.999Z",
+    "endAt": "2026-01-12T23:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/13263-120x160.jpg",
     "gameDisplayName": "EVE Online",
     "gameId": "13263",
@@ -13847,6 +13847,84 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 240,
             "startAt": "2026-01-05T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "7ea13158-ea61-11f0-ab43-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "40860651",
+              "displayName": "CCP",
+              "name": "ccp",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.eveonline.com/twitch",
+        "description": "Watch the CCP channel during the Winter Guest Streams and earn this new GalNet SKIN for the Pioneer!",
+        "detailsURL": "https://www.eveonline.com/twitch",
+        "endAt": "2026-01-12T23:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "13263",
+          "slug": "eve-online",
+          "displayName": "EVE Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cd9e73ea-0081-4b7f-95ee-e6738b83c930.jpeg",
+        "name": "Guest Streams Week 1",
+        "owner": {
+          "id": "5f41544e-1cde-4002-97dc-497d59f71dda",
+          "name": "CCP Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-06T00:01:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b42b93b6-ea61-11f0-87e9-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5f41544e-1cde-4002-97dc-497d59f71dda_CUSTOM_ID_tranquility-VEEN-8365-1",
+                  "createdAt": "2026-01-05T18:18:13.84Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "13263",
+                    "name": "EVE Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/554f3577-a9fa-4173-a006-afb899fb4513.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Pioneer GalNet SKIN",
+                  "ownerOrganization": {
+                    "id": "5f41544e-1cde-4002-97dc-497d59f71dda",
+                    "name": "CCP Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-12T23:58:59.999Z",
+            "name": "Pioneer Galnet SKIN",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-01-06T00:01:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
