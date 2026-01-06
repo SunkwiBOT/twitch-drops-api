@@ -1,5 +1,71 @@
 [
   {
+    "endAt": "2026-01-06T02:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
+    "gameDisplayName": "Eternal Return",
+    "gameId": "512864",
+    "rewards": [
+      {
+        "id": "c65bb476-eaa8-11f0-a411-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.playeternalreturn.com/",
+        "description": "https://twitch.playeternalreturn.com/",
+        "detailsURL": "https://twitch.playeternalreturn.com/",
+        "endAt": "2026-01-06T02:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "512864",
+          "slug": "eternal-return",
+          "displayName": "Eternal Return",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "DUMMY",
+        "owner": {
+          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+          "name": "Nimble Neuron Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-06T02:42:52Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ce375ecc-eaa8-11f0-be5a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": null,
+            "endAt": "2026-01-06T02:59:59.999Z",
+            "name": "DROPS TOKEN",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-01-06T02:42:52Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d0d0a0a1-eaa8-11f0-8cd4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": null,
+            "endAt": "2026-01-06T02:59:59.999Z",
+            "name": "DROPS TOKEN",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-01-06T02:42:52Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-06T02:42:52.000Z"
+  },
+  {
     "endAt": "2026-01-06T04:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/30921-120x160.jpg",
     "gameDisplayName": "Rocket League",
