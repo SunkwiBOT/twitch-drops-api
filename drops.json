@@ -6,198 +6,6 @@
     "gameId": "272952894",
     "rewards": [
       {
-        "id": "72dd0103-eb30-11f0-a636-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "51914127",
-              "displayName": "EAMaddenNFL",
-              "name": "eamaddennfl",
-              "__typename": "Channel"
-            },
-            {
-              "id": "189084349",
-              "displayName": "KurtBenkert",
-              "name": "kurtbenkert",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
-        "description": "Watch Good Morning Madden and earn Twitch Drops to power up your Ultimate Team!",
-        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
-        "endAt": "2026-01-07T02:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "272952894",
-          "slug": "ea-sports-madden-nfl-26",
-          "displayName": "Madden NFL 26",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/739a8aa5-5a74-4483-a5f8-947cea9b727f.png",
-        "name": "GMM + Benkert Show",
-        "owner": {
-          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-          "name": "Electronic Arts",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-01-06T23:50:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "91cd9e03-eb30-11f0-8d05-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-129",
-                  "createdAt": "2026-01-06T18:46:48.213Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "272952894",
-                    "name": "Madden NFL 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec74b387-c657-462e-8159-422804a89292.png",
-                  "isIosAvailable": false,
-                  "name": "Madden Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-07T02:59:59.999Z",
-            "name": "Madden Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2026-01-06T23:50:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "a6f07548-eb30-11f0-b376-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-KBPlaybook-013",
-                  "createdAt": "2026-01-06T18:48:27.418Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "272952894",
-                    "name": "Madden NFL 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1bd7d677-695a-416d-bdbb-957041ccee0b.png",
-                  "isIosAvailable": false,
-                  "name": "Benkert Dimes Playbook",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-07T02:59:59.999Z",
-            "name": "Benkert's Dimes Playbook",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2026-01-06T23:50:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "d64550ca-eb30-11f0-9592-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-130",
-                  "createdAt": "2026-01-06T18:47:22.224Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "272952894",
-                    "name": "Madden NFL 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ac57d98e-007c-4256-ac6e-a150f79b91af.png",
-                  "isIosAvailable": false,
-                  "name": "Madden Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-07T02:59:59.999Z",
-            "name": "Madden Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2026-01-06T23:50:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "e3ec1482-eb30-11f0-9b83-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-131",
-                  "createdAt": "2026-01-06T18:47:50.498Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "272952894",
-                    "name": "Madden NFL 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/49e101f7-2a01-4a10-aa0f-0097ec655436.png",
-                  "isIosAvailable": false,
-                  "name": "Madden Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-07T02:59:59.999Z",
-            "name": "Madden Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-01-06T23:50:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
         "id": "37b059fe-e436-11f0-990e-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -348,7 +156,7 @@
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2026-01-06T23:50:00.000Z"
+    "startAt": "2026-01-07T01:00:00.000Z"
   },
   {
     "endAt": "2026-01-07T06:59:59.999Z",
@@ -5894,6 +5702,12 @@
               "id": "52836225",
               "displayName": "PradoxOficial",
               "name": "pradoxoficial",
+              "__typename": "Channel"
+            },
+            {
+              "id": "35855900",
+              "displayName": "NeotwoBr",
+              "name": "neotwobr",
               "__typename": "Channel"
             }
           ],
@@ -28115,6 +27929,230 @@
       }
     ],
     "startAt": "2025-12-31T19:00:00.000Z"
+  },
+  {
+    "endAt": "2026-01-29T02:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2014795392_IGDB-120x160.jpg",
+    "gameDisplayName": "Infinity Nikki",
+    "gameId": "2014795392",
+    "rewards": [
+      {
+        "id": "4fa1bfa7-e25c-11f0-bfbb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://infinitynikki.infoldgames.com/proj/en/twitch-drops.html",
+        "description": "Watch Infinity Nikki on Twitch and earn exclusive in-game rewards!\n\nWatch Time Rewards:\n⏱️ Watch 15 mins – Diamond ×10\n⏱️ Watch 30 mins – Diamond ×20\n⏱️ Watch 45 mins – Bling ×20,000\n⏱️ Watch 1 hour – Thread of Purity ×100\n⏱️ Watch 1.5 hours – Shining Particle ×100",
+        "detailsURL": "https://infinitynikki.infoldgames.com/proj/en/twitch-drops.html",
+        "endAt": "2026-01-29T02:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2014795392",
+          "slug": "infinity-nikki",
+          "displayName": "Infinity Nikki",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fcfa502b-81fe-4f4f-810e-f754fcfdcbd3.png",
+        "name": "V2.1 Infinity Nikki",
+        "owner": {
+          "id": "bc06162e-7510-421a-8862-43f4e00a741e",
+          "name": "INFOLD PTE. LTD.",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-07T03:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3c9c1710-e60b-11f0-8b59-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bc06162e-7510-421a-8862-43f4e00a741e_CUSTOM_ID_666",
+                  "createdAt": "2025-12-31T05:38:08.452Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2014795392",
+                    "name": "Infinity Nikki",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3e183aae-dc1a-4ed4-ae7a-fa248ab36a12.png",
+                  "isIosAvailable": false,
+                  "name": "2.1 Diamondx10",
+                  "ownerOrganization": {
+                    "id": "bc06162e-7510-421a-8862-43f4e00a741e",
+                    "name": "INFOLD PTE. LTD.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-29T02:59:59.999Z",
+            "name": "Diamond ×10",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2026-01-07T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "45d156b3-e60b-11f0-ba19-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bc06162e-7510-421a-8862-43f4e00a741e_CUSTOM_ID_669",
+                  "createdAt": "2025-12-31T05:39:50.378Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2014795392",
+                    "name": "Infinity Nikki",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ae2028a-42ca-42e6-84e4-c7041e548e2c.png",
+                  "isIosAvailable": false,
+                  "name": "2.1 Thread of Purity×100",
+                  "ownerOrganization": {
+                    "id": "bc06162e-7510-421a-8862-43f4e00a741e",
+                    "name": "INFOLD PTE. LTD.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-29T02:59:59.999Z",
+            "name": "Thread of Purity ×100",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-01-07T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "533c9598-e60b-11f0-8dec-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bc06162e-7510-421a-8862-43f4e00a741e_CUSTOM_ID_668",
+                  "createdAt": "2025-12-31T05:37:09.276Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2014795392",
+                    "name": "Infinity Nikki",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5e05fdea-05d4-4912-aac2-362ad3c69262.png",
+                  "isIosAvailable": false,
+                  "name": "2.1 Bling×20,000",
+                  "ownerOrganization": {
+                    "id": "bc06162e-7510-421a-8862-43f4e00a741e",
+                    "name": "INFOLD PTE. LTD.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-29T02:59:59.999Z",
+            "name": "Bling ×20,000",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2026-01-07T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "5bb5cde8-e60b-11f0-9519-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bc06162e-7510-421a-8862-43f4e00a741e_CUSTOM_ID_667",
+                  "createdAt": "2025-12-31T06:13:27.845Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2014795392",
+                    "name": "Infinity Nikki",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1159e653-cab4-4107-aac8-dcf385ceeead.png",
+                  "isIosAvailable": false,
+                  "name": "2.1 Diamondx20",
+                  "ownerOrganization": {
+                    "id": "bc06162e-7510-421a-8862-43f4e00a741e",
+                    "name": "INFOLD PTE. LTD.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-29T02:59:59.999Z",
+            "name": "Diamond ×20",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-01-07T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "64df6c07-e60b-11f0-aa30-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bc06162e-7510-421a-8862-43f4e00a741e_CUSTOM_ID_670",
+                  "createdAt": "2025-12-31T05:39:23.783Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2014795392",
+                    "name": "Infinity Nikki",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c0e76fcf-5cf5-40b1-a58a-92b2b8775be2.png",
+                  "isIosAvailable": false,
+                  "name": "2.1 Shining Particle×100",
+                  "ownerOrganization": {
+                    "id": "bc06162e-7510-421a-8862-43f4e00a741e",
+                    "name": "INFOLD PTE. LTD.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-29T02:59:59.999Z",
+            "name": "Shining Particle ×100",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2026-01-07T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-07T03:00:00.000Z"
   },
   {
     "endAt": "2026-01-30T07:58:59.999Z",
