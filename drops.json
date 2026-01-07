@@ -6544,7 +6544,7 @@
             },
             {
               "id": "1382498803",
-              "displayName": "Reisbozo",
+              "displayName": "ReisBozo",
               "name": "reisbozo",
               "__typename": "Channel"
             },
@@ -8159,6 +8159,110 @@
       }
     ],
     "startAt": "2025-12-22T19:00:00.000Z"
+  },
+  {
+    "endAt": "2026-01-08T07:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/493057-120x160.jpg",
+    "gameDisplayName": "PUBG: BATTLEGROUNDS",
+    "gameId": "493057",
+    "rewards": [
+      {
+        "id": "8425d52e-e46b-11f0-9488-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://accounts.krafton.com",
+        "description": "A reward a day to brave the intensified cold. Watch any PUBG livestream on Twitch from Monday to Friday, claim your daily Drops, and survive the harsher chill of Erangel: Subzero.\n*Please refer to the events news on pubg.com for full item details.",
+        "detailsURL": "https://www.pubg.com/events/notice/9663",
+        "endAt": "2026-01-08T07:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "493057",
+          "slug": "pubg-battlegrounds",
+          "displayName": "PUBG: BATTLEGROUNDS",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4894647c-92c7-45d6-b0a8-27d33dcc7ea7.png",
+        "name": "Erangel: Subzero Drops",
+        "owner": {
+          "id": "2986fad1-6d72-43b0-8a18-c3c313414ab4",
+          "name": "KRAFTON Inc.",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-07T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ecc6a94e-e46b-11f0-b380-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2986fad1-6d72-43b0-8a18-c3c313414ab4_CUSTOM_ID_ESPhase2con_41050056",
+                  "createdAt": "2025-12-29T02:48:02.155Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "493057",
+                    "name": "PUBG: BATTLEGROUNDS",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/74ea38e1-3386-41c9-a713-bcd1ca31d65f.png",
+                  "isIosAvailable": false,
+                  "name": "Work Jacket (30 Days)",
+                  "ownerOrganization": {
+                    "id": "2986fad1-6d72-43b0-8a18-c3c313414ab4",
+                    "name": "KRAFTON Inc.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "2986fad1-6d72-43b0-8a18-c3c313414ab4_CUSTOM_ID_ESPhase2_41050056",
+                  "createdAt": "2025-12-29T02:48:46.056Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "493057",
+                    "name": "PUBG: BATTLEGROUNDS",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ddd8b89a-46cf-4a93-b838-6b860f1afa86.png",
+                  "isIosAvailable": false,
+                  "name": "Work Jacket (30 Days)",
+                  "ownerOrganization": {
+                    "id": "2986fad1-6d72-43b0-8a18-c3c313414ab4",
+                    "name": "KRAFTON Inc.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-08T07:59:59.998Z",
+            "name": "Work Jacket (30 Days)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-01-07T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-07T08:00:00.000Z"
   },
   {
     "endAt": "2026-01-08T08:27:59.999Z",
