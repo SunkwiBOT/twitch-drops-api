@@ -120,6 +120,228 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "124c2364-ed7f-11f0-a206-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "183562961",
+              "displayName": "WoTModernArmor",
+              "name": "wotmodernarmor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "472207393",
+              "displayName": "Army_Guy_E8",
+              "name": "army_guy_e8",
+              "__typename": "Channel"
+            },
+            {
+              "id": "105524220",
+              "displayName": "GoliathGamesTV",
+              "name": "goliathgamestv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "444013214",
+              "displayName": "HELATTV",
+              "name": "helattv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "118948966",
+              "displayName": "Petty3601",
+              "name": "petty3601",
+              "__typename": "Channel"
+            },
+            {
+              "id": "39822197",
+              "displayName": "Vishaw",
+              "name": "vishaw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "115148539",
+              "displayName": "JeffRiker",
+              "name": "jeffriker",
+              "__typename": "Channel"
+            },
+            {
+              "id": "588940811",
+              "displayName": "beaverdamstudios",
+              "name": "beaverdamstudios",
+              "__typename": "Channel"
+            },
+            {
+              "id": "270605976",
+              "displayName": "kwiatossttv",
+              "name": "kwiatossttv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "66580390",
+              "displayName": "Sinstr1",
+              "name": "sinstr1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "60957250",
+              "displayName": "Zactule",
+              "name": "zactule",
+              "__typename": "Channel"
+            },
+            {
+              "id": "95720138",
+              "displayName": "Swindle_321",
+              "name": "swindle_321",
+              "__typename": "Channel"
+            },
+            {
+              "id": "68651620",
+              "displayName": "xiverisx",
+              "name": "xiverisx",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://modernarmor.worldoftanks.com/accounts/management/",
+        "description": "Watch your favorite streamer and get rewards",
+        "detailsURL": "https://modernarmor.worldoftanks.com/en/cms/notes/twitch-drops/",
+        "endAt": "2026-01-13T09:57:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "499551",
+          "slug": "world-of-tanks-console",
+          "displayName": "World of Tanks Console",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/63899aab-a45c-428f-a73f-03061edc2a88.png",
+        "name": "Icebound Weekend 6",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-09T20:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "349f013b-ed7f-11f0-a6ad-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a655bd09-f368-11ee-9430-0a58a9feac02",
+                  "createdAt": "2024-04-05T16:22:08.785Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ea3d2b4d-1fd9-4af7-83d1-774adaf79c37.png",
+                  "isIosAvailable": false,
+                  "name": "(5) x1.25 Silver Boosters",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-13T09:57:59.998Z",
+            "name": "(5) x1.25 Silver Boosters",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-01-09T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3dd2a48a-ed7f-11f0-a206-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMACAMOVOUCHER",
+                  "createdAt": "2024-12-04T18:02:35.809Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8ccc0701-0a6c-434c-abae-61fb037e3cdc.png",
+                  "isIosAvailable": false,
+                  "name": "Camo Voucher",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-13T09:57:59.998Z",
+            "name": "Camo Voucher",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-01-09T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4848766c-ed7f-11f0-a073-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOTMA_25_Blobs",
+                  "createdAt": "2025-09-05T13:38:22.743Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "499551",
+                    "name": "World of Tanks Console",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a4ad7320-1388-4979-b1ed-d46409aef20c.png",
+                  "isIosAvailable": false,
+                  "name": "Blobs Camo",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-13T09:57:59.998Z",
+            "name": "Blobs Camo Set",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2026-01-09T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "d4058306-eaf1-11f0-a01a-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
