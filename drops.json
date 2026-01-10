@@ -17929,6 +17929,86 @@
     "startAt": "2026-01-09T15:00:00.000Z"
   },
   {
+    "endAt": "2026-01-16T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
+    "gameDisplayName": "Kirka.io",
+    "gameId": "356609813",
+    "rewards": [
+      {
+        "id": "4c1502c0-ee7a-11f0-abdd-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Kirka.io drop for the Corrupt Unobtainable",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2026-01-16T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fba35d46-8cd3-4c54-9f41-f4c8893c047b.png",
+        "name": "Corrupt",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-10T02:35:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "6a2e89c1-ee7a-11f0-987f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_1c7a9da1-4ab8-4df4-8c7d-68dc187cec08",
+                  "createdAt": "2026-01-10T23:15:38.062Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7c725929-9b99-4c45-aa1f-8c7fbe31b7ce.png",
+                  "isIosAvailable": false,
+                  "name": "Corrupt",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-16T23:29:59.999Z",
+            "name": "Corrupt",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2026-01-10T02:35:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-10T02:35:00.000Z"
+  },
+  {
     "endAt": "2026-01-17T10:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2094865572-120x160.jpg",
     "gameDisplayName": "SMITE 2",
