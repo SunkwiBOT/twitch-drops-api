@@ -1,217 +1,5 @@
 [
   {
-    "endAt": "2026-01-11T23:59:59.996Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
-    "gameDisplayName": "Delta Force",
-    "gameId": "1282866981",
-    "rewards": [
-      {
-        "id": "185dc84f-e944-11f0-b99d-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
-        "description": "Ready for the ongoing Ahsarah season challenges? Delta Force Ahsarah Weekend Drops are here to reward you every weekend on our Partner Creator channels.",
-        "detailsURL": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
-        "endAt": "2026-01-11T23:59:59.996Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1282866981",
-          "slug": "delta-force-hawk-ops",
-          "displayName": "Delta Force",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f9e76258-84e6-4d13-8189-9db9414b6b87.png",
-        "name": "Season Ahsarah Weekend",
-        "owner": {
-          "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
-          "name": "Level Infinite",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-01-09T10:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "0d120659-e945-11f0-b3a2-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "e3d12641-e942-11f0-aae5-0a58a9feac02",
-                  "createdAt": "2026-01-04T07:56:34.773Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1282866981",
-                    "name": "Delta Force",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8f5ae2ca-3db5-4cba-bd5b-0696303b5c80.png",
-                  "isIosAvailable": false,
-                  "name": "Premium Weapon EXP Token",
-                  "ownerOrganization": {
-                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
-                    "name": "Level Infinite",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "43ff4ed4-e943-11f0-98c5-0a58a9feac02",
-                  "createdAt": "2026-01-04T07:59:16.137Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1282866981",
-                    "name": "Delta Force",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/55d09a55-2768-4841-87ba-ae07f57daee4.png",
-                  "isIosAvailable": false,
-                  "name": "Keycard Copy Pack",
-                  "ownerOrganization": {
-                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
-                    "name": "Level Infinite",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-11T23:59:59.996Z",
-            "name": "Premium Weapon EXP Token+Keycard Copy Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-01-09T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "7afed078-e945-11f0-b99d-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "57d6d66a-e943-11f0-88d9-0a58a9feac02",
-                  "createdAt": "2026-01-04T07:59:49.426Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1282866981",
-                    "name": "Delta Force",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/666966f7-9ebc-4ebe-a07e-4ddfefb1f5c6.png",
-                  "isIosAvailable": false,
-                  "name": "Advanced Lucky Pack",
-                  "ownerOrganization": {
-                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
-                    "name": "Level Infinite",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-11T23:59:59.996Z",
-            "name": "Advanced Lucky Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2026-01-09T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "ae3fca43-e944-11f0-af24-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "875f6f9f-e942-11f0-a069-0a58a9feac02",
-                  "createdAt": "2026-01-04T07:53:59.677Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1282866981",
-                    "name": "Delta Force",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/11cf4e73-f913-422b-862c-52d208d70586.png",
-                  "isIosAvailable": false,
-                  "name": "Armament Voucher X3",
-                  "ownerOrganization": {
-                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
-                    "name": "Level Infinite",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-11T23:59:59.996Z",
-            "name": "Armament Voucher X3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2026-01-09T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "c016da05-e944-11f0-b87f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "cba322d8-e942-11f0-927f-0a58a9feac02",
-                  "createdAt": "2026-01-04T07:55:54.206Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1282866981",
-                    "name": "Delta Force",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9ae293af-39a1-4f0a-bacb-ad678a64adfd.png",
-                  "isIosAvailable": false,
-                  "name": "Standard Gear Ticket",
-                  "ownerOrganization": {
-                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
-                    "name": "Level Infinite",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-11T23:59:59.996Z",
-            "name": "Standard Gear Ticket",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2026-01-09T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-01-09T10:00:00.000Z"
-  },
-  {
     "endAt": "2026-01-12T02:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
     "gameDisplayName": "Eternal Return",
@@ -15149,6 +14937,201 @@
       }
     ],
     "startAt": "2026-01-10T11:00:00.000Z"
+  },
+  {
+    "endAt": "2026-01-18T21:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/383199964_IGDB-120x160.jpg",
+    "gameDisplayName": "Mobile Dungeon",
+    "gameId": "383199964",
+    "rewards": [
+      {
+        "id": "8200d27d-db5e-11f0-9309-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1094384185",
+              "displayName": "MobileDungeonOfficial",
+              "name": "mobiledungeonofficial",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://mobiledungeon.com/",
+        "description": "Watch the official Mobile Dungeon stream on Twitch to obtain unique Drops.",
+        "detailsURL": "https://playa-games.helpshift.com/hc/faq/463-twitch-drops/",
+        "endAt": "2026-01-18T21:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "383199964",
+          "slug": "mobile-dungeon",
+          "displayName": "Mobile Dungeon",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f336a0c4-c1b9-483d-90e2-705dc1cd2cdd.png",
+        "name": "MD Drops Set 3",
+        "owner": {
+          "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+          "name": "Playa-Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-12T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9ac01ec7-db5e-11f0-9a82-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_arenaTicket_l",
+                  "createdAt": "2025-07-29T12:46:30.252Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "383199964",
+                    "name": "Mobile Dungeon",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/53b886a3-0ada-4e6b-b81e-2a7744890b8f.png",
+                  "isIosAvailable": false,
+                  "name": "4x Arena Ticket",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-18T21:59:59.998Z",
+            "name": "4x Arena Ticket",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-01-12T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a28e4fe5-db5e-11f0-a0cc-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_rc_s",
+                  "createdAt": "2025-07-24T08:51:42.499Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "383199964",
+                    "name": "Mobile Dungeon",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0915103e-d274-4927-ab17-d418ea84e78e.png",
+                  "isIosAvailable": false,
+                  "name": "25x Crystal",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-18T21:59:59.998Z",
+            "name": "25x Crystal",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-01-12T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a9a6e7d6-db5e-11f0-b2d2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_energy_m",
+                  "createdAt": "2025-07-29T12:41:30.93Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "383199964",
+                    "name": "Mobile Dungeon",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6f80251a-aef5-426d-975b-21216eb9f24a.png",
+                  "isIosAvailable": false,
+                  "name": "24x Thirst for Adventure",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-18T21:59:59.998Z",
+            "name": "24x Thirst for Adventure",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2026-01-12T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b0fe5802-db5e-11f0-b2d2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_key_xl",
+                  "createdAt": "2025-07-29T12:44:30.172Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "383199964",
+                    "name": "Mobile Dungeon",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fb3ff759-41c6-4acb-a871-1055b8b4db6e.png",
+                  "isIosAvailable": false,
+                  "name": "6x Dungeon Key",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-18T21:59:59.998Z",
+            "name": "6x Dungeon Key",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-01-12T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-12T00:00:00.000Z"
   },
   {
     "endAt": "2026-01-18T23:29:59.996Z",
