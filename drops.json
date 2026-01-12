@@ -1,156 +1,5 @@
 [
   {
-    "endAt": "2026-01-13T07:29:59.000Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
-    "gameDisplayName": "World of Tanks",
-    "gameId": "27546",
-    "rewards": [
-      {
-        "id": "68fb5196-c462-11f0-a5fb-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://worldoftanks.eu/content/guide/twitch-drops/",
-        "description": "Festive Token Store #16",
-        "detailsURL": "https://worldoftanks.eu/news/general-news/wot-monthly-december-2025/",
-        "endAt": "2026-01-12T15:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "27546",
-          "slug": "world-of-tanks",
-          "displayName": "World of Tanks",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3e2dbe89-24f6-4d62-80c8-e01818c797f1.png",
-        "name": "Festive Token Store #16",
-        "owner": {
-          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-          "name": "Wargaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-01-09T16:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "6f33fd13-c462-11f0-8099-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_FTS_1225_16",
-                  "createdAt": "2025-11-18T09:14:47.681Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/433351d2-e32b-4d2d-ae14-6808e00934a8.png",
-                  "isIosAvailable": false,
-                  "name": "10x Festive Tokens",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-12T15:59:59.999Z",
-            "name": "Drop",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2026-01-09T16:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "78290120-d08d-11f0-b196-0acac55b430b",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://help.twitch.tv/s/article/how-to-use-emotes",
-        "description": "Watch any WorldOfTanks stream for 30 minutes to unlock the WorldOfTanksBenedict emote until January 19th, 2026.",
-        "detailsURL": "https://help.twitch.tv/s/article/how-to-use-emotes",
-        "endAt": "2026-01-13T07:29:59Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "27546",
-          "slug": "world-of-tanks",
-          "displayName": "World of Tanks",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/world_of_tanks_benedict_q4_2025/worldoftanksbenedict_112x112.png",
-        "name": "World of Tanks Winter Ops",
-        "owner": {
-          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
-          "name": "Twitch Gaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2025-12-05T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "782acb9a-d08d-11f0-b196-0acac55b430b",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "7822fbfe-d08d-11f0-b196-0acac55b430b",
-                  "createdAt": "2025-12-03T21:17:27.301Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/world_of_tanks_benedict_q4_2025/worldoftanksbenedict_112x112.png",
-                  "isIosAvailable": false,
-                  "name": "WorldOfTanksBenedict Emote",
-                  "ownerOrganization": {
-                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
-                    "name": "Twitch Gaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "EMOTE",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-13T07:29:59Z",
-            "name": "WorldOfTanksBenedict Emote",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 5,
-            "startAt": "2025-12-05T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2025-12-05T17:00:00.000Z"
-  },
-  {
     "endAt": "2026-01-12T16:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/65654_IGDB-120x160.jpg",
     "gameDisplayName": "The Elder Scrolls Online",
@@ -1505,6 +1354,86 @@
       }
     ],
     "startAt": "2026-01-06T00:01:00.000Z"
+  },
+  {
+    "endAt": "2026-01-13T07:29:59.000Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
+    "gameDisplayName": "World of Tanks",
+    "gameId": "27546",
+    "rewards": [
+      {
+        "id": "78290120-d08d-11f0-b196-0acac55b430b",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://help.twitch.tv/s/article/how-to-use-emotes",
+        "description": "Watch any WorldOfTanks stream for 30 minutes to unlock the WorldOfTanksBenedict emote until January 19th, 2026.",
+        "detailsURL": "https://help.twitch.tv/s/article/how-to-use-emotes",
+        "endAt": "2026-01-13T07:29:59Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/world_of_tanks_benedict_q4_2025/worldoftanksbenedict_112x112.png",
+        "name": "World of Tanks Winter Ops",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2025-12-05T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "782acb9a-d08d-11f0-b196-0acac55b430b",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "7822fbfe-d08d-11f0-b196-0acac55b430b",
+                  "createdAt": "2025-12-03T21:17:27.301Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/world_of_tanks_benedict_q4_2025/worldoftanksbenedict_112x112.png",
+                  "isIosAvailable": false,
+                  "name": "WorldOfTanksBenedict Emote",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "EMOTE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-13T07:29:59Z",
+            "name": "WorldOfTanksBenedict Emote",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 5,
+            "startAt": "2025-12-05T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2025-12-05T17:00:00.000Z"
   },
   {
     "endAt": "2026-01-13T07:59:59.998Z",
