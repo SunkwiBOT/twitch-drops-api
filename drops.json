@@ -40523,6 +40523,86 @@
     "startAt": "2026-01-08T09:00:00.000Z"
   },
   {
+    "endAt": "2026-02-03T15:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/490100-120x160.jpg",
+    "gameDisplayName": "Lost Ark",
+    "gameId": "490100",
+    "rewards": [
+      {
+        "id": "fcd18755-ecac-11f0-b11e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.playlostark.com/twitch-drops",
+        "description": "Take these drops on your next adventure in Arkesia!",
+        "detailsURL": "https://www.playlostark.com/twitch-drops",
+        "endAt": "2026-02-03T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "490100",
+          "slug": "lost-ark",
+          "displayName": "Lost Ark",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0805f5df-1ae8-4e81-8750-deea2cb014ac.jpeg",
+        "name": "Evergreen Drop",
+        "owner": {
+          "id": "8deb8492-e435-4375-9918-a270526bfdd2",
+          "name": "Smilegate + Amazon Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-13T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1a528214-ecad-11f0-a564-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a9a8ad0b-ecac-11f0-b73c-0a58a9feac02",
+                  "createdAt": "2026-01-08T16:11:17.342Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490100",
+                    "name": "Lost Ark",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f1b4438-9052-49e8-b3bf-bb5d190ccba9.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Evergreen Bundle",
+                  "ownerOrganization": {
+                    "id": "8deb8492-e435-4375-9918-a270526bfdd2",
+                    "name": "Smilegate + Amazon Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-03T15:59:59.999Z",
+            "name": "Evergreen Bundle",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-01-13T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-13T16:00:00.000Z"
+  },
+  {
     "endAt": "2026-02-04T14:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2112738408_IGDB-120x160.jpg",
     "gameDisplayName": "NBA 2K26",
