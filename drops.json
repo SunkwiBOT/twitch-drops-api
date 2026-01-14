@@ -6,156 +6,6 @@
     "gameId": "272952894",
     "rewards": [
       {
-        "id": "206277f1-f002-11f0-ba52-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "189084349",
-              "displayName": "KurtBenkert",
-              "name": "kurtbenkert",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
-        "description": "Watch the Kurt Benkert Show and earn some Twitch Drops to power up your Ultimate Team!",
-        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
-        "endAt": "2026-01-14T02:29:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "272952894",
-          "slug": "ea-sports-madden-nfl-26",
-          "displayName": "Madden NFL 26",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/49d26915-dfbb-426e-8dee-719dd0bfcfad.png",
-        "name": "Kurt Benkert Show",
-        "owner": {
-          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-          "name": "Electronic Arts",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-01-14T00:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "4133afa4-f002-11f0-a377-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-139",
-                  "createdAt": "2026-01-12T21:59:19.194Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "272952894",
-                    "name": "Madden NFL 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/766b2805-ad24-4480-a500-3277b1dcbfd0.png",
-                  "isIosAvailable": false,
-                  "name": "Madden Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-14T02:29:59.999Z",
-            "name": "Madden Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-01-14T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "4b3fa622-f002-11f0-bdb1-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-138",
-                  "createdAt": "2026-01-12T21:58:39.885Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "272952894",
-                    "name": "Madden NFL 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bb912787-be4e-4888-9980-4951427933e5.png",
-                  "isIosAvailable": false,
-                  "name": "Madden Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-14T02:29:59.999Z",
-            "name": "Madden Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2026-01-14T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "5970ae7b-f002-11f0-b521-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-KBPlaybook-014",
-                  "createdAt": "2026-01-12T21:58:07.373Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "272952894",
-                    "name": "Madden NFL 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6ffb5a53-a24d-464f-a2b4-e02703ac752e.png",
-                  "isIosAvailable": false,
-                  "name": "Benkert Dimes Playbook",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-14T02:29:59.999Z",
-            "name": "Benkert Dimes Playbook",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2026-01-14T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
         "id": "3f6c930f-e436-11f0-990e-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
@@ -306,7 +156,7 @@
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2026-01-14T00:00:00.000Z"
+    "startAt": "2026-01-14T01:00:00.000Z"
   },
   {
     "endAt": "2026-01-14T06:59:59.999Z",
@@ -21108,6 +20958,429 @@
             ],
             "endAt": "2026-01-20T16:59:59.999Z",
             "name": "100x Ghostly Infusion",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2026-01-13T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-13T17:00:00.000Z"
+  },
+  {
+    "endAt": "2026-01-20T16:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/589569308_IGDB-120x160.jpg",
+    "gameDisplayName": "Splinterlands",
+    "gameId": "589569308",
+    "rewards": [
+      {
+        "id": "5c688c5e-f0ed-11f0-bde5-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "742131177",
+              "displayName": "TalesFromTheCryptMancer",
+              "name": "talesfromthecryptmancer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "45449421",
+              "displayName": "Dmoney",
+              "name": "dmoney",
+              "__typename": "Channel"
+            },
+            {
+              "id": "207089390",
+              "displayName": "ofgplays",
+              "name": "ofgplays",
+              "__typename": "Channel"
+            },
+            {
+              "id": "183181215",
+              "displayName": "clove71",
+              "name": "clove71",
+              "__typename": "Channel"
+            },
+            {
+              "id": "147320461",
+              "displayName": "bunsbagsandcaps",
+              "name": "bunsbagsandcaps",
+              "__typename": "Channel"
+            },
+            {
+              "id": "417097293",
+              "displayName": "mickvir",
+              "name": "mickvir",
+              "__typename": "Channel"
+            },
+            {
+              "id": "407143292",
+              "displayName": "RoguesGuild",
+              "name": "roguesguild",
+              "__typename": "Channel"
+            },
+            {
+              "id": "35891631",
+              "displayName": "EhmayWuntee",
+              "name": "ehmaywuntee",
+              "__typename": "Channel"
+            },
+            {
+              "id": "455299502",
+              "displayName": "Bulldog1205",
+              "name": "bulldog1205",
+              "__typename": "Channel"
+            },
+            {
+              "id": "707311063",
+              "displayName": "SplinterlandsOfficial",
+              "name": "splinterlandsofficial",
+              "__typename": "Channel"
+            },
+            {
+              "id": "462972740",
+              "displayName": "SteveR82",
+              "name": "stever82",
+              "__typename": "Channel"
+            },
+            {
+              "id": "216642142",
+              "displayName": "ThisIsAfterSound",
+              "name": "thisisaftersound",
+              "__typename": "Channel"
+            },
+            {
+              "id": "50040512",
+              "displayName": "BokiPW",
+              "name": "bokipw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "35904364",
+              "displayName": "viniciotricolor",
+              "name": "viniciotricolor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "149903728",
+              "displayName": "ItharaGaian",
+              "name": "itharagaian",
+              "__typename": "Channel"
+            },
+            {
+              "id": "535833762",
+              "displayName": "butopstv",
+              "name": "butopstv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1347508337",
+              "displayName": "Berzerk_Vladi",
+              "name": "berzerk_vladi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1357391492",
+              "displayName": "ladysharon3710",
+              "name": "ladysharon3710",
+              "__typename": "Channel"
+            },
+            {
+              "id": "99092012",
+              "displayName": "chaoabunga",
+              "name": "chaoabunga",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1144585224",
+              "displayName": "mfntruck3r2point0",
+              "name": "mfntruck3r2point0",
+              "__typename": "Channel"
+            },
+            {
+              "id": "766777946",
+              "displayName": "twelve58",
+              "name": "twelve58",
+              "__typename": "Channel"
+            },
+            {
+              "id": "729646490",
+              "displayName": "CryptoniusRex",
+              "name": "cryptoniusrex",
+              "__typename": "Channel"
+            },
+            {
+              "id": "178186451",
+              "displayName": "RukienFarfellow",
+              "name": "rukienfarfellow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "55584550",
+              "displayName": "RoieSharir",
+              "name": "roiesharir",
+              "__typename": "Channel"
+            },
+            {
+              "id": "45605851",
+              "displayName": "jagged71",
+              "name": "jagged71",
+              "__typename": "Channel"
+            },
+            {
+              "id": "50989361",
+              "displayName": "wesquin703",
+              "name": "wesquin703",
+              "__typename": "Channel"
+            },
+            {
+              "id": "164840111",
+              "displayName": "Virimen",
+              "name": "virimen",
+              "__typename": "Channel"
+            },
+            {
+              "id": "635443797",
+              "displayName": "el_MAREL",
+              "name": "el_marel",
+              "__typename": "Channel"
+            },
+            {
+              "id": "144207649",
+              "displayName": "BabyBearHS",
+              "name": "babybearhs",
+              "__typename": "Channel"
+            },
+            {
+              "id": "26352147",
+              "displayName": "Jambre",
+              "name": "jambre",
+              "__typename": "Channel"
+            },
+            {
+              "id": "29241232",
+              "displayName": "MtgJedi",
+              "name": "mtgjedi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "164843993",
+              "displayName": "Drumarr",
+              "name": "drumarr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "222976109",
+              "displayName": "YouLoseAgainGaming",
+              "name": "youloseagaingaming",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://splinterlands.com/user/account-socials",
+        "description": "January Week #3 Splinterlands Drop Campaign",
+        "detailsURL": "https://peakd.com/splinterlands/@splinterlands/arena-fanatic-influencer-card-plus-twitch-drops",
+        "endAt": "2026-01-20T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "589569308",
+          "slug": "splinterlands",
+          "displayName": "Splinterlands",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a475cb53-e382-4487-88f2-4feed5f15d71.png",
+        "name": "January Week 3",
+        "owner": {
+          "id": "cc435850-3cc9-4cc2-a4fb-150658a1eb43",
+          "name": "Steem Monsters",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-13T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7a1b5325-f0ed-11f0-900d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cc435850-3cc9-4cc2-a4fb-150658a1eb43_CUSTOM_ID_glint_1000_1",
+                  "createdAt": "2025-08-08T17:25:25.941Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "589569308",
+                    "name": "Splinterlands",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b0bba936-de5e-4e45-ab13-d51de13f82fb.png",
+                  "isIosAvailable": false,
+                  "name": "1000 Glint",
+                  "ownerOrganization": {
+                    "id": "cc435850-3cc9-4cc2-a4fb-150658a1eb43",
+                    "name": "Steem Monsters",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-20T16:59:59.999Z",
+            "name": "1000 Glint",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-01-13T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "8aa0a014-f0ed-11f0-8a7d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cc435850-3cc9-4cc2-a4fb-150658a1eb43_CUSTOM_ID_glint_1000_2",
+                  "createdAt": "2025-08-08T17:42:11.297Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "589569308",
+                    "name": "Splinterlands",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8184681b-34a5-4bd0-ba22-29399ad6856f.png",
+                  "isIosAvailable": false,
+                  "name": "1000 Glint",
+                  "ownerOrganization": {
+                    "id": "cc435850-3cc9-4cc2-a4fb-150658a1eb43",
+                    "name": "Steem Monsters",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-20T16:59:59.999Z",
+            "name": "1000 Glint",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2026-01-13T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "95ddf5aa-f0ed-11f0-bd3a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cc435850-3cc9-4cc2-a4fb-150658a1eb43_CUSTOM_ID_glint_1000_3",
+                  "createdAt": "2025-08-09T23:29:45.711Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "589569308",
+                    "name": "Splinterlands",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a706bbf1-5706-4db8-8aa3-b1502a5d5b12.png",
+                  "isIosAvailable": false,
+                  "name": "1000 Glint",
+                  "ownerOrganization": {
+                    "id": "cc435850-3cc9-4cc2-a4fb-150658a1eb43",
+                    "name": "Steem Monsters",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-20T16:59:59.999Z",
+            "name": "1000 Glint",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 540,
+            "startAt": "2026-01-13T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a286289b-f0ed-11f0-a61b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cc435850-3cc9-4cc2-a4fb-150658a1eb43_CUSTOM_ID_glint_1000_4",
+                  "createdAt": "2025-08-09T23:30:08.392Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "589569308",
+                    "name": "Splinterlands",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6e032bf3-d550-4d7d-be0c-bb803a235b40.png",
+                  "isIosAvailable": false,
+                  "name": "1000 Glint",
+                  "ownerOrganization": {
+                    "id": "cc435850-3cc9-4cc2-a4fb-150658a1eb43",
+                    "name": "Steem Monsters",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-20T16:59:59.999Z",
+            "name": "1000 Glint",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 720,
+            "startAt": "2026-01-13T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "aec96e11-f0ed-11f0-8a7d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "cc435850-3cc9-4cc2-a4fb-150658a1eb43_CUSTOM_ID_glint_1000_5",
+                  "createdAt": "2025-09-16T15:50:22.331Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "589569308",
+                    "name": "Splinterlands",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f44e8c8d-dc96-4d16-a0d2-ea06025d79ef.png",
+                  "isIosAvailable": false,
+                  "name": "1000 Glint",
+                  "ownerOrganization": {
+                    "id": "cc435850-3cc9-4cc2-a4fb-150658a1eb43",
+                    "name": "Steem Monsters",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-20T16:59:59.999Z",
+            "name": "1000 Glint",
             "preconditionDrops": null,
             "requiredMinutesWatched": 900,
             "startAt": "2026-01-13T17:00:00Z",
