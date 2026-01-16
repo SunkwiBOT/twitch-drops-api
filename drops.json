@@ -5025,7 +5025,7 @@
     "startAt": "2026-01-15T10:00:00.000Z"
   },
   {
-    "endAt": "2026-01-18T11:29:59.998Z",
+    "endAt": "2026-01-18T21:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511224-120x160.jpg",
     "gameDisplayName": "Apex Legends",
     "gameId": "511224",
@@ -5120,6 +5120,144 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 30,
             "startAt": "2026-01-16T04:22:12Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "318a00aa-f275-11f0-a7dc-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "412132764",
+              "displayName": "playapex",
+              "name": "playapex",
+              "__typename": "Channel"
+            },
+            {
+              "id": "415954300",
+              "displayName": "NiceWigg",
+              "name": "nicewigg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "125554052",
+              "displayName": "Greek",
+              "name": "greek",
+              "__typename": "Channel"
+            },
+            {
+              "id": "37525618",
+              "displayName": "Restia",
+              "name": "restia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "86721451",
+              "displayName": "あっしー",
+              "name": "assiikun",
+              "__typename": "Channel"
+            },
+            {
+              "id": "427263526",
+              "displayName": "ゆきお2",
+              "name": "yukiofps14",
+              "__typename": "Channel"
+            },
+            {
+              "id": "620880640",
+              "displayName": "esports_rage",
+              "name": "esports_rage",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://help.ea.com/en/articles/ea-account/ea-account-linking/",
+        "description": "Earn the Slay Nessie by watching the ALGS!",
+        "detailsURL": "https://algs.ea.com/en/year-5/champs-2026/news/algs-year-5-champ-twitch-drops",
+        "endAt": "2026-01-18T21:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511224",
+          "slug": "apex-legends",
+          "displayName": "Apex Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/afe6d50d-70be-4a3c-9d31-c9db39eb45c3.png",
+        "name": "Slay Nessie",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-16T12:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "6004efcb-f275-11f0-83ee-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_algs_s27_champs_holospray",
+                  "createdAt": "2025-12-08T23:27:13.228Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/92b0b60c-e6cf-4649-8d1a-c52ce2cd274c.png",
+                  "isIosAvailable": true,
+                  "name": "Slay Nessie- Holospray",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_emote_icon_epic_v26_algs_01",
+                  "createdAt": "2026-01-07T00:28:17.27Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4bf2cce7-f944-4d9d-bbf5-5c4a481d0438.png",
+                  "isIosAvailable": true,
+                  "name": "\"Slay\" Nessie",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-18T21:59:59.999Z",
+            "name": "Slay Nessie",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-01-16T12:30:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -40111,6 +40249,230 @@
       }
     ],
     "startAt": "2026-01-08T15:00:00.000Z"
+  },
+  {
+    "endAt": "2026-02-11T12:29:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/266795834_IGDB-120x160.jpg",
+    "gameDisplayName": "Blue Protocol: Star Resonance",
+    "gameId": "266795834",
+    "rewards": [
+      {
+        "id": "9716550e-ef98-11f0-91f3-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.playbpsr.com/twitch_bind",
+        "description": "Important: Connect your Twitch account to your Blue Protocol: Star Resonance game account via the Drops connection page BEFORE claiming your Drops rewards.",
+        "detailsURL": "https://www.playbpsr.com/twitch_bind",
+        "endAt": "2026-02-11T12:29:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "266795834",
+          "slug": "star-resonance",
+          "displayName": "Blue Protocol: Star Resonance",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6c9a7f08-4541-4c89-949d-861b9fb51034.png",
+        "name": "Season 2 Special Drops",
+        "owner": {
+          "id": "79c02c49-14a9-45ef-9f3e-5ece1e9d0ce2",
+          "name": "A PLUS JAPAN Inc.",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-16T12:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "261a8130-ef99-11f0-8c60-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "79c02c49-14a9-45ef-9f3e-5ece1e9d0ce2_CUSTOM_ID_2033-0-1040159.5.0",
+                  "createdAt": "2026-01-12T09:01:21.881Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "266795834",
+                    "name": "Blue Protocol: Star Resonance",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9d5c8d42-eea2-42ed-bac8-43c79ad08979.png",
+                  "isIosAvailable": false,
+                  "name": "Dye Pack - Select*5",
+                  "ownerOrganization": {
+                    "id": "79c02c49-14a9-45ef-9f3e-5ece1e9d0ce2",
+                    "name": "A PLUS JAPAN Inc.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-11T12:29:59.998Z",
+            "name": "Dye Pack - Select*5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-01-16T12:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "386dc10b-ef99-11f0-91f3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "79c02c49-14a9-45ef-9f3e-5ece1e9d0ce2_CUSTOM_ID_2034-0-10005.150.0",
+                  "createdAt": "2026-01-12T09:01:42.35Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "266795834",
+                    "name": "Blue Protocol: Star Resonance",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bf674407-1dfb-4327-8286-b0ff2cefb719.png",
+                  "isIosAvailable": false,
+                  "name": "Rose Orb (Bound)*150",
+                  "ownerOrganization": {
+                    "id": "79c02c49-14a9-45ef-9f3e-5ece1e9d0ce2",
+                    "name": "A PLUS JAPAN Inc.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-11T12:29:59.998Z",
+            "name": "Rose Orb (Bound)*150",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-01-16T12:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4da6accd-ef99-11f0-933f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "79c02c49-14a9-45ef-9f3e-5ece1e9d0ce2_CUSTOM_ID_2035-0-1040141.3.0",
+                  "createdAt": "2026-01-12T09:02:03.812Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "266795834",
+                    "name": "Blue Protocol: Star Resonance",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ff1ee4c5-f227-4d2a-a232-cb2e2a11aa3a.png",
+                  "isIosAvailable": false,
+                  "name": "Advanced Cooking-Select*3",
+                  "ownerOrganization": {
+                    "id": "79c02c49-14a9-45ef-9f3e-5ece1e9d0ce2",
+                    "name": "A PLUS JAPAN Inc.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-11T12:29:59.998Z",
+            "name": "Advanced Cooking - Select*3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2026-01-16T12:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d3aff3eb-ef98-11f0-8fd5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "79c02c49-14a9-45ef-9f3e-5ece1e9d0ce2_CUSTOM_ID_2031-0-10005.50.0",
+                  "createdAt": "2026-01-12T08:59:48.68Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "266795834",
+                    "name": "Blue Protocol: Star Resonance",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8b920e47-2a0f-417c-ba66-c61b62831daf.png",
+                  "isIosAvailable": false,
+                  "name": "Rose Orb (Bound)*50",
+                  "ownerOrganization": {
+                    "id": "79c02c49-14a9-45ef-9f3e-5ece1e9d0ce2",
+                    "name": "A PLUS JAPAN Inc.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-11T12:29:59.998Z",
+            "name": "Rose Orb (Bound)*50",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2026-01-16T12:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "e0fc1f1c-ef98-11f0-b79f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "79c02c49-14a9-45ef-9f3e-5ece1e9d0ce2_CUSTOM_ID_2032-0-1061171.1.0",
+                  "createdAt": "2026-01-12T09:00:24.616Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "266795834",
+                    "name": "Blue Protocol: Star Resonance",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/518c0763-9ec4-47ec-8b54-dd896eb0b69d.png",
+                  "isIosAvailable": false,
+                  "name": "Star Overseer-Headwear*1",
+                  "ownerOrganization": {
+                    "id": "79c02c49-14a9-45ef-9f3e-5ece1e9d0ce2",
+                    "name": "A PLUS JAPAN Inc.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-11T12:29:59.998Z",
+            "name": "Star Overseer - HStar Overseer - Headwear*1eadwear*1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-01-16T12:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-16T12:30:00.000Z"
   },
   {
     "endAt": "2026-02-11T23:29:59.999Z",
