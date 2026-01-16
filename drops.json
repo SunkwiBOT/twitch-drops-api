@@ -5078,13 +5078,13 @@
     "startAt": "2026-01-15T10:00:00.000Z"
   },
   {
-    "endAt": "2026-01-18T11:29:59.999Z",
+    "endAt": "2026-01-18T11:29:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/511224-120x160.jpg",
     "gameDisplayName": "Apex Legends",
     "gameId": "511224",
     "rewards": [
       {
-        "id": "0313a402-f292-11f0-b5c2-0a58a9feac02",
+        "id": "27757f5b-f293-11f0-b280-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
@@ -5095,9 +5095,9 @@
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://help.ea.com/en/articles/ea-account/ea-account-linking/",
-        "description": "Earn your ALGS Year 5 Champs Drops",
+        "description": "Earn your drops set by watching ALGS!",
         "detailsURL": "https://algs.ea.com/en/year-5/champs-2026/news/algs-year-5-champ-twitch-drops",
-        "endAt": "2026-01-18T11:29:59.999Z",
+        "endAt": "2026-01-18T11:29:59.998Z",
         "eventBasedDrops": [],
         "game": {
           "id": "511224",
@@ -5105,20 +5105,44 @@
           "displayName": "Apex Legends",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/57d4e0cf-d21c-4de5-9a00-7ed005e7ae31.png",
-        "name": "ALGS YEAR 5 CHAMPS",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/31166e30-8dad-430c-8b45-ba189fd8ec54.png",
+        "name": "ALGS Tracker",
         "owner": {
           "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
           "name": "Electronic Arts",
           "__typename": "Organization"
         },
-        "startAt": "2026-01-16T04:13:26Z",
+        "startAt": "2026-01-16T04:22:12Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "19881cf2-f292-11f0-95f7-0a58a9feac02",
+            "id": "36dad7f3-f293-11f0-8222-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_algs_s27_champs_tracker",
+                  "createdAt": "2026-01-16T04:18:02.068Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/96374c01-e05c-4f2e-9bb8-a0e9174d0dc0.png",
+                  "isIosAvailable": true,
+                  "name": "Tracker",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
               {
                 "benefit": {
                   "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_algs_s27_champs_holospray",
@@ -5144,18 +5168,18 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2026-01-18T11:29:59.999Z",
-            "name": "Slay Nessie",
+            "endAt": "2026-01-18T11:29:59.998Z",
+            "name": "Champs Rewards",
             "preconditionDrops": null,
             "requiredMinutesWatched": 30,
-            "startAt": "2026-01-16T04:13:26Z",
+            "startAt": "2026-01-16T04:22:12Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2026-01-16T04:13:26.000Z"
+    "startAt": "2026-01-16T04:22:12.000Z"
   },
   {
     "endAt": "2026-01-18T15:29:59.997Z",
