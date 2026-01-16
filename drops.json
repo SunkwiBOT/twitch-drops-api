@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2026-01-16T11:59:59.999Z",
+    "endAt": "2026-01-16T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/386821_IGDB-120x160.jpg",
     "gameDisplayName": "Black Desert",
     "gameId": "386821",
@@ -71,6 +71,126 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2026-01-15T12:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "fe230a4e-f29a-11f0-834c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "893293914",
+              "displayName": "FutsukaChannel",
+              "name": "futsukachannel",
+              "__typename": "Channel"
+            },
+            {
+              "id": "215756225",
+              "displayName": "ExisterKT",
+              "name": "existerkt",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.pearlabyss.com/Account/SNSLink",
+        "description": "[ASIA Only] Earn exclusive drops by watching the [8th Anniv] BDO POP STAR!",
+        "detailsURL": "https://blackdesert.pearlabyss.com/Asia/News/Notice/Detail?_boardNo=12784",
+        "endAt": "2026-01-16T15:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "386821",
+          "slug": "black-desert",
+          "displayName": "Black Desert",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/6b2a39a0-5145-4d6f-9aec-0fdcd437ebcf.jpeg",
+        "name": "[ASIA] BDO POP STAR",
+        "owner": {
+          "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+          "name": "Pearl Abyss",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-16T11:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "8fbd818a-f29b-11f0-91c7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_ASIA8THANNIV0001",
+                  "createdAt": "2026-01-16T05:23:00.953Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/aa520a8b-8a08-4db2-9141-850c8efaa078.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[ASIA] 30 Min Reward",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-16T15:59:59.999Z",
+            "name": "30 Min",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-01-16T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "93dcb985-f29b-11f0-b280-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3346bf0d-5179-4a89-b760-13e1581dfd12_CUSTOM_ID_ASIA8THANNIV0002",
+                  "createdAt": "2026-01-16T05:23:26.391Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "386821",
+                    "name": "Black Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/18a31ae5-279d-4dc5-92f4-620ca44f61fa.jpeg",
+                  "isIosAvailable": false,
+                  "name": "[ASIA] 1 Hour Reward",
+                  "ownerOrganization": {
+                    "id": "3346bf0d-5179-4a89-b760-13e1581dfd12",
+                    "name": "Pearl Abyss",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-16T15:59:59.999Z",
+            "name": "1 Hour",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-01-16T11:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
