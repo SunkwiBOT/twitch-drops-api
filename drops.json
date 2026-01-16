@@ -5084,6 +5084,144 @@
     "gameId": "511224",
     "rewards": [
       {
+        "id": "725616a0-eb4f-11f0-8989-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "415954300",
+              "displayName": "NiceWigg",
+              "name": "nicewigg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "125554052",
+              "displayName": "Greek",
+              "name": "greek",
+              "__typename": "Channel"
+            },
+            {
+              "id": "427263526",
+              "displayName": "ゆきお2",
+              "name": "yukiofps14",
+              "__typename": "Channel"
+            },
+            {
+              "id": "86721451",
+              "displayName": "あっしー",
+              "name": "assiikun",
+              "__typename": "Channel"
+            },
+            {
+              "id": "126595970",
+              "displayName": "restiafps",
+              "name": "restiafps",
+              "__typename": "Channel"
+            },
+            {
+              "id": "412132764",
+              "displayName": "playapex",
+              "name": "playapex",
+              "__typename": "Channel"
+            },
+            {
+              "id": "620880640",
+              "displayName": "esports_rage",
+              "name": "esports_rage",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://ea.com/twitchlinking",
+        "description": "Earn the ALGS Year 5 Champs drops by watching for 30 minutes!",
+        "detailsURL": "https://algs.ea.com/en/year-5/champs-2026/news/algs-year-5-champ-twitch-drops",
+        "endAt": "2026-01-18T10:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "511224",
+          "slug": "apex-legends",
+          "displayName": "Apex Legends",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0b6f3cc5-8de4-4b94-8230-7b09825b121f.png",
+        "name": "ALGS Y5 Champs Day 2",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-16T05:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a7b81b1d-eb4f-11f0-ae92-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_gcard_tracker_s27algs_champs_top",
+                  "createdAt": "2026-01-06T23:31:33.011Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0ab4497b-f72d-4ce9-9eb6-4d2249f7a86e.png",
+                  "isIosAvailable": true,
+                  "name": "Champs Tracker Top",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_algs_s27_champs_tracker",
+                  "createdAt": "2026-01-16T04:18:02.068Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "511224",
+                    "name": "Apex Legends",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/96374c01-e05c-4f2e-9bb8-a0e9174d0dc0.png",
+                  "isIosAvailable": true,
+                  "name": "Tracker",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-18T10:58:59.999Z",
+            "name": "ALGS Tracker Top",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-01-16T05:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "27757f5b-f293-11f0-b280-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
