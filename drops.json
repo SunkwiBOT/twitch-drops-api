@@ -4800,7 +4800,7 @@
     "startAt": "2026-01-19T12:00:00.000Z"
   },
   {
-    "endAt": "2026-01-20T13:58:59.999Z",
+    "endAt": "2026-01-26T13:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/207506430_IGDB-120x160.jpg",
     "gameDisplayName": "Out of the Park Baseball 26",
     "gameId": "207506430",
@@ -5225,6 +5225,300 @@
             "name": "5",
             "preconditionDrops": null,
             "requiredMinutesWatched": 90,
+            "startAt": "2026-01-19T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "7021c589-f547-11f0-9d7f-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "110879765",
+              "displayName": "OOTPDevelopments",
+              "name": "ootpdevelopments",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
+        "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
+        "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5172791&postcount=1",
+        "endAt": "2026-01-26T13:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "207506430",
+          "slug": "out-of-the-park-baseball-26",
+          "displayName": "Out of the Park Baseball 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ef97b82e-c54e-457a-85e8-68860bada967.jpeg",
+        "name": "Official 1/19-25/26",
+        "owner": {
+          "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+          "name": "Out of the Park Developments",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-19T14:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "98a53eb2-f547-11f0-a29d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9bfb0078-ab71-11f0-95e0-0a58a9feac02",
+                  "createdAt": "2025-10-17T15:54:48.505Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41bbc12b-913b-4cca-9d32-d9888cdf82db.jpeg",
+                  "isIosAvailable": false,
+                  "name": "PT26 Drop Bundle",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-26T13:58:59.999Z",
+            "name": "1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2026-01-19T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a5a6eb05-f547-11f0-af45-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9bfb0078-ab71-11f0-95e0-0a58a9feac02",
+                  "createdAt": "2025-10-17T15:54:48.505Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41bbc12b-913b-4cca-9d32-d9888cdf82db.jpeg",
+                  "isIosAvailable": false,
+                  "name": "PT26 Drop Bundle",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-26T13:58:59.999Z",
+            "name": "2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-01-19T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b2daee7b-f547-11f0-a29d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9bfb0078-ab71-11f0-95e0-0a58a9feac02",
+                  "createdAt": "2025-10-17T15:54:48.505Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41bbc12b-913b-4cca-9d32-d9888cdf82db.jpeg",
+                  "isIosAvailable": false,
+                  "name": "PT26 Drop Bundle",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-26T13:58:59.999Z",
+            "name": "3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 270,
+            "startAt": "2026-01-19T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "bee477c0-f547-11f0-a97d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9bfb0078-ab71-11f0-95e0-0a58a9feac02",
+                  "createdAt": "2025-10-17T15:54:48.505Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41bbc12b-913b-4cca-9d32-d9888cdf82db.jpeg",
+                  "isIosAvailable": false,
+                  "name": "PT26 Drop Bundle",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-26T13:58:59.999Z",
+            "name": "4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2026-01-19T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c8133a1b-f547-11f0-9ba4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9bfb0078-ab71-11f0-95e0-0a58a9feac02",
+                  "createdAt": "2025-10-17T15:54:48.505Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41bbc12b-913b-4cca-9d32-d9888cdf82db.jpeg",
+                  "isIosAvailable": false,
+                  "name": "PT26 Drop Bundle",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-26T13:58:59.999Z",
+            "name": "5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 450,
+            "startAt": "2026-01-19T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d2b62750-f547-11f0-981d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9bfb0078-ab71-11f0-95e0-0a58a9feac02",
+                  "createdAt": "2025-10-17T15:54:48.505Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41bbc12b-913b-4cca-9d32-d9888cdf82db.jpeg",
+                  "isIosAvailable": false,
+                  "name": "PT26 Drop Bundle",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-26T13:58:59.999Z",
+            "name": "6",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 540,
+            "startAt": "2026-01-19T14:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "dd88e89e-f547-11f0-88c6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9bfb0078-ab71-11f0-95e0-0a58a9feac02",
+                  "createdAt": "2025-10-17T15:54:48.505Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "207506430",
+                    "name": "Out of the Park Baseball 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/41bbc12b-913b-4cca-9d32-d9888cdf82db.jpeg",
+                  "isIosAvailable": false,
+                  "name": "PT26 Drop Bundle",
+                  "ownerOrganization": {
+                    "id": "a1a51d5a-233d-41c3-9acd-a03bdab35159",
+                    "name": "Out of the Park Developments",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-26T13:58:59.999Z",
+            "name": "7",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 630,
             "startAt": "2026-01-19T14:00:00Z",
             "__typename": "TimeBasedDrop"
           }
@@ -17197,7 +17491,7 @@
     "startAt": "2026-01-08T22:15:47.000Z"
   },
   {
-    "endAt": "2026-01-22T22:58:59.999Z",
+    "endAt": "2026-01-25T22:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/510389_IGDB-120x160.jpg",
     "gameDisplayName": "Shakes and Fidget",
     "gameId": "510389",
@@ -17779,6 +18073,342 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 180,
             "startAt": "2026-01-16T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "0dd9d9de-db59-11f0-9cb6-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "442193279",
+              "displayName": "Waves",
+              "name": "waves",
+              "__typename": "Channel"
+            },
+            {
+              "id": "705911590",
+              "displayName": "Sadeg_SF_Official",
+              "name": "sadeg_sf_official",
+              "__typename": "Channel"
+            },
+            {
+              "id": "72617505",
+              "displayName": "moZoneTV",
+              "name": "mozonetv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "231431192",
+              "displayName": "TunyGhost",
+              "name": "tunyghost",
+              "__typename": "Channel"
+            },
+            {
+              "id": "115148629",
+              "displayName": "Zsombey",
+              "name": "zsombey",
+              "__typename": "Channel"
+            },
+            {
+              "id": "163488747",
+              "displayName": "N3utr4LSF",
+              "name": "n3utr4lsf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "175988361",
+              "displayName": "DomCaOfficial",
+              "name": "domcaofficial",
+              "__typename": "Channel"
+            },
+            {
+              "id": "277405774",
+              "displayName": "sfgameofficial",
+              "name": "sfgameofficial",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://sfgame.net/",
+        "description": "Watch the official Shakes & Fidget stream on Twitch to obtain unique Drops.",
+        "detailsURL": "https://playa-games.helpshift.com/hc/faq/255-twitch-drops/",
+        "endAt": "2026-01-25T22:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "510389",
+          "slug": "shakes-and-fidget",
+          "displayName": "Shakes and Fidget",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2f08d67d-c55c-432c-a673-e7fffd0d2c2f.png",
+        "name": "S&F Drops 1/3",
+        "owner": {
+          "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+          "name": "Playa-Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-19T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "472b6b21-db59-11f0-a1f8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_gold_1",
+                  "createdAt": "2023-10-23T13:18:52.734Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/47c0dba2-cba2-4e95-9275-7a90e5001e7b.png",
+                  "isIosAvailable": false,
+                  "name": "Gilded Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-25T22:58:59.999Z",
+            "name": "Gilded Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2026-01-19T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4f9024f6-db59-11f0-9a82-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_main_potion_1",
+                  "createdAt": "2023-10-23T13:22:26.882Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4444d112-e29a-4a7c-ab72-d74e22bec75b.png",
+                  "isIosAvailable": false,
+                  "name": "Potion Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-25T22:58:59.999Z",
+            "name": "Potion Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-01-19T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "5692aca5-db59-11f0-a07e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_souls_1",
+                  "createdAt": "2023-10-23T13:22:53.815Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e79e0a45-6818-487b-8f82-5b07e9984c61.png",
+                  "isIosAvailable": false,
+                  "name": "Soul Taker Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-25T22:58:59.999Z",
+            "name": "Soul Taker Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-01-19T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "5f18967a-db59-11f0-985f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_fortress_1",
+                  "createdAt": "2023-10-23T13:19:20.681Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/49697d01-d7a2-404e-b45a-a05dec0932a2.png",
+                  "isIosAvailable": false,
+                  "name": "Fortification Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-25T22:58:59.999Z",
+            "name": "Fortification Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2026-01-19T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "670a7719-db59-11f0-9f81-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_smith_1",
+                  "createdAt": "2023-10-23T13:20:49.242Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52713587-b18e-4fb5-98e7-98d18ac8a90c.png",
+                  "isIosAvailable": false,
+                  "name": "Smith Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-25T22:58:59.999Z",
+            "name": "Smith Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-01-19T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6f365d23-db59-11f0-8c26-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_hourglasses_1",
+                  "createdAt": "2023-10-23T13:18:23.309Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/dc368fe3-3599-4a70-872a-d8363f300c32.png",
+                  "isIosAvailable": false,
+                  "name": "Time Jump Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-25T22:58:59.999Z",
+            "name": "Time Jump Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 150,
+            "startAt": "2026-01-19T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "76bf7587-db59-11f0-a904-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_sf_drop_gem",
+                  "createdAt": "2024-03-18T13:06:34.481Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "510389",
+                    "name": "Shakes and Fidget",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/de32e173-c21a-465c-af66-b39c3d1a9e29.png",
+                  "isIosAvailable": false,
+                  "name": "Gem Package",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-25T22:58:59.999Z",
+            "name": "Gem Package",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-01-19T15:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
