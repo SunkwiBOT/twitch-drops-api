@@ -891,7 +891,7 @@
     "startAt": "2026-01-21T17:59:00.000Z"
   },
   {
-    "endAt": "2026-01-22T20:59:59.998Z",
+    "endAt": "2026-02-12T16:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/490382-120x160.jpg",
     "gameDisplayName": "For Honor",
     "gameId": "490382",
@@ -1941,6 +1941,149 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 240,
             "startAt": "2026-01-22T16:50:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "9763e691-f7b7-11f0-8074-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://drops-register.ubi.com/",
+        "description": "For Honor Entire Directory",
+        "detailsURL": "https://www.ubisoft.com/help/article/000065532",
+        "endAt": "2026-02-12T16:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "490382",
+          "slug": "for-honor",
+          "displayName": "For Honor",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3fc5795e-8613-46cf-b5a9-2540d12857df.jpeg",
+        "name": "For Honor Directory",
+        "owner": {
+          "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+          "name": "Ubisoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-22T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "09a8108b-f7b8-11f0-bd13-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b_CUSTOM_ID_4xp_3dayschamp_2scav",
+                  "createdAt": "2026-01-22T17:20:27.372Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490382",
+                    "name": "For Honor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a5273695-017b-4b60-bb80-0c4a88fcf157.jpeg",
+                  "isIosAvailable": false,
+                  "name": "4boost3dcs2crate",
+                  "ownerOrganization": {
+                    "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+                    "name": "Ubisoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-12T16:59:59.998Z",
+            "name": "4 boost 3 dcs 2 crate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-01-22T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "16f347d8-f7b8-11f0-859c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b_CUSTOM_ID_4xp_7dayschamp_4scav",
+                  "createdAt": "2026-01-22T17:21:05.156Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490382",
+                    "name": "For Honor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/66b453eb-1ad4-4f61-bbfc-19a14d492958.jpeg",
+                  "isIosAvailable": false,
+                  "name": "4boost7dcs4crate",
+                  "ownerOrganization": {
+                    "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+                    "name": "Ubisoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-12T16:59:59.998Z",
+            "name": "4 boost 7 dcs 4 crate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-01-22T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c7eec16a-f7b7-11f0-b320-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b_CUSTOM_ID_2xpboost_1scavcrate_FH_jan26",
+                  "createdAt": "2026-01-22T17:19:34.705Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490382",
+                    "name": "For Honor",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9d25fd76-214e-48c1-9794-6310712c3015.jpeg",
+                  "isIosAvailable": false,
+                  "name": "2boost1crate",
+                  "ownerOrganization": {
+                    "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+                    "name": "Ubisoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-12T16:59:59.998Z",
+            "name": "2 boost 1 crate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-01-22T17:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -45145,6 +45288,186 @@
               "id": "796247998",
               "displayName": "Asveeti",
               "name": "asveeti",
+              "__typename": "Channel"
+            },
+            {
+              "id": "159176262",
+              "displayName": "menyeB",
+              "name": "menyeb",
+              "__typename": "Channel"
+            },
+            {
+              "id": "62655443",
+              "displayName": "Overloadr",
+              "name": "overloadr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "515487333",
+              "displayName": "Ithuriana",
+              "name": "ithuriana",
+              "__typename": "Channel"
+            },
+            {
+              "id": "402630161",
+              "displayName": "Teteia",
+              "name": "teteia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "223313581",
+              "displayName": "Ninelaris",
+              "name": "ninelaris",
+              "__typename": "Channel"
+            },
+            {
+              "id": "93339229",
+              "displayName": "Breitnerro",
+              "name": "breitnerro",
+              "__typename": "Channel"
+            },
+            {
+              "id": "128956845",
+              "displayName": "RaquelSegal",
+              "name": "raquelsegal",
+              "__typename": "Channel"
+            },
+            {
+              "id": "21964547",
+              "displayName": "jejepinheiro",
+              "name": "jejepinheiro",
+              "__typename": "Channel"
+            },
+            {
+              "id": "55899594",
+              "displayName": "CorgiCam",
+              "name": "corgicam",
+              "__typename": "Channel"
+            },
+            {
+              "id": "100892354",
+              "displayName": "Pyroscythe",
+              "name": "pyroscythe",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51872226",
+              "displayName": "Leona_Kiki",
+              "name": "leona_kiki",
+              "__typename": "Channel"
+            },
+            {
+              "id": "40145061",
+              "displayName": "Inzaynia",
+              "name": "inzaynia",
+              "__typename": "Channel"
+            },
+            {
+              "id": "170099360",
+              "displayName": "icykaty",
+              "name": "icykaty",
+              "__typename": "Channel"
+            },
+            {
+              "id": "143821185",
+              "displayName": "MyRageIsOP",
+              "name": "myrageisop",
+              "__typename": "Channel"
+            },
+            {
+              "id": "49613849",
+              "displayName": "Amph",
+              "name": "amph",
+              "__typename": "Channel"
+            },
+            {
+              "id": "211256106",
+              "displayName": "Mushu",
+              "name": "mushu",
+              "__typename": "Channel"
+            },
+            {
+              "id": "763168199",
+              "displayName": "LadyOnlyFails",
+              "name": "ladyonlyfails",
+              "__typename": "Channel"
+            },
+            {
+              "id": "45384297",
+              "displayName": "Smayro",
+              "name": "smayro",
+              "__typename": "Channel"
+            },
+            {
+              "id": "238039161",
+              "displayName": "ChillinWithDev",
+              "name": "chillinwithdev",
+              "__typename": "Channel"
+            },
+            {
+              "id": "58617863",
+              "displayName": "Salista_Belladonna",
+              "name": "salista_belladonna",
+              "__typename": "Channel"
+            },
+            {
+              "id": "498671510",
+              "displayName": "NalfeinnLive",
+              "name": "nalfeinnlive",
+              "__typename": "Channel"
+            },
+            {
+              "id": "32956983",
+              "displayName": "Chillmuri_",
+              "name": "chillmuri_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "70019920",
+              "displayName": "EpicJoystick",
+              "name": "epicjoystick",
+              "__typename": "Channel"
+            },
+            {
+              "id": "550265398",
+              "displayName": "Rin_Stahich",
+              "name": "rin_stahich",
+              "__typename": "Channel"
+            },
+            {
+              "id": "118977052",
+              "displayName": "Dr_Plankton",
+              "name": "dr_plankton",
+              "__typename": "Channel"
+            },
+            {
+              "id": "90732066",
+              "displayName": "AyanGenius",
+              "name": "ayangenius",
+              "__typename": "Channel"
+            },
+            {
+              "id": "726457732",
+              "displayName": "OHOTNICA_TV",
+              "name": "ohotnica_tv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "32734417",
+              "displayName": "Atremis",
+              "name": "atremis",
+              "__typename": "Channel"
+            },
+            {
+              "id": "415660067",
+              "displayName": "Flippa_UK",
+              "name": "flippa_uk",
+              "__typename": "Channel"
+            },
+            {
+              "id": "188939270",
+              "displayName": "Taioyaki",
+              "name": "taioyaki",
               "__typename": "Channel"
             }
           ],
