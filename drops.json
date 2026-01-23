@@ -20267,6 +20267,12 @@
               "displayName": "DragaoVermelhoMW_",
               "name": "dragaovermelhomw_",
               "__typename": "Channel"
+            },
+            {
+              "id": "211950091",
+              "displayName": "LeoBluEyeZ",
+              "name": "leoblueyez",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -33141,6 +33147,86 @@
       }
     ],
     "startAt": "2026-01-02T08:00:00.000Z"
+  },
+  {
+    "endAt": "2026-01-30T14:54:59.997Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/873696356_IGDB-120x160.jpg",
+    "gameDisplayName": "Warhounds",
+    "gameId": "873696356",
+    "rewards": [
+      {
+        "id": "1fcbb833-f7a3-11f0-a7bf-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://discord.gg/rnEBh7kEsc",
+        "description": "Get access to Warhounds Closed Alpha playtest!  Get Steam Key!",
+        "detailsURL": "https://discord.gg/rnEBh7kEsc",
+        "endAt": "2026-01-30T14:54:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "873696356",
+          "slug": "warhounds",
+          "displayName": "Warhounds",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/be64e4b5-dd46-4fe6-a15a-a733b1fe81ea.jpeg",
+        "name": "Closed Alpha Playtest",
+        "owner": {
+          "id": "0c23ecea-3f47-4b48-ae40-568e733d58a5",
+          "name": "Brightika, Inc.",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-23T08:16:39Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "4821f54a-f7a3-11f0-894e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "77b67e7b-f7a3-11f0-8b17-0a58a9feac02",
+                  "createdAt": "2026-01-22T15:03:10.866Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "873696356",
+                    "name": "Warhounds",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3049c1f0-7d1d-4ded-bd2c-b6f63bc3cfa2.png",
+                  "isIosAvailable": false,
+                  "name": "Closed Playtest Key",
+                  "ownerOrganization": {
+                    "id": "0c23ecea-3f47-4b48-ae40-568e733d58a5",
+                    "name": "Brightika, Inc.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-30T14:54:59.997Z",
+            "name": "Playtest Key",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-01-23T08:16:39Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-23T08:16:39.000Z"
   },
   {
     "endAt": "2026-01-30T14:59:59.996Z",
