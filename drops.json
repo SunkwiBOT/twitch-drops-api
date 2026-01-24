@@ -1,85 +1,5 @@
 [
   {
-    "endAt": "2026-01-24T16:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509511_IGDB-120x160.jpg",
-    "gameDisplayName": "Marbles on Stream",
-    "gameId": "509511",
-    "rewards": [
-      {
-        "id": "f402bcba-f84b-11f0-831d-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://app.pixelbypixelstudios.live/auth/twitch/link",
-        "description": "Marbles on Stream is the most welcoming stream interactive experience where a streamer can run the game and welcome anyone in their chat to participate with \"!play\". That's it!\n\nJoin in for exclusive prizes and keep an eye on our for how we evolve this event in the future. If you need assistance please join our discord. Discord.gg/pixelbypixelstudios ",
-        "detailsURL": "https://pixelbypixel.studio/about/twitch-drops",
-        "endAt": "2026-01-24T16:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "509511",
-          "slug": "marbles-on-stream",
-          "displayName": "Marbles on Stream",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9062a872-9b13-4b9c-81ad-c8d4fe942ce0.png",
-        "name": "Marble Day 232",
-        "owner": {
-          "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
-          "name": "Pixel by Pixel Studios",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-01-23T17:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "2aa46d3a-f84c-11f0-86cf-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_DropsTestBundleCC",
-                  "createdAt": "2023-10-26T09:00:50.239Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "509511",
-                    "name": "Marbles on Stream",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7519a7e0-3787-4284-8790-071aaf244db2.png",
-                  "isIosAvailable": false,
-                  "name": "15 Community Coins",
-                  "ownerOrganization": {
-                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
-                    "name": "Pixel by Pixel Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-24T16:59:59.999Z",
-            "name": "DROP",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2026-01-23T17:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-01-23T17:00:00.000Z"
-  },
-  {
     "endAt": "2026-01-24T17:57:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
     "gameDisplayName": "Rise Online",
@@ -11642,6 +11562,99 @@
       }
     ],
     "startAt": "2026-01-17T00:00:00.000Z"
+  },
+  {
+    "endAt": "2026-01-25T04:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
+    "gameDisplayName": "Halo Infinite",
+    "gameId": "506416",
+    "rewards": [
+      {
+        "id": "7e05cac5-ea7b-11f0-bf94-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "28130176",
+              "displayName": "NapTimez",
+              "name": "naptimez",
+              "__typename": "Channel"
+            },
+            {
+              "id": "762572239",
+              "displayName": "ClutchAcademyGG",
+              "name": "clutchacademygg",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn in-game content in Halo Infinite!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2026-01-25T04:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/115401b3-f111-467e-924a-13285f298f7f.png",
+        "name": "Golden EVO FFA-JAN24",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-24T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "8b91be0b-ea7b-11f0-bde8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_488M-SQ4N-NN1N-HBGZ-16VS",
+                  "createdAt": "2023-11-17T00:15:08.319Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/afd31302-ba87-445d-a526-399c8cbc59f3.png",
+                  "isIosAvailable": false,
+                  "name": "Lucky Marks BR",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-25T04:59:59.999Z",
+            "name": "Lucky Marks BR",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-01-24T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-24T17:00:00.000Z"
   },
   {
     "endAt": "2026-01-25T09:29:59.999Z",
