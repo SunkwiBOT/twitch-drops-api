@@ -16364,7 +16364,7 @@
     "startAt": "2026-01-19T15:00:00.000Z"
   },
   {
-    "endAt": "2026-01-25T23:29:59.998Z",
+    "endAt": "2026-01-25T23:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/423797288_IGDB-120x160.jpg",
     "gameDisplayName": "Modern Warships",
     "gameId": "423797288",
@@ -16766,6 +16766,234 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 300,
             "startAt": "2026-01-09T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "03d2df98-f851-11f0-8794-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "609514799",
+              "displayName": "ModernWarships",
+              "name": "modernwarships",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1065063343",
+              "displayName": "ModernWarships_ru",
+              "name": "modernwarships_ru",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://artstorm.com/cabinet/connect-twitch",
+        "description": "Get ready for a new Twitch Drops campaign dedicated to the Global Masters 2025 Finals!",
+        "detailsURL": "https://artstorm.com/ru-RU/news/global-masters-2025",
+        "endAt": "2026-01-25T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "423797288",
+          "slug": "modern-warships",
+          "displayName": "Modern Warships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2960de72-3592-4926-b870-34ef5c4ad0d5.png",
+        "name": "Global Masters'25 Finals",
+        "owner": {
+          "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+          "name": "Artstorm FZE",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-23T11:43:56Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "14d1fac5-f851-11f0-831d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_twitchDrops_2DaysPremium",
+                  "createdAt": "2025-08-13T16:35:07.285Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "423797288",
+                    "name": "Modern Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/576951fe-d1ca-48eb-9db1-26222be41826.png",
+                  "isIosAvailable": false,
+                  "name": "2 Days of Premium",
+                  "ownerOrganization": {
+                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+                    "name": "Artstorm FZE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-25T23:29:59.999Z",
+            "name": "2 Days of Premium",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-01-23T11:43:56Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "1996975f-f851-11f0-92b2-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_WCTdrops_bundle_1",
+                  "createdAt": "2024-12-13T14:02:51.214Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "423797288",
+                    "name": "Modern Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a708bc00-a847-4125-b247-0c5ed90f1986.png",
+                  "isIosAvailable": false,
+                  "name": "500 Upgrade Points",
+                  "ownerOrganization": {
+                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+                    "name": "Artstorm FZE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-25T23:29:59.999Z",
+            "name": "500 UP's",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-01-23T11:43:56Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "1e3c90a3-f851-11f0-ba69-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_twitchDrops_CamoGlobalMasters25Rare",
+                  "createdAt": "2026-01-16T11:14:55.203Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "423797288",
+                    "name": "Modern Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b3e8abf9-396a-40db-ba9f-4687d2909627.png",
+                  "isIosAvailable": false,
+                  "name": "Camo Snow Vortex",
+                  "ownerOrganization": {
+                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+                    "name": "Artstorm FZE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-25T23:29:59.999Z",
+            "name": "Camo Snow Vortex",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-01-23T11:43:56Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "22c92491-f851-11f0-a2f8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_twitchDrops_eventgachaofferla99tm_2",
+                  "createdAt": "2026-01-16T11:15:17.25Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "423797288",
+                    "name": "Modern Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/144991ee-d619-4c1d-93d2-44fafebb4fa1.png",
+                  "isIosAvailable": false,
+                  "name": "3 Tournament Lootbox Keys",
+                  "ownerOrganization": {
+                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+                    "name": "Artstorm FZE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-25T23:29:59.999Z",
+            "name": "3 Tournament Lootbox Keys",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-01-23T11:43:56Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "27e2d3ca-f851-11f0-998e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_twitchDrops_TacticalConsumables2900",
+                  "createdAt": "2025-08-13T16:42:02.27Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "423797288",
+                    "name": "Modern Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/95f09d6d-7a3b-4592-ae02-0813134cbd1e.png",
+                  "isIosAvailable": false,
+                  "name": "Tactical Consumables XL",
+                  "ownerOrganization": {
+                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+                    "name": "Artstorm FZE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-25T23:29:59.999Z",
+            "name": "Tactical Consumables XL",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2026-01-23T11:43:56Z",
             "__typename": "TimeBasedDrop"
           }
         ],
