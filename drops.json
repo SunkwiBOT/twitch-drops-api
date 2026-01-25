@@ -891,6 +891,93 @@
     "startAt": "2026-01-24T17:59:00.000Z"
   },
   {
+    "endAt": "2026-01-25T18:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
+    "rewards": [
+      {
+        "id": "74e925ca-f676-11f0-9538-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "164934540",
+              "displayName": "MjikThize",
+              "name": "mjikthize",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Watch MjikThize for 30 minutes to receive a Subterranean Pobber Floof decoration!",
+        "detailsURL": "https://forums.warframe.com/topic/1490251-community-stream-schedule-jan-19-25-2026/",
+        "endAt": "2026-01-25T18:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/242f3947-d537-4dd9-a58b-4a35ae13eca9.jpeg",
+        "name": "Community Drops #162",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-25T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7da17220-f676-11f0-a6b7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "13d922b6-e23f-11ee-bf11-0a58a9feac02",
+                  "createdAt": "2024-03-14T20:11:43.887Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "66170",
+                    "name": "Warframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8b3ee47-f92b-4994-9470-d0d4da02cceb.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Subterranean Pobber Floof",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-25T18:59:59.998Z",
+            "name": "Subterranean Pobber Floof",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-01-25T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-25T17:00:00.000Z"
+  },
+  {
     "endAt": "2026-01-25T20:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/514013_IGDB-120x160.jpg",
     "gameDisplayName": "Caliber",
