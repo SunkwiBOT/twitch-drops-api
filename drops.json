@@ -15865,6 +15865,129 @@
     "startAt": "2026-01-23T15:00:00.000Z"
   },
   {
+    "endAt": "2026-01-30T00:58:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/497057-120x160.jpg",
+    "gameDisplayName": "Destiny 2",
+    "gameId": "497057",
+    "rewards": [
+      {
+        "id": "efc4ea65-fb1b-11f0-97c9-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "997059744",
+              "displayName": "BungieFoundation",
+              "name": "bungiefoundation",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.tv",
+        "description": "Watch or Subscribe to the Bungie Foundation's Game2Give broadcast on January 29th to unlock these two Global Chat Badges!",
+        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide",
+        "endAt": "2026-01-30T00:58:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "497057",
+          "slug": "destiny-2",
+          "displayName": "Destiny 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/eb5569ca-abdd-4d37-bf97-5afe0ec5f8d8.png",
+        "name": "Bungie Foundation Badges",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-26T00:59:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1d07aae0-fb1c-11f0-9483-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "49b86c56-fb1d-11f0-90a3-0a58a9feac02",
+                  "createdAt": "2026-01-27T01:12:45.793Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "497057",
+                    "name": "Destiny 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/108b104f-d78a-4b97-aa60-5ee9006b2dce.png",
+                  "isIosAvailable": false,
+                  "name": "Bungie Foundation Ally",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-30T00:58:59.998Z",
+            "name": "Bungie Foundation Ally Badge",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2026-01-26T00:59:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "248c5bd3-fb1c-11f0-8e0f-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a1fc5113-fb1d-11f0-b4d7-0a58a9feac02",
+                  "createdAt": "2026-01-27T01:15:13.877Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "497057",
+                    "name": "Destiny 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/466bd6de-921a-4990-b95d-e0b0664b1f03.png",
+                  "isIosAvailable": false,
+                  "name": "Bungie Foundation Sub",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-30T00:58:59.998Z",
+            "name": "Bungie Foundation Supporter Badge",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2026-01-26T00:59:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-26T00:59:00.000Z"
+  },
+  {
     "endAt": "2026-01-30T07:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1411398523_IGDB-120x160.jpg",
     "gameDisplayName": "Vampire: The Masquerade - Bloodhunt",
