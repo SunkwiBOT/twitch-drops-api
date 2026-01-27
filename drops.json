@@ -20935,6 +20935,86 @@
     "startAt": "2026-01-05T00:00:00.000Z"
   },
   {
+    "endAt": "2026-01-31T23:29:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
+    "gameDisplayName": "Kirka.io",
+    "gameId": "356609813",
+    "rewards": [
+      {
+        "id": "009fb445-fb19-11f0-93bf-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Kirka.io drop for the Gwen Unobtainable",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2026-01-31T23:29:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1024cba7-ce10-452d-93e0-cae033af2c66.png",
+        "name": "Gwen",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-27T00:55:14Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "bbbc5386-fb19-11f0-a431-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_ee00d51e-41c4-42a1-bb59-5da426920554",
+                  "createdAt": "2026-01-27T00:54:17.717Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ab8e6f9c-b9f4-44f0-9cc1-cecc50dd0ea6.png",
+                  "isIosAvailable": false,
+                  "name": "Gwen",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-31T23:29:59.998Z",
+            "name": "Gwen",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2026-01-27T00:55:14Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-27T00:55:14.000Z"
+  },
+  {
     "endAt": "2026-01-31T23:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/902050890_IGDB-120x160.jpg",
     "gameDisplayName": "Kakele Online - MMORPG",
