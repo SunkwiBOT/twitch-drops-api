@@ -10978,6 +10978,86 @@
     "startAt": "2026-01-26T04:00:00.000Z"
   },
   {
+    "endAt": "2026-02-02T08:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1772900021_IGDB-120x160.jpg",
+    "gameDisplayName": "Spellcasters Chronicles",
+    "gameId": "1772900021",
+    "rewards": [
+      {
+        "id": "5d6d3c09-fd26-11f0-b01a-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.spellcasterschronicles.com/twitch-drops",
+        "description": "Connect your Twitch account on the Spellcasters Chronicles website and watch live streams under the Spellcasters Chronicles category with Twitch Drops activated for a minimum of 30 minutes. Once completed, get your exclusive Closed Beta Key on the official game website.",
+        "detailsURL": "https://www.spellcasterschronicles.com/twitch-drops",
+        "endAt": "2026-02-02T08:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1772900021",
+          "slug": "spellcasters-chronicles",
+          "displayName": "Spellcasters Chronicles",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c8062d36-ea8f-4a5b-a450-9ccbab44963b.png",
+        "name": "Closed Beta 2 is LIVE!",
+        "owner": {
+          "id": "39c4f535-d577-4131-b125-c8d1fcceb2d3",
+          "name": "Quantic Dream",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-29T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "76f90667-fd26-11f0-81ad-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "39c4f535-d577-4131-b125-c8d1fcceb2d3_CUSTOM_ID_feisty-surcharge-automatic-bouncing-friday-snitch",
+                  "createdAt": "2025-11-27T14:34:49.015Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1772900021",
+                    "name": "Spellcasters Chronicles",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/743e974b-5483-4fc2-bccd-6c8e989f8beb.png",
+                  "isIosAvailable": false,
+                  "name": "Closed Beta Key",
+                  "ownerOrganization": {
+                    "id": "39c4f535-d577-4131-b125-c8d1fcceb2d3",
+                    "name": "Quantic Dream",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-02T08:59:59.999Z",
+            "name": "Closed Beta Key",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-01-29T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-29T15:00:00.000Z"
+  },
+  {
     "endAt": "2026-02-02T17:59:59.994Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1181932941_IGDB-120x160.jpg",
     "gameDisplayName": "Demeo x Dungeons & Dragons: Battlemarked",
