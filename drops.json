@@ -1,157 +1,5 @@
 [
   {
-    "endAt": "2026-01-29T15:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/19801_IGDB-120x160.jpg",
-    "gameDisplayName": "Throne and Liberty",
-    "gameId": "19801",
-    "rewards": [
-      {
-        "id": "1fbf9496-ecaf-11f0-8aa2-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.playthroneandliberty.com/twitch-drops",
-        "description": "Take these drops on your next adventure in Solisium!",
-        "detailsURL": "https://www.playthroneandliberty.com/twitch-drops",
-        "endAt": "2026-01-29T15:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "19801",
-          "slug": "throne-and-liberty",
-          "displayName": "Throne and Liberty",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/158e1ef2-63e2-484c-bbb5-d94efd1d0992.jpeg",
-        "name": "Ornate Coin Drop",
-        "owner": {
-          "id": "295d0854-31a5-43cf-b7d7-3eeaedf905ae",
-          "name": "NCSOFT + Amazon Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-01-15T19:12:01Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "4c37ff1d-ecaf-11f0-a206-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "631db05e-ecaf-11f0-a073-0a58a9feac02",
-                  "createdAt": "2026-01-08T16:30:47.48Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "19801",
-                    "name": "Throne and Liberty",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c976eabe-901f-4256-a6cf-31c05f79073f.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Ornate Coins x100",
-                  "ownerOrganization": {
-                    "id": "295d0854-31a5-43cf-b7d7-3eeaedf905ae",
-                    "name": "NCSOFT + Amazon Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-29T15:59:59.999Z",
-            "name": "Tier 1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-01-15T19:12:01Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "4f5d1443-ecaf-11f0-92d5-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6fa1654f-ecaf-11f0-ba0e-0a58a9feac02",
-                  "createdAt": "2026-01-08T16:31:08.476Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "19801",
-                    "name": "Throne and Liberty",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b3c8a3ba-a4ad-4405-b41e-30dc74ba46b6.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Ornate Coins x200",
-                  "ownerOrganization": {
-                    "id": "295d0854-31a5-43cf-b7d7-3eeaedf905ae",
-                    "name": "NCSOFT + Amazon Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-29T15:59:59.999Z",
-            "name": "Tier 2",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2026-01-15T19:12:01Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "5240f5f2-ecaf-11f0-8a57-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "7d1605a0-ecaf-11f0-a87f-0a58a9feac02",
-                  "createdAt": "2026-01-08T16:31:31.051Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "19801",
-                    "name": "Throne and Liberty",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c781af5e-5a2d-4ef3-a3d9-354ab6795075.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Star Crystals",
-                  "ownerOrganization": {
-                    "id": "295d0854-31a5-43cf-b7d7-3eeaedf905ae",
-                    "name": "NCSOFT + Amazon Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-01-29T15:59:59.999Z",
-            "name": "Tier 3",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 480,
-            "startAt": "2026-01-15T19:12:01Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-01-15T19:12:01.000Z"
-  },
-  {
     "endAt": "2026-02-04T22:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
     "gameDisplayName": "World of Warships",
@@ -2956,6 +2804,201 @@
       }
     ],
     "startAt": "2026-01-28T20:00:00.000Z"
+  },
+  {
+    "endAt": "2026-01-30T04:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2012789438_IGDB-120x160.jpg",
+    "gameDisplayName": "Call of Duty: Black Ops 7",
+    "gameId": "2012789438",
+    "rewards": [
+      {
+        "id": "61962003-ea9a-11f0-86ed-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "41744414",
+              "displayName": "CallofDuty_Esports",
+              "name": "callofduty_esports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://profile.callofduty.com/cod/twitch/reauth",
+        "description": "CDL Major 1 - Day 1",
+        "detailsURL": "https://www.twitch.tv/drops/inventory",
+        "endAt": "2026-01-30T04:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2012789438",
+          "slug": "call-of-duty-black-ops-7",
+          "displayName": "Call of Duty: Black Ops 7",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2048138e-7c7b-4c7d-9795-4dfc4e11c7d4.png",
+        "name": "CDL Major 1 - Day 1",
+        "owner": {
+          "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+          "name": "Activision Publishing ",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-29T16:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "96dbeeca-ea9b-11f0-a603-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34064",
+                  "createdAt": "2025-10-30T15:40:50.671Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2012789438",
+                    "name": "Call of Duty: Black Ops 7",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e3be4866-cd9a-4af2-9e28-00bd4f402d86.png",
+                  "isIosAvailable": false,
+                  "name": "1 Hour XP Token",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-30T04:59:59.999Z",
+            "name": "60 Min Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-01-29T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9c0641c1-ea9b-11f0-bee3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34732",
+                  "createdAt": "2026-01-06T00:57:06.203Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2012789438",
+                    "name": "Call of Duty: Black Ops 7",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9e79b86c-ce0c-4d23-8bee-ae6d96c4de69.png",
+                  "isIosAvailable": false,
+                  "name": "Toxic Talker Sticker",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-30T04:59:59.999Z",
+            "name": "90 Min Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2026-01-29T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a0b6a4f3-ea9b-11f0-be5a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34070",
+                  "createdAt": "2025-10-30T15:42:43.627Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2012789438",
+                    "name": "Call of Duty: Black Ops 7",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1a662c5e-325e-4228-9e11-157477357fdd.png",
+                  "isIosAvailable": false,
+                  "name": "1 Hour Weapon XP Token",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-30T04:59:59.999Z",
+            "name": "120 Min Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-01-29T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a7acdcc2-ea9b-11f0-a1d7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34725",
+                  "createdAt": "2026-01-06T01:00:33.567Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2012789438",
+                    "name": "Call of Duty: Black Ops 7",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a78fbbff-7565-409e-8be9-cb1e1763c4dd.png",
+                  "isIosAvailable": false,
+                  "name": "Hill Kitten Calling Card",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-30T04:59:59.999Z",
+            "name": "150 Min Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 150,
+            "startAt": "2026-01-29T16:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-29T16:00:00.000Z"
   },
   {
     "endAt": "2026-01-30T07:58:59.999Z",
