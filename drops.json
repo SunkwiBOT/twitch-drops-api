@@ -29325,6 +29325,194 @@
     "startAt": "2026-01-08T15:00:00.000Z"
   },
   {
+    "endAt": "2026-02-04T23:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1471416868_IGDB-120x160.jpg",
+    "gameDisplayName": "UFL",
+    "gameId": "1471416868",
+    "rewards": [
+      {
+        "id": "0dfad75c-fced-11f0-8b36-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://portal.uflgame.com/twitch",
+        "description": "Watch any channel with drops enabled on Twitch in the UFL category and get cool rewards!",
+        "detailsURL": "https://portal.uflgame.com/twitch/drops",
+        "endAt": "2026-02-04T23:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1471416868",
+          "slug": "ufl",
+          "displayName": "UFL",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d76c08fd-ce62-43f3-b706-c36c4f8a4fbd.png",
+        "name": "Feb #1",
+        "owner": {
+          "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+          "name": "XTEN LIMITED",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-29T09:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "30d8330f-fced-11f0-8003-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_66507",
+                  "createdAt": "2026-01-29T08:26:50.993Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1471416868",
+                    "name": "UFL",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e57c3df6-0a63-4a81-84fe-92ddd9347262.png",
+                  "isIosAvailable": false,
+                  "name": "Enhanced CP Pack",
+                  "ownerOrganization": {
+                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+                    "name": "XTEN LIMITED",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-04T23:58:59.999Z",
+            "name": "1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-01-29T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3e0ad6c6-fced-11f0-99b3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_66508",
+                  "createdAt": "2026-01-29T08:27:25.452Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1471416868",
+                    "name": "UFL",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0398ee4c-148c-495e-8bba-215be1662b3b.png",
+                  "isIosAvailable": false,
+                  "name": "50 LP",
+                  "ownerOrganization": {
+                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+                    "name": "XTEN LIMITED",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-04T23:58:59.999Z",
+            "name": "2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-01-29T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4be99ac7-fced-11f0-9ba5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_66509",
+                  "createdAt": "2026-01-29T08:27:58.763Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1471416868",
+                    "name": "UFL",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/14f2f13d-3e37-49cd-a3d4-eff27633a02e.png",
+                  "isIosAvailable": false,
+                  "name": "Saudi pack",
+                  "ownerOrganization": {
+                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+                    "name": "XTEN LIMITED",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-04T23:58:59.999Z",
+            "name": "3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-01-29T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7d070022-fcee-11f0-8527-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "df246de8-213d-4816-9fdf-1e234784c18a_CUSTOM_ID_66510",
+                  "createdAt": "2026-01-29T08:42:18.118Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1471416868",
+                    "name": "UFL",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3e11b841-b620-4488-8afd-bf16e3039c9c.png",
+                  "isIosAvailable": false,
+                  "name": "February 26 GС 1",
+                  "ownerOrganization": {
+                    "id": "df246de8-213d-4816-9fdf-1e234784c18a",
+                    "name": "XTEN LIMITED",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-04T23:58:59.999Z",
+            "name": "4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-01-29T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-29T09:00:00.000Z"
+  },
+  {
     "endAt": "2026-02-05T12:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/737987407_IGDB-120x160.jpg",
     "gameDisplayName": "Enshrouded",
