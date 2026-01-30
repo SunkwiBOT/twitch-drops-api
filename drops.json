@@ -30117,6 +30117,86 @@
     "startAt": "2026-01-22T01:00:00.000Z"
   },
   {
+    "endAt": "2026-02-16T16:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/873696356_IGDB-120x160.jpg",
+    "gameDisplayName": "Warhounds",
+    "gameId": "873696356",
+    "rewards": [
+      {
+        "id": "0fc86380-fdf1-11f0-88c9-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://discord.gg/rnEBh7kEsc",
+        "description": "Get access to Warhounds Closed Playtest!  Get Steam Key!",
+        "detailsURL": "https://discord.gg/rnEBh7kEsc",
+        "endAt": "2026-02-16T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "873696356",
+          "slug": "warhounds",
+          "displayName": "Warhounds",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1a79afd9-f5b7-4473-9c47-026ea87212df.jpeg",
+        "name": "Closed Playtest",
+        "owner": {
+          "id": "0c23ecea-3f47-4b48-ae40-568e733d58a5",
+          "name": "Brightika, Inc.",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-30T15:29:11Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "dec741f9-fdf1-11f0-a92d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "77b67e7b-f7a3-11f0-8b17-0a58a9feac02",
+                  "createdAt": "2026-01-22T15:03:10.866Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "873696356",
+                    "name": "Warhounds",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3049c1f0-7d1d-4ded-bd2c-b6f63bc3cfa2.png",
+                  "isIosAvailable": false,
+                  "name": "Closed Playtest Key",
+                  "ownerOrganization": {
+                    "id": "0c23ecea-3f47-4b48-ae40-568e733d58a5",
+                    "name": "Brightika, Inc.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-16T16:59:59.999Z",
+            "name": "Closed Playtest Key",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-01-30T15:29:11Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-30T15:29:11.000Z"
+  },
+  {
     "endAt": "2026-02-17T17:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/18122-120x160.jpg",
     "gameDisplayName": "World of Warcraft",
