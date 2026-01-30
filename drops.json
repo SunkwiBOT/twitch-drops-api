@@ -293,6 +293,93 @@
     "startAt": "2026-01-29T20:00:00.000Z"
   },
   {
+    "endAt": "2026-01-30T20:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/468533702_IGDB-120x160.jpg",
+    "gameDisplayName": "Soulframe",
+    "gameId": "468533702",
+    "rewards": [
+      {
+        "id": "e5808224-fc79-11f0-b44d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "769461865",
+              "displayName": "PlaySoulframe",
+              "name": "playsoulframe",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.soulframe.com/user",
+        "description": "Watch Soulframe Devstream #12 for 30 minutes to earn a Soulframe Preludes Key. Your code will appear in soulframe.com/user after claiming your Drop on the Twitch Inventory page. ",
+        "detailsURL": "https://forums.soulframe.com/topic/9180-coming-soon-soulframe-devstream-12/",
+        "endAt": "2026-01-30T20:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "468533702",
+          "slug": "soulframe",
+          "displayName": "Soulframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/bf747281-e4e0-4897-8191-46f3348cd316.png",
+        "name": "Soulframe Devstream #12",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-30T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f4004764-fc79-11f0-a6f1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d9d4bcf1-1a31-11f0-99e5-0a58a9feac02",
+                  "createdAt": "2025-04-15T19:43:05.88Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "468533702",
+                    "name": "Soulframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0308cb07-413f-4930-99ef-38fcf55dca45.png",
+                  "isIosAvailable": false,
+                  "name": "Soulframe Preludes Key",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-01-30T20:29:59.999Z",
+            "name": "Soulframe Preludes Key",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-01-30T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-30T19:00:00.000Z"
+  },
+  {
     "endAt": "2026-02-03T09:57:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/499551-120x160.jpg",
     "gameDisplayName": "World of Tanks Console",
@@ -8173,6 +8260,422 @@
       }
     ],
     "startAt": "2026-01-26T18:00:00.000Z"
+  },
+  {
+    "endAt": "2026-02-02T18:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/490488_IGDB-120x160.jpg",
+    "gameDisplayName": "Medivia Online",
+    "gameId": "490488",
+    "rewards": [
+      {
+        "id": "66b18a3a-fc95-11f0-8662-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://medivia.online/twitch/connect",
+        "description": "Celebrate the launch of Immensity, Medivia's newest world! Watch participating streams, link your Medivia account, and earn Twitch Drops - including Mana Coins, Skill & XP boosts, Premium Time, and launch rewards to start your adventure.",
+        "detailsURL": "https://wiki.medivia.online/Twitch_Drops",
+        "endAt": "2026-02-02T18:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "490488",
+          "slug": "medivia-online",
+          "displayName": "Medivia Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0b1cd8c4-b460-448b-8cb8-0193211cf87a.png",
+        "name": "Immensity World Launch",
+        "owner": {
+          "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8",
+          "name": "COMADSOFT",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-30T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "58919a8a-fd1a-11f0-bf33-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8_CUSTOM_ID_6",
+                  "createdAt": "2026-01-28T12:09:51.389Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490488",
+                    "name": "Medivia Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2277c428-da8e-4acf-b49a-94fba99aa0d8.png",
+                  "isIosAvailable": false,
+                  "name": "50% Skill Boost (1 hour)",
+                  "ownerOrganization": {
+                    "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8",
+                    "name": "COMADSOFT",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-02T18:59:59.999Z",
+            "name": "50% Skill Boost (1 hour)",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-01-30T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6a4e512e-fd1a-11f0-ab48-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8_CUSTOM_ID_4",
+                  "createdAt": "2026-01-28T12:08:18.528Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490488",
+                    "name": "Medivia Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9da5e9dd-f1c7-412f-b60b-ff39377cb4f5.png",
+                  "isIosAvailable": false,
+                  "name": "Free Premium Time (1 day)",
+                  "ownerOrganization": {
+                    "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8",
+                    "name": "COMADSOFT",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8_CUSTOM_ID_1",
+                  "createdAt": "2026-01-28T12:06:09.544Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490488",
+                    "name": "Medivia Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b82ac8ec-ee18-41f9-a9d6-71f3c9e93d6c.png",
+                  "isIosAvailable": false,
+                  "name": "1000x Mana Points",
+                  "ownerOrganization": {
+                    "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8",
+                    "name": "COMADSOFT",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-02T18:59:59.999Z",
+            "name": "Free Premium Time (1 day) + 1000 Mana Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-01-30T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7a02b691-fd1a-11f0-8e61-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8_CUSTOM_ID_5",
+                  "createdAt": "2026-01-28T12:09:03.395Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490488",
+                    "name": "Medivia Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c5c1d348-d4d5-414e-a8d4-703ec7e44d1b.png",
+                  "isIosAvailable": false,
+                  "name": "Dummy Scroll (4 hours)",
+                  "ownerOrganization": {
+                    "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8",
+                    "name": "COMADSOFT",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8_CUSTOM_ID_1",
+                  "createdAt": "2026-01-28T12:06:09.544Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490488",
+                    "name": "Medivia Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b82ac8ec-ee18-41f9-a9d6-71f3c9e93d6c.png",
+                  "isIosAvailable": false,
+                  "name": "1000x Mana Points",
+                  "ownerOrganization": {
+                    "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8",
+                    "name": "COMADSOFT",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-02T18:59:59.999Z",
+            "name": "Dummy Scroll (4 hours) + 1000 Mana Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-01-30T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7befc977-fc95-11f0-9daf-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8_CUSTOM_ID_1",
+                  "createdAt": "2026-01-28T12:06:09.544Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490488",
+                    "name": "Medivia Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b82ac8ec-ee18-41f9-a9d6-71f3c9e93d6c.png",
+                  "isIosAvailable": false,
+                  "name": "1000x Mana Points",
+                  "ownerOrganization": {
+                    "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8",
+                    "name": "COMADSOFT",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-02T18:59:59.999Z",
+            "name": "1000x Mana Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2026-01-30T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "8c7a5e91-fd1a-11f0-8cff-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8_CUSTOM_ID_7",
+                  "createdAt": "2026-01-28T12:10:09.735Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490488",
+                    "name": "Medivia Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4116562a-608a-456f-b0f4-316c7a0f2cc9.png",
+                  "isIosAvailable": false,
+                  "name": "50% XP Boost (1 hour)",
+                  "ownerOrganization": {
+                    "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8",
+                    "name": "COMADSOFT",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8_CUSTOM_ID_1",
+                  "createdAt": "2026-01-28T12:06:09.544Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490488",
+                    "name": "Medivia Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b82ac8ec-ee18-41f9-a9d6-71f3c9e93d6c.png",
+                  "isIosAvailable": false,
+                  "name": "1000x Mana Points",
+                  "ownerOrganization": {
+                    "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8",
+                    "name": "COMADSOFT",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-02T18:59:59.999Z",
+            "name": "50% XP Boost (1 hour) + 1000 Mana Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-01-30T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "99547a0f-fd1a-11f0-894c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8_CUSTOM_ID_4",
+                  "createdAt": "2026-01-28T12:08:18.528Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490488",
+                    "name": "Medivia Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9da5e9dd-f1c7-412f-b60b-ff39377cb4f5.png",
+                  "isIosAvailable": false,
+                  "name": "Free Premium Time (1 day)",
+                  "ownerOrganization": {
+                    "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8",
+                    "name": "COMADSOFT",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8_CUSTOM_ID_1",
+                  "createdAt": "2026-01-28T12:06:09.544Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490488",
+                    "name": "Medivia Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b82ac8ec-ee18-41f9-a9d6-71f3c9e93d6c.png",
+                  "isIosAvailable": false,
+                  "name": "1000x Mana Points",
+                  "ownerOrganization": {
+                    "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8",
+                    "name": "COMADSOFT",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-02T18:59:59.999Z",
+            "name": "Free Premium Time (1 day) + 1000 Mana Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-01-30T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a58d144f-fd1a-11f0-9b44-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8_CUSTOM_ID_7",
+                  "createdAt": "2026-01-28T12:10:09.735Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490488",
+                    "name": "Medivia Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4116562a-608a-456f-b0f4-316c7a0f2cc9.png",
+                  "isIosAvailable": false,
+                  "name": "50% XP Boost (1 hour)",
+                  "ownerOrganization": {
+                    "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8",
+                    "name": "COMADSOFT",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8_CUSTOM_ID_1",
+                  "createdAt": "2026-01-28T12:06:09.544Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490488",
+                    "name": "Medivia Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b82ac8ec-ee18-41f9-a9d6-71f3c9e93d6c.png",
+                  "isIosAvailable": false,
+                  "name": "1000x Mana Points",
+                  "ownerOrganization": {
+                    "id": "2b66a1f3-d9aa-42e5-8edf-32c28a2b62b8",
+                    "name": "COMADSOFT",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-02T18:59:59.999Z",
+            "name": "50% XP Boost (1 hour) + 1000 Mana Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2026-01-30T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-30T19:00:00.000Z"
   },
   {
     "endAt": "2026-02-02T20:59:59.999Z",
@@ -20978,6 +21481,230 @@
       }
     ],
     "startAt": "2026-01-21T00:00:00.000Z"
+  },
+  {
+    "endAt": "2026-02-04T07:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
+    "gameDisplayName": "Overwatch 2",
+    "gameId": "515025",
+    "rewards": [
+      {
+        "id": "a3867cd9-fcab-11f0-956e-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.battle.net/connections",
+        "description": "If you are looking to get additional competitive points so you can get your next Galactic Competitive Weapon, look no further! Celebrate the end of Season 20 and our Drives Event with Competitive Point drops by watching any of your favorite Overwatch 2 creators. ",
+        "detailsURL": "https://us.forums.blizzard.com/en/overwatch/t/twitch-drops-competitive-points-jan-30-2026/998363",
+        "endAt": "2026-02-04T07:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515025",
+          "slug": "overwatch-2",
+          "displayName": "Overwatch 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/06ba04f7-e1dc-4cfb-98cb-0eea549e26d6.png",
+        "name": "Season 20 Drives Drops",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-30T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1e1af7b0-fcac-11f0-88cd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1852792",
+                  "createdAt": "2026-01-29T00:46:56.71Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c633208-3650-4e06-8201-02bf5821cf8a.png",
+                  "isIosAvailable": false,
+                  "name": "100 Comp Points",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-04T07:58:59.999Z",
+            "name": "100 Comp Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-01-30T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "27161b22-fcac-11f0-91ac-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1852792",
+                  "createdAt": "2026-01-29T00:46:56.71Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c633208-3650-4e06-8201-02bf5821cf8a.png",
+                  "isIosAvailable": false,
+                  "name": "100 Comp Points",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-04T07:58:59.999Z",
+            "name": "100 Comp Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2026-01-30T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "35f68865-fcac-11f0-be06-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1852792",
+                  "createdAt": "2026-01-29T00:46:56.71Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c633208-3650-4e06-8201-02bf5821cf8a.png",
+                  "isIosAvailable": false,
+                  "name": "100 Comp Points",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-04T07:58:59.999Z",
+            "name": "100 Comp Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2026-01-30T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "42445311-fcac-11f0-8b22-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1852792",
+                  "createdAt": "2026-01-29T00:46:56.71Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c633208-3650-4e06-8201-02bf5821cf8a.png",
+                  "isIosAvailable": false,
+                  "name": "100 Comp Points",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-04T07:58:59.999Z",
+            "name": "100 Comp Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 600,
+            "startAt": "2026-01-30T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ee3c4aee-fcab-11f0-bfef-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_1852792",
+                  "createdAt": "2026-01-29T00:46:56.71Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515025",
+                    "name": "Overwatch 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6c633208-3650-4e06-8201-02bf5821cf8a.png",
+                  "isIosAvailable": false,
+                  "name": "100 Comp Points",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-04T07:58:59.999Z",
+            "name": "100 Comp Points",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-01-30T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-30T19:00:00.000Z"
   },
   {
     "endAt": "2026-02-04T14:59:59.997Z",
