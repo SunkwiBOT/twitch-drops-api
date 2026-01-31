@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2026-01-31T10:58:59.999Z",
+    "endAt": "2026-02-07T10:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2094865572-120x160.jpg",
     "gameDisplayName": "SMITE 2",
     "gameId": "2094865572",
@@ -299,6 +299,293 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 480,
             "startAt": "2026-01-24T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "4ece9345-f182-11f0-b865-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://link.smite2.com/",
+        "description": "Viewers will receive 50 Wandering Market Coins for each two hours spent viewing participating streams. Watch to earn 7 drops for a total of 350 Wandering Market Coins for the week!",
+        "detailsURL": "https://www.smite2.com/news/closed-alpha-twitch-drops/",
+        "endAt": "2026-02-07T10:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2094865572",
+          "slug": "smite-2",
+          "displayName": "SMITE 2",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8c8002e8-041d-4b49-89a9-73951fdc869e.png",
+        "name": "Feb Drops Week 1",
+        "owner": {
+          "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+          "name": "Hi-Rez Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-31T11:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "67e522c0-fe1f-11f0-a206-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ccb3fb7f-e59b-11ef-aef0-0a58a9feac02",
+                  "createdAt": "2025-02-07T21:37:58.881Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2094865572",
+                    "name": "SMITE 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/903496ad-de97-41ff-ad97-12f099e20ea8.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Market Coins Bundle 1",
+                  "ownerOrganization": {
+                    "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+                    "name": "Hi-Rez Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-07T10:58:59.999Z",
+            "name": "Market Coins Bundle",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-01-31T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6c7d2a13-fe1f-11f0-9c0a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "1513200a-e59c-11ef-8ab8-0a58a9feac02",
+                  "createdAt": "2025-02-07T21:40:00.3Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2094865572",
+                    "name": "SMITE 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c237f9f4-051c-4fed-b454-abb32c3e77bb.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Market Coins Bundle 2",
+                  "ownerOrganization": {
+                    "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+                    "name": "Hi-Rez Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-07T10:58:59.999Z",
+            "name": "Market Coins Bundle 2",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-01-31T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "73e3ce92-fe1f-11f0-8b22-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "57ffb8f5-e59c-11ef-bfbc-0a58a9feac02",
+                  "createdAt": "2025-02-07T21:41:52.581Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2094865572",
+                    "name": "SMITE 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/32d7e22a-e073-4507-8b82-500ebb448395.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Market Coins Bundle 3",
+                  "ownerOrganization": {
+                    "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+                    "name": "Hi-Rez Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-07T10:58:59.999Z",
+            "name": "Market Coins Bundle 3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2026-01-31T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "7f2bb4df-fe1f-11f0-894c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8185408c-e59c-11ef-976b-0a58a9feac02",
+                  "createdAt": "2025-02-07T21:43:02.242Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2094865572",
+                    "name": "SMITE 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/620d7b83-3e6a-4d84-bb47-f04c18c57868.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Market Coins Bundle 4",
+                  "ownerOrganization": {
+                    "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+                    "name": "Hi-Rez Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-07T10:58:59.999Z",
+            "name": "Market Coins Bundle 4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2026-01-31T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "870cf71b-fe1f-11f0-8e9c-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a3b2cc30-e59c-11ef-89ff-0a58a9feac02",
+                  "createdAt": "2025-02-07T21:43:59.583Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2094865572",
+                    "name": "SMITE 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0b8e4f8a-acdc-4e46-8a69-86f52c8bea5c.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Market Coins Bundle 5",
+                  "ownerOrganization": {
+                    "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+                    "name": "Hi-Rez Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-07T10:58:59.999Z",
+            "name": "Market Coins Bundle 5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 600,
+            "startAt": "2026-01-31T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "8e464852-fe1f-11f0-aed6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "c7ab45fa-e59c-11ef-8161-0a58a9feac02",
+                  "createdAt": "2025-02-07T21:44:59.932Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2094865572",
+                    "name": "SMITE 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3ac43663-e809-40fa-9afa-b37999ee4dac.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Market Coins Bundle 6",
+                  "ownerOrganization": {
+                    "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+                    "name": "Hi-Rez Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-07T10:58:59.999Z",
+            "name": "Market Coins Bundle 6",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 720,
+            "startAt": "2026-01-31T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "b3c408b0-fe1f-11f0-8527-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e9fd9672-e59c-11ef-b8d8-0a58a9feac02",
+                  "createdAt": "2025-02-07T21:45:57.514Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2094865572",
+                    "name": "SMITE 2",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/043434c4-1e73-40ae-80ec-ac836737e748.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Market Coins Bundle 7",
+                  "ownerOrganization": {
+                    "id": "51a157a0-674a-4863-b120-7bb6ee2466a8",
+                    "name": "Hi-Rez Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-07T10:58:59.999Z",
+            "name": "Market Coins Bundle 7",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 840,
+            "startAt": "2026-01-31T11:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -7675,6 +7962,194 @@
       }
     ],
     "startAt": "2026-01-29T15:00:00.000Z"
+  },
+  {
+    "endAt": "2026-02-02T10:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/490377-120x160.jpg",
+    "gameDisplayName": "Sea of Thieves",
+    "gameId": "490377",
+    "rewards": [
+      {
+        "id": "229b1233-fc63-11f0-8d16-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.seaofthieves.com/twitch-drops",
+        "description": "There’s nothing a pirate on the Sea of Thieves likes more than free loot – and with Twitch Drops, you can claim some just by linking your Twitch account to your Sea of Thieves account and tuning in to our special events!          Twitch Drops are free items awarded to players for watching participating streamers during promotional activities. Sign up now to be eligible for the latest Twitch Drops event!",
+        "detailsURL": "https://www.seaofthieves.com/twitch-drops",
+        "endAt": "2026-02-02T10:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "490377",
+          "slug": "sea-of-thieves",
+          "displayName": "Sea of Thieves",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/23c90b36-9d08-42eb-8786-1c814eb58340.png",
+        "name": "S18: Community Day",
+        "owner": {
+          "id": "c959c359-eeb7-4aa0-81ab-c4cecd6c0efb",
+          "name": "Rare",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-01-31T11:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5d693aa1-fd0d-11f0-a92d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "c959c359-eeb7-4aa0-81ab-c4cecd6c0efb_CUSTOM_ID_sot_Seasonal_Renown_3_Level_CommunityDayS18",
+                  "createdAt": "2026-01-29T13:26:27.564Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490377",
+                    "name": "Sea of Thieves",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/deedaacc-fc12-4126-98dc-91dd16c08059.png",
+                  "isIosAvailable": false,
+                  "name": "+3 Renown Jan 26",
+                  "ownerOrganization": {
+                    "id": "c959c359-eeb7-4aa0-81ab-c4cecd6c0efb",
+                    "name": "Rare",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-02T10:59:59.999Z",
+            "name": "+3 Renown",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-01-31T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6e470ea6-fd0d-11f0-941f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "c959c359-eeb7-4aa0-81ab-c4cecd6c0efb_CUSTOM_ID_sot_BP_ipg_mst_boots_01_v03_Desc",
+                  "createdAt": "2026-01-29T13:28:03.071Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490377",
+                    "name": "Sea of Thieves",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bd93c4ee-c90e-4128-854b-5cf9fe78a32c.png",
+                  "isIosAvailable": false,
+                  "name": "R Morningstar Boots",
+                  "ownerOrganization": {
+                    "id": "c959c359-eeb7-4aa0-81ab-c4cecd6c0efb",
+                    "name": "Rare",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-02T10:59:59.999Z",
+            "name": "Reigning Morningstar Boots",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 150,
+            "startAt": "2026-01-31T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "89c82fd3-fd0d-11f0-956e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "c959c359-eeb7-4aa0-81ab-c4cecd6c0efb_CUSTOM_ID_sot_Gold_75K_January25",
+                  "createdAt": "2026-01-22T13:55:33.268Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490377",
+                    "name": "Sea of Thieves",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1d25a316-70d8-44da-9abc-355b24488c4a.png",
+                  "isIosAvailable": false,
+                  "name": "75k Gold Jan 26",
+                  "ownerOrganization": {
+                    "id": "c959c359-eeb7-4aa0-81ab-c4cecd6c0efb",
+                    "name": "Rare",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-02T10:59:59.999Z",
+            "name": "75k Gold",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-01-31T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9bce4a27-fd0d-11f0-b5cf-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "c959c359-eeb7-4aa0-81ab-c4cecd6c0efb_CUSTOM_ID_sot_BP_ipg_mst_trousers_01_v03_Desc",
+                  "createdAt": "2026-01-29T13:29:28.239Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "490377",
+                    "name": "Sea of Thieves",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/eacb315f-5cfe-4fa1-a51f-1a6298869e56.png",
+                  "isIosAvailable": false,
+                  "name": "R Morningstar Trousers",
+                  "ownerOrganization": {
+                    "id": "c959c359-eeb7-4aa0-81ab-c4cecd6c0efb",
+                    "name": "Rare",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-02T10:59:59.999Z",
+            "name": "Reigning Morningstar Trousers",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2026-01-31T11:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-01-31T11:00:00.000Z"
   },
   {
     "endAt": "2026-02-02T15:59:59.998Z",
