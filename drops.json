@@ -5935,153 +5935,6 @@
     "startAt": "2026-01-21T00:00:00.000Z"
   },
   {
-    "endAt": "2026-02-04T01:11:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-120x160.jpg",
-    "gameDisplayName": "Coin Pusher World",
-    "gameId": "530998549",
-    "rewards": [
-      {
-        "id": "9f53a5e4-009d-11f1-aa20-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "1102609187",
-              "displayName": "rubberduckcrew",
-              "name": "rubberduckcrew",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://coins.coinpusherworld.co.uk/drops/index.php",
-        "description": "Connect your Twitch account to Coin Pusher World to automatically earn Coins, Diamonds, and Cards while watching the stream!",
-        "detailsURL": "https://coins.coinpusherworld.co.uk/drops/index.php",
-        "endAt": "2026-02-04T01:11:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "530998549",
-          "slug": "coin-pusher-world",
-          "displayName": "Coin Pusher World",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
-        "name": "CPW Test Drops #3",
-        "owner": {
-          "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
-          "name": "Coin Pusher World ",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-03T01:12:19Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "b03a4c35-009d-11f1-9edf-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "3e3d9a33-008e-11f1-99fc-0a58a9feac02",
-                  "createdAt": "2026-02-02T23:23:55.477Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "530998549",
-                    "name": "Coin Pusher World",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
-                  "isIosAvailable": false,
-                  "name": "1000 tickets free",
-                  "ownerOrganization": {
-                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
-                    "name": "Coin Pusher World ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d_CUSTOM_ID_Test",
-                  "createdAt": "2023-10-24T11:02:13.072Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "530998549",
-                    "name": "Coin Pusher World",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7711ce05-a5a3-48ac-b245-bb6948331c11.png",
-                  "isIosAvailable": false,
-                  "name": "1000 tickets",
-                  "ownerOrganization": {
-                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
-                    "name": "Coin Pusher World ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-04T01:11:59.999Z",
-            "name": "Gift 10000Tickets",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-02-03T01:12:19Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "c8351c10-009d-11f1-aa20-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "3e3d9a33-008e-11f1-99fc-0a58a9feac02",
-                  "createdAt": "2026-02-02T23:23:55.477Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "530998549",
-                    "name": "Coin Pusher World",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
-                  "isIosAvailable": false,
-                  "name": "1000 tickets free",
-                  "ownerOrganization": {
-                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
-                    "name": "Coin Pusher World ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-04T01:11:59.999Z",
-            "name": "10000",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2026-02-03T01:12:19Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-02-03T01:12:19.000Z"
-  },
-  {
     "endAt": "2026-02-04T07:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
     "gameDisplayName": "Overwatch 2",
@@ -14793,6 +14646,129 @@
       }
     ],
     "startAt": "2026-02-03T20:00:00.000Z"
+  },
+  {
+    "endAt": "2026-02-04T21:24:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-120x160.jpg",
+    "gameDisplayName": "Coin Pusher World",
+    "gameId": "530998549",
+    "rewards": [
+      {
+        "id": "fb258006-0146-11f1-921c-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1102609187",
+              "displayName": "rubberduckcrew",
+              "name": "rubberduckcrew",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://coins.coinpusherworld.co.uk/drops/index.php",
+        "description": "CPW Test Drops #4",
+        "detailsURL": "https://coins.coinpusherworld.co.uk/drops/index.php",
+        "endAt": "2026-02-04T21:24:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "530998549",
+          "slug": "coin-pusher-world",
+          "displayName": "Coin Pusher World",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/default.png",
+        "name": "CPW Test Drops #4",
+        "owner": {
+          "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
+          "name": "Coin Pusher World ",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-03T21:25:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "052156e0-0147-11f1-8ed0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d6c2b31b-009d-11f1-9e98-0a58a9feac02",
+                  "createdAt": "2026-02-03T01:15:33.814Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "530998549",
+                    "name": "Coin Pusher World",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
+                  "isIosAvailable": false,
+                  "name": "10,000 Tickets",
+                  "ownerOrganization": {
+                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
+                    "name": "Coin Pusher World ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-04T21:24:59.999Z",
+            "name": "10k Tickets",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2026-02-03T21:25:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "139876bd-0147-11f1-85d3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d6c2b31b-009d-11f1-9e98-0a58a9feac02",
+                  "createdAt": "2026-02-03T01:15:33.814Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "530998549",
+                    "name": "Coin Pusher World",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/default.png",
+                  "isIosAvailable": false,
+                  "name": "10,000 Tickets",
+                  "ownerOrganization": {
+                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
+                    "name": "Coin Pusher World ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-04T21:24:59.999Z",
+            "name": "10k tickets",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-02-03T21:25:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-03T21:25:00.000Z"
   },
   {
     "endAt": "2026-02-05T16:59:59.999Z",
