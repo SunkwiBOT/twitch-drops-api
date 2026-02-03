@@ -1,157 +1,5 @@
 [
   {
-    "endAt": "2026-02-03T19:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
-    "gameDisplayName": "Eternal Return",
-    "gameId": "512864",
-    "rewards": [
-      {
-        "id": "b4fc2655-fb6f-11f0-8d18-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.playeternalreturn.com/",
-        "description": "https://twitch.playeternalreturn.com/",
-        "detailsURL": "https://twitch.playeternalreturn.com/",
-        "endAt": "2026-02-03T19:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "512864",
-          "slug": "eternal-return",
-          "displayName": "Eternal Return",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/dc53309d-72a3-4bbc-8ecb-5cd950f2d916.png",
-        "name": "ROYAL DROPS TOKEN EVENT",
-        "owner": {
-          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-          "name": "Nimble Neuron Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-02T20:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "cc3a25d4-fb6f-11f0-8d16-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-03T19:59:59.999Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-02-02T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "ce598742-fb6f-11f0-8d0a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-03T19:59:59.999Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2026-02-02T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "d01c2c56-fb6f-11f0-8314-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-03T19:59:59.999Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2026-02-02T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-02-02T20:00:00.000Z"
-  },
-  {
     "endAt": "2026-03-02T23:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
     "gameDisplayName": "Delta Force",
@@ -5704,6 +5552,12 @@
               "id": "41044567",
               "displayName": "AzumDzumHzumS",
               "name": "azumdzumhzums",
+              "__typename": "Channel"
+            },
+            {
+              "id": "25722719",
+              "displayName": "Dakillzor",
+              "name": "dakillzor",
               "__typename": "Channel"
             }
           ],
@@ -14787,6 +14641,158 @@
       }
     ],
     "startAt": "2026-02-03T17:59:00.000Z"
+  },
+  {
+    "endAt": "2026-02-04T19:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
+    "gameDisplayName": "Eternal Return",
+    "gameId": "512864",
+    "rewards": [
+      {
+        "id": "edf73181-fb6f-11f0-9e09-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.playeternalreturn.com/",
+        "description": "https://twitch.playeternalreturn.com/",
+        "detailsURL": "https://twitch.playeternalreturn.com/",
+        "endAt": "2026-02-04T19:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "512864",
+          "slug": "eternal-return",
+          "displayName": "Eternal Return",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0e98e60b-bad6-47e5-b737-34f83a8b9348.png",
+        "name": "ROYAL DROPS TOKEN EVENT",
+        "owner": {
+          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+          "name": "Nimble Neuron Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-03T20:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "a41161b9-fb70-11f0-9df3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
+                  "createdAt": "2025-08-07T07:50:44.716Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+                  "isIosAvailable": false,
+                  "name": "Drops Token",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-04T19:59:59.999Z",
+            "name": "DROPS TOKEN",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-02-03T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a622a531-fb70-11f0-b247-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
+                  "createdAt": "2025-08-07T07:50:44.716Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+                  "isIosAvailable": false,
+                  "name": "Drops Token",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-04T19:59:59.999Z",
+            "name": "DROPS TOKEN",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-03T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a7cfa312-fb70-11f0-a4d4-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
+                  "createdAt": "2025-08-07T07:50:44.716Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+                  "isIosAvailable": false,
+                  "name": "Drops Token",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-04T19:59:59.999Z",
+            "name": "DROPS TOKEN",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-02-03T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-03T20:00:00.000Z"
   },
   {
     "endAt": "2026-02-05T16:59:59.999Z",
