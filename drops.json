@@ -1885,6 +1885,135 @@
     "startAt": "2026-01-30T15:00:00.000Z"
   },
   {
+    "endAt": "2026-02-05T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/33214-120x160.jpg",
+    "gameDisplayName": "Fortnite",
+    "gameId": "33214",
+    "rewards": [
+      {
+        "id": "140074ba-01f4-11f1-bfbe-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "501253228",
+              "displayName": "callmehhaley",
+              "name": "callmehhaley",
+              "__typename": "Channel"
+            },
+            {
+              "id": "660840731",
+              "displayName": "HappyHappyGal",
+              "name": "happyhappygal",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.fortnite.com/twitch-drops",
+        "description": "Watch callmehhaley or HappyHappyGal streams for at least 30 minutes to claim HUNTR/X and Saja Boys Emoticons!",
+        "detailsURL": "https://www.fortnite.com/twitch-drops",
+        "endAt": "2026-02-05T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "33214",
+          "slug": "fortnite",
+          "displayName": "Fortnite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5daac451-322e-4565-a379-f6b470e7d516.jpeg",
+        "name": "Fortnite x KPDH ",
+        "owner": {
+          "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+          "name": "Epic Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-05T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "32365b91-01f9-11f1-9c0b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a_CUSTOM_ID_B636155D47176EACF2DDF887E05817B4",
+                  "createdAt": "2026-02-04T18:40:12.277Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "33214",
+                    "name": "Fortnite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/db49fff6-0c03-4259-bf48-8121458b7d22.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Saja Boys",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-05T23:29:59.999Z",
+            "name": "Saja Boys",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2026-02-05T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c64a68d6-01f8-11f1-baad-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a_CUSTOM_ID_33F19FCF41E6A985ED253EB54BCDCD30",
+                  "createdAt": "2026-02-04T18:39:36.586Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "33214",
+                    "name": "Fortnite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/de3af9e2-13ca-47d6-acb2-930e8ac87b98.jpeg",
+                  "isIosAvailable": false,
+                  "name": "HUNTR/X",
+                  "ownerOrganization": {
+                    "id": "053158f5-f0a9-4fd1-8a04-8bb813ce130a",
+                    "name": "Epic Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-05T23:29:59.999Z",
+            "name": "HUNTR/X",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-02-05T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-05T19:00:00.000Z"
+  },
+  {
     "endAt": "2026-02-05T23:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2009321156_IGDB-120x160.jpg",
     "gameDisplayName": "Dark and Darker",
@@ -30324,7 +30453,7 @@
     "startAt": "2026-02-01T07:00:00.000Z"
   },
   {
-    "endAt": "2026-02-15T23:58:59.997Z",
+    "endAt": "2026-02-15T23:58:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-120x160.jpg",
     "gameDisplayName": "Rust",
     "gameId": "263490",
@@ -30402,6 +30531,162 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2026-02-05T18:31:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "5cee021b-01ee-11f1-b511-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "144992658",
+              "displayName": "ferb",
+              "name": "ferb",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Homebrew is back for its 4th edition!",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2026-02-15T23:58:59.995Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/56d75fed-f168-40cc-85bc-fd2f1860b5c9.png",
+        "name": "Ferb AR",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-05T18:32:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "af7f49b4-01f4-11f1-a81a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11531",
+                  "createdAt": "2026-02-03T16:12:29.727Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9f39af02-8b80-4c28-a9c8-7a56fe8bfdc3.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Ferb AR",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-15T23:58:59.995Z",
+            "name": "Ferb AR",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-05T18:32:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "4a2321be-01eb-11f1-9092-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "185866554",
+              "displayName": "s3kox",
+              "name": "s3kox",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Homebrew is back for its 4th edition!",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2026-02-15T23:58:59.996Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fa874fc4-faca-4969-8c15-055c764923ea.png",
+        "name": "S3KOX Door",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-05T18:38:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "2596a92f-01f9-11f1-b6fa-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11529",
+                  "createdAt": "2026-02-03T16:17:48.523Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9ac6567e-6e30-4d49-b451-8500a4a5cebe.jpeg",
+                  "isIosAvailable": false,
+                  "name": "S3KOX Door",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-15T23:58:59.996Z",
+            "name": "S3KOX Door",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-05T18:38:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -30581,6 +30866,552 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 480,
             "startAt": "2026-02-05T18:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "1d39db26-01eb-11f1-b869-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "569876100",
+              "displayName": "a1dan8992",
+              "name": "a1dan8992",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Homebrew is back for its 4th edition!",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2026-02-15T23:58:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/53fe2a9e-ab60-4b8f-9f77-3ec4ba03776b.png",
+        "name": "A1dan8992 Bow",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-05T18:33:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "36bc27b5-01f5-11f1-b90f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11532",
+                  "createdAt": "2026-02-03T16:14:52.419Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4a2354c9-6734-4b67-8d2f-08e1896c96f8.jpeg",
+                  "isIosAvailable": false,
+                  "name": "A1dan8992 Bow",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-15T23:58:59.997Z",
+            "name": "A1dan8992 Bow",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-05T18:33:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "7e9e3837-01f1-11f1-82a7-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "132642617",
+              "displayName": "R3crutaTV",
+              "name": "r3crutatv",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Homebrew is back for its 4th edition!",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2026-02-15T23:58:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e3569721-5c07-4909-bdef-e7f33d2c73a1.png",
+        "name": "R3crutaTV MP5",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-05T18:34:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "12c907af-01f6-11f1-a544-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11533",
+                  "createdAt": "2026-02-03T16:15:23.865Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fd89054c-1a90-40a2-b381-4a111e30c346.jpeg",
+                  "isIosAvailable": false,
+                  "name": "R3crutaTV MP5",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-15T23:58:59.997Z",
+            "name": "R3crutaTV MP5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-05T18:34:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "0c081d2e-01f1-11f1-8bd3-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "146855701",
+              "displayName": "xkevv",
+              "name": "xkevv",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Homebrew is back for its 4th edition!",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2026-02-15T23:58:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e7735acb-4d90-4631-97c8-ad73bf2d5f2b.png",
+        "name": "xKevv Thompson",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-05T18:35:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "8739d319-01f6-11f1-b25d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11534",
+                  "createdAt": "2026-02-03T16:15:59.592Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7801246e-2a38-4ff7-8e81-96ab3aa64e61.jpeg",
+                  "isIosAvailable": false,
+                  "name": "xKevv Thompson",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-15T23:58:59.997Z",
+            "name": "xKevv Thompson",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-05T18:35:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "0e500715-01f0-11f1-8c2b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "78987283",
+              "displayName": "LEDOO",
+              "name": "ledoo",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Homebrew is back for its 4th edition!",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2026-02-15T23:58:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/e9b08419-cca6-42a1-ae9c-8a68de873bb2.png",
+        "name": "Ledoo MP5",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-05T18:36:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1c87bd75-01f7-11f1-b291-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11535",
+                  "createdAt": "2026-02-03T16:16:33.326Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/a3e65316-4b7d-405a-a173-c808c0d0af70.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Ledoo MP5",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-15T23:58:59.997Z",
+            "name": "Ledoo MP5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-05T18:36:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "41f37bb8-01f0-11f1-8363-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "176609584",
+              "displayName": "alexdieci",
+              "name": "alexdieci",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Homebrew is back for its 4th edition!",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2026-02-15T23:58:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fa516ff2-f175-46d3-ac43-efafc3a8b4c6.png",
+        "name": "Alexdieci AR",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-05T18:37:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "56c9dafa-01f7-11f1-b25d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11536",
+                  "createdAt": "2026-02-03T16:17:05.992Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e56ac5b7-8284-4683-8bbb-e2c8a3840f4d.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Alexdieci AR",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-15T23:58:59.997Z",
+            "name": "Alexdieci AR",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-05T18:37:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "6ae0487c-01f0-11f1-a887-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "144180499",
+              "displayName": "zbb__",
+              "name": "zbb__",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Homebrew is back for its 4th edition!",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2026-02-15T23:58:59.997Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8eff686d-9911-4576-a720-daa78726e73f.png",
+        "name": "Zbb__ Launcher",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-05T18:40:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "c443c53b-01fa-11f1-adba-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11538",
+                  "createdAt": "2026-02-03T16:28:23.722Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fa1f82bf-1a5e-4f2d-80ba-147de9d7e3d7.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Zbb__ Launcher",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-15T23:58:59.997Z",
+            "name": "Zbb__ Launcher",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-05T18:40:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "8641c9fb-01e0-11f1-8c78-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "41645625",
+              "displayName": "toonyx",
+              "name": "toonyx",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.facepunch.com/connect",
+        "description": "Homebrew is back for its 4th edition!",
+        "detailsURL": "https://twitch.facepunch.com/",
+        "endAt": "2026-02-15T23:58:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "263490",
+          "slug": "rust",
+          "displayName": "Rust",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ae3e3293-a630-4c45-bd8e-58c489648036.png",
+        "name": "ToonyX Bow",
+        "owner": {
+          "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+          "name": "Facepunch Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-05T18:39:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5ca968bb-01f9-11f1-bd90-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0c95681b-95ad-4be7-a2ba-07dcace74891_CUSTOM_ID_11537",
+                  "createdAt": "2026-02-03T16:27:08.071Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "263490",
+                    "name": "Rust",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ee3938a7-0817-4b0a-9007-c461efb29f12.jpeg",
+                  "isIosAvailable": false,
+                  "name": "ToonyX Bow",
+                  "ownerOrganization": {
+                    "id": "0c95681b-95ad-4be7-a2ba-07dcace74891",
+                    "name": "Facepunch Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-15T23:58:59.998Z",
+            "name": "ToonyX Bow",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-05T18:39:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
