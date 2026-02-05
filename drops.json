@@ -7745,7 +7745,166 @@
     "startAt": "2026-02-03T02:00:00.000Z"
   },
   {
-    "endAt": "2026-02-06T01:00:59.999Z",
+    "endAt": "2026-02-05T23:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/272952894_IGDB-120x160.jpg",
+    "gameDisplayName": "Madden NFL 26",
+    "gameId": "272952894",
+    "rewards": [
+      {
+        "id": "ec31d9f9-0058-11f1-9ecb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "498287745",
+              "displayName": "sk4tpack",
+              "name": "sk4tpack",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Celebrate Cam Skattebo's Birthday and earn some Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2026-02-05T23:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "272952894",
+          "slug": "ea-sports-madden-nfl-26",
+          "displayName": "Madden NFL 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8bb93d3d-d212-48f6-82ad-ab5d13417f16.png",
+        "name": "Skattebo Birthday Bash",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-05T21:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "3c4ea0dc-0063-11f1-bf32-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-SB-003",
+                  "createdAt": "2026-02-02T18:02:50.102Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c80289f3-35a8-4487-9179-e3eaad2991c2.png",
+                  "isIosAvailable": false,
+                  "name": "Sketch Player Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-05T23:59:59.999Z",
+            "name": "Sketch Player Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2026-02-05T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6248fad1-0063-11f1-ab2a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-SB-008",
+                  "createdAt": "2026-02-02T18:04:24.39Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b7de4962-b4b9-4cbf-a0e2-ffc51665440e.png",
+                  "isIosAvailable": false,
+                  "name": "Stardom Token",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-05T23:59:59.999Z",
+            "name": "Stardom Upgrade Token",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-02-05T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "9044053c-0063-11f1-b26a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-151",
+                  "createdAt": "2026-02-02T18:09:34.291Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f0ee4954-d74f-4c3a-a098-b0ca7ae671c9.png",
+                  "isIosAvailable": false,
+                  "name": "Madden Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-05T23:59:59.999Z",
+            "name": "Madden Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-02-05T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-05T21:00:00.000Z"
+  },
+  {
+    "endAt": "2026-02-06T08:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-120x160.jpg",
     "gameDisplayName": "Coin Pusher World",
     "gameId": "530998549",
@@ -7758,12 +7917,6 @@
         },
         "allow": {
           "channels": [
-            {
-              "id": "1102609187",
-              "displayName": "rubberduckcrew",
-              "name": "rubberduckcrew",
-              "__typename": "Channel"
-            },
             {
               "id": "702964324",
               "displayName": "SugarQueenJanice",
@@ -7883,6 +8036,120 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 20,
             "startAt": "2026-02-05T01:01:47Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "59790f2b-02ce-11f1-b0c0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1102609187",
+              "displayName": "rubberduckcrew",
+              "name": "rubberduckcrew",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://coins.coinpusherworld.co.uk/drops/index.php",
+        "description": "Coin Skin To Use in The Game",
+        "detailsURL": "https://coins.coinpusherworld.co.uk/drops/index.php",
+        "endAt": "2026-02-06T08:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "530998549",
+          "slug": "coin-pusher-world",
+          "displayName": "Coin Pusher World",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/564ad07f-09bb-4e0f-9fbe-bc1bed729c10.png",
+        "name": "CPW Coin Skin & 10k Drop",
+        "owner": {
+          "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
+          "name": "Coin Pusher World ",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-05T20:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "38ffa2af-02cf-11f1-8403-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a0b4ec37-02cf-11f1-a829-0a58a9feac02",
+                  "createdAt": "2026-02-05T20:17:00.289Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "530998549",
+                    "name": "Coin Pusher World",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec68d52d-d499-420d-bf1c-6a31cdeca6f2.png",
+                  "isIosAvailable": false,
+                  "name": "cpw_tdrop1",
+                  "ownerOrganization": {
+                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
+                    "name": "Coin Pusher World ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-06T08:59:59.998Z",
+            "name": "Coin Skin For Game",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-02-05T20:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "880a69fa-02d3-11f1-9b10-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "53669dec-0196-11f1-8c2b-0a58a9feac02",
+                  "createdAt": "2026-02-04T06:54:18.115Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "530998549",
+                    "name": "Coin Pusher World",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
+                  "isIosAvailable": false,
+                  "name": "10,000 Tickets",
+                  "ownerOrganization": {
+                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
+                    "name": "Coin Pusher World ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-06T08:59:59.998Z",
+            "name": "10K Tickets",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-05T20:30:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
