@@ -1,400 +1,5 @@
 [
   {
-    "endAt": "2026-02-06T08:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-120x160.jpg",
-    "gameDisplayName": "Coin Pusher World",
-    "gameId": "530998549",
-    "rewards": [
-      {
-        "id": "6a0ecda5-022e-11f1-a3a3-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://coins.coinpusherworld.co.uk/drops/index.php",
-        "description": "Go to https://coins.coinpusherworld.co.uk/drops/index.php and relink your account or drops wont claim",
-        "detailsURL": "https://coins.coinpusherworld.co.uk/drops/index.php",
-        "endAt": "2026-02-06T01:00:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "530998549",
-          "slug": "coin-pusher-world",
-          "displayName": "Coin Pusher World",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/818357c1-f6be-4c68-a1f4-e263efe69c64.png",
-        "name": "CPW Drops Test #7",
-        "owner": {
-          "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
-          "name": "Coin Pusher World ",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-05T01:01:47Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "83e4f1fc-022e-11f1-a1ea-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "53669dec-0196-11f1-8c2b-0a58a9feac02",
-                  "createdAt": "2026-02-04T06:54:18.115Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "530998549",
-                    "name": "Coin Pusher World",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
-                  "isIosAvailable": false,
-                  "name": "10,000 Tickets",
-                  "ownerOrganization": {
-                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
-                    "name": "Coin Pusher World ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-06T01:00:59.999Z",
-            "name": "Free 10k Tickets",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-02-05T01:01:47Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "8e668fa6-022e-11f1-bea3-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "d6c2b31b-009d-11f1-9e98-0a58a9feac02",
-                  "createdAt": "2026-02-03T01:15:33.814Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "530998549",
-                    "name": "Coin Pusher World",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0f424466-b371-4ce9-be5e-447e59ea2c9f.png",
-                  "isIosAvailable": false,
-                  "name": "10,000 Tickets",
-                  "ownerOrganization": {
-                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
-                    "name": "Coin Pusher World ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-06T01:00:59.999Z",
-            "name": "Free 10k Tickets",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 20,
-            "startAt": "2026-02-05T01:01:47Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "59790f2b-02ce-11f1-b0c0-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "1102609187",
-              "displayName": "rubberduckcrew",
-              "name": "rubberduckcrew",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://coins.coinpusherworld.co.uk/drops/index.php",
-        "description": "Coin Skin To Use in The Game",
-        "detailsURL": "https://coins.coinpusherworld.co.uk/drops/index.php",
-        "endAt": "2026-02-06T08:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "530998549",
-          "slug": "coin-pusher-world",
-          "displayName": "Coin Pusher World",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/564ad07f-09bb-4e0f-9fbe-bc1bed729c10.png",
-        "name": "CPW Coin Skin & 10k Drop",
-        "owner": {
-          "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
-          "name": "Coin Pusher World ",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-05T20:30:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "38ffa2af-02cf-11f1-8403-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "a0b4ec37-02cf-11f1-a829-0a58a9feac02",
-                  "createdAt": "2026-02-05T20:17:00.289Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "530998549",
-                    "name": "Coin Pusher World",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec68d52d-d499-420d-bf1c-6a31cdeca6f2.png",
-                  "isIosAvailable": false,
-                  "name": "cpw_tdrop1",
-                  "ownerOrganization": {
-                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
-                    "name": "Coin Pusher World ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-06T08:59:59.998Z",
-            "name": "Coin Skin For Game",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-02-05T20:30:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "880a69fa-02d3-11f1-9b10-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "53669dec-0196-11f1-8c2b-0a58a9feac02",
-                  "createdAt": "2026-02-04T06:54:18.115Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "530998549",
-                    "name": "Coin Pusher World",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
-                  "isIosAvailable": false,
-                  "name": "10,000 Tickets",
-                  "ownerOrganization": {
-                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
-                    "name": "Coin Pusher World ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-06T08:59:59.998Z",
-            "name": "10K Tickets",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2026-02-05T20:30:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-02-05T01:01:47.000Z"
-  },
-  {
-    "endAt": "2026-02-06T01:14:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
-    "gameDisplayName": "Warframe",
-    "gameId": "66170",
-    "rewards": [
-      {
-        "id": "045f8ae7-00cc-11f1-9c0a-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "31557216",
-              "displayName": "Warframe",
-              "name": "warframe",
-              "__typename": "Channel"
-            },
-            {
-              "id": "145167538",
-              "displayName": "WarframeInternational",
-              "name": "warframeinternational",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.warframe.com/user",
-        "description": "Watch this week's Prime Time livestream for 30 minutes to receive 5k Standing worth of a random Debt-Bond!",
-        "detailsURL": "https://forums.warframe.com/topic/1491923-community-stream-schedule-feb-2-8-2026/",
-        "endAt": "2026-02-06T01:14:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "66170",
-          "slug": "warframe",
-          "displayName": "Warframe",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/efc6c5fb-06f6-4980-8152-4e30340cfe08.jpeg",
-        "name": "Prime Time #469",
-        "owner": {
-          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-          "name": "Digital Extremes",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-04T20:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "1d5bc125-00cc-11f1-be4a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "5fd72350-00cb-11f1-8378-0a58a9feac02",
-                  "createdAt": "2026-02-03T06:41:31.149Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b35f8dee-232a-4110-b64d-3c5e0635111b.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Debt-Bond Grab Bag",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-06T01:14:59.999Z",
-            "name": "Debt-Bond Grab Bag",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-02-04T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "1f9359e3-00cc-11f1-9f92-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "5fd72350-00cb-11f1-8378-0a58a9feac02",
-                  "createdAt": "2026-02-03T06:41:31.149Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b35f8dee-232a-4110-b64d-3c5e0635111b.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Debt-Bond Grab Bag",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-06T01:14:59.999Z",
-            "name": "Debt-Bond Grab Bag",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2026-02-04T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "21e61add-00cc-11f1-ab8d-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "5fd72350-00cb-11f1-8378-0a58a9feac02",
-                  "createdAt": "2026-02-03T06:41:31.149Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b35f8dee-232a-4110-b64d-3c5e0635111b.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Debt-Bond Grab Bag",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-06T01:14:59.999Z",
-            "name": "Debt-Bond Grab Bag",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2026-02-04T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-02-04T20:00:00.000Z"
-  },
-  {
     "endAt": "2026-02-06T02:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/551919008_IGDB-120x160.jpg",
     "gameDisplayName": "EA Sports College Football 26",
@@ -516,6 +121,93 @@
       }
     ],
     "startAt": "2026-02-06T00:30:00.000Z"
+  },
+  {
+    "endAt": "2026-02-06T02:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
+    "rewards": [
+      {
+        "id": "51fbf09e-00cc-11f1-9de0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "159772108",
+              "displayName": "Nononom12",
+              "name": "nononom12",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Watch this week's Prime Time raid for 30 minutes to receive a Glyph Display decoration!",
+        "detailsURL": "https://forums.warframe.com/topic/1491923-community-stream-schedule-feb-2-8-2026/",
+        "endAt": "2026-02-06T02:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8b60a7c7-e3ad-4868-8b81-4dd4fc6e4a30.jpeg",
+        "name": "Prime Time #469 Raid",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-06T01:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5e09c587-00cc-11f1-aca3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0765f71d-dc58-11ee-9b58-0a58a9feac02",
+                  "createdAt": "2024-03-07T07:55:13.441Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "66170",
+                    "name": "Warframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/58f707ff-6528-49bb-8c1f-6954ea412de2.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Display - Glyph",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-06T02:29:59.999Z",
+            "name": "Glyph Display",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-02-06T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-06T01:00:00.000Z"
   },
   {
     "endAt": "2026-02-06T02:59:59.999Z",
@@ -833,6 +525,129 @@
       }
     ],
     "startAt": "2026-01-29T08:00:00.000Z"
+  },
+  {
+    "endAt": "2026-02-06T08:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-120x160.jpg",
+    "gameDisplayName": "Coin Pusher World",
+    "gameId": "530998549",
+    "rewards": [
+      {
+        "id": "59790f2b-02ce-11f1-b0c0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1102609187",
+              "displayName": "rubberduckcrew",
+              "name": "rubberduckcrew",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://coins.coinpusherworld.co.uk/drops/index.php",
+        "description": "Coin Skin To Use in The Game",
+        "detailsURL": "https://coins.coinpusherworld.co.uk/drops/index.php",
+        "endAt": "2026-02-06T08:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "530998549",
+          "slug": "coin-pusher-world",
+          "displayName": "Coin Pusher World",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/564ad07f-09bb-4e0f-9fbe-bc1bed729c10.png",
+        "name": "CPW Coin Skin & 10k Drop",
+        "owner": {
+          "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
+          "name": "Coin Pusher World ",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-05T20:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "38ffa2af-02cf-11f1-8403-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "a0b4ec37-02cf-11f1-a829-0a58a9feac02",
+                  "createdAt": "2026-02-05T20:17:00.289Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "530998549",
+                    "name": "Coin Pusher World",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ec68d52d-d499-420d-bf1c-6a31cdeca6f2.png",
+                  "isIosAvailable": false,
+                  "name": "cpw_tdrop1",
+                  "ownerOrganization": {
+                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
+                    "name": "Coin Pusher World ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-06T08:59:59.998Z",
+            "name": "Coin Skin For Game",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-02-05T20:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "880a69fa-02d3-11f1-9b10-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "53669dec-0196-11f1-8c2b-0a58a9feac02",
+                  "createdAt": "2026-02-04T06:54:18.115Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "530998549",
+                    "name": "Coin Pusher World",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4d0a5630-8167-4f34-bd2a-68e103627ccf.png",
+                  "isIosAvailable": false,
+                  "name": "10,000 Tickets",
+                  "ownerOrganization": {
+                    "id": "b9f017e5-a79e-4bc9-b249-fe5c9068056d",
+                    "name": "Coin Pusher World ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-06T08:59:59.998Z",
+            "name": "10K Tickets",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-05T20:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-05T20:30:00.000Z"
   },
   {
     "endAt": "2026-02-06T09:29:59.999Z",
