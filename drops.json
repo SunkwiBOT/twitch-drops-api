@@ -6,7 +6,7 @@
     "gameId": "272952894",
     "rewards": [
       {
-        "id": "738181ee-fe15-11f0-bf33-0a58a9feac02",
+        "id": "d8232a5a-0058-11f1-ab48-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
@@ -14,21 +14,15 @@
         "allow": {
           "channels": [
             {
+              "id": "917774995",
+              "displayName": "thesketchreal",
+              "name": "thesketchreal",
+              "__typename": "Channel"
+            },
+            {
               "id": "51914127",
               "displayName": "EAMaddenNFL",
               "name": "eamaddennfl",
-              "__typename": "Channel"
-            },
-            {
-              "id": "42369127",
-              "displayName": "GmiasWorld",
-              "name": "gmiasworld",
-              "__typename": "Channel"
-            },
-            {
-              "id": "61602430",
-              "displayName": "iampopularstranger",
-              "name": "iampopularstranger",
               "__typename": "Channel"
             }
           ],
@@ -36,9 +30,9 @@
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
-        "description": "Tune into In the Madden Bowl to earn Twitch Drops to power up your Ultimate Team!",
+        "description": "Watch the Sketch One Drive Challenge and earn some Twitch Drops to power up your Ultimate Team!",
         "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
-        "endAt": "2026-02-07T02:59:59.999Z",
+        "endAt": "2026-02-07T05:29:59.999Z",
         "eventBasedDrops": [],
         "game": {
           "id": "272952894",
@@ -46,33 +40,33 @@
           "displayName": "Madden NFL 26",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/ee354267-a48c-4562-9115-a9605fb8add9.jpeg",
-        "name": "Madden Bowl Finals",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/8e1185fc-5f4e-445c-8a6c-4f746ebc934c.png",
+        "name": "Sketch Drive Challenge",
         "owner": {
           "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
           "name": "Electronic Arts",
           "__typename": "Organization"
         },
-        "startAt": "2026-02-06T23:00:00Z",
+        "startAt": "2026-02-07T03:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "67204ae8-fe18-11f0-aa46-0a58a9feac02",
+            "id": "4096c455-0063-11f1-bf32-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-451",
-                  "createdAt": "2026-01-30T20:02:34.178Z",
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-SB-004",
+                  "createdAt": "2026-02-02T18:03:19.904Z",
                   "entitlementLimit": 1,
                   "game": {
                     "id": "272952894",
                     "name": "Madden NFL 26",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/63c63eda-3b40-4eba-9334-ef2916c62733.jpeg",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5442b9a7-574e-42d0-b8a2-c04ea3934e6b.png",
                   "isIosAvailable": false,
-                  "name": "Twitch Pack",
+                  "name": "Sketch Player Pack",
                   "ownerOrganization": {
                     "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
                     "name": "Electronic Arts",
@@ -85,138 +79,30 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2026-02-07T02:59:59.999Z",
-            "name": "Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2026-02-06T23:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "68f9b7f9-fe18-11f0-ba5e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-452",
-                  "createdAt": "2026-01-30T20:02:47.545Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "272952894",
-                    "name": "Madden NFL 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c297fecc-e6f1-4c2d-9014-a244d211ce0e.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-07T02:59:59.999Z",
-            "name": "Twitch Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-02-06T23:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "712f1b37-fe18-11f0-aed6-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-MCS-MaddenBowl-003",
-                  "createdAt": "2026-01-30T20:20:03.701Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "272952894",
-                    "name": "Madden NFL 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b00877f5-7f4d-4dd4-8b70-11919299ed01.jpeg",
-                  "isIosAvailable": false,
-                  "name": "OOP Plaixco Burress Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-07T02:59:59.999Z",
-            "name": "OOP Plaxico Burress",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2026-02-06T23:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "8837e949-fe18-11f0-8b22-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-450",
-                  "createdAt": "2026-01-30T20:02:19.396Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "272952894",
-                    "name": "Madden NFL 26",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3c8111c2-30fa-4111-aca1-a5f8e071d2e6.jpeg",
-                  "isIosAvailable": false,
-                  "name": "Twitch Pack",
-                  "ownerOrganization": {
-                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
-                    "name": "Electronic Arts",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-07T02:59:59.999Z",
-            "name": "Twitch Pack",
+            "endAt": "2026-02-07T05:29:59.999Z",
+            "name": "Sketch Player Pack",
             "preconditionDrops": null,
             "requiredMinutesWatched": 15,
-            "startAt": "2026-02-06T23:00:00Z",
+            "startAt": "2026-02-07T03:00:00Z",
             "__typename": "TimeBasedDrop"
           },
           {
-            "id": "8a75c74e-fe18-11f0-b5cf-0a58a9feac02",
+            "id": "66b2c1cc-0063-11f1-93da-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-453",
-                  "createdAt": "2026-01-30T20:03:01.969Z",
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-SB-009",
+                  "createdAt": "2026-02-02T18:05:20.851Z",
                   "entitlementLimit": 1,
                   "game": {
                     "id": "272952894",
                     "name": "Madden NFL 26",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2cbacf2b-5edf-430e-bea7-f9902109652a.jpeg",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/817098f5-49aa-4893-ae1d-c825d7b824b1.png",
                   "isIosAvailable": false,
-                  "name": "Twitch Pack",
+                  "name": "Stardom Token",
                   "ownerOrganization": {
                     "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
                     "name": "Electronic Arts",
@@ -229,11 +115,47 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2026-02-07T02:59:59.999Z",
-            "name": "Twitch Pack",
+            "endAt": "2026-02-07T05:29:59.999Z",
+            "name": "Stardom Upgrade Token",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2026-02-06T23:00:00Z",
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-02-07T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "92a2f3eb-0063-11f1-8005-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-152",
+                  "createdAt": "2026-02-02T18:09:52.841Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e65edb8c-e5fb-4364-92d4-2d37e91e2485.png",
+                  "isIosAvailable": false,
+                  "name": "Madden Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-07T05:29:59.999Z",
+            "name": "Madden Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-02-07T03:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
