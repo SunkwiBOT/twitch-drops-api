@@ -1317,6 +1317,105 @@
     "startAt": "2026-02-02T21:00:00.000Z"
   },
   {
+    "endAt": "2026-02-10T06:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417969-120x160.jpg",
+    "gameDisplayName": "Halo: The Master Chief Collection",
+    "gameId": "417969",
+    "rewards": [
+      {
+        "id": "4f44b2f3-fe25-11f0-8718-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "25254906",
+              "displayName": "Stresss",
+              "name": "stresss",
+              "__typename": "Channel"
+            },
+            {
+              "id": "10692319",
+              "displayName": "Eli_X",
+              "name": "eli_x",
+              "__typename": "Channel"
+            },
+            {
+              "id": "35978160",
+              "displayName": "EXTREMEBREAKER1",
+              "name": "extremebreaker1",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into the HCS Grassroots event to earn Halo MCC in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2026-02-10T06:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417969",
+          "slug": "halo-the-master-chief-collection",
+          "displayName": "Halo: The Master Chief Collection",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fe827ab3-138c-4f39-a819-77694d631a03.png",
+        "name": "MCC Grassroots-FEB9",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-09T17:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "61f6e838-fe25-11f0-9230-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_HCSGR-MCC-M4CK-YVSQ-IM76",
+                  "createdAt": "2023-12-11T22:51:33.617Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417969",
+                    "name": "Halo: The Master Chief Collection",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/222413d0-0908-4d1f-b6d0-4a1942e8ff0a.png",
+                  "isIosAvailable": false,
+                  "name": "MCC Frozen Ring",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-10T06:59:59.999Z",
+            "name": "Frozen Ring Nameplate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-09T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-09T17:00:00.000Z"
+  },
+  {
     "endAt": "2026-02-10T09:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417528_IGDB-120x160.jpg",
     "gameDisplayName": "Albion Online",
