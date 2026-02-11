@@ -542,7 +542,7 @@
     "startAt": "2026-02-11T18:00:00.000Z"
   },
   {
-    "endAt": "2026-02-12T02:59:59.999Z",
+    "endAt": "2026-02-18T22:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32502_IGDB-120x160.jpg",
     "gameDisplayName": "World of Warships",
     "gameId": "32502",
@@ -649,6 +649,84 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 180,
             "startAt": "2026-02-05T17:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "baef6a13-05d0-11f1-9654-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "182565961",
+              "displayName": "WorldofWarships",
+              "name": "worldofwarships",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://wargaming.net/personal/",
+        "description": "Dooorrrp",
+        "detailsURL": "https://worldofwarships.eu/en/news/general-news/community-drops-in-update-150/",
+        "endAt": "2026-02-18T22:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "32502",
+          "slug": "world-of-warships",
+          "displayName": "World of Warships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f5b22de4-832b-4256-a08d-b39f95d0d8cd.png",
+        "name": "15.1 Mystery Drop",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-11T23:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "cca863f5-05d0-11f1-8720-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1501_updatedrop",
+                  "createdAt": "2026-02-09T10:50:52.956Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/af30d293-a190-4775-86a2-5d2d69c7edef.png",
+                  "isIosAvailable": false,
+                  "name": "15.1 Mystery Drop",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-18T22:59:59.999Z",
+            "name": "15.1 Mystery Drop",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2026-02-11T23:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
