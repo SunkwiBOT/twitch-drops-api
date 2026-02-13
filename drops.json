@@ -595,6 +595,99 @@
     "startAt": "2026-01-22T01:00:00.000Z"
   },
   {
+    "endAt": "2026-02-14T06:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
+    "gameDisplayName": "Halo Infinite",
+    "gameId": "506416",
+    "rewards": [
+      {
+        "id": "45988774-06b6-11f1-bbe2-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "222719079",
+              "displayName": "LVTHalo",
+              "name": "lvthalo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "165115114",
+              "displayName": "Luciid_TW",
+              "name": "luciid_tw",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn in-game content in Halo Infinite!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2026-02-14T06:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/44fa9af8-5f50-4f86-bf50-5397af772d99.png",
+        "name": "LucidxLVT Evo Open1-FEB13",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-13T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "92bc307a-06b6-11f1-8285-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_5C5F-44RA-CZ7S-KF68",
+                  "createdAt": "2024-07-09T23:13:51.865Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52b15e3f-e754-4f59-8430-6ad24a666dbb.png",
+                  "isIosAvailable": false,
+                  "name": "Sizzlin' Charm",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-14T06:59:59.999Z",
+            "name": "Sizzlin' Charm",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-13T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-13T19:00:00.000Z"
+  },
+  {
     "endAt": "2026-02-14T07:58:59.996Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/639699690_IGDB-120x160.jpg",
     "gameDisplayName": "Nioh 3",
