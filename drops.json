@@ -1,12 +1,12 @@
 [
   {
-    "endAt": "2026-02-13T01:14:59.999Z",
+    "endAt": "2026-02-13T02:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
     "gameDisplayName": "Warframe",
     "gameId": "66170",
     "rewards": [
       {
-        "id": "edc695d7-06b3-11f1-8430-0a58a9feac02",
+        "id": "6b8b19c8-06b5-11f1-9cd0-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
@@ -14,15 +14,9 @@
         "allow": {
           "channels": [
             {
-              "id": "31557216",
-              "displayName": "Warframe",
-              "name": "warframe",
-              "__typename": "Channel"
-            },
-            {
-              "id": "145167538",
-              "displayName": "WarframeInternational",
-              "name": "warframeinternational",
+              "id": "162509370",
+              "displayName": "catyen",
+              "name": "catyen",
               "__typename": "Channel"
             }
           ],
@@ -30,9 +24,9 @@
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://www.warframe.com/user",
-        "description": "Watch this week's Prime Time livestream for 30 minutes to receive a Forma!",
+        "description": "Watch this week's Prime Time raid for 30 minutes to receive either a Brave Tiger or Peaceful Rabbit Floof decoration!",
         "detailsURL": "https://forums.warframe.com/topic/1492660-community-stream-schedule-feb-9-15-2026/",
-        "endAt": "2026-02-13T01:14:59.999Z",
+        "endAt": "2026-02-13T02:29:59.999Z",
         "eventBasedDrops": [],
         "game": {
           "id": "66170",
@@ -40,33 +34,33 @@
           "displayName": "Warframe",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3190e7df-92b3-4837-bf82-6c60357de262.jpeg",
-        "name": "Prime Time #470",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f9f0dfa5-19ff-4d2e-882e-ca5052efda7a.jpeg",
+        "name": "Prime Time #470 Raid",
         "owner": {
           "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
           "name": "Digital Extremes",
           "__typename": "Organization"
         },
-        "startAt": "2026-02-11T20:00:00Z",
+        "startAt": "2026-02-13T01:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "316f39a9-06b4-11f1-9008-0a58a9feac02",
+            "id": "75d2a2ae-06b5-11f1-9f5a-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "d4895e2c-7222-11ee-969c-0a58a9feac02",
-                  "createdAt": "2023-10-24T04:07:21.529Z",
+                  "id": "391c16f3-06b5-11f1-9f5a-0a58a9feac02",
+                  "createdAt": "2026-02-10T19:18:04.218Z",
                   "entitlementLimit": 1,
                   "game": {
                     "id": "66170",
                     "name": "Warframe",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/71d86338-3619-401b-acd1-91d76f4410ba.jpeg",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fa3aa445-5788-47a8-83ab-bc1a3dd01b7d.jpeg",
                   "isIosAvailable": true,
-                  "name": "Built Forma",
+                  "name": "Tiger or Rabbit Floof",
                   "ownerOrganization": {
                     "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
                     "name": "Digital Extremes",
@@ -79,90 +73,18 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2026-02-13T01:14:59.999Z",
-            "name": "Built Forma",
+            "endAt": "2026-02-13T02:29:59.999Z",
+            "name": "Brave Tiger or Peaceful Rabbit Floof",
             "preconditionDrops": null,
             "requiredMinutesWatched": 30,
-            "startAt": "2026-02-11T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "3f062954-06b4-11f1-8772-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "08d1f2fa-06b4-11f1-8aee-0a58a9feac02",
-                  "createdAt": "2026-02-10T19:09:33.705Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d2833f53-d1ac-46e1-96f5-0789ecbd1bd1.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Random Vauban Augment",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-13T01:14:59.999Z",
-            "name": "Random Vauban Augment",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-02-11T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "44d4b610-06b4-11f1-a0f7-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "1671b49d-06b4-11f1-9cd0-0a58a9feac02",
-                  "createdAt": "2026-02-10T19:09:56.562Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "66170",
-                    "name": "Warframe",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/af1e753f-88e1-4e3b-94a5-9b5be1b96f81.jpeg",
-                  "isIosAvailable": true,
-                  "name": "Dagath Spectral Spirit",
-                  "ownerOrganization": {
-                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
-                    "name": "Digital Extremes",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-13T01:14:59.999Z",
-            "name": "Dagath Spectral Spirit Augment",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2026-02-11T20:00:00Z",
+            "startAt": "2026-02-13T01:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2026-02-11T20:00:00.000Z"
+    "startAt": "2026-02-13T01:00:00.000Z"
   },
   {
     "endAt": "2026-02-13T03:29:59.999Z",
@@ -41501,5 +41423,265 @@
       }
     ],
     "startAt": "2026-02-12T17:00:00.000Z"
+  },
+  {
+    "endAt": "2026-03-13T00:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/213930085_IGDB-120x160.jpg",
+    "gameDisplayName": "Honkai: Star Rail",
+    "gameId": "213930085",
+    "rewards": [
+      {
+        "id": "5895f5b3-fa81-11f0-995b-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://act.hoyoverse.com/puzzle/hkrpg/pz_u8LiB2qvFN/index.html?game_biz=hkrpg_global&utm_source=twitch&utm_medium=push",
+        "description": "Honkai: Star Rail Drops Campaign",
+        "detailsURL": "https://act.hoyoverse.com/puzzle/hkrpg/pz_u8LiB2qvFN/index.html?game_biz=hkrpg_global&utm_source=twitch&utm_medium=push",
+        "endAt": "2026-03-13T00:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "213930085",
+          "slug": "honkai-star-rail",
+          "displayName": "Honkai: Star Rail",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2dc86e29-7f6c-4a20-a711-11acba57e660.png",
+        "name": "V4.0 Honkai: Star Rail",
+        "owner": {
+          "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+          "name": "Cognosphere",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-13T01:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "cce55e4d-fa81-11f0-8fee-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "2deea1b8-5d2e-11ee-b040-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:05:41.555Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bdf2a93f-96e5-4544-9972-4b4d8eabddc9.png",
+                  "isIosAvailable": true,
+                  "name": "Credit*20000",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-13T00:59:59.999Z",
+            "name": "Credit*20000",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2026-02-13T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d4e782b9-fa81-11f0-9b3e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "38466902-5d2e-11ee-94c4-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:05:58.908Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e8254bd0-87ab-491a-b5bf-2ba99d9ecf6f.png",
+                  "isIosAvailable": true,
+                  "name": "Lost Gold Fragment*4",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-13T00:59:59.999Z",
+            "name": "Lost Gold Fragment*4",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-02-13T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d9f8ed91-fa81-11f0-9b7a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "227caadf-5d2e-11ee-ae95-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:05:22.353Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f5cb5327-04fc-4537-ad6a-142b9bfa89fe.png",
+                  "isIosAvailable": true,
+                  "name": "Condensed Aether*5",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-13T00:59:59.999Z",
+            "name": "Condensed Aether*5",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2026-02-13T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "de512746-fa81-11f0-aeb7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "4fcbc7f0-5d2e-11ee-b040-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:06:38.369Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/10953670-5011-471e-b873-b1ef4901ba6e.png",
+                  "isIosAvailable": true,
+                  "name": "Traveler's Guide*3",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-13T00:59:59.999Z",
+            "name": "Traveler's Guide*3",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-02-13T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "e5e03ff3-fa81-11f0-beec-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "446e5402-5d2e-11ee-ae95-0a58a9feac02",
+                  "createdAt": "2023-09-27T12:06:19.302Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35243e27-46dd-438a-b460-7bfafe547f18.png",
+                  "isIosAvailable": true,
+                  "name": "Stellar Jade*30",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-13T00:59:59.999Z",
+            "name": "Stellar Jade*30",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-13T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "eb9320eb-fa81-11f0-beec-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "640d8707-c0e0-11ef-8122-0a58a9feac02",
+                  "createdAt": "2024-12-23T03:45:45.559Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "213930085",
+                    "name": "Honkai: Star Rail",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3b4c20cd-65b9-456a-b5ef-2b1917a13b37.png",
+                  "isIosAvailable": true,
+                  "name": "Stellar Jade*50",
+                  "ownerOrganization": {
+                    "id": "4523e84a-450a-4ef5-8c6a-5f78706d1f0d",
+                    "name": "Cognosphere",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-13T00:59:59.999Z",
+            "name": "Stellar Jade*50",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 150,
+            "startAt": "2026-02-13T01:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-13T01:00:00.000Z"
   }
 ]
