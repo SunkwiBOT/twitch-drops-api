@@ -141,6 +141,93 @@
     "startAt": "2026-02-14T17:00:00.000Z"
   },
   {
+    "endAt": "2026-02-14T20:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
+    "rewards": [
+      {
+        "id": "24d5eabc-06ce-11f1-96f1-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "153676859",
+              "displayName": "DyanaSmythe",
+              "name": "dyanasmythe",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Watch dyanasmythe for 30 minutes to receive a Sprodling Floof decoration!",
+        "detailsURL": "https://forums.warframe.com/topic/1492660-community-stream-schedule-feb-9-15-2026/",
+        "endAt": "2026-02-14T20:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/c2bf54d0-79c1-4c76-8912-44a9bd5f19ba.jpeg",
+        "name": "Community Drops #167",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-14T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "32a60310-06ce-11f1-b275-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "92b9044a-06cd-11f1-ac61-0a58a9feac02",
+                  "createdAt": "2026-02-10T22:12:22.485Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "66170",
+                    "name": "Warframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/34c5a6e9-dd78-4e11-8878-dfe224565970.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Sprodling Floof",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-14T20:59:59.998Z",
+            "name": "Sprodling Floof",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-02-14T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-14T19:00:00.000Z"
+  },
+  {
     "endAt": "2026-02-28T23:29:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/423797288_IGDB-120x160.jpg",
     "gameDisplayName": "Modern Warships",
