@@ -423,14 +423,7 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": [
-            {
-              "id": "1094384185",
-              "displayName": "MobileDungeonOfficial",
-              "name": "mobiledungeonofficial",
-              "__typename": "Channel"
-            }
-          ],
+          "channels": null,
           "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
@@ -2488,14 +2481,7 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": [
-            {
-              "id": "244238416",
-              "displayName": "alpacasita",
-              "name": "alpacasita",
-              "__typename": "Channel"
-            }
-          ],
+          "channels": null,
           "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
@@ -2979,14 +2965,7 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": [
-            {
-              "id": "132642617",
-              "displayName": "R3crutaTV",
-              "name": "r3crutatv",
-              "__typename": "Channel"
-            }
-          ],
+          "channels": null,
           "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
@@ -12149,43 +12128,43 @@
             },
             {
               "id": "881737884",
-              "displayName": "vgostiua",
+              "displayName": null,
               "name": "vgostiua",
               "__typename": "Channel"
             },
             {
               "id": "852549791",
-              "displayName": "sh0kerix",
+              "displayName": null,
               "name": "sh0kerix",
               "__typename": "Channel"
             },
             {
               "id": "47167396",
-              "displayName": "MrScheff",
+              "displayName": null,
               "name": "mrscheff",
               "__typename": "Channel"
             },
             {
               "id": "51045488",
-              "displayName": "synop_s",
+              "displayName": null,
               "name": "synop_s",
               "__typename": "Channel"
             },
             {
               "id": "41044567",
-              "displayName": "AzumDzumHzumS",
+              "displayName": null,
               "name": "azumdzumhzums",
               "__typename": "Channel"
             },
             {
               "id": "135445967",
-              "displayName": "Dani2999_",
+              "displayName": null,
               "name": "dani2999_",
               "__typename": "Channel"
             },
             {
               "id": "78211322",
-              "displayName": "IICoyote",
+              "displayName": null,
               "name": "iicoyote",
               "__typename": "Channel"
             },
@@ -13367,6 +13346,84 @@
     "gameDisplayName": "Halo Infinite",
     "gameId": "506416",
     "rewards": [
+      {
+        "id": "090d3997-fe26-11f0-8718-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1084561976",
+              "displayName": "luminongg",
+              "name": "luminongg",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn in-game content in Halo Infinite!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2026-02-16T01:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/948fc308-9b1e-422e-9dfe-dc3dfa414925.png",
+        "name": "Luminon 2v2 Event-FEB15",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-15T20:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "1a3a367a-fe26-11f0-8005-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_AEXJ-LL4C-D8XM-7Q1R-9MYC",
+                  "createdAt": "2024-04-01T17:44:17.635Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/172d4ba4-e6f1-475c-8683-fc81851ed23f.png",
+                  "isIosAvailable": false,
+                  "name": "Adrenal M40 AR",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-16T01:59:59.999Z",
+            "name": "Adrenal AR Coating",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-15T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
       {
         "id": "9805f893-fe25-11f0-b0ef-0a58a9feac02",
         "self": {
