@@ -1,176 +1,5 @@
 [
   {
-    "endAt": "2026-02-15T14:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
-    "gameDisplayName": "Eternal Return",
-    "gameId": "512864",
-    "rewards": [
-      {
-        "id": "0d37e09d-0725-11f1-8b81-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "695173418",
-              "displayName": "EternalReturn_JP",
-              "name": "eternalreturn_jp",
-              "__typename": "Channel"
-            },
-            {
-              "id": "427263285",
-              "displayName": "EternalReturnGame",
-              "name": "eternalreturngame",
-              "__typename": "Channel"
-            },
-            {
-              "id": "695170110",
-              "displayName": "EternalReturn_TPE",
-              "name": "eternalreturn_tpe",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.playeternalreturn.com/",
-        "description": "https://twitch.playeternalreturn.com/",
-        "detailsURL": "https://twitch.playeternalreturn.com/",
-        "endAt": "2026-02-15T14:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "512864",
-          "slug": "eternal-return",
-          "displayName": "Eternal Return",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/fa69bcd3-1ed4-4936-8fb4-bde9c256a751.png",
-        "name": "ERM S10 P1 KNOCKOUT STAGE",
-        "owner": {
-          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-          "name": "Nimble Neuron Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-15T07:30:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "1839832f-0725-11f1-800e-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-15T14:59:59.999Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-02-15T07:30:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "1a46ce78-0725-11f1-80e4-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-15T14:59:59.999Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2026-02-15T07:30:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "1c10d9e7-0725-11f1-b9e9-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-15T14:59:59.999Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2026-02-15T07:30:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-02-15T07:30:00.000Z"
-  },
-  {
     "endAt": "2026-02-15T17:56:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
     "gameDisplayName": "Rise Online",
@@ -13178,6 +13007,332 @@
     "startAt": "2026-02-03T02:00:00.000Z"
   },
   {
+    "endAt": "2026-02-16T15:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
+    "gameDisplayName": "World of Tanks",
+    "gameId": "27546",
+    "rewards": [
+      {
+        "id": "29828271-f159-11f0-8ed6-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "182560660",
+              "displayName": "WorldofTanks",
+              "name": "worldoftanks",
+              "__typename": "Channel"
+            },
+            {
+              "id": "111768177",
+              "displayName": "Chessgenie",
+              "name": "chessgenie",
+              "__typename": "Channel"
+            },
+            {
+              "id": "103179576",
+              "displayName": "Fr3ddy",
+              "name": "fr3ddy",
+              "__typename": "Channel"
+            },
+            {
+              "id": "228082001",
+              "displayName": "Shadow_TheLoneWolf",
+              "name": "shadow_thelonewolf",
+              "__typename": "Channel"
+            },
+            {
+              "id": "98827681",
+              "displayName": "Tankelit",
+              "name": "tankelit",
+              "__typename": "Channel"
+            },
+            {
+              "id": "30118763",
+              "displayName": "NewMultiShow",
+              "name": "newmultishow",
+              "__typename": "Channel"
+            },
+            {
+              "id": "62603776",
+              "displayName": "cyganzor",
+              "name": "cyganzor",
+              "__typename": "Channel"
+            },
+            {
+              "id": "38181398",
+              "displayName": "jXcr",
+              "name": "jxcr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "50647345",
+              "displayName": "theruev",
+              "name": "theruev",
+              "__typename": "Channel"
+            },
+            {
+              "id": "103573025",
+              "displayName": "Dak_28",
+              "name": "dak_28",
+              "__typename": "Channel"
+            },
+            {
+              "id": "881737884",
+              "displayName": "vgostiua",
+              "name": "vgostiua",
+              "__typename": "Channel"
+            },
+            {
+              "id": "852549791",
+              "displayName": "sh0kerix",
+              "name": "sh0kerix",
+              "__typename": "Channel"
+            },
+            {
+              "id": "47167396",
+              "displayName": "MrScheff",
+              "name": "mrscheff",
+              "__typename": "Channel"
+            },
+            {
+              "id": "51045488",
+              "displayName": "synop_s",
+              "name": "synop_s",
+              "__typename": "Channel"
+            },
+            {
+              "id": "41044567",
+              "displayName": "AzumDzumHzumS",
+              "name": "azumdzumhzums",
+              "__typename": "Channel"
+            },
+            {
+              "id": "135445967",
+              "displayName": "Dani2999_",
+              "name": "dani2999_",
+              "__typename": "Channel"
+            },
+            {
+              "id": "78211322",
+              "displayName": "IICoyote",
+              "name": "iicoyote",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
+        "description": "Surfshark OLS#5 P2 Day 3",
+        "detailsURL": "https://worldoftanks.eu/news/live-streams/token-store-january-2026/",
+        "endAt": "2026-02-15T23:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/96faf19f-d1ba-4014-8497-a6a8937ba553.png",
+        "name": "Surfshark OLS#5 P2 Day 3",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-15T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "b28a6e38-f159-11f0-afc3-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_OLS5_01_26_14",
+                  "createdAt": "2026-01-14T13:21:05.046Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0c60edd0-cae1-460a-88d5-26b0f590ac9b.png",
+                  "isIosAvailable": false,
+                  "name": "5x OLS Tokens",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-15T23:59:59.999Z",
+            "name": "Drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-02-15T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "b5f14bf0-fc32-11f0-9fef-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
+        "description": "Lunar Drops#1",
+        "detailsURL": "https://worldoftanks.eu/news/general-news/jade-emperors-challenge-2026/",
+        "endAt": "2026-02-16T15:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "27546",
+          "slug": "world-of-tanks",
+          "displayName": "World of Tanks",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9ac95f9d-5fc7-4969-84a4-50b24f69b4ce.jpeg",
+        "name": "Lunar Drops#1",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-12T09:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "bcf6281a-fc32-11f0-86af-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_LNY26_26_02_01",
+                  "createdAt": "2026-01-28T10:25:45.215Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62d21d38-1a73-4ad7-bfc8-38e7a043159a.png",
+                  "isIosAvailable": false,
+                  "name": "5x Consumables",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_LNY26_26_02_02",
+                  "createdAt": "2026-01-28T10:26:08.027Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/40928963-40b8-4504-a6b8-4aeeef178220.png",
+                  "isIosAvailable": false,
+                  "name": "5x Consumables",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_LNY26_26_02_03",
+                  "createdAt": "2026-01-28T10:26:28.694Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bc673f0a-e56c-4b7e-9748-37f62e642ba1.png",
+                  "isIosAvailable": false,
+                  "name": "5x Consumables",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_LNY26_26_02_04",
+                  "createdAt": "2026-01-28T10:27:04.553Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "27546",
+                    "name": "World of Tanks",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26176286-1355-4e9b-8205-6ff7fdb721af.png",
+                  "isIosAvailable": false,
+                  "name": "1x 2D Style",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-16T15:59:59.998Z",
+            "name": "Drop 1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-02-12T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-12T09:00:00.000Z"
+  },
+  {
     "endAt": "2026-03-09T06:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
     "gameDisplayName": "Overwatch",
@@ -22191,158 +22346,6 @@
       }
     ],
     "startAt": "2026-02-15T14:00:00.000Z"
-  },
-  {
-    "endAt": "2026-02-16T15:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/27546_IGDB-120x160.jpg",
-    "gameDisplayName": "World of Tanks",
-    "gameId": "27546",
-    "rewards": [
-      {
-        "id": "b5f14bf0-fc32-11f0-9fef-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://worldoftanks.eu/en/content/guide/twitch-drops/",
-        "description": "Lunar Drops#1",
-        "detailsURL": "https://worldoftanks.eu/news/general-news/jade-emperors-challenge-2026/",
-        "endAt": "2026-02-16T15:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "27546",
-          "slug": "world-of-tanks",
-          "displayName": "World of Tanks",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/9ac95f9d-5fc7-4969-84a4-50b24f69b4ce.jpeg",
-        "name": "Lunar Drops#1",
-        "owner": {
-          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-          "name": "Wargaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-12T09:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "bcf6281a-fc32-11f0-86af-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_LNY26_26_02_01",
-                  "createdAt": "2026-01-28T10:25:45.215Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/62d21d38-1a73-4ad7-bfc8-38e7a043159a.png",
-                  "isIosAvailable": false,
-                  "name": "5x Consumables",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_LNY26_26_02_02",
-                  "createdAt": "2026-01-28T10:26:08.027Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/40928963-40b8-4504-a6b8-4aeeef178220.png",
-                  "isIosAvailable": false,
-                  "name": "5x Consumables",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_LNY26_26_02_03",
-                  "createdAt": "2026-01-28T10:26:28.694Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bc673f0a-e56c-4b7e-9748-37f62e642ba1.png",
-                  "isIosAvailable": false,
-                  "name": "5x Consumables",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WoT_TWD_LNY26_26_02_04",
-                  "createdAt": "2026-01-28T10:27:04.553Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "27546",
-                    "name": "World of Tanks",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/26176286-1355-4e9b-8205-6ff7fdb721af.png",
-                  "isIosAvailable": false,
-                  "name": "1x 2D Style",
-                  "ownerOrganization": {
-                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
-                    "name": "Wargaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-16T15:59:59.998Z",
-            "name": "Drop 1",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2026-02-12T09:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-02-12T09:00:00.000Z"
   },
   {
     "endAt": "2026-02-16T16:59:59.999Z",
