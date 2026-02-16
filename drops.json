@@ -1,980 +1,5 @@
 [
   {
-    "endAt": "2026-02-16T23:29:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/9618_IGDB-120x160.jpg",
-    "gameDisplayName": "Pokémon Trading Card Game",
-    "gameId": "9618",
-    "rewards": [
-      {
-        "id": "57bbb927-0601-11f1-aed1-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "36653045",
-              "displayName": "Pokemon",
-              "name": "pokemon",
-              "__typename": "Channel"
-            },
-            {
-              "id": "109828129",
-              "displayName": "PokemonTCG",
-              "name": "pokemontcg",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://rewards.pokemon.com/",
-        "description": "Tune into the 2026 EUIC TCG games to redeem rewards in TCG Live!",
-        "detailsURL": "https://pokemon.gamespress.com/Catch-the-Action-from-the-2026-Pokemon-Europe-International-Championsh",
-        "endAt": "2026-02-16T23:29:59.997Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "9618",
-          "slug": "pokemon-trading-card-game",
-          "displayName": "Pokémon Trading Card Game",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5906b1e7-61a4-48fc-b982-70a61764c6fc.png",
-        "name": "2026 EUIC TCG Drops",
-        "owner": {
-          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-          "name": "The Pokémon Company",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-13T09:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "068e68fc-0604-11f1-ba7c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bc9a7867-05ff-11f1-b4f1-0a58a9feac02",
-                  "createdAt": "2026-02-09T21:38:56.423Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "9618",
-                    "name": "Pokémon Trading Card Game",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f271e87e-eb34-48ab-9813-63f3eb355ba3.png",
-                  "isIosAvailable": false,
-                  "name": "'26 EUIC TCGL Jacket",
-                  "ownerOrganization": {
-                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-                    "name": "The Pokémon Company",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-16T23:29:59.997Z",
-            "name": "2026 EUIC Avatar Jacket",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-02-13T09:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "0f716175-0604-11f1-9a25-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "8db1171a-05ff-11f1-ba65-0a58a9feac02",
-                  "createdAt": "2026-02-09T21:37:37.718Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "9618",
-                    "name": "Pokémon Trading Card Game",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/900af2f8-7556-4500-af58-1164bb4a7ea3.png",
-                  "isIosAvailable": false,
-                  "name": "'26 EUIC TCGL DC",
-                  "ownerOrganization": {
-                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-                    "name": "The Pokémon Company",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-16T23:29:59.997Z",
-            "name": "2026 EUIC Deck Cosmetics",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2026-02-13T09:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "15e11cb0-0604-11f1-b953-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "b047dac8-05ff-11f1-b1ef-0a58a9feac02",
-                  "createdAt": "2026-02-09T21:38:35.749Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "9618",
-                    "name": "Pokémon Trading Card Game",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/485ab142-a09c-429b-ba8f-3b6a53ae3877.png",
-                  "isIosAvailable": false,
-                  "name": "'26 EUIC TCGL Cards",
-                  "ownerOrganization": {
-                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-                    "name": "The Pokémon Company",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-16T23:29:59.997Z",
-            "name": "2026 EUIC Cards",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2026-02-13T09:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "522208b3-0607-11f1-8c04-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "24935580",
-              "displayName": "AzulGG",
-              "name": "azulgg",
-              "__typename": "Channel"
-            },
-            {
-              "id": "626016213",
-              "displayName": "Helixort",
-              "name": "helixort",
-              "__typename": "Channel"
-            },
-            {
-              "id": "67755571",
-              "displayName": "TripleBtcg",
-              "name": "triplebtcg",
-              "__typename": "Channel"
-            },
-            {
-              "id": "602507026",
-              "displayName": "LaClemstim",
-              "name": "laclemstim",
-              "__typename": "Channel"
-            },
-            {
-              "id": "163483764",
-              "displayName": "HildaNamida",
-              "name": "hildanamida",
-              "__typename": "Channel"
-            },
-            {
-              "id": "62174495",
-              "displayName": "Fr0zen",
-              "name": "fr0zen",
-              "__typename": "Channel"
-            },
-            {
-              "id": "613081603",
-              "displayName": "nichoganbaru",
-              "name": "nichoganbaru",
-              "__typename": "Channel"
-            },
-            {
-              "id": "37712828",
-              "displayName": "Nuralkar",
-              "name": "nuralkar",
-              "__typename": "Channel"
-            },
-            {
-              "id": "92353597",
-              "displayName": "Riirex",
-              "name": "riirex",
-              "__typename": "Channel"
-            },
-            {
-              "id": "262465032",
-              "displayName": "srtahoothoot",
-              "name": "srtahoothoot",
-              "__typename": "Channel"
-            },
-            {
-              "id": "106033374",
-              "displayName": "ParanoiasGamers",
-              "name": "paranoiasgamers",
-              "__typename": "Channel"
-            },
-            {
-              "id": "110735358",
-              "displayName": "totakeki",
-              "name": "totakeki",
-              "__typename": "Channel"
-            },
-            {
-              "id": "692694849",
-              "displayName": "auralaur67",
-              "name": "auralaur67",
-              "__typename": "Channel"
-            },
-            {
-              "id": "676995850",
-              "displayName": "BrofessorEich",
-              "name": "brofessoreich",
-              "__typename": "Channel"
-            },
-            {
-              "id": "44916529",
-              "displayName": "pokemonmillennium",
-              "name": "pokemonmillennium",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://rewards.pokemon.com/",
-        "description": "Tune in to costreams of the 2026 Europe International Championships to redeem rewards in TCGL!",
-        "detailsURL": "https://pokemon.gamespress.com/Catch-the-Action-from-the-2026-Pokemon-Europe-International-Championsh",
-        "endAt": "2026-02-16T23:29:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "9618",
-          "slug": "pokemon-trading-card-game",
-          "displayName": "Pokémon Trading Card Game",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/a32cf39b-53dc-4f9a-af3f-b1b6a547fd1f.png",
-        "name": "'26 EUIC Costream Drops",
-        "owner": {
-          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-          "name": "The Pokémon Company",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-13T09:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "79904a22-0607-11f1-af5b-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "a383068e-05ff-11f1-a163-0a58a9feac02",
-                  "createdAt": "2026-02-09T21:38:14.326Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "9618",
-                    "name": "Pokémon Trading Card Game",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f4c29105-3ada-4c57-a59d-8edb51f6fd8b.png",
-                  "isIosAvailable": false,
-                  "name": "'26 EUIC TCGL CS Cards",
-                  "ownerOrganization": {
-                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-                    "name": "The Pokémon Company",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-16T23:29:59.999Z",
-            "name": "'26 EUIC Costream Drops",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2026-02-13T09:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-02-13T09:00:00.000Z"
-  },
-  {
-    "endAt": "2026-02-16T23:29:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/490655_IGDB-120x160.jpg",
-    "gameDisplayName": "Pokémon GO",
-    "gameId": "490655",
-    "rewards": [
-      {
-        "id": "14a08f17-0610-11f1-8e36-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "36653045",
-              "displayName": "Pokemon",
-              "name": "pokemon",
-              "__typename": "Channel"
-            },
-            {
-              "id": "116082737",
-              "displayName": "PokemonGO",
-              "name": "pokemongo",
-              "__typename": "Channel"
-            },
-            {
-              "id": "990602693",
-              "displayName": "PokemonGOAppLA",
-              "name": "pokemongoappla",
-              "__typename": "Channel"
-            },
-            {
-              "id": "990615235",
-              "displayName": "PokemonGOAppBR",
-              "name": "pokemongoappbr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "106033374",
-              "displayName": "ParanoiasGamers",
-              "name": "paranoiasgamers",
-              "__typename": "Channel"
-            },
-            {
-              "id": "262465032",
-              "displayName": "srtahoothoot",
-              "name": "srtahoothoot",
-              "__typename": "Channel"
-            },
-            {
-              "id": "37712828",
-              "displayName": "Nuralkar",
-              "name": "nuralkar",
-              "__typename": "Channel"
-            },
-            {
-              "id": "585072547",
-              "displayName": "Baal_Trainer",
-              "name": "baal_trainer",
-              "__typename": "Channel"
-            },
-            {
-              "id": "44916529",
-              "displayName": "pokemonmillennium",
-              "name": "pokemonmillennium",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://rewards.pokemon.com/",
-        "description": "Tune into the Pokémon GO matches at the 2026 Europe International Championships to receive drops!",
-        "detailsURL": "https://pokemon.gamespress.com/Catch-the-Action-from-the-2026-Pokemon-Europe-International-Championsh",
-        "endAt": "2026-02-16T23:29:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "490655",
-          "slug": "pokemon-go",
-          "displayName": "Pokémon GO",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/4615204b-c7e3-4f3b-824f-527770f62bfe.png",
-        "name": "2026 EUIC GO Drops",
-        "owner": {
-          "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-          "name": "The Pokémon Company",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-13T09:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "a2c03e7c-0610-11f1-b414-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6cdb0d2f-05ff-11f1-88ac-0a58a9feac02",
-                  "createdAt": "2026-02-09T21:36:42.629Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "490655",
-                    "name": "Pokémon GO",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2f45f15a-d4c5-4c00-a3d9-74b00dbf1780.png",
-                  "isIosAvailable": false,
-                  "name": "2026 EUIC GO Drops",
-                  "ownerOrganization": {
-                    "id": "36c4e21d-bdf3-410c-97c3-5a5a4bf1399b",
-                    "name": "The Pokémon Company",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-16T23:29:59.998Z",
-            "name": "2026 EUIC GO Drops",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2026-02-13T09:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-02-13T09:00:00.000Z"
-  },
-  {
-    "endAt": "2026-03-10T04:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2012789438-120x160.jpg",
-    "gameDisplayName": "Call of Duty: Black Ops 7",
-    "gameId": "2012789438",
-    "rewards": [
-      {
-        "id": "3d8ca7c0-02cf-11f1-a859-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "31688366",
-              "displayName": "Symfuhny",
-              "name": "symfuhny",
-              "__typename": "Channel"
-            },
-            {
-              "id": "23844396",
-              "displayName": "TeePee",
-              "name": "teepee",
-              "__typename": "Channel"
-            },
-            {
-              "id": "40541068",
-              "displayName": "Methodz",
-              "name": "methodz",
-              "__typename": "Channel"
-            },
-            {
-              "id": "37853510",
-              "displayName": "Hitchariide",
-              "name": "hitchariide",
-              "__typename": "Channel"
-            },
-            {
-              "id": "23347179",
-              "displayName": "MonsterEnergy",
-              "name": "monsterenergy",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://profile.callofduty.com/cod/twitch/reauth",
-        "description": "Energy in a Can",
-        "detailsURL": "https://www.twitch.tv/drops/inventory",
-        "endAt": "2026-02-16T23:29:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "2012789438",
-          "slug": "call-of-duty-black-ops-7",
-          "displayName": "Call of Duty: Black Ops 7",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/766a9bf7-f67b-4926-bae5-a44e9e717b46.png",
-        "name": "Energy in a Can",
-        "owner": {
-          "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-          "name": "Activision Publishing ",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-16T18:30:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "feb3afbf-02cf-11f1-8baf-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34741",
-                  "createdAt": "2026-01-21T20:48:34.683Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "2012789438",
-                    "name": "Call of Duty: Black Ops 7",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/338aab43-426a-49d3-bb9b-15ef17c58f18.png",
-                  "isIosAvailable": false,
-                  "name": "Energy in a Can",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-16T23:29:59.999Z",
-            "name": "Energy in a Can",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2026-02-16T18:30:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "17c92a75-05ec-11f1-8784-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "41744414",
-              "displayName": "CallofDuty_Esports",
-              "name": "callofduty_esports",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://profile.callofduty.com/cod/twitch/reauth",
-        "description": "CDL Major 2 Qualifiers ",
-        "detailsURL": "https://www.twitch.tv/drops/inventory",
-        "endAt": "2026-03-10T04:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "2012789438",
-          "slug": "call-of-duty-black-ops-7",
-          "displayName": "Call of Duty: Black Ops 7",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/223cb966-c75c-4f42-8660-49007f6c8740.png",
-        "name": "Major 2 Qualifiers",
-        "owner": {
-          "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-          "name": "Activision Publishing ",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-13T18:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "404e6843-05ec-11f1-aa4f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34062",
-                  "createdAt": "2025-10-30T15:41:21.821Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "2012789438",
-                    "name": "Call of Duty: Black Ops 7",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fbf27b0-c34f-481e-98d6-ff7740d24276.png",
-                  "isIosAvailable": false,
-                  "name": "30 Minute XP Token",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-10T04:59:59.999Z",
-            "name": "1 Hours",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-02-13T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "4880494c-05ec-11f1-bf4d-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34069",
-                  "createdAt": "2025-10-30T15:41:59.707Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "2012789438",
-                    "name": "Call of Duty: Black Ops 7",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c2ac2749-8c76-4a60-bed4-8362a0475dd9.png",
-                  "isIosAvailable": false,
-                  "name": "30 Minute Weapon XP Token",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-10T04:59:59.999Z",
-            "name": "2 Hours",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2026-02-13T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "4d7d0d1c-05ec-11f1-9329-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34062",
-                  "createdAt": "2025-10-30T15:41:21.821Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "2012789438",
-                    "name": "Call of Duty: Black Ops 7",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fbf27b0-c34f-481e-98d6-ff7740d24276.png",
-                  "isIosAvailable": false,
-                  "name": "30 Minute XP Token",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-10T04:59:59.999Z",
-            "name": "3 Hours",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2026-02-13T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "520dc0a0-05ec-11f1-b6dd-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34069",
-                  "createdAt": "2025-10-30T15:41:59.707Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "2012789438",
-                    "name": "Call of Duty: Black Ops 7",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c2ac2749-8c76-4a60-bed4-8362a0475dd9.png",
-                  "isIosAvailable": false,
-                  "name": "30 Minute Weapon XP Token",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-10T04:59:59.999Z",
-            "name": "4 Hours",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2026-02-13T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "56d0b376-05ec-11f1-a190-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34062",
-                  "createdAt": "2025-10-30T15:41:21.821Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "2012789438",
-                    "name": "Call of Duty: Black Ops 7",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fbf27b0-c34f-481e-98d6-ff7740d24276.png",
-                  "isIosAvailable": false,
-                  "name": "30 Minute XP Token",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-10T04:59:59.999Z",
-            "name": "5 Hours",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 300,
-            "startAt": "2026-02-13T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "5b19bc19-05ec-11f1-9b7d-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34069",
-                  "createdAt": "2025-10-30T15:41:59.707Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "2012789438",
-                    "name": "Call of Duty: Black Ops 7",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c2ac2749-8c76-4a60-bed4-8362a0475dd9.png",
-                  "isIosAvailable": false,
-                  "name": "30 Minute Weapon XP Token",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-10T04:59:59.999Z",
-            "name": "6 Hours",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2026-02-13T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "60c8b455-05ec-11f1-9899-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34062",
-                  "createdAt": "2025-10-30T15:41:21.821Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "2012789438",
-                    "name": "Call of Duty: Black Ops 7",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fbf27b0-c34f-481e-98d6-ff7740d24276.png",
-                  "isIosAvailable": false,
-                  "name": "30 Minute XP Token",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-10T04:59:59.999Z",
-            "name": "7 Hours",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 420,
-            "startAt": "2026-02-13T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "66be57b3-05ec-11f1-bf4d-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34069",
-                  "createdAt": "2025-10-30T15:41:59.707Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "2012789438",
-                    "name": "Call of Duty: Black Ops 7",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c2ac2749-8c76-4a60-bed4-8362a0475dd9.png",
-                  "isIosAvailable": false,
-                  "name": "30 Minute Weapon XP Token",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-10T04:59:59.999Z",
-            "name": "8 Hours",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 480,
-            "startAt": "2026-02-13T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "6bf3e332-05ec-11f1-b289-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34062",
-                  "createdAt": "2025-10-30T15:41:21.821Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "2012789438",
-                    "name": "Call of Duty: Black Ops 7",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fbf27b0-c34f-481e-98d6-ff7740d24276.png",
-                  "isIosAvailable": false,
-                  "name": "30 Minute XP Token",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-10T04:59:59.999Z",
-            "name": "9 Hours",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 540,
-            "startAt": "2026-02-13T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "70368053-05ec-11f1-a190-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34069",
-                  "createdAt": "2025-10-30T15:41:59.707Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "2012789438",
-                    "name": "Call of Duty: Black Ops 7",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c2ac2749-8c76-4a60-bed4-8362a0475dd9.png",
-                  "isIosAvailable": false,
-                  "name": "30 Minute Weapon XP Token",
-                  "ownerOrganization": {
-                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
-                    "name": "Activision Publishing ",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-10T04:59:59.999Z",
-            "name": "10",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 600,
-            "startAt": "2026-02-13T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-02-13T18:00:00.000Z"
-  },
-  {
     "endAt": "2026-03-02T23:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
     "gameDisplayName": "Delta Force",
@@ -41164,6 +40189,417 @@
       }
     ],
     "startAt": "2026-02-10T19:00:00.000Z"
+  },
+  {
+    "endAt": "2026-03-10T04:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2012789438-120x160.jpg",
+    "gameDisplayName": "Call of Duty: Black Ops 7",
+    "gameId": "2012789438",
+    "rewards": [
+      {
+        "id": "17c92a75-05ec-11f1-8784-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "41744414",
+              "displayName": "CallofDuty_Esports",
+              "name": "callofduty_esports",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://profile.callofduty.com/cod/twitch/reauth",
+        "description": "CDL Major 2 Qualifiers ",
+        "detailsURL": "https://www.twitch.tv/drops/inventory",
+        "endAt": "2026-03-10T04:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2012789438",
+          "slug": "call-of-duty-black-ops-7",
+          "displayName": "Call of Duty: Black Ops 7",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/223cb966-c75c-4f42-8660-49007f6c8740.png",
+        "name": "Major 2 Qualifiers",
+        "owner": {
+          "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+          "name": "Activision Publishing ",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-13T18:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "404e6843-05ec-11f1-aa4f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34062",
+                  "createdAt": "2025-10-30T15:41:21.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2012789438",
+                    "name": "Call of Duty: Black Ops 7",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fbf27b0-c34f-481e-98d6-ff7740d24276.png",
+                  "isIosAvailable": false,
+                  "name": "30 Minute XP Token",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-10T04:59:59.999Z",
+            "name": "1 Hours",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-02-13T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4880494c-05ec-11f1-bf4d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34069",
+                  "createdAt": "2025-10-30T15:41:59.707Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2012789438",
+                    "name": "Call of Duty: Black Ops 7",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c2ac2749-8c76-4a60-bed4-8362a0475dd9.png",
+                  "isIosAvailable": false,
+                  "name": "30 Minute Weapon XP Token",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-10T04:59:59.999Z",
+            "name": "2 Hours",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-13T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4d7d0d1c-05ec-11f1-9329-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34062",
+                  "createdAt": "2025-10-30T15:41:21.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2012789438",
+                    "name": "Call of Duty: Black Ops 7",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fbf27b0-c34f-481e-98d6-ff7740d24276.png",
+                  "isIosAvailable": false,
+                  "name": "30 Minute XP Token",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-10T04:59:59.999Z",
+            "name": "3 Hours",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-02-13T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "520dc0a0-05ec-11f1-b6dd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34069",
+                  "createdAt": "2025-10-30T15:41:59.707Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2012789438",
+                    "name": "Call of Duty: Black Ops 7",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c2ac2749-8c76-4a60-bed4-8362a0475dd9.png",
+                  "isIosAvailable": false,
+                  "name": "30 Minute Weapon XP Token",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-10T04:59:59.999Z",
+            "name": "4 Hours",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-02-13T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "56d0b376-05ec-11f1-a190-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34062",
+                  "createdAt": "2025-10-30T15:41:21.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2012789438",
+                    "name": "Call of Duty: Black Ops 7",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fbf27b0-c34f-481e-98d6-ff7740d24276.png",
+                  "isIosAvailable": false,
+                  "name": "30 Minute XP Token",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-10T04:59:59.999Z",
+            "name": "5 Hours",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2026-02-13T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "5b19bc19-05ec-11f1-9b7d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34069",
+                  "createdAt": "2025-10-30T15:41:59.707Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2012789438",
+                    "name": "Call of Duty: Black Ops 7",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c2ac2749-8c76-4a60-bed4-8362a0475dd9.png",
+                  "isIosAvailable": false,
+                  "name": "30 Minute Weapon XP Token",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-10T04:59:59.999Z",
+            "name": "6 Hours",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 360,
+            "startAt": "2026-02-13T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "60c8b455-05ec-11f1-9899-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34062",
+                  "createdAt": "2025-10-30T15:41:21.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2012789438",
+                    "name": "Call of Duty: Black Ops 7",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fbf27b0-c34f-481e-98d6-ff7740d24276.png",
+                  "isIosAvailable": false,
+                  "name": "30 Minute XP Token",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-10T04:59:59.999Z",
+            "name": "7 Hours",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 420,
+            "startAt": "2026-02-13T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "66be57b3-05ec-11f1-bf4d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34069",
+                  "createdAt": "2025-10-30T15:41:59.707Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2012789438",
+                    "name": "Call of Duty: Black Ops 7",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c2ac2749-8c76-4a60-bed4-8362a0475dd9.png",
+                  "isIosAvailable": false,
+                  "name": "30 Minute Weapon XP Token",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-10T04:59:59.999Z",
+            "name": "8 Hours",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 480,
+            "startAt": "2026-02-13T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "6bf3e332-05ec-11f1-b289-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34062",
+                  "createdAt": "2025-10-30T15:41:21.821Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2012789438",
+                    "name": "Call of Duty: Black Ops 7",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/2fbf27b0-c34f-481e-98d6-ff7740d24276.png",
+                  "isIosAvailable": false,
+                  "name": "30 Minute XP Token",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-10T04:59:59.999Z",
+            "name": "9 Hours",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 540,
+            "startAt": "2026-02-13T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "70368053-05ec-11f1-a190-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "62bdb6cb-9535-4955-9663-d20a1f897473_CUSTOM_ID_34069",
+                  "createdAt": "2025-10-30T15:41:59.707Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2012789438",
+                    "name": "Call of Duty: Black Ops 7",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c2ac2749-8c76-4a60-bed4-8362a0475dd9.png",
+                  "isIosAvailable": false,
+                  "name": "30 Minute Weapon XP Token",
+                  "ownerOrganization": {
+                    "id": "62bdb6cb-9535-4955-9663-d20a1f897473",
+                    "name": "Activision Publishing ",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-10T04:59:59.999Z",
+            "name": "10",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 600,
+            "startAt": "2026-02-13T18:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-13T18:00:00.000Z"
   },
   {
     "endAt": "2026-03-10T15:59:59.999Z",
