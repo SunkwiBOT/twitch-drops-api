@@ -12772,6 +12772,122 @@
     "startAt": "2026-02-11T00:00:00.000Z"
   },
   {
+    "endAt": "2026-02-22T04:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1292861145-120x160.jpg",
+    "gameDisplayName": "Marble Racing Manager",
+    "gameId": "1292861145",
+    "rewards": [
+      {
+        "id": "348b0fde-0e15-11f1-8085-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://marblemanager.lovable.app/drops",
+        "description": "Marble Manager Alpha Drop — Watch any participating Marble Manager stream to earn a free Bronze Crate containing random loot: gold, consumables, crafting materials, and more. Link your Twitch account at marblemanager.lovable.app/drops to claim your reward. No purchase necessary. One crate per drop — open it in your Inventory to see what you get!",
+        "detailsURL": "https://marblemanager.lovable.app/drops",
+        "endAt": "2026-02-22T04:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1292861145",
+          "slug": "marble-racing-manager",
+          "displayName": "Marble Racing Manager",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/564490d9-81b4-4397-82aa-4c2199593114.png",
+        "name": "Marble Manager Alpha",
+        "owner": {
+          "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+          "name": "Pixel by Pixel Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-20T05:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "51a8cc0c-0e16-11f1-a041-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_weekly_bronze",
+                  "createdAt": "2026-02-20T04:38:24.735Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1292861145",
+                    "name": "Marble Racing Manager",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f20b38f-9f88-4cd7-bb99-4bb2c01fc0e5.png",
+                  "isIosAvailable": false,
+                  "name": "1x Bronze Crate",
+                  "ownerOrganization": {
+                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+                    "name": "Pixel by Pixel Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-22T04:59:59.998Z",
+            "name": "The First Manager",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-20T05:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "bac3de37-0e16-11f1-80af-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_weekly_bronze",
+                  "createdAt": "2026-02-20T04:38:24.735Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1292861145",
+                    "name": "Marble Racing Manager",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f20b38f-9f88-4cd7-bb99-4bb2c01fc0e5.png",
+                  "isIosAvailable": false,
+                  "name": "1x Bronze Crate",
+                  "ownerOrganization": {
+                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
+                    "name": "Pixel by Pixel Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-22T04:59:59.998Z",
+            "name": "The First Manager's Membership",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2026-02-20T05:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-20T05:00:00.000Z"
+  },
+  {
     "endAt": "2026-02-22T05:00:00.000Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-120x160.jpg",
     "gameDisplayName": "Just Chatting",
