@@ -3112,6 +3112,141 @@
     "startAt": "2026-02-20T17:59:00.000Z"
   },
   {
+    "endAt": "2026-02-21T17:59:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2133072147_IGDB-120x160.jpg",
+    "gameDisplayName": "Mir Korabley",
+    "gameId": "2133072147",
+    "rewards": [
+      {
+        "id": "e5d99662-05bc-11f1-8574-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "793098652",
+              "displayName": "LestaKorabli",
+              "name": "lestakorabli",
+              "__typename": "Channel"
+            },
+            {
+              "id": "515919232",
+              "displayName": "Me4tatelnica_Irina",
+              "name": "me4tatelnica_irina",
+              "__typename": "Channel"
+            },
+            {
+              "id": "36611726",
+              "displayName": "MRVitamin",
+              "name": "mrvitamin",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://lesta.ru/personal/?bind-external=twitch",
+        "description": "Во время просмотра трансляций турнира «Под флагом Родины» на официальном канале и на каналах официальных стримеров можно будет получить множество наград, среди которых:\n\n• Штурманские жетоны;\n• Контейнеры «Тактический»;\n• Контейнеры «Особые бонусы» и «Особые сигналы»;\n• До 10 000 ед. золота;\n• Контейнеры «Премиум корабль VIII. Запасы коллекционера».\n\nЖмите «Отслеживать», следите за сражениями и получайте награду!",
+        "detailsURL": "https://korabli.su/ru/news/sales-and-events/stream-rewards-26-2/",
+        "endAt": "2026-02-21T17:59:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2133072147",
+          "slug": "mir-korabley",
+          "displayName": "Mir Korabley",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d5093cba-e913-48c2-aa46-8bc6dd38e4ac.png",
+        "name": "Под флагом Родины #1",
+        "owner": {
+          "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+          "name": "Lesta Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-21T10:30:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "31e79338-05bd-11f1-a673-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_2602_TWITCH_1S",
+                  "createdAt": "2026-02-09T13:16:45.925Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2133072147",
+                    "name": "Mir Korabley",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/52802dc8-7f92-4b23-84a6-399ad281dcd2.png",
+                  "isIosAvailable": false,
+                  "name": "26.2 Турнирная задача #1",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-21T17:59:59.998Z",
+            "name": "26.2 Турнирная задача #1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-02-21T10:30:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "4bbb1fcb-05bd-11f1-a8b6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25_CUSTOM_ID_PRM_2602_1",
+                  "createdAt": "2026-02-09T13:18:19.388Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2133072147",
+                    "name": "Mir Korabley",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6128086f-32e9-470a-b6a3-cf063a7e4fcb.png",
+                  "isIosAvailable": false,
+                  "name": "26.2 Турнирный бокс #1",
+                  "ownerOrganization": {
+                    "id": "ef3a94ee-c2ef-487d-bb43-991701f78b25",
+                    "name": "Lesta Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-21T17:59:59.998Z",
+            "name": "26.2 Турнирный бокс #1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-02-21T10:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-21T10:30:00.000Z"
+  },
+  {
     "endAt": "2026-02-28T23:29:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/423797288_IGDB-120x160.jpg",
     "gameDisplayName": "Modern Warships",
