@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2026-02-22T17:56:59.999Z",
+    "endAt": "2026-02-23T17:56:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/516588_IGDB-120x160.jpg",
     "gameDisplayName": "Rise Online",
     "gameId": "516588",
@@ -75,6 +75,77 @@
           }
         ],
         "__typename": "DropCampaign"
+      },
+      {
+        "id": "8bd5c253-0da2-11f1-9fb3-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.riseonlineworld.com/usercp?do=twitch",
+        "description": "Twitch’e özel Rise Online World Twitch Ödülleri elde etmek için talimatları tamamlayın.",
+        "detailsURL": "https://www.riseonlineworld.com/usercp?do=twitch",
+        "endAt": "2026-02-23T17:56:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "516588",
+          "slug": "rise-online",
+          "displayName": "Rise Online",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/722d7060-a046-4263-98bb-e8541ba2bb31.png",
+        "name": "ROW Drop 383",
+        "owner": {
+          "id": "3b99ecc6-a283-449c-9de8-dbf12c0cffdf",
+          "name": "Roko Game Studios",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-22T17:59:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9ebf64a4-0da2-11f1-a074-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "3b99ecc6-a283-449c-9de8-dbf12c0cffdf_CUSTOM_ID_29",
+                  "createdAt": "2026-02-19T14:03:55.508Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "516588",
+                    "name": "Rise Online",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c0854ffb-da3b-4e30-9e64-5dff0cc315a6.png",
+                  "isIosAvailable": false,
+                  "name": "Regalia of Ramadan",
+                  "ownerOrganization": {
+                    "id": "3b99ecc6-a283-449c-9de8-dbf12c0cffdf",
+                    "name": "Roko Game Studios",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-23T17:56:59.999Z",
+            "name": "ROW Drop 383",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-02-22T17:59:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
       }
     ],
     "startAt": "2026-02-21T17:59:00.000Z"
@@ -92,26 +163,7 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": [
-            {
-              "id": "793098652",
-              "displayName": "LestaKorabli",
-              "name": "lestakorabli",
-              "__typename": "Channel"
-            },
-            {
-              "id": "515919232",
-              "displayName": "Me4tatelnica_Irina",
-              "name": "me4tatelnica_irina",
-              "__typename": "Channel"
-            },
-            {
-              "id": "36611726",
-              "displayName": "MRVitamin",
-              "name": "mrvitamin",
-              "__typename": "Channel"
-            }
-          ],
+          "channels": null,
           "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
@@ -526,14 +578,7 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": [
-            {
-              "id": "1094384185",
-              "displayName": "MobileDungeonOfficial",
-              "name": "mobiledungeonofficial",
-              "__typename": "Channel"
-            }
-          ],
+          "channels": null,
           "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
@@ -721,14 +766,7 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": [
-            {
-              "id": "113310810",
-              "displayName": "LTD2",
-              "name": "ltd2",
-              "__typename": "Channel"
-            }
-          ],
+          "channels": null,
           "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
@@ -916,104 +954,7 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": [
-            {
-              "id": "515649218",
-              "displayName": "AFs_short_on_water",
-              "name": "afs_short_on_water",
-              "__typename": "Channel"
-            },
-            {
-              "id": "549756275",
-              "displayName": "ClydePlaysLive",
-              "name": "clydeplayslive",
-              "__typename": "Channel"
-            },
-            {
-              "id": "815111198",
-              "displayName": "El_ProfeDeHistoria",
-              "name": "el_profedehistoria",
-              "__typename": "Channel"
-            },
-            {
-              "id": "95198700",
-              "displayName": "GameProdigy",
-              "name": "gameprodigy",
-              "__typename": "Channel"
-            },
-            {
-              "id": "794370642",
-              "displayName": "Joe_Muetze",
-              "name": "joe_muetze",
-              "__typename": "Channel"
-            },
-            {
-              "id": "76735118",
-              "displayName": "Lord_Zath",
-              "name": "lord_zath",
-              "__typename": "Channel"
-            },
-            {
-              "id": "100897701",
-              "displayName": "Majorpar",
-              "name": "majorpar",
-              "__typename": "Channel"
-            },
-            {
-              "id": "145582779",
-              "displayName": "minihannibal65",
-              "name": "minihannibal65",
-              "__typename": "Channel"
-            },
-            {
-              "id": "80934441",
-              "displayName": "OverLordBou",
-              "name": "overlordbou",
-              "__typename": "Channel"
-            },
-            {
-              "id": "31443772",
-              "displayName": "Painezor",
-              "name": "painezor",
-              "__typename": "Channel"
-            },
-            {
-              "id": "400638476",
-              "displayName": "Philstifty",
-              "name": "philstifty",
-              "__typename": "Channel"
-            },
-            {
-              "id": "48107542",
-              "displayName": "PrivatePinguin",
-              "name": "privatepinguin",
-              "__typename": "Channel"
-            },
-            {
-              "id": "427741295",
-              "displayName": "QuagsireOfThePond",
-              "name": "quagsireofthepond",
-              "__typename": "Channel"
-            },
-            {
-              "id": "160533914",
-              "displayName": "StatsBloke",
-              "name": "statsbloke",
-              "__typename": "Channel"
-            },
-            {
-              "id": "43327708",
-              "displayName": "tcfreer",
-              "name": "tcfreer",
-              "__typename": "Channel"
-            },
-            {
-              "id": "175400318",
-              "displayName": "Xairen",
-              "name": "xairen",
-              "__typename": "Channel"
-            }
-          ],
+          "channels": null,
           "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
@@ -14394,14 +14335,7 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": [
-            {
-              "id": "427268445",
-              "displayName": "LALIGAFCPro",
-              "name": "laligafcpro",
-              "__typename": "Channel"
-            }
-          ],
+          "channels": null,
           "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
