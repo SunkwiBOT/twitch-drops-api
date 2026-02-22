@@ -1,474 +1,5 @@
 [
   {
-    "endAt": "2026-02-22T04:59:59.998Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1292861145-120x160.jpg",
-    "gameDisplayName": "Marble Racing Manager",
-    "gameId": "1292861145",
-    "rewards": [
-      {
-        "id": "348b0fde-0e15-11f1-8085-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://marblemanager.lovable.app/drops",
-        "description": "Marble Manager Alpha Drop — Watch any participating Marble Manager stream to earn a free Bronze Crate containing random loot: gold, consumables, crafting materials, and more. Link your Twitch account at marblemanager.lovable.app/drops to claim your reward. No purchase necessary. One crate per drop — open it in your Inventory to see what you get!",
-        "detailsURL": "https://marblemanager.lovable.app/drops",
-        "endAt": "2026-02-22T04:59:59.998Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1292861145",
-          "slug": "marble-racing-manager",
-          "displayName": "Marble Racing Manager",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/564490d9-81b4-4397-82aa-4c2199593114.png",
-        "name": "Marble Manager Alpha",
-        "owner": {
-          "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
-          "name": "Pixel by Pixel Studios",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-20T05:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "51a8cc0c-0e16-11f1-a041-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_weekly_bronze",
-                  "createdAt": "2026-02-20T04:38:24.735Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1292861145",
-                    "name": "Marble Racing Manager",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f20b38f-9f88-4cd7-bb99-4bb2c01fc0e5.png",
-                  "isIosAvailable": false,
-                  "name": "1x Bronze Crate",
-                  "ownerOrganization": {
-                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
-                    "name": "Pixel by Pixel Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-22T04:59:59.998Z",
-            "name": "The First Manager",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2026-02-20T05:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "bac3de37-0e16-11f1-80af-0a58a9feac02",
-            "requiredSubs": 1,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a_CUSTOM_ID_weekly_bronze",
-                  "createdAt": "2026-02-20T04:38:24.735Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1292861145",
-                    "name": "Marble Racing Manager",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3f20b38f-9f88-4cd7-bb99-4bb2c01fc0e5.png",
-                  "isIosAvailable": false,
-                  "name": "1x Bronze Crate",
-                  "ownerOrganization": {
-                    "id": "0e3880af-6c11-4cb8-9f03-bff7671cf97a",
-                    "name": "Pixel by Pixel Studios",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-22T04:59:59.998Z",
-            "name": "The First Manager's Membership",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 0,
-            "startAt": "2026-02-20T05:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-02-20T05:00:00.000Z"
-  },
-  {
-    "endAt": "2026-02-22T19:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
-    "gameDisplayName": "Eternal Return",
-    "gameId": "512864",
-    "rewards": [
-      {
-        "id": "acf0ffad-0d64-11f1-98ea-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "427263285",
-              "displayName": "EternalReturnGame",
-              "name": "eternalreturngame",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.playeternalreturn.com/",
-        "description": "https://twitch.playeternalreturn.com/",
-        "detailsURL": "https://twitch.playeternalreturn.com/",
-        "endAt": "2026-02-22T04:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "512864",
-          "slug": "eternal-return",
-          "displayName": "Eternal Return",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/d43823ae-d547-49e1-9d96-4a1a6f82c004.png",
-        "name": "ERCS S10 Semifinals",
-        "owner": {
-          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-          "name": "Nimble Neuron Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-21T22:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "dbd4d452-0d64-11f1-9cad-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-22T04:59:59.999Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-02-21T22:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "e15b5822-0d64-11f1-81c5-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-22T04:59:59.999Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2026-02-21T22:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      },
-      {
-        "id": "b1592596-0d3d-11f1-b32d-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.playeternalreturn.com/",
-        "description": "https://twitch.playeternalreturn.com/",
-        "detailsURL": "https://twitch.playeternalreturn.com/",
-        "endAt": "2026-02-22T19:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "512864",
-          "slug": "eternal-return",
-          "displayName": "Eternal Return",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/47a505d2-69df-4522-865e-c19d39583b02.png",
-        "name": "ER X P5R Drops",
-        "owner": {
-          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-          "name": "Nimble Neuron Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-21T20:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "be8c416b-0d3d-11f1-acfe-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-22T19:59:59.999Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-02-21T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "c1083461-0d3d-11f1-8861-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-22T19:59:59.999Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2026-02-21T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "c3172e8c-0d3d-11f1-8def-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
-                  "createdAt": "2025-08-07T07:50:44.716Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "512864",
-                    "name": "Eternal Return",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
-                  "isIosAvailable": false,
-                  "name": "Drops Token",
-                  "ownerOrganization": {
-                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
-                    "name": "Nimble Neuron Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-22T19:59:59.999Z",
-            "name": "DROPS TOKEN",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2026-02-21T20:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-02-21T20:00:00.000Z"
-  },
-  {
-    "endAt": "2026-02-22T05:00:00.000Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-120x160.jpg",
-    "gameDisplayName": "Just Chatting",
-    "gameId": "509658",
-    "rewards": [
-      {
-        "id": "fa388106-0782-11f1-8b4b-12e2236bf416",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "107117952",
-              "displayName": "jasontheween",
-              "name": "jasontheween",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.tv",
-        "description": "This badge was earned by watching 30 minutes of JasonTheWeen's 7 day survival stream!",
-        "detailsURL": "https://twitch.tv/jasontheween",
-        "endAt": "2026-02-22T05:00:00Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "509658",
-          "slug": "just-chatting",
-          "displayName": "Just Chatting",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/badges/v1/f299577c-8b51-4cb1-ad7c-11faca0c32e9/3",
-        "name": "JasonTheWeen 7 Day Survival",
-        "owner": {
-          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
-          "name": "Twitch Gaming",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-02-15T18:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "fa51d7f0-0782-11f1-8b4b-12e2236bf416",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "f966deee-0782-11f1-8b4b-12e2236bf416",
-                  "createdAt": "2026-02-11T19:50:53.66Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "509658",
-                    "name": "Just Chatting",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/badges/v1/f299577c-8b51-4cb1-ad7c-11faca0c32e9/3",
-                  "isIosAvailable": false,
-                  "name": "JasonTheWeen 7 Day Survival Badge",
-                  "ownerOrganization": {
-                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
-                    "name": "Twitch Gaming",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "BADGE",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-02-22T05:00:00Z",
-            "name": "JasonTheWeen 7 Day Survival Badge Group",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2026-02-15T18:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-02-15T18:00:00.000Z"
-  },
-  {
     "endAt": "2026-02-23T02:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
     "gameDisplayName": "Halo Infinite",
@@ -8024,6 +7555,158 @@
       }
     ],
     "startAt": "2026-01-26T18:00:00.000Z"
+  },
+  {
+    "endAt": "2026-02-22T19:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
+    "gameDisplayName": "Eternal Return",
+    "gameId": "512864",
+    "rewards": [
+      {
+        "id": "b1592596-0d3d-11f1-b32d-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://twitch.playeternalreturn.com/",
+        "description": "https://twitch.playeternalreturn.com/",
+        "detailsURL": "https://twitch.playeternalreturn.com/",
+        "endAt": "2026-02-22T19:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "512864",
+          "slug": "eternal-return",
+          "displayName": "Eternal Return",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/47a505d2-69df-4522-865e-c19d39583b02.png",
+        "name": "ER X P5R Drops",
+        "owner": {
+          "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+          "name": "Nimble Neuron Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-21T20:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "be8c416b-0d3d-11f1-acfe-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
+                  "createdAt": "2025-08-07T07:50:44.716Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+                  "isIosAvailable": false,
+                  "name": "Drops Token",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-22T19:59:59.999Z",
+            "name": "DROPS TOKEN",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-02-21T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c1083461-0d3d-11f1-8861-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
+                  "createdAt": "2025-08-07T07:50:44.716Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+                  "isIosAvailable": false,
+                  "name": "Drops Token",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-22T19:59:59.999Z",
+            "name": "DROPS TOKEN",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-21T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c3172e8c-0d3d-11f1-8def-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66_CUSTOM_ID_DROPS_REWARD_Drops_Coin_01",
+                  "createdAt": "2025-08-07T07:50:44.716Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "512864",
+                    "name": "Eternal Return",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/247ed93a-a550-497f-9155-cb4ec0d5dfb4.png",
+                  "isIosAvailable": false,
+                  "name": "Drops Token",
+                  "ownerOrganization": {
+                    "id": "bac7ec48-b5ec-4bdf-9f91-2491adda1c66",
+                    "name": "Nimble Neuron Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-22T19:59:59.999Z",
+            "name": "DROPS TOKEN",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-02-21T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-21T20:00:00.000Z"
   },
   {
     "endAt": "2026-02-22T21:59:59.999Z",
