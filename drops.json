@@ -1455,6 +1455,93 @@
     "startAt": "2026-02-10T07:00:00.000Z"
   },
   {
+    "endAt": "2026-02-24T22:29:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/468533702_IGDB-120x160.jpg",
+    "gameDisplayName": "Soulframe",
+    "gameId": "468533702",
+    "rewards": [
+      {
+        "id": "3b2263d4-039e-11f1-97d6-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "769461865",
+              "displayName": "PlaySoulframe",
+              "name": "playsoulframe",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.soulframe.com/en/user",
+        "description": "Watch Soulframe Envoy Hour #8 for 30 minutes to earn a Soulframe Preludes Key. Your code will appear in soulframe.com/user after claiming your Drop on the Twitch Inventory page. ",
+        "detailsURL": "https://forums.soulframe.com/topic/9401-envoy-hour-returns/",
+        "endAt": "2026-02-24T22:29:59.998Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "468533702",
+          "slug": "soulframe",
+          "displayName": "Soulframe",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/0568d730-ba07-4f94-a978-bd5af1fe314d.png",
+        "name": "Envoy Hour #8",
+        "owner": {
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-24T21:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f890f6cb-03a3-11f1-87d8-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "d9d4bcf1-1a31-11f0-99e5-0a58a9feac02",
+                  "createdAt": "2025-04-15T19:43:05.88Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "468533702",
+                    "name": "Soulframe",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0308cb07-413f-4930-99ef-38fcf55dca45.png",
+                  "isIosAvailable": false,
+                  "name": "Soulframe Preludes Key",
+                  "ownerOrganization": {
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-24T22:29:59.998Z",
+            "name": "Soulframe Preludes Key",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-02-24T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-24T21:00:00.000Z"
+  },
+  {
     "endAt": "2026-02-25T05:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
     "gameDisplayName": "Halo Infinite",
