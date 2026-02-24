@@ -1455,6 +1455,105 @@
     "startAt": "2026-02-10T07:00:00.000Z"
   },
   {
+    "endAt": "2026-02-25T05:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/506416-120x160.jpg",
+    "gameDisplayName": "Halo Infinite",
+    "gameId": "506416",
+    "rewards": [
+      {
+        "id": "d6aa370c-fe27-11f0-8cff-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "25254906",
+              "displayName": "Stresss",
+              "name": "stresss",
+              "__typename": "Channel"
+            },
+            {
+              "id": "35978160",
+              "displayName": "EXTREMEBREAKER1",
+              "name": "extremebreaker1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "98449152",
+              "displayName": "ArturBloodshot",
+              "name": "arturbloodshot",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into this HCS Grassroots event to earn in-game content in Halo Infinite!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2026-02-25T05:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "506416",
+          "slug": "halo-infinite",
+          "displayName": "Halo Infinite",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b4dd66ff-5b43-4920-b2cb-23cb515460ba.png",
+        "name": "Forge Showcase-FEB24",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-24T20:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "e766a828-fe27-11f0-937b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_NVYQ-XUUK-F3H9-LR1N-KJJT",
+                  "createdAt": "2024-01-02T21:15:23.444Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "506416",
+                    "name": "Halo Infinite",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/65db78a5-fe18-4005-a6b9-6801e1324688.png",
+                  "isIosAvailable": false,
+                  "name": "Midnight Gold Warthog",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-25T05:59:59.999Z",
+            "name": "Midnight Gold Warthog",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-24T20:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-24T20:00:00.000Z"
+  },
+  {
     "endAt": "2026-02-25T07:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/168648543_IGDB-120x160.jpg",
     "gameDisplayName": "Battlefield 6",
