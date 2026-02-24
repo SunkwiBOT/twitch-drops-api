@@ -14855,7 +14855,7 @@
     "startAt": "2026-02-03T18:00:00.000Z"
   },
   {
-    "endAt": "2026-02-24T21:58:59.999Z",
+    "endAt": "2026-03-10T23:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/497431_IGDB-120x160.jpg",
     "gameDisplayName": "Skull and Bones",
     "gameId": "497431",
@@ -16223,6 +16223,84 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 180,
             "startAt": "2026-02-10T07:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "6ba541db-10c4-11f1-9749-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "70104832",
+              "displayName": "lilywhitetv",
+              "name": "lilywhitetv",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://drops-register.ubi.com/",
+        "description": "LILYWHITE exclusive drops",
+        "detailsURL": "https://www.ubisoft.com/fr-fr/help/gameplay/article/information-about-twitch-drops-for-ubisoft-games/000065532",
+        "endAt": "2026-03-10T23:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "497431",
+          "slug": "skull-and-bones",
+          "displayName": "Skull and Bones",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f4e037dd-20e0-4be1-9be6-26f4bfbea4cf.jpeg",
+        "name": "S&B LILYWHITE drops",
+        "owner": {
+          "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+          "name": "Ubisoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-24T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "475484c7-10c5-11f1-a315-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b_CUSTOM_ID_lilywhite_drops",
+                  "createdAt": "2026-02-23T14:41:45.471Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "497431",
+                    "name": "Skull and Bones",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6517b653-85c1-4c37-9381-8c09b9497cce.png",
+                  "isIosAvailable": false,
+                  "name": "The Keeper's Way",
+                  "ownerOrganization": {
+                    "id": "59d4f6c2-36bc-4c3f-83c8-f8d9936dc75b",
+                    "name": "Ubisoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-10T23:58:59.999Z",
+            "name": "Reward",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-02-24T00:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
