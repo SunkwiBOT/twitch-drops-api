@@ -33493,6 +33493,86 @@
     "startAt": "2026-02-13T18:00:00.000Z"
   },
   {
+    "endAt": "2026-03-10T13:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/21934_IGDB-120x160.jpg",
+    "gameDisplayName": "Star Wars: The Old Republic",
+    "gameId": "21934",
+    "rewards": [
+      {
+        "id": "8cacd7f0-1266-11f1-ad86-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.swtor.com",
+        "description": "Watch for 1 hour and claim the Yavin (Purple) Deco",
+        "detailsURL": "https://account.swtor.com",
+        "endAt": "2026-03-10T13:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "21934",
+          "slug": "star-wars-the-old-republic",
+          "displayName": "Star Wars: The Old Republic",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/65e505ae-cef4-43f8-b696-0222fa98be00.png",
+        "name": "SWTOR Yavin (Purple) Deco",
+        "owner": {
+          "id": "f0bf8fc6-f94a-43ae-9f26-1f99377aa691",
+          "name": "Broadsword Online Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-25T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ac097215-1266-11f1-ad94-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f0bf8fc6-f94a-43ae-9f26-1f99377aa691_CUSTOM_ID_TWITCH_REWARD_YAVIN",
+                  "createdAt": "2026-02-04T20:06:33.473Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "21934",
+                    "name": "Star Wars: The Old Republic",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0fc5e8c9-875e-4cb6-b3f7-01ade3a1f59c.png",
+                  "isIosAvailable": false,
+                  "name": "SWTOR Yavin Deco",
+                  "ownerOrganization": {
+                    "id": "f0bf8fc6-f94a-43ae-9f26-1f99377aa691",
+                    "name": "Broadsword Online Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-10T13:59:59.999Z",
+            "name": "SWTOR Yavin (Purple) Deco",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-02-25T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-25T19:00:00.000Z"
+  },
+  {
     "endAt": "2026-03-10T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/518186_IGDB-120x160.jpg",
     "gameDisplayName": "Party Animals",
