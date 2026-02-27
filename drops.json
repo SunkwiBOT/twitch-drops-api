@@ -1,5 +1,92 @@
 [
   {
+    "endAt": "2026-02-28T00:20:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/138585-120x160.jpg",
+    "gameDisplayName": "Hearthstone",
+    "gameId": "138585",
+    "rewards": [
+      {
+        "id": "793cd69b-0b4a-11f1-a4eb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "42776357",
+              "displayName": "PlayHearthstone",
+              "name": "playhearthstone",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://account.battle.net/connections",
+        "description": "Watch for 20 minutes to earn a CATACLYSM pack as your favorite Hearthstone creators reveal the powerful new cards coming in CATACLYSM. ",
+        "detailsURL": "https://hearthstone.blizzard.com/news/24242864/your-guide-to-cataclysm-card-reveals-and-free-rewards-in-the-dragon-s-hoard",
+        "endAt": "2026-02-28T00:20:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "138585",
+          "slug": "hearthstone",
+          "displayName": "Hearthstone",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/35dabc89-65e4-46d1-9caa-0451d6b499cf.png",
+        "name": "CATACLYSM Reveal Stream 5",
+        "owner": {
+          "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+          "name": "Blizzard",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-27T22:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "830c0cda-0c3d-11f1-9c9b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9620a89d-b07c-4160-a851-ae832fa6985e_CUSTOM_ID_2055293",
+                  "createdAt": "2026-02-12T19:31:36.846Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "138585",
+                    "name": "Hearthstone",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7b76b4d8-4a7f-4480-90bf-3446cc3b3310.png",
+                  "isIosAvailable": false,
+                  "name": "CATACLYSM Pack",
+                  "ownerOrganization": {
+                    "id": "9620a89d-b07c-4160-a851-ae832fa6985e",
+                    "name": "Blizzard",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-02-28T00:20:59.999Z",
+            "name": "CATACLYSM Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 20,
+            "startAt": "2026-02-27T22:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-27T22:00:00.000Z"
+  },
+  {
     "endAt": "2026-02-28T07:59:59.997Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-120x160.jpg",
     "gameDisplayName": "ROBLOX",
