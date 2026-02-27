@@ -1,62 +1,69 @@
 [
   {
-    "endAt": "2026-02-27T18:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/29307_IGDB-120x160.jpg",
-    "gameDisplayName": "Path of Exile",
-    "gameId": "29307",
+    "endAt": "2026-02-27T20:29:59.998Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/66170_IGDB-120x160.jpg",
+    "gameDisplayName": "Warframe",
+    "gameId": "66170",
     "rewards": [
       {
-        "id": "c37e7db3-1118-11f1-95e9-0a58a9feac02",
+        "id": "1002780b-1254-11f1-a701-0a58a9feac02",
         "self": {
           "isAccountConnected": false,
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "31557216",
+              "displayName": "Warframe",
+              "name": "warframe",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://www.pathofexile.com/my-account/twitch",
-        "description": "Celebrate the launch of Path of Exile: Mirage with us! Just watch your favourite stream in the Path of Exile Category for 45 minutes! ",
-        "detailsURL": "https://www.pathofexile.com/twitchdrops",
-        "endAt": "2026-02-27T18:59:59.999Z",
+        "accountLinkURL": "https://www.warframe.com/user",
+        "description": "Watch Warframe Devstream #193 for 30 minutes to receive a random Tauforged Archon Shard!",
+        "detailsURL": "https://forums.warframe.com/topic/1492677-coming-soon-devstream-193-the-shadowgrapher/",
+        "endAt": "2026-02-27T20:29:59.998Z",
         "eventBasedDrops": [],
         "game": {
-          "id": "29307",
-          "slug": "path-of-exile",
-          "displayName": "Path of Exile",
+          "id": "66170",
+          "slug": "warframe",
+          "displayName": "Warframe",
           "__typename": "Game"
         },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7e28867a-32fa-4050-a2b1-0cf221cf6c5f.png",
-        "name": "3.28 Mirage Weapon Effect",
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/945a75fb-4570-4c61-9505-9ba24a7ca8e3.jpeg",
+        "name": "Devstream #193",
         "owner": {
-          "id": "f751ba67-7c8b-4c41-b6df-bcea0914f3ad",
-          "name": "Grinding Gear Games",
+          "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+          "name": "Digital Extremes",
           "__typename": "Organization"
         },
-        "startAt": "2026-02-26T19:00:00Z",
+        "startAt": "2026-02-27T19:00:00Z",
         "status": "ACTIVE",
         "timeBasedDrops": [
           {
-            "id": "d9c7b996-1118-11f1-ad70-0a58a9feac02",
+            "id": "29ae916a-1254-11f1-8d57-0a58a9feac02",
             "requiredSubs": 0,
             "benefitEdges": [
               {
                 "benefit": {
-                  "id": "f751ba67-7c8b-4c41-b6df-bcea0914f3ad_CUSTOM_ID_MirageWeaponEffect",
-                  "createdAt": "2026-02-24T00:42:16.515Z",
+                  "id": "b72a5df0-ad02-11ef-bb0d-0a58a9feac02",
+                  "createdAt": "2024-11-27T21:01:04.632Z",
                   "entitlementLimit": 1,
                   "game": {
-                    "id": "29307",
-                    "name": "Path of Exile",
+                    "id": "66170",
+                    "name": "Warframe",
                     "__typename": "Game"
                   },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/46b789dd-ae23-4c92-9193-8f12635f8b0d.png",
-                  "isIosAvailable": false,
-                  "name": "Mirage Weapon Effect",
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1037b47d-defe-4091-be79-9116779d6f9e.jpeg",
+                  "isIosAvailable": true,
+                  "name": "Fused TF Archon Shard ",
                   "ownerOrganization": {
-                    "id": "f751ba67-7c8b-4c41-b6df-bcea0914f3ad",
-                    "name": "Grinding Gear Games",
+                    "id": "ede84f2f-2e8e-47bf-b260-43d2185bb458",
+                    "name": "Digital Extremes",
                     "__typename": "Organization"
                   },
                   "distributionType": "DIRECT_ENTITLEMENT",
@@ -66,18 +73,18 @@
                 "__typename": "DropBenefitEdge"
               }
             ],
-            "endAt": "2026-02-27T18:59:59.999Z",
-            "name": "Mirage Weapon Effect",
+            "endAt": "2026-02-27T20:29:59.998Z",
+            "name": "Random TF Archon Shard",
             "preconditionDrops": null,
-            "requiredMinutesWatched": 45,
-            "startAt": "2026-02-26T19:00:00Z",
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-02-27T19:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
         "__typename": "DropCampaign"
       }
     ],
-    "startAt": "2026-02-26T19:00:00.000Z"
+    "startAt": "2026-02-27T19:00:00.000Z"
   },
   {
     "endAt": "2026-02-28T07:59:59.997Z",
