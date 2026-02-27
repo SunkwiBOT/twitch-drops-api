@@ -31036,6 +31036,122 @@
     "startAt": "2026-02-24T17:00:00.000Z"
   },
   {
+    "endAt": "2026-03-03T23:29:59.996Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
+    "gameDisplayName": "The Quinfall",
+    "gameId": "2128139746",
+    "rewards": [
+      {
+        "id": "b735f599-141e-11f1-ad43-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.quinfall.com/twitch-drops",
+        "description": "Watch Twitch streams under The Quinfall category and earn special in-game rewards!",
+        "detailsURL": "https://www.quinfall.com/twitch-drops",
+        "endAt": "2026-03-03T23:29:59.996Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2128139746",
+          "slug": "the-quinfall",
+          "displayName": "The Quinfall",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/edebe275-ad5f-44f0-92a2-5f28fd453de4.png",
+        "name": "February Drops",
+        "owner": {
+          "id": "82d2c695-36dc-4dd3-a929-3004037ace97",
+          "name": "Vawraek Technology",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-27T21:01:24Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "ca7dc7b2-141e-11f1-8b67-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "e686b106-1337-11f1-a7bb-0a58a9feac02",
+                  "createdAt": "2026-02-26T17:23:43.691Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2128139746",
+                    "name": "The Quinfall",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/89982d40-9424-4acc-8096-f902ed2d4b7b.png",
+                  "isIosAvailable": false,
+                  "name": "Experience Meal",
+                  "ownerOrganization": {
+                    "id": "82d2c695-36dc-4dd3-a929-3004037ace97",
+                    "name": "Vawraek Technology",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-03T23:29:59.996Z",
+            "name": "Experience Meal",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-02-27T21:01:24Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "d20670a2-141e-11f1-bcab-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5e51eb9d-1338-11f1-98f4-0a58a9feac02",
+                  "createdAt": "2026-02-26T17:27:04.671Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2128139746",
+                    "name": "The Quinfall",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1e018d04-30ed-4c11-bffa-3808badb1553.png",
+                  "isIosAvailable": false,
+                  "name": "Skill Enhancing Elixir",
+                  "ownerOrganization": {
+                    "id": "82d2c695-36dc-4dd3-a929-3004037ace97",
+                    "name": "Vawraek Technology",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-03T23:29:59.996Z",
+            "name": "Skill Enhancing Elixir",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-02-27T21:01:24Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-27T21:01:24.000Z"
+  },
+  {
     "endAt": "2026-03-04T10:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/544682640_IGDB-120x160.jpg",
     "gameDisplayName": "NextWorld2",
