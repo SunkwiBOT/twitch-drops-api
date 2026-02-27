@@ -31472,6 +31472,86 @@
     "startAt": "2026-02-06T03:59:00.000Z"
   },
   {
+    "endAt": "2026-03-07T05:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1856692696_IGDB-120x160.jpg",
+    "gameDisplayName": "Stream Arena RPG",
+    "gameId": "1856692696",
+    "rewards": [
+      {
+        "id": "f4b66fe1-138d-11f1-80c4-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://streamarenarpg.com/link_twitch.php",
+        "description": "Get involved in the first Stream Arena RPG Twitch Drop! A Purple Mist Backpack is available via drops only!",
+        "detailsURL": "https://streamarenarpg.com/drops_info.html",
+        "endAt": "2026-03-07T05:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1856692696",
+          "slug": "stream-arena-rpg",
+          "displayName": "Stream Arena RPG",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5a6b43b6-756a-4afc-92a1-eba753f786d9.png",
+        "name": "Purple Mist Backpack",
+        "owner": {
+          "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27",
+          "name": "Ayrton Alexis",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-02-27T03:34:52Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "39118d73-138e-11f1-8b46-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27_CUSTOM_ID_PurpleMistBackpack",
+                  "createdAt": "2026-02-27T03:42:34.749Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1856692696",
+                    "name": "Stream Arena RPG",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f4df59f-a07a-4ad5-9b2d-a807eab783f4.png",
+                  "isIosAvailable": false,
+                  "name": "Purple Mist Backpack",
+                  "ownerOrganization": {
+                    "id": "03a4a591-244f-4cf7-a06e-4ebb8f77fc27",
+                    "name": "Ayrton Alexis",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-07T05:59:59.999Z",
+            "name": "Purple Mist Backpack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-02-27T03:34:52Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-02-27T03:34:52.000Z"
+  },
+  {
     "endAt": "2026-03-09T06:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515025-120x160.jpg",
     "gameDisplayName": "Overwatch",
