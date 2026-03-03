@@ -30883,6 +30883,230 @@
     "startAt": "2026-02-24T12:00:00.000Z"
   },
   {
+    "endAt": "2026-03-26T02:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2014795392_IGDB-120x160.jpg",
+    "gameDisplayName": "Infinity Nikki",
+    "gameId": "2014795392",
+    "rewards": [
+      {
+        "id": "3e75791e-06ea-11f1-8ae0-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://infinitynikki.infoldgames.com/proj/en/twitch-drops.html",
+        "description": "Watch Infinity Nikki on Twitch and earn exclusive in-game rewards!\n\nWatch Time Rewards:\n⏱️ Watch 15 mins – Diamond ×10\n⏱️ Watch 30 mins – Diamond ×20\n⏱️ Watch 45 mins – Bling ×20,000\n⏱️ Watch 1 hour – Thread of Purity ×100\n⏱️ Watch 1.5 hours – Shining Particle ×100",
+        "detailsURL": "https://infinitynikki.infoldgames.com/proj/en/twitch-drops.html",
+        "endAt": "2026-03-26T02:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2014795392",
+          "slug": "infinity-nikki",
+          "displayName": "Infinity Nikki",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/baa7a914-752b-44eb-b3f8-38f3b758e666.png",
+        "name": "V2.3 Infinity Nikki",
+        "owner": {
+          "id": "bc06162e-7510-421a-8862-43f4e00a741e",
+          "name": "INFOLD PTE. LTD.",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-03T03:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "38e6d4a9-06f7-11f1-8772-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bc06162e-7510-421a-8862-43f4e00a741e_CUSTOM_ID_856",
+                  "createdAt": "2026-02-11T03:04:50.396Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2014795392",
+                    "name": "Infinity Nikki",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d6d50b6b-ca0a-45db-bd4c-2d7a84ff0d43.png",
+                  "isIosAvailable": false,
+                  "name": "2.3 Diamondx10",
+                  "ownerOrganization": {
+                    "id": "bc06162e-7510-421a-8862-43f4e00a741e",
+                    "name": "INFOLD PTE. LTD.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-26T02:59:59.999Z",
+            "name": "Diamond ×10",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2026-03-03T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "412f1789-06f7-11f1-888b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bc06162e-7510-421a-8862-43f4e00a741e_CUSTOM_ID_859",
+                  "createdAt": "2026-02-11T03:06:32.645Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2014795392",
+                    "name": "Infinity Nikki",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d349c67d-3baf-4af7-ad2a-7b4da9f279c2.png",
+                  "isIosAvailable": false,
+                  "name": "2.3 Thread of Purity×100",
+                  "ownerOrganization": {
+                    "id": "bc06162e-7510-421a-8862-43f4e00a741e",
+                    "name": "INFOLD PTE. LTD.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-26T02:59:59.999Z",
+            "name": "Thread of Purity ×100",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-03-03T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "49b38405-06f7-11f1-9440-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bc06162e-7510-421a-8862-43f4e00a741e_CUSTOM_ID_858",
+                  "createdAt": "2026-02-11T03:04:22.202Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2014795392",
+                    "name": "Infinity Nikki",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/459cba2b-21b1-41ee-97a5-a9982eb7acb2.png",
+                  "isIosAvailable": false,
+                  "name": "2.3 Bling×20,000",
+                  "ownerOrganization": {
+                    "id": "bc06162e-7510-421a-8862-43f4e00a741e",
+                    "name": "INFOLD PTE. LTD.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-26T02:59:59.999Z",
+            "name": "Bling ×20,000",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 45,
+            "startAt": "2026-03-03T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "52d790ff-06f7-11f1-b232-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bc06162e-7510-421a-8862-43f4e00a741e_CUSTOM_ID_857",
+                  "createdAt": "2026-02-11T03:05:19.679Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2014795392",
+                    "name": "Infinity Nikki",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/1a3290a1-3d47-468c-8a64-d1c976a3753a.png",
+                  "isIosAvailable": false,
+                  "name": "2.3 Diamondx20",
+                  "ownerOrganization": {
+                    "id": "bc06162e-7510-421a-8862-43f4e00a741e",
+                    "name": "INFOLD PTE. LTD.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-26T02:59:59.999Z",
+            "name": "Diamond ×20",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-03-03T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "5a48364b-06f7-11f1-a56e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "bc06162e-7510-421a-8862-43f4e00a741e_CUSTOM_ID_860",
+                  "createdAt": "2026-02-11T03:05:46.003Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2014795392",
+                    "name": "Infinity Nikki",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/4e4dc1f3-429e-4298-bf09-0452282e00ff.png",
+                  "isIosAvailable": false,
+                  "name": "2.3 Shining Particle×100",
+                  "ownerOrganization": {
+                    "id": "bc06162e-7510-421a-8862-43f4e00a741e",
+                    "name": "INFOLD PTE. LTD.",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-26T02:59:59.999Z",
+            "name": "Shining Particle ×100",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2026-03-03T03:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-03-03T03:00:00.000Z"
+  },
+  {
     "endAt": "2026-03-26T21:59:59.998Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/18122-120x160.jpg",
     "gameDisplayName": "World of Warcraft",
