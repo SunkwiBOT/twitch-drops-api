@@ -1,157 +1,5 @@
 [
   {
-    "endAt": "2026-03-06T18:59:59.996Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1743359147_IGDB-120x160.jpg",
-    "gameDisplayName": "MARVEL SNAP",
-    "gameId": "1743359147",
-    "rewards": [
-      {
-        "id": "8d82d541-11b4-11f1-b683-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://twitch.marvelsnap.com/",
-        "description": "WE ARE SO BACK! Kick off this season in style by watching your favorite creators to earn great new rewards. Drops are available on March 3-6th. ",
-        "detailsURL": "https://twitch.marvelsnap.com/",
-        "endAt": "2026-03-06T18:59:59.996Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1743359147",
-          "slug": "marvel-snap",
-          "displayName": "MARVEL SNAP",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5d59816e-60ee-4961-905a-7219e2810a61.png",
-        "name": "Origins of Apocalypse",
-        "owner": {
-          "id": "1b03f48f-2625-412b-8d14-028282008a11",
-          "name": "Second Dinner",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-03-03T19:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "938814a1-11bb-11f1-a33f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "1b03f48f-2625-412b-8d14-028282008a11_CUSTOM_ID_PremiumMysteryBorder_colon__colon_MysteryBorder-Premium.1",
-                  "createdAt": "2026-02-24T22:38:13.086Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1743359147",
-                    "name": "MARVEL SNAP",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/7afff8e4-2fc8-43f6-b0ac-ad682ab974f7.png",
-                  "isIosAvailable": false,
-                  "name": "PMB",
-                  "ownerOrganization": {
-                    "id": "1b03f48f-2625-412b-8d14-028282008a11",
-                    "name": "Second Dinner",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-06T18:59:59.996Z",
-            "name": "Premium Mystery Border",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2026-03-03T19:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "ad702956-11b4-11f1-b916-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "1b03f48f-2625-412b-8d14-028282008a11_CUSTOM_ID_mysteryvariant_colon__colon_MysteryPremium-Premium",
-                  "createdAt": "2024-06-21T22:42:04.315Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1743359147",
-                    "name": "MARVEL SNAP",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bec1d90f-f52c-401f-9c1c-c5d30ca3892e.png",
-                  "isIosAvailable": false,
-                  "name": "Mystery Variant",
-                  "ownerOrganization": {
-                    "id": "1b03f48f-2625-412b-8d14-028282008a11",
-                    "name": "Second Dinner",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-06T18:59:59.996Z",
-            "name": "Mystery Variant",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2026-03-03T19:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "b91ea58d-11b4-11f1-a33f-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "1b03f48f-2625-412b-8d14-028282008a11_CUSTOM_ID_PMV_colon__colon_VariableRewardBox-DailyOfferMysteryPremiumTopLevelBox",
-                  "createdAt": "2024-06-21T22:42:34.663Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1743359147",
-                    "name": "MARVEL SNAP",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d43ba6de-39c5-4bfb-a19d-4d7e10ae0c7c.png",
-                  "isIosAvailable": false,
-                  "name": "PMV",
-                  "ownerOrganization": {
-                    "id": "1b03f48f-2625-412b-8d14-028282008a11",
-                    "name": "Second Dinner",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-06T18:59:59.996Z",
-            "name": "Premium Mystery Variant",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 360,
-            "startAt": "2026-03-03T19:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-03-03T19:00:00.000Z"
-  },
-  {
     "endAt": "2026-03-06T19:29:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417810_IGDB-120x160.jpg",
     "gameDisplayName": "Tanki Online",
@@ -38037,6 +37885,122 @@
       }
     ],
     "startAt": "2026-03-06T08:00:00.000Z"
+  },
+  {
+    "endAt": "2026-03-14T10:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/29307_IGDB-120x160.jpg",
+    "gameDisplayName": "Path of Exile",
+    "gameId": "29307",
+    "rewards": [
+      {
+        "id": "cacdd2f8-1685-11f1-8c88-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.pathofexile.com/my-account/twitch",
+        "description": "Celebrate the launch of Path of Exile: Mirage with us! Just watch your favourite stream in the Path of Exile Category for 3 hours. You can also support your favorite creator to grab the Imprisoned Djinn Merchant.",
+        "detailsURL": "https://www.pathofexile.com/twitchdrops",
+        "endAt": "2026-03-14T10:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "29307",
+          "slug": "path-of-exile",
+          "displayName": "Path of Exile",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/f2d542f7-54e1-4dd4-914f-e3ba88118b10.png",
+        "name": "3.28 Launch Drops",
+        "owner": {
+          "id": "f751ba67-7c8b-4c41-b6df-bcea0914f3ad",
+          "name": "Grinding Gear Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-06T19:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9d207443-1820-11f1-82af-0a58a9feac02",
+            "requiredSubs": 2,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f751ba67-7c8b-4c41-b6df-bcea0914f3ad_CUSTOM_ID_ImprisonedDjinnMerchant",
+                  "createdAt": "2026-03-04T23:18:56.314Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29307",
+                    "name": "Path of Exile",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/16b8555d-a8e0-4e73-9d1e-2f2e31f3d261.png",
+                  "isIosAvailable": false,
+                  "name": "Djinn Merchant",
+                  "ownerOrganization": {
+                    "id": "f751ba67-7c8b-4c41-b6df-bcea0914f3ad",
+                    "name": "Grinding Gear Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-14T10:59:59.999Z",
+            "name": "ImprisonedDjinnMerchant",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2026-03-06T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a0420aa3-181c-11f1-aa19-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "f751ba67-7c8b-4c41-b6df-bcea0914f3ad_CUSTOM_ID_MirageQuicksilverFlaskEffect",
+                  "createdAt": "2026-03-04T23:18:26.148Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "29307",
+                    "name": "Path of Exile",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/3bb61721-f222-4161-b502-ede6917485ad.png",
+                  "isIosAvailable": false,
+                  "name": "Mirage Quicksilver Flask",
+                  "ownerOrganization": {
+                    "id": "f751ba67-7c8b-4c41-b6df-bcea0914f3ad",
+                    "name": "Grinding Gear Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-14T10:59:59.999Z",
+            "name": "Mirage Quicksilver Flask Effect",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-03-06T19:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-03-06T19:00:00.000Z"
   },
   {
     "endAt": "2026-03-15T15:11:59.999Z",
