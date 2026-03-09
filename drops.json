@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2026-03-09T20:58:59.998Z",
+    "endAt": "2026-03-16T20:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/504651_IGDB-120x160.jpg",
     "gameDisplayName": "MARVEL Strike Force",
     "gameId": "504651",
@@ -107,6 +107,113 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 120,
             "startAt": "2026-03-02T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "2f17c6b2-1380-11f1-b0c1-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://marvelstrikeforce.com/en/twitch",
+        "description": "Cheer on your favorite creators as they join the fight against Annihilus and earn some sweet rewards for watching!",
+        "detailsURL": "https://marvelstrikeforce.com/en/twitch",
+        "endAt": "2026-03-16T20:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "504651",
+          "slug": "marvel-strike-force",
+          "displayName": "MARVEL Strike Force",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/bc014810-d2a9-48d3-aa06-050b085f78f9.png",
+        "name": "Daring Warriors Week 2",
+        "owner": {
+          "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
+          "name": "Scopely",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-09T21:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5dd75093-1381-11f1-8860-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_0VSM28PY",
+                  "createdAt": "2026-02-27T01:58:49.194Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "504651",
+                    "name": "MARVEL Strike Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/d2937166-e05f-4a0d-8956-d48184bc0a4f.png",
+                  "isIosAvailable": true,
+                  "name": "x100 Daredevil Shards",
+                  "ownerOrganization": {
+                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
+                    "name": "Scopely",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-16T20:58:59.999Z",
+            "name": "x100 Daredevil Shards",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-03-09T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "8a8fcaef-1381-11f1-b05e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f_CUSTOM_ID_B7YLYNL9",
+                  "createdAt": "2025-09-26T19:22:26.883Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "504651",
+                    "name": "MARVEL Strike Force",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/36c551ac-7fad-428d-9a0e-3a63458d7ba9.png",
+                  "isIosAvailable": true,
+                  "name": "100 L4 Training Modules",
+                  "ownerOrganization": {
+                    "id": "0fe155f9-b10f-47f5-90a8-9f11d1ff427f",
+                    "name": "Scopely",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-16T20:58:59.999Z",
+            "name": "100 L4 Training Modules",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-03-09T21:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
