@@ -31737,8 +31737,15 @@
           "__typename": "DropCampaignSelfEdge"
         },
         "allow": {
-          "channels": null,
-          "isEnabled": false,
+          "channels": [
+            {
+              "id": "1139980334",
+              "displayName": "LuckyPlaysArcade",
+              "name": "luckyplaysarcade",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
         "accountLinkURL": "https://coins.coinpusherworld.co.uk/drops/index.php",
