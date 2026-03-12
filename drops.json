@@ -1,85 +1,5 @@
 [
   {
-    "endAt": "2026-03-12T20:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-    "gameDisplayName": "The Quinfall",
-    "gameId": "2128139746",
-    "rewards": [
-      {
-        "id": "774ebc40-16b2-414e-9b58-533716effa1d",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.quinfall.com/twitch-drops",
-        "description": "Watch Twitch streams under The Quinfall category and earn special in-game rewards!",
-        "detailsURL": "https://www.quinfall.com/twitch-drops",
-        "endAt": "2026-03-12T20:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "2128139746",
-          "slug": "the-quinfall",
-          "displayName": "The Quinfall",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7e8cd281-1b47-4f90-817d-a7ef76a2cf8a.png",
-        "name": "March Drops",
-        "owner": {
-          "id": "82d2c695-36dc-4dd3-a929-3004037ace97",
-          "name": "Vawraek Technology",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-03-11T22:21:19Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "92020e9d-1d98-11f1-9671-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "28dab034-18ce-11f1-8abe-0a58a9feac02",
-                  "createdAt": "2026-03-05T20:01:55.294Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "2128139746",
-                    "name": "The Quinfall",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9dfd2530-fd4c-412a-8ef6-e94c737bf2e6.png",
-                  "isIosAvailable": false,
-                  "name": "Twitch Reward Chest",
-                  "ownerOrganization": {
-                    "id": "82d2c695-36dc-4dd3-a929-3004037ace97",
-                    "name": "Vawraek Technology",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-12T20:59:59.999Z",
-            "name": "Twitch Reward Chest",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2026-03-11T22:21:19Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-03-11T22:21:19.000Z"
-  },
-  {
     "endAt": "2026-03-15T22:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/510389_IGDB-120x160.jpg",
     "gameDisplayName": "Shakes and Fidget",
@@ -1870,6 +1790,237 @@
       }
     ],
     "startAt": "2026-02-13T01:00:00.000Z"
+  },
+  {
+    "endAt": "2026-03-13T03:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1832641890_IGDB-120x160.jpg",
+    "gameDisplayName": "MLB The Show 26",
+    "gameId": "1832641890",
+    "rewards": [
+      {
+        "id": "5da33db9-1232-42ef-937c-11bd95ba2b66",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "75885541",
+              "displayName": "SonySanDiegoStudio",
+              "name": "sonysandiegostudio",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://theshow.com/twitchdrops",
+        "description": "Join the development team for MLB The Show 26 for Countdown to Launch! Tune in for the last Feature Premiere on Live Content and stay for each Feature Premiere until the game launches at 9 PM PT!",
+        "detailsURL": "https://theshow.com/twitchdrops",
+        "endAt": "2026-03-13T03:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1832641890",
+          "slug": "mlb-the-show-26",
+          "displayName": "MLB The Show 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cd9c5154-561d-425e-bc1d-f8b34187a296.jpeg",
+        "name": "Countdown to Launch",
+        "owner": {
+          "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a",
+          "name": "Sony San Diego",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-12T20:50:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "12216397-1e51-11f1-a701-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a_CUSTOM_ID_69555",
+                  "createdAt": "2026-03-10T16:54:54.01Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1832641890",
+                    "name": "MLB The Show 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bf72d199-fddb-4416-8204-66329eb41007.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a",
+                    "name": "Sony San Diego",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-13T03:59:59.999Z",
+            "name": "Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-03-12T20:50:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "18d28dad-1e51-11f1-8fc7-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a_CUSTOM_ID_69555",
+                  "createdAt": "2026-03-10T16:54:54.01Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1832641890",
+                    "name": "MLB The Show 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bf72d199-fddb-4416-8204-66329eb41007.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a",
+                    "name": "Sony San Diego",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-13T03:59:59.999Z",
+            "name": "Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-03-12T20:50:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "1d0e1af5-1e51-11f1-979d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a_CUSTOM_ID_69555",
+                  "createdAt": "2026-03-10T16:54:54.01Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1832641890",
+                    "name": "MLB The Show 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bf72d199-fddb-4416-8204-66329eb41007.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a",
+                    "name": "Sony San Diego",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-13T03:59:59.999Z",
+            "name": "Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2026-03-12T20:50:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "22943f1c-1e51-11f1-845a-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a_CUSTOM_ID_69555",
+                  "createdAt": "2026-03-10T16:54:54.01Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1832641890",
+                    "name": "MLB The Show 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bf72d199-fddb-4416-8204-66329eb41007.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a",
+                    "name": "Sony San Diego",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-13T03:59:59.999Z",
+            "name": "Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 150,
+            "startAt": "2026-03-12T20:50:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "27c6722b-1e51-11f1-9410-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a_CUSTOM_ID_69555",
+                  "createdAt": "2026-03-10T16:54:54.01Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1832641890",
+                    "name": "MLB The Show 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bf72d199-fddb-4416-8204-66329eb41007.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "290a4e6e-1bbb-48a6-8519-4258294aa24a",
+                    "name": "Sony San Diego",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-13T03:59:59.999Z",
+            "name": "Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 210,
+            "startAt": "2026-03-12T20:50:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-03-12T20:50:00.000Z"
   },
   {
     "endAt": "2026-03-13T08:59:59.999Z",
