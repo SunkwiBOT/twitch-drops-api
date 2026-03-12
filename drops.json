@@ -24132,6 +24132,113 @@
         "__typename": "DropCampaign"
       },
       {
+        "id": "5e7a07c1-4d14-41ee-8837-2add7e4eaaa4",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://wargaming.net/personal/",
+        "description": "Koalas have fingerprints almost identical to humans, so similar they can confuse crime scene forensics.",
+        "detailsURL": "https://worldofwarships.com/en/news/general-news/community-drops-in-update-152/",
+        "endAt": "2026-03-19T16:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "32502",
+          "slug": "world-of-warships",
+          "displayName": "World of Warships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/5875e600-1f16-4afd-a790-4430facc96b3.png",
+        "name": "Update 15.2 Drop: Week 1",
+        "owner": {
+          "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+          "name": "Wargaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-12T15:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9e9e2712-1bca-11f1-8d4b-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1502_mission1",
+                  "createdAt": "2026-03-09T15:05:23.547Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/248e65bb-c2eb-4141-93d6-6c7f65897e4a.png",
+                  "isIosAvailable": false,
+                  "name": "Update 15.2 Mission #1",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-19T16:59:59.999Z",
+            "name": "Update 15.2 Mission #1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2026-03-12T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a9b77b01-1bca-11f1-8470-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "6948a129-2c6d-4d88-9444-6b96918a19f8_CUSTOM_ID_WOWS_TwitchDrops_1502_twitchbox",
+                  "createdAt": "2026-03-09T15:04:29.02Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "32502",
+                    "name": "World of Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6bd1d0b3-276b-4181-a04b-8fec178e15d8.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch Container 15.2",
+                  "ownerOrganization": {
+                    "id": "6948a129-2c6d-4d88-9444-6b96918a19f8",
+                    "name": "Wargaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-19T16:59:59.999Z",
+            "name": "Twitch Container 15.2 week #1",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-03-12T15:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
         "id": "f5594d2e-cbd2-413e-afcf-24336e741c06",
         "self": {
           "isAccountConnected": false,
