@@ -1,85 +1,5 @@
 [
   {
-    "endAt": "2026-03-13T20:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
-    "gameDisplayName": "The Quinfall",
-    "gameId": "2128139746",
-    "rewards": [
-      {
-        "id": "e84fb401-77c7-45be-9c76-10ac26fe9679",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.quinfall.com/twitch-drops",
-        "description": "Watch Twitch streams under The Quinfall category and earn special in-game rewards!",
-        "detailsURL": "https://www.quinfall.com/twitch-drops",
-        "endAt": "2026-03-13T20:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "2128139746",
-          "slug": "the-quinfall",
-          "displayName": "The Quinfall",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/97b18364-6945-4c93-8d81-9046d5aa9a5f.png",
-        "name": "March Drops",
-        "owner": {
-          "id": "82d2c695-36dc-4dd3-a929-3004037ace97",
-          "name": "Vawraek Technology",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-03-12T21:02:50Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "de234b8d-1e56-11f1-aaa1-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "28dab034-18ce-11f1-8abe-0a58a9feac02",
-                  "createdAt": "2026-03-05T20:01:55.294Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "2128139746",
-                    "name": "The Quinfall",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/9dfd2530-fd4c-412a-8ef6-e94c737bf2e6.png",
-                  "isIosAvailable": false,
-                  "name": "Twitch Reward Chest",
-                  "ownerOrganization": {
-                    "id": "82d2c695-36dc-4dd3-a929-3004037ace97",
-                    "name": "Vawraek Technology",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-13T20:59:59.999Z",
-            "name": "Twitch Reward Chest",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2026-03-12T21:02:50Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-03-12T21:02:50.000Z"
-  },
-  {
     "endAt": "2026-03-13T22:39:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/530998549_IGDB-120x160.jpg",
     "gameDisplayName": "Coin Pusher World",
@@ -660,6 +580,93 @@
       }
     ],
     "startAt": "2026-03-02T00:00:00.000Z"
+  },
+  {
+    "endAt": "2026-03-14T04:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/417969-120x160.jpg",
+    "gameDisplayName": "Halo: The Master Chief Collection",
+    "gameId": "417969",
+    "rewards": [
+      {
+        "id": "2f903c01-1689-11f1-a5b4-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "77973535",
+              "displayName": "RealLifeSpartan",
+              "name": "reallifespartan",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.halowaypoint.com/settings/linked-accounts",
+        "description": "Tune into the HCS Grassroots event to earn Halo MCC in-game content!",
+        "detailsURL": "https://www.halowaypoint.com",
+        "endAt": "2026-03-14T04:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "417969",
+          "slug": "halo-the-master-chief-collection",
+          "displayName": "Halo: The Master Chief Collection",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b47d8de2-b87b-433a-b7a1-80a25be34e68.png",
+        "name": "MCC FFA Challenge-MAR13",
+        "owner": {
+          "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+          "name": "Microsoft",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-13T21:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "42c32be7-1689-11f1-b8df-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9_CUSTOM_ID_HCSGR-MCC-NG6Q-4CNF-SDI1",
+                  "createdAt": "2023-12-06T19:55:43.726Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "417969",
+                    "name": "Halo: The Master Chief Collection",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bd36fe34-6aaa-44a5-89a1-33e564a695a9.png",
+                  "isIosAvailable": false,
+                  "name": "MCC GlobetrotterNameplate",
+                  "ownerOrganization": {
+                    "id": "ad299ac0-f1a5-417d-881d-952c9aed00e9",
+                    "name": "Microsoft",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-14T04:59:59.999Z",
+            "name": "Globetrotter Nameplate",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-03-13T21:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-03-13T21:00:00.000Z"
   },
   {
     "endAt": "2026-03-14T07:59:59.999Z",
@@ -1769,7 +1776,7 @@
           "isEnabled": true,
           "__typename": "DropCampaignACL"
         },
-        "accountLinkURL": "https://pt26.ootpdevelopments.com/twitch",
+        "accountLinkURL": "https://pt27.ootpdevelopments.com/twitch",
         "description": "Win a free Perfect Team Card Pack while you watch us stream Out of the Park Baseball 26! Get up to five (5) packs per day!",
         "detailsURL": "https://forums.ootpdevelopments.com/showpost.php?p=5246508&postcount=1",
         "endAt": "2026-03-16T12:59:59.999Z",
