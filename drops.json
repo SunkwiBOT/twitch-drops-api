@@ -1,218 +1,5 @@
 [
   {
-    "endAt": "2026-03-15T21:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/383199964_IGDB-120x160.jpg",
-    "gameDisplayName": "Mobile Dungeon",
-    "gameId": "383199964",
-    "rewards": [
-      {
-        "id": "284938fc-0770-11f1-bbe2-0a58a9feac02",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "72617505",
-              "displayName": "moZoneTV",
-              "name": "mozonetv",
-              "__typename": "Channel"
-            },
-            {
-              "id": "231431192",
-              "displayName": "TunyGhost",
-              "name": "tunyghost",
-              "__typename": "Channel"
-            },
-            {
-              "id": "442193279",
-              "displayName": "Waves",
-              "name": "waves",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1094384185",
-              "displayName": "MobileDungeonOfficial",
-              "name": "mobiledungeonofficial",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://mobiledungeon.com/",
-        "description": "Watch the official Mobile Dungeon stream on Twitch to obtain unique Drops.",
-        "detailsURL": "https://playa-games.helpshift.com/hc/faq/463-twitch-drops/",
-        "endAt": "2026-03-15T21:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "383199964",
-          "slug": "mobile-dungeon",
-          "displayName": "Mobile Dungeon",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/eb6df7ec-4b4f-4473-9333-723e284b70b0.png",
-        "name": "MD Drops Set 3",
-        "owner": {
-          "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-          "name": "Playa-Games",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-03-09T00:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "43c6546b-0770-11f1-9001-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_arenaTicket_l",
-                  "createdAt": "2025-07-29T12:46:30.252Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "383199964",
-                    "name": "Mobile Dungeon",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/53b886a3-0ada-4e6b-b81e-2a7744890b8f.png",
-                  "isIosAvailable": false,
-                  "name": "4x Arena Ticket",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-15T21:59:59.999Z",
-            "name": "4x Arena Ticket",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2026-03-09T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "4b8714ed-0770-11f1-9440-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_rc_s",
-                  "createdAt": "2025-07-24T08:51:42.499Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "383199964",
-                    "name": "Mobile Dungeon",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/0915103e-d274-4927-ab17-d418ea84e78e.png",
-                  "isIosAvailable": false,
-                  "name": "25x Crystal",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-15T21:59:59.999Z",
-            "name": "25x Crystal",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-03-09T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "544ddf8e-0770-11f1-8b81-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_energy_m",
-                  "createdAt": "2025-07-29T12:41:30.93Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "383199964",
-                    "name": "Mobile Dungeon",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/6f80251a-aef5-426d-975b-21216eb9f24a.png",
-                  "isIosAvailable": false,
-                  "name": "24x Thirst for Adventure",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-15T21:59:59.999Z",
-            "name": "24x Thirst for Adventure",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2026-03-09T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "5d0577d6-0770-11f1-8cf0-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_key_xl",
-                  "createdAt": "2025-07-29T12:44:30.172Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "383199964",
-                    "name": "Mobile Dungeon",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/fb3ff759-41c6-4acb-a871-1055b8b4db6e.png",
-                  "isIosAvailable": false,
-                  "name": "6x Dungeon Key",
-                  "ownerOrganization": {
-                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
-                    "name": "Playa-Games",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-15T21:59:59.999Z",
-            "name": "6x Dungeon Key",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2026-03-09T00:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-03-09T00:00:00.000Z"
-  },
-  {
     "endAt": "2026-03-19T22:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/510389_IGDB-120x160.jpg",
     "gameDisplayName": "Shakes and Fidget",
@@ -8820,6 +8607,86 @@
       }
     ],
     "startAt": "2026-03-09T21:00:00.000Z"
+  },
+  {
+    "endAt": "2026-03-16T20:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/2128139746_IGDB-120x160.jpg",
+    "gameDisplayName": "The Quinfall",
+    "gameId": "2128139746",
+    "rewards": [
+      {
+        "id": "5f213bd1-d478-4a85-be70-7e4858589a2b",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.quinfall.com/twitch-drops",
+        "description": "Watch Twitch streams under The Quinfall category and earn special in-game rewards!",
+        "detailsURL": "https://www.quinfall.com/twitch-drops",
+        "endAt": "2026-03-16T20:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "2128139746",
+          "slug": "the-quinfall",
+          "displayName": "The Quinfall",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/3f42a429-018c-4c27-a3e1-76db32078ceb.png",
+        "name": "March Drops",
+        "owner": {
+          "id": "82d2c695-36dc-4dd3-a929-3004037ace97",
+          "name": "Vawraek Technology",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-15T22:13:19Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "5f193c41-20bc-11f1-b841-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "28dab034-18ce-11f1-8abe-0a58a9feac02",
+                  "createdAt": "2026-03-05T20:01:55.294Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "2128139746",
+                    "name": "The Quinfall",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba6e111d-8838-4c14-b8a6-3e3a6bd0dad2.png",
+                  "isIosAvailable": false,
+                  "name": "Twitch Reward Chest",
+                  "ownerOrganization": {
+                    "id": "82d2c695-36dc-4dd3-a929-3004037ace97",
+                    "name": "Vawraek Technology",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-16T20:59:59.999Z",
+            "name": "Twitch Reward Chest",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-03-15T22:13:19Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-03-15T22:13:19.000Z"
   },
   {
     "endAt": "2026-03-17T03:59:59.999Z",
