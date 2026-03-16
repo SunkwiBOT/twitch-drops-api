@@ -1,217 +1,5 @@
 [
   {
-    "endAt": "2026-03-15T23:59:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1282866981_IGDB-120x160.jpg",
-    "gameDisplayName": "Delta Force",
-    "gameId": "1282866981",
-    "rewards": [
-      {
-        "id": "ae508a39-10a6-4a51-8e66-e0c8df1f4101",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": null,
-          "isEnabled": false,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
-        "description": "The new Season Morphosis Weekend Drops are now live! Tune in to our Partner Creator channels every weekend to earn rewards.",
-        "detailsURL": "https://www.playdeltaforce.com/act/twitchdrops/index.html",
-        "endAt": "2026-03-15T23:59:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "1282866981",
-          "slug": "delta-force-hawk-ops",
-          "displayName": "Delta Force",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b8967bf5-a4dd-44c9-b7cb-251fc71a202f.png",
-        "name": "Morphosis Weekend-New",
-        "owner": {
-          "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
-          "name": "Level Infinite",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-03-13T10:00:00Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "07830510-1b63-11f1-9d67-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "6ef6cc17-1b62-11f1-9939-0a58a9feac02",
-                  "createdAt": "2026-03-09T02:48:20.76Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1282866981",
-                    "name": "Delta Force",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c99aa110-231e-41d1-97fd-234a84ff0e7f.png",
-                  "isIosAvailable": false,
-                  "name": "Armament Voucher",
-                  "ownerOrganization": {
-                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
-                    "name": "Level Infinite",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-15T23:59:59.999Z",
-            "name": "Armament Voucher",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 15,
-            "startAt": "2026-03-13T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "121e3e5c-1b63-11f1-9bc4-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "96a8149f-1b62-11f1-9f16-0a58a9feac02",
-                  "createdAt": "2026-03-09T02:49:27.353Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1282866981",
-                    "name": "Delta Force",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/f6b56c54-4aa5-4f89-8272-4b0f6a557bb2.png",
-                  "isIosAvailable": false,
-                  "name": "Prem. Weapon EXP Token",
-                  "ownerOrganization": {
-                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
-                    "name": "Level Infinite",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-15T23:59:59.999Z",
-            "name": "Prem. Weapon EXP Token",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 30,
-            "startAt": "2026-03-13T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "1d96199c-1b63-11f1-ac0c-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "ae14dfd9-1b62-11f1-8321-0a58a9feac02",
-                  "createdAt": "2026-03-09T02:50:06.654Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1282866981",
-                    "name": "Delta Force",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e6fbd4e0-aedb-44a2-9be0-453c48c8d961.png",
-                  "isIosAvailable": false,
-                  "name": "Standard Gear Ticket",
-                  "ownerOrganization": {
-                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
-                    "name": "Level Infinite",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-15T23:59:59.999Z",
-            "name": "Standard Gear Ticket",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-03-13T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "27d5d0d5-1b63-11f1-a31a-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "bde0fb50-1b62-11f1-8d4b-0a58a9feac02",
-                  "createdAt": "2026-03-09T02:50:33.158Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1282866981",
-                    "name": "Delta Force",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e452f10a-2abf-43fc-ba3a-ef9fa350c542.png",
-                  "isIosAvailable": false,
-                  "name": "Elite Gear Ticket",
-                  "ownerOrganization": {
-                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
-                    "name": "Level Infinite",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              },
-              {
-                "benefit": {
-                  "id": "cdb2971d-1b62-11f1-9e9c-0a58a9feac02",
-                  "createdAt": "2026-03-09T02:50:59.697Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "1282866981",
-                    "name": "Delta Force",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/ba14edf9-9a49-431b-871b-5ad09d42c455.png",
-                  "isIosAvailable": false,
-                  "name": "Keycard Copy Select. Pack",
-                  "ownerOrganization": {
-                    "id": "2fdd0d7a-10c5-4527-96d3-218ae7884c11",
-                    "name": "Level Infinite",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-15T23:59:59.999Z",
-            "name": "Elite Gear Ticket+Keycard Copy Select. Pack",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 90,
-            "startAt": "2026-03-13T10:00:00Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-03-13T10:00:00.000Z"
-  },
-  {
     "endAt": "2026-03-16T01:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/138585-120x160.jpg",
     "gameDisplayName": "Hearthstone",
@@ -532,6 +320,72 @@
               "id": "1410286018",
               "displayName": "ewan_ow2",
               "name": "ewan_ow2",
+              "__typename": "Channel"
+            },
+            {
+              "id": "177951276",
+              "displayName": "ASHARDAL0N",
+              "name": "ashardal0n",
+              "__typename": "Channel"
+            },
+            {
+              "id": "910770579",
+              "displayName": "QueenGiii",
+              "name": "queengiii",
+              "__typename": "Channel"
+            },
+            {
+              "id": "85446001",
+              "displayName": "Pipotipo",
+              "name": "pipotipo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "773836984",
+              "displayName": "willianmundi",
+              "name": "willianmundi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "679038354",
+              "displayName": "Sharkkaze",
+              "name": "sharkkaze",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1069366960",
+              "displayName": "GrupoSenju",
+              "name": "gruposenju",
+              "__typename": "Channel"
+            },
+            {
+              "id": "883704315",
+              "displayName": "OWPuertoRico",
+              "name": "owpuertorico",
+              "__typename": "Channel"
+            },
+            {
+              "id": "94566394",
+              "displayName": "Minuscula",
+              "name": "minuscula",
+              "__typename": "Channel"
+            },
+            {
+              "id": "122777413",
+              "displayName": "GMonkii",
+              "name": "gmonkii",
+              "__typename": "Channel"
+            },
+            {
+              "id": "416564290",
+              "displayName": "valentilinaa",
+              "name": "valentilinaa",
+              "__typename": "Channel"
+            },
+            {
+              "id": "255009534",
+              "displayName": "CielleTV",
+              "name": "cielletv",
               "__typename": "Channel"
             }
           ],
@@ -21150,6 +21004,767 @@
     "startAt": "2026-03-14T11:00:00.000Z"
   },
   {
+    "endAt": "2026-03-22T21:59:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/383199964_IGDB-120x160.jpg",
+    "gameDisplayName": "Mobile Dungeon",
+    "gameId": "383199964",
+    "rewards": [
+      {
+        "id": "77f4a335-0770-11f1-a1eb-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "72617505",
+              "displayName": "moZoneTV",
+              "name": "mozonetv",
+              "__typename": "Channel"
+            },
+            {
+              "id": "231431192",
+              "displayName": "TunyGhost",
+              "name": "tunyghost",
+              "__typename": "Channel"
+            },
+            {
+              "id": "442193279",
+              "displayName": "Waves",
+              "name": "waves",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1094384185",
+              "displayName": "MobileDungeonOfficial",
+              "name": "mobiledungeonofficial",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://mobiledungeon.com/",
+        "description": "Watch the official Mobile Dungeon stream on Twitch to obtain unique Drops.",
+        "detailsURL": "https://playa-games.helpshift.com/hc/faq/463-twitch-drops/",
+        "endAt": "2026-03-22T21:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "383199964",
+          "slug": "mobile-dungeon",
+          "displayName": "Mobile Dungeon",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/74028380-80c4-42e0-b55c-5b6d655de366.png",
+        "name": "MD Drops Set 4",
+        "owner": {
+          "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+          "name": "Playa-Games",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-16T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9046f3f6-0770-11f1-a38f-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_key_l",
+                  "createdAt": "2025-07-29T12:43:49.803Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "383199964",
+                    "name": "Mobile Dungeon",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b3ed194d-ac09-41c7-b313-eb5b6fb71e25.png",
+                  "isIosAvailable": false,
+                  "name": "5x Dungeon Key",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-22T21:59:59.999Z",
+            "name": "5x Dungeon Key",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-03-16T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "985008fc-0770-11f1-b37e-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_arenaTicket_s",
+                  "createdAt": "2025-07-24T08:47:56.819Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "383199964",
+                    "name": "Mobile Dungeon",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/19f8ff54-e7f3-4006-bb6f-fc5c69901945.png",
+                  "isIosAvailable": false,
+                  "name": "2x Arena Ticket",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-22T21:59:59.999Z",
+            "name": "2x Arena Ticket",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-03-16T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a043dc19-0770-11f1-a847-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_rc_m",
+                  "createdAt": "2025-07-29T12:35:54.825Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "383199964",
+                    "name": "Mobile Dungeon",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/35b9a50c-c8d0-4244-ab91-90c610c115e5.png",
+                  "isIosAvailable": false,
+                  "name": "50x Crystal",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-22T21:59:59.999Z",
+            "name": "50x Crystal",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2026-03-16T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "a94617dd-0770-11f1-9cd0-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286_CUSTOM_ID_md_energy_xl",
+                  "createdAt": "2025-07-29T12:42:09.137Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "383199964",
+                    "name": "Mobile Dungeon",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/aec5e347-0289-41c6-bd7c-46cb98e9d232.png",
+                  "isIosAvailable": false,
+                  "name": "48x Thirst for Adventure",
+                  "ownerOrganization": {
+                    "id": "9eb6bb3a-4ebd-4bf2-8cd2-53576c941286",
+                    "name": "Playa-Games",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-22T21:59:59.999Z",
+            "name": "48x Thirst for Adventure",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-03-16T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-03-16T00:00:00.000Z"
+  },
+  {
+    "endAt": "2026-03-25T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/423797288_IGDB-120x160.jpg",
+    "gameDisplayName": "Modern Warships",
+    "gameId": "423797288",
+    "rewards": [
+      {
+        "id": "cc758f33-1338-11f1-84b4-0a58a9feac02",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://artstorm.com/cabinet/connect-twitch",
+        "description": "MW Weekly Supply Drops — watch Modern Warships streams and earn weekly useful bonuses with no long watch-time marathons.",
+        "detailsURL": "https://artstorm.com/news/weekly-supply-drops-on-twitch",
+        "endAt": "2026-03-22T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "423797288",
+          "slug": "modern-warships",
+          "displayName": "Modern Warships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/aed7bcf8-cbb7-4fe0-a63b-ac8a68bd1e73.png",
+        "name": "Weekly Supply Drops #7",
+        "owner": {
+          "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+          "name": "Artstorm FZE",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-16T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "f4f10d51-1338-11f1-a307-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_february25Drops_bundle_1",
+                  "createdAt": "2025-02-11T15:18:19.835Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "423797288",
+                    "name": "Modern Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/075db935-cd69-42db-a87f-d436973f45e3.png",
+                  "isIosAvailable": false,
+                  "name": "1 Day of Premium",
+                  "ownerOrganization": {
+                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+                    "name": "Artstorm FZE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-22T23:29:59.999Z",
+            "name": "1 Day of Premium",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-03-16T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "fa56460b-1338-11f1-9641-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_twitchDrops_100up",
+                  "createdAt": "2026-01-29T17:13:11.897Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "423797288",
+                    "name": "Modern Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/8c6bf298-85b3-4521-8994-3d59e637d713.png",
+                  "isIosAvailable": false,
+                  "name": "100 UP's",
+                  "ownerOrganization": {
+                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+                    "name": "Artstorm FZE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-22T23:29:59.999Z",
+            "name": "100 UP's",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-03-16T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "ff402153-1338-11f1-b201-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_twitchDrops_TacticalConsumablesSet",
+                  "createdAt": "2026-01-29T17:13:49.832Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "423797288",
+                    "name": "Modern Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/203e1a32-c0fc-4a46-bbb9-0ca0a0e5e046.png",
+                  "isIosAvailable": false,
+                  "name": "Tactical Consumables Set",
+                  "ownerOrganization": {
+                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+                    "name": "Artstorm FZE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-22T23:29:59.999Z",
+            "name": "Tactical Consumables Set",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2026-03-16T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "3d50910c-fea3-4c56-8f02-db1b28e15b9c",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "563120309",
+              "displayName": "ibragodyt",
+              "name": "ibragodyt",
+              "__typename": "Channel"
+            },
+            {
+              "id": "551868208",
+              "displayName": "Ncturnal_Gaming",
+              "name": "ncturnal_gaming",
+              "__typename": "Channel"
+            },
+            {
+              "id": "93291349",
+              "displayName": "Krew256jason",
+              "name": "krew256jason",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1156435962",
+              "displayName": "Gaming_Tip_MW",
+              "name": "gaming_tip_mw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1290408244",
+              "displayName": "ImTimeTraveler",
+              "name": "imtimetraveler",
+              "__typename": "Channel"
+            },
+            {
+              "id": "477092932",
+              "displayName": "t3d_fx",
+              "name": "t3d_fx",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1324042367",
+              "displayName": "mwbee1",
+              "name": "mwbee1",
+              "__typename": "Channel"
+            },
+            {
+              "id": "821218275",
+              "displayName": "geecknes",
+              "name": "geecknes",
+              "__typename": "Channel"
+            },
+            {
+              "id": "795505587",
+              "displayName": "GeneralofMw",
+              "name": "generalofmw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1208479499",
+              "displayName": "scyther_warship",
+              "name": "scyther_warship",
+              "__typename": "Channel"
+            },
+            {
+              "id": "602186836",
+              "displayName": "zz_fabriciomw",
+              "name": "zz_fabriciomw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1349672081",
+              "displayName": "officialtylermw",
+              "name": "officialtylermw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "740752863",
+              "displayName": "EPTOMoon",
+              "name": "eptomoon",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1096937434",
+              "displayName": "stealthmwgamer",
+              "name": "stealthmwgamer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "716249300",
+              "displayName": "Mr_Oroplat",
+              "name": "mr_oroplat",
+              "__typename": "Channel"
+            },
+            {
+              "id": "99508618",
+              "displayName": "Confrerie_Navale_FR",
+              "name": "confrerie_navale_fr",
+              "__typename": "Channel"
+            },
+            {
+              "id": "274713315",
+              "displayName": "evan20031535",
+              "name": "evan20031535",
+              "__typename": "Channel"
+            },
+            {
+              "id": "157245547",
+              "displayName": "le_guepard_perdu",
+              "name": "le_guepard_perdu",
+              "__typename": "Channel"
+            },
+            {
+              "id": "599791048",
+              "displayName": "Noa_Mizuchi",
+              "name": "noa_mizuchi",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1355268097",
+              "displayName": "ktgirlgaming",
+              "name": "ktgirlgaming",
+              "__typename": "Channel"
+            },
+            {
+              "id": "959745383",
+              "displayName": "gnoddah",
+              "name": "gnoddah",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1090708638",
+              "displayName": "Rizkiramadhan_CH",
+              "name": "rizkiramadhan_ch",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1255322580",
+              "displayName": "nrnsgamer",
+              "name": "nrnsgamer",
+              "__typename": "Channel"
+            },
+            {
+              "id": "665566142",
+              "displayName": "GeMatMan",
+              "name": "gematman",
+              "__typename": "Channel"
+            },
+            {
+              "id": "823919225",
+              "displayName": "rplayer91",
+              "name": "rplayer91",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1008062098",
+              "displayName": "alexshikaka",
+              "name": "alexshikaka",
+              "__typename": "Channel"
+            },
+            {
+              "id": "1091078399",
+              "displayName": "by_mitso",
+              "name": "by_mitso",
+              "__typename": "Channel"
+            },
+            {
+              "id": "588684024",
+              "displayName": "iosif_mw",
+              "name": "iosif_mw",
+              "__typename": "Channel"
+            },
+            {
+              "id": "757777041",
+              "displayName": "HideBest",
+              "name": "hidebest",
+              "__typename": "Channel"
+            },
+            {
+              "id": "536669640",
+              "displayName": "mrproper_mw",
+              "name": "mrproper_mw",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://artstorm.com/cabinet/connect-twitch",
+        "description": "Commanders, from March 12 to 25, Twitch Drops are available on Modern Warships streams during the Black Outpost event.",
+        "detailsURL": "https://artstorm.com/news/twitch-drops-black-outpost",
+        "endAt": "2026-03-25T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "423797288",
+          "slug": "modern-warships",
+          "displayName": "Modern Warships",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cd21e778-4977-4739-8d41-96880b601ec3.png",
+        "name": "MW: Black Outpost",
+        "owner": {
+          "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+          "name": "Artstorm FZE",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-12T08:10:26Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "24b712b9-1deb-11f1-b7dd-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_twitchDrops_2DaysPremium",
+                  "createdAt": "2025-08-13T16:35:07.285Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "423797288",
+                    "name": "Modern Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/576951fe-d1ca-48eb-9db1-26222be41826.png",
+                  "isIosAvailable": false,
+                  "name": "2 Days of Premium",
+                  "ownerOrganization": {
+                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+                    "name": "Artstorm FZE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-25T23:29:59.999Z",
+            "name": "2 Days of Premium",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-03-12T08:10:26Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "2a10a09f-1deb-11f1-a813-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_february25Drops_bundle_2",
+                  "createdAt": "2025-02-11T15:47:14.513Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "423797288",
+                    "name": "Modern Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/66773b40-f5d7-4305-a70e-8f44005e57ff.png",
+                  "isIosAvailable": false,
+                  "name": "Advanced Consumables",
+                  "ownerOrganization": {
+                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+                    "name": "Artstorm FZE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-25T23:29:59.999Z",
+            "name": "Advanced Consumables",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-03-12T08:10:26Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "2e75ccfd-1deb-11f1-a6f1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_february25Drops_bundle_3",
+                  "createdAt": "2025-02-11T15:48:58.046Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "423797288",
+                    "name": "Modern Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f2f3e42-ed5c-4586-b90d-569deeb72978.png",
+                  "isIosAvailable": false,
+                  "name": "200 UP's",
+                  "ownerOrganization": {
+                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+                    "name": "Artstorm FZE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-25T23:29:59.999Z",
+            "name": "200 UP's",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 180,
+            "startAt": "2026-03-12T08:10:26Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3351dd4c-1deb-11f1-890d-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_twitchDrops_15be102RMC",
+                  "createdAt": "2026-03-11T15:09:21.06Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "423797288",
+                    "name": "Modern Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/737cea42-3a65-4fe4-bb48-048d8f289bdc.png",
+                  "isIosAvailable": false,
+                  "name": "15 Authorization Keys",
+                  "ownerOrganization": {
+                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+                    "name": "Artstorm FZE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-25T23:29:59.999Z",
+            "name": "15 Authorization Keys",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 240,
+            "startAt": "2026-03-12T08:10:26Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "3830b028-1deb-11f1-a1af-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_twitchDrops_CamoVelocity",
+                  "createdAt": "2026-03-11T15:08:33.887Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "423797288",
+                    "name": "Modern Warships",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e5bddc20-415a-4049-9efc-0288f0b7260a.png",
+                  "isIosAvailable": false,
+                  "name": "Camo Velocity",
+                  "ownerOrganization": {
+                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
+                    "name": "Artstorm FZE",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-25T23:29:59.999Z",
+            "name": "Camo Velocity",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 300,
+            "startAt": "2026-03-12T08:10:26Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-03-12T08:10:26.000Z"
+  },
+  {
     "endAt": "2026-03-23T05:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/489767727_IGDB-120x160.jpg",
     "gameDisplayName": "FATAL FRAME II: Crimson Butterfly REMAKE",
@@ -23897,411 +24512,6 @@
       }
     ],
     "startAt": "2026-03-11T14:00:00.000Z"
-  },
-  {
-    "endAt": "2026-03-25T23:29:59.999Z",
-    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/423797288_IGDB-120x160.jpg",
-    "gameDisplayName": "Modern Warships",
-    "gameId": "423797288",
-    "rewards": [
-      {
-        "id": "3d50910c-fea3-4c56-8f02-db1b28e15b9c",
-        "self": {
-          "isAccountConnected": false,
-          "__typename": "DropCampaignSelfEdge"
-        },
-        "allow": {
-          "channels": [
-            {
-              "id": "563120309",
-              "displayName": "ibragodyt",
-              "name": "ibragodyt",
-              "__typename": "Channel"
-            },
-            {
-              "id": "551868208",
-              "displayName": "Ncturnal_Gaming",
-              "name": "ncturnal_gaming",
-              "__typename": "Channel"
-            },
-            {
-              "id": "93291349",
-              "displayName": "Krew256jason",
-              "name": "krew256jason",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1156435962",
-              "displayName": "Gaming_Tip_MW",
-              "name": "gaming_tip_mw",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1290408244",
-              "displayName": "ImTimeTraveler",
-              "name": "imtimetraveler",
-              "__typename": "Channel"
-            },
-            {
-              "id": "477092932",
-              "displayName": "t3d_fx",
-              "name": "t3d_fx",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1324042367",
-              "displayName": "mwbee1",
-              "name": "mwbee1",
-              "__typename": "Channel"
-            },
-            {
-              "id": "821218275",
-              "displayName": "geecknes",
-              "name": "geecknes",
-              "__typename": "Channel"
-            },
-            {
-              "id": "795505587",
-              "displayName": "GeneralofMw",
-              "name": "generalofmw",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1208479499",
-              "displayName": "scyther_warship",
-              "name": "scyther_warship",
-              "__typename": "Channel"
-            },
-            {
-              "id": "602186836",
-              "displayName": "zz_fabriciomw",
-              "name": "zz_fabriciomw",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1349672081",
-              "displayName": "officialtylermw",
-              "name": "officialtylermw",
-              "__typename": "Channel"
-            },
-            {
-              "id": "740752863",
-              "displayName": "EPTOMoon",
-              "name": "eptomoon",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1096937434",
-              "displayName": "stealthmwgamer",
-              "name": "stealthmwgamer",
-              "__typename": "Channel"
-            },
-            {
-              "id": "716249300",
-              "displayName": "Mr_Oroplat",
-              "name": "mr_oroplat",
-              "__typename": "Channel"
-            },
-            {
-              "id": "99508618",
-              "displayName": "Confrerie_Navale_FR",
-              "name": "confrerie_navale_fr",
-              "__typename": "Channel"
-            },
-            {
-              "id": "274713315",
-              "displayName": "evan20031535",
-              "name": "evan20031535",
-              "__typename": "Channel"
-            },
-            {
-              "id": "157245547",
-              "displayName": "le_guepard_perdu",
-              "name": "le_guepard_perdu",
-              "__typename": "Channel"
-            },
-            {
-              "id": "599791048",
-              "displayName": "Noa_Mizuchi",
-              "name": "noa_mizuchi",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1355268097",
-              "displayName": "ktgirlgaming",
-              "name": "ktgirlgaming",
-              "__typename": "Channel"
-            },
-            {
-              "id": "959745383",
-              "displayName": "gnoddah",
-              "name": "gnoddah",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1090708638",
-              "displayName": "Rizkiramadhan_CH",
-              "name": "rizkiramadhan_ch",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1255322580",
-              "displayName": "nrnsgamer",
-              "name": "nrnsgamer",
-              "__typename": "Channel"
-            },
-            {
-              "id": "665566142",
-              "displayName": "GeMatMan",
-              "name": "gematman",
-              "__typename": "Channel"
-            },
-            {
-              "id": "823919225",
-              "displayName": "rplayer91",
-              "name": "rplayer91",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1008062098",
-              "displayName": "alexshikaka",
-              "name": "alexshikaka",
-              "__typename": "Channel"
-            },
-            {
-              "id": "1091078399",
-              "displayName": "by_mitso",
-              "name": "by_mitso",
-              "__typename": "Channel"
-            },
-            {
-              "id": "588684024",
-              "displayName": "iosif_mw",
-              "name": "iosif_mw",
-              "__typename": "Channel"
-            },
-            {
-              "id": "757777041",
-              "displayName": "HideBest",
-              "name": "hidebest",
-              "__typename": "Channel"
-            },
-            {
-              "id": "536669640",
-              "displayName": "mrproper_mw",
-              "name": "mrproper_mw",
-              "__typename": "Channel"
-            }
-          ],
-          "isEnabled": true,
-          "__typename": "DropCampaignACL"
-        },
-        "accountLinkURL": "https://artstorm.com/cabinet/connect-twitch",
-        "description": "Commanders, from March 12 to 25, Twitch Drops are available on Modern Warships streams during the Black Outpost event.",
-        "detailsURL": "https://artstorm.com/news/twitch-drops-black-outpost",
-        "endAt": "2026-03-25T23:29:59.999Z",
-        "eventBasedDrops": [],
-        "game": {
-          "id": "423797288",
-          "slug": "modern-warships",
-          "displayName": "Modern Warships",
-          "__typename": "Game"
-        },
-        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/cd21e778-4977-4739-8d41-96880b601ec3.png",
-        "name": "MW: Black Outpost",
-        "owner": {
-          "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
-          "name": "Artstorm FZE",
-          "__typename": "Organization"
-        },
-        "startAt": "2026-03-12T08:10:26Z",
-        "status": "ACTIVE",
-        "timeBasedDrops": [
-          {
-            "id": "24b712b9-1deb-11f1-b7dd-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_twitchDrops_2DaysPremium",
-                  "createdAt": "2025-08-13T16:35:07.285Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "423797288",
-                    "name": "Modern Warships",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/576951fe-d1ca-48eb-9db1-26222be41826.png",
-                  "isIosAvailable": false,
-                  "name": "2 Days of Premium",
-                  "ownerOrganization": {
-                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
-                    "name": "Artstorm FZE",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-25T23:29:59.999Z",
-            "name": "2 Days of Premium",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 60,
-            "startAt": "2026-03-12T08:10:26Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "2a10a09f-1deb-11f1-a813-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_february25Drops_bundle_2",
-                  "createdAt": "2025-02-11T15:47:14.513Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "423797288",
-                    "name": "Modern Warships",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/66773b40-f5d7-4305-a70e-8f44005e57ff.png",
-                  "isIosAvailable": false,
-                  "name": "Advanced Consumables",
-                  "ownerOrganization": {
-                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
-                    "name": "Artstorm FZE",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-25T23:29:59.999Z",
-            "name": "Advanced Consumables",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 120,
-            "startAt": "2026-03-12T08:10:26Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "2e75ccfd-1deb-11f1-a6f1-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_february25Drops_bundle_3",
-                  "createdAt": "2025-02-11T15:48:58.046Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "423797288",
-                    "name": "Modern Warships",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/5f2f3e42-ed5c-4586-b90d-569deeb72978.png",
-                  "isIosAvailable": false,
-                  "name": "200 UP's",
-                  "ownerOrganization": {
-                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
-                    "name": "Artstorm FZE",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-25T23:29:59.999Z",
-            "name": "200 UP's",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 180,
-            "startAt": "2026-03-12T08:10:26Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "3351dd4c-1deb-11f1-890d-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_twitchDrops_15be102RMC",
-                  "createdAt": "2026-03-11T15:09:21.06Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "423797288",
-                    "name": "Modern Warships",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/737cea42-3a65-4fe4-bb48-048d8f289bdc.png",
-                  "isIosAvailable": false,
-                  "name": "15 Authorization Keys",
-                  "ownerOrganization": {
-                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
-                    "name": "Artstorm FZE",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-25T23:29:59.999Z",
-            "name": "15 Authorization Keys",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 240,
-            "startAt": "2026-03-12T08:10:26Z",
-            "__typename": "TimeBasedDrop"
-          },
-          {
-            "id": "3830b028-1deb-11f1-a1af-0a58a9feac02",
-            "requiredSubs": 0,
-            "benefitEdges": [
-              {
-                "benefit": {
-                  "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe_CUSTOM_ID_twitchDrops_CamoVelocity",
-                  "createdAt": "2026-03-11T15:08:33.887Z",
-                  "entitlementLimit": 1,
-                  "game": {
-                    "id": "423797288",
-                    "name": "Modern Warships",
-                    "__typename": "Game"
-                  },
-                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e5bddc20-415a-4049-9efc-0288f0b7260a.png",
-                  "isIosAvailable": false,
-                  "name": "Camo Velocity",
-                  "ownerOrganization": {
-                    "id": "8bdd5247-6bd2-4cb4-8198-ae3b33b4debe",
-                    "name": "Artstorm FZE",
-                    "__typename": "Organization"
-                  },
-                  "distributionType": "DIRECT_ENTITLEMENT",
-                  "__typename": "DropBenefit"
-                },
-                "entitlementLimit": 1,
-                "__typename": "DropBenefitEdge"
-              }
-            ],
-            "endAt": "2026-03-25T23:29:59.999Z",
-            "name": "Camo Velocity",
-            "preconditionDrops": null,
-            "requiredMinutesWatched": 300,
-            "startAt": "2026-03-12T08:10:26Z",
-            "__typename": "TimeBasedDrop"
-          }
-        ],
-        "__typename": "DropCampaign"
-      }
-    ],
-    "startAt": "2026-03-12T08:10:26.000Z"
   },
   {
     "endAt": "2026-03-26T02:59:59.999Z",
