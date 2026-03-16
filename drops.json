@@ -23931,6 +23931,36 @@
               "displayName": "OW_ESPORTS_JP",
               "name": "ow_esports_jp",
               "__typename": "Channel"
+            },
+            {
+              "id": "42450967",
+              "displayName": "Unter",
+              "name": "unter",
+              "__typename": "Channel"
+            },
+            {
+              "id": "23220337",
+              "displayName": "Emongg",
+              "name": "emongg",
+              "__typename": "Channel"
+            },
+            {
+              "id": "194331558",
+              "displayName": "August",
+              "name": "august",
+              "__typename": "Channel"
+            },
+            {
+              "id": "139064318",
+              "displayName": "Nitrao",
+              "name": "nitrao",
+              "__typename": "Channel"
+            },
+            {
+              "id": "53648099",
+              "displayName": "Warn",
+              "name": "warn",
+              "__typename": "Channel"
             }
           ],
           "isEnabled": true,
@@ -27543,6 +27573,182 @@
       }
     ],
     "startAt": "2026-03-12T09:00:00.000Z"
+  },
+  {
+    "endAt": "2026-03-30T23:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/1249868373_IGDB-120x160.jpg",
+    "gameDisplayName": "Dragonkin: The Banished",
+    "gameId": "1249868373",
+    "rewards": [
+      {
+        "id": "d300a6f4-0a0f-4530-ac78-5c556fc220e1",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://my.nacongaming.com/login",
+        "description": "The draconic threat is once again upon us. Legendary heroes rise up to face the legions from the depths. Tame your wyrmlings, create unique power builds with the Ancestral Grid, expand your city and destroy the Dragons!",
+        "detailsURL": "https://my.nacongaming.com/",
+        "endAt": "2026-03-30T23:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "1249868373",
+          "slug": "dragonkin-the-banished",
+          "displayName": "Dragonkin: The Banished",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/232e9832-ed8e-4ed6-bb26-04cd14bf6631.png",
+        "name": "Launch Event Drops",
+        "owner": {
+          "id": "66dae523-c65c-47fb-b756-0fa66e0ad81a",
+          "name": "Nacon",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-16T09:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "7af2dbe7-1c89-11f1-9510-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "59f03701-0c07-11f1-a173-0a58a9feac02",
+                  "createdAt": "2026-02-17T13:48:33.841Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1249868373",
+                    "name": "Dragonkin: The Banished",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bc7223a1-1f56-4e9a-b7eb-7efc5deb2c39.png",
+                  "isIosAvailable": false,
+                  "name": "Death Animation",
+                  "ownerOrganization": {
+                    "id": "66dae523-c65c-47fb-b756-0fa66e0ad81a",
+                    "name": "Nacon",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-30T23:29:59.999Z",
+            "name": "Death Animation",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-03-16T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "80398d6b-1c89-11f1-be22-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "7d582507-0c07-11f1-87b8-0a58a9feac02",
+                  "createdAt": "2026-02-17T13:49:33.242Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1249868373",
+                    "name": "Dragonkin: The Banished",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/001fee1c-7888-4954-9a33-6fc23b7fe9c9.png",
+                  "isIosAvailable": false,
+                  "name": "Portal Animation",
+                  "ownerOrganization": {
+                    "id": "66dae523-c65c-47fb-b756-0fa66e0ad81a",
+                    "name": "Nacon",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-30T23:29:59.999Z",
+            "name": "Portal Animation",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-03-16T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "88208e68-1c89-11f1-ba32-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "8ce0486b-0c07-11f1-a65b-0a58a9feac02",
+                  "createdAt": "2026-02-17T13:49:59.3Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1249868373",
+                    "name": "Dragonkin: The Banished",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/e0fcf8b5-21ac-42ff-ba84-dd999d5e1fc7.png",
+                  "isIosAvailable": false,
+                  "name": "Wings Cosmetic",
+                  "ownerOrganization": {
+                    "id": "66dae523-c65c-47fb-b756-0fa66e0ad81a",
+                    "name": "Nacon",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              },
+              {
+                "benefit": {
+                  "id": "abed76ae-109b-11f1-87bf-0a58a9feac02",
+                  "createdAt": "2026-02-23T09:40:21.563Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "1249868373",
+                    "name": "Dragonkin: The Banished",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/94c2d0a1-02bd-4aad-9798-f3978efbf9ea.png",
+                  "isIosAvailable": false,
+                  "name": "Wyrmling Trail Cosmetic",
+                  "ownerOrganization": {
+                    "id": "66dae523-c65c-47fb-b756-0fa66e0ad81a",
+                    "name": "Nacon",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-30T23:29:59.999Z",
+            "name": "Wings & Wyrmling Trail Cosmetics",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 120,
+            "startAt": "2026-03-16T09:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-03-16T09:00:00.000Z"
   },
   {
     "endAt": "2026-03-31T07:58:59.999Z",
