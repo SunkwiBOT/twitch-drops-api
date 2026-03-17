@@ -22945,6 +22945,86 @@
     "startAt": "2026-03-17T17:00:00.000Z"
   },
   {
+    "endAt": "2026-03-24T23:28:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/356609813_IGDB-120x160.jpg",
+    "gameDisplayName": "Kirka.io",
+    "gameId": "356609813",
+    "rewards": [
+      {
+        "id": "3a8bf9c7-c532-48e5-9ad9-44b9fa105887",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Kirka.io drop for the Gold Coins Unobtainable",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2026-03-24T23:28:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/79a03a58-5e97-497e-9ed1-6b727cdec041.png",
+        "name": "Gold Coins",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-17T23:48:13Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "63747e79-225b-11f1-88d9-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_7dd590bd-6363-4dc7-b755-156be350ec1c",
+                  "createdAt": "2026-03-17T23:46:40.251Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b79427e2-ec1c-4c0f-823b-34a3ad525b20.png",
+                  "isIosAvailable": false,
+                  "name": "Gold Coins",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-24T23:28:59.999Z",
+            "name": "Gold Coins",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2026-03-17T23:48:13Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-03-17T23:48:13.000Z"
+  },
+  {
     "endAt": "2026-03-24T23:58:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/497431_IGDB-120x160.jpg",
     "gameDisplayName": "Skull and Bones",
