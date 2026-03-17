@@ -11112,6 +11112,129 @@
     "startAt": "2026-03-16T17:59:00.000Z"
   },
   {
+    "endAt": "2026-03-17T18:29:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/551919008_IGDB-120x160.jpg",
+    "gameDisplayName": "EA Sports College Football 26",
+    "gameId": "551919008",
+    "rewards": [
+      {
+        "id": "91444e89-5f9c-47a3-bdba-979cfc197d9f",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "1078884257",
+              "displayName": "easportscollege",
+              "name": "easportscollege",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Watch CFB Live and earn some Twitch Drops to power up your Ultimate Team!",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2026-03-17T18:29:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "551919008",
+          "slug": "college-football-26",
+          "displayName": "EA Sports College Football 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/1952b121-ef4c-46c6-94f0-7fd372015c4e.png",
+        "name": "CFB Live",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-17T14:35:36Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "bb82b7b8-220e-11f1-9ef5-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT26-TWITCH-0349",
+                  "createdAt": "2026-03-17T14:35:00.914Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "551919008",
+                    "name": "EA Sports College Football 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/506bc522-47b9-48ae-9086-2b96f910ceb0.png",
+                  "isIosAvailable": false,
+                  "name": "CFB Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-17T18:29:59.999Z",
+            "name": "CFB Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 15,
+            "startAt": "2026-03-17T14:35:36Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "c1d163a7-220e-11f1-9210-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_CUT26-TWITCH-0350",
+                  "createdAt": "2026-03-17T14:35:21.35Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "551919008",
+                    "name": "EA Sports College Football 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/b6680d71-739d-4368-a016-1b531b515806.png",
+                  "isIosAvailable": false,
+                  "name": "CFB Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-17T18:29:59.999Z",
+            "name": "CFB Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-03-17T14:35:36Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-03-17T14:35:36.000Z"
+  },
+  {
     "endAt": "2026-03-17T19:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/512864_IGDB-120x160.jpg",
     "gameDisplayName": "Eternal Return",
