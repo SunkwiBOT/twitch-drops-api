@@ -1,6 +1,6 @@
 [
   {
-    "endAt": "2026-03-18T00:59:59.999Z",
+    "endAt": "2026-03-18T02:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/272952894_IGDB-120x160.jpg",
     "gameDisplayName": "Madden NFL 26",
     "gameId": "272952894",
@@ -78,6 +78,156 @@
             "preconditionDrops": null,
             "requiredMinutesWatched": 15,
             "startAt": "2026-03-17T22:30:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
+      {
+        "id": "50247a8b-2c2f-43ef-ad06-e94a51f457e2",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "554723459",
+              "displayName": "HuddleGG",
+              "name": "huddlegg",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://signin.ea.com/p/thirdparty/login?client_id=twitch_client&platformId=twitch",
+        "description": "Tune into In The Huddle to earn Twitch Drops to level up your Ultimate Team.",
+        "detailsURL": "https://help.twitch.tv/s/article/mission-based-drops?language=en_US",
+        "endAt": "2026-03-18T02:59:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "272952894",
+          "slug": "ea-sports-madden-nfl-26",
+          "displayName": "Madden NFL 26",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/b7d1ea50-d567-4229-9cb2-75a74c3e35ef.jpeg",
+        "name": "In The Huddle",
+        "owner": {
+          "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+          "name": "Electronic Arts",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-18T00:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "e1881026-1bf6-11f1-84e6-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-457",
+                  "createdAt": "2026-03-09T20:37:36.977Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/60c916e7-3bc3-48d7-9789-b3441ad53cec.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-18T02:59:59.999Z",
+            "name": "Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 30,
+            "startAt": "2026-03-18T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "e43efa02-1bf6-11f1-8fe1-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-458",
+                  "createdAt": "2026-03-09T20:37:56.758Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/c1fa3e44-7452-46d6-bd02-0514a743cd4e.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-18T02:59:59.999Z",
+            "name": "Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 60,
+            "startAt": "2026-03-18T00:00:00Z",
+            "__typename": "TimeBasedDrop"
+          },
+          {
+            "id": "e7f056d4-1bf6-11f1-8a06-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1_CUSTOM_ID_M26-GMM-459",
+                  "createdAt": "2026-03-09T20:38:12.024Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "272952894",
+                    "name": "Madden NFL 26",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/61be994d-bffd-4405-a22d-cc9a09088034.jpeg",
+                  "isIosAvailable": false,
+                  "name": "Twitch Pack",
+                  "ownerOrganization": {
+                    "id": "fa395b5e-cadd-47d9-989d-fe511aa3dbb1",
+                    "name": "Electronic Arts",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-18T02:59:59.999Z",
+            "name": "Twitch Pack",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 90,
+            "startAt": "2026-03-18T00:00:00Z",
             "__typename": "TimeBasedDrop"
           }
         ],
@@ -22950,6 +23100,96 @@
     "gameDisplayName": "Kirka.io",
     "gameId": "356609813",
     "rewards": [
+      {
+        "id": "e55fe4ed-6f66-4b92-a916-3f82387d2b96",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": [
+            {
+              "id": "456520486",
+              "displayName": "BansheeBoy52355",
+              "name": "bansheeboy52355",
+              "__typename": "Channel"
+            },
+            {
+              "id": "276250741",
+              "displayName": "Boingoo",
+              "name": "boingoo",
+              "__typename": "Channel"
+            },
+            {
+              "id": "138332916",
+              "displayName": "ZamsGodz",
+              "name": "zamsgodz",
+              "__typename": "Channel"
+            }
+          ],
+          "isEnabled": true,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://kirka.io/connectTwitch=1",
+        "description": "Kirka.io drop for the Saint Patrick Unobtainable",
+        "detailsURL": "https://kirka.io/connectTwitch=1",
+        "endAt": "2026-03-24T23:28:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "356609813",
+          "slug": "kirka-io",
+          "displayName": "Kirka.io",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/2a40c8a9-6701-4895-b06d-479af4b959f5.png",
+        "name": "Saint Patrick",
+        "owner": {
+          "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+          "name": "Kirka.io",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-17T23:57:25Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "74560c6d-225c-11f1-93cb-0a58a9feac02",
+            "requiredSubs": 0,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948_CUSTOM_ID_4a8a2bfa-8fe1-4b1f-9160-6783a24d5daf",
+                  "createdAt": "2026-03-17T23:52:48.03Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "356609813",
+                    "name": "Kirka.io",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/02a834bb-4354-4834-a0bf-2b420dbedcec.png",
+                  "isIosAvailable": false,
+                  "name": "Saint Patrick",
+                  "ownerOrganization": {
+                    "id": "5197ef9c-dacf-4e00-b3d9-0879d0b90948",
+                    "name": "Kirka.io",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "DIRECT_ENTITLEMENT",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-03-24T23:28:59.999Z",
+            "name": "Saint Patrick",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 900,
+            "startAt": "2026-03-17T23:57:25Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      },
       {
         "id": "3a8bf9c7-c532-48e5-9ad9-44b9fa105887",
         "self": {
