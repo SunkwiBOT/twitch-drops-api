@@ -30102,6 +30102,86 @@
     "startAt": "2026-03-11T17:28:43.000Z"
   },
   {
+    "endAt": "2026-04-01T07:58:59.999Z",
+    "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/515186_IGDB-120x160.jpg",
+    "gameDisplayName": "Crimson Desert",
+    "gameId": "515186",
+    "rewards": [
+      {
+        "id": "54b92181-c574-4b08-ba5d-91fabf982a98",
+        "self": {
+          "isAccountConnected": false,
+          "__typename": "DropCampaignSelfEdge"
+        },
+        "allow": {
+          "channels": null,
+          "isEnabled": false,
+          "__typename": "DropCampaignACL"
+        },
+        "accountLinkURL": "https://www.twitch.tv/",
+        "description": "This badge was earned by subscribing or gifting a sub to a streamer in the Crimson Desert category!",
+        "detailsURL": "https://help.twitch.tv/s/article/twitch-chat-badges-guide ",
+        "endAt": "2026-04-01T07:58:59.999Z",
+        "eventBasedDrops": [],
+        "game": {
+          "id": "515186",
+          "slug": "crimson-desert",
+          "displayName": "Crimson Desert",
+          "__typename": "Game"
+        },
+        "imageURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/CAMPAIGN/7d344d52-7868-4c68-898f-9f3124e927de.png",
+        "name": "Crimson Desert Badge",
+        "owner": {
+          "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+          "name": "Twitch Gaming",
+          "__typename": "Organization"
+        },
+        "startAt": "2026-03-19T08:00:00Z",
+        "status": "ACTIVE",
+        "timeBasedDrops": [
+          {
+            "id": "9213306f-2265-11f1-b334-0a58a9feac02",
+            "requiredSubs": 1,
+            "benefitEdges": [
+              {
+                "benefit": {
+                  "id": "594769de-2266-11f1-9996-0a58a9feac02",
+                  "createdAt": "2026-03-18T01:04:00.505Z",
+                  "entitlementLimit": 1,
+                  "game": {
+                    "id": "515186",
+                    "name": "Crimson Desert",
+                    "__typename": "Game"
+                  },
+                  "imageAssetURL": "https://static-cdn.jtvnw.net/twitch-quests-assets/REWARD/bdbfa9b9-0a39-46bd-8fb0-3b0f333a444e.png",
+                  "isIosAvailable": false,
+                  "name": "Crimson Desert - Crest",
+                  "ownerOrganization": {
+                    "id": "d32de13d-937e-4196-8198-1a7f875f295a",
+                    "name": "Twitch Gaming",
+                    "__typename": "Organization"
+                  },
+                  "distributionType": "BADGE",
+                  "__typename": "DropBenefit"
+                },
+                "entitlementLimit": 1,
+                "__typename": "DropBenefitEdge"
+              }
+            ],
+            "endAt": "2026-04-01T07:58:59.999Z",
+            "name": "Crimson Desert - Crest",
+            "preconditionDrops": null,
+            "requiredMinutesWatched": 0,
+            "startAt": "2026-03-19T08:00:00Z",
+            "__typename": "TimeBasedDrop"
+          }
+        ],
+        "__typename": "DropCampaign"
+      }
+    ],
+    "startAt": "2026-03-19T08:00:00.000Z"
+  },
+  {
     "endAt": "2026-04-01T15:59:59.999Z",
     "gameBoxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/490100-120x160.jpg",
     "gameDisplayName": "Lost Ark",
