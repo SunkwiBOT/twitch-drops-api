@@ -2,7 +2,10 @@
 
 ![Repository Views](https://komarev.com/ghpvc/?username=SunkwiBOT&repo=twitch-drops-api&label=Repository%20Views&color=brightgreen&style=flat)
 
-This API provides a list of available Twitch campaigns and rewards with detailed information. It includes two main endpoints: one for retrieving Twitch campaigns and another for Twitch rewards.
+This API provides a list of available Twitch drop campaigns and reward campaigns with detailed information.
+
+- `/drops` returns active Twitch drops grouped by game.
+- `/rewards` returns Twitch reward campaigns.
 
 > **Note**: This API is used in [Twitch Alerts 🔔](https://discord.com/application-directory/1041679706988228639), a free Discord bot that allows users to:
 >
@@ -99,37 +102,29 @@ type TwitchDropCampaignType = {
   gameId: string;
   rewards: {
     id: string;
-    self: {
-      isAccountConnected: boolean;
-      __typename: string;
-    };
     allow: {
       channels?: {
         id: string;
         displayName?: string;
         name: string;
-        __typename: string;
       }[];
       isEnabled: boolean;
-      __typename: string;
     };
     accountLinkURL: string;
     description: string;
     detailsURL: string;
     endAt: string;
-    eventBasedDrops: any[];
+    eventBasedDrops: unknown[];
     game: {
       id: string;
       slug: string;
       displayName: string;
-      __typename: string;
     };
     imageURL: string;
     name: string;
     owner: {
       id: string;
       name: string;
-      __typename: string;
     };
     startAt: string;
     status: string;
@@ -144,7 +139,6 @@ type TwitchDropCampaignType = {
           game: {
             id: string;
             name: string;
-            __typename: string;
           };
           imageAssetURL: string;
           isIosAvailable: boolean;
@@ -152,22 +146,17 @@ type TwitchDropCampaignType = {
           ownerOrganization: {
             id: string;
             name: string;
-            __typename: string;
           };
           distributionType: string;
-          __typename: string;
         };
         entitlementLimit: number;
-        __typename: string;
       }[];
       endAt: string;
       name: string;
-      preconditionDrops: any;
+      preconditionDrops: unknown;
       requiredMinutesWatched: number;
       startAt: string;
-      __typename: string;
     }[];
-    __typename: string;
   }[];
   startAt: string;
 };
@@ -177,29 +166,24 @@ type TwitchDropCampaignType = {
 
 ```ts
 type TwitchRewardCampaignType = {
-  __typename: string;
   aboutURL: string;
   brand: string;
   endsAt: string;
   externalURL: string;
   game?: {
-    __typename: string;
     displayName: string;
     id: string;
     slug: string;
   };
   id: string;
   image: {
-    __typename: string;
     image1xURL: string;
   };
   instructions: string;
   isSitewide: boolean;
   name: string;
   rewards: {
-    __typename: string;
     bannerImage: {
-      __typename: string;
       image1xURL: string;
     };
     earnableUntil: string;
@@ -208,7 +192,6 @@ type TwitchRewardCampaignType = {
     redemptionInstructions: string;
     redemptionURL: string;
     thumbnailImage: {
-      __typename: string;
       image1xURL: string;
     };
   }[];
@@ -217,7 +200,6 @@ type TwitchRewardCampaignType = {
   status: string;
   summary: string;
   unlockRequirements: {
-    __typename: string;
     minuteWatchedGoal: number;
     subsGoal: number;
   };
