@@ -22,6 +22,8 @@ jobs:
         run: bun run fetch-drops.ts
         env:
           CI: true
+          # Optional repository secret: a free key from drops.sunkwi.com/dashboard.
+          DROPS_API_KEY: ${{ secrets.DROPS_API_KEY }}
 
       - name: 📤 Upload drops artifact
         uses: actions/upload-artifact@v4
@@ -45,6 +47,8 @@ jobs:
         run: bun run fetch-rewards.ts
         env:
           CI: true
+          # Optional repository secret: a free key from drops.sunkwi.com/dashboard.
+          DROPS_API_KEY: ${{ secrets.DROPS_API_KEY }}
 
       - name: 📤 Upload rewards artifact
         uses: actions/upload-artifact@v4

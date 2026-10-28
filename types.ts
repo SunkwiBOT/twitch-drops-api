@@ -1,4 +1,6 @@
 export type TwitchDropsApiV2ResponseType<T> = {
+  /** Only without an API key: the free limit and where to get a key. */
+  _message?: string[];
   lastUpdatedAt: string | null;
   refreshIntervalSeconds: number;
   data: T;
@@ -11,19 +13,13 @@ export type TwitchDropCampaignType = {
   gameId: string;
   rewards: {
     id: string;
-    self: {
-      isAccountConnected: boolean;
-      __typename: string;
-    };
     allow: {
       channels?: {
         id: string;
-        displayName?: string;
+        displayName?: string | null;
         name: string;
-        __typename: string;
       }[];
       isEnabled: boolean;
-      __typename: string;
     };
     accountLinkURL: string;
     description: string;
@@ -34,14 +30,12 @@ export type TwitchDropCampaignType = {
       id: string;
       slug: string;
       displayName: string;
-      __typename: string;
     };
     imageURL: string;
     name: string;
     owner: {
       id: string;
       name: string;
-      __typename: string;
     };
     startAt: string;
     status: string;
@@ -56,7 +50,6 @@ export type TwitchDropCampaignType = {
           game: {
             id: string;
             name: string;
-            __typename: string;
           };
           imageAssetURL: string;
           isIosAvailable: boolean;
@@ -64,50 +57,40 @@ export type TwitchDropCampaignType = {
           ownerOrganization: {
             id: string;
             name: string;
-            __typename: string;
           };
           distributionType: string;
-          __typename: string;
         };
         entitlementLimit: number;
-        __typename: string;
       }[];
       endAt: string;
       name: string;
       preconditionDrops: any;
       requiredMinutesWatched: number;
       startAt: string;
-      __typename: string;
     }[];
-    __typename: string;
   }[];
   startAt: string;
 };
 
 export type TwitchRewardCampaignType = {
-  __typename: string;
   aboutURL: string;
   brand: string;
   endsAt: string;
   externalURL: string;
   game?: {
-    __typename: string;
     displayName: string;
     id: string;
     slug: string;
   };
   id: string;
   image: {
-    __typename: string;
     image1xURL: string;
   };
   instructions: string;
   isSitewide: boolean;
   name: string;
   rewards: {
-    __typename: string;
     bannerImage: {
-      __typename: string;
       image1xURL: string;
     };
     earnableUntil: string;
@@ -116,7 +99,6 @@ export type TwitchRewardCampaignType = {
     redemptionInstructions: string;
     redemptionURL: string;
     thumbnailImage: {
-      __typename: string;
       image1xURL: string;
     };
   }[];
@@ -125,8 +107,18 @@ export type TwitchRewardCampaignType = {
   status: string;
   summary: string;
   unlockRequirements: {
-    __typename: string;
     minuteWatchedGoal: number;
     subsGoal: number;
   };
+};
+
+export enum TwitchDropsApiErrorCode {
+  INTERNAL_SERVER_ERROR = "INTERNAL_SERVER_ERROR",
+  INVALID_API_KEY = "INVALID_API_KEY",
+  NOT_FOUND = "NOT_FOUND",
+  RATE_LIMITED = "RATE_LIMITED",
+}
+
+export type TwitchDropsApiErrorType = {
+  code: TwitchDropsApiErrorCode;
 };

@@ -5,9 +5,18 @@ import type {
 } from "./types";
 
 (async () => {
+  // Optional: a free key (drops.sunkwi.com/dashboard) lifts the anonymous
+  // limit of 1 request every 5 minutes per route.
+  const apiKey = process.env.DROPS_API_KEY;
+
   const dropsResponse = await fetch(
     "https://twitch-drops-api.sunkwi.com/v2/drops",
     {
+      headers: apiKey
+        ? {
+            "X-API-Key": apiKey,
+          }
+        : {},
       method: "GET",
     },
   );
