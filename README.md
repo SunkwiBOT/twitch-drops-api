@@ -440,6 +440,28 @@ type TwitchRewardCampaignType = {
   instructions: string;
   isSitewide: boolean;
   name: string;
+  rewardGroups?: {
+    id: string;
+    rewards: {
+      bannerImage: {
+        image1xURL: string;
+      };
+      earnableUntil: string;
+      id: string;
+      name: string;
+      redemptionInstructions: string;
+      redemptionURL: string;
+      thumbnailImage: {
+        image1xURL: string;
+      };
+    }[];
+    unlockRequirements: {
+      eventTriggerGoal?: number;
+      minuteWatchedGoal: number;
+      subsGoal: number;
+      turboSubsGoal?: number;
+    };
+  }[];
   rewards: {
     bannerImage: {
       image1xURL: string;
