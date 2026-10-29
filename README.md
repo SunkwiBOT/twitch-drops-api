@@ -66,7 +66,9 @@ shape as the matching legacy v1 response.
 
 ## 🔑 Rate Limits and API Keys
 
-Each route has its own limit:
+Drops and rewards have their own limits. A route and its older twin share
+one: `/drops` and `/v2/drops` serve the same list, so do `/rewards` and
+`/v2/rewards`.
 
 | Client                  | Limit, per route                                     | Identified by                                  |
 | ----------------------- | ---------------------------------------------------- | ---------------------------------------------- |
