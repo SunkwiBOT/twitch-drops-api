@@ -6,7 +6,7 @@
   </h1>
   🎁 A free public API of the current <b><a href="https://www.twitch.tv/drops/campaigns">Twitch Drops</a></b> and reward campaigns, refreshed every minute
   <br/><br/>
-  <a href="https://drops.sunkwi.com">Website 🌐</a> &emsp; <a href="https://drops.sunkwi.com/docs">Documentation ✨</a> &emsp; <a href="https://drops.sunkwi.com/dashboard">Free API key 🔑</a> &emsp; <a href="https://discord.com/application-directory/1041679706988228639">Twitch Alerts 🔔</a>
+  <a href="https://drops.sunkwi.com">Website 🌐</a> &emsp; <a href="https://drops.sunkwi.com/docs">Documentation ✨</a> &emsp; <a href="https://drops.sunkwi.com/dashboard">Free API key 🔑</a> &emsp; <a href="https://discord.com/application-directory/1041679706988228639">Twitch Alerts 🔔</a> &emsp; <a href="https://github.com/SunkwiBOT/twitch-drops-points-miner">Points Miner ⛏️</a>
 </div>
 
 <br/>
@@ -44,6 +44,36 @@ You can invite the bot to your Discord server using the following links:
 
 - [Discord.com](https://discord.com/application-directory/1041679706988228639)
 - [Top.gg](https://top.gg/bot/1041679706988228639)
+
+---
+
+## ⛏️ Twitch Drops & Points Miner
+
+<p align="center">
+  <a href="https://github.com/SunkwiBOT/twitch-drops-points-miner"><img src="https://raw.githubusercontent.com/SunkwiBOT/twitch-drops-points-miner/main/ui/public/app-icon.png" alt="Twitch Drops &amp; Points Miner logo" width="80" height="80"></a>
+</p>
+
+[**Twitch Drops & Points Miner**](https://github.com/SunkwiBOT/twitch-drops-points-miner)
+mines Twitch Drops and channel points on several accounts, with no browser and
+no Twitch tab open. Its list of Drops campaigns comes from this API.
+
+- **100% free** and **100% open source** (MIT).
+- Drops and channel points on the same account, or only one of the two.
+- Several accounts, each in its own mode.
+- Every running Drops campaign, in the order you choose, claimed automatically
+  if you want.
+- **Spam Points**: a channel's custom reward redeemed up to 25 times in a row.
+- About 30 MB of memory for 4 accounts.
+- A desktop app for Windows, macOS and Linux, or a Docker image (`amd64`,
+  `arm64`) with the same dashboard, for a server or a Raspberry Pi.
+
+<p align="center">
+  <a href="https://github.com/SunkwiBOT/twitch-drops-points-miner/releases/latest"><strong>Download</strong></a> &emsp; <a href="https://github.com/SunkwiBOT/twitch-drops-points-miner#docker">Docker</a> &emsp; <a href="https://github.com/SunkwiBOT/twitch-drops-points-miner">GitHub</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/SunkwiBOT/twitch-drops-points-miner"><img src="https://raw.githubusercontent.com/SunkwiBOT/twitch-drops-points-miner/main/docs/media/en/presentation.avif" alt="Video overview of Twitch Drops &amp; Points Miner"></a>
+</p>
 
 ---
 
