@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    <a href="https://drops.sunkwi.com"><img src=".github/assets/logo.png" alt="Twitch Drops API logo" width="128" height="128"></a>
+    <a href="https://drops.sunkwi.com"><img src=".github/assets/logo.svg" alt="Twitch Drops API logo" width="128" height="128"></a>
     <br/>
     Twitch Drops API
   </h1>
@@ -65,6 +65,7 @@ no Twitch tab open. Its list of Drops campaigns comes from this API.
 - Every running Drops campaign, in the order you choose, claimed automatically
   if you want.
 - **Spam Points**: a channel's custom reward redeemed up to 25 times in a row.
+- **Badges**: mines the Twitch badges you earn by watching.
 - About 30 MB of memory for 4 accounts.
 - A desktop app for Windows, macOS and Linux, or a Docker image (`amd64`,
   `arm64`) with the same dashboard, for a server or a Raspberry Pi.
