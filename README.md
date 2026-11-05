@@ -6,7 +6,7 @@
   </h1>
   🎁 A free public API of the current <b><a href="https://www.twitch.tv/drops/campaigns">Twitch Drops</a></b> and reward campaigns, refreshed every minute
   <br/><br/>
-  <a href="https://drops.sunkwi.com">Website 🌐</a> &emsp; <a href="https://drops.sunkwi.com/docs">Documentation ✨</a> &emsp; <a href="https://drops.sunkwi.com/dashboard">Free API key 🔑</a> &emsp; <a href="https://discord.com/application-directory/1041679706988228639">Twitch Alerts 🔔</a> &emsp; <a href="https://github.com/SunkwiBOT/twitch-drops-points-miner">Points Miner ⛏️</a>
+  <a href="https://drops.sunkwi.com">Website 🌐</a> &emsp; <a href="https://drops.sunkwi.com/docs">Documentation ✨</a> &emsp; <a href="https://drops.sunkwi.com/dashboard">Free API key 🔑</a> &emsp; <a href="https://discord.com/application-directory/1041679706988228639">Twitch Alerts 🔔</a> &emsp; <a href="https://github.com/SunkwiBOT/twitch-miner">Twitch Miner ⛏️</a>
 </div>
 
 <br/>
@@ -49,13 +49,13 @@ You can invite the bot to your Discord server using the following links:
 
 ---
 
-## ⛏️ Twitch Drops & Points Miner
+## ⛏️ Twitch Miner
 
 <p align="center">
-  <a href="https://github.com/SunkwiBOT/twitch-drops-points-miner"><img src="https://raw.githubusercontent.com/SunkwiBOT/twitch-drops-points-miner/main/ui/public/app-icon.png" alt="Twitch Drops &amp; Points Miner logo" width="80" height="80"></a>
+  <a href="https://github.com/SunkwiBOT/twitch-miner"><img src="https://raw.githubusercontent.com/SunkwiBOT/twitch-miner/main/ui/public/app-icon.png" alt="Twitch Miner logo" width="80" height="80"></a>
 </p>
 
-[**Twitch Drops & Points Miner**](https://github.com/SunkwiBOT/twitch-drops-points-miner)
+[**Twitch Miner**](https://github.com/SunkwiBOT/twitch-miner)
 mines Twitch Drops and channel points on several accounts, with no browser and
 no Twitch tab open. Its list of Drops campaigns comes from this API.
 
@@ -70,11 +70,11 @@ no Twitch tab open. Its list of Drops campaigns comes from this API.
   `arm64`) with the same dashboard, for a server or a Raspberry Pi.
 
 <p align="center">
-  <a href="https://github.com/SunkwiBOT/twitch-drops-points-miner/releases/latest"><strong>Download</strong></a> &emsp; <a href="https://github.com/SunkwiBOT/twitch-drops-points-miner#docker">Docker</a> &emsp; <a href="https://github.com/SunkwiBOT/twitch-drops-points-miner">GitHub</a>
+  <a href="https://github.com/SunkwiBOT/twitch-miner/releases/latest"><strong>Download</strong></a> &emsp; <a href="https://github.com/SunkwiBOT/twitch-miner#docker">Docker</a> &emsp; <a href="https://github.com/SunkwiBOT/twitch-miner">GitHub</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/SunkwiBOT/twitch-drops-points-miner"><img src="https://raw.githubusercontent.com/SunkwiBOT/twitch-drops-points-miner/main/docs/media/en/presentation.avif" alt="Video overview of Twitch Drops &amp; Points Miner"></a>
+  <a href="https://github.com/SunkwiBOT/twitch-miner"><img src="https://raw.githubusercontent.com/SunkwiBOT/twitch-miner/main/docs/media/en/presentation.avif" alt="Video overview of Twitch Miner"></a>
 </p>
 
 ---
