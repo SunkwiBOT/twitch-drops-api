@@ -1,6 +1,7 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 
 import type {
+  TwitchBadgesResponseType,
   TwitchDropsResponseType,
   TwitchRewardsResponseType,
 } from "./types";
@@ -34,6 +35,9 @@ export const fetchDrops = (): Promise<TwitchDropsResponseType> =>
 
 export const fetchRewards = (): Promise<TwitchRewardsResponseType> =>
   fetchAnswer<TwitchRewardsResponseType>("/rewards");
+
+export const fetchBadges = (): Promise<TwitchBadgesResponseType> =>
+  fetchAnswer<TwitchBadgesResponseType>("/badges");
 
 const readSnapshot = (file: string): Record<string, unknown> | null => {
   if (!existsSync(file)) {

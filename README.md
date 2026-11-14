@@ -19,17 +19,22 @@
 
 ## About
 
-This API provides available Twitch Drops campaigns and reward campaigns with
-detailed information, in two routes on `https://drops.sunkwi.com`:
-[`GET /api/twitch/drops`](#-api-endpoints) and
-[`GET /api/twitch/rewards`](#-api-endpoints). Each answers a JSON object with
+This API provides available Twitch Drops campaigns, reward campaigns and the
+global Twitch chat badges with detailed information, in three routes on
+`https://drops.sunkwi.com`:
+[`GET /api/twitch/drops`](#-api-endpoints),
+[`GET /api/twitch/rewards`](#-api-endpoints) and
+[`GET /api/twitch/badges`](#-api-endpoints). Each answers a JSON object with
 named keys: the list, the time of the last Twitch scan and your remaining
 allowance.
 
 **Features**
 
 - Every active Twitch Drops campaign, grouped by game, and every reward campaign.
-- Refreshed every 60 seconds, with the time of the last scan.
+- Every global Twitch chat badge, with its image, its description and how to
+  get it: Drops source, minutes, subscriptions, game, channels, dates,
+  campaign, daily repeat, categories and event collections (GTA VI, Pokémon).
+- Refreshed every 60 seconds (badges every 5 minutes), with the time of the last scan.
 - Free without an account; a free API key raises the limit
   ([Rate Limits and API Keys](#-rate-limits-and-api-keys)).
 - An `ETag` on every answer: while the list has not changed, asking again
@@ -82,19 +87,22 @@ no Twitch tab open. Its list of Drops campaigns comes from this API.
 
 ## 🌐 API Endpoints
 
-Both routes are backed by the same Twitch data, refreshed every 60 seconds.
+The three routes are backed by Twitch data. Drops and rewards are refreshed
+every 60 seconds, badges every 5 minutes.
 
 | Endpoint                                                                 | Response body                                                | Refresh interval |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- |
 | [`GET /api/twitch/drops`](https://drops.sunkwi.com/api/twitch/drops)     | [`TwitchDropsResponseType`](#twitch-drops-response-type)     | 60 seconds       |
 | [`GET /api/twitch/rewards`](https://drops.sunkwi.com/api/twitch/rewards) | [`TwitchRewardsResponseType`](#twitch-rewards-response-type) | 60 seconds       |
+| [`GET /api/twitch/badges`](https://drops.sunkwi.com/api/twitch/badges)   | [`TwitchBadgesResponseType`](#twitch-badges-response-type)   | 5 minutes        |
 
 Every answer is a JSON object with named keys, never a bare array:
 
 | Key                   | Content                                                                                                                         |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | `games` (drops)       | One item per game, its Drops campaigns in `rewards`.                                                                            |
-| `campaigns` (rewards) | One item per reward campaign (site-wide events, chat badges, partner rewards).                                                  |
+| `campaigns` (rewards) | One item per reward campaign (site-wide events, chat badges, partner rewards, event collections such as GTA VI and Pokémon).    |
+| `badges` (badges)     | One item per version of a global Twitch chat badge, with how to get it in `requirement`.                                        |
 | `refreshedAt`         | Time of the last successful Twitch scan (ISO 8601), `null` before the first one.                                                |
 | `rateLimit`           | Your allowance on this route after this call: `limit`, `remaining`, and `resetAt`, when the whole allowance is back (ISO 8601). |
 
@@ -125,19 +133,93 @@ An empty list is a valid answer: no campaign is running.
 }
 ```
 
+### 🏅 `GET /api/twitch/badges`
+
+Every global Twitch chat badge, as Twitch lists it now: its `title`,
+`description`, its image in three sizes (`imageUrl1x` 18 px, `imageUrl2x`
+36 px, `imageUrl4x` 72 px) and the date this API first saw it (`firstSeenAt`).
+
+`requirement` tells **how to get the badge** (`null` when it is not known):
+
+- `source`: `DROPS` when a Drops campaign gives the badge (it stays once the
+  campaign has ended), `TWITCH_DESCRIPTION` when it is read in Twitch's own
+  description of a subscription or watch badge (no campaign, no channels, no dates).
+- `requiredMinutes` and `requiredSubs`: the watch time and the subscriptions
+  it takes. `watchTimeOnly` is `true` exactly for a `DROPS` requirement earned
+  by watching alone: the one filter a drops miner needs.
+- `gameId` and `gameName`, and the first `channels` of the campaign
+  (`channelCount` counts them all, `0` for any channel).
+- `startAt` and `endAt`, and the campaign: `campaignId` and `campaignName`.
+- Since 14/11/2026, for `DROPS` only:
+  - `repeat`: `{ everyHours, times }` when the watch time is needed again each
+    period, `requiredMinutes` being one period's (Pokémon: 20 min a day on
+    3 days; GTA VI: 1 h a day on 6 days). `null` when earned once.
+  - `categories`: any live channel of any of these categories counts (empty
+    when none). `gameId` and `gameName` are the first one when the campaign
+    has no game of its own.
+  - `collection`: `{ chestSize, completeAll }` when the badge is a reward of
+    an event collection (GTA VI, Pokémon), else `null`. The badge comes out of
+    a chest of `chestSize` rewards, never a chosen one (`null`: given as such);
+    `completeAll` is `true` when it is given for completing every other reward
+    of the collection (GTA VI's Golden Iguana), `requirement` then summing the
+    collection up.
+
+The limits and the `ETag` are those of the other routes
+([Rate Limits and API Keys](#-rate-limits-and-api-keys)).
+
+<!-- prettier-ignore -->
+```jsonc
+// GET https://drops.sunkwi.com/api/twitch/badges
+{
+  "badges": [
+    {
+      "setId": "...",
+      "versionId": "...",
+      "title": "...",
+      "description": "...",
+      "imageUrl1x": "...",
+      "imageUrl2x": "...",
+      "imageUrl4x": "...",
+      "clickAction": null,
+      "clickUrl": null,
+      "firstSeenAt": "2026-11-14T10:00:00.000Z",
+      "requirement": {
+        "source": "DROPS",
+        "watchTimeOnly": true,
+        "requiredMinutes": 60,
+        "requiredSubs": 0,
+        "gameId": "1867279146",
+        "gameName": "Grand Theft Auto VI",
+        "channels": [],
+        "channelCount": 0,
+        "startAt": "2026-11-18T11:00:00.000Z",
+        "endAt": "2026-12-01T07:59:59.999Z",
+        "campaignId": "...",
+        "campaignName": "GTAVI Launch Celebration",
+        "repeat": { "everyHours": 24, "times": 6 },
+        "categories": [{ "id": "1867279146", "name": "Grand Theft Auto VI" }],
+        "collection": { "chestSize": 6, "completeAll": false }
+      }
+    }
+  ],
+  "refreshedAt": "2026-11-14T12:34:56.789Z",
+  "rateLimit": { "limit": 1, "remaining": 0, "resetAt": "2026-11-14T12:35:57.000Z" }
+}
+```
+
 ---
 
 ## 🔑 Rate Limits and API Keys
 
-Drops and rewards have their own limits.
+Drops, rewards and badges have their own limits.
 
 | Client                  | Limit, per route                                     | Identified by                                  |
 | ----------------------- | ---------------------------------------------------- | ---------------------------------------------- |
 | Anonymous (no key)      | **1 request every 5 minutes**                        | IP address (an IPv6 address counts as its /64) |
 | With a **free** API key | **1 request per minute** by default, more on request | API key                                        |
 
-The data is refreshed every 60 seconds: calling more than once a minute
-returns the same answer.
+The drops and rewards are refreshed every 60 seconds, the badges every 5
+minutes: calling more often returns the same answer.
 
 **Get a free API key** at
 [drops.sunkwi.com/dashboard](https://drops.sunkwi.com/dashboard): sign in with
@@ -228,6 +310,9 @@ curl -i -H "X-API-Key: $DROPS_API_KEY" https://drops.sunkwi.com/api/twitch/drops
 
 # A free 304 while the list has not changed
 curl -i -H "X-API-Key: $DROPS_API_KEY" -H "If-None-Match: $ETAG" https://drops.sunkwi.com/api/twitch/drops
+
+# The Twitch badges and how to get them
+curl -H "X-API-Key: $DROPS_API_KEY" https://drops.sunkwi.com/api/twitch/badges
 ```
 
 ### TypeScript `fetch`
@@ -285,6 +370,48 @@ for (const campaign of campaigns) {
 }
 ```
 
+#### Fetch the Twitch badges you can get right now
+
+```ts
+const response = await fetch("https://drops.sunkwi.com/api/twitch/badges", {
+  headers: {
+    "X-API-Key": process.env.DROPS_API_KEY ?? "",
+  },
+});
+
+if (!response.ok) {
+  const error = (await response.json()) as TwitchDropsApiErrorType;
+
+  throw new Error(`HTTP error: ${response.status} (${error.code})`);
+}
+
+const { badges, refreshedAt } =
+  (await response.json()) as TwitchBadgesResponseType;
+
+const now = Date.now();
+
+// A DROPS requirement is earned by a campaign: keep the ones running now.
+const available = badges.filter(({ requirement }) => {
+  if (requirement?.source !== "DROPS" || !requirement.endAt) {
+    return false;
+  }
+
+  const startsAt = requirement.startAt ? Date.parse(requirement.startAt) : 0;
+
+  return startsAt <= now && now < Date.parse(requirement.endAt);
+});
+
+console.log(`${available.length} badge(s) to get, scan of ${refreshedAt}`);
+
+for (const { title, requirement } of available) {
+  const { repeat, categories, requiredMinutes } = requirement!;
+  const days = repeat ? `, ${repeat.times} times (every ${repeat.everyHours} h)` : "";
+  const where = categories?.length ? `${categories.length} categories` : requirement!.gameName;
+
+  console.log(`${title}: ${requiredMinutes} min on ${where}${days}`);
+}
+```
+
 #### Poll for changes with the `ETag`
 
 ```ts
@@ -321,10 +448,12 @@ const refreshDrops = async (): Promise<TwitchDropsResponseType | null> => {
 
 ## 📦 JSON Snapshots in This Repository
 
-[`drops.json`](drops.json) and [`rewards.json`](rewards.json) are snapshots of
-`GET /api/twitch/drops` and `GET /api/twitch/rewards`, in the same format:
-[`TwitchDropsResponseType`](#twitch-drops-response-type) and
-[`TwitchRewardsResponseType`](#twitch-rewards-response-type). A GitHub Actions
+[`drops.json`](drops.json), [`rewards.json`](rewards.json) and
+[`badges.json`](badges.json) are snapshots of `GET /api/twitch/drops`,
+`GET /api/twitch/rewards` and `GET /api/twitch/badges`, in the same format:
+[`TwitchDropsResponseType`](#twitch-drops-response-type),
+[`TwitchRewardsResponseType`](#twitch-rewards-response-type) and
+[`TwitchBadgesResponseType`](#twitch-badges-response-type). A GitHub Actions
 workflow fetches them every 10 minutes and commits them when the list changes,
 so:
 
@@ -336,6 +465,7 @@ Read them from GitHub when a delay of a few minutes is fine:
 ```sh
 curl https://raw.githubusercontent.com/SunkwiBOT/twitch-drops-api/main/drops.json
 curl https://raw.githubusercontent.com/SunkwiBOT/twitch-drops-api/main/rewards.json
+curl https://raw.githubusercontent.com/SunkwiBOT/twitch-drops-api/main/badges.json
 ```
 
 ---
@@ -408,6 +538,11 @@ type TwitchDropsResponseType = {
         id: string;
         name: string;
         preconditionDrops: unknown;
+        /** Added 14/11/2026: `null` for a drop earned once; earned `times` times, `everyHours` apart. */
+        repeat?: {
+          everyHours: number | null;
+          times: number;
+        } | null;
         requiredMinutesWatched: number;
         requiredSubs: number;
         startAt: string;
@@ -454,7 +589,18 @@ type TwitchRewardsResponseType = {
     name: string;
     /** Only when Twitch sends them; `rewards` lists their rewards too. */
     rewardGroups?: {
+      /** Added 14/11/2026: the categories whose live channels count (any of them), empty when Twitch names none. */
+      categories?: {
+        displayName: string;
+        id: string;
+        slug: string;
+      }[];
       id: string;
+      /** Added 14/11/2026: how often the group is earned again, `null` when once. */
+      repeat?: {
+        everyHours: number | null;
+        times: number;
+      } | null;
       rewards: {
         bannerImage: {
           image1xURL: string;
@@ -490,6 +636,7 @@ type TwitchRewardsResponseType = {
     }[];
     rewardValueURLParam: string;
     startsAt: string;
+    /** `UPCOMING` before an event collection (GTA VI) starts. */
     status: string;
     summary: string;
     unlockRequirements: {
@@ -498,6 +645,79 @@ type TwitchRewardsResponseType = {
     };
   }[];
   /** Time of the last successful Twitch scan (ISO 8601), `null` before the first one. */
+  refreshedAt: string | null;
+  /** Your allowance on this route after this call, as the `RateLimit-*` headers tell it. */
+  rateLimit: {
+    limit: number;
+    remaining: number;
+    /** When the whole allowance is back (ISO 8601). */
+    resetAt: string;
+  };
+};
+```
+
+<a id="twitch-badges-response-type"></a>
+
+### `TwitchBadgesResponseType`
+
+```ts
+/** Answer of `GET https://drops.sunkwi.com/api/twitch/badges`. */
+type TwitchBadgesResponseType = {
+  /** One item per version of a global Twitch chat badge, as Twitch lists it now. */
+  badges: {
+    clickAction: string | null;
+    clickUrl: string | null;
+    description: string;
+    /** When this API last saw the badge appear, `null` for the badges already there at its first read. */
+    firstSeenAt: string | null;
+    /** 18 px. */
+    imageUrl1x: string;
+    /** 36 px. */
+    imageUrl2x: string;
+    /** 72 px. */
+    imageUrl4x: string;
+    /** How to get the badge, `null` when it is not known. */
+    requirement: {
+      /** Added 14/11/2026, `DROPS` only (else empty): any of these categories counts. */
+      categories?: {
+        id: string;
+        name: string;
+      }[];
+      campaignId: string | null;
+      campaignName: string | null;
+      /** How many channels the campaign names (all of them), 0 for any channel. */
+      channelCount: number;
+      /** The first channels of the campaign (5 at most). */
+      channels: string[];
+      /** Added 14/11/2026, `DROPS` only: the badge is a reward of an event collection (GTA VI, Pokémon), else `null`. */
+      collection?: {
+        /** The badge comes out of a chest of that many rewards, `null` when given as such. */
+        chestSize: number | null;
+        /** Given for completing every other reward of the collection (GTA VI's Golden Iguana). */
+        completeAll: boolean;
+      } | null;
+      endAt: string | null;
+      gameId: string | null;
+      gameName: string;
+      /** Added 14/11/2026, `DROPS` only: the watch time is needed again each period, `null` when once. */
+      repeat?: {
+        everyHours: number | null;
+        times: number;
+      } | null;
+      /** Watch time of one period when there is a `repeat`. */
+      requiredMinutes: number;
+      requiredSubs: number;
+      /** `DROPS`: a Drops campaign gives the badge. `TWITCH_DESCRIPTION`: read in Twitch's description. */
+      source: "DROPS" | "TWITCH_DESCRIPTION";
+      startAt: string | null;
+      /** `true` exactly for a `DROPS` requirement earned by watching alone. */
+      watchTimeOnly: boolean;
+    } | null;
+    setId: string;
+    title: string;
+    versionId: string;
+  }[];
+  /** Time of the last successful read of Twitch's badges (ISO 8601), `null` before the first one. */
   refreshedAt: string | null;
   /** Your allowance on this route after this call, as the `RateLimit-*` headers tell it. */
   rateLimit: {

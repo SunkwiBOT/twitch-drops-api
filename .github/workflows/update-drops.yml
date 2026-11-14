@@ -56,9 +56,34 @@ jobs:
           name: rewards-json
           path: rewards.json
 
+  fetch-badges:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        name: 🛠️ Checkout code
+
+      - name: 🔧 Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: 🏅 Update badges JSON
+        run: bun run fetch-badges.ts
+        env:
+          CI: true
+          # Optional repository secret: a free key from drops.sunkwi.com/dashboard.
+          DROPS_API_KEY: ${{ secrets.DROPS_API_KEY }}
+
+      - name: 📤 Upload badges artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: badges-json
+          path: badges.json
+
   commit-changes:
     runs-on: ubuntu-latest
-    needs: [fetch-drops, fetch-rewards]
+    needs: [fetch-drops, fetch-rewards, fetch-badges]
     permissions:
       contents: write
 
@@ -75,6 +100,11 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: rewards-json
+
+      - name: 📥 Download badges artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: badges-json
 
       - name: 🕒 Generate timestamp
         id: timestamp

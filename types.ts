@@ -59,6 +59,11 @@ export type TwitchDropsResponseType = {
         id: string;
         name: string;
         preconditionDrops: unknown;
+        /** Added 14/11/2026: `null` for a drop earned once; earned `times` times, `everyHours` apart. */
+        repeat?: {
+          everyHours: number | null;
+          times: number;
+        } | null;
         requiredMinutesWatched: number;
         requiredSubs: number;
         startAt: string;
@@ -99,7 +104,18 @@ export type TwitchRewardsResponseType = {
     name: string;
     /** Only when Twitch sends them; `rewards` lists their rewards too. */
     rewardGroups?: {
+      /** Added 14/11/2026: the categories whose live channels count (any of them), empty when Twitch names none. */
+      categories?: {
+        displayName: string;
+        id: string;
+        slug: string;
+      }[];
       id: string;
+      /** Added 14/11/2026: how often the group is earned again, `null` when once. */
+      repeat?: {
+        everyHours: number | null;
+        times: number;
+      } | null;
       rewards: {
         bannerImage: {
           image1xURL: string;
@@ -135,6 +151,7 @@ export type TwitchRewardsResponseType = {
     }[];
     rewardValueURLParam: string;
     startsAt: string;
+    /** `UPCOMING` before an event collection (GTA VI) starts. */
     status: string;
     summary: string;
     unlockRequirements: {
@@ -143,6 +160,73 @@ export type TwitchRewardsResponseType = {
     };
   }[];
   /** Time of the last successful Twitch scan (ISO 8601), `null` before the first one. */
+  refreshedAt: string | null;
+  /** Your allowance on this route after this call, as the `RateLimit-*` headers tell it. */
+  rateLimit: {
+    limit: number;
+    remaining: number;
+    /** When the whole allowance is back (ISO 8601). */
+    resetAt: string;
+  };
+};
+
+/** Answer of `GET https://drops.sunkwi.com/api/twitch/badges`. */
+export type TwitchBadgesResponseType = {
+  /** One item per version of a global Twitch chat badge, as Twitch lists it now. */
+  badges: {
+    clickAction: string | null;
+    clickUrl: string | null;
+    description: string;
+    /** When this API last saw the badge appear, `null` for the badges already there at its first read. */
+    firstSeenAt: string | null;
+    /** 18 px. */
+    imageUrl1x: string;
+    /** 36 px. */
+    imageUrl2x: string;
+    /** 72 px. */
+    imageUrl4x: string;
+    /** How to get the badge, `null` when it is not known. */
+    requirement: {
+      /** Added 14/11/2026, `DROPS` only (else empty): any of these categories counts. */
+      categories?: {
+        id: string;
+        name: string;
+      }[];
+      campaignId: string | null;
+      campaignName: string | null;
+      /** How many channels the campaign names (all of them), 0 for any channel. */
+      channelCount: number;
+      /** The first channels of the campaign (5 at most). */
+      channels: string[];
+      /** Added 14/11/2026, `DROPS` only: the badge is a reward of an event collection (GTA VI, Pokémon), else `null`. */
+      collection?: {
+        /** The badge comes out of a chest of that many rewards, `null` when given as such. */
+        chestSize: number | null;
+        /** Given for completing every other reward of the collection (GTA VI's Golden Iguana). */
+        completeAll: boolean;
+      } | null;
+      endAt: string | null;
+      gameId: string | null;
+      gameName: string;
+      /** Added 14/11/2026, `DROPS` only: the watch time is needed again each period, `null` when once. */
+      repeat?: {
+        everyHours: number | null;
+        times: number;
+      } | null;
+      /** Watch time of one period when there is a `repeat`. */
+      requiredMinutes: number;
+      requiredSubs: number;
+      /** `DROPS`: a Drops campaign gives the badge. `TWITCH_DESCRIPTION`: read in Twitch's description. */
+      source: "DROPS" | "TWITCH_DESCRIPTION";
+      startAt: string | null;
+      /** `true` exactly for a `DROPS` requirement earned by watching alone. */
+      watchTimeOnly: boolean;
+    } | null;
+    setId: string;
+    title: string;
+    versionId: string;
+  }[];
+  /** Time of the last successful read of Twitch's badges (ISO 8601), `null` before the first one. */
   refreshedAt: string | null;
   /** Your allowance on this route after this call, as the `RateLimit-*` headers tell it. */
   rateLimit: {
