@@ -160,7 +160,7 @@ export type TwitchRewardsResponseType = {
       minuteWatchedGoal: number;
       subsGoal: number;
     };
-    /** The page this campaign opens on drops.sunkwi.com (the rewards page, at this campaign). `/api/twitch/rewards` only. */
+    /** This reward campaign's own page on drops.sunkwi.com. `/api/twitch/rewards` only. */
     webUrl?: string;
   }[];
   /** Time of the last successful Twitch scan (ISO 8601), `null` before the first one. */
