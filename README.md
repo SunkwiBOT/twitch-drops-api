@@ -30,7 +30,7 @@ allowance.
 
 **Features**
 
-- Every active Twitch Drops campaign, grouped by game, and every reward campaign.
+- Every active Twitch Drops campaign, grouped by game, every reward campaign and every badge, each with its `webUrl` on drops.sunkwi.com.
 - Every global Twitch chat badge, with its image, its description and how to
   get it: Drops source, minutes, subscriptions, game, channels, dates,
   campaign, daily repeat, categories and event collections (GTA VI, Pokémon).
@@ -547,6 +547,8 @@ type TwitchDropsResponseType = {
         requiredSubs: number;
         startAt: string;
       }[];
+      /** The page this campaign opens on drops.sunkwi.com (its game's page, at this campaign). `/api/twitch/drops` only. */
+      webUrl?: string;
     }[];
     startAt: string;
   }[];
@@ -643,6 +645,8 @@ type TwitchRewardsResponseType = {
       minuteWatchedGoal: number;
       subsGoal: number;
     };
+    /** The page this campaign opens on drops.sunkwi.com (the rewards page, at this campaign). `/api/twitch/rewards` only. */
+    webUrl?: string;
   }[];
   /** Time of the last successful Twitch scan (ISO 8601), `null` before the first one. */
   refreshedAt: string | null;
@@ -716,6 +720,8 @@ type TwitchBadgesResponseType = {
     setId: string;
     title: string;
     versionId: string;
+    /** The badge's own page on drops.sunkwi.com. */
+    webUrl?: string;
   }[];
   /** Time of the last successful read of Twitch's badges (ISO 8601), `null` before the first one. */
   refreshedAt: string | null;

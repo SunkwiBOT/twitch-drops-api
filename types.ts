@@ -68,6 +68,8 @@ export type TwitchDropsResponseType = {
         requiredSubs: number;
         startAt: string;
       }[];
+      /** The page this campaign opens on drops.sunkwi.com (its game's page, at this campaign). `/api/twitch/drops` only. */
+      webUrl?: string;
     }[];
     startAt: string;
   }[];
@@ -158,6 +160,8 @@ export type TwitchRewardsResponseType = {
       minuteWatchedGoal: number;
       subsGoal: number;
     };
+    /** The page this campaign opens on drops.sunkwi.com (the rewards page, at this campaign). `/api/twitch/rewards` only. */
+    webUrl?: string;
   }[];
   /** Time of the last successful Twitch scan (ISO 8601), `null` before the first one. */
   refreshedAt: string | null;
@@ -225,6 +229,8 @@ export type TwitchBadgesResponseType = {
     setId: string;
     title: string;
     versionId: string;
+    /** The badge's own page on drops.sunkwi.com. */
+    webUrl?: string;
   }[];
   /** Time of the last successful read of Twitch's badges (ISO 8601), `null` before the first one. */
   refreshedAt: string | null;
