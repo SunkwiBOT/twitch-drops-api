@@ -7,7 +7,8 @@
   "scripts": {
     "fetch:drops": "bun run fetch-drops.ts",
     "fetch:rewards": "bun run fetch-rewards.ts",
-    "fetch:badges": "bun run fetch-badges.ts"
+    "fetch:badges": "bun run fetch-badges.ts",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
     "Twitch",
@@ -23,5 +24,9 @@
     "Free API"
   ],
   "author": "https://twitter.com/sunkwii",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "typescript": "^5.9.3"
+  }
 }

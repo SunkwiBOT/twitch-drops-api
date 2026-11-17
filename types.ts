@@ -1,3 +1,17 @@
+/** Your allowance on a route after a call, as its `RateLimit-*` headers tell it. */
+export type TwitchRateLimitType = {
+  limit: number;
+  remaining: number;
+  /** When the whole allowance is back (ISO 8601). */
+  resetAt: string;
+};
+
+/** How often a Drops reward or badge requirement is earned again, `null` when once. */
+export type TwitchRepeatType = {
+  everyHours: number | null;
+  times: number;
+} | null;
+
 /** Answer of `GET https://drops.sunkwi.com/api/twitch/drops`. */
 export type TwitchDropsResponseType = {
   /** One item per game, its Drops campaigns in `rewards`. */
@@ -60,10 +74,7 @@ export type TwitchDropsResponseType = {
         name: string;
         preconditionDrops: unknown;
         /** Added 14/11/2026: `null` for a drop earned once; earned `times` times, `everyHours` apart. */
-        repeat?: {
-          everyHours: number | null;
-          times: number;
-        } | null;
+        repeat?: TwitchRepeatType;
         requiredMinutesWatched: number;
         requiredSubs: number;
         startAt: string;
@@ -76,12 +87,7 @@ export type TwitchDropsResponseType = {
   /** Time of the last successful Twitch scan (ISO 8601), `null` before the first one. */
   refreshedAt: string | null;
   /** Your allowance on this route after this call, as the `RateLimit-*` headers tell it. */
-  rateLimit: {
-    limit: number;
-    remaining: number;
-    /** When the whole allowance is back (ISO 8601). */
-    resetAt: string;
-  };
+  rateLimit: TwitchRateLimitType;
 };
 
 /** Answer of `GET https://drops.sunkwi.com/api/twitch/rewards`. */
@@ -114,10 +120,7 @@ export type TwitchRewardsResponseType = {
       }[];
       id: string;
       /** Added 14/11/2026: how often the group is earned again, `null` when once. */
-      repeat?: {
-        everyHours: number | null;
-        times: number;
-      } | null;
+      repeat?: TwitchRepeatType;
       rewards: {
         bannerImage: {
           image1xURL: string;
@@ -166,12 +169,7 @@ export type TwitchRewardsResponseType = {
   /** Time of the last successful Twitch scan (ISO 8601), `null` before the first one. */
   refreshedAt: string | null;
   /** Your allowance on this route after this call, as the `RateLimit-*` headers tell it. */
-  rateLimit: {
-    limit: number;
-    remaining: number;
-    /** When the whole allowance is back (ISO 8601). */
-    resetAt: string;
-  };
+  rateLimit: TwitchRateLimitType;
 };
 
 /** Answer of `GET https://drops.sunkwi.com/api/twitch/badges`. */
@@ -213,10 +211,7 @@ export type TwitchBadgesResponseType = {
       gameId: string | null;
       gameName: string;
       /** Added 14/11/2026, `DROPS` only: the watch time is needed again each period, `null` when once. */
-      repeat?: {
-        everyHours: number | null;
-        times: number;
-      } | null;
+      repeat?: TwitchRepeatType;
       /** Watch time of one period when there is a `repeat`. */
       requiredMinutes: number;
       requiredSubs: number;
@@ -235,12 +230,7 @@ export type TwitchBadgesResponseType = {
   /** Time of the last successful read of Twitch's badges (ISO 8601), `null` before the first one. */
   refreshedAt: string | null;
   /** Your allowance on this route after this call, as the `RateLimit-*` headers tell it. */
-  rateLimit: {
-    limit: number;
-    remaining: number;
-    /** When the whole allowance is back (ISO 8601). */
-    resetAt: string;
-  };
+  rateLimit: TwitchRateLimitType;
 };
 
 export enum TwitchDropsApiErrorCode {
