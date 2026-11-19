@@ -12,6 +12,28 @@ export type TwitchRepeatType = {
   times: number;
 } | null;
 
+/** One live channel of a Drops campaign. Added 19/11/2026. */
+export type TwitchLiveChannelType = {
+  /** Twitch id of the channel. */
+  id: string;
+  /** Twitch login of the channel. */
+  login: string;
+  /** Display name of the channel. */
+  displayName: string;
+  /** Id of the category it is streaming. */
+  gameId: string;
+  /** Name of the category it is streaming. */
+  gameName: string;
+  /** Current viewer count. */
+  viewers: number;
+  /** Whether Drops are enabled on the stream. */
+  dropsEnabled: boolean;
+  /** Twitch's picture for the channel, `null` when unreadable. */
+  profileImageUrl: string | null;
+  /** Id of the channel's current live broadcast, `null` when it has none. */
+  streamId: string | null;
+};
+
 /** Answer of `GET https://drops.sunkwi.com/api/twitch/drops`. */
 export type TwitchDropsResponseType = {
   /** One item per game, its Drops campaigns in `rewards`. */
@@ -81,6 +103,10 @@ export type TwitchDropsResponseType = {
       }[];
       /** The page this campaign opens on drops.sunkwi.com (its game's page, at this campaign). `/api/twitch/drops` only. */
       webUrl?: string;
+      /** Channels live now where this campaign progresses, refreshed every minute. Added 19/11/2026. */
+      liveChannels?: TwitchLiveChannelType[];
+      /** When `liveChannels` was read (ISO 8601), `null` if not read yet. Added 19/11/2026. */
+      liveChannelsReadAt?: string | null;
     }[];
     startAt: string;
   }[];
@@ -220,6 +246,10 @@ export type TwitchBadgesResponseType = {
       startAt: string | null;
       /** `true` exactly for a `DROPS` requirement earned by watching alone. */
       watchTimeOnly: boolean;
+      /** Channels live now where this badge can be earned (its campaign's list), empty without a campaign. Added 19/11/2026. */
+      liveChannels?: TwitchLiveChannelType[];
+      /** When `liveChannels` was read (ISO 8601), `null` if not read yet or without a campaign. Added 19/11/2026. */
+      liveChannelsReadAt?: string | null;
     } | null;
     setId: string;
     title: string;

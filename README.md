@@ -108,6 +108,16 @@ Every answer is a JSON object with named keys, never a bare array:
 
 An empty list is a valid answer: no campaign is running.
 
+Added 19/11/2026: every campaign (`games[].rewards[]`) also carries
+`liveChannels`, the channels currently streaming its game (every
+allow-listed channel, or up to 30 from Twitch's directory without an allow
+list), read once a minute, and `liveChannelsReadAt`, when that list was last
+read (`null` before this campaign's first successful read). Each channel has `id`, `login`,
+`displayName`, `gameId` and `gameName` (the category it is streaming),
+`viewers`, `dropsEnabled` and `profileImageUrl` (`null` when unreadable),
+and `streamId` (Twitch's id of the current broadcast, `null` when it has
+none, so a client can tell two consecutive streams apart).
+
 <!-- prettier-ignore -->
 ```jsonc
 // GET https://drops.sunkwi.com/api/twitch/drops
@@ -163,6 +173,9 @@ Every global Twitch chat badge, as Twitch lists it now: its `title`,
     `completeAll` is `true` when it is given for completing every other reward
     of the collection (GTA VI's Golden Iguana), `requirement` then summing the
     collection up.
+- Added 19/11/2026: `liveChannels`, the live channels of `campaignId`'s game
+  (empty for a requirement with no linked campaign), and
+  `liveChannelsReadAt`, when that list was last read.
 
 The limits and the `ETag` are those of the other routes
 ([Rate Limits and API Keys](#-rate-limits-and-api-keys)).
@@ -198,7 +211,21 @@ The limits and the `ETag` are those of the other routes
         "campaignName": "GTAVI Launch Celebration",
         "repeat": { "everyHours": 24, "times": 6 },
         "categories": [{ "id": "1867279146", "name": "Grand Theft Auto VI" }],
-        "collection": { "chestSize": 6, "completeAll": false }
+        "collection": { "chestSize": 6, "completeAll": false },
+        "liveChannels": [
+          {
+            "id": "123456",
+            "login": "example",
+            "displayName": "Example",
+            "gameId": "1867279146",
+            "gameName": "Grand Theft Auto VI",
+            "viewers": 4200,
+            "dropsEnabled": true,
+            "profileImageUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/example-profile_image.png",
+            "streamId": "41234567890"
+          }
+        ],
+        "liveChannelsReadAt": "2026-11-19T12:34:00.000Z"
       }
     }
   ],
@@ -264,10 +291,12 @@ anonymous, against the limit of your IP address, and the answer carries
 
 ### 🔁 ETag and free `304`
 
-Every answer carries an `ETag` header, the tag of its list. Send it back in
-`If-None-Match`: while the list has not changed, the API answers
-`304 Not Modified`, with no body, and the call does not count against your
-limit. The `RateLimit-*` headers of a `304` show your allowance, untouched.
+Every answer carries an `ETag` header, the tag of its list. On `/drops` and
+`/badges` it changes roughly every minute as `liveChannels` refresh, not only
+when the rest of the data changes. Send it back in `If-None-Match`: while the list
+has not changed, the API answers `304 Not Modified`, with no body, and the
+call does not count against your limit. The `RateLimit-*` headers of a `304`
+show your allowance, untouched.
 
 ```http
 GET /api/twitch/drops HTTP/1.1
@@ -458,7 +487,10 @@ workflow fetches them every 10 minutes and commits them when the list changes,
 so:
 
 - `refreshedAt` is the scan the snapshot comes from, not the latest scan;
-- `rateLimit` is the workflow's own allowance: ignore it.
+- `rateLimit` is the workflow's own allowance: ignore it;
+- `liveChannels` and `liveChannelsReadAt` are absent: they change every
+  minute, and keeping them would make the workflow commit every run even when
+  no campaign or badge changed.
 
 Read them from GitHub when a delay of a few minutes is fine:
 
@@ -475,6 +507,30 @@ curl https://raw.githubusercontent.com/SunkwiBOT/twitch-drops-api/main/badges.js
 <a id="twitch-drops-response-type"></a>
 
 ### `TwitchDropsResponseType`
+
+```ts
+/** One live channel of a Drops campaign. Added 19/11/2026. */
+type TwitchLiveChannelType = {
+  /** Twitch id of the channel. */
+  id: string;
+  /** Twitch login of the channel. */
+  login: string;
+  /** Display name of the channel. */
+  displayName: string;
+  /** Id of the category it is streaming. */
+  gameId: string;
+  /** Name of the category it is streaming. */
+  gameName: string;
+  /** Current viewer count. */
+  viewers: number;
+  /** Whether Drops are enabled on the stream. */
+  dropsEnabled: boolean;
+  /** Twitch's picture for the channel, `null` when unreadable. */
+  profileImageUrl: string | null;
+  /** Id of the channel's current live broadcast, `null` when it has none. */
+  streamId: string | null;
+};
+```
 
 ```ts
 /** Answer of `GET https://drops.sunkwi.com/api/twitch/drops`. */
@@ -549,6 +605,10 @@ type TwitchDropsResponseType = {
       }[];
       /** The page this campaign opens on drops.sunkwi.com (its game's page, at this campaign). `/api/twitch/drops` only. */
       webUrl?: string;
+      /** Channels live now where this campaign progresses, refreshed every minute. Added 19/11/2026. */
+      liveChannels?: TwitchLiveChannelType[];
+      /** When `liveChannels` was read (ISO 8601), `null` if not read yet. Added 19/11/2026. */
+      liveChannelsReadAt?: string | null;
     }[];
     startAt: string;
   }[];
@@ -716,6 +776,10 @@ type TwitchBadgesResponseType = {
       startAt: string | null;
       /** `true` exactly for a `DROPS` requirement earned by watching alone. */
       watchTimeOnly: boolean;
+      /** Channels live now where this badge can be earned (its campaign's list), empty without a campaign. Added 19/11/2026. */
+      liveChannels?: TwitchLiveChannelType[];
+      /** When `liveChannels` was read (ISO 8601), `null` if not read yet or without a campaign. Added 19/11/2026. */
+      liveChannelsReadAt?: string | null;
     } | null;
     setId: string;
     title: string;

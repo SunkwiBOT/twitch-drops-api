@@ -39,6 +39,46 @@ export const fetchRewards = (): Promise<TwitchRewardsResponseType> =>
 export const fetchBadges = (): Promise<TwitchBadgesResponseType> =>
   fetchAnswer<TwitchBadgesResponseType>("/badges");
 
+/**
+ * Drops a campaign's `liveChannels` and `liveChannelsReadAt`: they change
+ * every minute and would make the workflow commit every run.
+ */
+export const stripDropsLiveChannels = (
+  answer: TwitchDropsResponseType,
+): TwitchDropsResponseType => ({
+  ...answer,
+  games: answer.games.map((game) => ({
+    ...game,
+    rewards: game.rewards.map(
+      ({ liveChannels: _liveChannels, liveChannelsReadAt: _liveChannelsReadAt, ...reward }) =>
+        reward,
+    ),
+  })),
+});
+
+/**
+ * Drops a badge requirement's `liveChannels` and `liveChannelsReadAt`: they
+ * change every minute and would make the workflow commit every run.
+ */
+export const stripBadgesLiveChannels = (
+  answer: TwitchBadgesResponseType,
+): TwitchBadgesResponseType => ({
+  ...answer,
+  badges: answer.badges.map((badge) => {
+    if (!badge.requirement) {
+      return badge;
+    }
+
+    const {
+      liveChannels: _liveChannels,
+      liveChannelsReadAt: _liveChannelsReadAt,
+      ...requirement
+    } = badge.requirement;
+
+    return { ...badge, requirement };
+  }),
+});
+
 const readSnapshot = (file: string): Record<string, unknown> | null => {
   if (!existsSync(file)) {
     return null;
