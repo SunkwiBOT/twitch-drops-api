@@ -40,8 +40,9 @@ export const fetchBadges = (): Promise<TwitchBadgesResponseType> =>
   fetchAnswer<TwitchBadgesResponseType>("/badges");
 
 /**
- * Drops a campaign's `liveChannels` and `liveChannelsReadAt`: they change
- * every minute and would make the workflow commit every run.
+ * Drops a campaign's `liveChannels` and `liveChannelsReadAt`: live,
+ * per-caller data (shuffled in this runner's own order) that would make the
+ * workflow commit every run even when no campaign changed.
  */
 export const stripDropsLiveChannels = (
   answer: TwitchDropsResponseType,
@@ -57,8 +58,9 @@ export const stripDropsLiveChannels = (
 });
 
 /**
- * Drops a badge requirement's `liveChannels` and `liveChannelsReadAt`: they
- * change every minute and would make the workflow commit every run.
+ * Drops a badge requirement's `liveChannels` and `liveChannelsReadAt`: live,
+ * per-caller data (shuffled in this runner's own order) that would make the
+ * workflow commit every run even when no badge changed.
  */
 export const stripBadgesLiveChannels = (
   answer: TwitchBadgesResponseType,

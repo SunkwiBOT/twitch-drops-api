@@ -12,7 +12,7 @@ export type TwitchRepeatType = {
   times: number;
 } | null;
 
-/** One live channel of a Drops campaign. Added 19/11/2026. */
+/** One live channel of a Drops campaign, in the order built for your identity (see `x-install-id`). */
 export type TwitchLiveChannelType = {
   /** Twitch id of the channel. */
   id: string;
@@ -69,7 +69,8 @@ export type TwitchDropsResponseType = {
         name: string;
       };
       startAt: string;
-      status: string;
+      /** `UPCOMING` before `startAt`, then `ACTIVE`: the list holds both. */
+      status: "UPCOMING" | "ACTIVE";
       timeBasedDrops: {
         benefitEdges: {
           benefit: {
@@ -103,9 +104,9 @@ export type TwitchDropsResponseType = {
       }[];
       /** The page this campaign opens on dropsalerts.com (its game's page, at this campaign). `/api/twitch/drops` only. */
       webUrl?: string;
-      /** Channels live now where this campaign progresses, refreshed every minute. Added 19/11/2026. */
+      /** Channels live now where this campaign progresses, refreshed every minute. Each caller gets its own order (see `x-install-id`). */
       liveChannels?: TwitchLiveChannelType[];
-      /** When `liveChannels` was read (ISO 8601), `null` if not read yet. Added 19/11/2026. */
+      /** When `liveChannels` was read (ISO 8601), `null` if not read yet. */
       liveChannelsReadAt?: string | null;
     }[];
     startAt: string;
@@ -246,9 +247,9 @@ export type TwitchBadgesResponseType = {
       startAt: string | null;
       /** `true` exactly for a `DROPS` requirement earned by watching alone. */
       watchTimeOnly: boolean;
-      /** Channels live now where this badge can be earned (its campaign's list), empty without a campaign. Added 19/11/2026. */
+      /** Channels live now where this badge can be earned (its campaign's list), empty without a campaign. */
       liveChannels?: TwitchLiveChannelType[];
-      /** When `liveChannels` was read (ISO 8601), `null` if not read yet or without a campaign. Added 19/11/2026. */
+      /** When `liveChannels` was read (ISO 8601), `null` if not read yet or without a campaign. */
       liveChannelsReadAt?: string | null;
     } | null;
     setId: string;

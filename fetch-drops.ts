@@ -8,11 +8,11 @@ const written = writeSnapshot(
   stripDropsLiveChannels(answer),
   "games",
 );
-const campaignCount = answer.games.reduce(
-  (count, game) => count + game.rewards.length,
-  0,
-);
+const campaigns = answer.games.flatMap((game) => game.rewards);
+const upcomingCount = campaigns.filter(
+  (campaign) => campaign.status === "UPCOMING",
+).length;
 
 console.log(
-  `drops.json ${written ? "updated" : "unchanged"}: [${answer.games.length}] game(s), [${campaignCount}] campaign(s), scan of [${answer.refreshedAt ?? "unknown"}]`,
+  `drops.json ${written ? "updated" : "unchanged"}: [${answer.games.length}] game(s), [${campaigns.length - upcomingCount}] started and [${upcomingCount}] upcoming campaign(s), scan of [${answer.refreshedAt ?? "unknown"}]`,
 );

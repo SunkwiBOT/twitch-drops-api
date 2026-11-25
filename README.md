@@ -30,7 +30,7 @@ allowance.
 
 **Features**
 
-- Every active Twitch Drops campaign, grouped by game, every reward campaign and every badge, each with its `webUrl` on dropsalerts.com.
+- Every Twitch Drops campaign, started or upcoming, grouped by game, every reward campaign and every badge, each with its `webUrl` on dropsalerts.com.
 - Every global Twitch chat badge, with its image, its description and how to
   get it: Drops source, minutes, subscriptions, game, channels, dates,
   campaign, daily repeat, categories and event collections (GTA VI, Pokémon).
@@ -110,11 +110,17 @@ Every answer is a JSON object with named keys, never a bare array:
 
 An empty list is a valid answer: no campaign is running.
 
-Added 19/11/2026: every campaign (`games[].rewards[]`) also carries
+`/api/twitch/drops` lists the campaigns that have started and the ones
+Twitch has announced but not started yet. A campaign's `status` is
+`UPCOMING` before its `startAt`, then `ACTIVE`, read at the time of the
+call: keep the `ACTIVE` ones for what can be earned now.
+
+Every campaign (`games[].rewards[]`) also carries
 `liveChannels`, the channels currently streaming its game (every
 allow-listed channel, or up to 30 from Twitch's directory without an allow
-list), read once a minute, and `liveChannelsReadAt`, when that list was last
-read (`null` before this campaign's first successful read). Each channel has `id`, `login`,
+list), read once a minute, and
+`liveChannelsReadAt`, when that list was last read (`null` before this
+campaign's first successful read). Each channel has `id`, `login`,
 `displayName`, `gameId` and `gameName` (the category it is streaming),
 `viewers`, `dropsEnabled` and `profileImageUrl` (`null` when unreadable),
 and `streamId` (Twitch's id of the current broadcast, `null` when it has
@@ -175,9 +181,10 @@ Every global Twitch chat badge, as Twitch lists it now: its `title`,
     `completeAll` is `true` when it is given for completing every other reward
     of the collection (GTA VI's Golden Iguana), `requirement` then summing the
     collection up.
-- Added 19/11/2026: `liveChannels`, the live channels of `campaignId`'s game
-  (empty for a requirement with no linked campaign), and
-  `liveChannelsReadAt`, when that list was last read.
+- `liveChannels`, the live channels of `campaignId`'s game
+  (empty for a requirement with no linked campaign), read like
+  `/api/twitch/drops`'s, and `liveChannelsReadAt`, when that list was last
+  read.
 
 The limits and the `ETag` are those of the other routes
 ([Rate Limits and API Keys](#-rate-limits-and-api-keys)).
@@ -293,9 +300,9 @@ anonymous, against the limit of your IP address, and the answer carries
 
 ### 🔁 ETag and free `304`
 
-Every answer carries an `ETag` header, the tag of its list. On `/drops` and
-`/badges` it changes roughly every minute as `liveChannels` refresh, not only
-when the rest of the data changes. Send it back in `If-None-Match`: while the list
+Every answer carries an `ETag` header, the tag of its list, changing roughly
+every minute as `liveChannels` refresh, not only when the
+rest of the data changes. Send it back in `If-None-Match`: while the list
 has not changed, the API answers `304 Not Modified`, with no body, and the
 call does not count against your limit. The `RateLimit-*` headers of a `304`
 show your allowance, untouched.
@@ -365,6 +372,13 @@ const { games, refreshedAt, rateLimit } =
   (await response.json()) as TwitchDropsResponseType;
 
 console.log(`${games.length} game(s), scan of ${refreshedAt}`);
+
+// The list holds the upcoming campaigns too: `ACTIVE` ones can be earned now.
+const started = games
+  .flatMap((game) => game.rewards)
+  .filter((campaign) => campaign.status === "ACTIVE");
+
+console.log(`${started.length} campaign(s) running now`);
 console.log(
   `${rateLimit.remaining}/${rateLimit.limit} left, full again at ${rateLimit.resetAt}`,
 );
@@ -490,9 +504,11 @@ so:
 
 - `refreshedAt` is the scan the snapshot comes from, not the latest scan;
 - `rateLimit` is the workflow's own allowance: ignore it;
-- `liveChannels` and `liveChannelsReadAt` are absent: they change every
-  minute, and keeping them would make the workflow commit every run even when
-  no campaign or badge changed.
+- each campaign's `status` is the one at the time of the snapshot: an
+  `UPCOMING` campaign whose `startAt` has passed since then has started;
+- `liveChannels` and `liveChannelsReadAt` are absent: they are live data,
+  and keeping them would make the workflow commit every run even when no
+  campaign or badge changed.
 
 Read them from GitHub when a delay of a few minutes is fine:
 
@@ -511,7 +527,7 @@ curl https://raw.githubusercontent.com/SunkwiBOT/twitch-drops-api/main/badges.js
 ### `TwitchDropsResponseType`
 
 ```ts
-/** One live channel of a Drops campaign. Added 19/11/2026. */
+/** One live channel of a Drops campaign. */
 type TwitchLiveChannelType = {
   /** Twitch id of the channel. */
   id: string;
@@ -570,7 +586,8 @@ type TwitchDropsResponseType = {
         name: string;
       };
       startAt: string;
-      status: string;
+      /** `UPCOMING` before `startAt`, then `ACTIVE`: the list holds both. */
+      status: "UPCOMING" | "ACTIVE";
       timeBasedDrops: {
         benefitEdges: {
           benefit: {
@@ -607,9 +624,9 @@ type TwitchDropsResponseType = {
       }[];
       /** The page this campaign opens on dropsalerts.com (its game's page, at this campaign). `/api/twitch/drops` only. */
       webUrl?: string;
-      /** Channels live now where this campaign progresses, refreshed every minute. Added 19/11/2026. */
+      /** Channels live now where this campaign progresses, refreshed every minute. */
       liveChannels?: TwitchLiveChannelType[];
-      /** When `liveChannels` was read (ISO 8601), `null` if not read yet. Added 19/11/2026. */
+      /** When `liveChannels` was read (ISO 8601), `null` if not read yet. */
       liveChannelsReadAt?: string | null;
     }[];
     startAt: string;
@@ -778,9 +795,9 @@ type TwitchBadgesResponseType = {
       startAt: string | null;
       /** `true` exactly for a `DROPS` requirement earned by watching alone. */
       watchTimeOnly: boolean;
-      /** Channels live now where this badge can be earned (its campaign's list), empty without a campaign. Added 19/11/2026. */
+      /** Channels live now where this badge can be earned (its campaign's list), empty without a campaign. */
       liveChannels?: TwitchLiveChannelType[];
-      /** When `liveChannels` was read (ISO 8601), `null` if not read yet or without a campaign. Added 19/11/2026. */
+      /** When `liveChannels` was read (ISO 8601), `null` if not read yet or without a campaign. */
       liveChannelsReadAt?: string | null;
     } | null;
     setId: string;
