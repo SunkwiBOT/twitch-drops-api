@@ -6,12 +6,12 @@ import type {
   TwitchRewardsResponseType,
 } from "./types";
 
-const API_URL = "https://drops.sunkwi.com/api/twitch";
+const API_URL = "https://dropsalerts.com/api/twitch";
 const REQUEST_TIMEOUT_MS = 30_000;
 
 const fetchAnswer = async <T>(route: string): Promise<T> => {
   const url = `${API_URL}${route}`;
-  // Optional: a free key (drops.sunkwi.com/dashboard) lifts the anonymous
+  // Optional: a free key (dropsalerts.com/dashboard) lifts the anonymous
   // limit of 1 request every 5 minutes per route.
   const apiKey = process.env.DROPS_API_KEY;
   const response = await fetch(url, {

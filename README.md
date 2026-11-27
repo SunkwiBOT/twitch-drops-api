@@ -1,18 +1,18 @@
 <div align="center">
   <h1>
-    <a href="https://drops.sunkwi.com"><img src=".github/assets/logo.svg" alt="Twitch Drops API logo" width="128" height="128"></a>
+    <a href="https://dropsalerts.com"><img src=".github/assets/logo.svg" alt="Twitch Drops API logo" width="128" height="128"></a>
     <br/>
     Twitch Drops API
   </h1>
   🎁 A free public API of the current <b><a href="https://www.twitch.tv/drops/campaigns">Twitch Drops</a></b> and reward campaigns, refreshed every minute
   <br/><br/>
-  <a href="https://drops.sunkwi.com">Website 🌐</a> &emsp; <a href="https://drops.sunkwi.com/docs">Documentation ✨</a> &emsp; <a href="https://drops.sunkwi.com/dashboard">Free API key 🔑</a> &emsp; <a href="https://discord.com/application-directory/1041679706988228639">Twitch Alerts 🔔</a> &emsp; <a href="https://github.com/SunkwiBOT/twitch-miner">Twitch Miner ⛏️</a>
+  <a href="https://dropsalerts.com">Website 🌐</a> &emsp; <a href="https://dropsalerts.com/docs">Documentation ✨</a> &emsp; <a href="https://dropsalerts.com/dashboard">Free API key 🔑</a> &emsp; <a href="https://discord.com/application-directory/1041679706988228639">Twitch Alerts 🔔</a> &emsp; <a href="https://github.com/SunkwiBOT/twitch-miner">Twitch Miner ⛏️</a>
 </div>
 
 <br/>
 
 <p align="center">
-  <a href="https://drops.sunkwi.com/api/health"><img src="https://img.shields.io/website?url=https%3A%2F%2Fdrops.sunkwi.com%2Fapi%2Fhealth&label=API&up_message=online&down_message=offline" alt="API status" /></a>
+  <a href="https://dropsalerts.com/api/health"><img src="https://img.shields.io/website?url=https%3A%2F%2Fdropsalerts.com%2Fapi%2Fhealth&label=API&up_message=online&down_message=offline" alt="API status" /></a>
   <a href="https://github.com/SunkwiBOT/twitch-drops-api"><img src="https://komarev.com/ghpvc/?username=SunkwiBOT&repo=twitch-drops-api&label=Repository%20Views&color=brightgreen&style=flat" alt="Repository views" /></a>
   <a href="https://github.com/SunkwiBOT/twitch-drops-api/stargazers"><img src="https://img.shields.io/github/stars/SunkwiBOT/twitch-drops-api?style=flat" alt="GitHub stars" /></a>
 </p>
@@ -21,7 +21,7 @@
 
 This API provides available Twitch Drops campaigns, reward campaigns and the
 global Twitch chat badges with detailed information, in three routes on
-`https://drops.sunkwi.com`:
+`https://dropsalerts.com`:
 [`GET /api/twitch/drops`](#-api-endpoints),
 [`GET /api/twitch/rewards`](#-api-endpoints) and
 [`GET /api/twitch/badges`](#-api-endpoints). Each answers a JSON object with
@@ -30,7 +30,7 @@ allowance.
 
 **Features**
 
-- Every active Twitch Drops campaign, grouped by game, every reward campaign and every badge, each with its `webUrl` on drops.sunkwi.com.
+- Every active Twitch Drops campaign, grouped by game, every reward campaign and every badge, each with its `webUrl` on dropsalerts.com.
 - Every global Twitch chat badge, with its image, its description and how to
   get it: Drops source, minutes, subscriptions, game, channels, dates,
   campaign, daily repeat, categories and event collections (GTA VI, Pokémon).
@@ -40,7 +40,9 @@ allowance.
 - An `ETag` on every answer: while the list has not changed, asking again
   answers a free `304 Not Modified` ([ETag and free `304`](#-etag-and-free-304)).
 - Documentation with a console to try every route:
-  [drops.sunkwi.com/docs](https://drops.sunkwi.com/docs).
+  [dropsalerts.com/docs](https://dropsalerts.com/docs).
+
+> **Legacy hosts**: `https://drops.sunkwi.com` still answers the API, and its pages redirect to `https://dropsalerts.com`. `https://twitch-drops-api.sunkwi.com` keeps answering until its shutdown on 5 May 2027. Use `https://dropsalerts.com` for anything new.
 
 > **Note**: This API is used in [Twitch Alerts 🔔](https://discord.com/application-directory/1041679706988228639), a free Discord bot that allows users to:
 >
@@ -92,9 +94,9 @@ every 60 seconds, badges every 5 minutes.
 
 | Endpoint                                                                 | Response body                                                | Refresh interval |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- |
-| [`GET /api/twitch/drops`](https://drops.sunkwi.com/api/twitch/drops)     | [`TwitchDropsResponseType`](#twitch-drops-response-type)     | 60 seconds       |
-| [`GET /api/twitch/rewards`](https://drops.sunkwi.com/api/twitch/rewards) | [`TwitchRewardsResponseType`](#twitch-rewards-response-type) | 60 seconds       |
-| [`GET /api/twitch/badges`](https://drops.sunkwi.com/api/twitch/badges)   | [`TwitchBadgesResponseType`](#twitch-badges-response-type)   | 5 minutes        |
+| [`GET /api/twitch/drops`](https://dropsalerts.com/api/twitch/drops)      | [`TwitchDropsResponseType`](#twitch-drops-response-type)     | 60 seconds       |
+| [`GET /api/twitch/rewards`](https://dropsalerts.com/api/twitch/rewards)  | [`TwitchRewardsResponseType`](#twitch-rewards-response-type) | 60 seconds       |
+| [`GET /api/twitch/badges`](https://dropsalerts.com/api/twitch/badges)    | [`TwitchBadgesResponseType`](#twitch-badges-response-type)   | 5 minutes        |
 
 Every answer is a JSON object with named keys, never a bare array:
 
@@ -120,7 +122,7 @@ none, so a client can tell two consecutive streams apart).
 
 <!-- prettier-ignore -->
 ```jsonc
-// GET https://drops.sunkwi.com/api/twitch/drops
+// GET https://dropsalerts.com/api/twitch/drops
 {
   "games": [
     {
@@ -182,7 +184,7 @@ The limits and the `ETag` are those of the other routes
 
 <!-- prettier-ignore -->
 ```jsonc
-// GET https://drops.sunkwi.com/api/twitch/badges
+// GET https://dropsalerts.com/api/twitch/badges
 {
   "badges": [
     {
@@ -249,7 +251,7 @@ The drops and rewards are refreshed every 60 seconds, the badges every 5
 minutes: calling more often returns the same answer.
 
 **Get a free API key** at
-[drops.sunkwi.com/dashboard](https://drops.sunkwi.com/dashboard): sign in with
+[dropsalerts.com/dashboard](https://dropsalerts.com/dashboard): sign in with
 Discord, GitHub or Twitch, then create a key (it starts with `jdk_`). Send it
 with every request, in one of these headers:
 
@@ -300,7 +302,7 @@ show your allowance, untouched.
 
 ```http
 GET /api/twitch/drops HTTP/1.1
-Host: drops.sunkwi.com
+Host: dropsalerts.com
 X-API-Key: jdk_...
 If-None-Match: <the ETag of your last answer>
 
@@ -329,19 +331,19 @@ Every error answers a `{ "code": "..." }` body
 
 ```sh
 # Anonymous: 1 request every 5 minutes per route
-curl https://drops.sunkwi.com/api/twitch/drops
+curl https://dropsalerts.com/api/twitch/drops
 
 # With a free API key
-curl -H "X-API-Key: $DROPS_API_KEY" https://drops.sunkwi.com/api/twitch/rewards
+curl -H "X-API-Key: $DROPS_API_KEY" https://dropsalerts.com/api/twitch/rewards
 
 # With the headers: ETag, RateLimit-*
-curl -i -H "X-API-Key: $DROPS_API_KEY" https://drops.sunkwi.com/api/twitch/drops
+curl -i -H "X-API-Key: $DROPS_API_KEY" https://dropsalerts.com/api/twitch/drops
 
 # A free 304 while the list has not changed
-curl -i -H "X-API-Key: $DROPS_API_KEY" -H "If-None-Match: $ETAG" https://drops.sunkwi.com/api/twitch/drops
+curl -i -H "X-API-Key: $DROPS_API_KEY" -H "If-None-Match: $ETAG" https://dropsalerts.com/api/twitch/drops
 
 # The Twitch badges and how to get them
-curl -H "X-API-Key: $DROPS_API_KEY" https://drops.sunkwi.com/api/twitch/badges
+curl -H "X-API-Key: $DROPS_API_KEY" https://dropsalerts.com/api/twitch/badges
 ```
 
 ### TypeScript `fetch`
@@ -351,7 +353,7 @@ The types come from [`types.ts`](types.ts).
 #### Fetch Twitch Drop Campaigns
 
 ```ts
-const response = await fetch("https://drops.sunkwi.com/api/twitch/drops");
+const response = await fetch("https://dropsalerts.com/api/twitch/drops");
 
 if (!response.ok) {
   const error = (await response.json()) as TwitchDropsApiErrorType;
@@ -371,7 +373,7 @@ console.log(
 #### Fetch Twitch Rewards with an API key
 
 ```ts
-const response = await fetch("https://drops.sunkwi.com/api/twitch/rewards", {
+const response = await fetch("https://dropsalerts.com/api/twitch/rewards", {
   headers: {
     "X-API-Key": process.env.DROPS_API_KEY ?? "",
   },
@@ -402,7 +404,7 @@ for (const campaign of campaigns) {
 #### Fetch the Twitch badges you can get right now
 
 ```ts
-const response = await fetch("https://drops.sunkwi.com/api/twitch/badges", {
+const response = await fetch("https://dropsalerts.com/api/twitch/badges", {
   headers: {
     "X-API-Key": process.env.DROPS_API_KEY ?? "",
   },
@@ -448,7 +450,7 @@ let etag: string | null = null;
 let latest: TwitchDropsResponseType | null = null;
 
 const refreshDrops = async (): Promise<TwitchDropsResponseType | null> => {
-  const response = await fetch("https://drops.sunkwi.com/api/twitch/drops", {
+  const response = await fetch("https://dropsalerts.com/api/twitch/drops", {
     headers: {
       "X-API-Key": process.env.DROPS_API_KEY ?? "",
       ...(etag ? { "If-None-Match": etag } : {}),
@@ -533,7 +535,7 @@ type TwitchLiveChannelType = {
 ```
 
 ```ts
-/** Answer of `GET https://drops.sunkwi.com/api/twitch/drops`. */
+/** Answer of `GET https://dropsalerts.com/api/twitch/drops`. */
 type TwitchDropsResponseType = {
   /** One item per game, its Drops campaigns in `rewards`. */
   games: {
@@ -603,7 +605,7 @@ type TwitchDropsResponseType = {
         requiredSubs: number;
         startAt: string;
       }[];
-      /** The page this campaign opens on drops.sunkwi.com (its game's page, at this campaign). `/api/twitch/drops` only. */
+      /** The page this campaign opens on dropsalerts.com (its game's page, at this campaign). `/api/twitch/drops` only. */
       webUrl?: string;
       /** Channels live now where this campaign progresses, refreshed every minute. Added 19/11/2026. */
       liveChannels?: TwitchLiveChannelType[];
@@ -629,7 +631,7 @@ type TwitchDropsResponseType = {
 ### `TwitchRewardsResponseType`
 
 ```ts
-/** Answer of `GET https://drops.sunkwi.com/api/twitch/rewards`. */
+/** Answer of `GET https://dropsalerts.com/api/twitch/rewards`. */
 type TwitchRewardsResponseType = {
   /** One item per reward campaign. */
   campaigns: {
@@ -705,7 +707,7 @@ type TwitchRewardsResponseType = {
       minuteWatchedGoal: number;
       subsGoal: number;
     };
-    /** This reward campaign's own page on drops.sunkwi.com. `/api/twitch/rewards` only. */
+    /** This reward campaign's own page on dropsalerts.com. `/api/twitch/rewards` only. */
     webUrl?: string;
   }[];
   /** Time of the last successful Twitch scan (ISO 8601), `null` before the first one. */
@@ -725,7 +727,7 @@ type TwitchRewardsResponseType = {
 ### `TwitchBadgesResponseType`
 
 ```ts
-/** Answer of `GET https://drops.sunkwi.com/api/twitch/badges`. */
+/** Answer of `GET https://dropsalerts.com/api/twitch/badges`. */
 type TwitchBadgesResponseType = {
   /** One item per version of a global Twitch chat badge, as Twitch lists it now. */
   badges: {
@@ -784,7 +786,7 @@ type TwitchBadgesResponseType = {
     setId: string;
     title: string;
     versionId: string;
-    /** The badge's own page on drops.sunkwi.com. */
+    /** The badge's own page on dropsalerts.com. */
     webUrl?: string;
   }[];
   /** Time of the last successful read of Twitch's badges (ISO 8601), `null` before the first one. */

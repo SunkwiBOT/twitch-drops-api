@@ -25,7 +25,7 @@ jobs:
         run: bun run fetch-drops.ts
         env:
           CI: true
-          # Optional repository secret: a free key from drops.sunkwi.com/dashboard.
+          # Optional repository secret: a free key from dropsalerts.com/dashboard.
           DROPS_API_KEY: ${{ secrets.DROPS_API_KEY }}
 
       - name: 📤 Upload drops artifact
@@ -50,7 +50,7 @@ jobs:
         run: bun run fetch-rewards.ts
         env:
           CI: true
-          # Optional repository secret: a free key from drops.sunkwi.com/dashboard.
+          # Optional repository secret: a free key from dropsalerts.com/dashboard.
           DROPS_API_KEY: ${{ secrets.DROPS_API_KEY }}
 
       - name: 📤 Upload rewards artifact
@@ -75,7 +75,7 @@ jobs:
         run: bun run fetch-badges.ts
         env:
           CI: true
-          # Optional repository secret: a free key from drops.sunkwi.com/dashboard.
+          # Optional repository secret: a free key from dropsalerts.com/dashboard.
           DROPS_API_KEY: ${{ secrets.DROPS_API_KEY }}
 
       - name: 📤 Upload badges artifact

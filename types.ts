@@ -34,7 +34,7 @@ export type TwitchLiveChannelType = {
   streamId: string | null;
 };
 
-/** Answer of `GET https://drops.sunkwi.com/api/twitch/drops`. */
+/** Answer of `GET https://dropsalerts.com/api/twitch/drops`. */
 export type TwitchDropsResponseType = {
   /** One item per game, its Drops campaigns in `rewards`. */
   games: {
@@ -101,7 +101,7 @@ export type TwitchDropsResponseType = {
         requiredSubs: number;
         startAt: string;
       }[];
-      /** The page this campaign opens on drops.sunkwi.com (its game's page, at this campaign). `/api/twitch/drops` only. */
+      /** The page this campaign opens on dropsalerts.com (its game's page, at this campaign). `/api/twitch/drops` only. */
       webUrl?: string;
       /** Channels live now where this campaign progresses, refreshed every minute. Added 19/11/2026. */
       liveChannels?: TwitchLiveChannelType[];
@@ -116,7 +116,7 @@ export type TwitchDropsResponseType = {
   rateLimit: TwitchRateLimitType;
 };
 
-/** Answer of `GET https://drops.sunkwi.com/api/twitch/rewards`. */
+/** Answer of `GET https://dropsalerts.com/api/twitch/rewards`. */
 export type TwitchRewardsResponseType = {
   /** One item per reward campaign. */
   campaigns: {
@@ -189,7 +189,7 @@ export type TwitchRewardsResponseType = {
       minuteWatchedGoal: number;
       subsGoal: number;
     };
-    /** This reward campaign's own page on drops.sunkwi.com. `/api/twitch/rewards` only. */
+    /** This reward campaign's own page on dropsalerts.com. `/api/twitch/rewards` only. */
     webUrl?: string;
   }[];
   /** Time of the last successful Twitch scan (ISO 8601), `null` before the first one. */
@@ -198,7 +198,7 @@ export type TwitchRewardsResponseType = {
   rateLimit: TwitchRateLimitType;
 };
 
-/** Answer of `GET https://drops.sunkwi.com/api/twitch/badges`. */
+/** Answer of `GET https://dropsalerts.com/api/twitch/badges`. */
 export type TwitchBadgesResponseType = {
   /** One item per version of a global Twitch chat badge, as Twitch lists it now. */
   badges: {
@@ -254,7 +254,7 @@ export type TwitchBadgesResponseType = {
     setId: string;
     title: string;
     versionId: string;
-    /** The badge's own page on drops.sunkwi.com. */
+    /** The badge's own page on dropsalerts.com. */
     webUrl?: string;
   }[];
   /** Time of the last successful read of Twitch's badges (ISO 8601), `null` before the first one. */
